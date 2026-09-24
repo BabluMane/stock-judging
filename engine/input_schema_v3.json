@@ -1,0 +1,89 @@
+{
+  "_README": "Standard v3 input (engine v3.0). Fill once per company. null = not retrieved: the engine marks the check [unverified] and excludes it from B — never guess a number to fill a slot. Fields marked (v3) are new or changed vs v2. A required field that is missing makes the engine refuse to render rather than default.",
+
+  "company": "string", "ticker": "NSE code / US ticker",
+  "jurisdiction": "(v3) \"IN\" (default) | \"US\" — selects the macro block (spec §1 / §11)",
+  "pathway": "\"public\" (default; G6 = n/a) | \"private\"",
+  "mode": "(v3) \"screen\" (default) | \"full\"",
+  "price": "float — close; date in price_date", "price_date": "YYYY-MM-DD",
+  "macro": "optional overrides of the season's block (rf, erp_val, hurdle, ...); echoed in output",
+
+  "financials": {
+    "_source": "Annual-report ten-year table first; Screener as cross-check. Reconcile before writing.",
+    "revenue": "Rs Cr latest FY", "pbt": "float", "other_income": "float", "net_worth": "float",
+    "cumulative": {"cfo": "sum of last 5-6 FY", "ebitda": "same years"},
+    "cfo_pat_5y_avg": "ratio, e.g. 0.94",
+    "debtor_days_start": "3 yrs ago", "debtor_days_end": "latest",
+    "receivables_growth_3y": "(v3) check 3 limb 2 — decimal", "revenue_growth_3y": "(v3) decimal, same window",
+    "contingent_liabilities": "AR note; null if not retrieved",
+    "rpt_total": "related-party sales + purchases, full year", "group_loans": "(v3) check 6 limb 2 — loans/advances to group entities",
+    "dep_rate_start": "depreciation / gross block, 5 yrs ago", "dep_rate_end": "latest",
+    "capitalised_opex": "(v3) bool — check 8", "profit_lifting_policy_change": "(v3) bool — check 8",
+    "cash_yield": "treasury income / average cash+investments",
+    "roce_5y": "5-yr average, decimal (state the basis; if two bases straddle a bar, use the lower)",
+    "revenue_cagr_5y": "decimal", "down_year_5y": "(v3) bool — caps A2 at 1", "guided_growth": "(v3) decimal or null — D3 middle band",
+    "ebitda_margin_5y": "(v3) list of 5 annual EBITDA margins — A3 auto (else score A3 manually)",
+    "incremental_roic_3y": "(v3) dNOPAT / dCapital employed, 3 yrs — A5 auto", "annuity_payer": "(v3) bool — A5 = 1 by rule",
+    "leveraged": "bool — adds Altman Z > 2.99 to check 10", "altman_model": "\"Z\" (default) | \"Z''\"",
+    "altman": {"working_capital": 0, "retained_earnings": 0, "ebit": 0, "total_assets": 0, "total_liabilities": 0, "market_cap": 0, "revenue": 0},
+    "t":  {"_note": "latest FY, Beneish", "revenue": 0, "receivables": 0, "cogs": 0, "current_assets": 0, "ppe_net": 0,
+           "securities": 0, "total_assets": 0, "depreciation": 0, "sga": 0, "debt": 0, "cfo": 0, "ni": 0},
+    "t1": {"_note": "prior FY, same fields"},
+    "_US_fields": "US only: pretax_income, nonoperating_income, equity, cfo_ni_5y_avg, loss_maker, cfo_less_sbc_latest2, dso_start/end, contingencies, contingencies_not_estimable_material, related_party_loans, capitalised_costs_growth_5y, revenue_growth_5y, cash_pct_assets, diluted_shares_cagr_3y, sbc_pct_cfo (see usa_engine_v1 schema)"
+  },
+
+  "auditor": {"name": "string", "reputable": "(v3) bool", "opinion": "unmodified | qualified | adverse | disclaimer",
+              "resignation": false, "adverse_caro": false, "going_concern": "(v3) bool — G4 auto", "ifc_qualified_2y": "(v3) bool — G4 auto",
+              "fee_growth_3y": "(v3) decimal", "revenue_growth_3y": "(v3) decimal"},
+
+  "check_verification": "(v3) {\"5\": \"pass\" | \"fail\" | \"unverified\"} — fills a check the numbers could not (document-verified). Contradicting a computed result refuses the render.",
+  "sector_variant": "omit, or \"financial\" — then supply forensic_fs (8 checks) and the valuation fields in _financial_variant",
+  "forensic_fs": "financial only: list of 8 {n, check, result: pass|fail|unverified, number}",
+  "treasury_income_exception": "true only for treasury income of a NET-CASH company (check 4 noted, not failed)",
+
+  "ownership": {"_source": "latest two exchange shareholding filings",
+                "promoter": "decimal", "fii": "decimal", "dii": "decimal", "mnc_parent": "(v3) bool",
+                "median_daily_value": "(v3 name) Rs Cr median, not one day — state the session count; US: market.median_daily_dollar_value_usd"},
+  "pledge": {"pledge_pct_shares": "(v3) pledged shares / shares outstanding — check 9 floor 0.5%", "pledge_pct_holding": "(v3) pledged / promoter holding — C1"},
+  "pit": {"net_buy_mcap_pct": "(v3) trailing-4Q net promoter buying (+) / selling (-) as % of Mcap, open-market + block/bulk only; exclude ESOP, warrant conversion, inter-se transfers", "net_buy_value": "(v3) same, Rs Cr (US: USD m)"},
+  "quarterly": {"_note": "(v3) A6 — last 4-6 quarters", "rev_trend": "improving | stable_strong | mixed | deteriorating", "margin_trend": "same", "cfo_trend": "same"},
+  "credibility": {"_note": "(v3) C5. Most recent quarter first; score 0-2 per call; null = no outcome yet (excluded, weights re-based). Or score_10 directly, or executable:false.",
+                  "quarters": [{"q": "Q1 FY27", "score": 2}], "score_10": null, "executable": true},
+  "c5_mode": "(v3) \"lite\" (SCREEN default: 4 quarters, weights 4->1) | \"full\" (FULL: 8 quarters, weights 8->1)",
+  "cycle": {"_note": "(v3) D5 auto", "current_margin": "decimal", "avg_10y": "decimal", "peak_10y": "decimal"},
+
+  "valuation": {
+    "revenue": "base-year Rs Cr", "margin_start": "EBITDA margin", "margin_end": "after linear fade to the 10-yr average",
+    "growth": "explicit-period decimal, <= min(industry CAGR, 12%) unless history justifies more", "years": 5,
+    "terminal_g": "(v3) default 0.04, hard cap 0.04",
+    "capex_start": "(v3) capex/revenue now", "capex_end": "capex/revenue year 5", "dep_start": "D&A/revenue now", "dep_end": "D&A/revenue year 5 (terminal capex = this: maintenance)",
+    "_single_rate": "capex_pct / dep_pct still accepted",
+    "wc_pct": "of incremental revenue", "tax": "company rate; engine uses max(company, 25.17%)",
+    "shares": "Cr", "net_cash": "Rs Cr, negative if net debt (required)", "minority": "(v3) Rs Cr to deduct",
+    "beta": "(v3) REQUIRED — measured 2-yr weekly vs Nifty 500 (>= 40 obs) or the industry beta",
+    "beta_source": "(v3) REQUIRED \"measured\" | \"industry\"", "beta_obs": "(v3) observation count if measured",
+    "debt_wt": "(v3) D/(D+E) actual or target — optional; net-debt names without it are derived from net debt / (net debt + Mcap); net-cash names are all-equity",
+    "de_ratio": "(v3) alternative to debt_wt", "kd_pre": "(v3) optional; default rf + 2%",
+    "multiples_range": "[low, high] per share: justified peer multiple +-15% x FY+1 metric",
+    "pe_10y_median": "(v3) D4 auto — own 10-yr median P/E (missing = D4 1 by rule)", "eps_ttm": "(v3) D4 auto",
+    "_financial_variant": "supply instead: conservative_central, conservative_range [lo,hi], hurdle_price (excess-return model value at 15%), multiples_range, reverse_model {implied_growth|note}"
+  },
+  "prices": "optional {stock_weekly: [[date, close]...], index_weekly: [...]} — engine regresses beta (>= 40 obs)",
+
+  "bear_triggers": "(v3) REQUIRED list of documented independent bear triggers; [] = none. Bear weight = 25% + 5pp each, cap 45%.",
+  "scenarios": [
+    {"name": "Bear", "weight": "ignored — derived from bear_triggers", "exit_eps": 0, "exit_multiple": 0, "dividends": 0},
+    {"name": "Base", "weight": "base:bull ratio preserved and rescaled to 1 - bear", "exit_eps": 0, "exit_multiple": 0, "dividends": 0},
+    {"name": "Bull", "weight": 0, "exit_eps": 0, "exit_multiple": 0, "dividends": 0}
+  ],
+
+  "f5_skipped": "(v3) true at SCREEN when the marquee screen is not run — F rescales from F1-F4. Refused at FULL.",
+  "manual_scores": {
+    "_README": "0-2, decimals allowed. Engine-only tests (A1 D1 D3 E1 E2 E3 E4) are refused here. Auto-when-data tests (A2 A3 A5 A6 C1 C5 C6 D2 D4 D5 E5) may be supplied when inputs are missing; an override of an auto score is listed in the output. Price-dependent manual tests take {\"today\": x, \"trigger\": y}.",
+    "A4": "concentration", "C2": "board & audit", "C3": "capital allocation (vs r_val)", "C4": "disclosure",
+    "F1": "variant perception", "F2": "return decomposition", "F3": "dated catalyst", "F4": "confirm/deny observable", "F5": "archetype + marquee (FULL)"
+  },
+  "gates": {"_note": "G1 and G3 are computed; G4 is computed when the auditor fields are complete. Supply G2, G5 (and G4 if not computed; G6 private only) as 'pass' or 'FAIL — reason'. A missing gate caps the tier at WATCH.",
+            "G2": "pass", "G5": "pass"},
+  "claimed": "(v3) optional {A,B,C,F: x, D/E: {today, trigger}, Q, P_trigger, P_today, tier} — the numbers the narrative prints; any mismatch refuses the render"
+}
