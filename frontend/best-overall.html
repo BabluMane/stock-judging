@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Overall — Stock-Judging</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%235b9dd9%22/><text x=%228%22 y=%2212%22 font-size=%2210%22 text-anchor=%22middle%22 fill=%22%230f1216%22 font-family=%22monospace%22>S</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="provisional-banner" class="provisional-banner"></div>
+<nav id="topnav" class="topnav"></nav>
+
+<main>
+  <h1>Best Overall</h1>
+  <p class="page-sub">Conviction-ranked, regardless of price. The highest-quality theses in the book — some may be far above a sensible entry price today.</p>
+
+  <div id="error-host"></div>
+  <div id="list-host"></div>
+</main>
+
+<footer>Stock-Judging platform &middot; research only, not investment advice &middot; <a href="run.html">queue a review</a></footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script>
+  renderChrome("best-overall");
+
+  async function init() {
+    const errorHost = document.getElementById("error-host");
+    const listHost = document.getElementById("list-host");
+    const { ok, companies, error } = await loadLeaderboard();
+
+    if (!ok) {
+      errorHost.innerHTML = `<div class="error-state">${escapeHTML(error)}</div>`;
+      listHost.innerHTML = emptyState("No leaderboard data loaded", "See the notice above.");
+      return;
+    }
+    if (companies.length === 0) {
+      listHost.innerHTML = emptyState("No reviews yet", "leaderboard.json is currently empty — no companies have been reviewed.");
+      return;
+    }
+
+    const entries = companies
+      .map(normalizeEntry)
+      .filter((e) => e.category !== "PASS")
+      .filter((e) => e.composite !== null || e.conviction !== null)
+      .sort((a, b) => (b.composite ?? b.conviction ?? -Infinity) - (a.composite ?? a.conviction ?? -Infinity));
+
+    if (entries.length === 0) {
+      listHost.innerHTML = emptyState("No ranked companies yet", "No company currently has a composite score to rank on.");
+      return;
+    }
+
+    listHost.innerHTML = `<div class="rank-list">${entries.map((e, i) => rankRow(e, i + 1)).join("")}</div>`;
+  }
+
+  function rankRow(e, rank) {
+    return `
+      <a class="rank-row" href="company.html?symbol=${encodeURIComponent(e.symbol || "")}" style="text-decoration:none;color:inherit;">
+        <div class="rank-num">${rank}</div>
+        <div class="rank-main">
+          <div class="name">${escapeHTML(e.name)}${e.symbol ? `<span class="ticker">${escapeHTML(e.symbol)}</span>` : ""}</div>
+          <div class="meta">${categoryBadgeHTML(e.category)} &middot; as of ${escapeHTML(fmtDate(e.asOf))}</div>
+        </div>
+        <div class="rank-metrics">
+          <div class="stat"><span class="label">Composite</span><span class="value">${fmtNum(e.composite, 2)}</span></div>
+          <div class="stat"><span class="label">Quality</span><span class="value dim">${fmtNum(e.quality, 2)}</span></div>
+          <div class="stat"><span class="label">Price</span><span class="value dim">${fmtPrice(e.price)}</span></div>
+        </div>
+      </a>
+    `;
+  }
+
+  function emptyState(title, body) {
+    return `<div class="empty-state"><div class="icon">&#127942;</div><h3>${escapeHTML(title)}</h3><p>${escapeHTML(body)}</p></div>`;
+  }
+
+  init();
+</script>
+</body>
+</html>

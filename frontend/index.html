@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leaderboard — Stock-Judging</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%235b9dd9%22/><text x=%228%22 y=%2212%22 font-size=%2210%22 text-anchor=%22middle%22 fill=%22%230f1216%22 font-family=%22monospace%22>S</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="provisional-banner" class="provisional-banner"></div>
+<nav id="topnav" class="topnav"></nav>
+
+<main>
+  <h1>Leaderboard</h1>
+  <p class="page-sub">Every reviewed company, categorized and sortable. Click a column header to sort; click a row to open the full review.</p>
+
+  <div id="error-host"></div>
+
+  <div class="filters" id="filters" style="display:none;">
+    <button class="filter-btn active" data-cat="ALL">All</button>
+    <button class="filter-btn" data-cat="INVEST_NOW">Invest Now</button>
+    <button class="filter-btn" data-cat="AT_TRIGGER">At Trigger</button>
+    <button class="filter-btn" data-cat="WATCH">Watch</button>
+    <button class="filter-btn" data-cat="PASS">Pass</button>
+  </div>
+
+  <div id="table-host"></div>
+</main>
+
+<footer>Stock-Judging platform &middot; research only, not investment advice &middot; <a href="run.html">queue a review</a></footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/leaderboard.js"></script>
+<script>
+  renderChrome("leaderboard");
+  initLeaderboardPage();
+</script>
+</body>
+</html>

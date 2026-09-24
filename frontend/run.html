@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Run a Company — Stock-Judging</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%235b9dd9%22/><text x=%228%22 y=%2212%22 font-size=%2210%22 text-anchor=%22middle%22 fill=%22%230f1216%22 font-family=%22monospace%22>S</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="provisional-banner" class="provisional-banner"></div>
+<nav id="topnav" class="topnav"></nav>
+
+<main>
+  <h1>Run a Company</h1>
+  <p class="page-sub">
+    Queue a full research run for a company not yet reviewed. This page has no backend — it prepares a
+    run-request file for you to save into <code>runs/queue/</code> and commit; the pipeline (not built yet)
+    picks it up from there. See <a href="README.md">frontend/README.md</a> for the exact contract.
+  </p>
+
+  <div class="panel">
+    <form id="run-form" autocomplete="off">
+      <label for="company-name" class="sr-only">Company name</label>
+      <input type="text" id="company-name" placeholder="Company name, e.g. Reliance Industries" style="width:min(420px,100%);">
+      <button type="submit" class="btn">Queue run</button>
+    </form>
+  </div>
+
+  <div id="status-host"></div>
+
+  <h2>Queued on this device</h2>
+  <p class="page-sub">Tracked locally in this browser only — it is not a real queue until the downloaded file is committed to the repo.</p>
+  <div id="queue-host"></div>
+</main>
+
+<footer>Stock-Judging platform &middot; research only, not investment advice</footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/run.js"></script>
+<script>
+  renderChrome("run");
+  initRunPage();
+</script>
+</body>
+</html>
