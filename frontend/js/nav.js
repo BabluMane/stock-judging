@@ -6,8 +6,9 @@ function renderChrome(activePage) {
   const bannerHost = document.getElementById("provisional-banner");
   if (bannerHost) {
     bannerHost.innerHTML =
-      '<strong>PROVISIONAL — v3 is NOT LIVE.</strong> ' +
-      "Validation bar unpassed. Nothing on this site is an investable call. No live execution hooks exist here.";
+      '<span class="icon" aria-hidden="true">&#9888;&#65039;</span>' +
+      '<span><strong>PROVISIONAL — v3 is NOT LIVE.</strong> ' +
+      "Validation bar unpassed. Nothing on this site is an investable call. No live execution hooks exist here.</span>";
   }
 
   const navHost = document.getElementById("topnav");
@@ -27,7 +28,17 @@ function renderChrome(activePage) {
     )
     .join("");
 
+  // Investor tracking (Kacholia / Mukul Agrawal / Quant holdings, etc.) has
+  // no data source or schema yet (see PLATFORM_SCOPE.md "planned modules").
+  // Rather than a dead link or a silently missing page, show it inertly in
+  // the nav as a "coming soon" item so it reads as planned, not broken (A6).
+  const investorHTML =
+    `<a href="javascript:void(0)" class="investor-soon" tabindex="-1" aria-disabled="true" ` +
+    `title="Investor tracking (tracked investors' holdings vs. review cards) is a planned module — not built yet.">` +
+    `Investors <span class="soon-chip">Soon</span></a>`;
+
   navHost.innerHTML =
     `<span class="brand">Stock-Judging<span class="sub">v3 · research only</span></span>` +
-    linkHTML;
+    linkHTML +
+    investorHTML;
 }

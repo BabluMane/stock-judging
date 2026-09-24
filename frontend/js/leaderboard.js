@@ -1,5 +1,10 @@
 /* leaderboard.js — table of all reviewed companies, sortable, filterable. */
 
+function skeletonTableHTML() {
+  const rows = Array.from({ length: 6 }, () => `<div class="skeleton-row"></div>`).join("");
+  return `<div class="skeleton-rows skeleton-table" aria-hidden="true" aria-label="Loading leaderboard">${rows}</div>`;
+}
+
 const LEADERBOARD_COLUMNS = [
   { key: "name", label: "Company", sortable: true, type: "name" },
   { key: "category", label: "Category", sortable: false, type: "badge" },
@@ -17,6 +22,7 @@ async function initLeaderboardPage() {
   const tableHost = document.getElementById("table-host");
   const filtersHost = document.getElementById("filters");
 
+  tableHost.innerHTML = skeletonTableHTML();
   const { ok, companies, error } = await loadLeaderboard();
 
   if (!ok) {
@@ -82,6 +88,8 @@ function renderLeaderboardTable() {
       "No companies in this category",
       "Try a different filter above."
     );
+    const countHostEmpty = document.getElementById("filter-count");
+    if (countHostEmpty) countHostEmpty.textContent = `0 of ${LB_STATE.entries.length} shown`;
     return;
   }
 
@@ -124,6 +132,11 @@ function renderLeaderboardTable() {
       </table>
     </div>
   `;
+
+  const countHost = document.getElementById("filter-count");
+  if (countHost) {
+    countHost.textContent = `${entries.length} of ${LB_STATE.entries.length} shown`;
+  }
 
   tableHost.querySelectorAll("th.sortable").forEach((th) => {
     th.addEventListener("click", () => {
