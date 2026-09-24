@@ -1,0 +1,72 @@
+{
+ "titan": {
+  "market_cap_cr": "429023",
+  "current_price": "4832",
+  "face_value": "1.00"
+ },
+ "divislab": {
+  "market_cap_cr": "254903",
+  "current_price": "9602",
+  "face_value": "2.00"
+ },
+ "pageind": {
+  "market_cap_cr": "41827",
+  "current_price": "37500",
+  "face_value": "10.0"
+ },
+ "dmart": {
+  "market_cap_cr": "247038",
+  "current_price": "3788",
+  "face_value": "10.0"
+ },
+ "polycab": {
+  "market_cap_cr": "126080",
+  "current_price": "8366",
+  "face_value": "10.0"
+ },
+ "colpal": {
+  "market_cap_cr": "50448",
+  "current_price": "1855",
+  "face_value": "1.00"
+ },
+ "ashokley": {
+  "market_cap_cr": "92396",
+  "current_price": "157",
+  "face_value": "1.00"
+ },
+ "cipla": {
+  "market_cap_cr": "113019",
+  "current_price": "1399",
+  "face_value": "2.00"
+ },
+ "coalindia": {
+  "market_cap_cr": "260067",
+  "current_price": "422",
+  "face_value": "10.0"
+ },
+ "gail": {
+  "market_cap_cr": "114308",
+  "current_price": "174",
+  "face_value": "10.0"
+ },
+ "pcjeweller": {
+  "market_cap_cr": "13924",
+  "current_price": "14.2",
+  "face_value": "1.00"
+ },
+ "fretail_standalone": {
+  "market_cap_cr": "124",
+  "current_price": "2.28",
+  "face_value": "2.00"
+ },
+ "fretail": {
+  "market_cap_cr": "124",
+  "current_price": "2.28",
+  "face_value": "2.00"
+ },
+ "cgpower": {
+  "market_cap_cr": "139697",
+  "current_price": "887",
+  "face_value": "2.00"
+ }
+}

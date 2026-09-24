@@ -1,0 +1,27 @@
+{
+  "symbol": "ASHOKLEY",
+  "actions": [
+    {
+      "type": "split",
+      "ratio": "10:1 (FV Rs10 -> Re1)",
+      "ex_date": "2004-06-28",
+      "source": "trendlyne.com/equity/corporate-actions/ASHOKLEY/114/ashok-leyland-ltd/",
+      "note": "Before both OOS scoring dates -- no restatement needed for this action."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:1",
+      "ex_date": "2011-08-02",
+      "source": "trendlyne.com",
+      "note": "Before both OOS scoring dates -- no restatement needed."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:1",
+      "ex_date": "2025-07-16",
+      "source": "trendlyne.com; angelone.in; hdfcsky.com",
+      "note": "AFTER both OOS scoring dates (2016-03-31, 2018-03-31) and before 'today' (2026-09-24). Per CONVENTIONS.md sec 4: sourced FY16/FY18 EPS must be restated (halved) onto the post-2025-bonus basis IF the vendor (screener) price/PE series is itself back-adjusted for this bonus. FLAG for downstream basis check -- not resolved here."
+    }
+  ],
+  "method_note": "Sourced via curl fetches of trendlyne.com corporate-actions pages (public, NSE/BSE-sourced corporate-action aggregator) plus web search corroboration (indiainfoline.com, angelone.in, hdfcsky.com, business-standard.com), since screener.in's own company page does not surface a dedicated split/bonus history table. Company-page (screener.in) 'Face Value' from top-ratios list used as a cross-check for cumulative face-value changes."
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "POLYCAB",
+  "source": "https://www.screener.in/company/POLYCAB/consolidated/ -- audited annual Profit & Loss 'EPS in Rs' row (consolidated financials)",
+  "basis": "consolidated",
+  "corp_action_note": "No splits or bonus issues since IPO (Apr 2019). No basis adjustment needed.",
+  "fy_eps_all_years_rs": {
+    "Mar 2015": 11.64,
+    "Mar 2016": 13.09,
+    "Mar 2017": 16.48,
+    "Mar 2018": 25.35,
+    "Mar 2019": 35.39,
+    "Mar 2020": 50.97,
+    "Mar 2021": 59.15,
+    "Mar 2022": 60.8,
+    "Mar 2023": 84.8,
+    "Mar 2024": 118.75,
+    "Mar 2025": 134.28,
+    "Mar 2026": 177.48
+  },
+  "fy_eps_needed_for_scoring_dates": {
+    "Mar 2020": 50.97,
+    "Mar 2021": 59.15
+  }
+}

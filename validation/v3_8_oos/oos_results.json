@@ -1,0 +1,649 @@
+{
+  "usability": {
+    "titan_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +11.6% @pub 2016-06-30 TTM=8.48 src=7.6",
+      "category": "winner"
+    },
+    "titan_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +8.5% @pub 2018-05-10 TTM=13.81 src=12.73",
+      "category": "winner"
+    },
+    "divislab_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +3.7% @pub 2016-06-30 TTM=43.98 src=42.41",
+      "category": "winner"
+    },
+    "divislab_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -0.8% @pub 2018-05-25 TTM=32.76 src=33.04",
+      "category": "winner"
+    },
+    "pageind_2015-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +4.3% @pub 2015-06-30 TTM=183.22 src=175.74",
+      "category": "winner"
+    },
+    "pageind_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +6.5% @pub 2017-06-30 TTM=254.3 src=238.73",
+      "category": "winner"
+    },
+    "dmart_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -2.7% @pub 2018-05-05 TTM=12.57 src=12.92",
+      "category": "winner"
+    },
+    "dmart_2019-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +3.7% @pub 2019-05-11 TTM=15.0 src=14.46",
+      "category": "winner"
+    },
+    "polycab_2020-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +0.4% @pub 2020-05-30 TTM=51.15 src=50.97",
+      "category": "winner"
+    },
+    "polycab_2021-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -5.7% @pub 2021-05-13 TTM=55.77 src=59.15",
+      "category": "winner"
+    },
+    "colpal_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +1.7% @pub 2016-06-30 TTM=21.73 src=21.37",
+      "category": "mediocre"
+    },
+    "colpal_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +1.2% @pub 2018-05-21 TTM=25.06 src=24.76",
+      "category": "mediocre"
+    },
+    "ashokley_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +13.3% @pub 2016-06-29 TTM=1.36 src=1.2",
+      "category": "mediocre"
+    },
+    "ashokley_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -4.3% @pub 2018-05-18 TTM=2.88 src=3.01",
+      "category": "mediocre"
+    },
+    "cipla_2016-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -23.1% @pub 2016-06-30 TTM=13.02 src=16.93",
+      "category": "mediocre"
+    },
+    "cipla_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +8.4% @pub 2018-05-22 TTM=18.99 src=17.52",
+      "category": "mediocre"
+    },
+    "coalindia_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +12.9% @pub 2016-06-30 TTM=25.5 src=22.59",
+      "category": "mediocre"
+    },
+    "coalindia_2018-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) +32.0% @pub 2018-05-29 TTM=14.97 src=11.34",
+      "category": "mediocre"
+    },
+    "gail_2016-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) +49.3% @pub 2016-06-30 TTM=4.12 src=2.76",
+      "category": "mediocre"
+    },
+    "gail_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -4.1% @pub 2018-05-24 TTM=6.8 src=7.09",
+      "category": "mediocre"
+    },
+    "pcjeweller_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +8.5% @pub 2017-06-30 TTM=1.28 src=1.18",
+      "category": "blowup"
+    },
+    "pcjeweller_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +8.1% @pub 2018-05-25 TTM=1.47 src=1.36",
+      "category": "blowup"
+    },
+    "fretail_2017-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) +10400.0% @pub 2017-06-30 TTM=9.45 src=0.09",
+      "category": "blowup"
+    },
+    "fretail_2019-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +0.8% @pub 2019-05-25 TTM=14.58 src=14.47",
+      "category": "blowup"
+    },
+    "cgpower_2016-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) sourced FY EPS is non-positive/negative (-7.33) while vendor TTM is 4.87 @ 2016-06-30 -- fails the constant-residual harmless-basis test (CONVENTIONS.md sec 1); treated as a basis defect, not adjudicated further",
+      "category": "blowup"
+    }
+  },
+  "results": {
+    "titan_2016-03-31": {
+      "fair_value_per_share": 90.65,
+      "acc_trigger": 79.32,
+      "inv_trigger": 63.46,
+      "wacc": 0.1035,
+      "growth": 0.0,
+      "beta": 0.85,
+      "margin_start": 0.08,
+      "margin_end": 0.08,
+      "shares_cr": 88.79,
+      "net_cash_cr": -83.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "titan_2018-03-31": {
+      "fair_value_per_share": 220.71,
+      "acc_trigger": 193.12,
+      "inv_trigger": 154.5,
+      "wacc": 0.1035,
+      "growth": 0.1061,
+      "beta": 0.85,
+      "margin_start": 0.1,
+      "margin_end": 0.0925,
+      "shares_cr": 88.79,
+      "net_cash_cr": -1655.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "divislab_2016-03-31": {
+      "fair_value_per_share": 911.09,
+      "acc_trigger": 797.2,
+      "inv_trigger": 637.76,
+      "wacc": 0.0995,
+      "growth": 0.12,
+      "beta": 0.75,
+      "margin_start": 0.38,
+      "margin_end": 0.38,
+      "shares_cr": 26.55,
+      "net_cash_cr": 761.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2016-12-30",
+          "fill_price": 783.7,
+          "trigger": 797.2,
+          "fwd_24m": 1.872,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 12.252,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill_date": "2017-03-24",
+          "fill_price": 623.45,
+          "trigger": 637.76,
+          "fwd_24m": 2.668,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 15.401,
+          "to_latest_date": "2026-09-24"
+        }
+      }
+    },
+    "divislab_2018-03-31": {
+      "fair_value_per_share": 789.04,
+      "acc_trigger": 690.41,
+      "inv_trigger": 552.33,
+      "wacc": 0.0995,
+      "growth": 0.077,
+      "beta": 0.75,
+      "margin_start": 0.33,
+      "margin_end": 0.3625,
+      "shares_cr": 26.55,
+      "net_cash_cr": 1826.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "pageind_2015-03-31": {
+      "fair_value_per_share": 4195.61,
+      "acc_trigger": 3671.15,
+      "inv_trigger": 2936.92,
+      "wacc": 0.0975,
+      "growth": 0.08,
+      "beta": 0.7,
+      "margin_start": 0.21,
+      "margin_end": 0.21,
+      "shares_cr": 1.12,
+      "net_cash_cr": -157.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "pageind_2017-03-31": {
+      "fair_value_per_share": 6714.49,
+      "acc_trigger": 5875.18,
+      "inv_trigger": 4700.14,
+      "wacc": 0.0975,
+      "growth": 0.12,
+      "beta": 0.7,
+      "margin_start": 0.19,
+      "margin_end": 0.2033,
+      "shares_cr": 1.12,
+      "net_cash_cr": -36.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "dmart_2018-03-31": {
+      "fair_value_per_share": 246.09,
+      "acc_trigger": 215.33,
+      "inv_trigger": 172.26,
+      "wacc": 0.1055,
+      "growth": 0.12,
+      "beta": 0.9,
+      "margin_start": 0.09,
+      "margin_end": 0.08,
+      "shares_cr": 65.22,
+      "net_cash_cr": -371.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "dmart_2019-03-31": {
+      "fair_value_per_share": 320.66,
+      "acc_trigger": 280.57,
+      "inv_trigger": 224.46,
+      "wacc": 0.1055,
+      "growth": 0.12,
+      "beta": 0.9,
+      "margin_start": 0.08,
+      "margin_end": 0.08,
+      "shares_cr": 65.22,
+      "net_cash_cr": -683.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "polycab_2020-03-31": {
+      "fair_value_per_share": 760.52,
+      "acc_trigger": 665.45,
+      "inv_trigger": 532.36,
+      "wacc": 0.1115,
+      "growth": 0.12,
+      "beta": 1.05,
+      "margin_start": 0.13,
+      "margin_end": 0.108,
+      "shares_cr": 15.07,
+      "net_cash_cr": -92.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2020-05-22",
+          "fill_price": 627.3,
+          "trigger": 665.45,
+          "fwd_24m": 4.075,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 13.337,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "polycab_2021-03-31": {
+      "fair_value_per_share": 852.62,
+      "acc_trigger": 746.04,
+      "inv_trigger": 596.83,
+      "wacc": 0.1115,
+      "growth": 0.12,
+      "beta": 1.05,
+      "margin_start": 0.13,
+      "margin_end": 0.116,
+      "shares_cr": 15.07,
+      "net_cash_cr": 353.0,
+      "category": "winner",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "colpal_2016-03-31": {
+      "fair_value_per_share": 386.72,
+      "acc_trigger": 338.38,
+      "inv_trigger": 270.71,
+      "wacc": 0.0915,
+      "growth": 0.0,
+      "beta": 0.55,
+      "margin_start": 0.24,
+      "margin_end": 0.24,
+      "shares_cr": 27.2,
+      "net_cash_cr": 31.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "colpal_2018-03-31": {
+      "fair_value_per_share": 444.71,
+      "acc_trigger": 389.13,
+      "inv_trigger": 311.3,
+      "wacc": 0.0915,
+      "growth": 0.017,
+      "beta": 0.55,
+      "margin_start": 0.27,
+      "margin_end": 0.24,
+      "shares_cr": 27.2,
+      "net_cash_cr": 31.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "ashokley_2016-03-31": {
+      "fair_value_per_share": 37.45,
+      "acc_trigger": 32.77,
+      "inv_trigger": 26.21,
+      "wacc": 0.1155,
+      "growth": 0.12,
+      "beta": 1.15,
+      "margin_start": 0.14,
+      "margin_end": 0.14,
+      "shares_cr": 588.51,
+      "net_cash_cr": -10023.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "ashokley_2018-03-31": {
+      "fair_value_per_share": 51.16,
+      "acc_trigger": 44.76,
+      "inv_trigger": 35.81,
+      "wacc": 0.1155,
+      "growth": 0.12,
+      "beta": 1.15,
+      "margin_start": 0.14,
+      "margin_end": 0.1275,
+      "shares_cr": 588.51,
+      "net_cash_cr": -11408.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2019-01-25",
+          "fill_price": 41.3,
+          "trigger": 44.76,
+          "fwd_24m": 1.48,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 3.809,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill_date": "2019-08-02",
+          "fill_price": 32.2,
+          "trigger": 35.81,
+          "fwd_24m": 2.062,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 4.885,
+          "to_latest_date": "2026-09-24"
+        }
+      }
+    },
+    "cipla_2018-03-31": {
+      "fair_value_per_share": 341.21,
+      "acc_trigger": 298.56,
+      "inv_trigger": 238.85,
+      "wacc": 0.0955,
+      "growth": 0.1014,
+      "beta": 0.65,
+      "margin_start": 0.19,
+      "margin_end": 0.1825,
+      "shares_cr": 80.79,
+      "net_cash_cr": -2839.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill": null
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "coalindia_2016-03-31": {
+      "fair_value_per_share": 332.23,
+      "acc_trigger": 290.7,
+      "inv_trigger": 232.56,
+      "wacc": 0.1035,
+      "growth": 0.0505,
+      "beta": 0.85,
+      "margin_start": 0.24,
+      "margin_end": 0.24,
+      "shares_cr": 616.27,
+      "net_cash_cr": 1707.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2016-04-01",
+          "fill_price": 287.0,
+          "trigger": 290.7,
+          "fwd_24m": 0.987,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 1.47,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill": null
+        }
+      }
+    },
+    "gail_2018-03-31": {
+      "fair_value_per_share": 79.48,
+      "acc_trigger": 69.54,
+      "inv_trigger": 55.64,
+      "wacc": 0.1055,
+      "growth": 0.0,
+      "beta": 0.9,
+      "margin_start": 0.14,
+      "margin_end": 0.11,
+      "shares_cr": 656.94,
+      "net_cash_cr": 6576.0,
+      "category": "mediocre",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2020-03-13",
+          "fill_price": 56.37,
+          "trigger": 69.54,
+          "fwd_24m": 1.802,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 3.084,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill_date": "2020-03-20",
+          "fill_price": 53.87,
+          "trigger": 55.64,
+          "fwd_24m": 1.872,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 3.227,
+          "to_latest_date": "2026-09-24"
+        }
+      }
+    },
+    "pcjeweller_2017-03-31": {
+      "fair_value_per_share": 9.95,
+      "acc_trigger": 8.71,
+      "inv_trigger": 6.96,
+      "wacc": 0.1195,
+      "growth": 0.12,
+      "beta": 1.25,
+      "margin_start": 0.09,
+      "margin_end": 0.1,
+      "shares_cr": 980.56,
+      "net_cash_cr": -794.0,
+      "category": "blowup",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2018-07-20",
+          "fill_price": 8.19,
+          "trigger": 8.71,
+          "fwd_24m": 0.179,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 1.74,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill_date": "2018-09-28",
+          "fill_price": 6.24,
+          "trigger": 6.96,
+          "fwd_24m": 0.255,
+          "fwd_months": 23.5,
+          "fwd_truncated": false,
+          "to_latest": 2.284,
+          "to_latest_date": "2026-09-24"
+        }
+      }
+    },
+    "pcjeweller_2018-03-31": {
+      "fair_value_per_share": 11.27,
+      "acc_trigger": 9.87,
+      "inv_trigger": 7.89,
+      "wacc": 0.1195,
+      "growth": 0.12,
+      "beta": 1.25,
+      "margin_start": 0.1,
+      "margin_end": 0.1,
+      "shares_cr": 980.56,
+      "net_cash_cr": -1097.0,
+      "category": "blowup",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2018-07-20",
+          "fill_price": 8.19,
+          "trigger": 9.87,
+          "fwd_24m": 0.179,
+          "fwd_months": 23.9,
+          "fwd_truncated": false,
+          "to_latest": 1.74,
+          "to_latest_date": "2026-09-24"
+        },
+        "invest": {
+          "fill_date": "2018-09-21",
+          "fill_price": 7.18,
+          "trigger": 7.89,
+          "fwd_24m": 0.221,
+          "fwd_months": 23.7,
+          "fwd_truncated": false,
+          "to_latest": 1.985,
+          "to_latest_date": "2026-09-24"
+        }
+      }
+    },
+    "fretail_2019-03-31": {
+      "fair_value_per_share": 157.6,
+      "acc_trigger": 137.9,
+      "inv_trigger": 110.32,
+      "wacc": 0.1095,
+      "growth": 0.08,
+      "beta": 1.0,
+      "margin_start": 0.05,
+      "margin_end": 0.05,
+      "shares_cr": 54.39,
+      "net_cash_cr": -2653.0,
+      "category": "blowup",
+      "fills": {
+        "accumulate": {
+          "fill_date": "2020-03-20",
+          "fill_price": 112.5,
+          "trigger": 137.9,
+          "fwd_24m": 0.945,
+          "fwd_months": 5.7,
+          "fwd_truncated": true,
+          "to_latest": 0.945,
+          "to_latest_date": "2020-09-11"
+        },
+        "invest": {
+          "fill_date": "2020-03-27",
+          "fill_price": 87.2,
+          "trigger": 110.32,
+          "fwd_24m": 1.22,
+          "fwd_months": 5.5,
+          "fwd_truncated": true,
+          "to_latest": 1.22,
+          "to_latest_date": "2020-09-11"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "symbol": "DIVISLAB",
+  "source": "https://www.screener.in/company/DIVISLAB/consolidated/ -- audited annual Profit & Loss 'EPS in Rs' row (consolidated financials)",
+  "basis": "consolidated",
+  "corp_action_note": "Bonus 1:1 ex-date 2009-08-01, and bonus 1:1 ex-date 2015-09-26. FY2016 EPS (Mar 2016) and FY2018 EPS (Mar 2018) shown below are both AFTER the 2015-09-26 bonus and on a consistent post-bonus basis with each other and with the vendor (screener) TTM EPS series (which screener retroactively adjusts for the 2015 bonus in its chart data). No further restatement needed for this task's two scoring dates.",
+  "fy_eps_all_years_rs": {
+    "Mar 2015": 32.07,
+    "Mar 2016": 42.41,
+    "Mar 2017": 39.95,
+    "Mar 2018": 33.04,
+    "Mar 2019": 50.96,
+    "Mar 2020": 51.85,
+    "Mar 2021": 74.75,
+    "Mar 2022": 111.52,
+    "Mar 2023": 68.69,
+    "Mar 2024": 60.27,
+    "Mar 2025": 82.53,
+    "Mar 2026": 96.73
+  },
+  "fy_eps_needed_for_scoring_dates": {
+    "Mar 2016": 42.41,
+    "Mar 2018": 33.04
+  }
+}

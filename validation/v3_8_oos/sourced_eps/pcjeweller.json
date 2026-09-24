@@ -1,0 +1,27 @@
+{
+  "company": "PC Jeweller Ltd",
+  "nse_symbol": "PCJEWELLER",
+  "basis": "Consolidated, on Screener's current (fully split/bonus-adjusted) share-count basis -- see corp_actions/pcjeweller.json. No further restatement applied per CONVENTIONS.md section 4/5, because the audited-derived EPS row already agrees with the vendor's basis (back-solved share count ~357cr for FY15-17, ~394cr for FY18-19, consistent with the as-filed capital account once the 2017 bonus and 2024 split factors are applied).",
+  "source": "https://www.screener.in/company/PCJEWELLER/consolidated/ -- annual Profit & Loss table, 'EPS in Rs' row, audited-report-derived (screener sources this from company filings/annual reports)",
+  "fetched_at": "2026-09-24",
+  "fiscal_years": {
+    "FY2015": {"eps": 1.06, "net_profit_cr": 378, "sales_cr": 6361},
+    "FY2016": {"eps": 1.11, "net_profit_cr": 398, "sales_cr": 7301},
+    "FY2017": {"eps": 1.18, "net_profit_cr": 421, "sales_cr": 8464, "scoring_date": "2017-03-31", "note": "Primary sourced EPS for pcjeweller_2017-03-31."},
+    "FY2018": {"eps": 1.36, "net_profit_cr": 536, "sales_cr": 9610, "scoring_date": "2018-03-31", "note": "Primary sourced EPS for pcjeweller_2018-03-31. This is the last full FY before the collapse became public -- FY2019 (below) already shows the receivables/governance issue landing in reported numbers."},
+    "FY2019": {"eps": 0.00, "net_profit_cr": 1, "sales_cr": 8672, "note": "PAT collapses to near-zero (Rs 1cr on Rs 8,672cr sales) -- first visible print of the blow-up in the audited P&L. Debtor Days jumps 70 (FY18) -> 84 (FY19) -> 132 (FY20) -> 185 (FY21), and Inventory Days jumps 232 -> 227 -> 434 -> 954 -> 1465 over the same span, both consistent with the publicly reported receivables/inventory-quality allegations."}
+  },
+  "cross_check_against_vendor_ttm": {
+    "FY2017_results_week_vendor_TTM": 1.28,
+    "FY2017_sourced": 1.18,
+    "gap_pct": "+8.5%",
+    "note_on_gap": "TTM-vs-FY timing (results week TTM already includes a slice of FY18 growth), not a basis error -- consistent with CONVENTIONS.md section 4 point 3.",
+    "FY2018_results_week_vendor_TTM_approx": 1.47,
+    "FY2018_sourced": 1.36,
+    "gap_pct": "+8.1%"
+  },
+  "data_quality_flags": [
+    "PAT effectively hits zero in FY2019 (Rs 1cr) -- PE/implied-EPS math on the vendor chart becomes numerically unstable/negative from mid-2019 onward (233 of 703 weekly PE points are null in the fetched series). This does not affect the two scored dates (FY17/FY18) but will make later-vintage usability checks for this name (if ever attempted) structurally difficult.",
+    "No independent as-filed pre-2017-bonus EPS was located to cross-check the '~357cr shares' back-solve directly against an original FY2015-2017 annual report; the reconciliation above is internally consistent (screener P&L PAT/EPS vs bonus+split factor) but was not verified against a primary BSE/NSE filing PDF."
+  ]
+}

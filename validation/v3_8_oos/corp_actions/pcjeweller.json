@@ -1,0 +1,23 @@
+{
+  "company": "PC Jeweller Ltd",
+  "nse_symbol": "PCJEWELLER",
+  "source": "https://trendlyne.com/equity/corporate-actions/PCJEWELLER/1014/pc-jeweller-ltd/ (cross-checked against screener.in consolidated P&L 'Equity Capital' row jumps)",
+  "fetched_at": "2026-09-24",
+  "actions": [
+    {
+      "type": "bonus",
+      "ratio": "1:1",
+      "ex_date": "2017-07-06",
+      "record_date": "2017-07-07",
+      "note": "Falls between the pcjeweller_2017-03-31 and pcjeweller_2018-03-31 scoring dates. Equity Capital in the screener P&L table jumps from Rs 179cr (FY17) to Rs 394cr (FY18), consistent with this bonus plus some additional capital raise."
+    },
+    {
+      "type": "split",
+      "ratio": "10:1 (face value Rs 10 -> Rs 1)",
+      "ex_date": "2024-12-16",
+      "record_date": "2024-12-16",
+      "note": "Well after both scoring dates; relevant only because Screener's price/PE/EPS chart series and the P&L table's 'EPS in Rs' row are BOTH already retroactively restated onto this fully split- and bonus-adjusted basis (verified: FY17 PAT 421cr / EPS 1.18 implies ~357cr shares outstanding = 17.9cr as-filed FY17 shares x 2 (bonus) x 10 (split)). The 'Equity Capital' row in the same table is NOT retroactively restated (stays on the as-filed, pre-split face-value basis) -- a Screener presentation quirk, not an error, documented here so it isn't mistaken for a discrepancy."
+    }
+  ],
+  "no_other_actions_since": "2000-01-01 (per Trendlyne: no rights issues on record)"
+}

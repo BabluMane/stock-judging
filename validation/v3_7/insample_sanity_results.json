@@ -1,0 +1,157 @@
+{
+  "persistent_2019-03-29": {
+    "fv_from_acc": 735.33,
+    "fv_from_inv": 735.33,
+    "fills": {
+      "accumulate": {
+        "fill_date": "2019-04-05",
+        "fill_price": 313.33,
+        "trigger": 643.41,
+        "fwd_24m": 3.117,
+        "fwd_months": 23.9,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2025-05-02",
+          "ratio": 17.316,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      },
+      "invest": {
+        "fill_date": "2019-04-05",
+        "fill_price": 313.33,
+        "trigger": 514.73,
+        "fwd_24m": 3.117,
+        "fwd_months": 23.9,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2025-05-02",
+          "ratio": 17.316,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      }
+    }
+  },
+  "wipro_2015-03-31": {
+    "fv_from_acc": 1235.37,
+    "fv_from_inv": 1235.37,
+    "fills": {
+      "accumulate": {
+        "fill_date": "2015-04-01",
+        "fill_price": 118.73,
+        "trigger": 1080.95,
+        "fwd_24m": 0.814,
+        "fwd_months": 24.0,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2020-06-26",
+          "ratio": 0.949,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      },
+      "invest": {
+        "fill_date": "2015-04-01",
+        "fill_price": 118.73,
+        "trigger": 864.76,
+        "fwd_24m": 0.814,
+        "fwd_months": 24.0,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2020-06-26",
+          "ratio": 0.949,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      }
+    }
+  },
+  "wipro_2017-03-31": {
+    "fv_from_acc": 970.03,
+    "fv_from_inv": 970.04,
+    "fills": {
+      "accumulate": {
+        "fill_date": "2017-04-07",
+        "fill_price": 95.98,
+        "trigger": 848.78,
+        "fwd_24m": 1.365,
+        "fwd_months": 23.9,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2020-06-26",
+          "ratio": 1.175,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      },
+      "invest": {
+        "fill_date": "2017-04-07",
+        "fill_price": 95.98,
+        "trigger": 679.03,
+        "fwd_24m": 1.365,
+        "fwd_months": 23.9,
+        "fwd_truncated": false,
+        "to_latest_series_date": {
+          "date": "2020-06-26",
+          "ratio": 1.175,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      }
+    }
+  },
+  "lichf_2018-03-31": {
+    "fv_from_acc": 409.29,
+    "fv_from_inv": 409.29,
+    "fills": {
+      "accumulate": {
+        "fill_date": "2020-02-28",
+        "fill_price": 320.25,
+        "trigger": 358.13,
+        "fwd_24m": 1.46,
+        "fwd_months": 15.9,
+        "fwd_truncated": true,
+        "to_latest_series_date": {
+          "date": "2021-06-25",
+          "ratio": 1.46,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      },
+      "invest": {
+        "fill_date": "2020-03-13",
+        "fill_price": 280.25,
+        "trigger": 286.5,
+        "fwd_24m": 1.669,
+        "fwd_months": 15.4,
+        "fwd_truncated": true,
+        "to_latest_series_date": {
+          "date": "2021-06-25",
+          "ratio": 1.669,
+          "note": "informational only -- NOT the original _calibration.T (unknown, inputs missing)"
+        }
+      }
+    }
+  },
+  "piind_2016-03-31": {
+    "acc_trigger": 210.38,
+    "inv_trigger_inferred": 168.3,
+    "fills": {
+      "accumulate": {
+        "fill": null
+      },
+      "invest": {
+        "fill": null
+      }
+    }
+  },
+  "persistent_2021-03-31": {
+    "status": "NOT_COMPUTABLE per V3_7_DCF_REVALIDATION_20260923.md -- DCF fair value unknown, not reconstructed here"
+  },
+  "mnm_2016-03-31": {
+    "status": "NOT_COMPUTABLE per V3_7_DCF_REVALIDATION_20260923.md -- DCF fair value unknown, not reconstructed here"
+  },
+  "hero_2018-03-31": {
+    "status": "NOT_INDEPENDENTLY_VERIFIABLE -- source doc discloses no trigger price for this name-date"
+  },
+  "lupin_2017-03-31": {
+    "status": "NOT_INDEPENDENTLY_VERIFIABLE -- source doc discloses no trigger price for this name-date"
+  },
+  "symphony_2018-03-31": {
+    "status": "NOT_INDEPENDENTLY_VERIFIABLE -- source doc discloses no trigger price for this name-date"
+  }
+}

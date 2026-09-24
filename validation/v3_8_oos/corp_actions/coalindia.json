@@ -1,0 +1,12 @@
+{
+  "symbol": "COALINDIA",
+  "actions": [
+    {
+      "type": "none",
+      "ratio": null,
+      "ex_date": null,
+      "note": "No split or bonus found in company history. Trendlyne's corporate-actions page for COALINDIA (id 275) shows only dividend and results-calendar tables, no bonus/split table at all. Face value has remained Rs10 since IPO (Nov 2010) per NSE. Consistent with a young (2010 IPO), PSU issuer that has not altered its capital structure."
+    }
+  ],
+  "method_note": "Sourced via curl fetches of trendlyne.com corporate-actions pages (public, NSE/BSE-sourced corporate-action aggregator) plus web search corroboration (indiainfoline.com, angelone.in, hdfcsky.com, business-standard.com), since screener.in's own company page does not surface a dedicated split/bonus history table. Company-page (screener.in) 'Face Value' from top-ratios list used as a cross-check for cumulative face-value changes."
+}

@@ -35,11 +35,36 @@ vs 8/12 mediocrities). Retired in v3.7.
 - `corrected_verdicts_final.json`, `recomputed_fills.json` — DCF revalidation
   groundwork on the frozen set.
 
-## Live bar (unchanged)
+## v3_7/CONVENTIONS.md + INSAMPLE_SANITY — conformance + machinery check (2026-09-24)
+
+- `v3_7/CONVENTIONS.md` — resolves 4 open usability conventions (ESOP/share-
+  count residual, off-FY scoring dates, check(b) certification window,
+  same-basis/timing algorithm) left implicit by the v3.7 rerun. Conforms;
+  no method change.
+- `v3_7/INSAMPLE_SANITY_20260924.md` — independently recomputes DCF-only
+  fills on the frozen 26 from real price data + disclosed trigger prices.
+  Sanity check only, not a live-bar substitute.
+
+## v3_8_oos/ — THE live-bar test (2026-09-24, FAILED)
+
+- `v3_8_oos/OOS_SET_PREREG.md` — 25 name-dates, 13 NEW companies (zero
+  overlap with the in-sample 25), frozen and committed before any OOS data
+  was gathered.
+- `v3_8_oos/V3_8_LIVE_BAR_RESULT_20260924.md` — the result: **FAIL.**
+  20/25 usable. DCF-only entry fired on 3 blow-up name-dates (need 0,
+  hard bar) and reached only 2 distinct winner names (need ≥3). v3 stays
+  **NOT LIVE.** Per `V3_7_DELTA.md` §5 this returns to the spec document,
+  not the parameter grid — no refit performed.
+- `v3_8_oos/run_oos_validation.py`, `fetch_full_financials.py` — the
+  computation (usability test + DCF construction + fill replay), real
+  data throughout (`pe_series/`, `eps_series/`, `sourced_eps/`,
+  `corp_actions/`, `full_financials_raw.json`, `top_ratios.json`).
+
+## Live bar (unchanged, now resolved — see v3_8_oos/ above)
 
 v3 goes LIVE only when, on a genuinely out-of-sample set, run ONCE with no
 refit: 0 blow-ups, ≥3 winner names, to-T positive, 24m ≥0.8×.
 
 The 26-name frozen set is in-sample (seen during v3.2/v3.6 development). The
-live-bar test must be a THIRD, freshly assembled, pre-registered set of new
-name-dates.
+live-bar test had to be a THIRD, freshly assembled, pre-registered set of
+new name-dates — that is `v3_8_oos/`, and it failed.
