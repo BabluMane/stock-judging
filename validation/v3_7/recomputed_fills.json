@@ -1,0 +1,25 @@
+{
+ "lichf_2018-03-31": {
+  "accumulate": {
+   "date": "2020-03-13",
+   "px_in": 339.14,
+   "trg": 358.13,
+   "to_T": 1.498,
+   "fwd_24m": 1.669,
+   "fwd_months": 15.4,
+   "fwd_truncated": true
+  },
+  "invest": {
+   "date": "2020-03-20",
+   "px_in": 272.34,
+   "trg": 286.5,
+   "to_T": 1.865,
+   "fwd_24m": 2.078,
+   "fwd_months": 15.2,
+   "fwd_truncated": true
+  }
+ },
+ "hero_2018-03-31": {},
+ "symphony_2018-03-31": {},
+ "lupin_2017-03-31": {}
+}

@@ -1,0 +1,32 @@
+{
+  "company": "Synthetic Test Co", "ticker": "SYNTH", "price": 950.0, "price_date": "2026-09-23",
+  "financials": {
+    "revenue": 2000, "pbt": 400, "other_income": 30, "net_worth": 2400,
+    "cumulative": {"cfo": 1500, "ebitda": 1900},
+    "cfo_pat_5y_avg": 0.92,
+    "debtor_days_start": 58, "debtor_days_end": 63,
+    "contingent_liabilities": 120, "rpt_total": 40,
+    "dep_rate_start": 0.071, "dep_rate_end": 0.075,
+    "cash_yield": 0.066, "roce_5y": 0.21, "revenue_cagr_5y": 0.135,
+    "t":  {"revenue": 2000, "receivables": 345, "cogs": 1150, "current_assets": 1300, "ppe_net": 900,
+           "securities": 250, "total_assets": 3100, "depreciation": 70, "sga": 260, "debt": 120, "cfo": 330, "ni": 300},
+    "t1": {"revenue": 1780, "receivables": 300, "cogs": 1040, "current_assets": 1150, "ppe_net": 840,
+           "securities": 220, "total_assets": 2800, "depreciation": 64, "sga": 235, "debt": 130, "cfo": 300, "ni": 262}
+  },
+  "auditor": {"name": "Big-4 affiliate", "opinion": "unmodified", "resignation": false, "adverse_caro": false},
+  "ownership": {"promoter": 0.55, "pledge": 0.0, "fii": 0.12, "dii": 0.14, "median_daily_value_cr": 9.5},
+  "treasury_income_exception": false,
+  "valuation": {
+    "revenue": 2000, "margin_start": 0.22, "margin_end": 0.21, "growth": 0.12, "years": 5, "terminal_g": 0.04,
+    "capex_pct": 0.05, "dep_pct": 0.035, "wc_pct": 0.15, "tax": 0.2517, "shares": 10.0, "net_cash": 300,
+    "beta": 0.95, "debt_wt": 0.0, "kd": 0.0, "multiples_range": [820, 1110]
+  },
+  "scenarios": [
+    {"name": "Bear", "weight": 0.25, "exit_eps": 26, "exit_multiple": 22, "dividends": 20},
+    {"name": "Base", "weight": 0.50, "exit_eps": 42, "exit_multiple": 30, "dividends": 25},
+    {"name": "Bull", "weight": 0.25, "exit_eps": 50, "exit_multiple": 36, "dividends": 28}
+  ],
+  "manual_scores": {"A3": 2, "A4": 1, "A5": 2, "C1": 2, "C2": 1, "C3": 2, "C4": 2, "C5": 1,
+                    "D2": 1, "D4": 1, "D5": 1, "E5": 2, "F1": 2, "F2": 1, "F3": 1, "F4": 2, "F5": 1},
+  "gates": {"G2": "pass", "G4": "pass", "G5": "pass", "G6": "n/a"}
+}

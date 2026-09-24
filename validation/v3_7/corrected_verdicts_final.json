@@ -1,0 +1,202 @@
+{
+ "aplapollo_2016-03-31": [
+  "EXCLUDED",
+  "(a) -35.5% @pub 2016-03-31 TTM=2.24 src=3.47"
+ ],
+ "aplapollo_2018-03-31": [
+  "EXCLUDED",
+  "(a) -29.8% @pub 2018-05-25 TTM=4.75 src=6.76"
+ ],
+ "astral_2016-03-31": [
+  "USABLE",
+  "(a) +8.8% @pub 2016-03-31 TTM=2.68 src=2.93"
+ ],
+ "astral_2018-03-31": [
+  "USABLE",
+  "(a) -0.4% @pub 2018-05-23 TTM=4.55 src=5.43"
+ ],
+ "bajajcon_2016-03-31": [
+  "EXCLUDED",
+  "(a) +18.6% @pub 2016-03-31 TTM=15.13 src=12.76"
+ ],
+ "bajajcon_2018-03-31": [
+  "USABLE",
+  "(a) +1.2% @pub 2018-04-25 TTM=14.66 src=14.48"
+ ],
+ "bajfin_2015-12-31": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ],
+ "bajfin_2017-12-29": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ],
+ "bhel_2015-03-31": [
+  "EXCLUDED",
+  "(a) -62.7% @pub 2015-06-30 TTM=3.48 src=9.33"
+ ],
+ "bhel_2017-03-31": [
+  "EXCLUDED",
+  "(a) -22.5% @pub 2017-03-31 TTM=1.35 src=1.74"
+ ],
+ "brightcom_2018-08-22": [
+  "UNVERIFIED",
+  "no sourced FY EPS"
+ ],
+ "brightcom_2020-08-21": [
+  "EXCLUDED",
+  "(a) -94.3% @pub 2020-06-25 TTM=0.24 src=4.25"
+ ],
+ "deepak_2016-03-31": [
+  "EXCLUDED",
+  "(a) +24.9% @pub 2016-03-31 TTM=6.03 src=4.83"
+ ],
+ "deepak_2018-03-31": [
+  "EXCLUDED",
+  "(a) +61.0% @pub 2018-05-04 TTM=6.32 src=3.93"
+ ],
+ "dhfl_2014-06-04": [
+  "EXCLUDED",
+  "no series (structural)"
+ ],
+ "dhfl_2016-06-03": [
+  "EXCLUDED",
+  "no series (structural)"
+ ],
+ "hero_2016-03-31": [
+  "EXCLUDED",
+  "(a) +16.0% @pub 2016-03-31 TTM=158.26 src=136.39"
+ ],
+ "hero_2018-03-31": [
+  "USABLE",
+  "(a) +7.3% @pub 2018-05-02 TTM=185.14 src=172.56"
+ ],
+ "itc_2015-03-31": [
+  "EXCLUDED",
+  "(a) +18.8% @pub 2015-03-31 TTM=8.02 src=6.75"
+ ],
+ "itc_2017-03-31": [
+  "USABLE",
+  "(a) +9.7% @pub 2017-03-31 TTM=8.42 src=7.67"
+ ],
+ "lichf_2016-03-31": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ],
+ "lichf_2018-03-31": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ],
+ "lupin_2015-03-31": [
+  "EXCLUDED",
+  "(a) +15.6% @pub 2015-06-30 TTM=46.12 src=39.88"
+ ],
+ "lupin_2017-03-31": [
+  "USABLE",
+  "(a) +6.1% @pub 2017-06-30 TTM=53.51 src=50.43"
+ ],
+ "manpasand_2015-07-09": [
+  "EXCLUDED",
+  "no PIT EPS at date (structural)"
+ ],
+ "manpasand_2016-05-20": [
+  "EXCLUDED",
+  "(a) +25.6% @pub 2016-06-30 TTM=6.34 src=5.05"
+ ],
+ "mnm_2016-03-31": [
+  "USABLE",
+  "v3.7 verified: 2.0x bonus normalization (ex-Dec 2017); gap ~0%. Corrected series confirms clean FY16 TTM=25.38 on bonus-adjusted basis; sourced not re-derived here."
+ ],
+ "mnm_2018-03-31": [
+  "USABLE",
+  "(a) -4.6% @pub 2018-05-29 TTM=32.41 src=33.99"
+ ],
+ "navin_2016-03-31": [
+  "EXCLUDED",
+  "(a) +131.3% @pub 2016-06-30 TTM=22.90 src=9.90"
+ ],
+ "navin_2018-03-31": [
+  "EXCLUDED",
+  "(a) +36.0% @pub 2018-05-09 TTM=36.28 src=26.67"
+ ],
+ "persistent_2019-03-29": [
+  "USABLE",
+  "(a) -7.6% @pub 2019-04-27 TTM=19.69 src=21.31"
+ ],
+ "persistent_2021-03-31": [
+  "USABLE",
+  "(a) +12.0% @pub 2021-04-29 TTM=33.03 src=29.48"
+ ],
+ "piind_2016-03-31": [
+  "USABLE",
+  "(a) +9.5% @pub 2016-05-24 TTM=22.63 src=20.67"
+ ],
+ "piind_2018-03-31": [
+  "USABLE",
+  "(a) -8.1% @pub 2018-05-15 TTM=26.60 src=28.93"
+ ],
+ "safari_2018-03-31": [
+  "EXCLUDED",
+  "(a) +108.4% @pub 2018-05-21 TTM=4.88 src=2.34"
+ ],
+ "safari_2020-03-31": [
+  "USABLE",
+  "(a) +12.9% @pub 2020-06-04 TTM=6.83 src=6.05"
+ ],
+ "suntv_2017-03-31": [
+  "USABLE",
+  "(a) +9.4% @pub 2017-03-31 TTM=24.85 src=22.71"
+ ],
+ "suntv_2019-03-29": [
+  "EXCLUDED",
+  "(a) +22.9% @pub 2019-05-23 TTM=35.39 src=28.80"
+ ],
+ "symphony_2016-03-31": [
+  "USABLE",
+  "(a) +7.2% @pub 2016-03-31 TTM=20.75 src=19.35"
+ ],
+ "symphony_2018-03-31": [
+  "USABLE",
+  "(a) -1.8% @pub 2018-05-22 TTM=26.30 src=26.78"
+ ],
+ "tataelxsi_2017-03-31": [
+  "USABLE",
+  "(a) +12.7% @pub 2017-03-31 TTM=28.05 src=24.88"
+ ],
+ "tataelxsi_2019-03-31": [
+  "EXCLUDED",
+  "(a) +20.8% @pub 2019-04-24 TTM=46.56 src=38.53"
+ ],
+ "trent_2019-03-29": [
+  "EXCLUDED",
+  "(a) +34.0% @pub 2019-04-29 TTM=2.56 src=1.91"
+ ],
+ "trent_2021-03-31": [
+  "UNVERIFIED",
+  "no sourced FY EPS"
+ ],
+ "vakrangee_2013-06-03": [
+  "UNVERIFIED",
+  "no sourced FY EPS"
+ ],
+ "vakrangee_2015-06-01": [
+  "USABLE",
+  "(a) +10.9% @pub 2015-03-31 TTM=3.18 src=2.87"
+ ],
+ "wipro_2015-03-31": [
+  "USABLE",
+  "(a) -2.7% @pub 2015-03-31 TTM=6.22 src=6.39"
+ ],
+ "wipro_2017-03-31": [
+  "USABLE",
+  "(a) -3.5% @pub 2017-03-31 TTM=6.27 src=6.50"
+ ],
+ "yesbank_2015-03-05": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ],
+ "yesbank_2017-03-03": [
+  "USABLE",
+  "financial variant, no EPS test"
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "aplapollo_2016-03-31": [
+  false,
+  "-33.2%@+210d"
+ ],
+ "aplapollo_2018-03-31": [
+  false,
+  "-28.0%@+210d"
+ ],
+ "astral_2016-03-31": [
+  true,
+  "-7.5%@+180d"
+ ],
+ "astral_2018-03-31": [
+  true,
+  "-11.3%@+210d"
+ ],
+ "bajajcon_2016-03-31": [
+  false,
+  "+23.4%@+150d"
+ ],
+ "bajajcon_2018-03-31": [
+  true,
+  "+0.6%@+210d"
+ ],
+ "bajfin_2015-12-31": [
+  true,
+  "n/a (financial)"
+ ],
+ "bajfin_2017-12-29": [
+  true,
+  "n/a (financial)"
+ ],
+ "bhel_2015-03-31": [
+  false,
+  "-58.5%@+150d"
+ ],
+ "bhel_2017-03-31": [
+  false,
+  "-21.9%@+210d"
+ ],
+ "brightcom_2018-08-22": [
+  false,
+  "no PIT EPS at date"
+ ],
+ "brightcom_2020-08-21": [
+  false,
+  "-94.6%@+150d"
+ ],
+ "deepak_2016-03-31": [
+  false,
+  "+25.0%@+150d"
+ ],
+ "deepak_2018-03-31": [
+  false,
+  "+58.1%@+180d"
+ ],
+ "dhfl_2014-06-04": [
+  false,
+  "no series"
+ ],
+ "dhfl_2016-06-03": [
+  false,
+  "no series"
+ ],
+ "hero_2016-03-31": [
+  false,
+  "+16.2%@+150d"
+ ],
+ "hero_2018-03-31": [
+  true,
+  "+3.0%@+180d"
+ ],
+ "itc_2015-03-31": [
+  false,
+  "+15.9%@+150d"
+ ],
+ "itc_2017-03-31": [
+  true,
+  "+9.8%@+150d"
+ ],
+ "lichf_2016-03-31": [
+  true,
+  "n/a (financial)"
+ ],
+ "lichf_2018-03-31": [
+  true,
+  "n/a (financial)"
+ ],
+ "lupin_2015-03-31": [
+  false,
+  "+15.5%@+180d"
+ ],
+ "lupin_2017-03-31": [
+  true,
+  "+5.8%@+210d"
+ ],
+ "manpasand_2015-07-09": [
+  false,
+  "no PIT EPS at date"
+ ],
+ "manpasand_2016-05-20": [
+  false,
+  "+25.5%@+180d"
+ ],
+ "mnm_2016-03-31": [
+  false,
+  "no post-results pt"
+ ],
+ "mnm_2018-03-31": [
+  true,
+  "-4.4%@+180d"
+ ],
+ "navin_2016-03-31": [
+  false,
+  "+78.4%@+150d"
+ ],
+ "navin_2018-03-31": [
+  false,
+  "+29.0%@+210d"
+ ],
+ "persistent_2019-03-29": [
+  true,
+  "-7.6%@+150d"
+ ],
+ "persistent_2021-03-31": [
+  false,
+  "+27.2%@+150d"
+ ],
+ "piind_2016-03-31": [
+  true,
+  "+9.6%@+150d"
+ ],
+ "piind_2018-03-31": [
+  true,
+  "-8.1%@+150d"
+ ],
+ "safari_2018-03-31": [
+  false,
+  "+108.5%@+150d"
+ ],
+ "safari_2020-03-31": [
+  true,
+  "+13.0%@+180d"
+ ],
+ "suntv_2017-03-31": [
+  true,
+  "+9.3%@+150d"
+ ],
+ "suntv_2019-03-29": [
+  false,
+  "+20.6%@+210d"
+ ],
+ "symphony_2016-03-31": [
+  true,
+  "+7.2%@+150d"
+ ],
+ "symphony_2018-03-31": [
+  true,
+  "-1.8%@+180d"
+ ],
+ "tataelxsi_2017-03-31": [
+  true,
+  "+12.7%@+150d"
+ ],
+ "tataelxsi_2019-03-31": [
+  true,
+  "+11.6%@+210d"
+ ],
+ "trent_2019-03-29": [
+  false,
+  "+34.0%@+150d"
+ ],
+ "trent_2021-03-31": [
+  false,
+  "no PIT EPS at date"
+ ],
+ "vakrangee_2013-06-03": [
+  false,
+  "no PIT EPS at date"
+ ],
+ "vakrangee_2015-06-01": [
+  true,
+  "+14.4%@+180d"
+ ],
+ "wipro_2015-03-31": [
+  true,
+  "-2.5%@+150d"
+ ],
+ "wipro_2017-03-31": [
+  true,
+  "-2.9%@+180d"
+ ],
+ "yesbank_2015-03-05": [
+  true,
+  "n/a (financial)"
+ ],
+ "yesbank_2017-03-03": [
+  true,
+  "n/a (financial)"
+ ]
+}
