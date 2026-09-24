@@ -1,0 +1,16 @@
+{
+  "company": "Future Retail Ltd",
+  "nse_symbol": "FRETAIL",
+  "source": "https://trendlyne.com/equity/corporate-actions/FRETAIL/4749/future-retail-ltd/",
+  "fetched_at": "2026-09-24",
+  "actions": [],
+  "note": "Trendlyne confirms Future Retail never announced a bonus or stock split ('has not announced any bonus since Jan 1, 2000' / 'has not split the face value ... since Jan 1, 2000'), and never paid a dividend. No split/bonus restatement is needed for this name -- the pe_series and sourced FY EPS are on a single consistent share-count basis throughout.",
+  "other_corporate_restructuring": [
+    {
+      "type": "scheme_of_arrangement_demerger",
+      "description": "Composite scheme of arrangement between Future Retail Ltd (FRL) and Bharti Retail Ltd (BRL), effective 31 Oct 2015: FRL's retail business undertaking was demerged into BRL, and BRL's retail infrastructure undertaking was demerged into FRL. Record date 12 May 2016 for allotment of 1 BRL share (FV Rs 2) for every 1 FRL share held.",
+      "relevance": "This is NOT a split or bonus (no change to per-share economics via a ratio applied to FRL's own share count in the split/bonus sense), but it materially changed FRL's business mix and share count/face value around FY2016 -- Equity Capital in the standalone P&L table drops from Rs 1,399cr (FY15, pre-scheme, old entity) to Rs 9cr then rises to Rs 94cr by FY17, consistent with a full capital restructuring, not a share split. Documented here because it sits just before the fretail_2017-03-31 scoring date and means FY15/FY16 financials are not on a comparable business-mix basis to FY17 onward -- the earlier years are structurally a different company (pre-demerger FRL) and should not be extrapolated into DCF trend lines that cross this event.",
+      "source": "https://www.business-standard.com/article/markets/future-retail-locked-lower-circuit-trades-ex-demerger-116051100383_1.html"
+    }
+  ]
+}
