@@ -1,0 +1,105 @@
+{
+  "symbol": "COALINDIA",
+  "source_url": "https://www.screener.in/company/COALINDIA/consolidated/",
+  "basis": "consolidated",
+  "units": "INR crore unless noted; EPS/price in INR per share; margins/day-counts as % or days",
+  "years_reported": [
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026"
+  ],
+  "revenue_cr": {
+    "Mar 2022": "109,715",
+    "Mar 2023": "138,252",
+    "Mar 2024": "144,762",
+    "Mar 2025": "169,177",
+    "Mar 2026": "168,400"
+  },
+  "ebitda_margin_pct_OPM": {
+    "Mar 2022": "23%",
+    "Mar 2023": "32%",
+    "Mar 2024": "33%",
+    "Mar 2025": "25%",
+    "Mar 2026": "22%"
+  },
+  "depreciation_cr": {
+    "Mar 2022": "4,429",
+    "Mar 2023": "6,833",
+    "Mar 2024": "6,735",
+    "Mar 2025": "9,092",
+    "Mar 2026": "10,137"
+  },
+  "net_profit_cr": {
+    "Mar 2022": "17,378",
+    "Mar 2023": "31,723",
+    "Mar 2024": "37,369",
+    "Mar 2025": "35,450",
+    "Mar 2026": "31,071"
+  },
+  "capex_estimate_cr_note": "screener does not expose a direct capex line without an interactive schedule expansion (not available via static HTML fetch); capex approximated as Cash-from-Operating-Activity minus Free-Cash-Flow (screener's own FCF = CFO - capex convention).",
+  "capex_estimate_cr": {
+    "Mar 2022": 11996.0,
+    "Mar 2023": 15211.0,
+    "Mar 2024": 16750.0,
+    "Mar 2025": 14279.0,
+    "Mar 2026": 12432.0
+  },
+  "cash_from_operations_cr": {
+    "Mar 2022": "41,107",
+    "Mar 2023": "35,734",
+    "Mar 2024": "18,103",
+    "Mar 2025": "30,237",
+    "Mar 2026": "43,215"
+  },
+  "free_cash_flow_cr": {
+    "Mar 2022": "29,111",
+    "Mar 2023": "20,523",
+    "Mar 2024": "1,353",
+    "Mar 2025": "15,958",
+    "Mar 2026": "30,783"
+  },
+  "working_capital_days": {
+    "Mar 2022": "-3",
+    "Mar 2023": "-11",
+    "Mar 2024": "25",
+    "Mar 2025": "-4",
+    "Mar 2026": "4"
+  },
+  "equity_capital_cr": {
+    "Mar 2022": "6,163",
+    "Mar 2023": "6,163",
+    "Mar 2024": "6,163",
+    "Mar 2025": "6,163",
+    "Mar 2026": "6,163"
+  },
+  "reserves_cr": {
+    "Mar 2022": "36,980",
+    "Mar 2023": "54,680",
+    "Mar 2024": "76,567",
+    "Mar 2025": "95,558",
+    "Mar 2026": "112,939"
+  },
+  "borrowings_cr": {
+    "Mar 2022": "3,514",
+    "Mar 2023": "4,331",
+    "Mar 2024": "6,523",
+    "Mar 2025": "9,146",
+    "Mar 2026": "14,072"
+  },
+  "investments_cr": {
+    "Mar 2022": "8,921",
+    "Mar 2023": "7,139",
+    "Mar 2024": "7,110",
+    "Mar 2025": "7,591",
+    "Mar 2026": "10,226"
+  },
+  "current_market_cap": "\u20b9 2,60,067 Cr.",
+  "current_price": "\u20b9 422",
+  "face_value": "\u20b9 10.0",
+  "book_value_per_share": "\u20b9 193",
+  "shares_outstanding_note": "not directly listed by screener; derivable as Equity Capital (cr) / Face Value (Rs) x 1e7, or Market Cap / Current Price for the current share count. Historical share count changes should be cross-referenced against corp_actions/<slug>.json (bonus issues change share count as of the ex-date).",
+  "net_cash_debt_note": "Net debt approx = Borrowings - (Investments + cash & equivalents component of Other Assets). screener's static balance-sheet table bundles cash into 'Other Assets+' without a separate expandable row retrievable via static fetch; Investments row captures financial investments (may include some cash-equivalent instruments) but not bank cash directly. Flagged as incomplete -- see NOTES.md.",
+  "beta_note": "screener.in company page does not expose a 2yr weekly beta vs Nifty on the fetched pages (checked profit-loss/balance-sheet/cash-flow/ratios/top-ratios sections). Not fetched here; to be computed centrally from price series vs Nifty per the task instructions."
+}

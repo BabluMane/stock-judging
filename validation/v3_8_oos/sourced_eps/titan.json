@@ -1,0 +1,24 @@
+{
+  "symbol": "TITAN",
+  "source": "https://www.screener.in/company/TITAN/consolidated/ -- audited annual Profit & Loss 'EPS in Rs' row (consolidated financials)",
+  "basis": "consolidated",
+  "corp_action_note": "Bonus 1:1 + 10:1 split (FV Rs.10->Re.1), ex-date 2011-06-24, combined 20x factor. All FY EPS below (FY2015 onward) are already on the post-2011 (current) basis as reported by screener.in's own P&L table (screener does not retroactively restate audited P&L EPS rows for pre-report-date actions the same way it restates chart series, but since all years shown are FY2015+, i.e. after the 2011 action, no restatement is needed for this task's scoring dates 2016-03-31 and 2018-03-31).",
+  "fy_eps_all_years_rs": {
+    "Mar 2015": 9.19,
+    "Mar 2016": 7.6,
+    "Mar 2017": 8.01,
+    "Mar 2018": 12.73,
+    "Mar 2019": 15.82,
+    "Mar 2020": 16.91,
+    "Mar 2021": 10.96,
+    "Mar 2022": 24.48,
+    "Mar 2023": 36.61,
+    "Mar 2024": 39.38,
+    "Mar 2025": 37.59,
+    "Mar 2026": 57.14
+  },
+  "fy_eps_needed_for_scoring_dates": {
+    "Mar 2016": 7.6,
+    "Mar 2018": 12.73
+  }
+}

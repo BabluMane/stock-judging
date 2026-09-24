@@ -1,0 +1,24 @@
+{
+  "symbol": "PAGEIND",
+  "source": "https://www.screener.in/company/PAGEIND/ -- audited annual Profit & Loss 'EPS in Rs' row (standalone (no consolidated data on screener.in for this company/period) financials)",
+  "basis": "standalone (no consolidated data on screener.in for this company/period)",
+  "corp_action_note": "No splits or bonus issues in company history. Face value Rs.10 unchanged throughout. No basis adjustment needed.",
+  "fy_eps_all_years_rs": {
+    "Mar 2015": 175.74,
+    "Mar 2016": 207.57,
+    "Mar 2017": 238.73,
+    "Mar 2018": 311.08,
+    "Mar 2019": 353.19,
+    "Mar 2020": 307.71,
+    "Mar 2021": 305.35,
+    "Mar 2022": 481.02,
+    "Mar 2023": 512.15,
+    "Mar 2024": 510.31,
+    "Mar 2025": 653.71,
+    "Mar 2026": 684.8
+  },
+  "fy_eps_needed_for_scoring_dates": {
+    "Mar 2015": 175.74,
+    "Mar 2017": 238.73
+  }
+}

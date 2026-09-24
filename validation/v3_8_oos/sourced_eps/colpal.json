@@ -1,0 +1,20 @@
+{
+  "symbol": "COLPAL",
+  "source_url": "https://www.screener.in/company/COLPAL/",
+  "basis": "standalone (screener has no distinct consolidated report for COLPAL)",
+  "note": "Annual Profit & Loss 'EPS in Rs' row from screener.in's audited-report-derived P&L table (NOT back-solved from the price/PE quotient series). This is the primary/reported FY EPS per fiscal year ending 31 March, as displayed by screener (screener typically shows the as-reported figure per the company's annual report / exchange filing for that FY; screener does not always disclose whether a given year's EPS was itself restated by the company for a later split/bonus -- see corp_actions/<slug>.json for the split/bonus events that may require further restatement downstream per CONVENTIONS.md sec 1/4).",
+  "fy_eps": {
+    "Mar 2015": 20.55,
+    "Mar 2016": 21.37,
+    "Mar 2017": 21.23,
+    "Mar 2018": 24.76,
+    "Mar 2019": 28.52,
+    "Mar 2020": 30.02,
+    "Mar 2021": 38.07,
+    "Mar 2022": 39.65,
+    "Mar 2023": 38.5,
+    "Mar 2024": 48.67,
+    "Mar 2025": 52.83,
+    "Mar 2026": 48.73
+  }
+}

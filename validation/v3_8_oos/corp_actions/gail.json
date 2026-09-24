@@ -1,0 +1,41 @@
+{
+  "symbol": "GAIL",
+  "actions": [
+    {
+      "type": "bonus",
+      "ratio": "1:2",
+      "ex_date": "2008-10-06",
+      "source": "trendlyne.com/equity/corporate-actions/GAIL/431/gail-india-ltd/",
+      "note": "Before both OOS scoring dates -- no restatement needed for this action alone."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:3",
+      "ex_date": "2017-03-09",
+      "source": "trendlyne.com",
+      "note": "AFTER gail_2016-03-31, BEFORE gail_2018-03-31. FLAG: sourced FY16 EPS (for the 2016 name-date) needs restatement onto the post-bonus basis if the vendor series is back-adjusted through this event; FY18 EPS (reported for FY ending 2018-03-31) already reflects the post-bonus share count on an as-filed basis since the bonus predates FY18-end."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:3",
+      "ex_date": "2018-03-27",
+      "source": "trendlyne.com",
+      "note": "4 days before gail_2018-03-31 FY-end -- already inside FY18 as-filed, but very close to period end; flag for care in cross-checking results-week timing for the 2018 name-date. AFTER gail_2016-03-31."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:1",
+      "ex_date": "2019-07-09",
+      "source": "trendlyne.com",
+      "note": "After both OOS scoring dates, before today. Sourced FY16 and FY18 EPS both need restatement onto the vendor's current basis for this action if the vendor series is back-adjusted through 2019."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:2",
+      "ex_date": "2022-09-06",
+      "source": "trendlyne.com",
+      "note": "After both OOS scoring dates, before today. Same restatement flag as above -- GAIL has had 4 bonus events (2008, 2017, 2018, 2019) plus one more (2022) since inception; cumulative share-count multiple from 2016-03-31 to today is large (approx 2 x 4/3 x 4/3 x 2 x 3/2 depending on which are cumulative vs the ones already captured -- must be computed carefully downstream, not attempted here to avoid circularity)."
+    }
+  ],
+  "method_note": "Sourced via curl fetches of trendlyne.com corporate-actions pages (public, NSE/BSE-sourced corporate-action aggregator) plus web search corroboration (indiainfoline.com, angelone.in, hdfcsky.com, business-standard.com), since screener.in's own company page does not surface a dedicated split/bonus history table. Company-page (screener.in) 'Face Value' from top-ratios list used as a cross-check for cumulative face-value changes."
+}

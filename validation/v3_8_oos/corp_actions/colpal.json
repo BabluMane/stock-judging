@@ -1,0 +1,19 @@
+{
+  "symbol": "COLPAL",
+  "actions": [
+    {
+      "type": "split",
+      "ratio": "10:1 (FV Rs10 -> Re1)",
+      "ex_date": null,
+      "note": "Face value is Re1 currently (screener top-ratios); Trendlyne (screener.in-adjacent vendor, corporate-actions/COLPAL/276) states 'Colgate-Palmolive has not split the face value of the share since Jan 1, 2000' -- so the 10:1 split occurred before 2000, exact ex-date not confirmed from sources checked. Irrelevant to both OOS scoring dates (2016, 2018) since it predates them by >15 years."
+    },
+    {
+      "type": "bonus",
+      "ratio": "1:1",
+      "ex_date": "2015-09-23",
+      "source": "trendlyne.com/equity/corporate-actions/COLPAL/276/colgate-palmolive-india-ltd/",
+      "note": "Before both OOS scoring dates (2016-03-31, 2018-03-31) -- already reflected in both FY EPS figures, no restatement needed for this pair."
+    }
+  ],
+  "method_note": "Sourced via curl fetches of trendlyne.com corporate-actions pages (public, NSE/BSE-sourced corporate-action aggregator) plus web search corroboration (indiainfoline.com, angelone.in, hdfcsky.com, business-standard.com), since screener.in's own company page does not surface a dedicated split/bonus history table. Company-page (screener.in) 'Face Value' from top-ratios list used as a cross-check for cumulative face-value changes."
+}

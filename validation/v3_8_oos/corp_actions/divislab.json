@@ -1,0 +1,9 @@
+{
+  "symbol": "DIVISLAB",
+  "source": "https://www.pocketful.in/stocks/divis-laboratories-ltd/corporate-actions/bonus (no split entries found on /splits page)",
+  "actions": [
+    {"type": "bonus", "ratio": "1:1", "ex_date": "2009-08-01"},
+    {"type": "bonus", "ratio": "1:1", "ex_date": "2015-09-26"}
+  ],
+  "note": "Two 1:1 bonus issues (2009-08-01 and 2015-09-26). No stock split found in company history through 2026-09-24. Cumulative bonus adjustment factor from pre-2009-08-01 basis to current = 4x (2x from 2009 bonus x 2x from 2015 bonus). Both scoring dates in this task (2016-03-31, 2018-03-31) are AFTER the 2015-09-26 bonus, so no basis adjustment needed between them, but pre-2015-09-26 historical price/EPS data (if used) needs the 2x factor applied."
+}

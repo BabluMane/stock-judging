@@ -1,0 +1,105 @@
+{
+  "symbol": "ASHOKLEY",
+  "source_url": "https://www.screener.in/company/ASHOKLEY/consolidated/",
+  "basis": "consolidated",
+  "units": "INR crore unless noted; EPS/price in INR per share; margins/day-counts as % or days",
+  "years_reported": [
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026"
+  ],
+  "revenue_cr": {
+    "Mar 2022": "26,237",
+    "Mar 2023": "41,673",
+    "Mar 2024": "45,703",
+    "Mar 2025": "48,535",
+    "Mar 2026": "56,362"
+  },
+  "ebitda_margin_pct_OPM": {
+    "Mar 2022": "11%",
+    "Mar 2023": "12%",
+    "Mar 2024": "17%",
+    "Mar 2025": "19%",
+    "Mar 2026": "19%"
+  },
+  "depreciation_cr": {
+    "Mar 2022": "866",
+    "Mar 2023": "900",
+    "Mar 2024": "927",
+    "Mar 2025": "1,087",
+    "Mar 2026": "1,138"
+  },
+  "net_profit_cr": {
+    "Mar 2022": "-285",
+    "Mar 2023": "1,362",
+    "Mar 2024": "2,696",
+    "Mar 2025": "3,383",
+    "Mar 2026": "3,721"
+  },
+  "capex_estimate_cr_note": "screener does not expose a direct capex line without an interactive schedule expansion (not available via static HTML fetch); capex approximated as Cash-from-Operating-Activity minus Free-Cash-Flow (screener's own FCF = CFO - capex convention).",
+  "capex_estimate_cr": {
+    "Mar 2022": 402.0,
+    "Mar 2023": 854.0,
+    "Mar 2024": 1088.0,
+    "Mar 2025": 1599.0,
+    "Mar 2026": 2817.0
+  },
+  "cash_from_operations_cr": {
+    "Mar 2022": "2,845",
+    "Mar 2023": "-4,499",
+    "Mar 2024": "-6,258",
+    "Mar 2025": "128",
+    "Mar 2026": "-4,895"
+  },
+  "free_cash_flow_cr": {
+    "Mar 2022": "2,443",
+    "Mar 2023": "-5,353",
+    "Mar 2024": "-7,346",
+    "Mar 2025": "-1,471",
+    "Mar 2026": "-7,712"
+  },
+  "working_capital_days": {
+    "Mar 2022": "-52",
+    "Mar 2023": "-34",
+    "Mar 2024": "-45",
+    "Mar 2025": "-32",
+    "Mar 2026": "-42"
+  },
+  "equity_capital_cr": {
+    "Mar 2022": "294",
+    "Mar 2023": "294",
+    "Mar 2024": "294",
+    "Mar 2025": "294",
+    "Mar 2026": "587"
+  },
+  "reserves_cr": {
+    "Mar 2022": "7,010",
+    "Mar 2023": "8,260",
+    "Mar 2024": "8,711",
+    "Mar 2025": "11,938",
+    "Mar 2026": "13,654"
+  },
+  "borrowings_cr": {
+    "Mar 2022": "24,145",
+    "Mar 2023": "31,161",
+    "Mar 2024": "40,802",
+    "Mar 2025": "49,962",
+    "Mar 2026": "63,936"
+  },
+  "investments_cr": {
+    "Mar 2022": "2,652",
+    "Mar 2023": "4,852",
+    "Mar 2024": "2,329",
+    "Mar 2025": "6,610",
+    "Mar 2026": "7,467"
+  },
+  "current_market_cap": "\u20b9 92,396 Cr.",
+  "current_price": "\u20b9 157",
+  "face_value": "\u20b9 1.00",
+  "book_value_per_share": "\u20b9 24.2",
+  "shares_outstanding_note": "not directly listed by screener; derivable as Equity Capital (cr) / Face Value (Rs) x 1e7, or Market Cap / Current Price for the current share count. Historical share count changes should be cross-referenced against corp_actions/<slug>.json (bonus issues change share count as of the ex-date).",
+  "net_cash_debt_note": "Net debt approx = Borrowings - (Investments + cash & equivalents component of Other Assets). screener's static balance-sheet table bundles cash into 'Other Assets+' without a separate expandable row retrievable via static fetch; Investments row captures financial investments (may include some cash-equivalent instruments) but not bank cash directly. Flagged as incomplete -- see NOTES.md.",
+  "beta_note": "screener.in company page does not expose a 2yr weekly beta vs Nifty on the fetched pages (checked profit-loss/balance-sheet/cash-flow/ratios/top-ratios sections). Not fetched here; to be computed centrally from price series vs Nifty per the task instructions."
+}

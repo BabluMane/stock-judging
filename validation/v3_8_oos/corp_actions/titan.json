@@ -1,0 +1,9 @@
+{
+  "symbol": "TITAN",
+  "source": "https://www.pocketful.in/stocks/titan-company-ltd/corporate-actions/bonus and /splits (corroborated by public reporting, e.g. Business Standard 2011-05-12 article on Titan shareholder approval)",
+  "actions": [
+    {"type": "bonus", "ratio": "1:1", "ex_date": "2011-06-24"},
+    {"type": "split", "ratio": "1:10 (face value Rs.10 to Re.1)", "ex_date": "2011-06-24"}
+  ],
+  "note": "Bonus 1:1 and 10-for-1 sub-division of face value (Rs.10 -> Re.1) executed together, same ex-date 2011-06-24. Combined cumulative adjustment factor from pre-2011-06-24 basis to current basis = 1 (bonus) x 10 (split) = 20x. No other splits/bonuses found in company history through 2026-09-24."
+}

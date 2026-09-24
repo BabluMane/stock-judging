@@ -1,0 +1,20 @@
+{
+  "symbol": "CIPLA",
+  "actions": [
+    {
+      "type": "split",
+      "ratio": "5:1 (FV Rs10 -> Rs2)",
+      "ex_date": "2004-05-11",
+      "source": "trendlyne.com/equity/corporate-actions/CIPLA/268/cipla-ltd/",
+      "note": "Before both OOS scoring dates -- no restatement needed."
+    },
+    {
+      "type": "bonus",
+      "ratio": "3:2",
+      "ex_date": "2006-04-24",
+      "source": "trendlyne.com",
+      "note": "Before both OOS scoring dates -- no restatement needed."
+    }
+  ],
+  "method_note": "Sourced via curl fetches of trendlyne.com corporate-actions pages (public, NSE/BSE-sourced corporate-action aggregator) plus web search corroboration (indiainfoline.com, angelone.in, hdfcsky.com, business-standard.com), since screener.in's own company page does not surface a dedicated split/bonus history table. Company-page (screener.in) 'Face Value' from top-ratios list used as a cross-check for cumulative face-value changes."
+}

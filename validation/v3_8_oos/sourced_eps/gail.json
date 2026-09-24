@@ -1,0 +1,20 @@
+{
+  "symbol": "GAIL",
+  "source_url": "https://www.screener.in/company/GAIL/consolidated/",
+  "basis": "consolidated",
+  "note": "Annual Profit & Loss 'EPS in Rs' row from screener.in's audited-report-derived P&L table (NOT back-solved from the price/PE quotient series). This is the primary/reported FY EPS per fiscal year ending 31 March, as displayed by screener (screener typically shows the as-reported figure per the company's annual report / exchange filing for that FY; screener does not always disclose whether a given year's EPS was itself restated by the company for a later split/bonus -- see corp_actions/<slug>.json for the split/bonus events that may require further restatement downstream per CONVENTIONS.md sec 1/4).",
+  "fy_eps": {
+    "Mar 2015": 4.67,
+    "Mar 2016": 2.76,
+    "Mar 2017": 4.98,
+    "Mar 2018": 7.09,
+    "Mar 2019": 9.68,
+    "Mar 2020": 13.93,
+    "Mar 2021": 9.21,
+    "Mar 2022": 18.4,
+    "Mar 2023": 8.54,
+    "Mar 2024": 15.06,
+    "Mar 2025": 18.93,
+    "Mar 2026": 11.53
+  }
+}
