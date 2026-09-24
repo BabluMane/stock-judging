@@ -1,0 +1,21 @@
+{
+  "company": "Future Retail Ltd",
+  "nse_symbol": "FRETAIL",
+  "basis": "No split/bonus ever occurred (see corp_actions/fretail.json) -- single consistent share-count basis throughout. FV Rs 2/share since the FY2016 demerger restructuring.",
+  "source_note": "Screener's CONSOLIDATED P&L table (https://www.screener.in/company/FRETAIL/consolidated/) only starts at FY2019 -- consolidated financials for Future Retail were evidently not built out on screener (or the company did not present multi-year consolidated comparatives) before that. FY2017 is therefore sourced from the STANDALONE P&L table (https://www.screener.in/company/FRETAIL/), which carries the full history back to FY2013. This is a genuine, disclosed data-source difference between the two scoring dates for this name, not a choice made for convenience.",
+  "fetched_at": "2026-09-24",
+  "fiscal_years": {
+    "FY2015": {"eps": -2.71, "net_profit_cr": -379, "sales_cr": 1779, "basis": "standalone", "note": "Pre-demerger entity; not comparable to FY17+ (see corp_actions/fretail.json demerger note)."},
+    "FY2016": {"eps": 0.09, "net_profit_cr": 15, "sales_cr": 6845, "basis": "standalone", "note": "First post-demerger FY; business mix materially different from FY2015."},
+    "FY2017": {"eps": 7.81, "net_profit_cr": 368, "sales_cr": 17075, "basis": "standalone", "scoring_date": "2017-03-31", "note": "Primary sourced EPS for fretail_2017-03-31. No consolidated figure exists on screener for this year. Standalone EPS 7.81 matches the vendor's TTM-EPS chart value at 2017-03-31 (7.81) exactly, i.e. TTM==FY at FY-end by construction, a strong internal cross-check."},
+    "FY2018": {"eps": 0.23, "net_profit_cr": 11, "sales_cr": 18478, "basis": "standalone"},
+    "FY2019": {"eps_standalone": 14.58, "net_profit_cr_standalone": 733, "sales_cr_standalone": 20165, "eps_consolidated": 14.47, "net_profit_cr_consolidated": 727, "sales_cr_consolidated": 20333, "scoring_date": "2019-03-31", "note": "Primary sourced EPS for fretail_2019-03-31: consolidated 14.47 preferred per CONVENTIONS.md preference for consolidated when available (first year it is). The standalone/consolidated gap here is small (0.7%), consistent with a thin cluster of small subsidiaries -- not a material discrepancy. Vendor TTM-EPS chart at 2019-05-25 (post-FY19-results) = 14.58, matching the STANDALONE figure almost exactly, suggesting the vendor's TTM-EPS chart series itself is standalone-sourced for this name."},
+    "FY2020": {"eps_consolidated": 0.22, "net_profit_cr_consolidated": 11, "sales_cr_consolidated": 20332, "note": "COVID-19 lockdown year; PAT collapses from Rs 727cr to Rs 11cr despite flat revenue -- first visible stress print."},
+    "FY2021": {"eps_consolidated": -58.82, "net_profit_cr_consolidated": -3190, "sales_cr_consolidated": 6304, "note": "Revenue collapses (stores shut, liquidity crisis); large loss. Last full FY reported -- insolvency proceedings (NCLT) began 2022, and Screener's board-meeting log shows no results announcements after 14 Feb 2022 (Q3FY22)."}
+  },
+  "data_quality_flags": [
+    "No FY reported after Q3FY22 (14 Feb 2022) -- Future Retail entered NCLT insolvency in 2022 and shares were ultimately extinguished (delisted) per the pre-registration rationale. Both scored dates (FY17, FY19) are well before this cutoff and have clean, cross-checked EPS.",
+    "Price/PE series (pe_series/fretail.csv) runs to 2024-08-01 with the price falling to Rs 2.41 before the feed stops -- this is BSE price data (screener defaulted to 'Price on BSE' for this name, not NSE) continuing to trade/print quotes for over two years after the company stopped reporting financials, i.e. a 'zombie listing' period with no fundamental anchor. PE is null (None) from 2024-07-15 onward in the vendor series -- consistent with no EPS denominator once losses/no-data persisted.",
+    "FY2015 vs FY2016 are not comparable to FY2017+ due to the 2015-16 Bharti Retail demerger scheme (see corp_actions/fretail.json) -- flagged so a DCF trend line is not drawn across that break."
+  ]
+}
