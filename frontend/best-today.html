@@ -18,7 +18,7 @@
     striking distance, and WATCH names near their ACC level. A great company well above fair value is not a
     today-buy; a good company sitting on its ACC trigger is.
   </p>
-  <div class="panel" style="font-size:13px;color:var(--text-dim);">
+  <div class="panel panel-note">
     Entry tiers (v3.7, DCF-only): <strong style="color:var(--text)">WATCH</strong> &middot;
     <strong style="color:var(--text)">ACC</strong> (&minus;12.5% vs. DCF fair value) &middot;
     <strong style="color:var(--text)">INV</strong> (&minus;30% vs. DCF fair value).
@@ -35,9 +35,15 @@
 <script>
   renderChrome("best-today");
 
+  function skeletonListHTML() {
+    const rows = Array.from({ length: 5 }, () => `<div class="skeleton-row"></div>`).join("");
+    return `<div class="skeleton-rows" aria-hidden="true" aria-label="Loading">${rows}</div>`;
+  }
+
   async function init() {
     const errorHost = document.getElementById("error-host");
     const listHost = document.getElementById("list-host");
+    listHost.innerHTML = skeletonListHTML();
     const { ok, companies, error } = await loadLeaderboard();
 
     if (!ok) {

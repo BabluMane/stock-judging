@@ -35,6 +35,24 @@
   --radius: 8px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Type scale — one consistent ramp used on every page (A8). Do not
+     introduce one-off font-size values in page markup; add a token here
+     instead. */
+  --fs-h1: 22px;
+  --fs-h2: 17px;
+  --fs-h3: 14px;
+  --fs-body: 14px;
+  --fs-small: 13px;
+  --fs-micro: 11px;
+
+  /* Spacing scale — 4px base unit. */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
 }
 
 * { box-sizing: border-box; }
@@ -47,6 +65,12 @@ html, body {
   font-family: var(--font);
   font-size: 15px;
   line-height: 1.5;
+  /* Belt-and-braces guard against any single element overflowing the
+     viewport width on narrow phones (A3). Individual overflowing elements
+     are still fixed at the source; this only prevents a page-level
+     horizontal scrollbar if one slips through. */
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -58,17 +82,26 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* ---------- Provisional banner (required on every page) ---------- */
+/* ---------- Provisional banner (required on every page, unmissable,
+   never weakened — A5) ---------- */
 .provisional-banner {
   background: var(--warn-bg);
   border-bottom: 1px solid var(--warn-border);
   color: var(--warn-text);
-  padding: 8px 16px;
-  font-size: 13px;
+  padding: var(--sp-2) var(--sp-4);
+  font-size: var(--fs-small);
   text-align: center;
   font-weight: 600;
   letter-spacing: 0.01em;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
+.provisional-banner .icon { flex-shrink: 0; }
 .provisional-banner strong { font-weight: 800; }
 
 /* ---------- Top nav ---------- */
@@ -80,6 +113,25 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--border);
   background: var(--bg-panel);
   flex-wrap: wrap;
+}
+.topnav a.investor-soon {
+  color: var(--text-faint);
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  pointer-events: none;
+}
+.topnav a.investor-soon .soon-chip {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: var(--bg-panel-2);
+  border: 1px solid var(--border);
+  color: var(--text-faint);
+  padding: 1px 6px;
+  border-radius: 999px;
 }
 .topnav .brand {
   font-weight: 800;
@@ -95,9 +147,11 @@ a:hover { text-decoration: underline; }
 }
 .topnav a {
   color: var(--text-dim);
-  padding: 6px 10px;
+  padding: 10px 12px;
   border-radius: 6px;
   font-size: 14px;
+  display: inline-block;
+  min-height: 20px;
 }
 .topnav a:hover { background: var(--bg-panel-2); text-decoration: none; color: var(--text); }
 .topnav a.active { color: var(--text); background: var(--bg-panel-2); font-weight: 600; }
@@ -107,13 +161,13 @@ main {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 24px 20px 60px;
+  padding: var(--sp-5) var(--sp-4) 60px;
 }
 
-h1 { font-size: 22px; margin: 0 0 6px; }
-h2 { font-size: 17px; margin: 28px 0 10px; }
-h3 { font-size: 14px; margin: 18px 0 8px; color: var(--text-dim); }
-.page-sub { color: var(--text-dim); font-size: 13px; margin: 0 0 20px; }
+h1 { font-size: var(--fs-h1); margin: 0 0 var(--sp-1); }
+h2 { font-size: var(--fs-h2); margin: var(--sp-6) 0 var(--sp-2); }
+h3 { font-size: var(--fs-h3); margin: var(--sp-4) 0 var(--sp-2); color: var(--text-dim); }
+.page-sub { color: var(--text-dim); font-size: var(--fs-small); margin: 0 0 var(--sp-5); }
 
 /* ---------- Category badge ---------- */
 .badge {
@@ -137,11 +191,11 @@ h3 { font-size: 14px; margin: 18px 0 8px; color: var(--text-dim); }
 table { width: 100%; border-collapse: collapse; min-width: 640px; }
 thead th {
   text-align: left;
-  font-size: 11px;
+  font-size: var(--fs-micro);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text-faint);
-  padding: 10px 12px;
+  padding: var(--sp-2) var(--sp-3);
   border-bottom: 1px solid var(--border);
   background: var(--bg-panel);
   position: sticky;
@@ -152,9 +206,9 @@ thead th.sortable { cursor: pointer; user-select: none; }
 thead th.sortable:hover { color: var(--text); }
 thead th .sort-arrow { margin-left: 4px; opacity: 0.6; font-size: 10px; }
 tbody td {
-  padding: 10px 12px;
+  padding: 7px var(--sp-3);
   border-bottom: 1px solid var(--border);
-  font-size: 13px;
+  font-size: var(--fs-small);
   white-space: nowrap;
 }
 tbody tr:last-child td { border-bottom: none; }
@@ -172,6 +226,7 @@ td.name-cell .ticker { color: var(--text-faint); font-size: 11px; font-family: v
   padding: 16px 18px;
   margin-bottom: 16px;
 }
+.panel-note { font-size: var(--fs-small); color: var(--text-dim); }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 @media (max-width: 720px) {
@@ -208,16 +263,28 @@ td.name-cell .ticker { color: var(--text-faint); font-size: 11px; font-family: v
 }
 .error-state code { background: rgba(0,0,0,0.25); padding: 1px 5px; border-radius: 4px; }
 
-/* ---------- Filters row ---------- */
+/* ---------- Filters row (visually anchored, always-on — A2) ---------- */
 .filters {
   display: flex;
   gap: 8px;
-  margin-bottom: 14px;
+  padding: 10px 12px;
   flex-wrap: wrap;
   align-items: center;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+}
+.filters .filters-label {
+  font-size: var(--fs-micro);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-faint);
+  font-weight: 700;
+  margin-right: 2px;
 }
 .filters .filter-btn {
-  padding: 6px 12px;
+  padding: 9px 14px;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--bg-panel);
@@ -225,9 +292,74 @@ td.name-cell .ticker { color: var(--text-faint); font-size: 11px; font-family: v
   font-size: 12px;
   cursor: pointer;
   font-weight: 600;
+  min-height: 36px;
 }
 .filters .filter-btn:hover { color: var(--text); border-color: var(--text-faint); }
 .filters .filter-btn.active { background: var(--accent-dim); color: var(--text); border-color: var(--accent); }
+.filters .filter-count {
+  color: var(--text-faint);
+  font-size: 12px;
+  margin-left: auto;
+}
+
+/* ---------- Loading skeletons (A4) ---------- */
+.skeleton-rows { display: flex; flex-direction: column; gap: 10px; }
+.skeleton-row {
+  height: 46px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: linear-gradient(90deg, var(--bg-panel) 25%, var(--bg-panel-2) 37%, var(--bg-panel) 63%);
+  background-size: 400% 100%;
+  animation: skeleton-shine 1.4s ease infinite;
+}
+.skeleton-table .skeleton-row { height: 38px; }
+@keyframes skeleton-shine {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-row { animation: none; }
+}
+
+/* ---------- Key decision panel (company detail — A1) ---------- */
+.decision-panel {
+  border: 1px solid var(--accent);
+  background: linear-gradient(180deg, var(--accent-dim) 0%, var(--bg-panel) 55%);
+  border-radius: var(--radius);
+  padding: var(--sp-4) var(--sp-4);
+  margin-bottom: var(--sp-4);
+}
+.decision-panel .decision-title {
+  font-size: var(--fs-micro);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  font-weight: 700;
+  margin-bottom: var(--sp-3);
+}
+.decision-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--sp-4);
+}
+@media (max-width: 720px) {
+  .decision-grid { grid-template-columns: 1fr 1fr; }
+}
+.decision-grid .stat .value { font-size: 19px; }
+.decision-grid .stat .value.hero { font-size: 22px; color: var(--accent); }
+.decision-note { margin-top: var(--sp-3); font-size: var(--fs-small); color: var(--text-dim); }
+
+/* ---------- Next-steps callout (run page — A7) ---------- */
+.next-step-callout {
+  border: 1px solid var(--accent);
+  background: var(--accent-dim);
+  border-radius: var(--radius);
+  padding: var(--sp-3) var(--sp-4);
+  margin-top: var(--sp-3);
+  font-size: var(--fs-small);
+  color: var(--text);
+}
+.next-step-callout strong { color: var(--text); }
 
 /* ---------- Forms ---------- */
 input[type="text"], select {

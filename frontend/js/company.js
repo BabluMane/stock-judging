@@ -49,19 +49,15 @@ async function initCompanyPage() {
 }
 
 function renderCompanyDetail(review, e) {
+  // A1: the "buy at what price" answer — fair value, ACC/INV triggers, and
+  // margin of safety — must read FIRST, before score breakdown or anything
+  // else. This decision panel sits directly under the header.
   return `
     ${renderHeader(review, e)}
-    <div class="grid-3">
-      ${statCard("Composite", fmtNum(e.composite, 2))}
-      ${statCard("Quality", fmtNum(e.quality, 2))}
-      ${statCard("Margin of Safety", fmtPct(e.marginOfSafetyPct))}
-    </div>
+    ${renderDecisionPanel(e)}
 
     <h2>Score breakdown</h2>
     ${renderScoreBreakdown(review.scores)}
-
-    <h2>Valuation &amp; trigger</h2>
-    ${renderValuation(e)}
 
     <h2>Price vs. trigger history</h2>
     ${renderPriceHistoryChart(review, e)}
@@ -74,6 +70,33 @@ function renderCompanyDetail(review, e) {
 
     <h2>Promise vs. delivery</h2>
     ${renderPromises(review.promises)}
+  `;
+}
+
+function renderDecisionPanel(e) {
+  const noteByCategory = {
+    INVEST_NOW: "Price is at or below the INV trigger — the entry condition is currently met.",
+    AT_TRIGGER: "Price is above fair value's entry triggers — this name is not a today-buy yet.",
+    WATCH: "Price has not reached the ACC trigger yet — watch, don't buy.",
+    PASS: "This name passed on quality/valuation grounds — no entry price applies.",
+  };
+  const note = noteByCategory[e.category] || "Category not set — treat any figures below as unconfirmed.";
+
+  return `
+    <div class="decision-panel">
+      <div class="decision-title">Buy at what price — entry snapshot</div>
+      <div class="decision-grid">
+        <div class="stat"><span class="label">Current price</span><span class="value hero">${fmtPrice(e.price)}</span></div>
+        <div class="stat"><span class="label">DCF fair value</span><span class="value">${fmtPrice(e.fairValue)}</span></div>
+        <div class="stat"><span class="label">ACC trigger (&minus;12.5%)</span><span class="value">${fmtPrice(e.accTrigger)}</span></div>
+        <div class="stat"><span class="label">INV trigger (&minus;30%)</span><span class="value">${fmtPrice(e.invTrigger)}</span></div>
+        <div class="stat"><span class="label">Margin of safety</span><span class="value hero">${fmtPct(e.marginOfSafetyPct)}</span></div>
+        <div class="stat"><span class="label">Composite</span><span class="value">${fmtNum(e.composite, 2)}</span></div>
+        <div class="stat"><span class="label">Quality</span><span class="value">${fmtNum(e.quality, 2)}</span></div>
+        <div class="stat"><span class="label">Best-today rank</span><span class="value">${e.bestTodayRank !== null ? String(e.bestTodayRank) : "—"}</span></div>
+      </div>
+      <p class="decision-note">${escapeHTML(note)}</p>
+    </div>
   `;
 }
 
@@ -91,10 +114,6 @@ function renderHeader(review, e) {
       ${review.status ? " &middot; status: " + escapeHTML(review.status) : ""}
     </p>
   `;
-}
-
-function statCard(label, value) {
-  return `<div class="panel stat"><span class="label">${escapeHTML(label)}</span><span class="value">${value}</span></div>`;
 }
 
 function renderScoreBreakdown(scores) {
@@ -118,21 +137,6 @@ function renderScoreBreakdown(scores) {
     .join("");
   if (!rows) return emptyState("No numeric scores", "This review card's `scores` object has no numeric dimensions.");
   return `<div class="panel score-breakdown">${rows}</div>`;
-}
-
-function renderValuation(e) {
-  return `
-    <div class="grid-3">
-      ${statCard("Current price", fmtPrice(e.price))}
-      ${statCard("DCF fair value", fmtPrice(e.fairValue))}
-      ${statCard("ACC trigger (−12.5%)", fmtPrice(e.accTrigger))}
-    </div>
-    <div class="grid-3">
-      ${statCard("INV trigger (−30%)", fmtPrice(e.invTrigger))}
-      ${statCard("Best-today rank", e.bestTodayRank !== null ? String(e.bestTodayRank) : "—")}
-      ${statCard("Conviction", fmtNum(e.conviction, 2))}
-    </div>
-  `;
 }
 
 /**

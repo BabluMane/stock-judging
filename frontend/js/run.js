@@ -75,12 +75,20 @@ function initRunPage() {
 
     statusHost.innerHTML = `
       <div class="panel">
-        <h3 style="margin-top:0;">Run-request file downloaded</h3>
+        <h3 style="margin-top:0;">Run-request file downloaded — here's what to do next</h3>
         <div class="steps">
           <div class="step done"><span class="dot"></span> Request file <code>${escapeHTML(filename)}</code> generated and downloaded</div>
           <div class="step active"><span class="dot"></span> Save it into <code>${escapeHTML(RUN_QUEUE_DIR)}</code> and commit/push it</div>
           <div class="step"><span class="dot"></span> Pipeline picks it up and runs the review (not built yet)</div>
           <div class="step"><span class="dot"></span> Review card lands at <code>reviews/${escapeHTML(slug.toUpperCase())}.json</code></div>
+        </div>
+        <div class="next-step-callout">
+          <strong>You're not done yet.</strong> Nothing happens automatically from here — this page has no backend.
+          Find <code>${escapeHTML(filename)}</code> in your downloads, move it into <code>${escapeHTML(RUN_QUEUE_DIR)}</code>
+          in the repo, then <code>git add</code>, commit, and push it. The "Queued on this device" list below will keep
+          checking for you: once <code>reviews/${escapeHTML(slug.toUpperCase())}.json</code> exists, it flips from
+          <strong>QUEUED (local)</strong> to <strong>DONE</strong> with a link to the review — no need to keep this tab open,
+          just come back and reload later.
         </div>
       </div>
     `;
@@ -112,6 +120,8 @@ async function renderLocalQueue() {
     host.innerHTML = `<div class="empty-state"><div class="icon">&#128203;</div><h3>Nothing queued yet</h3><p>Requests you queue from this device will appear here.</p></div>`;
     return;
   }
+
+  host.innerHTML = `<div class="skeleton-rows skeleton-table" aria-hidden="true" aria-label="Checking status"><div class="skeleton-row"></div></div>`;
 
   // Pre-check against the leaderboard so polling for a not-yet-reviewed
   // symbol doesn't fire a fetch() the browser logs as a 404 — most queued
