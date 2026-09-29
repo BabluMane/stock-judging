@@ -1,0 +1,15 @@
+{
+ "symbol": "PETRONET",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/PETRONET.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2004-03-26",
+ "actions": [
+  {
+   "ex_date": "2017-07-03",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

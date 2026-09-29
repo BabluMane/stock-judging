@@ -1,0 +1,36 @@
+{
+ "symbol": "BEL",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/BEL.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2002-07-01",
+ "actions": [
+  {
+   "ex_date": "2015-09-14",
+   "numerator": 3.0,
+   "denominator": 1.0,
+   "ratio_text": "3:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2017-03-16",
+   "numerator": 10.0,
+   "denominator": 1.0,
+   "ratio_text": "10:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2017-09-28",
+   "numerator": 11.0,
+   "denominator": 10.0,
+   "ratio_text": "11:10",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2022-09-15",
+   "numerator": 3.0,
+   "denominator": 1.0,
+   "ratio_text": "3:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

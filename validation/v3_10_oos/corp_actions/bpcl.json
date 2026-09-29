@@ -1,0 +1,43 @@
+{
+ "symbol": "BPCL",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/BPCL.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "1996-01-02",
+ "actions": [
+  {
+   "ex_date": "2000-12-20",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2012-07-13",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2016-07-13",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2017-07-13",
+   "numerator": 3.0,
+   "denominator": 2.0,
+   "ratio_text": "3:2",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2024-06-21",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

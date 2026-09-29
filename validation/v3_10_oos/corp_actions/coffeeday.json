@@ -1,0 +1,7 @@
+{
+ "symbol": "COFFEEDAY",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/COFFEEDAY.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2015-11-02",
+ "actions": []
+}
