@@ -1,0 +1,891 @@
+[
+ {
+  "name_date": "sreinfra_2019-03-31",
+  "model": "ER",
+  "filter": "PASS",
+  "fv": 41.88,
+  "price_d0": 29.75,
+  "p_over_fv_d0": 0.71,
+  "min_close_over_fv": 0.09,
+  "first_close_le_acc_trigger": "2019-04-05"
+ },
+ {
+  "name_date": "sreinfra_2020-03-31",
+  "model": "ER",
+  "filter": "PASS",
+  "fv": 29.35,
+  "price_d0": 3.9,
+  "p_over_fv_d0": 0.13,
+  "min_close_over_fv": 0.128,
+  "first_close_le_acc_trigger": "2020-04-03"
+ },
+ {
+  "name_date": "sreinfra_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -1342.94
+ },
+ {
+  "name_date": "sreinfra_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -2909.12
+ },
+ {
+  "name_date": "sreinfra_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -10228.58
+ },
+ {
+  "name_date": "religare_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -0.0
+ },
+ {
+  "name_date": "religare_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -7403706.54
+ },
+ {
+  "name_date": "religare_2021-03-31",
+  "model": "ER",
+  "filter": "FAIL",
+  "fv": 0.0,
+  "price_d0": 84.95,
+  "p_over_fv_d0": 490883.38,
+  "min_close_over_fv": 494061.55,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "religare_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -335.07
+ },
+ {
+  "name_date": "religare_2023-03-31",
+  "model": "ER",
+  "filter": "PASS",
+  "fv": 7519.93,
+  "price_d0": 145.0,
+  "p_over_fv_d0": 0.02,
+  "min_close_over_fv": 0.019,
+  "first_close_le_acc_trigger": "2023-04-06"
+ },
+ {
+  "name_date": "relinfra_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -379.79
+ },
+ {
+  "name_date": "relinfra_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -359.07
+ },
+ {
+  "name_date": "relinfra_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -479.62
+ },
+ {
+  "name_date": "relinfra_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -539.49
+ },
+ {
+  "name_date": "relinfra_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -388.18
+ },
+ {
+  "name_date": "rpower_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -26.57
+ },
+ {
+  "name_date": "rpower_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -52.35
+ },
+ {
+  "name_date": "rpower_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -43.63
+ },
+ {
+  "name_date": "rpower_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -38.23
+ },
+ {
+  "name_date": "rpower_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -23.12
+ },
+ {
+  "name_date": "rolta_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -123.05
+ },
+ {
+  "name_date": "rolta_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -459.55
+ },
+ {
+  "name_date": "rolta_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -576.83
+ },
+ {
+  "name_date": "rolta_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -626.79
+ },
+ {
+  "name_date": "rolta_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -701.27
+ },
+ {
+  "name_date": "jpassociat_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -108.36
+ },
+ {
+  "name_date": "jpassociat_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -72.32
+ },
+ {
+  "name_date": "jpassociat_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -70.91
+ },
+ {
+  "name_date": "jpassociat_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -72787087.62
+ },
+ {
+  "name_date": "jpassociat_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -28990013.58
+ },
+ {
+  "name_date": "fortis_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -24.03
+ },
+ {
+  "name_date": "fortis_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -10.11
+ },
+ {
+  "name_date": "fortis_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -6.9
+ },
+ {
+  "name_date": "fortis_2022-03-31",
+  "model": "DCF",
+  "filter": "FAIL",
+  "fv": 29.15,
+  "price_d0": 275.65,
+  "p_over_fv_d0": 9.46,
+  "min_close_over_fv": 7.804,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "fortis_2023-03-31",
+  "model": "DCF",
+  "filter": "FAIL",
+  "fv": 61.48,
+  "price_d0": 259.9,
+  "p_over_fv_d0": 4.23,
+  "min_close_over_fv": 4.115,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "rcom_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -1083.51
+ },
+ {
+  "name_date": "rcom_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -232.55
+ },
+ {
+  "name_date": "rcom_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -590.26
+ },
+ {
+  "name_date": "rcom_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -454.48
+ },
+ {
+  "name_date": "rcom_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -366.13
+ },
+ {
+  "name_date": "erosmedia_2019-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 403.12,
+  "price_d0": 78.2,
+  "p_over_fv_d0": 0.19,
+  "min_close_over_fv": 0.02,
+  "first_close_le_acc_trigger": "2019-04-05"
+ },
+ {
+  "name_date": "erosmedia_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -50.95
+ },
+ {
+  "name_date": "erosmedia_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -62.24
+ },
+ {
+  "name_date": "erosmedia_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -50.95
+ },
+ {
+  "name_date": "erosmedia_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -66.0
+ },
+ {
+  "name_date": "suzlon_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -10.26
+ },
+ {
+  "name_date": "suzlon_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -14.19
+ },
+ {
+  "name_date": "suzlon_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -6.53
+ },
+ {
+  "name_date": "suzlon_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -7.64
+ },
+ {
+  "name_date": "suzlon_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -5.63
+ },
+ {
+  "name_date": "unitech_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -7.85
+ },
+ {
+  "name_date": "unitech_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -9.75
+ },
+ {
+  "name_date": "unitech_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -19.23
+ },
+ {
+  "name_date": "unitech_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -19.21
+ },
+ {
+  "name_date": "unitech_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -24.91
+ },
+ {
+  "name_date": "ballarpur_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -204.15
+ },
+ {
+  "name_date": "ballarpur_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -153.32
+ },
+ {
+  "name_date": "ballarpur_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -90.17
+ },
+ {
+  "name_date": "ballarpur_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "ballarpur_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "hdil_2019-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 51.88,
+  "price_d0": 25.85,
+  "p_over_fv_d0": 0.5,
+  "min_close_over_fv": 0.026,
+  "first_close_le_acc_trigger": "2019-04-05"
+ },
+ {
+  "name_date": "hdil_2020-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "hdil_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "hdil_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "hdil_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "rhfl_2019-03-31",
+  "model": "ER",
+  "filter": "PASS",
+  "fv": 21.8,
+  "price_d0": 28.7,
+  "p_over_fv_d0": 1.32,
+  "min_close_over_fv": 0.034,
+  "first_close_le_acc_trigger": "2019-05-17"
+ },
+ {
+  "name_date": "rhfl_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -7.73
+ },
+ {
+  "name_date": "rhfl_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -298.14
+ },
+ {
+  "name_date": "rhfl_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -31938.28
+ },
+ {
+  "name_date": "rhfl_2023-03-31",
+  "model": "ER",
+  "filter": "PASS",
+  "fv": 20939893968458.79,
+  "price_d0": 2.51,
+  "p_over_fv_d0": 0.0,
+  "min_close_over_fv": 0.0,
+  "first_close_le_acc_trigger": "2023-04-06"
+ },
+ {
+  "name_date": "sintex_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -57.75
+ },
+ {
+  "name_date": "sintex_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -115.63
+ },
+ {
+  "name_date": "sintex_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -108.38
+ },
+ {
+  "name_date": "sintex_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -108.77
+ },
+ {
+  "name_date": "sintex_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "dishtv_2019-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 6.95,
+  "price_d0": 38.9,
+  "p_over_fv_d0": 5.6,
+  "min_close_over_fv": 0.59,
+  "first_close_le_acc_trigger": "2020-03-13"
+ },
+ {
+  "name_date": "dishtv_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -1.15
+ },
+ {
+  "name_date": "dishtv_2021-03-31",
+  "model": "DCF",
+  "filter": "FAIL",
+  "fv": 0.4,
+  "price_d0": 9.4,
+  "p_over_fv_d0": 23.25,
+  "min_close_over_fv": 22.757,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "dishtv_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -1.27
+ },
+ {
+  "name_date": "dishtv_2023-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 5.88,
+  "price_d0": 13.0,
+  "p_over_fv_d0": 2.21,
+  "min_close_over_fv": 0.957,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "sadbhav_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -261.59
+ },
+ {
+  "name_date": "sadbhav_2020-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 604.71,
+  "price_d0": 29.65,
+  "p_over_fv_d0": 0.05,
+  "min_close_over_fv": 0.041,
+  "first_close_le_acc_trigger": "2020-04-03"
+ },
+ {
+  "name_date": "sadbhav_2021-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 220.71,
+  "price_d0": 62.1,
+  "p_over_fv_d0": 0.28,
+  "min_close_over_fv": 0.039,
+  "first_close_le_acc_trigger": "2021-04-01"
+ },
+ {
+  "name_date": "sadbhav_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -344.39
+ },
+ {
+  "name_date": "sadbhav_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -286.22
+ },
+ {
+  "name_date": "gayaproj_2019-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 72.06,
+  "price_d0": 159.55,
+  "p_over_fv_d0": 2.21,
+  "min_close_over_fv": 0.119,
+  "first_close_le_acc_trigger": "2019-11-22"
+ },
+ {
+  "name_date": "gayaproj_2020-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 36.84,
+  "price_d0": 8.55,
+  "p_over_fv_d0": 0.23,
+  "min_close_over_fv": 0.247,
+  "first_close_le_acc_trigger": "2020-04-03"
+ },
+ {
+  "name_date": "gayaproj_2021-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 57.14,
+  "price_d0": 29.95,
+  "p_over_fv_d0": 0.52,
+  "min_close_over_fv": 0.094,
+  "first_close_le_acc_trigger": "2021-04-01"
+ },
+ {
+  "name_date": "gayaproj_2022-03-31",
+  "model": "DCF",
+  "filter": "PASS",
+  "fv": 5.43,
+  "price_d0": 21.55,
+  "p_over_fv_d0": 3.97,
+  "min_close_over_fv": 0.925,
+  "first_close_le_acc_trigger": null
+ },
+ {
+  "name_date": "gayaproj_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -158.36
+ },
+ {
+  "name_date": "aban_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -1.6394994074964457e+19
+ },
+ {
+  "name_date": "aban_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -4.870463156175063e+19
+ },
+ {
+  "name_date": "aban_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -14903.81
+ },
+ {
+  "name_date": "aban_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -10489.51
+ },
+ {
+  "name_date": "aban_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -5796.01
+ },
+ {
+  "name_date": "gtlinfra_2019-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "gtlinfra_2020-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "gtlinfra_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "gtlinfra_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "gtlinfra_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "mcleodruss_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -178.49
+ },
+ {
+  "name_date": "mcleodruss_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -234.5
+ },
+ {
+  "name_date": "mcleodruss_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -198.6
+ },
+ {
+  "name_date": "mcleodruss_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -194.71
+ },
+ {
+  "name_date": "mcleodruss_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -176.98
+ },
+ {
+  "name_date": "parsvnath_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -89.4
+ },
+ {
+  "name_date": "parsvnath_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -63.79
+ },
+ {
+  "name_date": "parsvnath_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -71.47
+ },
+ {
+  "name_date": "parsvnath_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -73.53
+ },
+ {
+  "name_date": "parsvnath_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -88.38
+ },
+ {
+  "name_date": "educomp_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -206.91
+ },
+ {
+  "name_date": "educomp_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -410.15
+ },
+ {
+  "name_date": "educomp_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -229.05
+ },
+ {
+  "name_date": "educomp_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -231.36
+ },
+ {
+  "name_date": "educomp_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -286.06
+ },
+ {
+  "name_date": "ksk_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -43.0
+ },
+ {
+  "name_date": "ksk_2020-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "ksk_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "ksk_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "ksk_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "ifci_2019-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "ifci_2020-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "ifci_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "ifci_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "ifci_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "kohinoor_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -3625342674067.84
+ },
+ {
+  "name_date": "kohinoor_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -937043441222.16
+ },
+ {
+  "name_date": "kohinoor_2021-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -334.11
+ },
+ {
+  "name_date": "kohinoor_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -229.25
+ },
+ {
+  "name_date": "kohinoor_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -198.74
+ },
+ {
+  "name_date": "jyotistruc_2019-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -172.6
+ },
+ {
+  "name_date": "jyotistruc_2020-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -114.96
+ },
+ {
+  "name_date": "jyotistruc_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: non-positive/missing revenue in the scoring FY"
+ },
+ {
+  "name_date": "jyotistruc_2022-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -20.12
+ },
+ {
+  "name_date": "jyotistruc_2023-03-31",
+  "filter": "FAIL",
+  "reason": "FV<=0",
+  "fv": -112.48
+ },
+ {
+  "name_date": "punjlloyd_2019-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "punjlloyd_2020-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "punjlloyd_2021-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "punjlloyd_2022-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ },
+ {
+  "name_date": "punjlloyd_2023-03-31",
+  "filter": "N/A",
+  "reason": "DCF_NOT_COMPUTABLE: FY column missing"
+ }
+]
