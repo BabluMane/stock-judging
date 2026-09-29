@@ -1,0 +1,250 @@
+{
+ "S1_gensol_2023-03-31_ratings_not_counted": {
+  "fills": {
+   "acc": {
+    "fill": null
+   },
+   "inv": {
+    "fill": null
+   }
+  },
+  "veto_at_scoring": [
+   false,
+   null,
+   null
+  ]
+ },
+ "S1_gensol_2024-03-31_ratings_not_counted": {
+  "fills": {
+   "acc": {
+    "fill_date": "2025-04-11",
+    "fill_price": 133.2,
+    "trigger": 159.48,
+    "fwd_24m": 0.115,
+    "fwd_truncated": true,
+    "to_latest": 0.115,
+    "to_latest_date": "2026-09-29"
+   },
+   "inv": {
+    "fill": null,
+    "blocked_by_gev_at_fill": true,
+    "gev_event": "2025-04-15",
+    "gev_tag": "promoter_conduct",
+    "would_have_filled": "2025-04-17"
+   }
+  },
+  "veto_at_scoring": [
+   false,
+   null,
+   null
+  ]
+ },
+ "S2_alt_roe_convention": {
+  "dixon_2019-03-31": {
+   "fv_alt": 279.49,
+   "fills": {
+    "acc": null,
+    "inv": null
+   }
+  },
+  "dixon_2021-03-31": {
+   "fv_alt": 763.68,
+   "fills": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "hal_2019-03-31": {
+   "fv_alt": 911.49,
+   "fills": {
+    "acc": "2019-04-05",
+    "inv": "2019-04-05"
+   }
+  },
+  "hal_2021-03-31": {
+   "fv_alt": 1273.06,
+   "fills": {
+    "acc": "2021-04-01",
+    "inv": "2021-04-01"
+   }
+  },
+  "bel_2021-03-31": {
+   "fv_alt": 66.76,
+   "fills": {
+    "acc": "2021-04-01",
+    "inv": "2021-04-01"
+   }
+  },
+  "coforge_2019-03-31": {
+   "fv_alt": 273.45,
+   "fills": {
+    "acc": "2020-03-20",
+    "inv": null,
+    "qfv": "2019-04-05"
+   }
+  },
+  "coforge_2021-03-31": {
+   "fv_alt": 345.46,
+   "fills": {
+    "acc": "VETO",
+    "inv": "VETO",
+    "qfv": "VETO"
+   }
+  },
+  "tatapower_2021-03-31": {
+   "fv_alt": 34.95,
+   "fills": {
+    "acc": null,
+    "inv": null
+   }
+  },
+  "hul_2021-03-31": {
+   "fv_alt": 388.67,
+   "fills": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "hul_2022-03-31": {
+   "fv_alt": 619.97,
+   "fills": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "bajajauto_2019-03-31": {
+   "fv_alt": 5141.01,
+   "fills": {
+    "acc": "2019-04-05",
+    "inv": "2019-04-05"
+   }
+  },
+  "bajajauto_2021-03-31": {
+   "fv_alt": 2845.91,
+   "fills": {
+    "acc": null,
+    "inv": null
+   }
+  },
+  "petronet_2019-03-31": {
+   "fv_alt": 266.2,
+   "fills": {
+    "acc": "2020-03-13",
+    "inv": null
+   }
+  },
+  "petronet_2021-03-31": {
+   "fv_alt": 318.68,
+   "fills": {
+    "acc": "2021-04-01",
+    "inv": "2021-04-16",
+    "qfv": "2021-04-01"
+   }
+  },
+  "powergrid_2021-03-31": {
+   "fv_alt": 248.53,
+   "fills": {
+    "acc": "2021-04-01",
+    "inv": "2021-04-01"
+   }
+  }
+ },
+ "S3_coforge_2019-03-31_coforge_settlements_routine": {
+  "fills": {
+   "acc": {
+    "fill_date": "2020-03-20",
+    "fill_price": 228.63,
+    "trigger": 239.27,
+    "fwd_24m": 3.859,
+    "fwd_truncated": false,
+    "to_latest": 7.532,
+    "to_latest_date": "2026-09-29"
+   },
+   "inv": {
+    "fill": null
+   },
+   "qfv": {
+    "fill_date": "2019-04-05",
+    "fill_price": 269.61,
+    "trigger": 273.45,
+    "fwd_24m": 2.176,
+    "fwd_truncated": false,
+    "to_latest": 6.387,
+    "to_latest_date": "2026-09-29"
+   }
+  },
+  "veto_at_scoring": [
+   false,
+   null,
+   null
+  ]
+ },
+ "S3_coforge_2021-03-31_coforge_settlements_routine": {
+  "fills": {
+   "acc": {
+    "fill": null
+   },
+   "inv": {
+    "fill": null
+   },
+   "qfv": {
+    "fill": null
+   }
+  },
+  "veto_at_scoring": [
+   false,
+   null,
+   null
+  ]
+ },
+ "S4_shadow_fills": {
+  "bel_2019-03-31": {
+   "acc": "2019-04-05",
+   "inv": "2019-04-05"
+  },
+  "tatapower_2020-03-31": {
+   "acc": null,
+   "inv": null
+  },
+  "bpcl_2019-03-31": {
+   "acc": "2019-04-05",
+   "inv": "2019-04-05"
+  },
+  "bpcl_2021-03-31": {
+   "acc": null,
+   "inv": null
+  },
+  "powergrid_2019-03-31": {
+   "acc": "2019-04-05",
+   "inv": "2019-04-05"
+  },
+  "coffeeday_2019-03-31": {},
+  "coffeeday_2020-03-31": {},
+  "gensol_2023-03-31": {
+   "acc": null,
+   "inv": null
+  }
+ },
+ "S5_aggregates": {
+  "winner": {
+   "n_legs": 8,
+   "mean_to_t": 9.433124999999999,
+   "mean_24m": 2.357125,
+   "min_24m": 1.453
+  },
+  "mediocre": {
+   "n_legs": 9,
+   "mean_to_t": 2.020333333333334,
+   "mean_24m": 1.1498888888888887,
+   "min_24m": 0.955
+  },
+  "per_name_date_weighted": {
+   "n_name_dates": 8,
+   "mean_to_t": 5.7753749999999995,
+   "mean_24m": 1.7625624999999998
+  }
+ }
+}
