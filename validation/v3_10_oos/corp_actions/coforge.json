@@ -1,0 +1,22 @@
+{
+ "symbol": "COFORGE",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/COFORGE.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2004-08-30",
+ "actions": [
+  {
+   "ex_date": "2007-08-30",
+   "numerator": 3.0,
+   "denominator": 2.0,
+   "ratio_text": "3:2",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2025-06-04",
+   "numerator": 5.0,
+   "denominator": 1.0,
+   "ratio_text": "5:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

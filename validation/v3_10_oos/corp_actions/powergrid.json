@@ -1,0 +1,22 @@
+{
+ "symbol": "POWERGRID",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/POWERGRID.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2007-10-05",
+ "actions": [
+  {
+   "ex_date": "2021-07-29",
+   "numerator": 4.0,
+   "denominator": 3.0,
+   "ratio_text": "4:3",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2023-09-12",
+   "numerator": 4.0,
+   "denominator": 3.0,
+   "ratio_text": "4:3",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

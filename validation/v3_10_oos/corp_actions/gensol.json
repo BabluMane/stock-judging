@@ -1,0 +1,15 @@
+{
+ "symbol": "GENSOL",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/GENSOL.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2023-07-03",
+ "actions": [
+  {
+   "ex_date": "2023-10-17",
+   "numerator": 3.0,
+   "denominator": 1.0,
+   "ratio_text": "3:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

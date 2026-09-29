@@ -1,0 +1,287 @@
+{
+ "fetched_on": "2026-09-29",
+ "companies": {
+  "dixon": {
+   "variant": "consolidated",
+   "price_pts": 472,
+   "eps_pts": 45,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "hal": {
+   "variant": "consolidated",
+   "price_pts": 445,
+   "eps_pts": 40,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "bel": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 52,
+   "actions": 4,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "coforge": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 85,
+   "actions": 2,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "tatapower": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 86,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "hul": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 48,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "bajajauto": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 62,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "petronet": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 44,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "bpcl": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 53,
+   "actions": 5,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "powergrid": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 47,
+   "actions": 2,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "coffeeday": {
+   "variant": "consolidated",
+   "price_pts": 533,
+   "eps_pts": 53,
+   "actions": 0,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "gensol": {
+   "variant": "consolidated",
+   "price_pts": 337,
+   "eps_pts": 19,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "TTM"
+   ]
+  },
+  "lvb": {
+   "variant": "standalone",
+   "price_pts": 596,
+   "eps_pts": 55,
+   "actions": 0,
+   "actions_status": "unavailable: TypeError: 'NoneType' object is not subscriptable",
+   "pnl_years": [
+    "Mar 2009",
+    "Mar 2010",
+    "Mar 2011",
+    "Mar 2012",
+    "Mar 2013",
+    "Mar 2014",
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "TTM"
+   ]
+  }
+ }
+}

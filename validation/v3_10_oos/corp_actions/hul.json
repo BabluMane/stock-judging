@@ -1,0 +1,15 @@
+{
+ "symbol": "HINDUNILVR",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/HINDUNILVR.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "1996-01-01",
+ "actions": [
+  {
+   "ex_date": "2000-07-10",
+   "numerator": 10.0,
+   "denominator": 1.0,
+   "ratio_text": "10:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

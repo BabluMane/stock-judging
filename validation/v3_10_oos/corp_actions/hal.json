@@ -1,0 +1,15 @@
+{
+ "symbol": "HAL",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/HAL.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2018-04-02",
+ "actions": [
+  {
+   "ex_date": "2023-09-28",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

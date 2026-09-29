@@ -1,0 +1,15 @@
+{
+ "symbol": "DIXON",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/DIXON.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2017-09-18",
+ "actions": [
+  {
+   "ex_date": "2021-03-18",
+   "numerator": 5.0,
+   "denominator": 1.0,
+   "ratio_text": "5:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}
