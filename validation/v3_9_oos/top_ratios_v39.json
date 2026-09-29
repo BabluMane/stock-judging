@@ -1,0 +1,145 @@
+{
+ "asianpaint": {
+  "Market Cap": "₹ 2,32,414",
+  "Current Price": "₹ 2,423",
+  "High / Low": "₹ 2,986",
+  "Stock P/E": "47.6",
+  "Book Value": "₹ 223",
+  "Dividend Yield": "1.15",
+  "ROCE": "26.3",
+  "ROE": "21.8",
+  "Face Value": "₹ 1.00"
+ },
+ "hdfcbank": {
+  "Market Cap": "₹ 10,98,575",
+  "Current Price": "₹ 712",
+  "High / Low": "₹ 1,020",
+  "Stock P/E": "13.8",
+  "Book Value": "₹ 390",
+  "Dividend Yield": "1.83",
+  "ROCE": "7.02",
+  "ROE": "13.6",
+  "Face Value": "₹ 1.00"
+ },
+ "nestleind": {
+  "Market Cap": "₹ 2,59,011",
+  "Current Price": "₹ 1,343",
+  "High / Low": "₹ 1,553",
+  "Stock P/E": "69.9",
+  "Book Value": "₹ 26.7",
+  "Dividend Yield": "0.90",
+  "ROCE": "85.3",
+  "ROE": "74.2",
+  "Face Value": "₹ 1.00"
+ },
+ "britannia": {
+  "Market Cap": "₹ 1,16,826",
+  "Current Price": "₹ 4,850",
+  "High / Low": "₹ 6,271",
+  "Stock P/E": "44.9",
+  "Book Value": "₹ 212",
+  "Dividend Yield": "1.84",
+  "ROCE": "56.0",
+  "ROE": "53.5",
+  "Face Value": "₹ 1.00"
+ },
+ "havells": {
+  "Market Cap": "₹ 66,986",
+  "Current Price": "₹ 1,067",
+  "High / Low": "₹ 1,520",
+  "Stock P/E": "40.2",
+  "Book Value": "₹ 151",
+  "Dividend Yield": "0.93",
+  "ROCE": "24.9",
+  "ROE": "19.0",
+  "Face Value": "₹ 1.00"
+ },
+ "bhartiartl": {
+  "Market Cap": "₹ 11,10,758",
+  "Current Price": "₹ 1,780",
+  "High / Low": "₹ 2,175",
+  "Stock P/E": "35.6",
+  "Book Value": "₹ 245",
+  "Dividend Yield": "1.35",
+  "ROCE": "17.6",
+  "ROE": "20.3",
+  "Face Value": "₹ 5.00"
+ },
+ "tatasteel": {
+  "Market Cap": "₹ 2,33,255",
+  "Current Price": "₹ 187",
+  "High / Low": "₹ 224",
+  "Stock P/E": "19.8",
+  "Book Value": "₹ 81.8",
+  "Dividend Yield": "2.14",
+  "ROCE": "12.5",
+  "ROE": "11.7",
+  "Face Value": "₹ 1.00"
+ },
+ "ntpc": {
+  "Market Cap": "₹ 3,11,215",
+  "Current Price": "₹ 321",
+  "High / Low": "₹ 414",
+  "Stock P/E": "11.2",
+  "Book Value": "₹ 210",
+  "Dividend Yield": "2.80",
+  "ROCE": "8.92",
+  "ROE": "15.1",
+  "Face Value": "₹ 10.0"
+ },
+ "tatamotors": {
+  "Market Cap": "₹ 1,03,197",
+  "Current Price": "₹ 280",
+  "High / Low": "₹ 447",
+  "Stock P/E": "104",
+  "Book Value": "₹ 304",
+  "Dividend Yield": "1.08",
+  "ROCE": "2.73",
+  "ROE": "75.7",
+  "Face Value": "₹ 2.00"
+ },
+ "bankbaroda": {
+  "Market Cap": "₹ 1,17,804",
+  "Current Price": "₹ 228",
+  "High / Low": "₹ 326",
+  "Stock P/E": "5.33",
+  "Book Value": "₹ 326",
+  "Dividend Yield": "3.73",
+  "ROCE": "5.63",
+  "ROE": "12.7",
+  "Face Value": "₹ 2.00"
+ },
+ "zeel": {
+  "Market Cap": "₹ 7,194",
+  "Current Price": "₹ 74.9",
+  "High / Low": "₹ 118",
+  "Stock P/E": "34.4",
+  "Book Value": "₹ 122",
+  "Dividend Yield": "2.65",
+  "ROCE": "2.72",
+  "ROE": "2.40",
+  "Face Value": "₹ 1.00"
+ },
+ "relcapital": {
+  "Market Cap": "₹ 312",
+  "Current Price": "₹ 12.4",
+  "High / Low": "₹",
+  "Stock P/E": "0.58",
+  "Book Value": "₹ -416",
+  "Dividend Yield": "0.00",
+  "ROCE": "8.16",
+  "ROE": "",
+  "Face Value": "₹ 10.0"
+ },
+ "ilfstransport": {
+  "Market Cap": "₹ 64.8",
+  "Current Price": "₹ 1.97",
+  "High / Low": "₹ 3.25",
+  "Stock P/E": "",
+  "Book Value": "₹ -452",
+  "Dividend Yield": "0.00",
+  "ROCE": "-18.1",
+  "ROE": "",
+  "Face Value": "₹ 10.0"
+ }
+}

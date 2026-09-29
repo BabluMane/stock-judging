@@ -1,0 +1,493 @@
+{
+  "usability": {
+    "asianpaint_2014-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "FY column Mar 2014 not in fetched P&L years ['Mar 2015', 'Mar 2016', 'Mar 2017', 'Mar 2018', 'Mar 2019', 'Mar 2020', 'Mar 2021', 'Mar 2022', 'Mar 2023', 'Mar 2024', 'Mar 2025', 'Mar 2026', 'TTM']",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "asianpaint_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -7.6% @pub 2016-06-06 TTM=16.8 src=18.19",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "hdfcbank_2014-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "FY column Mar 2014 not in fetched P&L years ['Mar 2015', 'Mar 2016', 'Mar 2017', 'Mar 2018', 'Mar 2019', 'Mar 2020', 'Mar 2021', 'Mar 2022', 'Mar 2023', 'Mar 2024', 'Mar 2025', 'Mar 2026', 'TTM']",
+      "category": "winner",
+      "financial_variant": true
+    },
+    "hdfcbank_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA Sec4",
+      "category": "winner",
+      "financial_variant": true
+    },
+    "nestleind_2015-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "FY column Dec 2014 not in fetched P&L years ['Dec 2015', 'Dec 2016', 'Dec 2017', 'Dec 2018', 'Dec 2019', 'Dec 2020', 'Dec 2021', 'Dec 2022', 'Dec 2023', 'Mar 2024\\n            \\n            \\n              15m', 'Mar 2025', 'Mar 2026', 'TTM']",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "nestleind_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +4.0% @pub 2017-04-20 TTM=5.4 src=5.19",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "britannia_2015-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -15.5% @pub 2015-06-30 TTM=24.25 src=28.71",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "britannia_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -4.5% @pub 2017-06-30 TTM=35.18 src=36.85",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "havells_2014-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "FY column Mar 2014 not in fetched P&L years ['Mar 2015', 'Mar 2016', 'Mar 2017', 'Mar 2018', 'Mar 2019', 'Mar 2020', 'Mar 2021', 'Mar 2022', 'Mar 2023', 'Mar 2024', 'Mar 2025', 'Mar 2026', 'TTM']",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "havells_2016-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -57.3% @pub 2016-06-11 TTM=8.9 src=20.82",
+      "category": "winner",
+      "financial_variant": false
+    },
+    "bhartiartl_2016-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) +28.7% @pub 2016-06-30 TTM=14.22 src=11.05",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "bhartiartl_2018-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -38.5% @pub 2018-04-24 TTM=1.23 src=2.0",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "tatasteel_2015-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) sourced FY EPS is non-positive (-3.48) while vendor TTM is 3.39 @ 2015-06-30 -- basis defect, not adjudicated further",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "tatasteel_2017-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) sourced FY EPS is non-positive (-3.76) while vendor TTM is 3.64 @ 2017-06-30 -- basis defect, not adjudicated further",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "ntpc_2015-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +3.9% @pub 2015-06-30 TTM=10.48 src=10.09",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "ntpc_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) -4.8% @pub 2017-06-30 TTM=10.31 src=10.83",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "tatamotors_2015-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -134.0% @pub 2015-06-30 TTM=-16.47 src=48.44",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "tatamotors_2017-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -135.1% @pub 2017-06-30 TTM=-9.06 src=25.82",
+      "category": "mediocre",
+      "financial_variant": false
+    },
+    "bankbaroda_2015-03-31": {
+      "verdict": "USABLE",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA Sec4",
+      "category": "mediocre",
+      "financial_variant": true
+    },
+    "bankbaroda_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA Sec4",
+      "category": "mediocre",
+      "financial_variant": true
+    },
+    "zeel_2017-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) -57.2% @pub 2017-06-22 TTM=9.89 src=23.13",
+      "category": "blowup",
+      "financial_variant": false
+    },
+    "zeel_2018-03-31": {
+      "verdict": "EXCLUDED",
+      "reason": "(a) +29.3% @pub 2018-05-10 TTM=19.91 src=15.4",
+      "category": "blowup",
+      "financial_variant": false
+    },
+    "relcapital_2016-03-31": {
+      "verdict": "USABLE",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA Sec4",
+      "category": "blowup",
+      "financial_variant": true
+    },
+    "relcapital_2018-03-31": {
+      "verdict": "USABLE",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA Sec4",
+      "category": "blowup",
+      "financial_variant": true
+    },
+    "ilfstransport_2017-03-31": {
+      "verdict": "USABLE",
+      "reason": "(a) +2.9% @pub 2017-06-30 TTM=7.4 src=7.19",
+      "category": "blowup",
+      "financial_variant": false
+    }
+  },
+  "results": {
+    "asianpaint_2016-03-31": {
+      "fair_value_per_share": 387.78,
+      "triggers": {
+        "acc": 339.3,
+        "inv": 271.44
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "only 2 trailing FYs available (need 5)",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.0955,
+        "growth": 0.0482,
+        "beta": 0.65,
+        "net_cash_cr": 2389.0,
+        "shares_cr": 95.92
+      },
+      "category": "winner",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "hdfcbank_2016-03-31": {
+      "fair_value_per_share": 116.27,
+      "triggers": {
+        "acc": 101.74,
+        "inv": 81.39
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "financial variant -- QFV gate (ROIC/OCF-PAT/D-E) not defined for bank/NBFC balance sheets; ACC/INV only",
+      "model": {
+        "model": "excess-return/residual-income",
+        "bvps0": 48.16,
+        "roe": 0.171,
+        "g": 0.12,
+        "r_val": 0.1055,
+        "shares_cr": 1542.94
+      },
+      "category": "winner",
+      "financial_variant": true,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "nestleind_2017-03-31": {
+      "fair_value_per_share": 164.74,
+      "triggers": {
+        "acc": 144.15,
+        "inv": 115.32
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "only 2 trailing FYs available (need 5)",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.0915,
+        "growth": 0.1182,
+        "beta": 0.55,
+        "net_cash_cr": 1723.0,
+        "shares_cr": 192.86
+      },
+      "category": "winner",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "britannia_2017-03-31": {
+      "fair_value_per_share": 747.08,
+      "triggers": {
+        "acc": 653.69,
+        "inv": 522.95
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "only 3 trailing FYs available (need 5)",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.0935,
+        "growth": 0.0734,
+        "beta": 0.6,
+        "net_cash_cr": 362.0,
+        "shares_cr": 24.09
+      },
+      "category": "winner",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "ntpc_2015-03-31": {
+      "fair_value_per_share": 78.61,
+      "triggers": {
+        "acc": 68.78,
+        "inv": 55.03
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "only 1 trailing FYs available (need 5)",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.1015,
+        "growth": 0.08,
+        "beta": 0.8,
+        "net_cash_cr": -100350.0,
+        "shares_cr": 969.52
+      },
+      "category": "mediocre",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "ntpc_2017-03-31": {
+      "fair_value_per_share": 51.68,
+      "triggers": {
+        "acc": 45.22,
+        "inv": 36.18
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "only 3 trailing FYs available (need 5)",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.1015,
+        "growth": 0.013,
+        "beta": 0.8,
+        "net_cash_cr": -106159.0,
+        "shares_cr": 969.52
+      },
+      "category": "mediocre",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "bankbaroda_2015-03-31": {
+      "fair_value_per_share": 55.58,
+      "triggers": {
+        "acc": 48.63,
+        "inv": 38.9
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "financial variant -- QFV gate (ROIC/OCF-PAT/D-E) not defined for bank/NBFC balance sheets; ACC/INV only",
+      "model": {
+        "model": "excess-return/residual-income",
+        "bvps0": 81.32,
+        "roe": 0.094,
+        "g": 0.06,
+        "r_val": 0.1155,
+        "shares_cr": 516.68
+      },
+      "category": "mediocre",
+      "financial_variant": true,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "bankbaroda_2017-03-31": {
+      "status": "excess-return FV degenerate"
+    },
+    "relcapital_2016-03-31": {
+      "fair_value_per_share": 254.0,
+      "triggers": {
+        "acc": 222.25,
+        "inv": 177.8
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "financial variant -- QFV gate (ROIC/OCF-PAT/D-E) not defined for bank/NBFC balance sheets; ACC/INV only",
+      "model": {
+        "model": "excess-return/residual-income",
+        "bvps0": 562.09,
+        "roe": 0.0808,
+        "g": 0.0572,
+        "r_val": 0.1215,
+        "shares_cr": 25.16
+      },
+      "category": "blowup",
+      "financial_variant": true,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    },
+    "relcapital_2018-03-31": {
+      "status": "excess-return FV degenerate"
+    },
+    "ilfstransport_2017-03-31": {
+      "fair_value_per_share": -4.45,
+      "triggers": {
+        "acc": -3.9,
+        "inv": -3.12
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=12.0% min=8.0% -- fails 15%/10% bar",
+      "model": {
+        "model": "FCFF DCF",
+        "wacc": 0.1175,
+        "growth": 0.022,
+        "beta": 1.2,
+        "net_cash_cr": -6205.0,
+        "shares_cr": 32.89
+      },
+      "category": "blowup",
+      "financial_variant": false,
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      }
+    }
+  },
+  "gev_log": {
+    "asianpaint": [],
+    "hdfcbank": [
+      [
+        "2016-07-25",
+        "regulatory_probe",
+        false,
+        "RBI Rs 2cr penalty for KYC/AML lapses (advance import remittances) -- routine compliance fine, not a probe/enforcement action against the company/promoter/KMP in the taxonomy's intended sense; judged non-qualifying."
+      ]
+    ],
+    "nestleind": [],
+    "britannia": [],
+    "havells": [],
+    "bhartiartl": [],
+    "tatasteel": [
+      [
+        "2016-11-08",
+        "regulatory_probe",
+        true,
+        "Post Cyrus Mistry's Oct-2016 removal as Tata Sons chairman and his public allegations of governance lapses (Tata Steel Europe write-downs among the cited items), SEBI directed the stock exchanges to scrutinise Tata Steel's own listing/disclosure compliance (Business Standard, 2016-11-08)."
+      ]
+    ],
+    "ntpc": [],
+    "tatamotors": [
+      [
+        "2016-11-08",
+        "regulatory_probe",
+        true,
+        "Same Cyrus Mistry-allegations fallout; SEBI directed exchanges to scrutinise Tata Motors' own disclosure compliance (Nano project losses cited) alongside Tata Steel (Business Standard, 2016-11-08)."
+      ]
+    ],
+    "bankbaroda": [
+      [
+        "2015-10-09",
+        "regulatory_probe",
+        false,
+        "CBI/ED/SFIO raids and arrests over the ~Rs 6,172cr Ashok Vihar branch forex remittance scam (Oct 2015). Action targeted branch-level officials (AGM + forex officer), not the company as a whole or named promoter/KMP -- PSU with no promoter; judged non-qualifying under Sec2.1.1's 'against the company, its promoters, or KMP' wording. Logged, not vetoed -- disclosed judgment call."
+      ]
+    ],
+    "zeel": [
+      [
+        "2019-01-25",
+        "promoter_conduct",
+        true,
+        "Essel Group promoter-linked entity (Nityank Infrapower, tied to demonetisation-era suspicious deposits per a Wire report) link disclosed; ZEEL stock fell ~33% same day on promoter-debt fears."
+      ],
+      [
+        "2019-02-03",
+        "promoter_conduct",
+        true,
+        "Lenders (Bank of Baroda, Credit Suisse) invoked and sold Essel-Group-pledged ZEEL shares."
+      ]
+    ],
+    "relcapital": [
+      [
+        "2019-06-11",
+        "auditor_event",
+        true,
+        "PwC resigned as statutory auditor of Reliance Capital (and Reliance Home Finance), effective 2019-06-11, citing an unsatisfactory management response to audit observations for FY19; announced/disclosed 2019-06-12."
+      ]
+    ],
+    "ilfstransport": [
+      [
+        "2018-09-06",
+        "associate_contagion",
+        true,
+        "Parent IL&FS Group's first disclosed default (missed Aug-28 commercial-paper payment, settled 2018-08-31, disclosed 2018-09-06), the start of the IL&FS Group default cascade through Sep-2018 -- documented in the parent's own filings/press and directly implicating this subsidiary."
+      ]
+    ]
+  }
+}
