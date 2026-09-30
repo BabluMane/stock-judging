@@ -1,0 +1,203 @@
+=== USABILITY (frozen v3.7 test, applied first) ===
+  tvsmotor_2019-03-31      USABLE    fired=none           (a) +0.0% @pub 2019-04-30 TTM=14.83 src=14.83; (b) no unexplained step
+  tvsmotor_2020-03-31      USABLE    fired=none           (a) +2.7% @pub 2020-05-28 TTM=13.5 src=13.15; (b) no unexplained step
+  jublfood_2019-03-31      USABLE    fired=none           (a) +0.0% @pub 2019-05-15 TTM=4.85 src=4.85; (b) no unexplained step
+  jublfood_2020-03-31      USABLE    fired=none           (a) +5.7% @pub 2020-05-20 TTM=4.48 src=4.24; (b) no unexplained step
+  tiindia_2020-03-31       USABLE    fired=none           (a) +4.2% @pub 2020-05-27 TTM=17.0 src=16.31; (b) no unexplained step
+  tiindia_2021-03-31       USABLE    fired=none           (a) +11.8% @pub 2021-06-17 TTM=15.96 src=14.28; (b) no unexplained step
+  kei_2019-03-31           USABLE    fired=none           (a) +7.5% @pub 2019-08-05 TTM=24.63 src=22.92; (b) no unexplained step
+  kei_2020-03-31           USABLE    fired=none           (a) +9.7% @pub 2020-05-30 TTM=31.41 src=28.64; (b) no unexplained step
+  pidilite_2019-03-31      USABLE    fired=none           (a) +1.4% @pub 2019-05-14 TTM=9.23 src=9.1; (b) no unexplained step
+  pidilite_2021-03-31      USABLE    fired=none           (a) +0.3% @pub 2021-05-12 TTM=11.16 src=11.13; (b) no unexplained step
+  emami_2019-03-31         USABLE    fired=none           (a) +2.5% @pub 2019-05-27 TTM=6.85 src=6.68; (b) no unexplained step
+  emami_2020-03-31         USABLE    fired=none           (a) +2.1% @pub 2020-06-26 TTM=6.81 src=6.67; (b) no unexplained step
+  marico_2019-03-31        USABLE    fired=none           (a) -0.2% @pub 2019-05-06 TTM=8.61 src=8.63; (b) no unexplained step
+  marico_2021-03-31        USABLE    fired=none           (a) -1.0% @pub 2021-04-30 TTM=8.99 src=9.08; (b) no unexplained step
+  ongc_2019-03-31          EXCLUDED  fired=(a)            (a) -29.5% @pub 2019-05-30 TTM=17.12 src=24.28 (>15%)
+  ongc_2021-03-31          USABLE    fired=none           (a) -5.3% @pub 2021-06-24 TTM=12.27 src=12.96; (b) no unexplained step
+  sunpharma_2019-03-31     EXCLUDED  fired=(a)            (a) +35.5% @pub 2019-05-27 TTM=15.05 src=11.11 (>15%)
+  sunpharma_2020-03-31     USABLE    fired=none           (a) +4.8% @pub 2020-05-27 TTM=16.45 src=15.69; (b) no unexplained step
+  nhpc_2019-03-31          USABLE    fired=none           (a) -2.5% @pub 2019-08-08 TTM=2.515 src=2.58; (b) no unexplained step
+  nhpc_2021-03-31          USABLE    fired=none           (a) +4.0% @pub 2021-06-10 TTM=3.39 src=3.26; (b) no unexplained step
+  gayatri_2019-03-31       EXCLUDED  fired=(a)            (a) -161.1% @pub 2019-05-30 TTM=-5.22 src=8.55 (>15%)
+  gayatri_2020-03-31       EXCLUDED  fired=(a)            sourced FY EPS non-positive (-3.1) while vendor TTM -3.1 @ 2020-06-30 -- basis defect (v3.9 harness rule)
+  sadbhav_2020-03-31       EXCLUDED  fired=(a)            (a) -124.0% @pub 2020-07-09 TTM=-11.11 src=46.21 (>15%)
+  sadbhav_2021-03-31       EXCLUDED  fired=(a)            sourced FY EPS non-positive (-9.03) while vendor TTM -10.45 @ 2021-06-30 -- basis defect (v3.9 harness rule)
+  srei_2020-03-31          USABLE    fired=exempt         financial variant -- exempt from check (a)/(b) per V3_7_DELTA s4
+
+19/25 usable
+
+=== VALUATION / QFV / GEV / FILLS ===
+  tvsmotor_2019-03-31      FV/sh=    382.60 P/FV@d0=  1.23 QFV=False GEV@score=False fills={'acc': '2020-03-27', 'inv': '2020-04-03'} status=ok
+  tvsmotor_2020-03-31      FV/sh=    384.38 P/FV@d0=  0.79 QFV=False GEV@score=False fills={'acc': '2020-04-03', 'inv': '2020-04-03'} status=ok
+  jublfood_2019-03-31      FV/sh=    106.24 P/FV@d0=  2.72 QFV=True GEV@score=False fills={'acc': None, 'inv': None, 'qfv': None} status=ok
+  jublfood_2020-03-31      FV/sh=    121.46 P/FV@d0=  2.33 QFV=False GEV@score=False fills={'acc': None, 'inv': None} status=ok
+  tiindia_2020-03-31       FV/sh=    272.72 P/FV@d0=  1.13 QFV=False GEV@score=False fills={'acc': None, 'inv': None} status=ok
+  tiindia_2021-03-31       FV/sh=    271.33 P/FV@d0=  4.11 QFV=False GEV@score=False fills={'acc': None, 'inv': None} status=ok
+  kei_2019-03-31           FV/sh=    885.39 P/FV@d0=  0.48 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  kei_2020-03-31           FV/sh=   1058.37 P/FV@d0=  0.24 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  pidilite_2019-03-31      FV/sh=    398.68 P/FV@d0=  1.56 QFV=True GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score', 'qfv': 'VETO@score'} status=ok
+  pidilite_2021-03-31      FV/sh=    397.81 P/FV@d0=  2.26 QFV=True GEV@score=False fills={'acc': None, 'inv': None, 'qfv': None} status=ok
+  emami_2019-03-31         FV/sh=    183.98 P/FV@d0=  2.17 QFV=True GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score', 'qfv': 'VETO@score'} status=ok
+  emami_2020-03-31         FV/sh=    150.97 P/FV@d0=  1.04 QFV=True GEV@score=False fills={'acc': None, 'inv': None, 'qfv': None} status=ok
+  marico_2019-03-31        FV/sh=    300.90 P/FV@d0=  1.15 QFV=True GEV@score=False fills={'acc': '2020-03-13', 'inv': None, 'qfv': '2020-02-28'} status=ok
+  marico_2021-03-31        FV/sh=    187.32 P/FV@d0=  2.15 QFV=True GEV@score=False fills={'acc': None, 'inv': None, 'qfv': None} status=ok
+  [SHADOW] ongc_2019-03-31          FV/sh=    738.45 P/FV@d0=  0.22 QFV=False GEV@score=False fills={'acc': '2019-04-05', 'inv': '2019-04-05'} status=ok
+  ongc_2021-03-31          FV/sh=    267.52 P/FV@d0=  0.38 QFV=False GEV@score=False fills={'acc': '2021-04-01', 'inv': '2021-04-01'} status=ok
+  [SHADOW] sunpharma_2019-03-31     FV/sh=    443.42 P/FV@d0=  1.08 QFV=True GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score', 'qfv': 'VETO@score'} status=ok
+  sunpharma_2020-03-31     FV/sh=    378.59 P/FV@d0=  0.89 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  nhpc_2019-03-31          FV/sh=     28.64 P/FV@d0=  0.86 QFV=False GEV@score=False fills={'acc': '2019-04-05', 'inv': '2020-03-27'} status=ok
+  nhpc_2021-03-31          FV/sh=     29.89 P/FV@d0=  0.78 QFV=False GEV@score=False fills={'acc': '2021-04-01', 'inv': None} status=ok
+  [SHADOW] gayatri_2019-03-31       FV/sh=    181.19 P/FV@d0=  0.88 QFV=False GEV@score=False fills={'acc': '2019-05-10', 'inv': '2019-08-23'} status=ok
+  [SHADOW] gayatri_2020-03-31       FV/sh=     92.63 P/FV@d0=  0.09 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  [SHADOW] sadbhav_2020-03-31       FV/sh=    604.71 P/FV@d0=  0.05 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  [SHADOW] sadbhav_2021-03-31       FV/sh=    220.71 P/FV@d0=  0.28 QFV=False GEV@score=True fills={'acc': 'VETO@score', 'inv': 'VETO@score'} status=ok
+  srei_2020-03-31          FV/sh=     29.35 P/FV@d0=  0.13 QFV=False GEV@score=False fills={'acc': '2020-04-03', 'inv': '2020-04-03'} status=ok
+
+=== SCORECARD (decisional, usable name-dates only) ===
+{
+ "blowup_fills": 1,
+ "blowup_fill_name_dates": [
+  "srei_2020-03-31"
+ ],
+ "winner_names_filled": [
+  "tvsmotor"
+ ],
+ "n_fills_to_t": 13,
+ "mean_to_t": 6.376538461538461,
+ "n_fills_24m": 13,
+ "mean_24m": 1.7410000000000005,
+ "qfv_fills": [
+  "marico_2019-03-31"
+ ],
+ "gev_vetoes": [
+  [
+   "kei_2019-03-31",
+   "at_scoring",
+   "2019-02-28"
+  ],
+  [
+   "kei_2020-03-31",
+   "at_scoring",
+   "2019-05-16"
+  ],
+  [
+   "pidilite_2019-03-31",
+   "at_scoring",
+   "2018-06-01"
+  ],
+  [
+   "emami_2019-03-31",
+   "at_scoring",
+   "2018-05-18"
+  ],
+  [
+   "sunpharma_2020-03-31",
+   "at_scoring",
+   "2019-09-04"
+  ]
+ ],
+ "fills_on_series_ended_before_run_date": [
+  [
+   "srei_2020-03-31",
+   "acc",
+   "2023-08-11"
+  ],
+  [
+   "srei_2020-03-31",
+   "inv",
+   "2023-08-11"
+  ]
+ ]
+}
+
+=== BLOW-UP ATTRIBUTION (reporting-only) ===
+{
+ "gayatri_2019-03-31": {
+  "usability": "EXCLUDED",
+  "fair_value_positive": true,
+  "fair_value": 181.19003201734213,
+  "tiers_touched_if_gev_off": [
+   "acc",
+   "inv"
+  ],
+  "tiers_actual_fills": [
+   "acc",
+   "inv"
+  ],
+  "tiers_blocked_by_gev": [],
+  "gev_veto_at_scoring": false,
+  "gev_event_at_scoring": null,
+  "primary_stopper": "usability gate"
+ },
+ "gayatri_2020-03-31": {
+  "usability": "EXCLUDED",
+  "fair_value_positive": true,
+  "fair_value": 92.62860595545676,
+  "tiers_touched_if_gev_off": [
+   "acc",
+   "inv"
+  ],
+  "tiers_actual_fills": [],
+  "tiers_blocked_by_gev": [
+   "acc",
+   "inv"
+  ],
+  "gev_veto_at_scoring": true,
+  "gev_event_at_scoring": "2019-11-13",
+  "primary_stopper": "usability gate"
+ },
+ "sadbhav_2020-03-31": {
+  "usability": "EXCLUDED",
+  "fair_value_positive": true,
+  "fair_value": 604.7148377454827,
+  "tiers_touched_if_gev_off": [
+   "acc",
+   "inv"
+  ],
+  "tiers_actual_fills": [],
+  "tiers_blocked_by_gev": [
+   "acc",
+   "inv"
+  ],
+  "gev_veto_at_scoring": true,
+  "gev_event_at_scoring": "2019-06-26",
+  "primary_stopper": "usability gate"
+ },
+ "sadbhav_2021-03-31": {
+  "usability": "EXCLUDED",
+  "fair_value_positive": true,
+  "fair_value": 220.7125440769078,
+  "tiers_touched_if_gev_off": [
+   "acc",
+   "inv"
+  ],
+  "tiers_actual_fills": [],
+  "tiers_blocked_by_gev": [
+   "acc",
+   "inv"
+  ],
+  "gev_veto_at_scoring": true,
+  "gev_event_at_scoring": "2020-04-01",
+  "primary_stopper": "usability gate"
+ },
+ "srei_2020-03-31": {
+  "usability": "USABLE",
+  "fair_value_positive": true,
+  "fair_value": 29.34853003656588,
+  "tiers_touched_if_gev_off": [
+   "acc",
+   "inv"
+  ],
+  "tiers_actual_fills": [
+   "acc",
+   "inv"
+  ],
+  "tiers_blocked_by_gev": [],
+  "gev_veto_at_scoring": false,
+  "gev_event_at_scoring": null,
+  "primary_stopper": "NOT STOPPED -- fill"
+ }
+}
+
+Wrote oos_results_v311.json

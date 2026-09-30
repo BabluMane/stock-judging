@@ -1,0 +1,3264 @@
+{
+  "usability": {
+    "tvsmotor_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +0.0% @pub 2019-04-30 TTM=14.83 src=14.83; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 14.83,
+      "vendor_ttm": 14.83,
+      "results_week": "2019-04-30"
+    },
+    "tvsmotor_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +2.7% @pub 2020-05-28 TTM=13.5 src=13.15; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 13.15,
+      "vendor_ttm": 13.5,
+      "results_week": "2020-05-28"
+    },
+    "jublfood_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +0.0% @pub 2019-05-15 TTM=4.85 src=4.85; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [
+          [
+            "2022-04-19",
+            "5:1"
+          ]
+        ],
+        "cumulative_factor": 5.0,
+        "implied_shares_ratio": 1.006,
+        "factor": 1.0,
+        "restate": false,
+        "basis": "already on vendor post-action basis (implied shares Mar 2019->Mar 2023 x1.01 ~ 1, not x5.00)"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 4.85,
+      "vendor_ttm": 4.85,
+      "results_week": "2019-05-15"
+    },
+    "jublfood_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +5.7% @pub 2020-05-20 TTM=4.48 src=4.24; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [
+          [
+            "2022-04-19",
+            "5:1"
+          ]
+        ],
+        "cumulative_factor": 5.0,
+        "implied_shares_ratio": 1.003,
+        "factor": 1.0,
+        "restate": false,
+        "basis": "already on vendor post-action basis (implied shares Mar 2020->Mar 2023 x1.00 ~ 1, not x5.00)"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 4.24,
+      "vendor_ttm": 4.48,
+      "results_week": "2020-05-20"
+    },
+    "tiindia_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +4.2% @pub 2020-05-27 TTM=17.0 src=16.31; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 16.31,
+      "vendor_ttm": 17.0,
+      "results_week": "2020-05-27"
+    },
+    "tiindia_2021-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +11.8% @pub 2021-06-17 TTM=15.96 src=14.28; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 14.28,
+      "vendor_ttm": 15.96,
+      "results_week": "2021-06-17"
+    },
+    "kei_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +7.5% @pub 2019-08-05 TTM=24.63 src=22.92; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 22.92,
+      "vendor_ttm": 24.63,
+      "results_week": "2019-08-05"
+    },
+    "kei_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +9.7% @pub 2020-05-30 TTM=31.41 src=28.64; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 28.64,
+      "vendor_ttm": 31.41,
+      "results_week": "2020-05-30"
+    },
+    "pidilite_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +1.4% @pub 2019-05-14 TTM=9.23 src=9.1; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [
+          [
+            "2025-09-23",
+            "2:1"
+          ]
+        ],
+        "cumulative_factor": 2.0,
+        "implied_shares_ratio": 1.007,
+        "factor": 1.0,
+        "restate": false,
+        "basis": "already on vendor post-action basis (implied shares Mar 2019->Mar 2026 x1.01 ~ 1, not x2.00)"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 9.1,
+      "vendor_ttm": 9.23,
+      "results_week": "2019-05-14"
+    },
+    "pidilite_2021-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +0.3% @pub 2021-05-12 TTM=11.16 src=11.13; (b) no unexplained step",
+      "category": "winner",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [
+          [
+            "2025-09-23",
+            "2:1"
+          ]
+        ],
+        "cumulative_factor": 2.0,
+        "implied_shares_ratio": 1.015,
+        "factor": 1.0,
+        "restate": false,
+        "basis": "already on vendor post-action basis (implied shares Mar 2021->Mar 2026 x1.02 ~ 1, not x2.00)"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 11.13,
+      "vendor_ttm": 11.16,
+      "results_week": "2021-05-12"
+    },
+    "emami_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +2.5% @pub 2019-05-27 TTM=6.85 src=6.68; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 6.68,
+      "vendor_ttm": 6.85,
+      "results_week": "2019-05-27"
+    },
+    "emami_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +2.1% @pub 2020-06-26 TTM=6.81 src=6.67; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 6.67,
+      "vendor_ttm": 6.81,
+      "results_week": "2020-06-26"
+    },
+    "marico_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) -0.2% @pub 2019-05-06 TTM=8.61 src=8.63; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 8.63,
+      "vendor_ttm": 8.61,
+      "results_week": "2019-05-06"
+    },
+    "marico_2021-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) -1.0% @pub 2021-04-30 TTM=8.99 src=9.08; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 9.08,
+      "vendor_ttm": 8.99,
+      "results_week": "2021-04-30"
+    },
+    "ongc_2019-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "(a) -29.5% @pub 2019-05-30 TTM=17.12 src=24.28 (>15%)",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 24.28,
+      "vendor_ttm": 17.12,
+      "results_week": "2019-05-30"
+    },
+    "ongc_2021-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) -5.3% @pub 2021-06-24 TTM=12.27 src=12.96; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 12.96,
+      "vendor_ttm": 12.27,
+      "results_week": "2021-06-24"
+    },
+    "sunpharma_2019-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "(a) +35.5% @pub 2019-05-27 TTM=15.05 src=11.11 (>15%)",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 11.11,
+      "vendor_ttm": 15.05,
+      "results_week": "2019-05-27"
+    },
+    "sunpharma_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +4.8% @pub 2020-05-27 TTM=16.45 src=15.69; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 15.69,
+      "vendor_ttm": 16.45,
+      "results_week": "2020-05-27"
+    },
+    "nhpc_2019-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) -2.5% @pub 2019-08-08 TTM=2.515 src=2.58; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 2.58,
+      "vendor_ttm": 2.515,
+      "results_week": "2019-08-08"
+    },
+    "nhpc_2021-03-31": {
+      "verdict": "USABLE",
+      "fired": "none",
+      "reason": "(a) +4.0% @pub 2021-06-10 TTM=3.39 src=3.26; (b) no unexplained step",
+      "category": "mediocre",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 3.26,
+      "vendor_ttm": 3.39,
+      "results_week": "2021-06-10"
+    },
+    "gayatri_2019-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "(a) -161.1% @pub 2019-05-30 TTM=-5.22 src=8.55 (>15%)",
+      "category": "blowup",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 8.55,
+      "vendor_ttm": -5.22,
+      "results_week": "2019-05-30"
+    },
+    "gayatri_2020-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "sourced FY EPS non-positive (-3.1) while vendor TTM -3.1 @ 2020-06-30 -- basis defect (v3.9 harness rule)",
+      "category": "blowup",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": -3.1,
+      "vendor_ttm": -3.1,
+      "results_week": "2020-06-30"
+    },
+    "sadbhav_2020-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "(a) -124.0% @pub 2020-07-09 TTM=-11.11 src=46.21 (>15%)",
+      "category": "blowup",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": 46.21,
+      "vendor_ttm": -11.11,
+      "results_week": "2020-07-09"
+    },
+    "sadbhav_2021-03-31": {
+      "verdict": "EXCLUDED",
+      "fired": "(a)",
+      "reason": "sourced FY EPS non-positive (-9.03) while vendor TTM -10.45 @ 2021-06-30 -- basis defect (v3.9 harness rule)",
+      "category": "blowup",
+      "financial_variant": false,
+      "basis": {
+        "actions_after_fy_end": [],
+        "factor": 1.0,
+        "restate": false,
+        "basis": "no action after FY-end"
+      },
+      "check_b_unexplained_steps": [],
+      "sourced_eps": -9.03,
+      "vendor_ttm": -10.45,
+      "results_week": "2021-06-30"
+    },
+    "srei_2020-03-31": {
+      "verdict": "USABLE",
+      "fired": "exempt",
+      "reason": "financial variant -- exempt from check (a)/(b) per V3_7_DELTA s4",
+      "category": "blowup",
+      "financial_variant": true
+    }
+  },
+  "results": {
+    "tvsmotor_2019-03-31": {
+      "status": "ok",
+      "fv": 382.5958534542124,
+      "fv_alt_roe_convention": 382.5958534542124,
+      "shares_cr": 47.509899780004886,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1135,
+        "beta": 1.1,
+        "g": 0.15,
+        "margin_start": 0.11,
+        "margin_end": 0.082,
+        "dep_pct": 0.0221,
+        "net_cash_cr": -8858.0,
+        "roe_avg3": 0.2355,
+        "payout": 0.24,
+        "payout_raw": 24.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.2296
+          ],
+          [
+            "Mar 2018",
+            0.2483
+          ],
+          [
+            "Mar 2019",
+            0.2286
+          ]
+        ],
+        "shares_cr": 47.51,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 47.51
+      },
+      "price_at_d0": 470.9,
+      "price_over_fv_d0": 1.230802675325794,
+      "min_close_24m_over_fv": 0.6611415092878734,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 334.77,
+        "inv": 267.82
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(b) median OCF/PAT=0.53 < 0.85",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2020-03-27",
+          "fill_price": 303.95,
+          "trigger": 334.77,
+          "fwd_24m": 1.984,
+          "fwd_truncated": false,
+          "to_latest": 13.46,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 267.82,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-03-27",
+          "fill_price": 303.95,
+          "trigger": 334.77,
+          "fwd_24m": 1.984,
+          "fwd_truncated": false,
+          "to_latest": 13.46,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 267.82,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "tvsmotor_2020-03-31": {
+      "status": "ok",
+      "fv": 384.3802343898292,
+      "fv_alt_roe_convention": 384.3802343898292,
+      "shares_cr": 47.509899780004886,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1135,
+        "beta": 1.1,
+        "g": 0.15,
+        "margin_start": 0.12,
+        "margin_end": 0.094,
+        "dep_pct": 0.0246,
+        "net_cash_cr": -11220.0,
+        "roe_avg3": 0.2247,
+        "payout": 0.27,
+        "payout_raw": 27.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.2483
+          ],
+          [
+            "Mar 2019",
+            0.2286
+          ],
+          [
+            "Mar 2020",
+            0.1971
+          ]
+        ],
+        "shares_cr": 47.51,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 47.51
+      },
+      "price_at_d0": 303.95,
+      "price_over_fv_d0": 0.7907534592211659,
+      "min_close_24m_over_fv": 0.6580723392334066,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 336.33,
+        "inv": 269.07
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(b) median OCF/PAT=0.58 < 0.85",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 336.33,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 269.07,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 336.33,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 252.95,
+          "trigger": 269.07,
+          "fwd_24m": 2.486,
+          "fwd_truncated": false,
+          "to_latest": 16.174,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "jublfood_2019-03-31": {
+      "status": "ok",
+      "fv": 106.23766143951673,
+      "fv_alt_roe_convention": 93.04610828320715,
+      "shares_cr": 65.98488120950324,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1035,
+        "beta": 0.85,
+        "g": 0.1388,
+        "margin_start": 0.17,
+        "margin_end": 0.128,
+        "dep_pct": 0.0516,
+        "net_cash_cr": 181.0,
+        "roe_avg3": 0.1756,
+        "payout": 0.21,
+        "payout_raw": 21.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.072
+          ],
+          [
+            "Mar 2018",
+            0.2025
+          ],
+          [
+            "Mar 2019",
+            0.2524
+          ]
+        ],
+        "shares_cr": 65.985,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 65.985
+      },
+      "price_at_d0": 288.8,
+      "price_over_fv_d0": 2.7184333322737886,
+      "min_close_24m_over_fv": 2.0953962745757204,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 92.96,
+        "inv": 74.37,
+        "qfv": 106.24
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=27.0% (min 13.0%), median OCF/PAT=2.19, D/E=0.00, mcap@d0~Rs19056cr",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2018-01-31",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "jublfood_2020-03-31": {
+      "status": "ok",
+      "fv": 121.46121953025981,
+      "fv_alt_roe_convention": 121.46121953025981,
+      "shares_cr": 65.98488120950324,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1035,
+        "beta": 0.85,
+        "g": 0.15,
+        "margin_start": 0.22,
+        "margin_end": 0.148,
+        "dep_pct": 0.0598,
+        "net_cash_cr": -1619.0,
+        "roe_avg3": 0.2345,
+        "payout": 0.28,
+        "payout_raw": 28.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.2025
+          ],
+          [
+            "Mar 2019",
+            0.2524
+          ],
+          [
+            "Mar 2020",
+            0.2487
+          ]
+        ],
+        "shares_cr": 65.985,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 65.985
+      },
+      "price_at_d0": 282.83,
+      "price_over_fv_d0": 2.328562162423687,
+      "min_close_24m_over_fv": 2.136978378809505,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 106.28,
+        "inv": 85.02
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(c) D/E=1.4884135472370768 > 0.5",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2018-01-31",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "tiindia_2020-03-31": {
+      "status": "ok",
+      "fv": 272.7202685609366,
+      "fv_alt_roe_convention": 244.56523649467357,
+      "shares_cr": 19.357231661831744,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1115,
+        "beta": 1.05,
+        "g": 0.1246,
+        "margin_start": 0.12,
+        "margin_end": 0.0925,
+        "dep_pct": 0.0328,
+        "net_cash_cr": -228.0,
+        "roe_avg3": 0.1577,
+        "payout": 0.21,
+        "payout_raw": 21.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.1225
+          ],
+          [
+            "Mar 2019",
+            0.1701
+          ],
+          [
+            "Mar 2020",
+            0.1805
+          ]
+        ],
+        "shares_cr": 19.357,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 19.357
+      },
+      "price_at_d0": 307.7,
+      "price_over_fv_d0": 1.1282623093019122,
+      "min_close_24m_over_fv": 1.0057924973724879,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 238.63,
+        "inv": 190.9
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) ROIC/ROCE trailing-5FY series unavailable -- not QFV-qualified",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2021-06-17",
+          "auditor_event"
+        ],
+        [
+          "2022-12-23",
+          "associate_contagion"
+        ]
+      ],
+      "gev_active_closes_in_window": 41,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2021-06-18",
+      "gev_last_active_in_window": "2022-03-25",
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "tiindia_2021-03-31": {
+      "status": "ok",
+      "fv": 271.3302399656304,
+      "fv_alt_roe_convention": 211.74460850336635,
+      "shares_cr": 19.357231661831744,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1115,
+        "beta": 1.05,
+        "g": 0.1186,
+        "margin_start": 0.11,
+        "margin_end": 0.096,
+        "dep_pct": 0.0345,
+        "net_cash_cr": -1603.0,
+        "roe_avg3": 0.1581,
+        "payout": 0.25,
+        "payout_raw": 25.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2019",
+            0.1701
+          ],
+          [
+            "Mar 2020",
+            0.1805
+          ],
+          [
+            "Mar 2021",
+            0.1237
+          ]
+        ],
+        "shares_cr": 19.357,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 19.357
+      },
+      "price_at_d0": 1116.5,
+      "price_over_fv_d0": 4.11491177740243,
+      "min_close_24m_over_fv": 4.0152177661362085,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 237.41,
+        "inv": 189.93
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(c) D/E=0.8529411764705882 > 0.5",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2021-06-17",
+          "auditor_event"
+        ],
+        [
+          "2022-12-23",
+          "associate_contagion"
+        ]
+      ],
+      "gev_active_closes_in_window": 67,
+      "window_closes": 105,
+      "gev_first_active_in_window": "2021-06-18",
+      "gev_last_active_in_window": "2023-03-31",
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "kei_2019-03-31": {
+      "status": "ok",
+      "fv": 885.386998306118,
+      "fv_alt_roe_convention": 885.386998306118,
+      "shares_cr": 9.559964133602332,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1095,
+        "beta": 1.0,
+        "g": 0.15,
+        "margin_start": 0.1,
+        "margin_end": 0.1,
+        "dep_pct": 0.0102,
+        "net_cash_cr": -597.0,
+        "roe_avg3": 0.2253,
+        "payout": 0.05,
+        "payout_raw": 5.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.2035
+          ],
+          [
+            "Mar 2018",
+            0.2397
+          ],
+          [
+            "Mar 2019",
+            0.2326
+          ]
+        ],
+        "shares_cr": 9.56,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 9.56
+      },
+      "price_at_d0": 425.6,
+      "price_over_fv_d0": 0.480693754046805,
+      "min_close_24m_over_fv": 0.2882355404904714,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 774.71,
+        "inv": 619.77
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) ROIC/ROCE trailing-5FY series unavailable -- not QFV-qualified",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-02-28",
+      "gev_tag_at_scoring": "regulatory_probe",
+      "gev_events_logged": [
+        [
+          "2019-02-28",
+          "regulatory_probe"
+        ],
+        [
+          "2019-05-16",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 58,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2019-04-05",
+      "gev_last_active_in_window": "2020-05-08",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-02-28",
+          "gev_tag": "regulatory_probe"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-02-28",
+          "gev_tag": "regulatory_probe"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2019-04-05",
+          "fill_price": 410.35,
+          "trigger": 774.71,
+          "fwd_24m": 1.288,
+          "fwd_truncated": false,
+          "to_latest": 10.881,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2019-04-05",
+          "fill_price": 410.35,
+          "trigger": 619.77,
+          "fwd_24m": 1.288,
+          "fwd_truncated": false,
+          "to_latest": 10.881,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "kei_2020-03-31": {
+      "status": "ok",
+      "fv": 1058.3702982174188,
+      "fv_alt_roe_convention": 859.9157005486071,
+      "shares_cr": 9.559964133602332,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1095,
+        "beta": 1.0,
+        "g": 0.15,
+        "margin_start": 0.1,
+        "margin_end": 0.1,
+        "dep_pct": 0.01,
+        "net_cash_cr": -366.0,
+        "roe_avg3": 0.2141,
+        "payout": 0.05,
+        "payout_raw": 5.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.2397
+          ],
+          [
+            "Mar 2019",
+            0.2326
+          ],
+          [
+            "Mar 2020",
+            0.1699
+          ]
+        ],
+        "shares_cr": 9.56,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 9.56
+      },
+      "price_at_d0": 255.2,
+      "price_over_fv_d0": 0.24112543637120737,
+      "min_close_24m_over_fv": 0.25515644236694573,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 926.07,
+        "inv": 740.86
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(d) market cap at scoring date ~Rs2440cr < Rs5,000cr",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-05-16",
+      "gev_tag_at_scoring": "regulatory_probe",
+      "gev_events_logged": [
+        [
+          "2019-02-28",
+          "regulatory_probe"
+        ],
+        [
+          "2019-05-16",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 6,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2020-04-03",
+      "gev_last_active_in_window": "2020-05-08",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-05-16",
+          "gev_tag": "regulatory_probe"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-05-16",
+          "gev_tag": "regulatory_probe"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 295.15,
+          "trigger": 926.07,
+          "fwd_24m": 4.225,
+          "fwd_truncated": false,
+          "to_latest": 15.128,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 295.15,
+          "trigger": 740.86,
+          "fwd_24m": 4.225,
+          "fwd_truncated": false,
+          "to_latest": 15.128,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "pidilite_2019-03-31": {
+      "status": "ok",
+      "fv": 398.68126440681675,
+      "fv_alt_roe_convention": 375.5882805660548,
+      "shares_cr": 101.85420944558521,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0975,
+        "beta": 0.7,
+        "g": 0.15,
+        "margin_start": 0.19,
+        "margin_end": 0.202,
+        "dep_pct": 0.0204,
+        "net_cash_cr": 1435.0,
+        "roe_avg3": 0.2475,
+        "payout": 0.36,
+        "payout_raw": 36.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.2486
+          ],
+          [
+            "Mar 2018",
+            0.2703
+          ],
+          [
+            "Mar 2019",
+            0.2237
+          ]
+        ],
+        "shares_cr": 101.854,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 101.854
+      },
+      "price_at_d0": 623.13,
+      "price_over_fv_d0": 1.5629778864254689,
+      "min_close_24m_over_fv": 1.4575553252159903,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 348.85,
+        "inv": 279.08,
+        "qfv": 398.68
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=36.0% (min 32.0%), median OCF/PAT=0.92, D/E=0.03, mcap@d0~Rs63468cr",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2018-06-01",
+      "gev_tag_at_scoring": "promoter_conduct",
+      "gev_events_logged": [
+        [
+          "2017-09-02",
+          "promoter_conduct"
+        ],
+        [
+          "2018-06-01",
+          "promoter_conduct"
+        ],
+        [
+          "2019-03-18",
+          "promoter_conduct"
+        ],
+        [
+          "2019-04-08",
+          "promoter_conduct"
+        ],
+        [
+          "2019-06-28",
+          "promoter_conduct"
+        ],
+        [
+          "2019-07-26",
+          "promoter_conduct"
+        ],
+        [
+          "2019-12-02",
+          "promoter_conduct"
+        ],
+        [
+          "2019-12-27",
+          "promoter_conduct"
+        ],
+        [
+          "2020-02-26",
+          "promoter_conduct"
+        ]
+      ],
+      "gev_active_closes_in_window": 99,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2019-04-05",
+      "gev_last_active_in_window": "2021-02-19",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-06-01",
+          "gev_tag": "promoter_conduct"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-06-01",
+          "gev_tag": "promoter_conduct"
+        },
+        "qfv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-06-01",
+          "gev_tag": "promoter_conduct"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "pidilite_2021-03-31": {
+      "status": "ok",
+      "fv": 397.8053552940697,
+      "fv_alt_roe_convention": 336.07803623915976,
+      "shares_cr": 101.85420944558521,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0975,
+        "beta": 0.7,
+        "g": 0.1399,
+        "margin_start": 0.23,
+        "margin_end": 0.216,
+        "dep_pct": 0.022,
+        "net_cash_cr": 185.0,
+        "roe_avg3": 0.2256,
+        "payout": 0.38,
+        "payout_raw": 38.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2019",
+            0.2237
+          ],
+          [
+            "Mar 2020",
+            0.2518
+          ],
+          [
+            "Mar 2021",
+            0.2013
+          ]
+        ],
+        "shares_cr": 101.854,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 101.854
+      },
+      "price_at_d0": 900.18,
+      "price_over_fv_d0": 2.262865464278528,
+      "min_close_24m_over_fv": 2.2421769544571455,
+      "category": "winner",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 348.08,
+        "inv": 278.46,
+        "qfv": 397.81
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=33.0% (min 28.0%), median OCF/PAT=0.92, D/E=0.06, mcap@d0~Rs91687cr",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2017-09-02",
+          "promoter_conduct"
+        ],
+        [
+          "2018-06-01",
+          "promoter_conduct"
+        ],
+        [
+          "2019-03-18",
+          "promoter_conduct"
+        ],
+        [
+          "2019-04-08",
+          "promoter_conduct"
+        ],
+        [
+          "2019-06-28",
+          "promoter_conduct"
+        ],
+        [
+          "2019-07-26",
+          "promoter_conduct"
+        ],
+        [
+          "2019-12-02",
+          "promoter_conduct"
+        ],
+        [
+          "2019-12-27",
+          "promoter_conduct"
+        ],
+        [
+          "2020-02-26",
+          "promoter_conduct"
+        ]
+      ],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 105,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "emami_2019-03-31": {
+      "status": "ok",
+      "fv": 183.9765254930704,
+      "fv_alt_roe_convention": 177.7414330248656,
+      "shares_cr": 43.656167979002625,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0975,
+        "beta": 0.7,
+        "g": 0.0655,
+        "margin_start": 0.27,
+        "margin_end": 0.282,
+        "dep_pct": 0.0984,
+        "net_cash_cr": 77.0,
+        "roe_avg3": 0.1639,
+        "payout": 0.6,
+        "payout_raw": 60.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.1937
+          ],
+          [
+            "Mar 2018",
+            0.1519
+          ],
+          [
+            "Mar 2019",
+            0.146
+          ]
+        ],
+        "shares_cr": 43.656,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 43.656
+      },
+      "price_at_d0": 400.0,
+      "price_over_fv_d0": 2.1741904241748835,
+      "min_close_24m_over_fv": 0.8501084558523795,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 160.98,
+        "inv": 128.78,
+        "qfv": 183.98
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=23.0% (min 19.0%), median OCF/PAT=1.83, D/E=0.05, mcap@d0~Rs17462cr",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2018-05-18",
+      "gev_tag_at_scoring": "regulatory_probe",
+      "gev_events_logged": [
+        [
+          "2018-05-18",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 8,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2019-04-05",
+      "gev_last_active_in_window": "2019-05-24",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-05-18",
+          "gev_tag": "regulatory_probe"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-05-18",
+          "gev_tag": "regulatory_probe"
+        },
+        "qfv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2018-05-18",
+          "gev_tag": "regulatory_probe"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-03-27",
+          "fill_price": 156.4,
+          "trigger": 160.98,
+          "fwd_24m": 2.874,
+          "fwd_truncated": false,
+          "to_latest": 2.436,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill_date": "2020-03-27",
+          "fill_price": 156.4,
+          "trigger": 183.98,
+          "fwd_24m": 2.874,
+          "fwd_truncated": false,
+          "to_latest": 2.436,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "emami_2020-03-31": {
+      "status": "ok",
+      "fv": 150.9739576023485,
+      "fv_alt_roe_convention": 156.65032588900496,
+      "shares_cr": 43.656167979002625,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0975,
+        "beta": 0.7,
+        "g": 0.0618,
+        "margin_start": 0.26,
+        "margin_end": 0.282,
+        "dep_pct": 0.1205,
+        "net_cash_cr": -54.0,
+        "roe_avg3": 0.1545,
+        "payout": 0.6,
+        "payout_raw": 60.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.1519
+          ],
+          [
+            "Mar 2019",
+            0.146
+          ],
+          [
+            "Mar 2020",
+            0.1657
+          ]
+        ],
+        "shares_cr": 43.656,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 43.656
+      },
+      "price_at_d0": 156.4,
+      "price_over_fv_d0": 1.035940254092982,
+      "min_close_24m_over_fv": 1.2031876416623415,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 132.1,
+        "inv": 105.68,
+        "qfv": 150.97
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=22.0% (min 18.0%), median OCF/PAT=1.83, D/E=0.12, mcap@d0~Rs6828cr",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2018-05-18",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "marico_2019-03-31": {
+      "status": "ok",
+      "fv": 300.9012362084822,
+      "fv_alt_roe_convention": 278.1484596071584,
+      "shares_cr": 130.04574332909783,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0935,
+        "beta": 0.6,
+        "g": 0.15,
+        "margin_start": 0.18,
+        "margin_end": 0.176,
+        "dep_pct": 0.0155,
+        "net_cash_cr": 98.0,
+        "roe_avg3": 0.3513,
+        "payout": 0.55,
+        "payout_raw": 55.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.3487
+          ],
+          [
+            "Mar 2018",
+            0.3252
+          ],
+          [
+            "Mar 2019",
+            0.3802
+          ]
+        ],
+        "shares_cr": 130.046,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 130.046
+      },
+      "price_at_d0": 345.25,
+      "price_over_fv_d0": 1.1473864459659127,
+      "min_close_24m_over_fv": 0.8411397812424982,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 263.29,
+        "inv": 210.63,
+        "qfv": 300.9
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=42.0% (min 38.0%), median OCF/PAT=0.94, D/E=0.12, mcap@d0~Rs44898cr",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2020-03-13",
+          "fill_price": 260.8,
+          "trigger": 263.29,
+          "fwd_24m": 1.945,
+          "fwd_truncated": false,
+          "to_latest": 3.041,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill_date": "2020-02-28",
+          "fill_price": 298.55,
+          "trigger": 300.9,
+          "fwd_24m": 1.658,
+          "fwd_truncated": false,
+          "to_latest": 2.656,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-03-13",
+          "fill_price": 260.8,
+          "trigger": 263.29,
+          "fwd_24m": 1.945,
+          "fwd_truncated": false,
+          "to_latest": 3.041,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill_date": "2020-02-28",
+          "fill_price": 298.55,
+          "trigger": 300.9,
+          "fwd_24m": 1.658,
+          "fwd_truncated": false,
+          "to_latest": 2.656,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "marico_2021-03-31": {
+      "status": "ok",
+      "fv": 187.32334294909137,
+      "fv_alt_roe_convention": 183.05171238112874,
+      "shares_cr": 130.04574332909783,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0935,
+        "beta": 0.6,
+        "g": 0.0621,
+        "margin_start": 0.2,
+        "margin_end": 0.192,
+        "dep_pct": 0.0167,
+        "net_cash_cr": 343.0,
+        "roe_avg3": 0.3651,
+        "payout": 0.83,
+        "payout_raw": 83.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2019",
+            0.3802
+          ],
+          [
+            "Mar 2020",
+            0.345
+          ],
+          [
+            "Mar 2021",
+            0.3701
+          ]
+        ],
+        "shares_cr": 130.046,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 130.046
+      },
+      "price_at_d0": 401.95,
+      "price_over_fv_d0": 2.145755001336045,
+      "min_close_24m_over_fv": 2.1737814070009644,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 163.91,
+        "inv": 131.13,
+        "qfv": 187.32
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=43.0% (min 42.0%), median OCF/PAT=0.94, D/E=0.16, mcap@d0~Rs52272cr",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 105,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "ongc_2019-03-31": {
+      "status": "ok",
+      "fv": 738.4451323373453,
+      "fv_alt_roe_convention": 707.7171460969462,
+      "shares_cr": 1258.0260869565218,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1095,
+        "beta": 1.0,
+        "g": 0.1028,
+        "margin_start": 0.18,
+        "margin_end": 0.226,
+        "dep_pct": 0.0887,
+        "net_cash_cr": -40833.0,
+        "roe_avg3": 0.1448,
+        "payout": 0.29,
+        "payout_raw": 29.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.1501
+          ],
+          [
+            "Mar 2018",
+            0.1278
+          ],
+          [
+            "Mar 2019",
+            0.1564
+          ]
+        ],
+        "shares_cr": 1258.026,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 1258.026
+      },
+      "price_at_d0": 159.75,
+      "price_over_fv_d0": 0.21633293118793437,
+      "min_close_24m_over_fv": 0.08727798068896632,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 646.14,
+        "inv": 516.91
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=14.0% min=13.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2019-04-05",
+          "fill_price": 156.55,
+          "trigger": 646.14,
+          "fwd_24m": 0.667,
+          "fwd_truncated": false,
+          "to_latest": 1.469,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2019-04-05",
+          "fill_price": 156.55,
+          "trigger": 516.91,
+          "fwd_24m": 0.667,
+          "fwd_truncated": false,
+          "to_latest": 1.469,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2019-04-05",
+          "fill_price": 156.55,
+          "trigger": 646.14,
+          "fwd_24m": 0.667,
+          "fwd_truncated": false,
+          "to_latest": 1.469,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2019-04-05",
+          "fill_price": 156.55,
+          "trigger": 516.91,
+          "fwd_24m": 0.667,
+          "fwd_truncated": false,
+          "to_latest": 1.469,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "ongc_2021-03-31": {
+      "status": "ok",
+      "fv": 267.5188529636383,
+      "fv_alt_roe_convention": 263.69096748209125,
+      "shares_cr": 1258.0260869565218,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1095,
+        "beta": 1.0,
+        "g": 0.0742,
+        "margin_start": 0.16,
+        "margin_end": 0.168,
+        "dep_pct": 0.0701,
+        "net_cash_cr": -72867.0,
+        "roe_avg3": 0.103,
+        "payout": 0.28,
+        "payout_raw": 28.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2019",
+            0.1564
+          ],
+          [
+            "Mar 2020",
+            0.0559
+          ],
+          [
+            "Mar 2021",
+            0.0967
+          ]
+        ],
+        "shares_cr": 1258.026,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 1258.026
+      },
+      "price_at_d0": 102.4,
+      "price_over_fv_d0": 0.3827767608360612,
+      "min_close_24m_over_fv": 0.3827767608360612,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 234.08,
+        "inv": 187.26
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=14.0% min=9.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 105,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2021-04-01",
+          "fill_price": 104.35,
+          "trigger": 234.08,
+          "fwd_24m": 1.448,
+          "fwd_truncated": false,
+          "to_latest": 2.204,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2021-04-01",
+          "fill_price": 104.35,
+          "trigger": 187.26,
+          "fwd_24m": 1.448,
+          "fwd_truncated": false,
+          "to_latest": 2.204,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2021-04-01",
+          "fill_price": 104.35,
+          "trigger": 234.08,
+          "fwd_24m": 1.448,
+          "fwd_truncated": false,
+          "to_latest": 2.204,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2021-04-01",
+          "fill_price": 104.35,
+          "trigger": 187.26,
+          "fwd_24m": 1.448,
+          "fwd_truncated": false,
+          "to_latest": 2.204,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "sunpharma_2019-03-31": {
+      "status": "ok",
+      "fv": 443.4174275574568,
+      "fv_alt_roe_convention": 418.7855437248796,
+      "shares_cr": 239.93351206434318,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1035,
+        "beta": 0.85,
+        "g": 0.0895,
+        "margin_start": 0.22,
+        "margin_end": 0.266,
+        "dep_pct": 0.0474,
+        "net_cash_cr": -2611.0,
+        "roe_avg3": 0.1193,
+        "payout": 0.25,
+        "payout_raw": 25.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.2141
+          ],
+          [
+            "Mar 2018",
+            0.0663
+          ],
+          [
+            "Mar 2019",
+            0.0775
+          ]
+        ],
+        "shares_cr": 239.934,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 239.934
+      },
+      "price_at_d0": 478.85,
+      "price_over_fv_d0": 1.0799079383003096,
+      "min_close_24m_over_fv": 0.7628252273782598,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 387.99,
+        "inv": 310.39,
+        "qfv": 443.42
+      },
+      "qfv_qualified": true,
+      "qfv_reason": "QFV-qualified: median ROIC=18.0% (min 10.0%), median OCF/PAT=1.03, D/E=0.25, mcap@d0~Rs114892cr",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-03-05",
+      "gev_tag_at_scoring": "regulatory_probe",
+      "gev_events_logged": [
+        [
+          "2017-08-10",
+          "regulatory_probe"
+        ],
+        [
+          "2019-03-05",
+          "regulatory_probe"
+        ],
+        [
+          "2019-09-04",
+          "regulatory_probe"
+        ],
+        [
+          "2020-02-21",
+          "regulatory_probe"
+        ],
+        [
+          "2020-07-27",
+          "regulatory_probe"
+        ],
+        [
+          "2021-02-11",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 104,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2019-04-05",
+      "gev_last_active_in_window": "2021-03-26",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-03-05",
+          "gev_tag": "regulatory_probe"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-03-05",
+          "gev_tag": "regulatory_probe"
+        },
+        "qfv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-03-05",
+          "gev_tag": "regulatory_probe"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2019-06-21",
+          "fill_price": 382.8,
+          "trigger": 387.99,
+          "fwd_24m": 1.746,
+          "fwd_truncated": false,
+          "to_latest": 4.872,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        },
+        "qfv": {
+          "fill_date": "2019-05-10",
+          "fill_price": 437.75,
+          "trigger": 443.42,
+          "fwd_24m": 1.552,
+          "fwd_truncated": false,
+          "to_latest": 4.26,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "sunpharma_2020-03-31": {
+      "status": "ok",
+      "fv": 378.58580216105435,
+      "fv_alt_roe_convention": 367.1113706860036,
+      "shares_cr": 239.93351206434318,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1035,
+        "beta": 0.85,
+        "g": 0.059,
+        "margin_start": 0.21,
+        "margin_end": 0.25,
+        "dep_pct": 0.0512,
+        "net_cash_cr": 1828.0,
+        "roe_avg3": 0.0787,
+        "payout": 0.25,
+        "payout_raw": 25.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.0663
+          ],
+          [
+            "Mar 2019",
+            0.0775
+          ],
+          [
+            "Mar 2020",
+            0.0922
+          ]
+        ],
+        "shares_cr": 239.934,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 239.934
+      },
+      "price_at_d0": 338.25,
+      "price_over_fv_d0": 0.893456643300387,
+      "min_close_24m_over_fv": 0.993037768067348,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 331.26,
+        "inv": 265.01
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=10.0% min=10.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-09-04",
+      "gev_tag_at_scoring": "regulatory_probe",
+      "gev_events_logged": [
+        [
+          "2017-08-10",
+          "regulatory_probe"
+        ],
+        [
+          "2019-03-05",
+          "regulatory_probe"
+        ],
+        [
+          "2019-09-04",
+          "regulatory_probe"
+        ],
+        [
+          "2020-02-21",
+          "regulatory_probe"
+        ],
+        [
+          "2020-07-27",
+          "regulatory_probe"
+        ],
+        [
+          "2021-02-11",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 97,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2020-04-03",
+      "gev_last_active_in_window": "2022-02-04",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-09-04",
+          "gev_tag": "regulatory_probe"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-09-04",
+          "gev_tag": "regulatory_probe"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill": null
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "nhpc_2019-03-31": {
+      "status": "ok",
+      "fv": 28.63786803457576,
+      "fv_alt_roe_convention": 28.166871576031163,
+      "shares_cr": 1004.7748976807641,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0995,
+        "beta": 0.75,
+        "g": 0.0447,
+        "margin_start": 0.55,
+        "margin_end": 0.572,
+        "dep_pct": 0.1847,
+        "net_cash_cr": -17783.0,
+        "roe_avg3": 0.1016,
+        "payout": 0.56,
+        "payout_raw": 56.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            0.1199
+          ],
+          [
+            "Mar 2018",
+            0.0927
+          ],
+          [
+            "Mar 2019",
+            0.0921
+          ]
+        ],
+        "shares_cr": 1004.775,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 1004.775
+      },
+      "price_at_d0": 24.7,
+      "price_over_fv_d0": 0.8624943717939688,
+      "min_close_24m_over_fv": 0.6774247292632791,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 25.06,
+        "inv": 20.05
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=9.0% min=8.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 104,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2019-04-05",
+          "fill_price": 24.3,
+          "trigger": 25.06,
+          "fwd_24m": 1.014,
+          "fwd_truncated": false,
+          "to_latest": 3.017,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-03-27",
+          "fill_price": 19.4,
+          "trigger": 20.05,
+          "fwd_24m": 1.405,
+          "fwd_truncated": false,
+          "to_latest": 3.779,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2019-04-05",
+          "fill_price": 24.3,
+          "trigger": 25.06,
+          "fwd_24m": 1.014,
+          "fwd_truncated": false,
+          "to_latest": 3.017,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-03-27",
+          "fill_price": 19.4,
+          "trigger": 20.05,
+          "fwd_24m": 1.405,
+          "fwd_truncated": false,
+          "to_latest": 3.779,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": false
+    },
+    "nhpc_2021-03-31": {
+      "status": "ok",
+      "fv": 29.886583101431537,
+      "fv_alt_roe_convention": 29.126644440294207,
+      "shares_cr": 1004.7748976807641,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.0995,
+        "beta": 0.75,
+        "g": 0.0523,
+        "margin_start": 0.55,
+        "margin_end": 0.542,
+        "dep_pct": 0.1677,
+        "net_cash_cr": -21523.0,
+        "roe_avg3": 0.1025,
+        "payout": 0.49,
+        "payout_raw": 49.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2019",
+            0.0921
+          ],
+          [
+            "Mar 2020",
+            0.1066
+          ],
+          [
+            "Mar 2021",
+            0.1089
+          ]
+        ],
+        "shares_cr": 1004.775,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 1004.775
+      },
+      "price_at_d0": 23.25,
+      "price_over_fv_d0": 0.7779410553923894,
+      "min_close_24m_over_fv": 0.8047089196639555,
+      "category": "mediocre",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 26.15,
+        "inv": 20.92
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=9.0% min=8.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [],
+      "gev_active_closes_in_window": 0,
+      "window_closes": 105,
+      "gev_first_active_in_window": null,
+      "gev_last_active_in_window": null,
+      "fills": {
+        "acc": {
+          "fill_date": "2021-04-01",
+          "fill_price": 24.65,
+          "trigger": 26.15,
+          "fwd_24m": 1.631,
+          "fwd_truncated": false,
+          "to_latest": 2.974,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2021-04-01",
+          "fill_price": 24.65,
+          "trigger": 26.15,
+          "fwd_24m": 1.631,
+          "fwd_truncated": false,
+          "to_latest": 2.974,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill": null
+        }
+      },
+      "shadow": false
+    },
+    "gayatri_2019-03-31": {
+      "status": "ok",
+      "fv": 181.19003201734213,
+      "fv_alt_roe_convention": 182.7025039814048,
+      "shares_cr": 18.5,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1155,
+        "beta": 1.15,
+        "g": 0.0389,
+        "margin_start": 0.15,
+        "margin_end": 0.16,
+        "dep_pct": 0.0327,
+        "net_cash_cr": -1019.0,
+        "roe_avg3": 0.0389,
+        "payout": 0.0,
+        "payout_raw": 0.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2017",
+            -0.0
+          ],
+          [
+            "Mar 2018",
+            -0.0198
+          ],
+          [
+            "Mar 2019",
+            0.1364
+          ]
+        ],
+        "shares_cr": 18.5,
+        "shares_basis": "audited Equity Capital 37.0 / Face Value 2.0 (Mar 2026); screener mcap/price gave 46.52cr (ratio 2.51 > 20% off) -- guard applied",
+        "shares_cr_frozen_method": 46.518
+      },
+      "price_at_d0": 159.55,
+      "price_over_fv_d0": 0.8805672046281724,
+      "min_close_24m_over_fv": 0.04718802632134675,
+      "category": "blowup",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 158.54,
+        "inv": 126.83
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=8.0% min=3.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2018-03-12",
+          "credit_default_recognition"
+        ],
+        [
+          "2019-11-13",
+          "promoter_conduct"
+        ],
+        [
+          "2019-11-15",
+          "credit_default_recognition"
+        ],
+        [
+          "2019-11-18",
+          "promoter_conduct"
+        ],
+        [
+          "2020-10-23",
+          "promoter_conduct"
+        ],
+        [
+          "2021-03-01",
+          "credit_default_recognition"
+        ],
+        [
+          "2021-03-18",
+          "promoter_conduct"
+        ],
+        [
+          "2021-03-23",
+          "promoter_conduct"
+        ],
+        [
+          "2021-04-01",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-05",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-08",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-20",
+          "promoter_conduct"
+        ],
+        [
+          "2021-12-14",
+          "withdrawn_capital_action"
+        ],
+        [
+          "2022-06-28",
+          "promoter_conduct"
+        ]
+      ],
+      "gev_active_closes_in_window": 72,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2019-11-15",
+      "gev_last_active_in_window": "2021-03-26",
+      "fills": {
+        "acc": {
+          "fill_date": "2019-05-10",
+          "fill_price": 156.95,
+          "trigger": 158.54,
+          "fwd_24m": 0.179,
+          "fwd_truncated": false,
+          "to_latest": 0.143,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2019-08-23",
+          "fill_price": 109.15,
+          "trigger": 126.83,
+          "fwd_24m": 0.364,
+          "fwd_truncated": false,
+          "to_latest": 0.205,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2019-05-10",
+          "fill_price": 156.95,
+          "trigger": 158.54,
+          "fwd_24m": 0.179,
+          "fwd_truncated": false,
+          "to_latest": 0.143,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2019-08-23",
+          "fill_price": 109.15,
+          "trigger": 126.83,
+          "fwd_24m": 0.364,
+          "fwd_truncated": false,
+          "to_latest": 0.205,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "gayatri_2020-03-31": {
+      "status": "ok",
+      "fv": 92.62860595545676,
+      "fv_alt_roe_convention": 108.2715640242633,
+      "shares_cr": 18.5,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1155,
+        "beta": 1.15,
+        "g": 0.0176,
+        "margin_start": 0.1,
+        "margin_end": 0.134,
+        "dep_pct": 0.022,
+        "net_cash_cr": -1469.0,
+        "roe_avg3": 0.0176,
+        "payout": 0.0,
+        "payout_raw": 0.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2018",
+            -0.0198
+          ],
+          [
+            "Mar 2019",
+            0.1364
+          ],
+          [
+            "Mar 2020",
+            -0.0637
+          ]
+        ],
+        "shares_cr": 18.5,
+        "shares_basis": "audited Equity Capital 37.0 / Face Value 2.0 (Mar 2026); screener mcap/price gave 46.52cr (ratio 2.51 > 20% off) -- guard applied",
+        "shares_cr_frozen_method": 46.518
+      },
+      "price_at_d0": 8.55,
+      "price_over_fv_d0": 0.09230409884513996,
+      "min_close_24m_over_fv": 0.09813383140378036,
+      "category": "blowup",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 81.05,
+        "inv": 64.84
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=9.0% min=4.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-11-13",
+      "gev_tag_at_scoring": "promoter_conduct",
+      "gev_events_logged": [
+        [
+          "2018-03-12",
+          "credit_default_recognition"
+        ],
+        [
+          "2019-11-13",
+          "promoter_conduct"
+        ],
+        [
+          "2019-11-15",
+          "credit_default_recognition"
+        ],
+        [
+          "2019-11-18",
+          "promoter_conduct"
+        ],
+        [
+          "2020-10-23",
+          "promoter_conduct"
+        ],
+        [
+          "2021-03-01",
+          "credit_default_recognition"
+        ],
+        [
+          "2021-03-18",
+          "promoter_conduct"
+        ],
+        [
+          "2021-03-23",
+          "promoter_conduct"
+        ],
+        [
+          "2021-04-01",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-05",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-08",
+          "promoter_conduct"
+        ],
+        [
+          "2021-07-20",
+          "promoter_conduct"
+        ],
+        [
+          "2021-12-14",
+          "withdrawn_capital_action"
+        ],
+        [
+          "2022-06-28",
+          "promoter_conduct"
+        ]
+      ],
+      "gev_active_closes_in_window": 104,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2020-04-03",
+      "gev_last_active_in_window": "2022-03-25",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-11-13",
+          "gev_tag": "promoter_conduct"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-11-13",
+          "gev_tag": "promoter_conduct"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 9.09,
+          "trigger": 81.05,
+          "fwd_24m": 2.657,
+          "fwd_truncated": false,
+          "to_latest": 2.463,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 9.09,
+          "trigger": 64.84,
+          "fwd_24m": 2.657,
+          "fwd_truncated": false,
+          "to_latest": 2.463,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "sadbhav_2020-03-31": {
+      "status": "ok",
+      "fv": 604.7148377454827,
+      "fv_alt_roe_convention": 604.7148377454827,
+      "shares_cr": 17.171717171717173,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1155,
+        "beta": 1.15,
+        "g": 0.15,
+        "margin_start": 0.33,
+        "margin_end": 0.286,
+        "dep_pct": 0.0781,
+        "net_cash_cr": -6038.0,
+        "roe_avg3": 0.1661,
+        "payout": 0.0,
+        "payout_raw": 0.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2018",
+            -0.1279
+          ],
+          [
+            "Mar 2019",
+            -0.0647
+          ],
+          [
+            "Mar 2020",
+            0.6908
+          ]
+        ],
+        "shares_cr": 17.172,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 17.172
+      },
+      "price_at_d0": 29.65,
+      "price_over_fv_d0": 0.04903137503710358,
+      "min_close_24m_over_fv": 0.04142448380031854,
+      "category": "blowup",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 529.13,
+        "inv": 423.3
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=11.0% min=9.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-06-26",
+      "gev_tag_at_scoring": "credit_default_recognition",
+      "gev_events_logged": [
+        [
+          "2019-06-26",
+          "credit_default_recognition"
+        ],
+        [
+          "2020-04-01",
+          "credit_default_recognition"
+        ],
+        [
+          "2022-05-30",
+          "auditor_event"
+        ],
+        [
+          "2022-06-08",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-05-11",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-05-28",
+          "auditor_event"
+        ],
+        [
+          "2023-10-26",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-10-30",
+          "credit_default_recognition"
+        ]
+      ],
+      "gev_active_closes_in_window": 52,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2020-04-03",
+      "gev_last_active_in_window": "2021-03-26",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-06-26",
+          "gev_tag": "credit_default_recognition"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2019-06-26",
+          "gev_tag": "credit_default_recognition"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 25.45,
+          "trigger": 529.13,
+          "fwd_24m": 1.128,
+          "fwd_truncated": false,
+          "to_latest": 0.272,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 25.45,
+          "trigger": 423.3,
+          "fwd_24m": 1.128,
+          "fwd_truncated": false,
+          "to_latest": 0.272,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "sadbhav_2021-03-31": {
+      "status": "ok",
+      "fv": 220.7125440769078,
+      "fv_alt_roe_convention": 220.7125440769078,
+      "shares_cr": 17.171717171717173,
+      "model": {
+        "model": "FCFF DCF 10y",
+        "wacc": 0.1155,
+        "beta": 1.15,
+        "g": 0.15,
+        "margin_start": 0.27,
+        "margin_end": 0.29,
+        "dep_pct": 0.0854,
+        "net_cash_cr": -6373.0,
+        "roe_avg3": 0.154,
+        "payout": 0.0,
+        "payout_raw": 0.0,
+        "g_cap_binding": true,
+        "roe_years": [
+          [
+            "Mar 2019",
+            -0.0647
+          ],
+          [
+            "Mar 2020",
+            0.6908
+          ],
+          [
+            "Mar 2021",
+            -0.164
+          ]
+        ],
+        "shares_cr": 17.172,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 17.172
+      },
+      "price_at_d0": 62.1,
+      "price_over_fv_d0": 0.2813614434998362,
+      "min_close_24m_over_fv": 0.039191247766080246,
+      "category": "blowup",
+      "financial_variant": false,
+      "triggers": {
+        "acc": 193.12,
+        "inv": 154.5
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "(a) median ROIC=11.0% min=8.0% -- fails 15%/10% bar",
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2020-04-01",
+      "gev_tag_at_scoring": "credit_default_recognition",
+      "gev_events_logged": [
+        [
+          "2019-06-26",
+          "credit_default_recognition"
+        ],
+        [
+          "2020-04-01",
+          "credit_default_recognition"
+        ],
+        [
+          "2022-05-30",
+          "auditor_event"
+        ],
+        [
+          "2022-06-08",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-05-11",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-05-28",
+          "auditor_event"
+        ],
+        [
+          "2023-10-26",
+          "credit_default_recognition"
+        ],
+        [
+          "2023-10-30",
+          "credit_default_recognition"
+        ]
+      ],
+      "gev_active_closes_in_window": 44,
+      "window_closes": 105,
+      "gev_first_active_in_window": "2022-06-03",
+      "gev_last_active_in_window": "2023-03-31",
+      "fills": {
+        "acc": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2020-04-01",
+          "gev_tag": "credit_default_recognition"
+        },
+        "inv": {
+          "fill": null,
+          "blocked_by_gev_at_scoring": true,
+          "gev_event": "2020-04-01",
+          "gev_tag": "credit_default_recognition"
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2021-04-01",
+          "fill_price": 64.3,
+          "trigger": 193.12,
+          "fwd_24m": 0.135,
+          "fwd_truncated": false,
+          "to_latest": 0.108,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        },
+        "inv": {
+          "fill_date": "2021-04-01",
+          "fill_price": 64.3,
+          "trigger": 154.5,
+          "fwd_24m": 0.135,
+          "fwd_truncated": false,
+          "to_latest": 0.108,
+          "to_latest_date": "2026-09-29",
+          "series_ends_before_run_date": false
+        }
+      },
+      "shadow": true
+    },
+    "srei_2020-03-31": {
+      "status": "ok",
+      "fv": 29.34853003656588,
+      "fv_alt_roe_convention": 29.66365517321182,
+      "shares_cr": 50.476190476190474,
+      "model": {
+        "model": "excess-return 10y",
+        "bvps0": 79.68,
+        "roe_avg3": 0.0799,
+        "g": 0.0799,
+        "r_val": 0.1155,
+        "beta": 1.15,
+        "payout": 0.0,
+        "payout_raw": 0.0,
+        "g_cap_binding": false,
+        "roe_years": [
+          [
+            "Mar 2018",
+            0.0991
+          ],
+          [
+            "Mar 2019",
+            0.1185
+          ],
+          [
+            "Mar 2020",
+            0.0221
+          ]
+        ],
+        "shares_cr": 50.476,
+        "shares_basis": "screener market cap / current price (frozen v3.8-v3.10 method)",
+        "shares_cr_frozen_method": 50.476
+      },
+      "price_at_d0": 3.9,
+      "price_over_fv_d0": 0.13288570143516276,
+      "min_close_24m_over_fv": 0.12777471291842574,
+      "category": "blowup",
+      "financial_variant": true,
+      "triggers": {
+        "acc": 25.68,
+        "inv": 20.54
+      },
+      "qfv_qualified": false,
+      "qfv_reason": "financial variant -- QFV gate not defined for bank/NBFC balance sheets; ACC/INV only (v3.9 scope limit, unchanged)",
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "gev_tag_at_scoring": null,
+      "gev_events_logged": [
+        [
+          "2021-03-05",
+          "credit_default_recognition"
+        ],
+        [
+          "2021-10-04",
+          "regulatory_probe"
+        ],
+        [
+          "2022-03-29",
+          "regulatory_probe"
+        ],
+        [
+          "2022-05-27",
+          "auditor_event"
+        ],
+        [
+          "2023-01-31",
+          "regulatory_probe"
+        ]
+      ],
+      "gev_active_closes_in_window": 56,
+      "window_closes": 104,
+      "gev_first_active_in_window": "2021-03-05",
+      "gev_last_active_in_window": "2022-03-25",
+      "fills": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 4.05,
+          "trigger": 25.68,
+          "fwd_24m": 1.321,
+          "fwd_truncated": false,
+          "to_latest": 0.519,
+          "to_latest_date": "2023-08-11",
+          "series_ends_before_run_date": true
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 4.05,
+          "trigger": 20.54,
+          "fwd_24m": 1.321,
+          "fwd_truncated": false,
+          "to_latest": 0.519,
+          "to_latest_date": "2023-08-11",
+          "series_ends_before_run_date": true
+        }
+      },
+      "fills_if_gev_off": {
+        "acc": {
+          "fill_date": "2020-04-03",
+          "fill_price": 4.05,
+          "trigger": 25.68,
+          "fwd_24m": 1.321,
+          "fwd_truncated": false,
+          "to_latest": 0.519,
+          "to_latest_date": "2023-08-11",
+          "series_ends_before_run_date": true
+        },
+        "inv": {
+          "fill_date": "2020-04-03",
+          "fill_price": 4.05,
+          "trigger": 20.54,
+          "fwd_24m": 1.321,
+          "fwd_truncated": false,
+          "to_latest": 0.519,
+          "to_latest_date": "2023-08-11",
+          "series_ends_before_run_date": true
+        }
+      },
+      "shadow": false
+    }
+  },
+  "scorecard": {
+    "blowup_fills": 1,
+    "blowup_fill_name_dates": [
+      "srei_2020-03-31"
+    ],
+    "winner_names_filled": [
+      "tvsmotor"
+    ],
+    "n_fills_to_t": 13,
+    "mean_to_t": 6.376538461538461,
+    "n_fills_24m": 13,
+    "mean_24m": 1.7410000000000005,
+    "qfv_fills": [
+      "marico_2019-03-31"
+    ],
+    "gev_vetoes": [
+      [
+        "kei_2019-03-31",
+        "at_scoring",
+        "2019-02-28"
+      ],
+      [
+        "kei_2020-03-31",
+        "at_scoring",
+        "2019-05-16"
+      ],
+      [
+        "pidilite_2019-03-31",
+        "at_scoring",
+        "2018-06-01"
+      ],
+      [
+        "emami_2019-03-31",
+        "at_scoring",
+        "2018-05-18"
+      ],
+      [
+        "sunpharma_2020-03-31",
+        "at_scoring",
+        "2019-09-04"
+      ]
+    ],
+    "fills_on_series_ended_before_run_date": [
+      [
+        "srei_2020-03-31",
+        "acc",
+        "2023-08-11"
+      ],
+      [
+        "srei_2020-03-31",
+        "inv",
+        "2023-08-11"
+      ]
+    ]
+  },
+  "blowup_attribution": {
+    "gayatri_2019-03-31": {
+      "usability": "EXCLUDED",
+      "fair_value_positive": true,
+      "fair_value": 181.19003201734213,
+      "tiers_touched_if_gev_off": [
+        "acc",
+        "inv"
+      ],
+      "tiers_actual_fills": [
+        "acc",
+        "inv"
+      ],
+      "tiers_blocked_by_gev": [],
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "primary_stopper": "usability gate"
+    },
+    "gayatri_2020-03-31": {
+      "usability": "EXCLUDED",
+      "fair_value_positive": true,
+      "fair_value": 92.62860595545676,
+      "tiers_touched_if_gev_off": [
+        "acc",
+        "inv"
+      ],
+      "tiers_actual_fills": [],
+      "tiers_blocked_by_gev": [
+        "acc",
+        "inv"
+      ],
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-11-13",
+      "primary_stopper": "usability gate"
+    },
+    "sadbhav_2020-03-31": {
+      "usability": "EXCLUDED",
+      "fair_value_positive": true,
+      "fair_value": 604.7148377454827,
+      "tiers_touched_if_gev_off": [
+        "acc",
+        "inv"
+      ],
+      "tiers_actual_fills": [],
+      "tiers_blocked_by_gev": [
+        "acc",
+        "inv"
+      ],
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2019-06-26",
+      "primary_stopper": "usability gate"
+    },
+    "sadbhav_2021-03-31": {
+      "usability": "EXCLUDED",
+      "fair_value_positive": true,
+      "fair_value": 220.7125440769078,
+      "tiers_touched_if_gev_off": [
+        "acc",
+        "inv"
+      ],
+      "tiers_actual_fills": [],
+      "tiers_blocked_by_gev": [
+        "acc",
+        "inv"
+      ],
+      "gev_veto_at_scoring": true,
+      "gev_event_at_scoring": "2020-04-01",
+      "primary_stopper": "usability gate"
+    },
+    "srei_2020-03-31": {
+      "usability": "USABLE",
+      "fair_value_positive": true,
+      "fair_value": 29.34853003656588,
+      "tiers_touched_if_gev_off": [
+        "acc",
+        "inv"
+      ],
+      "tiers_actual_fills": [
+        "acc",
+        "inv"
+      ],
+      "tiers_blocked_by_gev": [],
+      "gev_veto_at_scoring": false,
+      "gev_event_at_scoring": null,
+      "primary_stopper": "NOT STOPPED -- fill"
+    }
+  },
+  "betas": {
+    "tvsmotor": 1.1,
+    "jublfood": 0.85,
+    "tiindia": 1.05,
+    "kei": 1.0,
+    "pidilite": 0.7,
+    "emami": 0.7,
+    "marico": 0.6,
+    "ongc": 1.0,
+    "sunpharma": 0.85,
+    "nhpc": 0.75,
+    "gayatri": 1.15,
+    "sadbhav": 1.15,
+    "srei": 1.15
+  }
+}

@@ -1,0 +1,400 @@
+{
+ "S0_winner_names_baseline": [
+  "tvsmotor"
+ ],
+ "S0_winner_names_if_GEV_off": [
+  "kei",
+  "tvsmotor"
+ ],
+ "S0_name_dates_where_GEV_blocked_at_least_one_leg": {
+  "kei_2019-03-31": [
+   "acc",
+   "inv"
+  ],
+  "kei_2020-03-31": [
+   "acc",
+   "inv"
+  ],
+  "emami_2019-03-31": [
+   "acc",
+   "qfv"
+  ]
+ },
+ "S1_gev_reading_toggles": {
+  "kei_settlements_not_counted (2019-02-28, 2019-05-16)": {
+   "kei_2019-03-31": {
+    "acc": "2019-04-05",
+    "inv": "2019-04-05"
+   },
+   "kei_2020-03-31": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   }
+  },
+  "kei_only_company_order_not_counted (2019-05-16)": {
+   "kei_2019-03-31": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   },
+   "kei_2020-03-31": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   }
+  },
+  "pidilite_intra_family_gifts_not_counted (all 9 gift rows)": {
+   "pidilite_2019-03-31": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   },
+   "pidilite_2021-03-31": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "pidilite_only_out_of_group_gifts_counted (2017-09-02, 2018-06-01, 2019-12-02)": {
+   "pidilite_2019-03-31": {
+    "acc": "VETO@score",
+    "inv": "VETO@score",
+    "qfv": "VETO@score"
+   },
+   "pidilite_2021-03-31": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "emami_exonerating_SCN_order_not_counted (2018-05-18)": {
+   "emami_2019-03-31": {
+    "acc": "2020-03-27",
+    "inv": null,
+    "qfv": "2020-03-27"
+   },
+   "emami_2020-03-31": {
+    "acc": null,
+    "inv": null,
+    "qfv": null
+   }
+  },
+  "sunpharma_all_events_not_counted": {
+   "sunpharma_2019-03-31": {
+    "acc": "2019-06-21",
+    "inv": null,
+    "qfv": "2019-05-10"
+   },
+   "sunpharma_2020-03-31": {
+    "acc": null,
+    "inv": null
+   }
+  },
+  "sunpharma_2019-03-05_and_2020-02-21_not_counted (press-report/letter rows)": {
+   "sunpharma_2019-03-31": {
+    "acc": "2019-06-21",
+    "inv": null,
+    "qfv": "2019-05-10"
+   },
+   "sunpharma_2020-03-31": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   }
+  },
+  "tiindia_2022-12-23_associate_row_not_counted": {
+   "tiindia_2020-03-31": {
+    "acc": null,
+    "inv": null
+   },
+   "tiindia_2021-03-31": {
+    "acc": null,
+    "inv": null
+   }
+  }
+ },
+ "S1b_winner_names_if_all_GEV_ignored": [
+  "kei",
+  "tvsmotor"
+ ],
+ "S2_blowups_usability_ignored": {
+  "gayatri_2019-03-31": {
+   "usability": "EXCLUDED",
+   "fills_gev_on": {
+    "acc": "2019-05-10",
+    "inv": "2019-08-23"
+   },
+   "fills_gev_off": {
+    "acc": "2019-05-10",
+    "inv": "2019-08-23"
+   },
+   "fill_detail_gev_on": {
+    "acc": {
+     "date": "2019-05-10",
+     "price": 156.95,
+     "trigger": 158.54,
+     "to_latest": 0.143,
+     "fwd_24m": 0.179
+    },
+    "inv": {
+     "date": "2019-08-23",
+     "price": 109.15,
+     "trigger": 126.83,
+     "to_latest": 0.205,
+     "fwd_24m": 0.364
+    }
+   }
+  },
+  "gayatri_2020-03-31": {
+   "usability": "EXCLUDED",
+   "fills_gev_on": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   },
+   "fills_gev_off": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   },
+   "fill_detail_gev_on": {}
+  },
+  "sadbhav_2020-03-31": {
+   "usability": "EXCLUDED",
+   "fills_gev_on": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   },
+   "fills_gev_off": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   },
+   "fill_detail_gev_on": {}
+  },
+  "sadbhav_2021-03-31": {
+   "usability": "EXCLUDED",
+   "fills_gev_on": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   },
+   "fills_gev_off": {
+    "acc": "2021-04-01",
+    "inv": "2021-04-01"
+   },
+   "fill_detail_gev_on": {}
+  },
+  "srei_2020-03-31": {
+   "usability": "USABLE",
+   "fills_gev_on": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   },
+   "fills_gev_off": {
+    "acc": "2020-04-03",
+    "inv": "2020-04-03"
+   },
+   "fill_detail_gev_on": {
+    "acc": {
+     "date": "2020-04-03",
+     "price": 4.05,
+     "trigger": 25.68,
+     "to_latest": 0.519,
+     "fwd_24m": 1.321
+    },
+    "inv": {
+     "date": "2020-04-03",
+     "price": 4.05,
+     "trigger": 20.54,
+     "to_latest": 0.519,
+     "fwd_24m": 1.321
+    }
+   }
+  }
+ },
+ "S3_gayatri_frozen_mcap_share_count": {
+  "gayatri_2019-03-31": {
+   "fv_guard": 181.19,
+   "fv_frozen_method": 72.06,
+   "fills_gev_on": {
+    "acc": "VETO@fill",
+    "inv": "VETO@fill"
+   }
+  },
+  "gayatri_2020-03-31": {
+   "fv_guard": 92.63,
+   "fv_frozen_method": 36.84,
+   "fills_gev_on": {
+    "acc": "VETO@score",
+    "inv": "VETO@score"
+   }
+  }
+ },
+ "S4_srei_fill_detail": {
+  "acc": {
+   "fill_date": "2020-04-03",
+   "fill_price": 4.05,
+   "trigger": 25.68,
+   "fwd_24m": 1.321,
+   "fwd_truncated": false,
+   "to_latest": 0.519,
+   "to_latest_date": "2023-08-11",
+   "series_ends_before_run_date": true
+  },
+  "inv": {
+   "fill_date": "2020-04-03",
+   "fill_price": 4.05,
+   "trigger": 20.54,
+   "fwd_24m": 1.321,
+   "fwd_truncated": false,
+   "to_latest": 0.519,
+   "to_latest_date": "2023-08-11",
+   "series_ends_before_run_date": true
+  }
+ },
+ "S4_srei_zero_terminal_to_T": 0.0,
+ "S4_srei_gev_events_by_date": [
+  [
+   "2021-03-05",
+   "credit_default_recognition"
+  ],
+  [
+   "2021-10-04",
+   "regulatory_probe"
+  ],
+  [
+   "2022-03-29",
+   "regulatory_probe"
+  ],
+  [
+   "2022-05-27",
+   "auditor_event"
+  ],
+  [
+   "2023-01-31",
+   "regulatory_probe"
+  ]
+ ],
+ "S5_aggregates": {
+  "winner": {
+   "n_legs": 4,
+   "mean_to_t": 15.4955,
+   "mean_24m": 2.3605000000000005,
+   "min_24m": 1.984
+  },
+  "mediocre": {
+   "n_legs": 7,
+   "mean_to_t": 2.8392857142857144,
+   "mean_24m": 1.5070000000000001,
+   "min_24m": 1.014
+  },
+  "blowup": {
+   "n_legs": 2,
+   "mean_to_t": 0.519,
+   "mean_24m": 1.321,
+   "min_24m": 1.321
+  },
+  "covid_trough_entries_2020-03-13_to_2020-04-30": {
+   "n_legs": 8,
+   "mean_to_t": 8.73,
+   "mean_24m": 1.9292500000000001
+  },
+  "other_entries": {
+   "n_legs": 5,
+   "mean_to_t": 2.6109999999999998,
+   "mean_24m": 1.4398000000000002
+  },
+  "all_legs_ex_blowup": {
+   "n_legs": 11,
+   "mean_to_t": 7.441545454545453,
+   "mean_24m": 1.8173636363636367
+  }
+ },
+ "S5_all_decisional_fill_legs": [
+  [
+   "tvsmotor_2019-03-31",
+   "acc",
+   "2020-03-27",
+   13.46,
+   1.984
+  ],
+  [
+   "tvsmotor_2019-03-31",
+   "inv",
+   "2020-04-03",
+   16.174,
+   2.486
+  ],
+  [
+   "tvsmotor_2020-03-31",
+   "acc",
+   "2020-04-03",
+   16.174,
+   2.486
+  ],
+  [
+   "tvsmotor_2020-03-31",
+   "inv",
+   "2020-04-03",
+   16.174,
+   2.486
+  ],
+  [
+   "marico_2019-03-31",
+   "acc",
+   "2020-03-13",
+   3.041,
+   1.945
+  ],
+  [
+   "marico_2019-03-31",
+   "qfv",
+   "2020-02-28",
+   2.656,
+   1.658
+  ],
+  [
+   "ongc_2021-03-31",
+   "acc",
+   "2021-04-01",
+   2.204,
+   1.448
+  ],
+  [
+   "ongc_2021-03-31",
+   "inv",
+   "2021-04-01",
+   2.204,
+   1.448
+  ],
+  [
+   "nhpc_2019-03-31",
+   "acc",
+   "2019-04-05",
+   3.017,
+   1.014
+  ],
+  [
+   "nhpc_2019-03-31",
+   "inv",
+   "2020-03-27",
+   3.779,
+   1.405
+  ],
+  [
+   "nhpc_2021-03-31",
+   "acc",
+   "2021-04-01",
+   2.974,
+   1.631
+  ],
+  [
+   "srei_2020-03-31",
+   "acc",
+   "2020-04-03",
+   0.519,
+   1.321
+  ],
+  [
+   "srei_2020-03-31",
+   "inv",
+   "2020-04-03",
+   0.519,
+   1.321
+  ]
+ ]
+}
