@@ -351,7 +351,8 @@ correction: correct with source + date, log separately, never silently swap.
 
 - **SEVERE**: T1 order finding fraud, cheating, or misstatement, or imposing
   a trading/registrant ban · T2 adverse opinion or disclaimer; resignation
-  citing disagreement/fraud/CARO fraud flag · T3 pledge invocation · T5
+  citing disagreement/fraud/CARO fraud flag; T2 auditor resignation citing
+  unpaid fees → SEVERE (per §5.1) · T3 pledge invocation · T5
   arrest / charge-sheet / conviction · T7 downgrade to D.
 - **MODERATE**: T1 probe / SCN opened with no adverse finding yet; T1
   regulatory order that is neither a fraud/cheating/misstatement finding nor a
@@ -747,3 +748,4 @@ each is one veto away from changing:
 2. §5.1 T6: underlying MODERATE downgraded one grade = WATCH made explicit (§5.2 T6 MODERATE entry narrowed to "SEVERE underlying, downgraded").
 3. §3 D3: CA/CL split for X1 sourced from the AR PDF; unretrievable ⇒ UNCOMPUTABLE-DATA veto.
 4. §0: "§2.7" corrected to "§2.6".
+5. §5.2 SEVERE list gains "T2 auditor resignation citing unpaid fees" (per §5.1); closes the §5.1/§5.2 omission. No engine change (already SEVERE).

@@ -23,7 +23,7 @@ GRADES = {
     ("T1", "order_or_direction_without_fraud_finding_or_ban"): MODERATE,  # amendment 1
     ("T2", "opinion_adverse_or_disclaimer"): SEVERE,
     ("T2", "opinion_qualified"): MODERATE,
-    ("T2", "resignation_citing_disagreement_fraud_or_unpaid_fees"): SEVERE,  # §5.1 T2 (§5.2 SEVERE list omits 'unpaid fees'; carried per §5.1)
+    ("T2", "resignation_citing_disagreement_fraud_or_unpaid_fees"): SEVERE,  # §5.1 T2 + §5.2 SEVERE list (amendment 5)
     ("T2", "caro_suspected_fraud_flag"): SEVERE,
     ("T2", "resignation_no_stated_reasons"): MODERATE,
     ("T2", "resignation_other_stated_reasons"): MODERATE,                # amendment 1

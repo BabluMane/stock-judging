@@ -16,7 +16,7 @@ from engine_v4.tests import fixtures as F
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SPEC = os.path.join(HERE, "..", "V4_SPEC.md")
-SPEC_SHA256 = "c61d6646ab6e170b9883805b2a6e8d2781409283f33c742851fa2fe53a795ead"
+SPEC_SHA256 = "6acb4acdcb7f93a042df36d4eb111bcca5dfa38d894864ec13d269096f2be671"
 
 # One entry per §11 row (first column text, exactly as in the spec).
 S11_ROWS = [

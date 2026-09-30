@@ -85,12 +85,13 @@ its alphabet position (A=1 … R=18), which is consistent everywhere they appear
 ## Amendment log (pre-run finalization, approved by Bablu; no v4 validation has run)
 
 `V4_SPEC.md` was amended before merge (log also appended to the spec itself; pinned SHA-256 updated in
-`tests/test_constants.py` to `c61d6646…a795ead`). Four items:
+`tests/test_constants.py` to `6acb4acdcb7f93a042df36d4eb111bcca5dfa38d894864ec13d269096f2be671`). Five items:
 
 1. **§5.2** — three formerly ungraded sub-cases are MODERATE: T1 order that is neither a fraud/cheating/misstatement finding nor a trading/registrant ban; T2 resignation with other stated reasons (no CARO fraud flag); T5 named FIR alone. `events.GRADES` updated.
 2. **§5.1 T6** — underlying MODERATE downgraded one grade ⇒ WATCH (log only, no veto); underlying WATCH stays WATCH. The §5.2 MODERATE entry is narrowed to "T6 contagion (SEVERE underlying, downgraded)" so the two sections agree. The T6 case is removed from the gap list.
 3. **§3 D3** — X1's CA/CL split comes from the AR PDF (D4's F_ΔLIQUID precedent); AR unretrievable ⇒ UNCOMPUTABLE-DATA veto. No code change (already behaved this way); now tested explicitly.
 4. **§0** — "§2.7" → "§2.6".
+5. **§5.2 SEVERE list** — adds "T2 auditor resignation citing unpaid fees → SEVERE (per §5.1)"; closes the §5.1/§5.2 omission. No engine change (already SEVERE).
 
 Consequence: `SpecGapError` and the gap machinery are removed; every §5.1 sub-case is graded, so the engine no longer raises on any closed-list event. Tests: 135 → **137** (removed the two "gap raises" tests, added amendment tests for the three newly graded sub-cases, T6→WATCH, and D3 AR-unretrievable).
 
@@ -98,7 +99,6 @@ Consequence: `SpecGapError` and the gap machinery are removed; every §5.1 sub-c
 
 - **Scoring FY vs d0 (§3 PIT vintage).** The literal rule — latest FY published ≥63 days before d0 — means a 31-March d0 scores on the *previous* FY (e.g. d0 = 2019-03-31 ⇒ FY Mar-2018). The v3.x runners scored the FY ending *at* d0. The engine follows §3 literally (`pit.select_scoring_fy`); each FY record needs `results_published`. U3's window is [Mar 31, Aug 31] of the scoring FY's year.
 - **Event lane vs §7 "blocked by the union" vs "C8 retired".** Read as: the lane is evaluated at d0 (reported) and at each fill date (this is what blocks a fill); a scoring-date veto does not block the whole 24m window. The lane's trace column is STOP if the veto is active at d0 *or* blocked a tier's fill.
-- **T2 "unpaid fees"** is SEVERE in §5.1 but absent from the §5.2 SEVERE list; carried as SEVERE per §5.1 (an omission, not a contradiction). Not part of the approved amendment, so still flagged.
 - **Blocked first touch is not retried** (carried from the v3 runner's `simulate_fills`).
 - **D3 CA/CL** now documented in the spec as AR-sourced (amendment 3). Practical note for Prompt B: every non-financial name whose AR can't be retrieved is VETOED-DATA on D3, by design.
 - **D3 EBIT = PBT + Interest + Depreciation** is implemented *as written*; that is EBITDA-like, not EBIT.
