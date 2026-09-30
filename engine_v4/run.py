@@ -66,7 +66,7 @@ def leg_outcome(fill_date, fill_price, prices, scan, as_of):
 def run_name_date(nd):
     as_of = nd.as_of or nd.prices[-1][0]
     prices = [(d, p) for d, p in nd.prices if d <= as_of]
-    graded = events.grade_all(nd.events)                 # SpecGapError propagates: never guessed
+    graded = events.grade_all(nd.events)              
     fy_scoring = select_scoring_fy(nd.fy, nd.d0)
     p0 = last_close_on_or_before(nd.prices, nd.d0)
 
