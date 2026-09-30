@@ -2,7 +2,6 @@ import unittest
 from datetime import date
 
 from engine_v4 import events as E
-from engine_v4.common import SpecGapError
 from engine_v4.tests import fixtures as F
 
 
@@ -18,7 +17,10 @@ class Grading(unittest.TestCase):
     MODERATE = [("T1", "probe_or_scn_opened_no_adverse_finding"), ("T2", "opinion_qualified"),
                 ("T2", "resignation_no_stated_reasons"), ("T3", "off_market_transfer_or_gift"),
                 ("T4", "withdrawn_buyback_dividend_or_fundraise"), ("T5", "mca_ordered_investigation_or_inspection"),
-                ("T7", "downgrade_sub_investment_grade_not_D")]
+                ("T7", "downgrade_sub_investment_grade_not_D"),
+                # pre-run amendment 1: formerly ungraded, now MODERATE
+                ("T1", "order_or_direction_without_fraud_finding_or_ban"), ("T2", "resignation_other_stated_reasons"),
+                ("T5", "named_fir")]
     WATCH = ["disclosure_lapse_no_order", "rbi_special_audit_no_adverse_conclusion", "sebi_settlement_no_admission",
              "media_rumor_no_dated_record"]
 
@@ -39,8 +41,7 @@ class Grading(unittest.TestCase):
     def test_every_table_entry_is_accounted_for(self):
         listed = set(self.SEVERE) | set(self.MODERATE) | {("WATCH", s) for s in self.WATCH}
         rest = set(E.GRADES) - listed
-        self.assertEqual(rest, {("T1", "order_or_direction_without_fraud_finding_or_ban"), ("T2", "resignation_other_stated_reasons"),
-                                ("T5", "named_fir"), ("T6", "associate_contagion")})
+        self.assertEqual(rest, {("T6", "associate_contagion")})            # derived from the underlying action
 
     def test_closed_taxonomy_rejects_anything_else(self):
         for bad in (("T8", "x"), ("T1", "earnings_restatement"), ("T4", "dividend_cut"), ("T3", "promoter_purchase"),
@@ -75,14 +76,23 @@ class Grading(unittest.TestCase):
         self.assertEqual(E.grade_event({**base, "underlying_grade": "MODERATE", "names_company_directly": True})["grade"], "MODERATE")
         self.assertEqual(E.grade_event({**base, "underlying_grade": "WATCH", "names_company_directly": False})["grade"], "WATCH")
 
-    def test_spec_gaps_raise_instead_of_guessing(self):
-        for t, s in (("T1", "order_or_direction_without_fraud_finding_or_ban"), ("T2", "resignation_other_stated_reasons"), ("T5", "named_fir")):
-            with self.assertRaises(SpecGapError):
-                E.grade_event(rec(t, s))
-        with self.assertRaises(SpecGapError):
-            E.grade_event({"type": "T6", "subcase": "associate_contagion", "event_date": date(2019, 6, 1), "sources": [{"tier": 2, "ref": "o"}],
-                           "underlying_grade": "MODERATE", "names_company_directly": False})
-        self.assertEqual(len(E.GAPS), 5)
+    def test_amendment_1_newly_graded_subcases_are_moderate_and_veto_entry(self):
+        for t, sub in (("T1", "order_or_direction_without_fraud_finding_or_ban"), ("T2", "resignation_other_stated_reasons"),
+                       ("T5", "named_fir")):
+            g = E.grade_event(rec(t, sub, date(2018, 12, 1)))
+            self.assertEqual((g["grade"], g["weak_source"]), ("MODERATE", False), (t, sub))
+            self.assertTrue(E.entry_veto([g], [], date(2019, 3, 31))["blocked"])          # MODERATE vetoes entry
+            px = F.weekly(date(2019, 3, 29), date(2020, 3, 27), lambda d: 100.0)
+            late = E.grade_event(rec(t, sub, date(2019, 6, 1)))
+            self.assertFalse(E.exit_scan(date(2019, 4, 5), F.D0, px, [late])["fired"])     # MODERATE never forces an exit
+
+    def test_amendment_2_t6_underlying_moderate_downgrades_to_watch(self):
+        base = dict(type="T6", subcase="associate_contagion", event_date=date(2018, 12, 1), sources=[{"tier": 2, "ref": "order"}])
+        g = E.grade_event({**base, "underlying_grade": "MODERATE", "names_company_directly": False})
+        self.assertEqual(g["grade"], "WATCH")
+        self.assertFalse(E.entry_veto([g], [], date(2019, 3, 31))["blocked"])             # WATCH: log only, no veto
+        px = F.weekly(date(2019, 3, 29), date(2020, 3, 27), lambda d: 100.0)
+        self.assertFalse(E.exit_scan(date(2019, 4, 5), F.D0, px, [g])["fired"])
 
 
 class Veto(unittest.TestCase):

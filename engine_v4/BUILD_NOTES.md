@@ -59,8 +59,7 @@ fails if a row is added or renamed). I also mutation-checked it: 46 single-const
 ## §12 open items — how each was carried (none resolved)
 
 The spec's lettered cross-references (§12-A … §12-R) do not match the numbered §12 list; I read the letter as
-its alphabet position (A=1 … R=18), which is consistent everywhere they appear. `§2.7` (cited in §0) does not
-exist; §2.6 is the QFV section.
+its alphabet position (A=1 … R=18), which is consistent everywhere they appear. (The spec's `§2.7` citation in §0 was corrected to §2.6 by amendment 4.)
 
 | # | Item | Carried as |
 |---|---|---|
@@ -83,23 +82,25 @@ exist; §2.6 is the QFV section.
 | 17 | 15% cap binds almost universally | carried; `cap_binding` reported on every name-date |
 | 18 | Financial-variant anchor | `excess_return_value` exactly as §2.4 |
 
-## Could not be implemented exactly as written — needs a decision (engine raises, it does not choose)
+## Amendment log (pre-run finalization, approved by Bablu; no v4 validation has run)
 
-`events.grade_event` raises `SpecGapError` for records the spec lists in §5.1 but never grades in §5.2:
+`V4_SPEC.md` was amended before merge (log also appended to the spec itself; pinned SHA-256 updated in
+`tests/test_constants.py` to `c61d6646…a795ead`). Four items:
 
-1. **T1** adjudication/enforcement order or interim direction that is neither a fraud finding nor a trading/registrant ban (§5.1 T1 vs §5.2).
-2. **T2** resignation with *other stated reasons* (§5.2 has only "disagreement/fraud" = SEVERE and "no stated reasons" = MODERATE).
-3. **T5** a *named FIR* alone (§5.1 T5 lists it; §5.2 grades arrest/charge-sheet/conviction and MCA investigation only).
-4. **T6** associate contagion where the *underlying* action is MODERATE and the order does not name the company: "downgraded one grade (SEVERE→MODERATE)" doesn't say; "one grade" would be WATCH, the §5.2 MODERATE list says MODERATE.
+1. **§5.2** — three formerly ungraded sub-cases are MODERATE: T1 order that is neither a fraud/cheating/misstatement finding nor a trading/registrant ban; T2 resignation with other stated reasons (no CARO fraud flag); T5 named FIR alone. `events.GRADES` updated.
+2. **§5.1 T6** — underlying MODERATE downgraded one grade ⇒ WATCH (log only, no veto); underlying WATCH stays WATCH. The §5.2 MODERATE entry is narrowed to "T6 contagion (SEVERE underlying, downgraded)" so the two sections agree. The T6 case is removed from the gap list.
+3. **§3 D3** — X1's CA/CL split comes from the AR PDF (D4's F_ΔLIQUID precedent); AR unretrievable ⇒ UNCOMPUTABLE-DATA veto. No code change (already behaved this way); now tested explicitly.
+4. **§0** — "§2.7" → "§2.6".
 
-Related, carried but flagged: **T2 "unpaid fees"** is SEVERE in §5.1 but absent from the §5.2 SEVERE list. I carried §5.1 (an omission, not a contradiction).
+Consequence: `SpecGapError` and the gap machinery are removed; every §5.1 sub-case is graded, so the engine no longer raises on any closed-list event. Tests: 135 → **137** (removed the two "gap raises" tests, added amendment tests for the three newly graded sub-cases, T6→WATCH, and D3 AR-unretrievable).
 
 ## Spec silences / readings (every one is tagged `SPEC-SILENT` in the code; please confirm or veto)
 
 - **Scoring FY vs d0 (§3 PIT vintage).** The literal rule — latest FY published ≥63 days before d0 — means a 31-March d0 scores on the *previous* FY (e.g. d0 = 2019-03-31 ⇒ FY Mar-2018). The v3.x runners scored the FY ending *at* d0. The engine follows §3 literally (`pit.select_scoring_fy`); each FY record needs `results_published`. U3's window is [Mar 31, Aug 31] of the scoring FY's year.
 - **Event lane vs §7 "blocked by the union" vs "C8 retired".** Read as: the lane is evaluated at d0 (reported) and at each fill date (this is what blocks a fill); a scoring-date veto does not block the whole 24m window. The lane's trace column is STOP if the veto is active at d0 *or* blocked a tier's fill.
+- **T2 "unpaid fees"** is SEVERE in §5.1 but absent from the §5.2 SEVERE list; carried as SEVERE per §5.1 (an omission, not a contradiction). Not part of the approved amendment, so still flagged.
 - **Blocked first touch is not retried** (carried from the v3 runner's `simulate_fills`).
-- **D3 data source conflict.** D3's X1 needs current assets − current liabilities "from screener.in", while D4(6) says the CA/CL split is the one criterion *not* on screener. The engine requires `current_assets`/`current_liabilities`; if the data layer cannot supply them, every non-financial name is VETOED-DATA on D3 (never a silent pass). Needs a data-layer decision before Prompt B.
+- **D3 CA/CL** now documented in the spec as AR-sourced (amendment 3). Practical note for Prompt B: every non-financial name whose AR can't be retrieved is VETOED-DATA on D3, by design.
 - **D3 EBIT = PBT + Interest + Depreciation** is implemented *as written*; that is EBITDA-like, not EBIT.
 - **D2**: "8 trailing quarters … AND scoring quarter > 0" is unsatisfiable if the 8 include the scoring quarter, so the 8 are the quarters *before* it.
 - **D7/label**: if a rule trips and another is uncomputable, the tripped rule owns the label (`VETOED-DISTRESS:<rule>`); the data defect is still logged.
@@ -122,4 +123,4 @@ Data fetchers, `validation/v4_oos/` (pre-reg, disjointness script, locked runner
 - [x] No prior validation set re-run. `tests/test_anchor.py::CarriedParity` imports `validation/v3_11_oos/run_v311_validation.py` read-only and compares its g_sus/margin/dep functions on *synthetic* tables; it calls no `main()` and reads no data.
 - [x] Check (b) and the financial exemption are not implemented (`test_no_check_b_and_no_financial_exemption_exist`).
 - [x] No early-return between gates (`ParallelGates` tests); `exit_scan` present on every filled leg; in-window exit never un-fails a blow-up fill.
-- [x] 135 tests, all passing; stdlib `unittest` only.
+- [x] 137 tests, all passing; stdlib `unittest` only.

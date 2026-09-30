@@ -2,7 +2,6 @@ import copy, unittest
 from datetime import date, timedelta
 
 from engine_v4 import aggregate as A, events as E
-from engine_v4.common import SpecGapError
 from engine_v4.run import ATTRIBUTION_ORDER, run_name_date
 from engine_v4.tests import fixtures as F
 
@@ -123,10 +122,11 @@ class ParallelGates(unittest.TestCase):
         self.assertEqual(res["gates"]["distress"]["label"], "VETOED-DISTRESS:D1")
         self.assertEqual(res["usability"]["verdict"], "PASS")
 
-    def test_spec_gap_propagates_never_guessed(self):
+    def test_amended_named_fir_is_moderate_and_vetoes_entry(self):
         nd = F.make_nd(events=[ev("T5", "named_fir", date(2018, 12, 1))])
-        with self.assertRaises(SpecGapError):
-            run_name_date(nd)
+        res = run_name_date(nd)
+        self.assertEqual(res["events"][0]["grade"], "MODERATE")
+        self.assertEqual(res["gates"]["event_lane"]["verdict"], "STOP")
 
 
 class EventLaneTiming(unittest.TestCase):

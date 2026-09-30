@@ -20,7 +20,7 @@ version.
   patch loops (see §9).
 - Defaults: inverse-DCF implied-growth hurdle as entry anchor; free-data-only
   validation; QFV quality conditions NOT re-justified → **dropped entirely**
-  (§2.7, §12-A).
+  (§2.6, §12-A).
 - v3 history stays frozen: engine/, cross_engine/, specs/, validation/v3_*/
   are read-only for the v4 build. engine_v4/ and validation/v4_oos/ are the
   only writable trees.
@@ -192,7 +192,7 @@ deviation; subtract revaluation reserve only if separately disclosed);
 X3 = EBIT / Total Assets (EBIT = Profit Before Tax + Interest +
 Depreciation); X4 = Book Equity / Total Liabilities (Book Equity = Share
 Capital + Reserves; Total Liabilities = Total Assets − Book Equity). All
-fields screener.in. **Veto if Z'' < 1.1** (Altman's published distress
+fields screener.in **except the Current Assets / Current Liabilities split for X1, which comes from the AR PDF (BSE announcements / company IR, free) per D4's precedent for F_ΔLIQUID ("the 1-of-9 not on screener"); AR unretrievable ⇒ the missing-field rule below applies (UNCOMPUTABLE-DATA veto)**. **Veto if Z'' < 1.1** (Altman's published distress
 boundary). The 1.1–2.6 grey zone PASSES (veto on clear distress only).
 Justification: literature cutoff, never fitted on our sets. The +3.25
 emerging-market constant is deliberately EXCLUDED (re-scales the score and
@@ -344,7 +344,7 @@ correction: correct with source + date, log separately, never silently swap.
 | T3 | Promoter conduct | (a) Dated off-market transfer or gift of promoter shares (SAST Reg 29/30 disclosure); (b) dated lender **invocation of pledged shares** (pledge-invocation disclosure under SAST Reg 31). Plain creation/pledge of encumbrance without invocation is not an event (pledge level is the distress screen's input, not the lane's). |
 | T4 | Withdrawn capital actions | Dated company/board announcement **withdrawing** a previously announced buyback, dividend, or fundraise. A never-announced action, or routine non-declaration of dividend, is not an event. |
 | T5 | Criminal/legal | Arrest, charge-sheet / named FIR, or conviction of a promoter or KMP (dated agency/court record or exchange disclosure). MCA-ordered investigation or inspection (no charge-sheet) is the MODERATE sub-case. |
-| T6 | Associate contagion | Regulatory action against a **named** associate or group company where the link is documented in the company's own filings or in the regulatory order itself — never inferred from press juxtaposition. Severity = the severity of the underlying action, downgraded one grade (SEVERE→MODERATE) unless the order names the company directly. |
+| T6 | Associate contagion | Regulatory action against a **named** associate or group company where the link is documented in the company's own filings or in the regulatory order itself — never inferred from press juxtaposition. Severity = the severity of the underlying action, downgraded one grade (SEVERE→MODERATE) unless the order names the company directly. Explicitly: an underlying MODERATE action, downgraded one grade, is **WATCH** (log only, no veto); an underlying WATCH stays WATCH. |
 | T7 | Rating downgrade to D | A SEBI-registered agency downgrades the company's long-term instruments to **'D' with default/payment-delay rationale** (dated rating rationale PDF). Folds the v3.11 type 7 into this lane (standalone veto killed per the kill list): it is the most objective SEVERE trigger — a D certifies a realized payment default (Dichev & Piotroski 2001), not a judgment call. Legal stays barring agencies from recognizing default (cf. NCLT 2020-12-30 in the Srei case) do not change the rule: **the event date is the agency's publication date** (§12-N). |
 
 ### §5.2 Severity grades (Cogent 2022: fraud/cheating/default >> disclosure lapses)
@@ -353,11 +353,15 @@ correction: correct with source + date, log separately, never silently swap.
   a trading/registrant ban · T2 adverse opinion or disclaimer; resignation
   citing disagreement/fraud/CARO fraud flag · T3 pledge invocation · T5
   arrest / charge-sheet / conviction · T7 downgrade to D.
-- **MODERATE**: T1 probe / SCN opened with no adverse finding yet · T2
+- **MODERATE**: T1 probe / SCN opened with no adverse finding yet; T1
+  regulatory order that is neither a fraud/cheating/misstatement finding nor a
+  trading/registrant ban · T2
   qualified opinion (not adverse/disclaimer); resignation with no stated
-  reasons · T3 off-market transfers/gifts · T4 withdrawn
+  reasons; resignation citing reasons other than disagreement, suspected
+  fraud or unpaid fees, with no CARO fraud flag · T5 named FIR on its own (no
+  arrest, charge-sheet or conviction yet) · T3 off-market transfers/gifts · T4 withdrawn
   buyback/dividend/fundraise · T5 MCA-ordered investigation/inspection · T6
-  contagion (downgraded). T7 sub-investment-grade cut below D (e.g. BB and
+  contagion (SEVERE underlying, downgraded). T7 sub-investment-grade cut below D (e.g. BB and
   lower, not D) is MODERATE.
 - **WATCH**: disclosure lapses with no order, RBI special-audit /
   forensic-auditor appointment with no adverse conclusion, SEBI settlement
@@ -736,3 +740,10 @@ each is one veto away from changing:
     (§2.2, §11). Confirm the carry.
 18. **Fin-variant anchor construction** (inverse excess-return, ROE fading to
     w, terminal = book; §2.4) — judgmental-but-frozen. Confirm.
+
+## Amendment log (pre-run finalization, approved by Bablu; no v4 validation has run)
+
+1. §5.2 MODERATE list gains three sub-cases: T1 order that is neither a fraud finding nor a ban; T2 resignation with other stated reasons (no CARO fraud flag); T5 named FIR alone.
+2. §5.1 T6: underlying MODERATE downgraded one grade = WATCH made explicit (§5.2 T6 MODERATE entry narrowed to "SEVERE underlying, downgraded").
+3. §3 D3: CA/CL split for X1 sourced from the AR PDF; unretrievable ⇒ UNCOMPUTABLE-DATA veto.
+4. §0: "§2.7" corrected to "§2.6".

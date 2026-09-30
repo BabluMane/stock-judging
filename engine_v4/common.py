@@ -3,12 +3,6 @@ from datetime import date, timedelta
 import calendar
 
 
-class SpecGapError(Exception):
-    """A record needs a rule the frozen spec does not state (or states twice,
-    inconsistently). The engine never resolves these -- it stops and names the
-    section. Raised by the event lane grader."""
-
-
 class SpecScopeError(ValueError):
     """An input outside what the frozen spec defines (e.g. non-March FY-end for U3)."""
 

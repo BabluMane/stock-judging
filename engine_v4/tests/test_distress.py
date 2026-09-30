@@ -48,6 +48,14 @@ class D3D4(unittest.TestCase):
         fy[2018]["reserves"], fy[2018]["equity_capital"] = -100.0, 50.0
         self.assertEqual(D.d3_altman(fy, 2018)["status"], "TRIP")             # even with another field missing
 
+    def test_amendment_3_ca_cl_from_ar_unretrievable_is_uncomputable_data_veto(self):
+        fy = F.fy_records(); fy[2018]["current_assets"] = fy[2018]["current_liabilities"] = None   # AR PDF not retrievable
+        r = D.d3_altman(fy, 2018)
+        self.assertEqual(r["status"], "UNCOMPUTABLE")
+        self.assertIn("current_assets", r["reason"])
+        full = run(fy)
+        self.assertEqual((full["verdict"], full["label"]), ("STOP", "VETOED-DATA"))         # never a silent pass
+
     def test_revaluation_reserve_subtracted_only_when_disclosed(self):
         fy = F.fy_records()
         z0 = D.d3_altman(fy, 2018)["x"][1]

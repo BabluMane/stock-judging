@@ -6,34 +6,33 @@ Event records are dicts (the dated public record as logged):
   sources [{tier: 1|2|3, ref}]  -- 1 exchange filing, 2 regulator/agency document, 3 national press
   T6: underlying_grade, names_company_directly       T7: agency_publication_date
 A record whose (type, subcase) is not on the closed list is not an event (ValueError).
-A sub-case the spec lists in §5.1 but never grades in §5.2 raises SpecGapError: the
-engine does not pick a grade (see GAPS).
+Every §5.1 sub-case is graded (the four former gaps were closed by the pre-run
+amendment; see V4_SPEC.md "Amendment log").
 """
 from . import constants as C
-from .common import SpecGapError, add_months, iso, weekdays_between
+from .common import add_months, iso, weekdays_between
 
 SEVERE, MODERATE, WATCH = "SEVERE", "MODERATE", "WATCH"
 _RANK = {WATCH: 0, MODERATE: 1, SEVERE: 2}
-GAP = None   # grade the spec does not state
 
 # (type, subcase) -> grade, exactly per §5.2.
 GRADES = {
     ("T1", "order_fraud_cheating_misstatement"): SEVERE,
     ("T1", "order_trading_or_registrant_ban"): SEVERE,
     ("T1", "probe_or_scn_opened_no_adverse_finding"): MODERATE,
-    ("T1", "order_or_direction_without_fraud_finding_or_ban"): GAP,      # GAPS[0]
+    ("T1", "order_or_direction_without_fraud_finding_or_ban"): MODERATE,  # amendment 1
     ("T2", "opinion_adverse_or_disclaimer"): SEVERE,
     ("T2", "opinion_qualified"): MODERATE,
-    ("T2", "resignation_citing_disagreement_fraud_or_unpaid_fees"): SEVERE,  # §5.1 T2 (§5.2 omits 'unpaid fees'; GAPS[1])
+    ("T2", "resignation_citing_disagreement_fraud_or_unpaid_fees"): SEVERE,  # §5.1 T2 (§5.2 SEVERE list omits 'unpaid fees'; carried per §5.1)
     ("T2", "caro_suspected_fraud_flag"): SEVERE,
     ("T2", "resignation_no_stated_reasons"): MODERATE,
-    ("T2", "resignation_other_stated_reasons"): GAP,                     # GAPS[2]
+    ("T2", "resignation_other_stated_reasons"): MODERATE,                # amendment 1
     ("T3", "pledge_invocation"): SEVERE,
     ("T3", "off_market_transfer_or_gift"): MODERATE,
     ("T4", "withdrawn_buyback_dividend_or_fundraise"): MODERATE,
     ("T5", "arrest_chargesheet_or_conviction"): SEVERE,
     ("T5", "mca_ordered_investigation_or_inspection"): MODERATE,
-    ("T5", "named_fir"): GAP,                                            # GAPS[3]
+    ("T5", "named_fir"): MODERATE,                                       # amendment 1
     ("T6", "associate_contagion"): "DERIVED",
     ("T7", "downgrade_to_D_default_rationale"): SEVERE,
     ("T7", "downgrade_sub_investment_grade_not_D"): MODERATE,
@@ -42,17 +41,6 @@ GRADES = {
     ("WATCH", "sebi_settlement_no_admission"): WATCH,
     ("WATCH", "media_rumor_no_dated_record"): WATCH,
 }
-
-GAPS = [
-    "§5.1 T1 lists adjudication/enforcement orders and interim directions; §5.2 grades only fraud-finding / ban orders (SEVERE) and probe/SCN-opened (MODERATE). An order with neither is ungraded.",
-    "§5.1 T2 makes a resignation citing 'unpaid fees' SEVERE; §5.2's SEVERE list omits 'unpaid fees'. Carried as SEVERE per §5.1 (no contradiction, an omission) -- flagged for confirmation.",
-    "§5.2 grades resignations 'citing disagreement/fraud' SEVERE and 'no stated reasons' MODERATE; a resignation with other stated reasons is ungraded.",
-    "§5.1 T5 lists a 'named FIR'; §5.2 grades arrest / charge-sheet / conviction (SEVERE) and MCA-ordered investigation (MODERATE). A named FIR alone is ungraded.",
-    "§5.1 T6: 'downgraded one grade (SEVERE->MODERATE)'; a MODERATE underlying action of a non-directly-named associate is not specified (WATCH by 'one grade', MODERATE by the §5.2 list).",
-]
-
-GAP_INDEX = {("T1", "order_or_direction_without_fraud_finding_or_ban"): 0,
-             ("T2", "resignation_other_stated_reasons"): 2, ("T5", "named_fir"): 3}
 
 
 def grade_event(rec):
@@ -78,12 +66,8 @@ def grade_event(rec):
             g = under
         elif under == SEVERE:
             g = MODERATE
-        elif under == WATCH:
+        else:                                   # MODERATE downgraded one grade -> WATCH; WATCH stays WATCH
             g = WATCH
-        else:
-            raise SpecGapError(f"§5.1 T6 / §5.2: {GAPS[4]}")
-    if g is GAP:
-        raise SpecGapError(f"{key}: {GAPS[GAP_INDEX[key]]}")
     weak = bool(sources) and all(s["tier"] == 3 for s in sources)
     eff = MODERATE if (g == SEVERE and weak) else g
     return {"event_date": event_date, "type": rec["type"], "subcase": rec["subcase"], "raw_grade": g,
