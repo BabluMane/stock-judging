@@ -1,0 +1,6 @@
+{
+ "symbol": "SREINFRA",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/SREINFRA.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "unavailable: TypeError: 'NoneType' object is not subscriptable",
+ "actions": []
+}

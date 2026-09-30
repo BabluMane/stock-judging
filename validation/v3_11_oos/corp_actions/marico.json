@@ -1,0 +1,43 @@
+{
+ "symbol": "MARICO",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/MARICO.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "1996-05-01",
+ "actions": [
+  {
+   "ex_date": "2000-08-02",
+   "numerator": 8.0,
+   "denominator": 5.0,
+   "ratio_text": "8:5",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2002-08-14",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2004-05-06",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2007-02-21",
+   "numerator": 10.0,
+   "denominator": 1.0,
+   "ratio_text": "10:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2015-12-22",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

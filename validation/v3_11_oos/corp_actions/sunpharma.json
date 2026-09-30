@@ -1,0 +1,43 @@
+{
+ "symbol": "SUNPHARMA",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/SUNPHARMA.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "1996-01-01",
+ "actions": [
+  {
+   "ex_date": "2000-03-08",
+   "numerator": 3.0,
+   "denominator": 1.0,
+   "ratio_text": "3:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2003-01-13",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2004-05-27",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2010-11-25",
+   "numerator": 5.0,
+   "denominator": 1.0,
+   "ratio_text": "5:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2013-07-29",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

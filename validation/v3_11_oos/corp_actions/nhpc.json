@@ -1,0 +1,7 @@
+{
+ "symbol": "NHPC",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/NHPC.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2009-09-01",
+ "actions": []
+}
