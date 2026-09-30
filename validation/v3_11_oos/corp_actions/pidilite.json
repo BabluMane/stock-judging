@@ -1,0 +1,29 @@
+{
+ "symbol": "PIDILITIND",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/PIDILITIND.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2002-07-01",
+ "actions": [
+  {
+   "ex_date": "2005-09-20",
+   "numerator": 10.0,
+   "denominator": 1.0,
+   "ratio_text": "10:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2010-03-15",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2025-09-23",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

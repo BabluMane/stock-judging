@@ -1,0 +1,15 @@
+{
+ "symbol": "SADBHAV",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/SADBHAV.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2006-03-01",
+ "actions": [
+  {
+   "ex_date": "2010-12-07",
+   "numerator": 10.0,
+   "denominator": 1.0,
+   "ratio_text": "10:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}

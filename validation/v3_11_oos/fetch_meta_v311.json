@@ -1,0 +1,290 @@
+{
+ "fetched_on": "2026-09-30",
+ "companies": {
+  "tvsmotor": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 49,
+   "actions": 2,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "jublfood": {
+   "variant": "consolidated",
+   "price_pts": 869,
+   "eps_pts": 49,
+   "actions": 2,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "tiindia": {
+   "variant": "consolidated",
+   "price_pts": 466,
+   "eps_pts": 42,
+   "actions": 0,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "kei": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 43,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "pidilite": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 86,
+   "actions": 3,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "emami": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 86,
+   "actions": 3,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "marico": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 86,
+   "actions": 5,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "ongc": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 49,
+   "actions": 3,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "sunpharma": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 86,
+   "actions": 5,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "nhpc": {
+   "variant": "consolidated",
+   "price_pts": 892,
+   "eps_pts": 48,
+   "actions": 0,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "gayatri": {
+   "variant": "consolidated",
+   "price_pts": 895,
+   "eps_pts": 42,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "sadbhav": {
+   "variant": "consolidated",
+   "price_pts": 901,
+   "eps_pts": 55,
+   "actions": 1,
+   "actions_status": "ok",
+   "pnl_years": [
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "Mar 2024",
+    "Mar 2025",
+    "Mar 2026",
+    "TTM"
+   ]
+  },
+  "srei": {
+   "variant": "consolidated",
+   "price_pts": 735,
+   "eps_pts": 71,
+   "actions": 0,
+   "actions_status": "unavailable: TypeError: 'NoneType' object is not subscriptable",
+   "pnl_years": [
+    "Mar 2012",
+    "Mar 2013",
+    "Mar 2014",
+    "Mar 2015",
+    "Mar 2016",
+    "Mar 2017",
+    "Mar 2018",
+    "Mar 2019",
+    "Mar 2020",
+    "Mar 2021",
+    "Mar 2022",
+    "Mar 2023",
+    "TTM"
+   ]
+  }
+ }
+}

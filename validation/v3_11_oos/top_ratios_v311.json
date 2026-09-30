@@ -1,0 +1,145 @@
+{
+ "tvsmotor": {
+  "Market Cap": "₹ 1,94,363",
+  "Current Price": "₹ 4,091",
+  "High / Low": "₹ 4,485",
+  "Stock P/E": "56.2",
+  "Book Value": "₹ 201",
+  "Dividend Yield": "0.29",
+  "ROCE": "17.4",
+  "ROE": "33.6",
+  "Face Value": "₹ 1.00"
+ },
+ "jublfood": {
+  "Market Cap": "₹ 30,551",
+  "Current Price": "₹ 463",
+  "High / Low": "₹ 635",
+  "Stock P/E": "80.2",
+  "Book Value": "₹ 34.7",
+  "Dividend Yield": "0.26",
+  "ROCE": "14.8",
+  "ROE": "21.0",
+  "Face Value": "₹ 2.00"
+ },
+ "tiindia": {
+  "Market Cap": "₹ 46,709",
+  "Current Price": "₹ 2,413",
+  "High / Low": "₹ 3,335",
+  "Stock P/E": "74.5",
+  "Book Value": "₹ 400",
+  "Dividend Yield": "0.15",
+  "ROCE": "17.1",
+  "ROE": "9.95",
+  "Face Value": "₹ 1.00"
+ },
+ "kei": {
+  "Market Cap": "₹ 42,647",
+  "Current Price": "₹ 4,461",
+  "High / Low": "₹ 5,931",
+  "Stock P/E": "42.8",
+  "Book Value": "₹ 697",
+  "Dividend Yield": "0.10",
+  "ROCE": "20.0",
+  "ROE": "14.7",
+  "Face Value": "₹ 2.00"
+ },
+ "pidilite": {
+  "Market Cap": "₹ 1,48,809",
+  "Current Price": "₹ 1,461",
+  "High / Low": "₹ 1,708",
+  "Stock P/E": "56.2",
+  "Book Value": "₹ 106",
+  "Dividend Yield": "0.79",
+  "ROCE": "31.0",
+  "ROE": "23.9",
+  "Face Value": "₹ 1.00"
+ },
+ "emami": {
+  "Market Cap": "₹ 16,633",
+  "Current Price": "₹ 381",
+  "High / Low": "₹ 560",
+  "Stock P/E": "22.0",
+  "Book Value": "₹ 67.0",
+  "Dividend Yield": "2.62",
+  "ROCE": "28.1",
+  "ROE": "26.2",
+  "Face Value": "₹ 1.00"
+ },
+ "marico": {
+  "Market Cap": "₹ 1,02,346",
+  "Current Price": "₹ 787",
+  "High / Low": "₹ 890",
+  "Stock P/E": "54.2",
+  "Book Value": "₹ 32.4",
+  "Dividend Yield": "0.51",
+  "ROCE": "47.0",
+  "ROE": "42.8",
+  "Face Value": "₹ 1.00"
+ },
+ "ongc": {
+  "Market Cap": "₹ 2,89,346",
+  "Current Price": "₹ 230",
+  "High / Low": "₹ 308",
+  "Stock P/E": "6.62",
+  "Book Value": "₹ 296",
+  "Dividend Yield": "5.76",
+  "ROCE": "14.2",
+  "ROE": "11.6",
+  "Face Value": "₹ 5.00"
+ },
+ "sunpharma": {
+  "Market Cap": "₹ 4,47,476",
+  "Current Price": "₹ 1,865",
+  "High / Low": "₹ 2,048",
+  "Stock P/E": "35.4",
+  "Book Value": "₹ 348",
+  "Dividend Yield": "0.86",
+  "ROCE": "20.5",
+  "ROE": "16.0",
+  "Face Value": "₹ 1.00"
+ },
+ "nhpc": {
+  "Market Cap": "₹ 73,650",
+  "Current Price": "₹ 73.3",
+  "High / Low": "₹ 88.1",
+  "Stock P/E": "19.4",
+  "Book Value": "₹ 41.2",
+  "Dividend Yield": "2.20",
+  "ROCE": "5.75",
+  "ROE": "9.32",
+  "Face Value": "₹ 10.0"
+ },
+ "gayatri": {
+  "Market Cap": "₹ 1,042",
+  "Current Price": "₹ 22.4",
+  "High / Low": "₹ 27.3",
+  "Stock P/E": "8.34",
+  "Book Value": "₹ 32.4",
+  "Dividend Yield": "0.00",
+  "ROCE": "4.85",
+  "ROE": "",
+  "Face Value": "₹ 2.00"
+ },
+ "sadbhav": {
+  "Market Cap": "₹ 119",
+  "Current Price": "₹ 6.93",
+  "High / Low": "₹ 14.7",
+  "Stock P/E": "",
+  "Book Value": "₹ -6.46",
+  "Dividend Yield": "0.00",
+  "ROCE": "12.7",
+  "ROE": "",
+  "Face Value": "₹ 1.00"
+ },
+ "srei": {
+  "Market Cap": "₹ 106",
+  "Current Price": "₹ 2.10",
+  "High / Low": "₹",
+  "Stock P/E": "",
+  "Book Value": "₹ -340",
+  "Dividend Yield": "0.00",
+  "ROCE": "-3.86",
+  "ROE": "",
+  "Face Value": "₹ 10.0"
+ }
+}

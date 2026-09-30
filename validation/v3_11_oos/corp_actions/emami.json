@@ -1,0 +1,29 @@
+{
+ "symbol": "EMAMILTD",
+ "source": "https://query1.finance.yahoo.com/v8/finance/chart/EMAMILTD.NS?range=max&interval=1mo&events=splits%7Cdiv",
+ "status": "ok",
+ "yahoo_first_trade": "2006-08-03",
+ "actions": [
+  {
+   "ex_date": "2010-07-21",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2013-06-26",
+   "numerator": 3.0,
+   "denominator": 2.0,
+   "ratio_text": "3:2",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  },
+  {
+   "ex_date": "2018-06-21",
+   "numerator": 2.0,
+   "denominator": 1.0,
+   "ratio_text": "2:1",
+   "note": "Yahoo reports splits and bonuses alike as split events (ratio = new:old shares)"
+  }
+ ]
+}
