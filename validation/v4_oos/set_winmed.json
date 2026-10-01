@@ -1,0 +1,122 @@
+{
+ "set_name": "v4_oos_winmed",
+ "phase": "D",
+ "selection_basis": "general public market history only; no engine-output tuning",
+ "winners": [
+  {
+   "company": "Infosys",
+   "slug": "infy",
+   "name_dates": [
+    "infy_2020-03-31",
+    "infy_2021-03-31"
+   ],
+   "thesis": "COVID-era digital-transformation deal boom + large-deal wins drove multi-year EPS compounding and sustained P/E re-rating (2020-25)."
+  },
+  {
+   "company": "State Bank of India",
+   "slug": "sbin",
+   "name_dates": [
+    "sbin_2021-03-31",
+    "sbin_2022-03-31"
+   ],
+   "thesis": "PSU-bank credit-cost normalization + corporate-book recovery drove the 2021-24 re-rating (~2.5x in 3 years)."
+  },
+  {
+   "company": "SRF",
+   "slug": "srf",
+   "name_dates": [
+    "srf_2019-03-31",
+    "srf_2020-03-31"
+   ],
+   "thesis": "Fluorochemicals/specialty-chemicals capex cycle + import substitution: multi-year re-rating, EPS 16.08 -> 64.27 FY18-22."
+  },
+  {
+   "company": "Larsen & Toubro",
+   "slug": "lt",
+   "name_dates": [
+    "lt_2021-03-31",
+    "lt_2022-03-31"
+   ],
+   "thesis": "Domestic capex-cycle order-book boom + asset monetization / NWC discipline drove the 2021-25 run."
+  },
+  {
+   "company": "Endurance Technologies",
+   "slug": "endurance",
+   "name_dates": [
+    "endurance_2020-03-31",
+    "endurance_2021-03-31"
+   ],
+   "thesis": "2W/4W ancillary (aluminium casting, suspension); OEM share gains + premiumization drove steady compounding FY19-24."
+  }
+ ],
+ "mediocrities": [
+  {
+   "company": "Dr Reddy's Laboratories",
+   "slug": "drreddy",
+   "name_dates": [
+    "drreddy_2019-03-31",
+    "drreddy_2020-03-31"
+   ],
+   "thesis": "US generics price erosion 2017-19; MOSL Jan-2018: stock 'will remain range bound' (~Rs 2,000-3,000 band 2017-19)."
+  },
+  {
+   "company": "Dabur India",
+   "slug": "dabur",
+   "name_dates": [
+    "dabur_2020-03-31",
+    "dabur_2021-03-31"
+   ],
+   "thesis": "Defensive FMCG; price range-bound Rs 400-560 across 2019-22 while EPS barely moved (8.17 -> 8.18) - flat/de-rating profile."
+  },
+  {
+   "company": "Maruti Suzuki",
+   "slug": "maruti",
+   "name_dates": [
+    "maruti_2019-03-31",
+    "maruti_2020-03-31"
+   ],
+   "thesis": "Auto slowdown + BS-VI transition; flat Rs 6,000-7,500 2018-21 while EPS declined 260.86 -> 145.30 FY18-21."
+  },
+  {
+   "company": "Cyient",
+   "slug": "cyient",
+   "name_dates": [
+    "cyient_2020-03-31",
+    "cyient_2021-03-31"
+   ],
+   "thesis": "Midcap ER&D/IT; flat Rs 400-600 2017-21."
+  },
+  {
+   "company": "Aurobindo Pharma",
+   "slug": "auropharma",
+   "name_dates": [
+    "auropharma_2019-03-31",
+    "auropharma_2020-03-31"
+   ],
+   "thesis": "US FDA overhangs; price flat Rs 700-900 2017-21 even as EPS grew 41.36 -> 91.05 by FY21 - textbook de-rating."
+  }
+ ],
+ "excluded_tier_collisions": [
+  "infy, axisbank, sbin appeared in BOTH worker pools; kept in winner tier (W1 axis), dropped from mediocrity pool - name-date collision infy_2020-03-31 and axisbank_2019/2020-03-31 resolved to winners"
+ ],
+ "verified_alternates": {
+  "winners": [
+   "tcs",
+   "bajajfinsv",
+   "aartiind",
+   "atul",
+   "fineorg"
+  ],
+  "mediocrities": [
+   "godrejcp",
+   "eichermot"
+  ]
+ },
+ "shape": {
+  "winner_companies": 5,
+  "winner_name_dates": 10,
+  "mediocrity_companies": 5,
+  "mediocrity_name_dates": 10,
+  "max_per_company": 2
+ }
+}
