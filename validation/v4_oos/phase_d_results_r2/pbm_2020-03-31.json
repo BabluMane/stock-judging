@@ -1,0 +1,317 @@
+{
+ "key": "pbm_2020-03-31",
+ "company": "pbm",
+ "category": "blowup",
+ "d0": "2020-03-31",
+ "scoring_fy": 2019,
+ "as_of": "2026-08-31",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DISTRESS:D1",
+   "reasons": [
+    "D1"
+   ]
+  },
+  "usability": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "U3"
+   ]
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": [],
+   "tiers_touched": [
+    "G1",
+    "G2"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress",
+  "usability"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DISTRESS:D1",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "TRIP",
+    "pledged_pct": 100.0,
+    "note": "% of promoter holding",
+    "quarter": "2019-12-31"
+   },
+   "D2": {
+    "status": "PASS",
+    "n_prior": 8,
+    "prior_all_zero": false,
+    "scoring_quarter_pledged_pct": 100.0
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 8.913941333333334,
+    "x": [
+     0.4101333333333333,
+     0.7133333333333334,
+     0.06666666666666667,
+     3.2857142857142856
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 5,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 0,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 0,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": [
+     "F_dLIQUID: missing prior-FY input -> 0 (fail-closed)",
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 68.7,
+    "p0": 32.17,
+    "drawdown": 0.5317321688500728,
+    "weeks_of_history": 1052.142857142857
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [
+   "D1"
+  ],
+  "uncomputable": [],
+  "raw_pledged_pct": 100.0
+ },
+ "usability": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "deciding_check": "U3",
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end"
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 3.94
+   },
+   "U3": {
+    "status": "UNCOMPUTABLE",
+    "reason": "no publication in [Mar 31, Aug 31]"
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 32.17,
+  "w": 0.11235600000000001,
+  "beta": 1.0714,
+  "shares_cr": 0.8001243394466894,
+  "net_cash_cr": 21.0,
+  "margin": 0.05700000000000001,
+  "dep_pct": 0.018211863529306302,
+  "rev0": 211.0,
+  "sg": {
+   "roe_avg3": 0.03551007721842658,
+   "payout": 0.15,
+   "payout_raw": 15.0,
+   "g_sus_uncapped": 0.030183565635662594,
+   "g_sus": 0.030183565635662594,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2017,
+     "pat": 5.0,
+     "book": 111.0,
+     "roe": 0.04504504504504504
+    },
+    {
+     "fy": 2018,
+     "pat": 4.0,
+     "book": 113.0,
+     "roe": 0.035398230088495575
+    },
+    {
+     "fy": 2019,
+     "pat": 3.0,
+     "book": 115.0,
+     "roe": 0.02608695652173913
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.030183565635662594,
+  "hurdle_growth": {
+   "G1": 0.02641061993120477,
+   "G2": 0.021128495944963813
+  },
+  "trigger": {
+   "G1": 118.5072442206425,
+   "G2": 114.83009825095817
+  },
+  "v_at_g_sus": 121.26296666154903,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10235600000000002,
+   "monotone_on_bounds": true,
+   "status": "at_-50%_floor",
+   "g_implied": -0.5
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2020-03-31",
+  "hits": []
+ },
+ "events": [
+  {
+   "event_date": "2020-09-30",
+   "type": "T2",
+   "subcase": "resignation_no_stated_reasons",
+   "raw_grade": "MODERATE",
+   "grade": "MODERATE",
+   "weak_source": false,
+   "capped": false,
+   "description": null,
+   "print_search": null
+  }
+ ],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 118.5072442206425,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress",
+    "usability"
+   ],
+   "would_have_filled": "2020-04-30"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 114.83009825095817,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress",
+    "usability"
+   ],
+   "would_have_filled": "2020-04-30"
+  }
+ },
+ "distress_decisional": true,
+ "distress_decisional_incl_data_vetoes": true,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 118.5072442206425,
+   "G2": 114.83009825095817
+  },
+  "p_d0": 32.17,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10235600000000002,
+   "monotone_on_bounds": true,
+   "status": "at_-50%_floor",
+   "g_implied": -0.5
+  },
+  "legs": {
+   "G1": {
+    "tier": "G1",
+    "trigger": 118.5072442206425,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress",
+     "usability"
+    ],
+    "fill_date": "2020-04-30",
+    "fill_price": 29.92,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2020-04-30",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": false,
+     "exit_date": null,
+     "exit_price": null,
+     "triggering_event": null,
+     "note": "no SEVERE event in (fill, d0+24m]"
+    },
+    "ret_to_t": 1.026403743315508,
+    "ret_24m": 3.1403743315508015,
+    "realized_exit": false,
+    "raw_ret_to_t": 1.026403743315508,
+    "raw_ret_24m": 3.1403743315508015,
+    "fwd_truncated": false,
+    "to_t_date": "2026-08-31",
+    "series_ends_before_as_of": false
+   },
+   "G2": {
+    "tier": "G2",
+    "trigger": 114.83009825095817,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress",
+     "usability"
+    ],
+    "fill_date": "2020-04-30",
+    "fill_price": 29.92,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2020-04-30",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": false,
+     "exit_date": null,
+     "exit_price": null,
+     "triggering_event": null,
+     "note": "no SEVERE event in (fill, d0+24m]"
+    },
+    "ret_to_t": 1.026403743315508,
+    "ret_24m": 3.1403743315508015,
+    "realized_exit": false,
+    "raw_ret_to_t": 1.026403743315508,
+    "raw_ret_24m": 3.1403743315508015,
+    "fwd_truncated": false,
+    "to_t_date": "2026-08-31",
+    "series_ends_before_as_of": false
+   }
+  }
+ }
+}

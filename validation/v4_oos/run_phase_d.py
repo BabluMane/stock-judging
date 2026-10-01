@@ -22,7 +22,10 @@ sys.path.insert(0, PORT)
 from engine_v4.run import NameDate, run_name_date  # noqa: E402
 
 INPUTS = os.path.join(PORT, "validation", "v4_oos", "phase_d_inputs")
-RESULTS = os.path.join(PORT, "validation", "v4_oos", "phase_d_results")
+# argv[1] overrides the results dir (default reproduces the VOID run exactly).
+# The Amendment-1 re-run uses "phase_d_results_r2"; phase_d_results/ is preserved.
+RESULTS = os.path.join(PORT, "validation", "v4_oos",
+                        sys.argv[1] if len(sys.argv) > 1 else "phase_d_results")
 MANIFEST = os.path.join(PORT, "validation", "v4_oos", "SET_MANIFEST.json")
 
 
