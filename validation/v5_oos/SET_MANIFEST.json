@@ -1,0 +1,200 @@
+{
+ "set_name": "v5_oos_24",
+ "status": "FROZEN per G2 decision (Bablu, 2026-10-01): 4 blow-ups accepted; pre-reg amended (a-prime >=3/4)",
+ "frozen_at_utc": "2026-10-01",
+ "freeze_rule": "no name added, removed, or swapped after the freeze commit, for any reason",
+ "spec": {
+  "file": "engine_v5/V5_SPEC.md",
+  "engine_tree": "c951e3f3974cf417dd20a04824d5a85074196fdd"
+ },
+ "shape": {
+  "name_dates": 24,
+  "companies": 14,
+  "blowups": 4,
+  "winners": 10,
+  "mediocrities": 10
+ },
+ "gates": {
+  "zero_overlap_vs_v4": "PASS (353 name-dates + 284 companies)",
+  "cross_tier_disjoint": "PASS",
+  "blowup_per_company_le2": "PASS"
+ },
+ "name_dates": [
+  {
+   "company": "Add-Shop E-Retail India Ltd",
+   "name_date": "addshop_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "541865",
+   "tier": "blowup",
+   "e1_date": "2024-05-06",
+   "e1_type": "T1"
+  },
+  {
+   "company": "Mishtann Foods Ltd",
+   "name_date": "mishtann_2024-03-31",
+   "scoring_fy": 2023,
+   "symbol": "539594",
+   "tier": "blowup",
+   "e1_date": "2024-12-05",
+   "e1_type": "T1"
+  },
+  {
+   "company": "Rana Sugars Ltd",
+   "name_date": "ranasug_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "RANASUG",
+   "tier": "blowup",
+   "e1_date": "2024-08-27",
+   "e1_type": "T1"
+  },
+  {
+   "company": "White Organic Agro Ltd",
+   "name_date": "whiteorganic_2023-03-31",
+   "scoring_fy": 2021,
+   "symbol": "513713",
+   "tier": "blowup",
+   "e1_date": "2024-05-06",
+   "e1_type": "T1"
+  },
+  {
+   "company": "Alkem Laboratories Ltd",
+   "name_date": "alkem_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "alkem",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Alkem Laboratories Ltd",
+   "name_date": "alkem_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "alkem",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Grasim Industries Ltd",
+   "name_date": "grasim_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "grasim",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Grasim Industries Ltd",
+   "name_date": "grasim_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "grasim",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "HCL Technologies Ltd",
+   "name_date": "hcltech_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "hcltech",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "HCL Technologies Ltd",
+   "name_date": "hcltech_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "hcltech",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Hindustan Petroleum Corporation Ltd",
+   "name_date": "hindpetro_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "hindpetro",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Hindustan Petroleum Corporation Ltd",
+   "name_date": "hindpetro_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "hindpetro",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "NMDC Ltd",
+   "name_date": "nmdc_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "nmdc",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "NMDC Ltd",
+   "name_date": "nmdc_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "nmdc",
+   "tier": "mediocrity"
+  },
+  {
+   "company": "Balkrishna Industries",
+   "name_date": "balkrisind_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "balkrisind",
+   "tier": "winner"
+  },
+  {
+   "company": "Balkrishna Industries",
+   "name_date": "balkrisind_2024-03-31",
+   "scoring_fy": 2023,
+   "symbol": "balkrisind",
+   "tier": "winner"
+  },
+  {
+   "company": "Eicher Motors",
+   "name_date": "eichermot_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "eichermot",
+   "tier": "winner"
+  },
+  {
+   "company": "Eicher Motors",
+   "name_date": "eichermot_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "eichermot",
+   "tier": "winner"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "name_date": "godrejcp_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "godrejcp",
+   "tier": "winner"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "name_date": "godrejcp_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "godrejcp",
+   "tier": "winner"
+  },
+  {
+   "company": "Laurus Labs",
+   "name_date": "lauruslabs_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "lauruslabs",
+   "tier": "winner"
+  },
+  {
+   "company": "Laurus Labs",
+   "name_date": "lauruslabs_2023-03-31",
+   "scoring_fy": 2022,
+   "symbol": "lauruslabs",
+   "tier": "winner"
+  },
+  {
+   "company": "Zydus Lifesciences",
+   "name_date": "zyduslife_2022-03-31",
+   "scoring_fy": 2021,
+   "symbol": "zyduslife",
+   "tier": "winner"
+  },
+  {
+   "company": "Zydus Lifesciences",
+   "name_date": "zyduslife_2024-03-31",
+   "scoring_fy": 2023,
+   "symbol": "zyduslife",
+   "tier": "winner"
+  }
+ ]
+}
