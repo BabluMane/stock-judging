@@ -1,0 +1,374 @@
+{
+ "key": "whiteorganic_2023-03-31",
+ "company": "whiteorganic",
+ "category": "blowup",
+ "d0": "2023-03-31",
+ "scoring_fy": 2021,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DISTRESS:E2",
+   "reasons": [
+    "E2",
+    "E5"
+   ]
+  },
+  "usability": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "U3"
+   ]
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": [],
+   "tiers_touched": [
+    "G1",
+    "G2"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress",
+  "usability"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DISTRESS:E2",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2022-12-31"
+   },
+   "D2": {
+    "status": "PASS",
+    "n_prior": 4,
+    "prior_all_zero": true,
+    "scoring_quarter_pledged_pct": 0.0
+   },
+   "E1": {
+    "status": "PASS",
+    "sloan": 0.07244844942360773,
+    "threshold": 0.1,
+    "positive_only": true
+   },
+   "E2": {
+    "status": "TRIP",
+    "cfo_below_half_ni": {
+     "2021": true,
+     "2020": true
+    },
+    "persistence_fy": 2
+   },
+   "E3": {
+    "status": "PASS",
+    "reason": "interest 0.0 <= 0: coverage infinite -> no trip",
+    "interest_coverage": null
+   },
+   "E4": {
+    "status": "PASS",
+    "etr": {
+     "2021": 0.255870749577306,
+     "2020": 0.2797789602947196
+    },
+    "threshold": 0.15,
+    "persistence_fy": 2
+   },
+   "E5": {
+    "status": "TRIP",
+    "days": 137.80345371166524,
+    "yoy": 0.8158872716011148,
+    "thresholds": [
+     90,
+     1.3
+    ]
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 4.344786885538498,
+    "x": [
+     0.3582562104237701,
+     0.24322130215944146,
+     0.004489365156681279,
+     1.115767777396084
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 4,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 0,
+     "F_dROA": 1,
+     "F_ACCRUAL": 0,
+     "F_dLEVER": 0,
+     "F_dLIQUID": 1,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 0
+    },
+    "fail_closed_log": []
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 14.23,
+    "p0": 7.98,
+    "drawdown": 0.4392129304286718,
+    "weeks_of_history": 1169.4285714285713
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "e_rules": "evaluated",
+  "reporting": {
+   "SGI": 0.7335611038107753,
+   "DEPI": null,
+   "LVGI": 0.8601488300105401,
+   "TATA": 0.07244844942360773,
+   "rpt_loans": 6.64
+  },
+  "reporting_log": [
+   "DEPI: uncomputable (missing input) -> stored null (reporting-only)"
+  ],
+  "tripped": [
+   "E2",
+   "E5"
+  ],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "deciding_check": "U3",
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end"
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 0.08
+   },
+   "U3": {
+    "status": "STOP",
+    "reason": "|TTM - audited|/audited = 262.5% > 15%",
+    "results_week": "2021-08-13",
+    "vendor_ttm": 0.29,
+    "sourced_eps": 0.08,
+    "gap": 2.6249999999999996,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 7.98,
+  "w": 0.12074000000000001,
+  "beta": 1.281,
+  "shares_cr": 3.496240601503759,
+  "net_cash_cr": 22.099999999999998,
+  "margin": 0.009600000000000001,
+  "dep_pct": 2.9664660361134995e-05,
+  "rev0": 139.56,
+  "sg": {
+   "roe_avg3": 0.03257278040924593,
+   "payout": -0.0,
+   "payout_raw": -0.0,
+   "g_sus_uncapped": 0.03257278040924593,
+   "g_sus": 0.03257278040924593,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2019,
+     "pat": 5.0,
+     "book": 58.0,
+     "roe": 0.08620689655172414
+    },
+    {
+     "fy": 2020,
+     "pat": 0.3519,
+     "book": 65.0,
+     "roe": 0.005413846153846154
+    },
+    {
+     "fy": 2021,
+     "pat": 0.3961,
+     "book": 64.96000000000001,
+     "roe": 0.006097598522167487
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.03257278040924593,
+  "hurdle_growth": {
+   "G1": 0.02850118285809019,
+   "G2": 0.02280094628647215
+  },
+  "trigger": {
+   "G1": 8.92816221412014,
+   "G2": 8.889036683805468
+  },
+  "v_at_g_sus": 8.95755820043134,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.11074000000000002,
+   "monotone_on_bounds": true,
+   "status": "at_-50%_floor",
+   "g_implied": -0.5
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2023-03-31",
+  "hits": []
+ },
+ "events": [
+  {
+   "event_date": "2024-05-06",
+   "type": "T1",
+   "subcase": "order_fraud_cheating_misstatement",
+   "raw_grade": "SEVERE",
+   "grade": "SEVERE",
+   "weak_source": false,
+   "capped": false,
+   "description": null,
+   "print_search": null
+  }
+ ],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 8.92816221412014,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress",
+    "usability"
+   ],
+   "would_have_filled": "2023-04-30"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 8.889036683805468,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress",
+    "usability"
+   ],
+   "would_have_filled": "2023-04-30"
+  }
+ },
+ "distress_decisional": true,
+ "distress_decisional_incl_data_vetoes": true,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 8.92816221412014,
+   "G2": 8.889036683805468
+  },
+  "p_d0": 7.98,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.11074000000000002,
+   "monotone_on_bounds": true,
+   "status": "at_-50%_floor",
+   "g_implied": -0.5
+  },
+  "legs": {
+   "G1": {
+    "tier": "G1",
+    "trigger": 8.92816221412014,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress",
+     "usability"
+    ],
+    "fill_date": "2023-04-30",
+    "fill_price": 6.65,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2023-04-30",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": true,
+     "exit_date": "2024-05-31",
+     "exit_price": 7.32,
+     "triggering_event": "T1 2024-05-06",
+     "exit_price_after_slippage": 7.2468,
+     "exit_unexecuted": false,
+     "note": "SEVERE T1 2024-05-06; exit at weekly close 2024-05-31 x 0.99"
+    },
+    "ret_to_t": 0.08974436090225564,
+    "ret_24m": 0.08974436090225564,
+    "realized_exit": true,
+    "raw_ret_to_t": -0.47518796992481205,
+    "raw_ret_24m": -0.22255639097744362,
+    "fwd_truncated": true,
+    "to_t_date": "2026-10-01",
+    "series_ends_before_as_of": false
+   },
+   "G2": {
+    "tier": "G2",
+    "trigger": 8.889036683805468,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress",
+     "usability"
+    ],
+    "fill_date": "2023-04-30",
+    "fill_price": 6.65,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2023-04-30",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": true,
+     "exit_date": "2024-05-31",
+     "exit_price": 7.32,
+     "triggering_event": "T1 2024-05-06",
+     "exit_price_after_slippage": 7.2468,
+     "exit_unexecuted": false,
+     "note": "SEVERE T1 2024-05-06; exit at weekly close 2024-05-31 x 0.99"
+    },
+    "ret_to_t": 0.08974436090225564,
+    "ret_24m": 0.08974436090225564,
+    "realized_exit": true,
+    "raw_ret_to_t": -0.47518796992481205,
+    "raw_ret_24m": -0.22255639097744362,
+    "fwd_truncated": true,
+    "to_t_date": "2026-10-01",
+    "series_ends_before_as_of": false
+   }
+  }
+ }
+}

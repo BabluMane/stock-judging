@@ -1,0 +1,302 @@
+{
+ "key": "zyduslife_2024-03-31",
+ "company": "zyduslife",
+ "category": "winner",
+ "d0": "2024-03-31",
+ "scoring_fy": 2023,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DISTRESS:E5",
+   "reasons": [
+    "E5"
+   ]
+  },
+  "usability": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "U3"
+   ]
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress",
+  "usability",
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DISTRESS:E5",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2023-12-31"
+   },
+   "D2": {
+    "status": "PASS",
+    "n_prior": 4,
+    "prior_all_zero": true,
+    "scoring_quarter_pledged_pct": 0.0
+   },
+   "E1": {
+    "status": "PASS",
+    "sloan": -0.023354980048509506,
+    "threshold": 0.1,
+    "positive_only": true
+   },
+   "E2": {
+    "status": "PASS",
+    "cfo_below_half_ni": {
+     "2023": false,
+     "2022": true
+    },
+    "persistence_fy": 2
+   },
+   "E3": {
+    "status": "PASS",
+    "interest_coverage": 20.884615384615383,
+    "threshold": 1.5
+   },
+   "E4": {
+    "status": "PASS",
+    "etr": {
+     "2023": 0.22738878143133462,
+     "2022": 0.10064909520062942
+    },
+    "threshold": 0.15,
+    "persistence_fy": 2
+   },
+   "E5": {
+    "status": "TRIP",
+    "days": 93.52741196263851,
+    "yoy": 1.3222764422357274,
+    "thresholds": [
+     90,
+     1.3
+    ]
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 6.560727799543518,
+    "x": [
+     0.1753188326422033,
+     0.681284719505516,
+     0.134496518269306,
+     2.176982351478996
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 7,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 0,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 1,
+     "F_dLIQUID": 1,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": [
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 992.57,
+    "p0": 991.73,
+    "drawdown": 0.0008462879192399848,
+    "weeks_of_history": 52.0
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "e_rules": "evaluated",
+  "reporting": {
+   "SGI": 1.129184408778251,
+   "DEPI": 0.9777762695967931,
+   "LVGI": 0.6033176184790632,
+   "TATA": -0.023354980048509506,
+   "rpt_loans": 0.0
+  },
+  "reporting_log": [],
+  "tripped": [
+   "E5"
+  ],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "deciding_check": "U3",
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end",
+    "audited_over_sourced_by_fy": {
+     "2009": null,
+     "2010": null,
+     "2011": null,
+     "2012": null,
+     "2013": null,
+     "2014": null,
+     "2015": null,
+     "2016": null,
+     "2017": null,
+     "2018": null,
+     "2019": null,
+     "2020": null,
+     "2021": null,
+     "2022": null,
+     "2023": null,
+     "2024": null,
+     "2025": null,
+     "2026": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 19.37
+   },
+   "U3": {
+    "status": "STOP",
+    "reason": "|TTM - audited|/audited = 15.6% > 15%",
+    "results_week": "2023-05-18",
+    "vendor_ttm": 22.4,
+    "sourced_eps": 19.37,
+    "gap": 0.15642746515229725,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 991.73,
+  "w": 0.09570000000000001,
+  "beta": 0.655,
+  "shares_cr": 101.0,
+  "net_cash_cr": -1195.0,
+  "margin": 0.15,
+  "dep_pct": 0.04619749914362216,
+  "rev0": 17237.0,
+  "sg": {
+   "roe_avg3": 0.1864257061248744,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.1864257061248744,
+   "g_sus": 0.15,
+   "cap": 0.15,
+   "cap_binding": true,
+   "roe_years": [
+    {
+     "fy": 2021,
+     "pat": 2185.0,
+     "book": 12992.0,
+     "roe": 0.16818041871921183
+    },
+    {
+     "fy": 2022,
+     "pat": 4618.0,
+     "book": 16999.0,
+     "roe": 0.27166303900229427
+    },
+    {
+     "fy": 2023,
+     "pat": 2092.0,
+     "book": 17516.0,
+     "roe": 0.11943366065311715
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.15,
+  "hurdle_growth": {
+   "G1": 0.13125,
+   "G2": 0.10499999999999998
+  },
+  "trigger": {
+   "G1": 597.3595382810756,
+   "G2": 451.30347407431117
+  },
+  "v_at_g_sus": 730.8240979321117,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.08570000000000001,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2024-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 597.3595382810756,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 451.30347407431117,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 597.3595382810756,
+   "G2": 451.30347407431117
+  },
+  "p_d0": 991.73,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.08570000000000001,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  },
+  "legs": {}
+ }
+}
