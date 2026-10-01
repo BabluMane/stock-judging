@@ -1,199 +1,316 @@
 {
- "key": "pbm_2020-03-31",
- "d0": "2020-03-31",
- "sector": "Textiles",
+ "as_of": "2026-08-31",
+ "audited_eps_by_fy": null,
+ "audited_prints": [
+  {
+   "fy_end": "2018-03-31",
+   "results_date": "2018-05-21"
+  },
+  {
+   "fy_end": "2019-03-31",
+   "results_date": "2019-05-29"
+  },
+  {
+   "fy_end": "2020-03-31",
+   "results_date": "2020-07-31"
+  },
+  {
+   "fy_end": "2021-03-31",
+   "results_date": "2021-06-30"
+  }
+ ],
  "beta": 1.0714,
+ "category": "blowup",
+ "corp_actions": [],
+ "d0": "2020-03-31",
+ "eps_series": [
+  [
+   "2026-09-15",
+   2.67
+  ]
+ ],
+ "equity_increase_solely_bonus_split": true,
+ "events": [
+  {
+   "event_date": "2020-09-30",
+   "sources": [
+    {
+     "ref": "BSE intimation 2020-09-30, scrip 514087 (no reason stated; underlying 18-Jul-2020 letter unrecoverable)",
+     "tier": 1
+    }
+   ],
+   "subcase": "resignation_no_stated_reasons",
+   "type": "T2"
+  }
+ ],
  "fy": {
   "2015": {
-   "equity_capital": 8.0,
-   "reserves": 102.0,
-   "total_assets": 159.0,
+   "borrowings": 21.0,
+   "cfo": 32.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 17.0,
-   "interest": 3.0,
    "depreciation": 4.0,
-   "net_profit": 10.0,
-   "cfo": 32.0,
-   "sales": 217.0,
-   "opm_pct": 10.0,
    "dividend_payout_pct": 25.0,
-   "investments": 38.0,
-   "borrowings": 21.0,
-   "material_cost": null,
    "eps": 12.02,
+   "equity_capital": 8.0,
+   "interest": 3.0,
+   "investments": 38.0,
+   "material_cost": null,
+   "net_profit": 10.0,
+   "opm_pct": 10.0,
+   "pbt": 17.0,
+   "reserves": 102.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 217.0,
+   "total_assets": 159.0
   },
   "2016": {
-   "equity_capital": 8.0,
-   "reserves": 104.0,
-   "total_assets": 154.0,
+   "borrowings": 12.0,
+   "cfo": 16.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 11.0,
-   "interest": 3.0,
    "depreciation": 4.0,
-   "net_profit": 5.0,
-   "cfo": 16.0,
-   "sales": 192.0,
-   "opm_pct": 8.0,
    "dividend_payout_pct": 45.0,
-   "investments": 36.0,
-   "borrowings": 12.0,
-   "material_cost": null,
    "eps": 6.63,
+   "equity_capital": 8.0,
+   "interest": 3.0,
+   "investments": 36.0,
+   "material_cost": null,
+   "net_profit": 5.0,
+   "opm_pct": 8.0,
+   "pbt": 11.0,
+   "reserves": 104.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 192.0,
+   "total_assets": 154.0
   },
   "2017": {
-   "equity_capital": 8.0,
-   "reserves": 103.0,
-   "total_assets": 152.0,
+   "borrowings": 16.0,
+   "cfo": -1.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 8.0,
-   "interest": 1.0,
    "depreciation": 4.0,
-   "net_profit": 5.0,
-   "cfo": -1.0,
-   "sales": 179.0,
-   "opm_pct": 4.9,
    "dividend_payout_pct": 45.0,
-   "investments": 25.0,
-   "borrowings": 16.0,
-   "material_cost": null,
    "eps": 6.74,
+   "equity_capital": 8.0,
+   "interest": 1.0,
+   "investments": 25.0,
+   "material_cost": null,
+   "net_profit": 5.0,
+   "opm_pct": 4.9,
+   "pbt": 8.0,
+   "reserves": 103.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 179.0,
+   "total_assets": 152.0
   },
   "2018": {
-   "equity_capital": 8.0,
-   "reserves": 105.0,
-   "total_assets": 139.0,
+   "borrowings": 8.0,
+   "cfo": 4.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 3.0,
-   "interest": 1.0,
    "depreciation": 3.0,
-   "net_profit": 4.0,
-   "cfo": 4.0,
-   "sales": 197.0,
-   "opm_pct": 2.4,
    "dividend_payout_pct": 75.0,
-   "investments": 15.0,
-   "borrowings": 8.0,
-   "material_cost": null,
    "eps": 4.69,
+   "equity_capital": 8.0,
+   "interest": 1.0,
+   "investments": 15.0,
+   "material_cost": null,
+   "net_profit": 4.0,
+   "opm_pct": 2.4,
+   "pbt": 3.0,
+   "reserves": 105.0,
+   "results_published": "2018-05-21",
    "revaluation_reserve": null,
-   "results_published": "2018-05-21"
+   "sales": 197.0,
+   "total_assets": 139.0
   },
   "2019": {
-   "equity_capital": 8.0,
-   "reserves": 107.0,
-   "total_assets": 150.0,
-   "current_assets": null,
-   "current_liabilities": null,
-   "pbt": 6.0,
-   "interest": 1.0,
-   "depreciation": 3.0,
-   "net_profit": 3.0,
-   "cfo": 23.0,
-   "sales": 211.0,
-   "opm_pct": 3.2,
-   "dividend_payout_pct": 15.0,
-   "investments": 36.0,
    "borrowings": 15.0,
-   "material_cost": null,
+   "cfo": 23.0,
+   "current_assets": 88.85,
+   "current_liabilities": 27.33,
+   "depreciation": 3.0,
+   "dividend_payout_pct": 15.0,
    "eps": 3.94,
+   "equity_capital": 8.0,
+   "interest": 1.0,
+   "investments": 36.0,
+   "material_cost": null,
+   "net_profit": 3.0,
+   "opm_pct": 3.2,
+   "pbt": 6.0,
+   "reserves": 107.0,
+   "results_published": "2019-05-29",
    "revaluation_reserve": null,
-   "results_published": "2019-05-29"
+   "sales": 211.0,
+   "total_assets": 150.0
   },
   "2020": {
-   "equity_capital": 7.0,
-   "reserves": 95.0,
-   "total_assets": 125.0,
+   "borrowings": 1.0,
+   "cfo": 2.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": -4.0,
-   "interest": 1.0,
    "depreciation": 4.0,
-   "net_profit": -3.0,
-   "cfo": 2.0,
-   "sales": 171.0,
-   "opm_pct": -1.7,
    "dividend_payout_pct": 0.0,
-   "investments": 12.0,
-   "borrowings": 1.0,
-   "material_cost": null,
    "eps": -3.84,
+   "equity_capital": 7.0,
+   "interest": 1.0,
+   "investments": 12.0,
+   "material_cost": null,
+   "net_profit": -3.0,
+   "opm_pct": -1.7,
+   "pbt": -4.0,
+   "reserves": 95.0,
+   "results_published": "2020-07-31",
    "revaluation_reserve": null,
-   "results_published": "2020-07-31"
+   "sales": 171.0,
+   "total_assets": 125.0
   },
   "2021": {
-   "equity_capital": 7.0,
-   "reserves": 98.0,
-   "total_assets": 135.0,
+   "borrowings": 0.0,
+   "cfo": -2.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 3.0,
-   "interest": 1.0,
    "depreciation": 4.0,
-   "net_profit": 2.0,
-   "cfo": -2.0,
-   "sales": 154.0,
-   "opm_pct": 3.4,
    "dividend_payout_pct": 48.0,
-   "investments": 1.0,
-   "borrowings": 0.0,
-   "material_cost": null,
    "eps": 3.15,
+   "equity_capital": 7.0,
+   "interest": 1.0,
+   "investments": 1.0,
+   "material_cost": null,
+   "net_profit": 2.0,
+   "opm_pct": 3.4,
+   "pbt": 3.0,
+   "reserves": 98.0,
+   "results_published": "2021-06-30",
    "revaluation_reserve": null,
-   "results_published": "2021-06-30"
+   "sales": 154.0,
+   "total_assets": 135.0
   },
   "2022": {
-   "equity_capital": 7.0,
-   "reserves": 119.0,
-   "total_assets": 158.0,
+   "borrowings": 1.0,
+   "cfo": 4.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 29.0,
-   "interest": 1.0,
    "depreciation": 3.0,
-   "net_profit": 22.0,
-   "cfo": 4.0,
-   "sales": 255.0,
-   "opm_pct": 13.0,
    "dividend_payout_pct": 13.0,
-   "investments": 1.0,
-   "borrowings": 1.0,
-   "material_cost": null,
    "eps": 31.89,
+   "equity_capital": 7.0,
+   "interest": 1.0,
+   "investments": 1.0,
+   "material_cost": null,
+   "net_profit": 22.0,
+   "opm_pct": 13.0,
+   "pbt": 29.0,
+   "reserves": 119.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 255.0,
+   "total_assets": 158.0
   },
   "2023": {
-   "equity_capital": 7.0,
-   "reserves": 117.0,
-   "total_assets": 144.0,
+   "borrowings": 1.0,
+   "cfo": 23.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 1.0,
-   "interest": 1.0,
    "depreciation": 3.0,
-   "net_profit": 0.0,
-   "cfo": 23.0,
-   "sales": 202.0,
-   "opm_pct": 0.8,
    "dividend_payout_pct": 0.0,
-   "investments": 2.0,
-   "borrowings": 1.0,
-   "material_cost": null,
    "eps": 0.49,
+   "equity_capital": 7.0,
+   "interest": 1.0,
+   "investments": 2.0,
+   "material_cost": null,
+   "net_profit": 0.0,
+   "opm_pct": 0.8,
+   "pbt": 1.0,
+   "reserves": 117.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 202.0,
+   "total_assets": 144.0
   }
  },
+ "key": "pbm_2020-03-31",
+ "mcap_cr": 25.74,
+ "mcap_price": 32.17,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2017-03-31"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2017-06-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2017-09-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2017-12-31"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2018-03-31"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2018-06-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2018-09-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2018-12-31"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.16,
+   "quarter_end": "2019-03-31"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 69.85,
+   "quarter_end": "2019-06-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 100.0,
+   "promoter_holding_pct": 69.85,
+   "quarter_end": "2019-09-30"
+  },
+  {
+   "basis": "promoter",
+   "pledged_pct": 100.0,
+   "promoter_holding_pct": 69.85,
+   "quarter_end": "2019-12-31"
+  }
+ ],
  "prices": [
   [
    "2000-01-31",
@@ -1476,49 +1593,5 @@
    60.63
   ]
  ],
- "mcap_cr": 25.74,
- "mcap_price": 32.17,
- "pledge": [],
- "eps_series": [
-  [
-   "2026-09-15",
-   2.67
-  ]
- ],
- "corp_actions": [],
- "events": [
-  {
-   "event_date": "2020-09-30",
-   "type": "T2",
-   "subcase": "resignation_no_stated_reasons",
-   "sources": [
-    {
-     "tier": 1,
-     "ref": "BSE intimation 2020-09-30, scrip 514087 (no reason stated; underlying 18-Jul-2020 letter unrecoverable)"
-    }
-   ]
-  }
- ],
- "audited_prints": [
-  {
-   "results_date": "2018-05-21",
-   "fy_end": "2018-03-31"
-  },
-  {
-   "results_date": "2019-05-29",
-   "fy_end": "2019-03-31"
-  },
-  {
-   "results_date": "2020-07-31",
-   "fy_end": "2020-03-31"
-  },
-  {
-   "results_date": "2021-06-30",
-   "fy_end": "2021-03-31"
-  }
- ],
- "equity_increase_solely_bonus_split": true,
- "audited_eps_by_fy": null,
- "category": "blowup",
- "as_of": "2026-08-31"
+ "sector": "Textiles"
 }

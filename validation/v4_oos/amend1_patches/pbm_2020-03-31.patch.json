@@ -1,0 +1,113 @@
+{
+ "amendment": "V4_OOS_PREREG_AMENDMENT_1",
+ "decisional_expectation": "D3 (Altman Z''/O) computable from patched CA/CL. Pledge series is COMPLETE (13/13 quarters): D1 reads a filed value at every quarter (0.0 for 11 quarters, 100.0% of promoter holding for 2019-09-30 and 2019-12-31); D2 has >=4 priors. D1/D2 decisional status depends on the frozen rules firing on the real numbers.",
+ "fy_patch": {
+  "2019": {
+   "current_assets": 88.85,
+   "current_liabilities": 27.33,
+   "units": "Rs.cr",
+   "ca_cl_source": "FY19 audited CONSOLIDATED balance sheet as at 31-Mar-2019, PBM Polytex Ltd 100th Annual Report 2018-19 (pbmpolytex.com/upload/investor_lodr_reg/100th-annual-report-fy-2018-19.pdf, PDF created 2019-08-26). Raw: Total Current Assets Rs 8,884.97 lakhs; Total Current Liabilities Rs 2,733.42 lakhs. Verified: 11,301.10 (equity) + 843.03 (non-current liab) + 2,733.42 (current liab) = 14,877.55 = Total Assets.",
+   "basis_caveat": "Consolidated basis (same basis as FY18, which matched input to the crore). CAVEAT: AR consolidated total assets 14,877.55 lakhs = 148.78cr vs input total_assets 150.0 (0.8% / 1.22cr gap); AR other equity 104.88cr vs input reserves 107.0. Equity capital matches (812.96 lakhs = 8.13cr vs input 8.0). Right company/CIN/AGM-year (100th AGM, AR signed 29-May-2019 by Chandulal M. Shah & Co), correct scoring-FY AR; the residual is a screener-rounding/vendor-side artifact in the input, not a wrong-AR/basis signal. PIT: results published 2019-05-29 (input audited_prints), before d0=2020-03-31, satisfies 63-day rule."
+  }
+ },
+ "key": "pbm_2020-03-31",
+ "named_gaps": [],
+ "pledge_patch": {
+  "pledge": [
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2017-03-31",
+    "source": "company SHP filing, shareholding-pattern-for-the-quarter-ended-31032017.pdf, declaration Q6: No shares held by promoters pledged/encumbered; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2017-06-30",
+    "source": "company SHP filing, quarterly-report-on-shareholding-pattern-for-june-2017-quarter.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2017-09-30",
+    "source": "company SHP filing, shareholding-pattern-for-the-quarter-ended-on-30092017.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2017-12-31",
+    "source": "company SHP filing, shareholding-pattern-for-the-quarter-ended-31st-december-2017.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2018-03-31",
+    "source": "company SHP filing, shareholding-pattern-for-the-quarter-ended-31032018-1.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2018-06-30",
+    "source": "company SHP filing, shareholding-pattern-for-june-2018-quarter.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2018-09-30",
+    "source": "company SHP filing, shareholding-pattern-for-september-2018-quarter.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2018-12-31",
+    "source": "company SHP filing, shareholding-pattern-for-december-2018-quarter.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 74.16,
+    "quarter_end": "2019-03-31",
+    "source": "company SHP filing, shareholding-pattern-for-the-quarter-ended-march-31-2019.pdf, declaration Q6: No; promoter 6,029,107 sh / 74.16%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 69.85,
+    "quarter_end": "2019-06-30",
+    "source": "company SHP filing, shareholding-pattern-for-june-2019-quarter.pdf, declaration Q6: No; promoter 4,805,105 sh / 69.85%"
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 100.0,
+    "promoter_holding_pct": 69.85,
+    "quarter_end": "2019-09-30",
+    "source": "company SHP filing, shareholding-pattern-for-september-2019-quarter.pdf, declaration Q6: YES. Col XIII(b) 'As a % of total Shares held' = 100% for ALL 30 promoter shareholders (19 Indian individuals 1,928,887 sh + 9 Indian bodies corporate 2,784,050 sh + 2 foreign individuals 92,168 sh = 4,805,105 pledged of 4,805,105 held). Promoter holding 69.85%."
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 100.0,
+    "promoter_holding_pct": 69.85,
+    "quarter_end": "2019-12-31",
+    "source": "company SHP filing, december-2019.pdf (Reg-31 SHP, quarter ended 31-12-2019), declaration Q6: YES. Col XIII(b) = 100% for all promoter shareholders (same 4,805,105/4,805,105). Promoter holding 69.85%."
+   },
+   {
+    "basis": "promoter",
+    "pledged_pct": 0.0,
+    "promoter_holding_pct": 69.85,
+    "quarter_end": "2020-03-31",
+    "source": "company SHP filing, shp-march-2020.pdf (Reg-31 SHP, quarter ended 31-03-2020), declaration Q6: No (pledge released). Promoter 4,805,105 sh / 69.85%. PIT NOTE: included per task brief (13-quarter series); engine _quarters_upto enforces quarter_end<=d0, but per the standing Pledge-PIT lesson this filing is unpublished at d0=2020-03-31 - parent to adjudicate whether D1 should read this (0.0) or Dec-2019 (100.0) as the scoring quarter."
+   }
+  ],
+  "semantics_note": "pledged_pct=0.0 quarters are DISCLOSED zeros (SHP declaration Q6 'No shares held by promoters are pledged or otherwise encumbered'), not 'not visible' defaults - recorded as filed facts. The Sep/Dec-2019 100% values are column XIII(b) '% of total Shares held' = % of PROMOTER holding -> basis='promoter'. All 13 company-site SHP PDFs are company-filed Reg-31 XBRL SHPs (tier-1)."
+ },
+ "worker": "W2",
+ "written": "2026-10-01"
+}

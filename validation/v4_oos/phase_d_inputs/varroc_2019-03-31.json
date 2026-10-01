@@ -1,199 +1,407 @@
 {
- "key": "varroc_2019-03-31",
- "d0": "2019-03-31",
- "sector": "Automobile and Auto Components",
+ "as_of": "2026-10-01",
+ "audited_eps_by_fy": null,
+ "audited_prints": [
+  {
+   "fy_end": "2018-03-31",
+   "results_date": "2018-06-06"
+  },
+  {
+   "fy_end": "2019-03-31",
+   "results_date": "2019-05-24"
+  },
+  {
+   "fy_end": "2020-03-31",
+   "results_date": "2020-06-25"
+  },
+  {
+   "fy_end": "2021-03-31",
+   "results_date": "2021-06-04"
+  }
+ ],
  "beta": 1.2902,
+ "category": "blowup",
+ "corp_actions": [],
+ "d0": "2019-03-31",
+ "eps_series": [
+  [
+   "2018-08-14",
+   36.56
+  ],
+  [
+   "2018-09-05",
+   196.27
+  ],
+  [
+   "2018-11-13",
+   128.37
+  ],
+  [
+   "2019-02-08",
+   33.65
+  ],
+  [
+   "2019-05-24",
+   31.61
+  ],
+  [
+   "2019-07-12",
+   31.28
+  ],
+  [
+   "2019-08-09",
+   30.6
+  ],
+  [
+   "2019-11-12",
+   24.96
+  ],
+  [
+   "2020-02-13",
+   19.74
+  ],
+  [
+   "2020-06-25",
+   0.01
+  ],
+  [
+   "2020-07-24",
+   0.01
+  ],
+  [
+   "2020-08-14",
+   -29.25
+  ],
+  [
+   "2020-11-10",
+   -33.87
+  ],
+  [
+   "2021-02-09",
+   -38.3
+  ],
+  [
+   "2021-06-04",
+   -37.61
+  ],
+  [
+   "2021-08-04",
+   -42.9
+  ],
+  [
+   "2021-08-12",
+   -29.86
+  ],
+  [
+   "2021-11-11",
+   -27.01
+  ],
+  [
+   "2022-02-14",
+   -26.63
+  ],
+  [
+   "2022-05-30",
+   -19.27
+  ],
+  [
+   "2022-08-12",
+   -4.49
+  ],
+  [
+   "2022-09-09",
+   -4.49
+  ],
+  [
+   "2022-11-14",
+   -5.63
+  ],
+  [
+   "2023-02-07",
+   -2.39
+  ],
+  [
+   "2023-05-23",
+   2.36
+  ],
+  [
+   "2023-08-09",
+   6.07
+  ],
+  [
+   "2023-08-23",
+   6.07
+  ],
+  [
+   "2023-11-07",
+   10.88
+  ],
+  [
+   "2024-02-07",
+   34.6
+  ],
+  [
+   "2024-05-17",
+   35.72
+  ],
+  [
+   "2024-08-07",
+   34.44
+  ],
+  [
+   "2024-08-23",
+   34.44
+  ],
+  [
+   "2024-11-13",
+   34.53
+  ],
+  [
+   "2025-02-10",
+   11.0
+  ],
+  [
+   "2025-05-29",
+   10.51
+  ],
+  [
+   "2025-08-01",
+   7.39
+  ],
+  [
+   "2025-08-07",
+   12.34
+  ],
+  [
+   "2025-11-12",
+   12.68
+  ],
+  [
+   "2026-02-05",
+   16.27
+  ],
+  [
+   "2026-05-27",
+   17.58
+  ],
+  [
+   "2026-07-29",
+   16.57
+  ],
+  [
+   "2026-08-06",
+   18.68
+  ]
+ ],
+ "equity_increase_solely_bonus_split": false,
+ "events": [
+  {
+   "event_date": "2020-06-25",
+   "sources": [
+    {
+     "ref": "FY20 audited-results filing 2020-06-25, SRBC & Co qualified consolidated opinion (Rs 943.68M disputed warranty claim)",
+     "tier": 1
+    }
+   ],
+   "subcase": "opinion_qualified",
+   "type": "T2"
+  }
+ ],
  "fy": {
   "2015": {
-   "equity_capital": 10.0,
-   "reserves": 1073.0,
-   "total_assets": 4428.0,
+   "borrowings": 1651.0,
+   "cfo": 128.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 63.0,
-   "interest": 475.0,
    "depreciation": 254.0,
-   "net_profit": 17.0,
-   "cfo": 128.0,
-   "sales": 6770.0,
-   "opm_pct": 8.0,
    "dividend_payout_pct": 16.0,
-   "investments": 22.0,
-   "borrowings": 1651.0,
-   "material_cost": null,
    "eps": 16.06,
+   "equity_capital": 10.0,
+   "interest": 475.0,
+   "investments": 22.0,
+   "material_cost": null,
+   "net_profit": 17.0,
+   "opm_pct": 8.0,
+   "pbt": 63.0,
+   "reserves": 1073.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 6770.0,
+   "total_assets": 4428.0
   },
   "2016": {
-   "equity_capital": 10.0,
-   "reserves": 1737.0,
-   "total_assets": 5233.0,
+   "borrowings": 1617.0,
+   "cfo": 290.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 392.0,
-   "interest": -43.0,
    "depreciation": 292.0,
-   "net_profit": 370.0,
-   "cfo": 290.0,
-   "sales": 7909.0,
-   "opm_pct": 7.0,
    "dividend_payout_pct": 1.0,
-   "investments": 12.0,
-   "borrowings": 1617.0,
-   "material_cost": null,
    "eps": 353.36,
+   "equity_capital": 10.0,
+   "interest": -43.0,
+   "investments": 12.0,
+   "material_cost": null,
+   "net_profit": 370.0,
+   "opm_pct": 7.0,
+   "pbt": 392.0,
+   "reserves": 1737.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 7909.0,
+   "total_assets": 5233.0
   },
   "2017": {
-   "equity_capital": 11.0,
-   "reserves": 2172.0,
-   "total_assets": 5847.0,
+   "borrowings": 1510.0,
+   "cfo": 676.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 327.0,
-   "interest": 90.0,
    "depreciation": 337.0,
-   "net_profit": 313.0,
-   "cfo": 676.0,
-   "sales": 9299.0,
-   "opm_pct": 6.0,
    "dividend_payout_pct": 13.0,
-   "investments": 293.0,
-   "borrowings": 1510.0,
-   "material_cost": null,
    "eps": 254.29,
+   "equity_capital": 11.0,
+   "interest": 90.0,
+   "investments": 293.0,
+   "material_cost": null,
+   "net_profit": 313.0,
+   "opm_pct": 6.0,
+   "pbt": 327.0,
+   "reserves": 2172.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 9299.0,
+   "total_assets": 5847.0
   },
   "2018": {
-   "equity_capital": 12.0,
-   "reserves": 2815.0,
-   "total_assets": 6802.0,
-   "current_assets": null,
-   "current_liabilities": null,
-   "pbt": 516.0,
-   "interest": 86.0,
-   "depreciation": 386.0,
-   "net_profit": 451.0,
-   "cfo": 1075.0,
-   "sales": 10279.0,
-   "opm_pct": 9.0,
-   "dividend_payout_pct": 1.0,
-   "investments": 360.0,
    "borrowings": 1194.0,
-   "material_cost": null,
+   "cfo": 1075.0,
+   "current_assets": 3060.44,
+   "current_liabilities": 3173.03,
+   "depreciation": 386.0,
+   "dividend_payout_pct": 1.0,
    "eps": 36.57,
+   "equity_capital": 12.0,
+   "interest": 86.0,
+   "investments": 360.0,
+   "material_cost": null,
+   "net_profit": 451.0,
+   "opm_pct": 9.0,
+   "pbt": 516.0,
+   "reserves": 2815.0,
+   "results_published": "2018-06-06",
    "revaluation_reserve": null,
-   "results_published": "2018-06-06"
+   "sales": 10279.0,
+   "total_assets": 6802.0
   },
   "2019": {
-   "equity_capital": 13.0,
-   "reserves": 3053.0,
-   "total_assets": 8641.0,
+   "borrowings": 2432.0,
+   "cfo": 474.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 519.0,
-   "interest": 97.0,
    "depreciation": 566.0,
-   "net_profit": 429.0,
-   "cfo": 474.0,
-   "sales": 12036.0,
-   "opm_pct": 9.0,
    "dividend_payout_pct": 14.0,
-   "investments": 362.0,
-   "borrowings": 2432.0,
-   "material_cost": null,
    "eps": 31.54,
+   "equity_capital": 13.0,
+   "interest": 97.0,
+   "investments": 362.0,
+   "material_cost": null,
+   "net_profit": 429.0,
+   "opm_pct": 9.0,
+   "pbt": 519.0,
+   "reserves": 3053.0,
+   "results_published": "2019-05-24",
    "revaluation_reserve": null,
-   "results_published": "2019-05-24"
+   "sales": 12036.0,
+   "total_assets": 8641.0
   },
   "2020": {
-   "equity_capital": 13.0,
-   "reserves": 2991.0,
-   "total_assets": 10904.0,
+   "borrowings": 4255.0,
+   "cfo": 1414.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": 39.0,
-   "interest": 139.0,
    "depreciation": 732.0,
-   "net_profit": 3.0,
-   "cfo": 1414.0,
-   "sales": 11122.0,
-   "opm_pct": 7.0,
    "dividend_payout_pct": 21284.0,
-   "investments": 330.0,
-   "borrowings": 4255.0,
-   "material_cost": null,
    "eps": 0.01,
+   "equity_capital": 13.0,
+   "interest": 139.0,
+   "investments": 330.0,
+   "material_cost": null,
+   "net_profit": 3.0,
+   "opm_pct": 7.0,
+   "pbt": 39.0,
+   "reserves": 2991.0,
+   "results_published": "2020-06-25",
    "revaluation_reserve": null,
-   "results_published": "2020-06-25"
+   "sales": 11122.0,
+   "total_assets": 10904.0
   },
   "2021": {
-   "equity_capital": 15.0,
-   "reserves": 3013.0,
-   "total_assets": 11092.0,
+   "borrowings": 3695.0,
+   "cfo": 474.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": -581.0,
-   "interest": 89.0,
    "depreciation": 274.0,
-   "net_profit": -629.0,
-   "cfo": 474.0,
-   "sales": 4374.0,
-   "opm_pct": 8.0,
    "dividend_payout_pct": 0.0,
-   "investments": 376.0,
-   "borrowings": 3695.0,
-   "material_cost": null,
    "eps": -41.36,
+   "equity_capital": 15.0,
+   "interest": 89.0,
+   "investments": 376.0,
+   "material_cost": null,
+   "net_profit": -629.0,
+   "opm_pct": 8.0,
+   "pbt": -581.0,
+   "reserves": 3013.0,
+   "results_published": "2021-06-04",
    "revaluation_reserve": null,
-   "results_published": "2021-06-04"
+   "sales": 4374.0,
+   "total_assets": 11092.0
   },
   "2022": {
-   "equity_capital": 15.0,
-   "reserves": 1973.0,
-   "total_assets": 10989.0,
+   "borrowings": 1625.0,
+   "cfo": 636.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": -1059.0,
-   "interest": 118.0,
    "depreciation": 305.0,
-   "net_profit": -1107.0,
-   "cfo": 636.0,
-   "sales": 5844.0,
-   "opm_pct": 6.0,
    "dividend_payout_pct": 0.0,
-   "investments": 388.0,
-   "borrowings": 1625.0,
-   "material_cost": null,
    "eps": -72.64,
+   "equity_capital": 15.0,
+   "interest": 118.0,
+   "investments": 388.0,
+   "material_cost": null,
+   "net_profit": -1107.0,
+   "opm_pct": 6.0,
+   "pbt": -1059.0,
+   "reserves": 1973.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 5844.0,
+   "total_assets": 10989.0
   },
   "2023": {
-   "equity_capital": 15.0,
-   "reserves": 961.0,
-   "total_assets": 4614.0,
+   "borrowings": 1806.0,
+   "cfo": 686.0,
    "current_assets": null,
    "current_liabilities": null,
-   "pbt": -773.0,
-   "interest": 190.0,
    "depreciation": 337.0,
-   "net_profit": -817.0,
-   "cfo": 686.0,
-   "sales": 6891.0,
-   "opm_pct": 8.0,
    "dividend_payout_pct": 0.0,
-   "investments": 421.0,
-   "borrowings": 1806.0,
-   "material_cost": null,
    "eps": -53.66,
+   "equity_capital": 15.0,
+   "interest": 190.0,
+   "investments": 421.0,
+   "material_cost": null,
+   "net_profit": -817.0,
+   "opm_pct": 8.0,
+   "pbt": -773.0,
+   "reserves": 961.0,
+   "results_published": null,
    "revaluation_reserve": null,
-   "results_published": null
+   "sales": 6891.0,
+   "total_assets": 4614.0
   }
  },
+ "key": "varroc_2019-03-31",
+ "mcap_cr": 6948.0,
+ "mcap_price": 579.0,
+ "pledge": [],
  "prices": [
   [
    "2018-07-06",
@@ -1920,213 +2128,5 @@
    841.05
   ]
  ],
- "mcap_cr": 6948.0,
- "mcap_price": 579.0,
- "pledge": [],
- "eps_series": [
-  [
-   "2018-08-14",
-   36.56
-  ],
-  [
-   "2018-09-05",
-   196.27
-  ],
-  [
-   "2018-11-13",
-   128.37
-  ],
-  [
-   "2019-02-08",
-   33.65
-  ],
-  [
-   "2019-05-24",
-   31.61
-  ],
-  [
-   "2019-07-12",
-   31.28
-  ],
-  [
-   "2019-08-09",
-   30.6
-  ],
-  [
-   "2019-11-12",
-   24.96
-  ],
-  [
-   "2020-02-13",
-   19.74
-  ],
-  [
-   "2020-06-25",
-   0.01
-  ],
-  [
-   "2020-07-24",
-   0.01
-  ],
-  [
-   "2020-08-14",
-   -29.25
-  ],
-  [
-   "2020-11-10",
-   -33.87
-  ],
-  [
-   "2021-02-09",
-   -38.3
-  ],
-  [
-   "2021-06-04",
-   -37.61
-  ],
-  [
-   "2021-08-04",
-   -42.9
-  ],
-  [
-   "2021-08-12",
-   -29.86
-  ],
-  [
-   "2021-11-11",
-   -27.01
-  ],
-  [
-   "2022-02-14",
-   -26.63
-  ],
-  [
-   "2022-05-30",
-   -19.27
-  ],
-  [
-   "2022-08-12",
-   -4.49
-  ],
-  [
-   "2022-09-09",
-   -4.49
-  ],
-  [
-   "2022-11-14",
-   -5.63
-  ],
-  [
-   "2023-02-07",
-   -2.39
-  ],
-  [
-   "2023-05-23",
-   2.36
-  ],
-  [
-   "2023-08-09",
-   6.07
-  ],
-  [
-   "2023-08-23",
-   6.07
-  ],
-  [
-   "2023-11-07",
-   10.88
-  ],
-  [
-   "2024-02-07",
-   34.6
-  ],
-  [
-   "2024-05-17",
-   35.72
-  ],
-  [
-   "2024-08-07",
-   34.44
-  ],
-  [
-   "2024-08-23",
-   34.44
-  ],
-  [
-   "2024-11-13",
-   34.53
-  ],
-  [
-   "2025-02-10",
-   11.0
-  ],
-  [
-   "2025-05-29",
-   10.51
-  ],
-  [
-   "2025-08-01",
-   7.39
-  ],
-  [
-   "2025-08-07",
-   12.34
-  ],
-  [
-   "2025-11-12",
-   12.68
-  ],
-  [
-   "2026-02-05",
-   16.27
-  ],
-  [
-   "2026-05-27",
-   17.58
-  ],
-  [
-   "2026-07-29",
-   16.57
-  ],
-  [
-   "2026-08-06",
-   18.68
-  ]
- ],
- "corp_actions": [],
- "events": [
-  {
-   "event_date": "2020-06-25",
-   "type": "T2",
-   "subcase": "opinion_qualified",
-   "sources": [
-    {
-     "tier": 1,
-     "ref": "FY20 audited-results filing 2020-06-25, SRBC & Co qualified consolidated opinion (Rs 943.68M disputed warranty claim)"
-    }
-   ]
-  }
- ],
- "audited_prints": [
-  {
-   "results_date": "2018-06-06",
-   "fy_end": "2018-03-31"
-  },
-  {
-   "results_date": "2019-05-24",
-   "fy_end": "2019-03-31"
-  },
-  {
-   "results_date": "2020-06-25",
-   "fy_end": "2020-03-31"
-  },
-  {
-   "results_date": "2021-06-04",
-   "fy_end": "2021-03-31"
-  }
- ],
- "equity_increase_solely_bonus_split": false,
- "audited_eps_by_fy": null,
- "category": "blowup",
- "as_of": "2026-10-01"
+ "sector": "Automobile and Auto Components"
 }
