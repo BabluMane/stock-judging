@@ -1,0 +1,228 @@
+{
+ "key": "lt_2022-03-31",
+ "company": "lt",
+ "category": "winner",
+ "d0": "2022-03-31",
+ "scoring_fy": 2021,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "U3"
+   ]
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "usability",
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "usability",
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2021-03-31"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "2 prior quarters < 4",
+    "n_prior": 2
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 3.0365302317958403,
+    "x": [
+     0.18560692690949548,
+     0.2437575581676583,
+     0.10181396023799158,
+     0.32391365604160083
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 8,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 1,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 1,
+     "F_dLIQUID": 1,
+     "F_EQ": 1,
+     "F_dMARGIN": 1,
+     "F_dTURN": 0
+    },
+    "fail_closed_log": []
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 2044.75,
+    "p0": 1751.1,
+    "drawdown": 0.1436116884704732,
+    "weeks_of_history": 664.8571428571429
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "deciding_check": "U3",
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end"
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 82.47
+   },
+   "U3": {
+    "status": "STOP",
+    "reason": "|TTM - audited|/audited = 23.2% > 15%",
+    "results_week": "2021-05-14",
+    "vendor_ttm": 101.6,
+    "sourced_eps": 82.47,
+    "gap": 0.23196313811082814,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 1751.1,
+  "w": 0.11872,
+  "beta": 1.2305,
+  "shares_cr": 140.5,
+  "net_cash_cr": -95002.0,
+  "margin": 0.166,
+  "dep_pct": 0.01855183605997649,
+  "rev0": 135979.0,
+  "sg": {
+   "roe_avg3": 0.16579278240513265,
+   "payout": 0.44,
+   "payout_raw": 44.0,
+   "g_sus_uncapped": 0.0928439581468743,
+   "g_sus": 0.0928439581468743,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2019,
+     "pat": 10217.0,
+     "book": 62375.0,
+     "roe": 0.1637995991983968
+    },
+    {
+     "fy": 2020,
+     "pat": 10894.0,
+     "book": 66723.0,
+     "roe": 0.16327203513031488
+    },
+    {
+     "fy": 2021,
+     "pat": 12921.0,
+     "book": 75869.0,
+     "roe": 0.17030671288668625
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.0928439581468743,
+  "hurdle_growth": {
+   "G1": 0.08123846337851501,
+   "G2": 0.064990770702812
+  },
+  "trigger": {
+   "G1": 1321.1662201280822,
+   "G2": 1048.33291275787
+  },
+  "v_at_g_sus": 1546.773920974908,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10872000000000001,
+   "monotone_on_bounds": true,
+   "status": "solved",
+   "g_implied": 0.102252450515813
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2022-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 1321.1662201280822,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 1048.33291275787,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 1321.1662201280822,
+   "G2": 1048.33291275787
+  },
+  "p_d0": 1751.1,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10872000000000001,
+   "monotone_on_bounds": true,
+   "status": "solved",
+   "g_implied": 0.102252450515813
+  },
+  "legs": {}
+ }
+}

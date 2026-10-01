@@ -1,0 +1,234 @@
+{
+ "key": "srf_2019-03-31",
+ "company": "srf",
+ "category": "winner",
+ "d0": "2019-03-31",
+ "scoring_fy": 2018,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": [],
+   "tiers_touched": [
+    "G1"
+   ]
+  }
+ },
+ "all_stops": [],
+ "excluded": false,
+ "deciding_stop": null,
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2018-03-31"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "1 prior quarters < 4",
+    "n_prior": 1
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 2.903310210712169,
+    "x": [
+     -0.009813464067918231,
+     0.4192275499222767,
+     0.1222049503766591,
+     0.7426547197332778
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 5,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 0,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 0,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": []
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 490.9,
+    "p0": 480.6,
+    "drawdown": 0.02098187003463018,
+    "weeks_of_history": 508.2857142857143
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [
+     [
+      "2021-10-13",
+      "5:1"
+     ]
+    ],
+    "cumulative_factor": 5.0,
+    "factor": 1.0,
+    "restate": false,
+    "basis": "indeterminate: no FY after last ex-date; no restatement"
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 16.08
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2018-05-17",
+    "vendor_ttm": 16.08,
+    "sourced_eps": 16.08,
+    "gap": 0.0,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 480.6,
+  "w": 0.100444,
+  "beta": 0.7736,
+  "shares_cr": 28.999999999999996,
+  "net_cash_cr": -3020.0,
+  "margin": 0.1825,
+  "dep_pct": 0.05726686263257842,
+  "rev0": 5589.0,
+  "sg": {
+   "roe_avg3": 0.14903515489329697,
+   "payout": 0.15,
+   "payout_raw": 15.0,
+   "g_sus_uncapped": 0.1266798816593024,
+   "g_sus": 0.1266798816593024,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2016,
+     "pat": 430.0,
+     "book": 2763.0,
+     "roe": 0.1556279406442273
+    },
+    {
+     "fy": 2017,
+     "pat": 515.0,
+     "book": 3182.0,
+     "roe": 0.16184789440603395
+    },
+    {
+     "fy": 2018,
+     "pat": 462.0,
+     "book": 3564.0,
+     "roe": 0.12962962962962962
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.1266798816593024,
+  "hurdle_growth": {
+   "G1": 0.11084489645188961,
+   "G2": 0.08867591716151169
+  },
+  "trigger": {
+   "G1": 507.82508120329675,
+   "G2": 384.79134373244926
+  },
+  "v_at_g_sus": 615.9599338278596,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.09044400000000001,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2019-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 507.82508120329675,
+   "status": "FILLED",
+   "fill_date": "2019-04-05",
+   "fill_price": 498.22,
+   "event_veto_at_fill": {
+    "blocked": false,
+    "date": "2019-04-05",
+    "hits": []
+   },
+   "exit_scan": {
+    "fired": false,
+    "exit_date": null,
+    "exit_price": null,
+    "triggering_event": null,
+    "note": "no SEVERE event in (fill, d0+24m]"
+   },
+   "ret_to_t": 3.965477098470555,
+   "ret_24m": 1.3047448918148605,
+   "realized_exit": false,
+   "raw_ret_to_t": 3.965477098470555,
+   "raw_ret_24m": 1.3047448918148605,
+   "fwd_truncated": false,
+   "to_t_date": "2026-10-01",
+   "series_ends_before_as_of": false
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 384.79134373244926,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false
+}

@@ -1,0 +1,238 @@
+{
+ "key": "dabur_2021-03-31",
+ "company": "dabur",
+ "category": "mediocrity",
+ "d0": "2021-03-31",
+ "scoring_fy": 2020,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "D1",
+    "D2"
+   ]
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress",
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing",
+    "pledged_pct": null,
+    "quarter": "2021-03-31"
+   },
+   "D2": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing"
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 7.920212968465427,
+    "x": [
+     0.2587961872121667,
+     0.6885509264217629,
+     0.21398736210774338,
+     2.4188941779567923
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 7,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 1,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 1,
+     "F_dLIQUID": 1,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 0
+    },
+    "fail_closed_log": [
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 540.75,
+    "p0": 529.8,
+    "drawdown": 0.02024965325936208,
+    "weeks_of_history": 612.7142857142857
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [],
+  "uncomputable": [
+   "D1",
+   "D2"
+  ],
+  "raw_pledged_pct": null
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end",
+    "audited_over_sourced_by_fy": {
+     "2017": null,
+     "2018": null,
+     "2019": null,
+     "2020": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 8.18
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2020-05-27",
+    "vendor_ttm": 8.59,
+    "sourced_eps": 8.18,
+    "gap": 0.05012224938875307,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 529.8,
+  "w": 0.10452,
+  "beta": 0.8755,
+  "shares_cr": 177.00000000000003,
+  "net_cash_cr": -522.0,
+  "margin": 0.15,
+  "dep_pct": 0.021469522693125413,
+  "rev0": 8685.0,
+  "sg": {
+   "roe_avg3": 0.23797897449544658,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.23797897449544658,
+   "g_sus": 0.15,
+   "cap": 0.15,
+   "cap_binding": true,
+   "roe_years": [
+    {
+     "fy": 2018,
+     "pat": 1358.0,
+     "book": 5706.0,
+     "roe": 0.2379950928846828
+    },
+    {
+     "fy": 2019,
+     "pat": 1446.0,
+     "book": 5632.0,
+     "roe": 0.2567471590909091
+    },
+    {
+     "fy": 2020,
+     "pat": 1448.0,
+     "book": 6606.0,
+     "roe": 0.2191946715107478
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.15,
+  "hurdle_growth": {
+   "G1": 0.13125,
+   "G2": 0.10499999999999998
+  },
+  "trigger": {
+   "G1": 178.85652524362237,
+   "G2": 136.50096605130673
+  },
+  "v_at_g_sus": 217.4032041564093,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.09452,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2021-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 178.85652524362237,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 136.50096605130673,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 178.85652524362237,
+   "G2": 136.50096605130673
+  },
+  "p_d0": 529.8,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.09452,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  },
+  "legs": {}
+ }
+}

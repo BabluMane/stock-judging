@@ -1,0 +1,240 @@
+{
+ "key": "drreddy_2019-03-31",
+ "company": "drreddy",
+ "category": "mediocrity",
+ "d0": "2019-03-31",
+ "scoring_fy": 2018,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "D1",
+    "D2",
+    "D3"
+   ]
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress",
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing",
+    "pledged_pct": null,
+    "quarter": "2019-03-31"
+   },
+   "D2": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing"
+   },
+   "D3": {
+    "status": "UNCOMPUTABLE",
+    "reason": "missing fields: ['current_assets', 'current_liabilities']"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 5,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 0,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 1,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 0
+    },
+    "fail_closed_log": [
+     "F_dLIQUID: missing prior-FY input -> 0 (fail-closed)",
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 558.25,
+    "p0": 556.05,
+    "drawdown": 0.00394088669950747,
+    "weeks_of_history": 508.2857142857143
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [],
+  "uncomputable": [
+   "D1",
+   "D2",
+   "D3"
+  ],
+  "raw_pledged_pct": null
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [
+     [
+      "2024-10-28",
+      "5:1"
+     ]
+    ],
+    "cumulative_factor": 5.0,
+    "factor": 1.0,
+    "restate": false,
+    "basis": "indeterminate: no FY after last ex-date; no restatement",
+    "audited_over_sourced_by_fy": {
+     "2016": null,
+     "2017": null,
+     "2018": null,
+     "2019": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 11.41
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2018-05-22",
+    "vendor_ttm": 11.41,
+    "sourced_eps": 11.41,
+    "gap": 0.0,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 556.05,
+  "w": 0.086812,
+  "beta": 0.4328,
+  "shares_cr": 415.00000000000006,
+  "net_cash_cr": -5071.0,
+  "margin": 0.15,
+  "dep_pct": 0.06935841404832628,
+  "rev0": 14281.0,
+  "sg": {
+   "roe_avg3": 0.11674546997673485,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.11674546997673485,
+   "g_sus": 0.11674546997673485,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2016,
+     "pat": 2131.0,
+     "book": 12569.0,
+     "roe": 0.1695441164770467
+    },
+    {
+     "fy": 2017,
+     "pat": 1292.0,
+     "book": 12262.0,
+     "roe": 0.10536617191322786
+    },
+    {
+     "fy": 2018,
+     "pat": 947.0,
+     "book": 12572.0,
+     "roe": 0.07532612153993
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.11674546997673485,
+  "hurdle_growth": {
+   "G1": 0.102152286229643,
+   "G2": 0.08172182898371438
+  },
+  "trigger": {
+   "G1": 73.16182964710251,
+   "G2": 56.496716136137984
+  },
+  "v_at_g_sus": 87.66011783359598,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.076812,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2019-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 73.16182964710251,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 56.496716136137984,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 73.16182964710251,
+   "G2": 56.496716136137984
+  },
+  "p_d0": 556.05,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.076812,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  },
+  "legs": {}
+ }
+}

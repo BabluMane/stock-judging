@@ -1,0 +1,221 @@
+{
+ "key": "sbin_2021-03-31",
+ "company": "sbin",
+ "category": "winner",
+ "d0": "2021-03-31",
+ "scoring_fy": 2020,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "STOP",
+   "label": "VETOED-DATA",
+   "reasons": [
+    "U3"
+   ]
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "usability",
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "usability",
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2020-03-31"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "1 prior quarters < 4",
+    "n_prior": 1
+   },
+   "D3": {
+    "status": "N/A",
+    "reason": "financial-variant name"
+   },
+   "D4": {
+    "status": "N/A",
+    "reason": "financial-variant name"
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 399.55,
+    "p0": 357.2,
+    "drawdown": 0.10599424352396451,
+    "weeks_of_history": 612.7142857142857
+   },
+   "D6": {
+    "status": "PASS",
+    "scores": {
+     "C": 1,
+     "A": 0,
+     "M": 2,
+     "E": 1,
+     "L": 2
+    },
+    "total": 6,
+    "hard_floors_tripped": [],
+    "values": {
+     "C": 13.06,
+     "A": 6.15,
+     "M": 48.0,
+     "E": 0.38,
+     "L": 44.17
+    }
+   }
+  },
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "STOP",
+  "label": "VETOED-DATA",
+  "deciding_check": "U3",
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end"
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 22.15
+   },
+   "U3": {
+    "status": "STOP",
+    "reason": "|TTM - audited|/audited = 17.3% > 15%",
+    "results_week": "2020-06-05",
+    "vendor_ttm": 18.32,
+    "sourced_eps": 22.15,
+    "gap": 0.17291196388261845,
+    "skipped_mar31_point": null,
+    "n_points": 2
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "financial",
+  "p_d0": 357.2,
+  "w": 0.1165,
+  "beta": 1.175,
+  "shares_cr": 892.0000000000001,
+  "book0_cr": 251060.0,
+  "sg": {
+   "roe_avg3": 0.027405326722401795,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.027405326722401795,
+   "g_sus": 0.027405326722401795,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2018,
+     "pat": -3749.0,
+     "book": 230321.0,
+     "roe": -0.01627728257518854
+    },
+    {
+     "fy": 2019,
+     "pat": 3351.0,
+     "book": 234495.0,
+     "roe": 0.014290283374912045
+    },
+    {
+     "fy": 2020,
+     "pat": 21140.0,
+     "book": 251060.0,
+     "roe": 0.08420297936748188
+    }
+   ]
+  },
+  "model": "inverse excess-return 20y",
+  "g_sus": 0.027405326722401795,
+  "hurdle_growth": {
+   "G1": 0.023979660882101572,
+   "G2": 0.019183728705681254
+  },
+  "trigger": {
+   "G1": 194.86365500497388,
+   "G2": 193.16297498220453
+  },
+  "v_at_g_sus": 196.27493277458737,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10650000000000001,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2021-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 194.86365500497388,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 193.16297498220453,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 194.86365500497388,
+   "G2": 193.16297498220453
+  },
+  "p_d0": 357.2,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.10650000000000001,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  },
+  "legs": {}
+ }
+}

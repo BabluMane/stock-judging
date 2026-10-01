@@ -1,0 +1,307 @@
+{
+ "key": "cyient_2020-03-31",
+ "company": "cyient",
+ "category": "mediocrity",
+ "d0": "2020-03-31",
+ "scoring_fy": 2019,
+ "as_of": "2026-10-01",
+ "gates": {
+  "distress": {
+   "verdict": "STOP",
+   "label": "VETOED-DISTRESS:D5",
+   "reasons": [
+    "D5",
+    "D1",
+    "D2",
+    "D3"
+   ]
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": [],
+   "tiers_touched": [
+    "G1",
+    "G2"
+   ]
+  }
+ },
+ "all_stops": [
+  "distress"
+ ],
+ "excluded": true,
+ "deciding_stop": "distress",
+ "distress": {
+  "verdict": "STOP",
+  "label": "VETOED-DISTRESS:D5",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing",
+    "pledged_pct": null,
+    "quarter": "2020-03-31"
+   },
+   "D2": {
+    "status": "UNCOMPUTABLE",
+    "reason": "pledged % missing"
+   },
+   "D3": {
+    "status": "UNCOMPUTABLE",
+    "reason": "missing fields: ['current_assets', 'current_liabilities']"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 5,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 1,
+     "F_ACCRUAL": 0,
+     "F_dLEVER": 0,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": [
+     "F_dLIQUID: missing prior-FY input -> 0 (fail-closed)",
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "TRIP",
+    "h52": 594.85,
+    "p0": 232.75,
+    "drawdown": 0.608724888627385,
+    "weeks_of_history": 560.5714285714286
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "tripped": [
+   "D5"
+  ],
+  "uncomputable": [
+   "D1",
+   "D2",
+   "D3"
+  ],
+  "raw_pledged_pct": null
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end",
+    "audited_over_sourced_by_fy": {
+     "2017": null,
+     "2018": null,
+     "2019": null,
+     "2020": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 42.33
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2019-04-25",
+    "vendor_ttm": 42.59,
+    "sourced_eps": 42.33,
+    "gap": 0.006142215922513705,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 232.75,
+  "w": 0.12076400000000001,
+  "beta": 1.2816,
+  "shares_cr": 11.0,
+  "net_cash_cr": -368.0,
+  "margin": 0.15,
+  "dep_pct": 0.025785022685684122,
+  "rev0": 4618.0,
+  "sg": {
+   "roe_avg3": 0.1728567994449881,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.1728567994449881,
+   "g_sus": 0.15,
+   "cap": 0.15,
+   "cap_binding": true,
+   "roe_years": [
+    {
+     "fy": 2017,
+     "pat": 340.0,
+     "book": 2117.0,
+     "roe": 0.16060462919225318
+    },
+    {
+     "fy": 2018,
+     "pat": 403.0,
+     "book": 2344.0,
+     "roe": 0.1719283276450512
+    },
+    {
+     "fy": 2019,
+     "pat": 477.0,
+     "book": 2564.0,
+     "roe": 0.1860374414976599
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.15,
+  "hurdle_growth": {
+   "G1": 0.13125,
+   "G2": 0.10499999999999998
+  },
+  "trigger": {
+   "G1": 1090.2014831273696,
+   "G2": 843.3205860089855
+  },
+  "v_at_g_sus": 1313.2055618945517,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.11076400000000002,
+   "monotone_on_bounds": true,
+   "status": "solved",
+   "g_implied": -0.04034092743104406
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2020-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 1090.2014831273696,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress"
+   ],
+   "would_have_filled": "2020-04-03"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 843.3205860089855,
+   "status": "BLOCKED",
+   "blocked_by": [
+    "distress"
+   ],
+   "would_have_filled": "2020-04-03"
+  }
+ },
+ "distress_decisional": true,
+ "distress_decisional_incl_data_vetoes": true,
+ "shadow": {
+  "non_decisional": true,
+  "trigger": {
+   "G1": 1090.2014831273696,
+   "G2": 843.3205860089855
+  },
+  "p_d0": 232.75,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.11076400000000002,
+   "monotone_on_bounds": true,
+   "status": "solved",
+   "g_implied": -0.04034092743104406
+  },
+  "legs": {
+   "G1": {
+    "tier": "G1",
+    "trigger": 1090.2014831273696,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress"
+    ],
+    "fill_date": "2020-04-03",
+    "fill_price": 226.0,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2020-04-03",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": false,
+     "exit_date": null,
+     "exit_price": null,
+     "triggering_event": null,
+     "note": "no SEVERE event in (fill, d0+24m]"
+    },
+    "ret_to_t": 3.806194690265487,
+    "ret_24m": 3.087389380530974,
+    "realized_exit": false,
+    "raw_ret_to_t": 3.806194690265487,
+    "raw_ret_24m": 3.087389380530974,
+    "fwd_truncated": false,
+    "to_t_date": "2026-10-01",
+    "series_ends_before_as_of": false
+   },
+   "G2": {
+    "tier": "G2",
+    "trigger": 843.3205860089855,
+    "non_decisional": true,
+    "blocked_by": [
+     "distress"
+    ],
+    "fill_date": "2020-04-03",
+    "fill_price": 226.0,
+    "event_veto_at_fill": {
+     "blocked": false,
+     "date": "2020-04-03",
+     "hits": []
+    },
+    "exit_scan": {
+     "fired": false,
+     "exit_date": null,
+     "exit_price": null,
+     "triggering_event": null,
+     "note": "no SEVERE event in (fill, d0+24m]"
+    },
+    "ret_to_t": 3.806194690265487,
+    "ret_24m": 3.087389380530974,
+    "realized_exit": false,
+    "raw_ret_to_t": 3.806194690265487,
+    "raw_ret_24m": 3.087389380530974,
+    "fwd_truncated": false,
+    "to_t_date": "2026-10-01",
+    "series_ends_before_as_of": false
+   }
+  }
+ }
+}
