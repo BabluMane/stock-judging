@@ -1,0 +1,106 @@
+{
+ "infy": {
+  "beta": 0.7331,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "INFY.NS",
+  "note": "full 60-month window"
+ },
+ "sbin": {
+  "beta": 1.175,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "SBIN.NS",
+  "note": "full 60-month window"
+ },
+ "srf": {
+  "beta": 0.7736,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "SRF.NS",
+  "note": "full 60-month window"
+ },
+ "lt": {
+  "beta": 1.2305,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "LT.NS",
+  "note": "full 60-month window"
+ },
+ "endurance": {
+  "beta": 1.017,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "ENDURANCE.NS",
+  "note": "full 60-month window"
+ },
+ "drreddy": {
+  "beta": 0.4328,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "DRREDDY.NS",
+  "note": "full 60-month window"
+ },
+ "dabur": {
+  "beta": 0.8755,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "DABUR.NS",
+  "note": "full 60-month window"
+ },
+ "maruti": {
+  "beta": 0.6806,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "MARUTI.NS",
+  "note": "full 60-month window"
+ },
+ "cyient": {
+  "beta": 1.2816,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "CYIENT.NS",
+  "note": "full 60-month window"
+ },
+ "auropharma": {
+  "beta": 0.8979,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "AUROPHARMA.NS",
+  "note": "full 60-month window"
+ },
+ "supremeeng": {
+  "beta": 0.4801,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "SUPREMEENG.NS",
+  "note": "full 60-month window"
+ },
+ "pbm": {
+  "beta": 1.0714,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-08",
+  "months_used": 59,
+  "yahoo_symbol": "PBMPOLY.BO",
+  "note": "full 60-month window; BSE series used (Yahoo NSE series PBMPOLY.NS has near-zero monthly data)"
+ },
+ "varroc": {
+  "beta": 1.2902,
+  "source": "Yahoo Finance 5Y-monthly adjusted closes vs NIFTY 50 (^NSEI); beta = cov(monthly_ret_stock, monthly_ret_nifty)/var(monthly_ret_nifty)",
+  "as_of_date": "2026-10",
+  "months_used": 60,
+  "yahoo_symbol": "VARROC.NS",
+  "note": "full 60-month window"
+ }
+}

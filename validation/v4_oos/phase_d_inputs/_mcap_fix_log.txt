@@ -1,0 +1,37 @@
+mcap convention fix (parent audit, 2026-10-01, rev 2): 2026-10-01 quote pairs replaced by
+ shares = scoring-FY audited equity_capital/face_value, expressed on the price series' adjusted basis
+ (x cumulative split/bonus factor for actions with ex_date > scoring-FY end); mcap_price = last close on/before d0.
+ Rev-1 bug caught by parent: SRF 5:1 bonus (2021-10-13) meant raw FY18 shares were on the wrong basis.
+ Face values: _raw/*_series.json top_ratios (infy,sbin,srf,lt,endurance); screener.in live top_ratios 2026-10-01
+ (drreddy,dabur,maruti,cyient,auropharma,varroc consol+standalone agree); company/514087 (pbm); standalone (supremeeng,
+ cross-checked vs equity_capital-implied share count).
+
+auropharma_2019-03-31: 59.00cr -> 59.00cr (+0.0%) adj x1.00 [none]
+auropharma_2020-03-31: 59.00cr -> 59.00cr (+0.0%) adj x1.00 [none]
+cyient_2020-03-31: 11.00cr -> 11.00cr (+0.0%) adj x1.00 [none]
+cyient_2021-03-31: 11.00cr -> 11.00cr (-0.0%) adj x1.00 [none]
+dabur_2020-03-31: 177.00cr -> 177.00cr (+0.0%) adj x1.00 [none]
+dabur_2021-03-31: 177.00cr -> 177.00cr (-0.0%) adj x1.00 [none]
+drreddy_2019-03-31: 83.00cr -> 415.00cr (+400.0%) adj x5.00 [5:1@2024-10-28]
+drreddy_2020-03-31: 83.00cr -> 415.00cr (+400.0%) adj x5.00 [5:1@2024-10-28]
+endurance_2020-03-31: 14.10cr -> 14.10cr (+0.0%) adj x1.00 [none]
+endurance_2021-03-31: 14.10cr -> 14.10cr (-0.0%) adj x1.00 [none]
+infy_2020-03-31: 434.00cr -> 434.00cr (+0.0%) adj x1.00 [none]
+infy_2021-03-31: 424.40cr -> 424.40cr (-0.0%) adj x1.00 [none]
+lt_2021-03-31: 140.50cr -> 140.50cr (+0.0%) adj x1.00 [none]
+lt_2022-03-31: 140.50cr -> 140.50cr (+0.0%) adj x1.00 [none]
+maruti_2019-03-31: 30.20cr -> 30.20cr (+0.0%) adj x1.00 [none]
+maruti_2020-03-31: 30.20cr -> 30.20cr (+0.0%) adj x1.00 [none]
+pbm_2019-03-31: 0.80cr -> 0.80cr (-0.0%) adj x1.00 [none]
+pbm_2020-03-31: 0.80cr -> 0.80cr (-0.0%) adj x1.00 [none]
+sbin_2021-03-31: 892.00cr -> 892.00cr (-0.0%) adj x1.00 [none]
+sbin_2022-03-31: 892.00cr -> 892.00cr (-0.0%) adj x1.00 [none]
+srf_2019-03-31: 5.80cr -> 29.00cr (+400.0%) adj x5.00 [5:1@2021-10-13]
+srf_2020-03-31: 5.80cr -> 29.00cr (+400.0%) adj x5.00 [5:1@2021-10-13]
+supremeeng_2020-03-31: 25.00cr -> 250.00cr (+900.0%) adj x10.00 [10:1@2022-03-03]
+supremeeng_2021-03-31: 25.00cr -> 250.00cr (+900.0%) adj x10.00 [10:1@2022-03-03]
+varroc_2019-03-31: 12.00cr -> 12.00cr (+0.0%) adj x1.00 [none]
+supremeeng corp_action removal (parent audit 2026-10-01): deleted spurious Yahoo 10:1 split record ex 2022-03-03
+from both supremeeng JSONs. Evidence: no price discontinuity in screener adjusted series around that date;
+2026 quote pair implies 25cr shares = FY19-FY23 equity_capital-implied count (Rs.25cr/FV Rs.1); equity capital flat
+Rs.25cr FY19-FY23. No split occurred.
