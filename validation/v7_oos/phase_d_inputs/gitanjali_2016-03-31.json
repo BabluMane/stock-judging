@@ -926,14 +926,15 @@
  "events": [
   {
    "event_date": "2018-02-14",
-   "type": "E1",
-   "subcase": "bank_fraud_LoU_disclosure",
+   "type": "T1",
+   "subcase": "order_fraud_cheating_misstatement",
    "sources": [
     {
      "tier": 1,
      "ref": "PNB disclosure 2018-02-14: Rs 11,400cr LoU fraud; Gitanjali group/Mehul Choksi implicated (Reuters 2018-02-20)"
     }
-   ]
+   ],
+   "description": "Parent adjudication (2026-10-07): sweep E1 'bank_fraud_LoU_disclosure' mapped to closed taxonomy T1 order_fraud_cheating_misstatement (SEVERE). PNB's 2018-02-14 exchange disclosure of the Rs 11,400cr LoU fraud implicating Gitanjali group/Mehul Choksi is a tier-1-sourced fraud determination; SEVERE grade per \u00a75.2 (tier-1 source)."
   }
  ],
  "audited_prints": [

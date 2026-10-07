@@ -1015,14 +1015,15 @@
  "events": [
   {
    "event_date": "2019-11-04",
-   "type": "E1",
-   "subcase": "auditor_143_12_fraud_flag",
+   "type": "T2",
+   "subcase": "caro_suspected_fraud_flag",
    "sources": [
     {
      "tier": 1,
      "ref": "Deloitte suspected-fraud report u/s 143(12) in FY19 audit; BSE/NSE suspend trading from 2019-11-04 for non-disclosure of FY19 results; promoter directors resigned 2019-11-02"
     }
-   ]
+   ],
+   "description": "Parent adjudication (2026-10-07): sweep E1 'auditor_143_12_fraud_flag' mapped to closed taxonomy T2 caro_suspected_fraud_flag (SEVERE). Deloitte's suspected-fraud report u/s 143(12) in the FY19 audit is an auditor fraud flag with tier-1 sourcing (BSE/NSE trading suspension 2019-11-04); SEVERE grade per \u00a75.2."
   }
  ],
  "audited_prints": [
