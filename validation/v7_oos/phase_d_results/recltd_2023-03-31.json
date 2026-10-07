@@ -1,0 +1,297 @@
+{
+ "key": "recltd_2023-03-31",
+ "company": "recltd",
+ "category": "winner",
+ "d0": "2023-03-31",
+ "scoring_fy": 2022,
+ "as_of": "2026-10-07",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": [],
+   "tiers_touched": [
+    "G1",
+    "G2"
+   ]
+  }
+ },
+ "all_stops": [],
+ "excluded": false,
+ "deciding_stop": null,
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2022-12-31"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "0 prior quarters < 4",
+    "n_prior": 0
+   },
+   "E1": {
+    "status": "N/A",
+    "reason": "financial-variant name (E-rules N/A by construction)"
+   },
+   "E2": {
+    "status": "N/A",
+    "reason": "financial-variant name (E-rules N/A by construction)"
+   },
+   "E3": {
+    "status": "N/A",
+    "reason": "financial-variant name (E-rules N/A by construction)"
+   },
+   "E4": {
+    "status": "N/A",
+    "reason": "financial-variant name (E-rules N/A by construction)"
+   },
+   "E6": {
+    "status": "N/A",
+    "reason": "financial-variant name (E-rules N/A by construction)"
+   },
+   "D3": {
+    "status": "N/A",
+    "reason": "financial-variant name"
+   },
+   "D4": {
+    "status": "N/A",
+    "reason": "financial-variant name"
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 124.1,
+    "p0": 115.45,
+    "drawdown": 0.06970185334407729,
+    "weeks_of_history": 104.0
+   },
+   "D6": {
+    "status": "PASS",
+    "scores": {
+     "C": 2,
+     "A": 1,
+     "M": 2,
+     "E": 2,
+     "L": 1
+    },
+    "total": 8,
+    "hard_floors_tripped": [],
+    "values": {
+     "C": 23.61,
+     "A": 4.45,
+     "M": 2.8,
+     "E": 2.48,
+     "L": 7.05
+    }
+   }
+  },
+  "e_rules": "N/A (financial variant)",
+  "reporting": {
+   "SGI": 1.1067190325497287,
+   "DEPI": 1.3003220611916264,
+   "LVGI": null,
+   "TATA": 0.026602471169285574,
+   "rpt_loans": null
+  },
+  "reporting_log": [
+   "LVGI: uncomputable (missing input) -> stored null (reporting-only)",
+   "rpt_loans: uncomputable (missing input) -> stored null (reporting-only)"
+  ],
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [
+     [
+      "2022-08-17",
+      "4:3"
+     ]
+    ],
+    "cumulative_factor": 1.3333,
+    "implied_shares_ratio": 1.0,
+    "factor": 1.0,
+    "restate": false,
+    "basis": "already on vendor post-action basis (implied shares x1.00 ~ 1, not x1.33)",
+    "audited_over_sourced_by_fy": {
+     "2015": null,
+     "2016": null,
+     "2017": null,
+     "2018": null,
+     "2019": null,
+     "2020": null,
+     "2021": null,
+     "2022": null,
+     "2023": null,
+     "2024": null,
+     "2025": null,
+     "2026": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 38.15
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2022-05-13",
+    "vendor_ttm": 38.15,
+    "sourced_eps": 38.15,
+    "gap": 0.0,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "financial",
+  "p_d0": 115.45,
+  "w": 0.10848000000000001,
+  "beta": 0.9745,
+  "shares_cr": 263.58666666666664,
+  "book0_cr": 50986.0,
+  "sg": {
+   "roe_avg3": 0.17629516276464338,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.17629516276464338,
+   "g_sus": 0.15,
+   "cap": 0.15,
+   "cap_binding": true,
+   "roe_years": [
+    {
+     "fy": 2020,
+     "pat": 4886.0,
+     "book": 35077.0,
+     "roe": 0.13929355418080225
+    },
+    {
+     "fy": 2021,
+     "pat": 8362.0,
+     "book": 43426.0,
+     "roe": 0.19255745405977986
+    },
+    {
+     "fy": 2022,
+     "pat": 10046.0,
+     "book": 50986.0,
+     "roe": 0.19703448005334798
+    }
+   ]
+  },
+  "model": "inverse excess-return 20y",
+  "g_sus": 0.15,
+  "hurdle_growth": {
+   "G1": 0.13125,
+   "G2": 0.10499999999999998
+  },
+  "trigger": {
+   "G1": 611.5000000168906,
+   "G2": 485.40545606206655
+  },
+  "v_at_g_sus": 739.2495009584878,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.09848000000000001,
+   "monotone_on_bounds": true,
+   "status": "at_-50%_floor",
+   "g_implied": -0.5
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2023-03-31",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 611.5000000168906,
+   "status": "FILLED",
+   "fill_date": "2023-04-07",
+   "fill_price": 118.75,
+   "event_veto_at_fill": {
+    "blocked": false,
+    "date": "2023-04-07",
+    "hits": []
+   },
+   "exit_scan": {
+    "fired": false,
+    "exit_date": null,
+    "exit_price": null,
+    "triggering_event": null,
+    "note": "no SEVERE event in (fill, d0+24m]"
+   },
+   "ret_to_t": 2.4947368421052634,
+   "ret_24m": 2.3970526315789473,
+   "realized_exit": false,
+   "raw_ret_to_t": 2.4947368421052634,
+   "raw_ret_24m": 2.3970526315789473,
+   "fwd_truncated": false,
+   "to_t_date": "2025-06-06",
+   "series_ends_before_as_of": true
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 485.40545606206655,
+   "status": "FILLED",
+   "fill_date": "2023-04-07",
+   "fill_price": 118.75,
+   "event_veto_at_fill": {
+    "blocked": false,
+    "date": "2023-04-07",
+    "hits": []
+   },
+   "exit_scan": {
+    "fired": false,
+    "exit_date": null,
+    "exit_price": null,
+    "triggering_event": null,
+    "note": "no SEVERE event in (fill, d0+24m]"
+   },
+   "ret_to_t": 2.4947368421052634,
+   "ret_24m": 2.3970526315789473,
+   "realized_exit": false,
+   "raw_ret_to_t": 2.4947368421052634,
+   "raw_ret_24m": 2.3970526315789473,
+   "fwd_truncated": false,
+   "to_t_date": "2025-06-06",
+   "series_ends_before_as_of": true
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false
+}

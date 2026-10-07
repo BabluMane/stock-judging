@@ -1,0 +1,274 @@
+{
+ "key": "ubl_2024-03-31",
+ "company": "ubl",
+ "category": "mediocrity",
+ "d0": "2024-03-31",
+ "scoring_fy": 2023,
+ "as_of": "2026-10-07",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "anchor",
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 12.4,
+    "note": "% of promoter holding",
+    "quarter": "2023-12-31"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "0 prior quarters < 4",
+    "n_prior": 0
+   },
+   "E1": {
+    "status": "PASS",
+    "sloan": 0.06767095673994768,
+    "threshold": 0.1,
+    "positive_only": true
+   },
+   "E2": {
+    "status": "PASS",
+    "cfo_below_half_ni": {
+     "2023": true,
+     "2022": false
+    },
+    "persistence_fy": 2
+   },
+   "E3": {
+    "status": "PASS",
+    "interest_coverage": 84.09,
+    "threshold": 1.5
+   },
+   "E4": {
+    "status": "PASS",
+    "etr": {
+     "2023": 0.2695631243230232,
+     "2022": 0.2594493700419972
+    },
+    "threshold": 0.15,
+    "persistence_fy": 2
+   },
+   "E6": {
+    "status": "PASS",
+    "days": 68.48957333333333,
+    "cfo": -120.0,
+    "thresholds": [
+     90,
+     0
+    ]
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 5.9896665353907235,
+    "x": [
+     0.22434753255769144,
+     0.6271027754645809,
+     0.1005431191375058,
+     1.7123256316130422
+    ],
+    "zone": "safe"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 3,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 0,
+     "F_dROA": 0,
+     "F_ACCRUAL": 0,
+     "F_dLEVER": 0,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": [
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 1810.11,
+    "p0": 1773.99,
+    "drawdown": 0.019954588395180346,
+    "weeks_of_history": 51.714285714285715
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "e_rules": "evaluated",
+  "reporting": {
+   "SGI": 1.2846865364850977,
+   "DEPI": 0.9973303051315057,
+   "LVGI": 1.092570353122174,
+   "TATA": 0.06767095673994768,
+   "rpt_loans": 0.0
+  },
+  "reporting_log": [],
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 12.4
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end",
+    "audited_over_sourced_by_fy": {
+     "2019": null,
+     "2020": null,
+     "2021": null,
+     "2022": null,
+     "2023": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 11.5
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2023-05-04",
+    "vendor_ttm": 12.75,
+    "sourced_eps": 11.5,
+    "gap": 0.10869565217391304,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 1773.99,
+  "w": 0.10375600000000001,
+  "beta": 0.8564,
+  "shares_cr": 26.440001152106912,
+  "net_cash_cr": 0.0,
+  "margin": 0.15,
+  "dep_pct": 0.04078437173354453,
+  "rev0": 7500.0,
+  "sg": {
+   "roe_avg3": 0.06725320205613942,
+   "payout": 0.0,
+   "payout_raw": null,
+   "g_sus_uncapped": 0.06725320205613942,
+   "g_sus": 0.06725320205613942,
+   "cap": 0.15,
+   "cap_binding": false,
+   "roe_years": [
+    {
+     "fy": 2021,
+     "pat": 114.0,
+     "book": 3582.0,
+     "roe": 0.031825795644891124
+    },
+    {
+     "fy": 2022,
+     "pat": 366.0,
+     "book": 3935.12,
+     "roe": 0.09300859948362439
+    },
+    {
+     "fy": 2023,
+     "pat": 305.0,
+     "book": 3964.89,
+     "roe": 0.07692521103990275
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.06725320205613942,
+  "hurdle_growth": {
+   "G1": 0.058846551799121995,
+   "G2": 0.04707724143929759
+  },
+  "trigger": {
+   "G1": 440.261393827787,
+   "G2": 394.22142222682976
+  },
+  "v_at_g_sus": 476.9741264134014,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.09375600000000002,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2024-03-31",
+  "hits": []
+ },
+ "events": [
+  {
+   "event_date": "2021-09-24",
+   "type": "T1",
+   "subcase": "order_or_direction_without_fraud_finding_or_ban",
+   "raw_grade": "MODERATE",
+   "grade": "MODERATE",
+   "weak_source": false,
+   "capped": false,
+   "description": "CCI final order: Rs 751.8 cr penalty on UBL for alleged cartelisation in beer sale/supply (suo moto case 6/2017). Competition matter, NOT fraud. Under appeal: NCLAT stay 2021-12-23 (10% pre-deposit); NCLAT upheld Dec-2022; Supreme Court stay 2023-02-21.",
+   "print_search": null
+  }
+ ],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": 440.261393827787,
+   "status": "NO_TOUCH"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": 394.22142222682976,
+   "status": "NO_TOUCH"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false
+}
