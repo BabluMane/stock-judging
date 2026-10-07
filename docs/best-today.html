@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Today — Stock-Judging</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><rect width=%2216%22 height=%2216%22 rx=%223%22 fill=%22%235b9dd9%22/><text x=%228%22 y=%2212%22 font-size=%2210%22 text-anchor=%22middle%22 fill=%22%230f1216%22 font-family=%22monospace%22>S</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="provisional-banner" class="provisional-banner"></div>
+<nav id="topnav" class="topnav"></nav>
+
+<main>
+  <h1>Best Today</h1>
+  <p class="page-sub">
+    Conviction &times; distance-to-trigger: what is actually buyable now. INVEST NOW names, trigger-names within
+    striking distance, and WATCH names near their ACC level. A great company well above fair value is not a
+    today-buy; a good company sitting on its ACC trigger is.
+  </p>
+  <div class="panel panel-note">
+    Entry tiers (v3.7, DCF-only): <strong style="color:var(--text)">WATCH</strong> &middot;
+    <strong style="color:var(--text)">ACC</strong> (&minus;12.5% vs. DCF fair value) &middot;
+    <strong style="color:var(--text)">INV</strong> (&minus;30% vs. DCF fair value).
+  </div>
+
+  <div id="error-host"></div>
+  <div id="list-host"></div>
+</main>
+
+<footer>Stock-Judging platform &middot; research only, not investment advice &middot; <a href="run.html">queue a review</a></footer>
+
+<script src="js/data.js"></script>
+<script src="js/nav.js"></script>
+<script>
+  renderChrome("best-today");
+
+  function skeletonListHTML() {
+    const rows = Array.from({ length: 5 }, () => `<div class="skeleton-row"></div>`).join("");
+    return `<div class="skeleton-rows" aria-hidden="true" aria-label="Loading">${rows}</div>`;
+  }
+
+  async function init() {
+    const errorHost = document.getElementById("error-host");
+    const listHost = document.getElementById("list-host");
+    listHost.innerHTML = skeletonListHTML();
+    const { ok, companies, error } = await loadLeaderboard();
+
+    if (!ok) {
+      errorHost.innerHTML = `<div class="error-state">${escapeHTML(error)}</div>`;
+      listHost.innerHTML = emptyState("No leaderboard data loaded", "See the notice above.");
+      return;
+    }
+    if (companies.length === 0) {
+      listHost.innerHTML = emptyState("No reviews yet", "leaderboard.json is currently empty — no companies have been reviewed.");
+      return;
+    }
+
+    const entries = companies
+      .map(normalizeEntry)
+      .filter(isBuyableToday)
+      .map((e) => ({ ...e, todayScore: bestTodayScore(e) }))
+      .filter((e) => e.todayScore !== null)
+      .sort((a, b) => b.todayScore - a.todayScore);
+
+    if (entries.length === 0) {
+      listHost.innerHTML = emptyState(
+        "Nothing buyable today",
+        "No reviewed company is currently INVEST NOW, within striking distance of its trigger, or near its ACC level."
+      );
+      return;
+    }
+
+    listHost.innerHTML = `<div class="rank-list">${entries.map((e, i) => rankRow(e, i + 1)).join("")}</div>`;
+  }
+
+  function rankRow(e, rank) {
+    const distLabel =
+      e.category === "INVEST_NOW"
+        ? "at/below trigger"
+        : e.distanceToTriggerPct === null
+        ? "—"
+        : `${fmtPct(e.distanceToTriggerPct)} from ${e.category === "WATCH" ? "ACC" : "INV"} trigger`;
+    return `
+      <a class="rank-row" href="company.html?symbol=${encodeURIComponent(e.symbol || "")}" style="text-decoration:none;color:inherit;">
+        <div class="rank-num">${rank}</div>
+        <div class="rank-main">
+          <div class="name">${escapeHTML(e.name)}${e.symbol ? `<span class="ticker">${escapeHTML(e.symbol)}</span>` : ""}</div>
+          <div class="meta">${categoryBadgeHTML(e.category)} &middot; ${escapeHTML(distLabel)}</div>
+        </div>
+        <div class="rank-metrics">
+          <div class="stat"><span class="label">Today Score</span><span class="value">${fmtNum(e.todayScore, 2)}</span></div>
+          <div class="stat"><span class="label">Price</span><span class="value dim">${fmtPrice(e.price)}</span></div>
+        </div>
+      </a>
+    `;
+  }
+
+  function emptyState(title, body) {
+    return `<div class="empty-state"><div class="icon">&#128176;</div><h3>${escapeHTML(title)}</h3><p>${escapeHTML(body)}</p></div>`;
+  }
+
+  init();
+</script>
+</body>
+</html>
