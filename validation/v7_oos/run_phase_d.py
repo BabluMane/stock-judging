@@ -42,7 +42,7 @@ def load_input(path):
                               for y, r in data["fy"].items()},
                        "prices": [(parse(d), float(p)) for d, p in data["prices"]],
                        "pledge": [{**q, "quarter_end": parse(q["quarter_end"])}
-                                   for q in data.get("pledge", [])],
+                                   for q in (data.get("pledge") or [])],
                        "eps_series": [(parse(d), v) for d, v in data.get("eps_series", [])],
                        "corp_actions": [{**a, "ex_date": parse(a["ex_date"])}
                                          for a in data.get("corp_actions", [])],
