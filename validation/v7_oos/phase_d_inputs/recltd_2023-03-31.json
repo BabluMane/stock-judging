@@ -186,7 +186,12 @@
    "current_liabilities": null,
    "results_published": "2022-05-13",
    "material_cost": null,
-   "revaluation_reserve": null
+   "revaluation_reserve": null,
+   "car_pct": 23.61,
+   "cost_to_income_pct": 2.8,
+   "gnpa_pct": 4.45,
+   "leverage_x": 7.05,
+   "roa_pct": 2.48
   },
   "2023": {
    "sales": 39216.0,
@@ -1161,7 +1166,15 @@
  ],
  "mcap_cr": 79076.0,
  "mcap_price": 300.0,
- "pledge": [],
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 52.63,
+   "quarter_end": "2022-12-31",
+   "source": "tier-2: trendlyne share-holding Q4-2022 page (filed Jan-2023, PIT-valid)"
+  }
+ ],
  "eps_series": [
   [
    "2009-08-17",

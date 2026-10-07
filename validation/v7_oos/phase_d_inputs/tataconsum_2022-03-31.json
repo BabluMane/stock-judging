@@ -748,7 +748,15 @@
  ],
  "mcap_cr": 71645.18,
  "mcap_price": 777.4,
- "pledge": null,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 1.2,
+   "promoter_holding_pct": 34.72,
+   "quarter_end": "2021-12-31",
+   "source": "tier-1 company-IR SHP tataconsumer.com/shareholding-pattern-q3-2021-22 (Dec-2021, declaration 'Yes'): pledged 3,832,950 sh = 1.20% of promoter holding, promoter 34.72%"
+  }
+ ],
  "eps_series": [
   [
    "2009-08-17",

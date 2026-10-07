@@ -748,7 +748,15 @@
  ],
  "mcap_cr": 45898.52,
  "mcap_price": 1735.95,
- "pledge": null,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 12.4,
+   "promoter_holding_pct": 70.83,
+   "quarter_end": "2023-12-31",
+   "source": "tier-1 company-IR SHP PDF unitedbreweries.com/pdf/shareholding/DECEMBER 2023.pdf (Dec-2023, declaration 'Yes'): promoter 187,281,771 sh = 70.83%, pledged 23,229,954 sh = 12.40% of promoter holding"
+  }
+ ],
  "eps_series": [
   [
    "2009-12-07",

@@ -140,7 +140,13 @@
    "current_liabilities": null,
    "results_published": "2020-06-24",
    "material_cost": null,
-   "revaluation_reserve": null
+   "revaluation_reserve": null,
+   "car_pct": 17.17,
+   "cost_to_income_pct": 49.73,
+   "gnpa_pct": 8.68,
+   "leverage_x": 9.34,
+   "roa_pct": 0.32,
+   "casa_pct": 31.33
   },
   "2021": {
    "sales": 5470.0,
@@ -1161,7 +1167,15 @@
  ],
  "mcap_cr": 31804.0,
  "mcap_price": 329.0,
- "pledge": [],
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 10.6,
+   "promoter_holding_pct": 2.13,
+   "quarter_end": "2020-12-31",
+   "source": "tier-2: trendlyne share-holding Q4-2020 page (filed Jan-2021, PIT-valid)"
+  }
+ ],
  "eps_series": [
   [
    "2009-09-30",

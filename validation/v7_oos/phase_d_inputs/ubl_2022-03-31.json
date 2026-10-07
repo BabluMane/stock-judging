@@ -748,7 +748,15 @@
  ],
  "mcap_cr": 39383.7,
  "mcap_price": 1489.55,
- "pledge": null,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 14.45,
+   "promoter_holding_pct": 72.71,
+   "quarter_end": "2021-12-31",
+   "source": "tier-2 trendlyne date-based SHP https://trendlyne.com/equity/share-holding/1437/UBL/31-12-2021/united-breweries-ltd/ (Dec-2021 table: promoter 192,261,131 sh = 72.71%, pledged 27,781,574 sh = 14.45% of promoter holding; pledge components: Vijay Mallya 20,950,954 sh = 98.11% of his holding, McDowell Holdings 4,551,000 = 100%, Kamsco 2,279,000 = 69.61%, Pharma Trading 620 = 100%)"
+  }
+ ],
  "eps_series": [
   [
    "2009-12-07",

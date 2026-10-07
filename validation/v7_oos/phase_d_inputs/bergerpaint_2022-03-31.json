@@ -748,7 +748,15 @@
  ],
  "mcap_cr": 56634.56,
  "mcap_price": 485.9,
- "pledge": null,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 74.99,
+   "quarter_end": "2021-12-31",
+   "source": "tier-2 trendlyne date-based SHP https://trendlyne.com/equity/share-holding/178/BERGEPAINT/31-12-2021/berger-paints-india-ltd/ (renders actual Dec-2021 quarter; Pledged row 0.0% all quarters)"
+  }
+ ],
  "eps_series": [
   [
    "2009-08-03",
@@ -1110,7 +1118,7 @@
    "results_date": "2021-05-26"
   }
  ],
- "equity_increase_solely_bonus_split": null,
+ "equity_increase_solely_bonus_split": false,
  "audited_eps_by_fy": {
   "2017": 4.07,
   "2018": 3.95,

@@ -163,7 +163,12 @@
    "current_liabilities": null,
    "results_published": "2021-05-28",
    "material_cost": null,
-   "revaluation_reserve": null
+   "revaluation_reserve": null,
+   "car_pct": 19.72,
+   "cost_to_income_pct": 2.98,
+   "gnpa_pct": 5.04,
+   "leverage_x": 8.22,
+   "roa_pct": 2.24
   },
   "2022": {
    "sales": 39169.0,
@@ -1161,7 +1166,15 @@
  ],
  "mcap_cr": 79076.0,
  "mcap_price": 300.0,
- "pledge": [],
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 52.63,
+   "quarter_end": "2021-12-31",
+   "source": "tier-2: trendlyne share-holding Q4-2021 page (filed Jan-2022, PIT-valid); promoter 52.63% corroborated tier-1 by REC Q3-FY-22 investor presentation (prod.recl.co.in)"
+  }
+ ],
  "eps_series": [
   [
    "2009-08-17",

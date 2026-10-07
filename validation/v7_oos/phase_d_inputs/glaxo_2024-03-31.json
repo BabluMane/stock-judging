@@ -748,7 +748,15 @@
  ],
  "mcap_cr": 32977.35,
  "mcap_price": 1946.6,
- "pledge": null,
+ "pledge": [
+  {
+   "basis": "promoter",
+   "pledged_pct": 0.0,
+   "promoter_holding_pct": 75.0,
+   "quarter_end": "2023-12-31",
+   "source": "tier-2 trendlyne Total-Promoter holding-overtime page (Dec-2023: 75.00%, pledged 0); all 4 individual promoters also 0"
+  }
+ ],
  "eps_series": [
   [
    "2010-03-06",
