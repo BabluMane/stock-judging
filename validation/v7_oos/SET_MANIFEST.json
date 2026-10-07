@@ -1,0 +1,159 @@
+{
+ "version": "v7-amendment-1",
+ "frozen": "2026-10-07",
+ "authorized_by": "Bablu",
+ "amendment": "port/validation/v7_oos/V7_OOS_PREREG_AMENDMENT_1.md",
+ "shape": {
+  "name_dates": 22,
+  "companies": 12,
+  "tiers": {
+   "blowup": 2,
+   "winner": 10,
+   "mediocrity": 10
+  }
+ },
+ "name_dates": [
+  {
+   "key": "gitanjali_2016-03-31",
+   "tier": "blowup",
+   "company": "Gitanjali Gems Ltd",
+   "d0": "2016-03-31",
+   "e1": "2018-02-14",
+   "e1_desc": "PNB LoU fraud disclosure"
+  },
+  {
+   "key": "securkloud_2018-03-31",
+   "tier": "blowup",
+   "company": "SECUREKLOUD TECHNOLOGIES LIMITED",
+   "d0": "2018-03-31",
+   "e1": "2019-11-04",
+   "e1_desc": "Deloitte 143(12) fraud flag"
+  },
+  {
+   "key": "recltd_2022-03-31",
+   "tier": "winner",
+   "company": "REC Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "recltd_2023-03-31",
+   "tier": "winner",
+   "company": "REC Ltd",
+   "d0": "2023-03-31"
+  },
+  {
+   "key": "nationalum_2023-03-31",
+   "tier": "winner",
+   "company": "National Aluminium Company Ltd",
+   "d0": "2023-03-31"
+  },
+  {
+   "key": "nationalum_2024-03-31",
+   "tier": "winner",
+   "company": "National Aluminium Company Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "oil_2022-03-31",
+   "tier": "winner",
+   "company": "Oil India Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "oil_2023-03-31",
+   "tier": "winner",
+   "company": "Oil India Ltd",
+   "d0": "2023-03-31"
+  },
+  {
+   "key": "karurvysya_2021-03-31",
+   "tier": "winner",
+   "company": "Karur Vysya Bank Ltd",
+   "d0": "2021-03-31"
+  },
+  {
+   "key": "karurvysya_2022-03-31",
+   "tier": "winner",
+   "company": "Karur Vysya Bank Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "granules_2023-03-31",
+   "tier": "winner",
+   "company": "Granules India Ltd",
+   "d0": "2023-03-31"
+  },
+  {
+   "key": "granules_2024-03-31",
+   "tier": "winner",
+   "company": "Granules India Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "bergerpaint_2022-03-31",
+   "tier": "mediocrity",
+   "company": "Berger Paints India Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "bergerpaint_2024-03-31",
+   "tier": "mediocrity",
+   "company": "Berger Paints India Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "tataconsum_2022-03-31",
+   "tier": "mediocrity",
+   "company": "Tata Consumer Products Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "tataconsum_2024-03-31",
+   "tier": "mediocrity",
+   "company": "Tata Consumer Products Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "lalpathlab_2022-03-31",
+   "tier": "mediocrity",
+   "company": "Dr Lal PathLabs Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "lalpathlab_2024-03-31",
+   "tier": "mediocrity",
+   "company": "Dr Lal PathLabs Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "ubl_2022-03-31",
+   "tier": "mediocrity",
+   "company": "United Breweries Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "ubl_2024-03-31",
+   "tier": "mediocrity",
+   "company": "United Breweries Ltd",
+   "d0": "2024-03-31"
+  },
+  {
+   "key": "glaxo_2022-03-31",
+   "tier": "mediocrity",
+   "company": "GlaxoSmithKline Pharmaceuticals Ltd",
+   "d0": "2022-03-31"
+  },
+  {
+   "key": "glaxo_2024-03-31",
+   "tier": "mediocrity",
+   "company": "GlaxoSmithKline Pharmaceuticals Ltd",
+   "d0": "2024-03-31"
+  }
+ ],
+ "notes": [
+  "Both blow-ups E6-IMPOSSIBLE by construction (CFO +463cr/+72cr at scoring); (a') decisionality must come from D1-D7/E1-E4.",
+  "E6 remains in frozen engine_v6 UNEXERCISED (0 FP); certification DEFERRED, disclosed.",
+  "tataconsum_2022 (+45-55% 24m) and glaxo_2024 (+35-40% 24m) lean positive; disclosed as honest residuals in tier.",
+  "Zero overlap vs v4/v5/v6 machine-asserted (sweep disjoint scripts exit 0); cross-tier disjoint."
+ ]
+}
