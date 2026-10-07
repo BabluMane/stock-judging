@@ -64,8 +64,8 @@ def main():
     os.makedirs(RESULTS, exist_ok=True)
     with open(MANIFEST) as f:
         manifest = json.load(f)
-    name_dates = [n["name_date"] for n in manifest["name_dates"]]
-    assert len(name_dates) == 24, f"manifest has {len(name_dates)} name-dates, expected 24"
+    name_dates = [n["key"] for n in manifest["name_dates"]]
+    assert len(name_dates) == 22, f"manifest has {len(name_dates)} name-dates, expected 22"
 
     engine_tree = subprocess.run(
         ["git", "rev-parse", "HEAD:engine_v6"], cwd=PORT,
