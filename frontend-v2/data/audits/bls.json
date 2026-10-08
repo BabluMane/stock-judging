@@ -1,0 +1,621 @@
+{
+  "ticker": "BLS",
+  "review_date": "2026-10-08",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2026-08-11",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "So as we said previously, at an increased base, whatever we have achieved last year, our target is to grow 15% to 20% for the next 5 years.",
+          "period": "FY27–FY31",
+          "basis": "Consolidated revenue growth p.a., organic (question asked for organic, ex future acquisitions)",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Replaces the 20–25% target given at the Aug-25, Feb-26 and May-26 calls; 'as we said previously … 15% to 20%' does not match the 20 May 2026 transcript (20–25%). Q1 FY27 printed +25.3%."
+        },
+        {
+          "class": 2,
+          "date": "2026-08-11",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Our target is to maintain those margins.",
+          "period": "FY27",
+          "basis": "Segment EBITDA margin: Visa & Consular ~40% (Q1 FY27 40.3%), Digital ~8.0% (Q1 FY27 8.2%); EBITDA excludes other income",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Asked for a consolidated figure, JMD gave only the achieved 28.3% ('It is what we have achieved'), not a guide."
+        },
+        {
+          "class": 6,
+          "date": "2026-08-11",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "Our estimate is that we should close the financial year at around 12%.",
+          "period": "FY27",
+          "basis": "Consolidated effective tax rate (total tax ÷ PBT); ceiling",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27 ETR ~14% (analyst figure, not disputed by CFO); guide requires the rate to fall over Q2–Q4."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-11",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "We will complete the entire investment in the next quarter, and by the fourth quarter, we expect the full revenue to start coming in.",
+          "period": "Investment complete Q2 FY27; full revenue Q4 FY27",
+          "basis": "UIDAI Aadhaar Seva Kendra project",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q2 FY27 has closed but results are not yet filed; treated as open. Second leg slips from 'within 1–1.5 years' (20 May 2026) to 'From Q4 to Q1' (same call, p.7)."
+        },
+        {
+          "class": 4,
+          "date": "2026-08-11",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "We have invested about INR 75 crores so far, and the entire project will be completed with an investment of about INR 125 crores.",
+          "period": "Project build-out (FY27)",
+          "basis": "UIDAI project capex; ceiling ₹125 Cr",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": ""
+        },
+        {
+          "class": 2,
+          "date": "2026-08-11",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "This is expected to be a relatively lower-margin business, with an EBITDA margin of about 10% to 15%.",
+          "period": "Contract life (6 years)",
+          "basis": "UIDAI contract EBITDA margin",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Cut from 15–20% stated on 20 May 2026 (p.9 of that transcript); graded on that call's item at period end."
+        },
+        {
+          "class": 1,
+          "date": "2026-08-11",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "There are some contracts that are concluding, while we are also winning new contracts. So, we look at the overall business. We still feel that we can maintain this 10% to 15% growth.",
+          "period": "FY27",
+          "basis": "Visa & Consular segment revenue growth (question was on visa-consular contracts expiring in 12 months)",
+          "source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.11",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2026-05-20",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "So, I think this year, our target is on an increased base to grow the company at 20%-25%. So that is what our internal targets are.",
+          "period": "FY27",
+          "basis": "Consolidated revenue growth",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Revised inside the period to 15–20% (11 Aug 2026). To be scored at FY27 close against the ORIGINAL 20–25%."
+        },
+        {
+          "class": 8,
+          "date": "2026-05-20",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "As and when the win comes, we'll definitely announce it, but we'll continue to maintain our growth trajectory of 20% to 25% every year.",
+          "period": "Multi-year (no horizon stated)",
+          "basis": "Consolidated growth p.a.",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Reaffirmation without a new horizon of the 20–25% target originally given 6 Aug 2025 (3–4 yrs) and extended 6 Feb 2026 (5 yrs); graded on those items, not here, to avoid double counting."
+        },
+        {
+          "class": 2,
+          "date": "2026-05-20",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "Yes. See, both the businesses will maintain their current margins.",
+          "period": "FY27",
+          "basis": "Segment EBITDA margin: Visa & Consular 40.1%, Digital 7.0% (FY26); excludes other income",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27: V&C 40.3%, Digital 8.2% — on track, period open."
+        },
+        {
+          "class": 6,
+          "date": "2026-05-20",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "This may go a little higher in the future because in Dubai, they may change the tax rate from 9% to 12%, and that will have maybe a minor impact on our net tax position by about 1%.",
+          "period": "FY27",
+          "basis": "Consolidated ETR ceiling ~13% (CFO: 'currently around 10% to 12%' + ~1pp; confirmed 'not substantially higher')",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27 ETR ~14% (Q1 FY27 transcript p.7, analyst figure undisputed) — above the ceiling in the first quarter; period open."
+        },
+        {
+          "class": 10,
+          "date": "2026-05-20",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "What we are witnessing today is a temporary scenario, and a shift where people choose to travel, due to the ongoing tension in Middle East. However, our revenue remains intact.",
+          "period": "Q1 FY27",
+          "basis": "Consolidated revenue (war impact)",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4",
+          "outcome": "Held. Q1 FY27 revenue ₹891 Cr vs ₹711 Cr (+25%); visa volumes 11.3 lakh, flat YoY",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.4–5 (CFO). Q1 FY27 results PDF on IR site is image-only, not machine-readable",
+          "item_grade": 2,
+          "note": "Volumes flat YoY; JMD attributed flatness to the war (Q1 FY27 p.8). Revenue held via +11% net revenue/application."
+        },
+        {
+          "class": 2,
+          "date": "2026-05-20",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And we were expecting a typical margin of, I think, 15% to 20% EBITDA margins in this contract.",
+          "period": "Contract life (6 years)",
+          "basis": "UIDAI contract EBITDA margin",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Cut on 11 Aug 2026 to 'about 10% to 15%'. Grade at period end against the original 15–20%."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-20",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "We have completed the first phase, and second phase is under process. And the third one will be completed in the current financial year.",
+          "period": "FY27",
+          "basis": "UIDAI project phase 3 completion",
+          "source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.15",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "11 Aug 2026: entire investment to complete in Q2 FY27 — ahead of this timeline if delivered."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2026-02-06",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Yes, we have already said that for the next 5 years, our target is to achieve 20% to 25% growth.",
+          "period": "FY27–FY31 (5 yrs)",
+          "basis": "Consolidated growth p.a.",
+          "source": "Q3 FY26 transcript (call 2026-02-06), NSE/BSE filing 2026-02-12, p.6",
+          "outcome": "Withdrawn downward before period end: 11 Aug 2026 target cut to 15–20% for the next 5 years",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.6",
+          "item_grade": 1,
+          "note": "Class 9 rule: cut is prospective (no shortfall public — Q1 FY27 +25.3%) and a reason was stated ('at an increased base') → 1. Horizon extended from 3–4 yrs (6 Aug 2025) to 5 yrs, so graded as a new target."
+        },
+        {
+          "class": 7,
+          "date": "2026-02-06",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "No, See, we have got people on board and revenue will start coming now from this quarter onwards.",
+          "period": "Q4 FY26",
+          "basis": "UIDAI / Aadhaar revenue start",
+          "source": "Q3 FY26 transcript (call 2026-02-06), NSE/BSE filing 2026-02-12, p.12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved] Q4 FY26 Aadhaar revenue not disclosed in the transcript or results opened; 20 May 2026 call says rollout began 'one or two months' earlier. Ungraded."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "On a sequential basis, we have maintained our EBITDA margins at around 29% in the second quarter, and we feel the margins have now stabilized at these levels.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin excl. other income; anchor 28.9% (Q2 FY26)",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.2",
+          "outcome": "27.31% for FY26 — shortfall 1.6pp (Q3 26.9%, Q4 25.0%)",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Consolidated EBITDA ex other income FY26 = revenue 2,99,821.51 − (cost of services 1,38,172.74 + employee 46,556.27 + other expenses 33,205.17) = ₹81,887.33 lakh = 27.31% of revenue",
+          "item_grade": 0,
+          "note": "CFO same call p.4: 'Margins have now largely stabilized at this level'; JMD confirmed 29–30% blended goal p.9."
+        },
+        {
+          "class": 2,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "As you know, more than 40% EBITDA margins we are doing in the visa business, our immediate and long-term objective is to sustain the margins that we have achieved.",
+          "period": "FY26",
+          "basis": "Visa & Consular segment EBITDA margin; anchor 42.0% (Q2 FY26, figure in force)",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.9",
+          "outcome": "40.1% for FY26 — shortfall 1.9pp vs 42.0% in force (Q3 40%, Q4 38%)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract)",
+          "item_grade": 0,
+          "note": "Against the speaker's own '40%' wording the item would score 2; the standard tests the figure in force when said."
+        },
+        {
+          "class": 2,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Our immediate objective is to maintain the EBITDA margin, but overall, you can see that both our revenue and profitability have increased.",
+          "period": "FY26",
+          "basis": "Digital segment EBITDA margin; anchor 7.4% (Q2 FY26)",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.5",
+          "outcome": "7.0% for FY26 — shortfall 0.4pp",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract); FY26 Digital segment EBITDA ₹81 Cr on revenue ₹1,158 Cr = 7.0%",
+          "item_grade": 1,
+          "note": ""
+        },
+        {
+          "class": 10,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "There should be no issue or any impact on our financials, etc.",
+          "period": "FY26",
+          "basis": "MEA tender debarment — financial impact",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.7",
+          "outcome": "Held for FY26: consolidated revenue +36.7%; V&C revenue ₹1,840 Cr vs ₹1,653 Cr (+11%); 20 May 2026: 'There is no ban'",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 and p.13",
+          "item_grade": 2,
+          "note": "SEVERE-type issue (backbone §4 — could end a revenue stream); override test not triggered because the assurance held. Debarment quashed by Delhi HC 18 Dec 2025 [carried from the 15 Sep 2026 Record, not re-opened]."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "No. All our contracts are ongoing, and we have extensions in all our contracts. We need to see the exact pipeline that you are mentioning, so right now, all our contracts are intact.",
+          "period": "FY26",
+          "basis": "Contract base (asked about Kuwait expiry Sep-25 and Canada renewal Dec-25)",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.11",
+          "outcome": "Held through FY26: no contract loss disclosed in the FY26 results or the 20 May 2026 call; V&C revenue grew in every FY26 quarter",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4",
+          "item_grade": 2,
+          "note": "Watch: the Kuwait/UAE/Singapore/Canberra MEA contracts expired 30 Jun 2026 and were re-tendered [carried from the 15 Sep 2026 Record, not re-opened]; that falls in Q2 FY27 (unreported). If Q2 FY27 shows the loss and it traces to the debarment, re-grade to 0 and apply the §4 override."
+        },
+        {
+          "class": 7,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "It will start from December.",
+          "period": "Dec 2025 (Q3 FY26)",
+          "basis": "UIDAI Aadhaar Seva Kendra rollout start",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.8",
+          "outcome": "Rollout began ~Mar–Apr 2026: 'It has only been one or two months since we started the rollout' (20 May 2026)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.6",
+          "item_grade": 0,
+          "note": "3–4.5 months late; scored 0 (>1 quarter) on the conservative reading. Would be 1 only if rollout began on or before 31 Mar 2026, which the transcript does not establish."
+        },
+        {
+          "class": 7,
+          "date": "2025-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Definitely, it will take some months to ramp up, but as I said, from next year, the revenue will start coming.",
+          "period": "FY27 (from Apr 2026)",
+          "basis": "UIDAI revenue start",
+          "source": "Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.8",
+          "outcome": "Met: Aadhaar generated ~₹17.5 Cr revenue in Q1 FY27",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.12 (CFO)",
+          "item_grade": 2,
+          "note": "Full-ramp ~₹350 Cr p.a. ('You can divide by 6', p.8) remains open."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": 0.7,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2025-08-06",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And what guidance or what we are telling people is that now with the increased base also, next 3-4 years, we would continue to grow 20%-25% in terms of profitability, revenue, etc.",
+          "period": "FY26–FY29 (3–4 yrs)",
+          "basis": "Consolidated revenue and profit growth p.a.",
+          "source": "Q1 FY26 transcript (call 2025-08-06), NSE/BSE filing 2025-08-11, p.6",
+          "outcome": "Withdrawn downward before period end: 11 Aug 2026 target cut to 15–20% for the next 5 years (FY26 itself delivered revenue +36.7%)",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.6; FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1",
+          "item_grade": 1,
+          "note": "Class 9 rule: prospective (no shortfall public) and reason stated ('at an increased base') → 1. Original multi-year target; reaffirmed 20 May 2026."
+        },
+        {
+          "class": 2,
+          "date": "2025-08-06",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "So, we have now reached 40%. So, our immediate target is to maintain that.",
+          "period": "FY26",
+          "basis": "Visa & Consular segment EBITDA margin; anchor 40.4% (Q1 FY26, figure in force)",
+          "source": "Q1 FY26 transcript (call 2025-08-06), NSE/BSE filing 2025-08-11, p.5",
+          "outcome": "40.1% for FY26 — shortfall 0.3pp",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract); FY26 Visa & Consular segment EBITDA ₹738 Cr on revenue ₹1,840 Cr = 40.1%",
+          "item_grade": 1,
+          "note": ""
+        },
+        {
+          "class": 2,
+          "date": "2025-08-06",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "So, we see that we should be able to maintain a decent growth over the next couple of years and somewhere maintain our profit margins at these levels.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin excl. other income; anchor 28.7% (Q1 FY26)",
+          "source": "Q1 FY26 transcript (call 2025-08-06), NSE/BSE filing 2025-08-11, p.11",
+          "outcome": "27.31% for FY26 — shortfall 1.4pp",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Consolidated EBITDA ex other income FY26 = revenue 2,99,821.51 − (cost of services 1,38,172.74 + employee 46,556.27 + other expenses 33,205.17) = ₹81,887.33 lakh = 27.31% of revenue",
+          "item_grade": 0,
+          "note": "CFO also confirmed to an analyst that EBITDA margin would stay the same ('Yes, that is what our expectation is', p.8)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-05-16",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "So I mean, right now, a healthy growth of 15% to 20% minimum level that is the target we want to achieve.",
+          "period": "FY26",
+          "basis": "Consolidated revenue growth (question: 'target for financial year '26')",
+          "source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.6",
+          "outcome": "+36.7%: FY26 ₹2,99,821.51 lakh vs FY25 ₹2,19,330.19 lakh",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1",
+          "item_grade": 2,
+          "note": "Speaker qualified in the next answer: 'We have not given any target yet' — graded on the stated floor."
+        },
+        {
+          "class": 8,
+          "date": "2025-05-16",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "At bare minimum 15%, 20% is something that we wish to maintain.",
+          "period": "FY26–FY30 (3–5 yrs, per question)",
+          "basis": "Consolidated revenue growth p.a.",
+          "source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Not cut: the 11 Aug 2026 target (15–20%) matches it."
+        },
+        {
+          "class": 2,
+          "date": "2025-05-16",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Yes. This level will be sustainable in the future in the Visa & Consular business.",
+          "period": "FY26",
+          "basis": "Visa & Consular segment EBITDA margin; anchor 34.5% (FY25)",
+          "source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.6",
+          "outcome": "40.1% for FY26",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract); FY26 Visa & Consular segment EBITDA ₹738 Cr on revenue ₹1,840 Cr = 40.1%",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 3,
+          "date": "2025-05-16",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And right now, our target is to maintain that.",
+          "period": "FY26",
+          "basis": "Visa net revenue per application; anchor ₹3,149 (Q4 FY25)",
+          "source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.8",
+          "outcome": "₹3,302 for FY26 (FY25 ₹2,903)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.3",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 10,
+          "date": "2025-05-16",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "I told you that we are working with all these European governments globally. There is no issue.",
+          "period": "FY26",
+          "basis": "India–Turkey tension: impact via iDATA (Turkey) operations",
+          "source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.11",
+          "outcome": "Held: iDATA revenue ~₹72 Cr (Q1 FY26), ~₹71.5 Cr (Q2), ~₹70 Cr (Q3), ~₹72.5 Cr (Q1 FY27)",
+          "outcome_source": "Q1 FY26 transcript (call 2025-08-06), NSE/BSE filing 2025-08-11, p.8; Q2 FY26 transcript (call 2025-11-12), NSE/BSE filing 2025-11-18, p.7–8; Q3 FY26 transcript (call 2026-02-06), NSE/BSE filing 2026-02-12, p.6; Q1 FY27 transcript (call 2026-08-11), NSE/BSE filing 2026-08-18, p.12",
+          "item_grade": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": 1.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 6,
+          "date": "2025-02-12",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "So, what we are working on last year, the tax percentage was around 9%. This year, we think it will go to around 12%.",
+          "period": "FY25",
+          "basis": "Consolidated ETR (total tax ÷ PBT); treated as ceiling",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.15",
+          "outcome": "10.88%: total tax ₹6,587.58 lakh ÷ PBT ₹60,552.34 lakh",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1 (FY25 column)",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 6,
+          "date": "2025-02-12",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "12%. I said, 12%.",
+          "period": "FY26",
+          "basis": "Consolidated ETR (total tax ÷ PBT); treated as ceiling",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.15",
+          "outcome": "9.20%: total tax ₹7,333.94 lakh ÷ PBT ₹79,713.96 lakh",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1",
+          "item_grade": 2,
+          "note": "Answer to 'And FY '26?'."
+        },
+        {
+          "class": 2,
+          "date": "2025-02-12",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "See, we have been saying that we want to maintain over 30% margin in our Visa business.",
+          "period": "FY26",
+          "basis": "Visa & Consular segment EBITDA margin; floor 30%",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.7",
+          "outcome": "40.1% for FY26 (FY25 34.5%)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract); FY26 Visa & Consular segment EBITDA ₹738 Cr on revenue ₹1,840 Cr = 40.1%",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 2,
+          "date": "2025-02-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And E-Services also, probably it will maintain at this level.",
+          "period": "FY26",
+          "basis": "Digital segment EBITDA margin; anchor 12.9% (Q3 FY25)",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.7",
+          "outcome": "7.0% for FY26 — shortfall 5.9pp",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), NSE/BSE filing 2026-05-25, p.4 (CFO segment highlights; segment table of the results filing not in the machine-readable extract); FY26 Digital segment EBITDA ₹81 Cr on revenue ₹1,158 Cr = 7.0%",
+          "item_grade": 0,
+          "note": "Hedged ('probably'); CFO in the same answer said digital margin would move with the Aadifidelis mix. Graded on the JMD's statement."
+        },
+        {
+          "class": 2,
+          "date": "2025-02-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And from that point of view, if you see, we have reached from a 20% last year now to a 30% consolidated margins. And our main objective is to maintain this number.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin excl. other income; anchor 30.3% (9M FY25)",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.13",
+          "outcome": "27.31% for FY26 — shortfall 3.0pp (FY25 28.69%)",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Consolidated EBITDA ex other income FY26 = revenue 2,99,821.51 − (cost of services 1,38,172.74 + employee 46,556.27 + other expenses 33,205.17) = ₹81,887.33 lakh = 27.31% of revenue",
+          "item_grade": 0,
+          "note": ""
+        },
+        {
+          "class": 1,
+          "date": "2025-02-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "[Q: can I assume that in quarter 4, the number could be around INR 150 crores for Aadifidelis?] Yes. That is what we are expecting, yes.",
+          "period": "Q4 FY25",
+          "basis": "Aadifidelis revenue (Digital segment)",
+          "source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.13",
+          "outcome": "≈₹151 Cr: FY25 Aadifidelis revenue 'about INR 200 crores' less Q3 FY25 ₹49 Cr",
+          "outcome_source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.12; Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.13",
+          "item_grade": 2,
+          "note": "Derived from two company figures both stated as approximate."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-11-12",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "Therefore, the growth trajectory has been about 22-23% in the revenue, which we have been doing for the last 2 quarters, and we think it will continue with our existing business growing as well as with the acquisitions which are coming in.",
+          "period": "FY25",
+          "basis": "Consolidated revenue growth; floor 22%",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.7",
+          "outcome": "+31%: FY25 ₹2,193 Cr vs FY24 ₹1,677 Cr",
+          "outcome_source": "Q4 FY25 transcript (call 2025-05-16), NSE/BSE filing 2025-05-21, p.5 (CFO, audited); FY25 figure ties to FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1 (₹2,19,330.19 lakh)",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 2,
+          "date": "2024-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "So our objective is to maintain the numbers that we have achieved. I think it's a high number that we have done now 33%. So first objective is just to maintain it.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin excl. other income; anchor 33.1% (Q2 FY25)",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.12",
+          "outcome": "27.31% for FY26 — shortfall 5.8pp (FY25 28.69%)",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1; Consolidated EBITDA ex other income FY26 = revenue 2,99,821.51 − (cost of services 1,38,172.74 + employee 46,556.27 + other expenses 33,205.17) = ₹81,887.33 lakh = 27.31% of revenue",
+          "item_grade": 0,
+          "note": "Repeated p.15: 'our objective is just to maintain the margins that we have achieved'."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-12",
+          "speaker": "Amit Sudhakar, CFO",
+          "quote": "We are at the last stage of closing this transaction, hopefully, we should get it closed in this month.",
+          "period": "Nov 2024",
+          "basis": "Aadifidelis acquisition close",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.11",
+          "outcome": "Closed 26 Nov 2024",
+          "outcome_source": "Q3 FY25 transcript (call 2025-02-12), NSE/BSE filing 2025-02-18, p.3",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 8,
+          "date": "2024-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "And whatever, obviously, industry growth trajectory of 15%, 20%, that is a bare minimum, I feel that we can achieve.",
+          "period": "FY25–FY29 (3–5 yrs, per question)",
+          "basis": "Growth p.a. (question framed on growth trajectory)",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Not cut: the 11 Aug 2026 target (15–20%) matches it."
+        },
+        {
+          "class": 10,
+          "date": "2024-11-12",
+          "speaker": "Shikhar Aggarwal, Joint Managing Director",
+          "quote": "Right now, there is no requirement but that was just enabling resolution.",
+          "period": "FY25–FY26",
+          "basis": "QIP / equity fundraise (₹2,000 Cr enabling resolution, Aug 2024)",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.16",
+          "outcome": "Held: paid-up equity ₹4,117.41 lakh at 31 Mar 2025 and 31 Mar 2026; no equity-issue proceeds in FY26 cash flow",
+          "outcome_source": "FY26 audited consolidated results (Annexure A), board 19 May 2026, company IR PDF 'BLS-international-financial-Q4.pdf', p.1 (statement p.1; consolidated cash flow)",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 7,
+          "date": "2024-11-12",
+          "speaker": "Nikhil Gupta, Managing Director",
+          "quote": "And you'll keep seeing this improvement as we decided that we will do synergies with BLS where 9 centers were to be done in 9 months. We've already completed 4 of them",
+          "period": "~Apr 2025 (9 months from Jul 2024)",
+          "basis": "iDATA–BLS centre consolidation",
+          "source": "Q2 FY25 transcript (call 2024-11-12), NSE/BSE filing 2024-11-18, p.13–14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved] No later disclosure of the centre count found in the documents opened. Ungraded."
+        }
+      ]
+    }
+  ]
+}

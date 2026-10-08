@@ -1,0 +1,14 @@
+{
+  "ticker": "DBREALTY",
+  "review_date": "2026-10-08",
+  "quarters": [
+    {"label": "Q1 FY27", "grade": null, "status": "no_call", "promises": [], "note": "Results 2026-08-14. No earnings-call intimation, transcript or audio found in the exchange announcement lists opened (Screener, Sharekhan) or transcript aggregators; Quartr event page is an AI summary of the results filing, no transcript. Valor Estate Ltd (formerly D B Realty) has no sell-side coverage and files press releases / investor presentations instead of calls."},
+    {"label": "Q4 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2026-05-29. No earnings call found; press release/presentation are context sources only under section 1."},
+    {"label": "Q3 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results Feb 2026. No earnings call found."},
+    {"label": "Q2 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-11-14. No earnings call found."},
+    {"label": "Q1 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-08-14; investor presentation filed 2025-08-21; no call intimation or transcript."},
+    {"label": "Q4 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-05-30. No earnings call found."},
+    {"label": "Q3 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results Feb 2025. No earnings call found."},
+    {"label": "Q2 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results 2024-11-14. No earnings call found. Forward statements exist only in press releases (e.g. Q1 FY25 release: Prestige JV completion within 12-15 months), which section 1 does not admit as promise sources."}
+  ]
+}

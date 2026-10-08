@@ -116,7 +116,7 @@ async function fetchJSON(path) {
 
 /** Load leaderboard.json (repo root). Normalizes to always return an array. */
 async function loadLeaderboard() {
-  const { ok, data, error } = await fetchJSON("../leaderboard.json");
+  const { ok, data, error } = await fetchJSON("leaderboard.json");
   if (!ok) return { ok, companies: [], generatedAt: null, error };
   const companies = Array.isArray(data.companies) ? data.companies : [];
   return { ok: true, companies, generatedAt: data.generated_at || null, error: null };
@@ -125,7 +125,7 @@ async function loadLeaderboard() {
 /** Load a single review card by symbol from reviews/<slug>.json.
  *  reviewSlug() maps exchange tickers ("J&KBANK") to file slugs ("jkbank"). */
 async function loadReview(symbol) {
-  const { ok, data, error } = await fetchJSON(`../reviews/${encodeURIComponent(reviewSlug(symbol))}.json`);
+  const { ok, data, error } = await fetchJSON( `reviews/${encodeURIComponent(reviewSlug(symbol))}.json`);
   return { ok, review: ok ? data : null, error };
 }
 
@@ -139,7 +139,7 @@ async function loadReview(symbol) {
  * The legacy single-array shape { items: [...] } is treated as `news`.
  */
 async function loadNews(symbol) {
-  const { ok, data } = await fetchJSON(`../news/${encodeURIComponent(reviewSlug(symbol))}.json`);
+  const { ok, data } = await fetchJSON(`news/${encodeURIComponent(reviewSlug(symbol))}.json`);
   if (!ok || !data) return { ok: false, news: null };
   const newsItems = Array.isArray(data.news)
     ? data.news

@@ -18,6 +18,7 @@ function renderChrome(activePage) {
     { href: "index.html", id: "leaderboard", label: "Leaderboard" },
     { href: "best-overall.html", id: "best-overall", label: "Best Overall" },
     { href: "best-today.html", id: "best-today", label: "Best Today" },
+    { href: "marquee.html", id: "marquee", label: "Marquee" },
     { href: "calibration.html", id: "calibration", label: "Calibration" },
     { href: "run.html", id: "run", label: "Run a Company" },
   ];
@@ -29,17 +30,7 @@ function renderChrome(activePage) {
     )
     .join("");
 
-  // Investor tracking (Kacholia / Mukul Agrawal / Quant holdings, etc.) has
-  // no data source or schema yet (see PLATFORM_SCOPE.md "planned modules").
-  // Rather than a dead link or a silently missing page, show it inertly in
-  // the nav as a "coming soon" item so it reads as planned, not broken (A6).
-  const investorHTML =
-    `<a href="javascript:void(0)" class="investor-soon" tabindex="-1" aria-disabled="true" ` +
-    `title="Investor tracking (tracked investors' holdings vs. review cards) is a planned module — not built yet.">` +
-    `Investors <span class="soon-chip">Soon</span></a>`;
-
   navHost.innerHTML =
     `<span class="brand">Stock-Judging<span class="sub">Engine v6 · Research only</span></span>` +
-    linkHTML +
-    investorHTML;
+    linkHTML;
 }
