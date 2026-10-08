@@ -1,0 +1,167 @@
+{
+  "ticker": "ASMTEC",
+  "review_date": "2026-10-08",
+  "method_note": "BSE 526433. Only one earnings call in the 8-quarter window: Q2 FY26 (10 Nov 2025), which the MD called the company's first call (transcript p.2; an analyst calls it the 'maiden analyst conference call', p.8). BSE announcement feed checked 1 Oct 2024 - 8 Oct 2026: the only earnings-call filings are the Q2 FY26 audio (10 Nov 2025) and transcript (14 Nov 2025); other quarters have results and investor presentations only (Analyst/Investor Meet intimations are group meetings, not calls). Management refused forward guidance on the call; per rule that is not a class-9 withdrawal (company never guided). Anchored qualitative statements converted to the figure in force when said. Quotes from text extraction of the BSE transcript PDF, printed page numbers. Outcomes from company investor presentations (consolidated) and the FY26 audited results; Reg-33 quarterly results PDFs are scanned images. No class-10 assurance contradicted; no override. grade maps to engine_v3 score. Single graded call makes this a thin credibility record.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results 2026-08-05, investor presentation 2026-08-06, no call/transcript/audio filing on BSE."
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results 2026-05-09, investor presentation 2026-05-10, no call/transcript/audio filing on BSE."
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results 2026-01-31, investor presentation 2026-01-31, no call/transcript/audio filing on BSE."
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 0.8,
+      "status": "graded",
+      "promises": [
+        {
+          "note": "Same line in the Q2 deck MD letter ('We expect this momentum to continue into the second half'). Lenient sequential reading (H2 >= H1 Rs 277.4 cr) also misses: shortfall 9.5% -> would be 1. MD repeated 'that momentum will continue' when asked if the Q2 run-rate was a one-off (p.12); not scored separately to avoid double count. Q1 FY27 revenue Rs 198.8 cr recovered above the Q2 level.",
+          "class": 1,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "We believe that we can continue this growth momentum in the second half of the year.",
+          "period": "H2 FY26",
+          "basis": "Consolidated revenue from operations, YoY growth; anchored to the figure in force when said: H1 FY26 +153% YoY (stated in the preceding sentence)",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.3 (opening remarks)",
+          "outcome": "H2 FY26 Rs 251.1 cr (Q3 116.0 + Q4 135.1) vs H2 FY25 Rs 179.2 cr (64.7 + 114.5) = +40.1% YoY; Q3 FY26 fell 25% QoQ",
+          "outcome_source": "Q3 FY26 investor presentation, BSE filing 2026-01-31 (13e60dae-9a8b-48a1-b844-677bbf35350d.pdf), p.8 (P&L); Q4 FY26 investor presentation, BSE filing 2026-05-10 (58e7ab7a-39a7-4bd8-aca9-b42048f94686.pdf), p.8 (P&L)",
+          "item_grade": 0
+        },
+        {
+          "note": "Asked for an FY26/FY27 margin range; MD refused a range and pointed to the last 3 quarters. Graded on FY26; misses also against the lowest of the three (Q2 19.7%). Q1 FY27 23.2% (open FY27 leg).",
+          "class": 2,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "But let us say that the last 3 quarters, the last few quarters, are quite representative. So, you will have to use that as a reference.",
+          "period": "FY26 (FY27 leg open)",
+          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company basis: revenue - COGS - employee - other expenses; Q2 30.5/154.5 = 19.7%); anchored to Q4 FY25-Q2 FY26 = 81.6/391.9 = 20.8%",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), pp.5-6 (Q&A, Meet / Niveshaay)",
+          "outcome": "FY26 EBITDA margin 19.1% (shortfall 1.7pp); H2 FY26 17.9% (44.9/251.1; Q3 16.9%, Q4 18.7%)",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-10 (58e7ab7a-39a7-4bd8-aca9-b42048f94686.pdf), p.8 (P&L); Q3 FY26 investor presentation, BSE filing 2026-01-31 (13e60dae-9a8b-48a1-b844-677bbf35350d.pdf), p.8 (P&L)",
+          "item_grade": 0
+        },
+        {
+          "note": "Stated as a minimum that would rise if MoU land came through; Karnataka land allotment completed in Q3 FY26 (Q3 deck p.6). H1 capex not separately filed; MD's Rs 11 cr used. Cash-flow figure read from OCR text of the filing.",
+          "class": 4,
+          "date": "2025-11-10",
+          "speaker": "Rajesh MS, Finance Head",
+          "quote": "during the 25-26, CAPEX addition will be another Rs. 30-Rs. 35 crores, the minimum what we are expecting.",
+          "period": "FY26 (H2)",
+          "basis": "Consolidated purchase of PPE incl. CWIP and capital advances; floor = H1 Rs ~11 cr (MD, p.3) + Rs 30 cr = Rs 41 cr for FY26",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.4 (Q&A, Nilesh Jain)",
+          "outcome": "FY26 consolidated purchase of PPE Rs 93.2 cr (Rs 931.69 mn), implying H2 ~Rs 82 cr",
+          "outcome_source": "FY26 audited results, BSE filing 2026-05-09 (922619a2-f60d-4896-acaa-ccea5d387e1b.pdf), PDF p.13 (consolidated cash flow statement)",
+          "item_grade": 2
+        },
+        {
+          "note": "Q4 deck p.6: three facilities commissioned in FY26 (two Bengaluru, one Vietnam), total seven. Same answer: 'in 12 months, we would have added 3 facilities' - met within FY26.",
+          "class": 7,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "we are adding one more capacity, which should be up and ready very soon. Very soon as in maybe end of December or maybe early January.",
+          "period": "Dec 2025 - Jan 2026",
+          "basis": "Commissioning of one additional DLM facility in Karnataka (outside the MoU capex)",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.10 (Q&A, Aman / Astute)",
+          "outcome": "Two new manufacturing facilities in Bengaluru commissioned during the quarter ended December 2025",
+          "outcome_source": "Q3 FY26 investor presentation, BSE filing 2026-01-31 (13e60dae-9a8b-48a1-b844-677bbf35350d.pdf), p.6 (From the MD's Desk)",
+          "item_grade": 2
+        },
+        {
+          "note": "Graded on the original 'most probably later this year'. Late by >1 quarter on either reading (calendar: Dec-25; fiscal: Mar-26) as the AR (filed 14 Jul 2026) still shows no shipment. AR mentions repeat orders already received for intermediate storage systems - the line between orders and deliveries is not disclosed. Separate from ASM's own DLM solar supplies, which the MD said had shipped (p.18).",
+          "class": 7,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "And we expect some of the deliveries to happen later this year or definitely early part of next year. But most probably later this year.",
+          "period": "By Dec 2025 (outer bound: early 2026)",
+          "basis": "First deliveries from the solar-equipment JV (ASM HHV Engineering) separate plant",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.7 (Q&A, Raj Sharad Agrawal); also opening remarks p.3",
+          "outcome": "Not shipped by the FY26 Annual Report: first production prototype 'undergoing final qualification testing', expected to ship shortly; JV still loss-making in consolidated P&L (Q4 FY26 -0.3 cr, Q1 FY27 -0.2 cr)",
+          "outcome_source": "Annual Report FY26, BSE filing 2026-07-14 (b3872ecd-9b63-4777-b1df-e018011ad6bd.pdf), PDF p.15 (Progress and Milestones - ASM HHV, printed pp.24-25); Q1 FY27 investor presentation, BSE filing 2026-08-06 (ccfcdd15-69e4-4695-8fe4-1283b52552d7.pdf), p.8",
+          "item_grade": 0
+        },
+        {
+          "note": "Due Q3 FY26, central approval landed Q4 FY26 = one quarter late. Exact approval date not filed on BSE; ECMS matching the incentive he described is a reading, not stated. Investment figure (Rs 565 cr) differs from the MoU total (Rs 760 cr).",
+          "class": 7,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "And we should know that maybe in the next month or so on how much would be incentives and how much would be our contribution.",
+          "period": "~Dec 2025 (Q3 FY26)",
+          "basis": "Outcome of central (~25%) and state (~25%) capex-incentive applications for the MoU capex",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.7 (Q&A, Raj Sharad Agrawal)",
+          "outcome": "ECMS approval for high-precision capital equipment manufacturing (investment Rs 565 cr) received March 2026; state-incentive outcome [not retrieved]",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-10 (58e7ab7a-39a7-4bd8-aca9-b42048f94686.pdf), p.6 (From the MD's Desk) and p.20",
+          "item_grade": 1
+        },
+        {
+          "note": "Closed period, base not disclosed and segment definitions inconsistent; not graded.",
+          "class": 1,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "So, you will see in the Q3-Q4, there will be some momentum on the ER&D side as well.",
+          "period": "Q3-Q4 FY26",
+          "basis": "ER&D segment revenue vs Q2 FY26 level",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.12 (Q&A, Ajay / Hedgehogs); also p.11 ('some of those revenues will reflect in Q3')",
+          "outcome": "[not retrieved] - Q2 FY26 ER&D revenue is not in any filing; segment splits in later decks (Q3 ER&D ~39% = ~Rs 45 cr; Q4 43.4% = ~Rs 59 cr; 9M 47%) imply H1 ER&D ~50%, which conflicts with the 37% the MD gave on this call",
+          "outcome_source": "Q3 FY26 investor presentation, BSE filing 2026-01-31 (13e60dae-9a8b-48a1-b844-677bbf35350d.pdf), p.7; Q4 FY26 investor presentation, BSE filing 2026-05-10 (58e7ab7a-39a7-4bd8-aca9-b42048f94686.pdf), p.7",
+          "item_grade": null
+        },
+        {
+          "note": "Open. Q1 FY27 deck p.14: 10-acre Karnataka land secured, agreement in final stage, construction yet to commence. Tamil Nadu land status [not retrieved].",
+          "class": 7,
+          "date": "2025-11-10",
+          "speaker": "Rabindra Srikantan, Managing Director",
+          "quote": "So, timeline-wise, it will be about the next 18-24 months is what we are planning once the land is acquired.",
+          "period": "18-24 months after land acquisition (Karnataka land allotted Q3 FY26 -> ~Jun-Dec 2027)",
+          "basis": "Karnataka (Rs 510 cr) and Tamil Nadu (Rs 250 cr) MoU facilities, three phases; funding accruals + debt + equity + incentives (p.16)",
+          "source": "Q2 FY26 transcript (call 2025-11-10), BSE filing 2025-11-14 (376b3da9-0b06-4f14-ad89-4e35c8518423.pdf), p.4 (Q&A, Nilesh Jain)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: Q2 FY26 (Nov 2025) was the company's first; BSE feed shows presentation 2025-08-11 only."
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: Q2 FY26 (Nov 2025) was the company's first; BSE feed shows presentation 2025-05-29 only."
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: Q2 FY26 (Nov 2025) was the company's first; no call filing on BSE."
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: Q2 FY26 (Nov 2025) was the company's first; no call filing on BSE."
+    }
+  ]
+}

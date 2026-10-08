@@ -1,0 +1,33 @@
+{
+  "ticker": "ABBOTINDIA",
+  "review_date": "2026-10-08",
+  "mode": "fallback",
+  "executable": true,
+  "score_10": null,
+  "note": "No earnings calls in the 8-quarter window. Sources checked: (1) Annual reports: FY26 AR (filed 2026-07-20) - one anchored margin statement captured; therapy-area FY27 outlooks ('sustained double-digit growth' Multi-Specialty p.29, 'sustainable above-market growth' GI p.19, CNS 'sustain its growth momentum' p.27) NOT captured: Abbott India reports a single segment so therapy-level growth has no checkable filed outcome. FY25 AR (filed 2025-07-18) - no captured promise: Chairman/MD letters qualitative only ('well-positioned to sustain its growth momentum'), 2030 sustainability goals cite no figures, Board's report dividend absorption (Rs1,009.34 Cr) is arithmetic not guidance, 'no material changes and commitments' is a statement of past fact; MD&A outlook truncated in fetch. FY24 AR (pub. Jul 2024) - no captured promise: 'In 2024-25, the Company will continue efforts to ... grow its volumes and market share' (p.49) is generic and volume/market share are not reported in filed results; e-commerce 11% and GDP figures are market statements. (2) Investor presentations: none found for the window. (3) Press interviews: none located with a named-executive quantified quote (searches for Kartik Rajendran / Abbott India MD in ET, BS, Moneycontrol, CNBC-TV18 returned only appointment news). Feb 27, 2026 Extensior (semaglutide) Reg.30 press release: Rajendran quote is sentiment only; 'expected to be available for Indian patients soon' has no date - not captured (FY26 AR p.32 lists Extensior as launched in FY26). (4) AGM proceedings/transcripts: none located for AGMs Aug 2024, Aug 2025, Aug 2026 (only notices found). (5) Exchange filings: Q2 FY26 results intimation 2025-11-06 - no outlook; Reg.30 penalty-order disclosures with 'no material impact' assurances captured (Jul 2024, Nov 2024, Dec 2025). Jan 3 2024 and Mar 27 2024 Reg.30 orders are outside the window (the Mar 2024 customs order gave no assurance). Two BSE attachments (f7b414ac..., c0e6dfc9...) returned HTTP 403 and could not be identified. | v1.2 re-grade (rule 6): three Reg. 30 'no material impact' statements removed as statutory boilerplate below 1% of PAT and with no revenue-stream risk — GST penalty, CGST Mumbai East, Rs 2.40 Cr (31 Dec 2025) vs FY25 PAT Rs 1,414.44 Cr = 0.17%; CGST Ahmedabad query memo, Rs 1,430 (28 Nov 2024) vs FY24 PAT ~Rs 1,201 Cr = ~0.000001%; CGST Secunderabad penalty, Rs 64.9 lakh (29 Jul 2024) vs FY24 PAT ~Rs 1,201 Cr = 0.05%. FY24 PAT derived from FY25 PAT Rs 1,414.44 Cr at +17.8% YoY [derived, not opened]. One captured promise remains (FY26 AR margin statement), period open: no graded entry, score_10 null. Engine: pass credibility.executable = false (nothing to score) -> C5 falls to the C4 rule. Rule 7: FY25 and FY24 ARs held no earlier statement of this promise (qualitative only).",
+  "quarters": [
+    {
+      "label": "FY26 Annual Report (pub. Jul 2026)",
+      "event_date": "2026-07-20",
+      "source_tier": "annual_report",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 2,
+          "source_tier": "annual_report",
+          "date": "2026-07-20",
+          "speaker": "Company (annual report, Financial Review)",
+          "quote": "Abbott will continue to focus on sustaining growth while preserving the quality of margins",
+          "period": "FY27 (Apr 2026-Mar 2027)",
+          "basis": "EBITDA margin incl. other income on revenue from operations; anchored figure in force when said = 31.5% (FY26, AR KPI table p.44; EBITDA Rs2,180 Cr on revenue Rs6,929 Cr)",
+          "source": "Abbott India Annual Report 2025-26 (weblink filed 2026-07-20), https://www.abbott.co.in/content/dam/corp/abbott/en-ind/pdf/financials/2025-26-Annual-Report.pdf p.43 (Financial Review); KPI p.44",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Anchored qualitative statement converted to the FY26 figure in force (31.5%). Period open. MD letter p.15 states EBITDA 'improved from 31% to 32%', inconsistent with KPI table 30.7%->31.5%; KPI table used. Q1 FY27 (results 2026-08-12) EBITDA margin 28.81% consolidated per multibagg.ai [unverified, media], not graded - full year open."
+        }
+      ]
+    }
+  ]
+}

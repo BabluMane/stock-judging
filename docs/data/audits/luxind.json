@@ -1,0 +1,358 @@
+{
+  "ticker": "LUXIND",
+  "review_date": "2026-10-08",
+  "mode": "fallback",
+  "executable": true,
+  "score_10": 6.0,
+  "note": "No earnings calls in the 8-quarter window (last call Aug 2022). Sources checked: investor presentations Q2 FY25-Q1 FY27 (all opened); Q1 FY26 (Aug 2025), Q2 FY26 (Nov 2025) and Q1 FY27 (Aug 2026) decks held only restatements (online Rs 200 Cr, country target, capex Rs 55+/70+ Cr, WC easing, CSR budget) - no new promise. Annual reports FY24, FY25, FY26 opened (extracts truncated before Board's report/MD&A - those sections not retrieved). FY24 AR (Chairman: 'our ambitious goal is exported to 60 countries by 2025') was the earliest in-window statement of the 60-by-2025 target; it would be a 9th event and is excluded by the 8-event cap - that target was moved to 2028 (May 2025) then 2030 with no reason and 46+ countries unchanged (would grade 0 as unreasoned withdrawal). Board outcome 14 Feb 2026 (NSE) - no guidance. Press interviews: fibre2fashion Saket Todi 7 Jan 2026 (no quantified commitment), Storyboard18 1 Sep 2025 (Ashok Todi, none); media items on Dankuni Rs 1,000 Cr revenue by 2032/Phase 1 2027 are paraphrase without filing - [unverified]. AGM proceedings 2024/2025/2026: only notices found (AGMs 26 Sep 2024, 22 Sep 2025, 25 Sep 2026); no Q&A transcript retrieved. Reg. 30 capacity intimation 4 Jul 2026: not retrieved (URL not found). BSE announcements API: 403. | v1.2 re-grade (rule 7): the 60-countries-by-2025 target is graded at its original statement in the FY24 AR (added as a 9th event, outside_window) -> 0; the 2030 re-set is folded into that item. Weights now run 9 -> 1.",
+  "quarters": [
+    {
+      "label": "FY26 annual report (Sep 2026)",
+      "event_date": "2026-09-02",
+      "source_tier": "annual_report",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 1,
+          "source_tier": "annual_report",
+          "date": "2026-09-02",
+          "speaker": "Ajay Nagar, Chief Financial Officer",
+          "quote": "a landmark that will be, in all probability, achieved in the coming year.",
+          "period": "FY27",
+          "basis": "Consolidated revenue from operations, Rs 3,000 Cr (FY26: Rs 2,929 Cr)",
+          "source": "Lux Annual Report 2025-26, http://s3.amazonaws.com/luxs/ckeditors/pictures/783/original/Lux_Annual_Report_25-26.pdf p.24 (CFO review)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Event date approximate: AR 2025-26 submitted to exchanges on or about 2 Sep 2026 (exact filing date not retrieved). Same AR restates: working-capital cycle to 'begin moderating from its FY 2025-26 peak' (CFO p.27; captured at Q4 FY26 deck), 60 countries by 2030 (MD p.21; captured at Q4 FY26 deck), Dankuni ~Rs 600 Cr (Vertical A p.46; captured at 11 Jul 2026 press release). Q1 FY27 actual revenue Rs 609 Cr (+1% YoY) per Q1 FY27 deck p.42 - context only, period open."
+        }
+      ]
+    },
+    {
+      "label": "Dankuni expansion press release (Reg. 30, Jul 2026)",
+      "event_date": "2026-07-11",
+      "source_tier": "exchange_filing",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 4,
+          "source_tier": "exchange_filing",
+          "date": "2026-07-11",
+          "speaker": "Saurabh Bhudolia, Financial Advisor",
+          "quote": "An investment of ₹600 crore will be allocated toward the expansion of the Dankuni project.",
+          "period": "Multi-year; no completion date stated",
+          "basis": "Project capex, Dankuni (adds 20 crore pieces/yr to existing 12 crore); funded by 'a strategic mix of external borrowings and internal accruals'",
+          "source": "Press release 11 Jul 2026, https://nsearchives.nseindia.com/corporate/LUXIND_11072026132305_Pressrelease.pdf",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No commissioning date given ('Once fully operational'). Media (sahi.com, multibagg.ai) report ~Rs 450 Cr fresh capex, ~6-year phasing, Phase 1 2027 and Rs 1,000 Cr incremental revenue by 2032 - no filing or named-executive quote found: [unverified], not captured. Restated in AR FY26 p.46 (Saket Todi) and Chairman letter p.16."
+        },
+        {
+          "class": 8,
+          "source_tier": "exchange_filing",
+          "date": "2026-07-11",
+          "speaker": "Company (press release)",
+          "quote": "is projected to achieve a five-year payback period.",
+          "period": "~5 years from commissioning (commissioning date not stated)",
+          "basis": "Payback on Dankuni ~Rs 600 Cr investment",
+          "source": "Press release 11 Jul 2026, https://nsearchives.nseindia.com/corporate/LUXIND_11072026132305_Pressrelease.pdf",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open; period end undefined because no commissioning date given."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26 investor presentation (May 2026)",
+      "event_date": "2026-05-21",
+      "source_tier": "presentation",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 3,
+          "source_tier": "presentation",
+          "date": "2026-05-21",
+          "speaker": "Company (investor presentation)",
+          "quote": "Working capital days expected to ease out going forward due to better inventory management and faster debtor collection",
+          "period": "FY27 (next year-end, 31 Mar 2027)",
+          "basis": "Consolidated working capital days; figure in force YE Mar'26 = 197 days (ceiling)",
+          "source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.43 (consolidated KPIs)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "First appearance on consolidated basis (earlier decks carried it on Vertical B slide only; see Q4 FY25 item). Restated in Q1 FY27 deck and AR FY26 CFO review p.27 ('expects the working capital cycle to begin moderating from its FY 2025-26 peak')."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26 investor presentation (Feb 2026)",
+      "event_date": "2026-02-14",
+      "source_tier": "presentation",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "source_tier": "presentation",
+          "date": "2026-02-14",
+          "speaker": "Company (investor presentation)",
+          "quote": "Upcoming in Patna Airport",
+          "period": "Next reporting quarter (Q4 FY26)",
+          "basis": "ONN exclusive brand outlet at Patna airport opened",
+          "source": "Q3 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/699/original/Q3_2025-26_Presentation.pdf p.24",
+          "outcome": "Q4 FY26 deck: 'Expanding ONN EBOs at Airports, Live at Chennai, Srinagar and Patna'",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.26",
+          "item_grade": 2,
+          "note": "No date stated; graded against the next reporting quarter. Also live per Q1 FY27 deck p.28. Q3 FY26 deck otherwise restates online Rs 200 Cr, 60 countries by 2028, WC easing."
+        }
+      ]
+    },
+    {
+      "label": "FY25 annual report (Aug 2025)",
+      "event_date": "2025-08-31",
+      "source_tier": "annual_report",
+      "grade": 1.2,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Pradip Kumar Todi, Managing Director",
+          "quote": "The Company is optimistic to achieve early double-digit growth in the next financial year.",
+          "period": "FY26",
+          "basis": "Consolidated revenue growth >= 10%",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.19 (MD statement)",
+          "outcome": "FY26 revenue Rs 2,928.74 Cr vs Rs 2,583.06 Cr, +13.4%",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.45; AR FY26 p.24",
+          "item_grade": 2,
+          "note": "Event date = shareholder letter dated 31 Aug 2025 (filed 1 Sep 2025) making AR available; exact AR filing date not retrieved."
+        },
+        {
+          "class": 2,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Pradip Kumar Todi, Managing Director",
+          "quote": "This growth is expected to be profitable, marked by a sharper percentage increase in the Company's EBITDA.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA growth > revenue growth, i.e. EBITDA margin above FY25 level of ~10.3% (Rs 266 Cr / Rs 2,583 Cr), incl. other income as reported in deck",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.19",
+          "outcome": "FY26 EBITDA Rs 205 Cr (-23%), margin ~7.0% (AR states 6.93%), down ~318 bps",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.43; AR FY26 p.6",
+          "item_grade": 0,
+          "note": "Anchored qualitative statement converted to margin in force (FY25 ~10.3%). Shortfall >3pp."
+        },
+        {
+          "class": 1,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Ajay Nagar, Chief Financial Officer",
+          "quote": "The Company intends to sustain its 11.13% revenue growth",
+          "period": "FY26",
+          "basis": "Consolidated revenue growth >= 11.13%",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.23 (CFO overview)",
+          "outcome": "FY26 revenue growth +13.4%",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.45",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 3,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Ajay Nagar, Chief Financial Officer",
+          "quote": "In FY 25-26, the Company intends to reduce fixed costs and promotional expenses",
+          "period": "FY26",
+          "basis": "Brand/advertising spend below FY25 Rs 193.88 Cr (7.51% of revenue); fixed costs below FY25",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.23",
+          "outcome": "Brand and advertising spend raised 19.4% to Rs 231.5 Cr; employee costs up 18.5% to Rs 179 Cr",
+          "outcome_source": "Lux Annual Report 2025-26, http://s3.amazonaws.com/luxs/ckeditors/pictures/783/original/Lux_Annual_Report_25-26.pdf pp.25-26",
+          "item_grade": 0,
+          "note": "Ceiling-type commitment; overshoot ~19%."
+        },
+        {
+          "class": 7,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Ajay Nagar, Chief Financial Officer",
+          "quote": "It also intends to commission 500 kW of additional solar energy capacity to create a total solar energy portfolio of 2.2 MW,",
+          "period": "FY26",
+          "basis": "Solar capacity commissioned: +500 kW, total 2.2 MW",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.23",
+          "outcome": "Indeterminate: Q4 FY26 deck p.3 says capacity rose 'from 1MW to 1.7MW'; AR FY26 p.22 says 700 kW added 'during the previous financial year'; no total of 2.2 MW reported",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.3; Lux Annual Report 2025-26, http://s3.amazonaws.com/luxs/ckeditors/pictures/783/original/Lux_Annual_Report_25-26.pdf p.22",
+          "item_grade": null,
+          "note": "Not graded: company disclosures inconsistent on base and year; cannot verify against the 2.2 MW figure without inferring."
+        },
+        {
+          "class": 1,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Saket Todi, Executive Director (Vertical A)",
+          "quote": "our vertical is confident of achieving double-digit revenue growth and outperforming the market average",
+          "period": "FY26",
+          "basis": "Vertical A revenue growth >= 10%",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.39",
+          "outcome": "Vertical A FY26 revenue Rs 1,365.22 Cr vs Rs 1,112.57 Cr, +22.7%",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.45",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 3,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Udit Todi, Executive Director (Vertical B)",
+          "quote": "With exports from this vertical projected to grow 50% in the coming financial years,",
+          "period": "FY26 (p.42 callout: 'in next financial year')",
+          "basis": "Vertical B export revenue growth 50%",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf pp.42-43",
+          "outcome": "[not retrieved] Vertical B export revenue not disclosed in Q4 FY26 deck or AR FY26 extract; company exports 8% of sales",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.17",
+          "item_grade": null,
+          "note": "Not graded: outcome not disclosed. Period wording inconsistent (p.42 'next financial year' vs p.43 'coming financial years')."
+        },
+        {
+          "class": 7,
+          "source_tier": "annual_report",
+          "date": "2025-08-31",
+          "speaker": "Navin Kumar Todi / Rahul Kumar Todi, Executive Directors (Vertical C)",
+          "quote": "In January 2026, we will be launching new series under Lux Champion and Lux Amore,",
+          "period": "January 2026",
+          "basis": "Launch of new series",
+          "source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.46",
+          "outcome": "[not retrieved] No launch confirmation found in Q3/Q4 FY26 decks or AR FY26 (AR FY26 p.31 mentions a relaunch of Nitro/Nitro Neo/Champion portfolio, undated)",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf; Lux Annual Report 2025-26, http://s3.amazonaws.com/luxs/ckeditors/pictures/783/original/Lux_Annual_Report_25-26.pdf p.31",
+          "item_grade": null,
+          "note": "Not graded: no document confirms or refutes the launch. Ludhiana facility statement ('exploring the possibility') not captured - not a commitment."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25 investor presentation (May 2025)",
+      "event_date": "2025-05-23",
+      "source_tier": "presentation",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "source_tier": "presentation",
+          "date": "2025-05-23",
+          "speaker": "Company (investor presentation)",
+          "quote": "Working capital days expected to ease out going forward",
+          "period": "FY26 (next year-end)",
+          "basis": "Vertical B working capital days; figure in force YE Mar'25 = 150 days (ceiling)",
+          "source": "Q4 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/611/original/Presentation_Q4_2024-25.pdf p.45 (Vertical B KPIs)",
+          "outcome": "Vertical B working capital days YE Mar'26 = 167 (Q4 FY26 deck restates YE Mar'25 as 134); consolidated 181 -> 197",
+          "outcome_source": "Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf pp.43, 53",
+          "item_grade": 0,
+          "note": "'Going forward' graded at next fiscal year-end. Overshoot 11% vs 150 (25% vs restated 134). Restated in Q1/Q2/Q3 FY26 decks. Same deck revised: online target to Rs 200 Cr in 3 years (from Rs 100 Cr), country target year to 2028 (from 2025), near-term capex to Rs 55+ Cr (from Rs 40+ Cr) - see Q2 FY25 items."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25 investor presentation (Feb 2025)",
+      "event_date": "2025-02-13",
+      "source_tier": "presentation",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "source_tier": "presentation",
+          "date": "2025-02-13",
+          "speaker": "Company (investor presentation)",
+          "quote": "Coming Soon at Srinagar & Kolkata",
+          "period": "Next reporting quarter (Q4 FY25)",
+          "basis": "ONN airport EBO at Srinagar opened",
+          "source": "Q3 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/584/original/Investor_presentation_Q3_2024-25.pdf p.18",
+          "outcome": "Q4 FY25 deck: 'Live at Chennai, Pune and Srinagar'",
+          "outcome_source": "Q4 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/611/original/Presentation_Q4_2024-25.pdf p.21",
+          "item_grade": 2,
+          "note": "No date stated; graded against next reporting quarter."
+        },
+        {
+          "class": 7,
+          "source_tier": "presentation",
+          "date": "2025-02-13",
+          "speaker": "Company (investor presentation)",
+          "quote": "Coming Soon at Srinagar & Kolkata",
+          "period": "Next reporting quarter (Q4 FY25)",
+          "basis": "ONN airport EBO at Kolkata opened",
+          "source": "Q3 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/584/original/Investor_presentation_Q3_2024-25.pdf p.18",
+          "outcome": "Not reported live in Q4 FY25, Q4 FY26 or Q1 FY27 decks (live list: Chennai, Pune, Srinagar, then Chennai, Srinagar, Patna); Kolkata dropped without explanation",
+          "outcome_source": "Q4 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/611/original/Presentation_Q4_2024-25.pdf p.21; Q4 FY26 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/736/original/Q4_2025-26.pdf p.26; Q1 FY27 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/762/original/Investor_Presentation_Q1_2026-27.pdf p.28",
+          "item_grade": 0,
+          "note": ">1 quarter late / not delivered."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25 investor presentation (Nov 2024)",
+      "event_date": "2024-11-12",
+      "source_tier": "presentation",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 4,
+          "source_tier": "presentation",
+          "date": "2024-11-12",
+          "speaker": "Company (investor presentation)",
+          "quote": "Near-term investment to augment production through internal accrual",
+          "period": "FY25 (near-term)",
+          "basis": "Capex Rs 40+ Cr funded by internal accruals (floor)",
+          "source": "Q2 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/565/original/Lux_Investor_Presentation_Q2_2024.pdf p.13",
+          "outcome": "FY25 capex Rs 52 Cr",
+          "outcome_source": "Lux Annual Report 2024-25, http://s3.amazonaws.com/luxs/ckeditors/pictures/648/original/Lux_Annual_Report_2025.pdf p.20",
+          "item_grade": 2,
+          "note": "'Near-term' graded on FY25. Also in Q1 FY25 deck (Aug 2024, outside window). Revised to Rs 55+ Cr (Q4 FY25 deck p.16, AR FY25 p.47) and Rs 70+ Cr (Q4 FY26 deck p.21, Q1 FY27 p.23). FY26 capex not disclosed in deck/AR extract [not retrieved]. Dankuni Rs 600 Cr plan (Jul 2026) adds borrowings, departing from 'internal accrual' framing - noted, not graded here."
+        },
+        {
+          "class": 8,
+          "source_tier": "presentation",
+          "date": "2024-11-12",
+          "speaker": "Company (investor presentation)",
+          "quote": "Target revenue of ₹100 Cr from online sales in next 3 years",
+          "period": "~FY25-FY27 (to Nov 2027)",
+          "basis": "Online sales revenue Rs 100 Cr",
+          "source": "Q2 FY25 investor presentation, http://s3.amazonaws.com/luxs/ckeditors/pictures/565/original/Lux_Investor_Presentation_Q2_2024.pdf p.18",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Raised to Rs 200 Cr 'in next 3 years' in Q4 FY25 deck p.21 (restated through Q1 FY27 deck p.28) - graded against original at period end. Current online revenue not disclosed."
+        }
+      ]
+    },
+    {
+      "label": "FY24 Annual Report (pub. ~Aug 2024)",
+      "event_date": "2024-08-17",
+      "source_tier": "annual_report",
+      "outside_window": true,
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "source_tier": "annual_report",
+          "date": "2024-08-17",
+          "speaker": "Ashok Kumar Todi, Chairman & Whole Time Director",
+          "quote": "Over the past 5 years we included 25 new countries and our ambitious goal is exported to 60 countries by 2025.",
+          "period": "By 2025",
+          "basis": "Export presence: 60 countries (AR FY24 states 46+ on p.4 and ~48 on pp.10, 16)",
+          "source": "Lux Annual Report 2023-24, p.16, http://s3.amazonaws.com/luxs/ckeditors/pictures/550/original/Lux_Annual_Report_2023-24.pdf",
+          "outcome": "Target moved to 2028 before the period ended, with no reason given (Q4 FY25 deck, 23 May 2025, p.12: '60 Targeted country-presence by 2028'); later re-set to 2030 (Q4 FY26 deck p.17; AR FY26 MD letter p.21; Q1 FY27 deck p.17). Presence still '46+' at Q1 FY27.",
+          "outcome_source": "Q4 FY25 investor presentation p.12, http://s3.amazonaws.com/luxs/ckeditors/pictures/611/original/Presentation_Q4_2024-25.pdf; Q1 FY27 investor presentation p.17",
+          "item_grade": 0,
+          "note": "Rule 7: graded at its earliest statement. Cut before period end without a stated reason = unreasoned withdrawal (class 9 rule) -> 0; presence also never approached 60. Statement date approximate: AR prints no date; AGM notice dated 2024-08-17 (AGM 2024-09-26). The 2030 re-set formerly captured as a separate open item in the Q4 FY26 deck is folded into this item; it is not a new promise."
+        }
+      ]
+    }
+  ]
+}

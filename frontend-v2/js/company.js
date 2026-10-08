@@ -588,6 +588,7 @@ async function loadAudit(symbol) {
 }
 
 function numGrade(g) {
+  if (g === null || g === undefined || g === "") return null;
   const n = Number(g);
   return Number.isFinite(n) ? n : null;
 }

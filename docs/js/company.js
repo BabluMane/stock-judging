@@ -48,8 +48,10 @@ async function initCompanyPage() {
   const news = await loadNews(symbol); // silent if missing — section just won't render
   const moves = await loadMoves(); // silent if missing — block just won't render
   const shp = await loadShp(); // silent if missing — block just won't render
-  host.innerHTML = renderCompanyDetail(review, e, news, moves, shp);
+  const audit = await loadAudit(symbol); // silent if missing — promise section shows empty state
+  host.innerHTML = renderCompanyDetail(review, e, news, moves, shp, audit);
   mountPriceChart(symbol, review, e); // async — fills #price-chart-host when ready
+  wirePromiseTracker(host); // class filters + quote expanders for the promise section
 
   const starBtn = host.querySelector(".star-btn");
   if (starBtn) {
@@ -64,7 +66,7 @@ async function initCompanyPage() {
   }
 }
 
-function renderCompanyDetail(review, e, news, moves, shp) {
+function renderCompanyDetail(review, e, news, moves, shp, audit) {
   // A1: the "buy at what price" answer — fair value, ACC/INV triggers, and
   // margin of safety — must read FIRST, before score breakdown or anything
   // else. This decision panel sits directly under the header.
@@ -96,8 +98,9 @@ ${shpSection ? `
     <h2>Risks</h2>
     ${renderRisks(review.risks)}
 
-    <h2>Promise vs. delivery</h2>
-    ${renderPromises(review.promises)}
+    <h2>Promise tracker</h2>
+    <p class="panel-note pt-sub">Management's word vs. delivery — graded 2 (met) / 1 (partly) / 0 (missed), recency-weighted.</p>
+    ${renderPromiseTracker(audit, review)}
 ${newsSection ? `
     <h2>News &amp; corporate actions</h2>
     ${newsSection}
@@ -554,4 +557,250 @@ function newsUpdatedHTML(newsResult) {
 
 function emptyState(title, body) {
   return `<div class="empty-state"><div class="icon">&#128203;</div><h3>${escapeHTML(title)}</h3><p>${escapeHTML(body)}</p></div>`;
+}
+/* ---------- Promise tracker (Claude PROMISES audits) ----------
+   Data: data/audits/<slug>.json — verbatim copies of
+   ~/workspace/stock-judging/promise-tracking/audits/*.json
+   (see tools/build_audits.py). The credibility score is computed
+   client-side here, mirroring promise-tracking/scorer.py:
+   recency weights 8..1 by position, null grades excluded with positions
+   kept (G8), <3 scored calls => not executable (G7). */
+
+const PROMISE_CLASSES = {
+  1: "Revenue",
+  2: "Margin",
+  3: "EPS / KPI",
+  4: "Capex",
+  5: "Debt path",
+  6: "ETR",
+  7: "Timelines",
+  8: "Multi-year",
+  9: "Withdrawn",
+  10: "Assurances",
+};
+
+async function loadAudit(symbol) {
+  const { ok, data } = await fetchJSON(
+    `data/audits/${encodeURIComponent(reviewSlug(symbol))}.json`
+  );
+  if (!ok || !data) return { ok: false, audit: null };
+  return { ok: true, audit: data };
+}
+
+function numGrade(g) {
+  if (g === null || g === undefined || g === "") return null;
+  const n = Number(g);
+  return Number.isFinite(n) ? n : null;
+}
+
+/** Delivery color class from an item or call grade: pos/warn/neg/idle. */
+function deliveryCls(g) {
+  const n = numGrade(g);
+  if (n === null) return "idle";
+  return n >= 1.5 ? "pos" : n >= 0.5 ? "warn" : "neg";
+}
+
+function deliveryLabel(g) {
+  const n = numGrade(g);
+  if (n === null) return "pending";
+  return n >= 1.5 ? "met" : n >= 0.5 ? "partly" : "missed";
+}
+
+function c5BadgeHTML(c5) {
+  if (c5 === null || c5 === undefined)
+    return `<span class="badge badge-unknown">C5 · n/a</span>`;
+  const cls = c5 === 2 ? "badge-invest-now" : c5 === 1 ? "badge-at-trigger" : "badge-avoid";
+  return `<span class="badge ${cls}">C5 · ${c5}</span>`;
+}
+
+function quarterStatusText(q) {
+  const st = String(q.status || "");
+  if (st === "graded") return `graded ${fmtNum(numGrade(q.grade), 1)}`;
+  if (st === "pending") return "pending outcome";
+  if (st === "no_promises") return "no promises";
+  if (st === "no_call") return "no call";
+  if (st === "not_retrieved") return "not retrieved";
+  return st || "—";
+}
+
+/** Entry point: renders the full promise-tracker section. Falls back to the
+ *  legacy review.promises list when no audit file exists for the company. */
+function renderPromiseTracker(auditResult, review) {
+  if (!auditResult || !auditResult.ok || !auditResult.audit) {
+    if (review && Array.isArray(review.promises) && review.promises.length) {
+      return `<div class="promise-list">${review.promises.map(renderPromiseCard).join("")}</div>`;
+    }
+    return emptyState(
+      "No promise data yet",
+      "Promise-tracking hasn't covered this company yet. Audits land here automatically once a PROMISES run completes."
+    );
+  }
+  const audit = auditResult.audit;
+  const qs = Array.isArray(audit.quarters) ? audit.quarters.slice(0, 8) : [];
+  let scored = 0,
+    totalPromises = 0,
+    num = 0,
+    den = 0;
+  qs.forEach((q, i) => {
+    totalPromises += (q.promises || []).length;
+    const g = numGrade(q.grade);
+    if (g === null) return;
+    const w = 8 - i;
+    num += g * w;
+    den += w;
+    scored += 1;
+  });
+  const executable = scored >= 3;
+  const score = den > 0 ? (num / (2 * den)) * 10 : null;
+  const c5 = !executable || score === null ? null : score >= 7 ? 2 : score >= 5 ? 1 : 0;
+
+  if (totalPromises === 0 && scored === 0) {
+    const allNoCall = qs.length > 0 && qs.every((q) => q.status === "no_call");
+    return `
+      <div class="panel pt-panel">
+        ${renderQuarterStrip(qs)}
+        ${emptyState(
+          allNoCall ? "No guidance found" : "Nothing gradable yet",
+          allNoCall
+            ? "No earnings calls found in the last 8 quarters — this company doesn't guide publicly, so there is nothing to score."
+            : "Quarters were checked but no gradable promises were found yet."
+        )}
+      </div>`;
+  }
+
+  return `
+    <div class="panel pt-panel" id="promise-tracker">
+      ${renderPromiseHeader(audit, { score, c5, scored, totalPromises, executable })}
+      ${renderQuarterStrip(qs)}
+      ${renderClassFilters(qs)}
+      ${renderPromiseTimeline(qs)}
+    </div>`;
+}
+
+function renderPromiseHeader(audit, cred) {
+  const gauge =
+    cred.score !== null && cred.executable
+      ? scoreRingHTML(cred.score / 10, "Credibility", 84)
+      : `<div class="pt-nogauge" role="img" aria-label="Credibility n/a"><span>n/a</span></div>`;
+  const scoreLine =
+    cred.score !== null && cred.executable
+      ? `<span class="pt-score num">${fmtNum(cred.score, 1)}</span><span class="pt-scale">/ 10</span>`
+      : `<span class="pt-score num muted">n/a</span>`;
+  const note = audit.summary_note || audit.method_note || audit.note || "";
+  return `
+    <div class="pt-head">
+      <div class="pt-gauge">${gauge}</div>
+      <div class="pt-headtext">
+        <div class="pt-scoreline">${scoreLine} ${c5BadgeHTML(cred.c5)}</div>
+        <div class="pt-meta">
+          <span><strong class="num">${cred.scored}</strong> calls scored</span>
+          <span><strong class="num">${cred.totalPromises}</strong> promises</span>
+          ${audit.review_date ? `<span>as of ${escapeHTML(audit.review_date)}</span>` : ""}
+        </div>
+        ${cred.executable ? "" : `<div class="pt-warnline">Too few scored calls for a credibility score — showing the raw record.</div>`}
+        ${note ? `<div class="pt-note">${escapeHTML(note)}</div>` : ""}
+      </div>
+    </div>`;
+}
+
+function renderQuarterStrip(qs) {
+  const dots = qs
+    .map((q, i) => {
+      const tip = `${q.label || "Q?"} — ${quarterStatusText(q)} (weight ${8 - i})`;
+      return `<span class="pt-qdot ${deliveryCls(q.grade)}" title="${escapeHTML(tip)}"></span>`;
+    })
+    .join("");
+  return `
+    <div class="pt-strip">
+      <span class="pt-strip-label">Quarters</span>
+      <span class="pt-qdots">${dots}</span>
+      <span class="pt-strip-hint">most recent →</span>
+    </div>`;
+}
+
+function renderClassFilters(qs) {
+  const present = [];
+  qs.forEach((q) =>
+    (q.promises || []).forEach((p) => {
+      if (p.class && PROMISE_CLASSES[p.class] && !present.includes(p.class)) present.push(p.class);
+    })
+  );
+  present.sort((a, b) => a - b);
+  if (present.length <= 1) return "";
+  const chips = [`<button class="pt-chip active" data-filter="all" type="button">All</button>`]
+    .concat(
+      present.map(
+        (c) =>
+          `<button class="pt-chip" data-filter="${c}" type="button">${escapeHTML(PROMISE_CLASSES[c])}</button>`
+      )
+    )
+    .join("");
+  return `<div class="pt-filters" role="group" aria-label="Filter promises by class">${chips}</div>`;
+}
+
+function renderPromiseTimeline(qs) {
+  return qs
+    .map((q) => {
+      const rows = (q.promises || []).map((p) => renderPromiseRow(p)).join("");
+      if (!rows) return "";
+      return `
+        <div class="pt-group">
+          <div class="pt-grouphead">
+            <span class="pt-qlabel">${escapeHTML(q.label || "")}</span>
+            <span class="pt-qgrade ${deliveryCls(q.grade)}">${quarterStatusText(q)}</span>
+          </div>
+          ${rows}
+        </div>`;
+    })
+    .join("");
+}
+
+function renderPromiseRow(p) {
+  const clsNum = p.class;
+  const clsName = PROMISE_CLASSES[clsNum] || "Other";
+  const quote = String(p.quote || "—");
+  const long = quote.length > 180;
+  const outcome = p.outcome ? String(p.outcome) : "";
+  const bits = [];
+  if (p.period) bits.push(`<span class="pt-tag">${escapeHTML(p.period)}</span>`);
+  if (p.date) bits.push(`<span class="pt-dim">${escapeHTML(p.date)}</span>`);
+  if (p.speaker) bits.push(`<span class="pt-dim">${escapeHTML(p.speaker)}</span>`);
+  return `
+    <div class="pt-row" data-cls="${escapeHTML(String(clsNum || ""))}">
+      <span class="pt-dot ${deliveryCls(p.item_grade)}" title="${deliveryLabel(p.item_grade)}"></span>
+      <div class="pt-main">
+        <p class="pt-quote${long ? " clamp" : ""}"${long ? ' title="Click to expand"' : ""}>${escapeHTML(quote)}</p>
+        <div class="pt-meta"><span class="pt-class">${escapeHTML(clsName)}</span>${bits.join("")}</div>
+        ${outcome ? `<p class="pt-outcome"><span class="pt-arrow">&rarr;</span> ${escapeHTML(outcome)}${p.outcome_source ? ` <span class="pt-dim">(${escapeHTML(p.outcome_source)})</span>` : ""}</p>` : ""}
+        ${p.note ? `<p class="pt-note">${escapeHTML(p.note)}</p>` : ""}
+      </div>
+      <span class="pt-grade ${deliveryCls(p.item_grade)}">${deliveryLabel(p.item_grade)}</span>
+    </div>`;
+}
+
+/** Wire class-filter chips and quote expanders after render. */
+function wirePromiseTracker(host) {
+  const section = (host || document).querySelector("#promise-tracker");
+  if (!section) return;
+  section.querySelectorAll(".pt-quote.clamp").forEach((el) => {
+    el.addEventListener("click", () => el.classList.toggle("open"));
+  });
+  const chips = section.querySelectorAll(".pt-chip");
+  if (!chips.length) return;
+  chips.forEach((chip) => {
+    chip.addEventListener("click", () => {
+      chips.forEach((c) => c.classList.remove("active"));
+      chip.classList.add("active");
+      const f = chip.dataset.filter;
+      section.querySelectorAll(".pt-row").forEach((row) => {
+        row.style.display = f === "all" || row.dataset.cls === f ? "" : "none";
+      });
+      section.querySelectorAll(".pt-group").forEach((g) => {
+        const visible = [...g.querySelectorAll(".pt-row")].some(
+          (r) => r.style.display !== "none"
+        );
+        g.style.display = visible ? "" : "none";
+      });
+    });
+  });
 }
