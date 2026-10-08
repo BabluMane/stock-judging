@@ -1,0 +1,189 @@
+{
+ "n": 299,
+ "updated_at": "2026-10-07",
+ "direction": {
+  "cheap": {
+   "n": 118,
+   "rose_pct": 65.3,
+   "rose_15_pct": 48.3,
+   "median_ret_pct": 13.1
+  },
+  "overvalued": {
+   "n": 141,
+   "fell_pct": 35.5,
+   "fell_15_pct": 19.1,
+   "median_ret_pct": 9.2
+  },
+  "fair": {
+   "n": 40,
+   "rose_pct": 65.0,
+   "median_ret_pct": 11.2
+  },
+  "premium_ret_corr": -0.0
+ },
+ "buckets": [
+  {
+   "label": "+50% and above",
+   "n": 110,
+   "median_ret_pct": 7.0,
+   "mean_ret_pct": 21.0,
+   "median_maxdd_pct": -26.1
+  },
+  {
+   "label": "+20% to +50%",
+   "n": 30,
+   "median_ret_pct": 16.1,
+   "mean_ret_pct": 21.5,
+   "median_maxdd_pct": -20.2
+  },
+  {
+   "label": "\u00b120%",
+   "n": 40,
+   "median_ret_pct": 11.2,
+   "mean_ret_pct": 19.2,
+   "median_maxdd_pct": -25.6
+  },
+  {
+   "label": "\u221220% to \u221250%",
+   "n": 42,
+   "median_ret_pct": 6.5,
+   "mean_ret_pct": 14.0,
+   "median_maxdd_pct": -27.8
+  },
+  {
+   "label": "below \u221250%",
+   "n": 76,
+   "median_ret_pct": 18.1,
+   "mean_ret_pct": 34.2,
+   "median_maxdd_pct": -24.1
+  }
+ ],
+ "by_mcap": {
+  "LARGECAP": {
+   "n": 200,
+   "cheap_hit_pct": 74.0,
+   "overval_fall_pct": 27.7,
+   "corr": 0.0
+  },
+  "MIDCAP": {
+   "n": 34,
+   "cheap_hit_pct": 50.0,
+   "overval_fall_pct": 50.0,
+   "corr": -0.01
+  },
+  "SMALLCAP": {
+   "n": 45,
+   "cheap_hit_pct": 66.7,
+   "overval_fall_pct": 63.2,
+   "corr": -0.13
+  },
+  "MICROCAP": {
+   "n": 20,
+   "cheap_hit_pct": 18.2,
+   "overval_fall_pct": 40.0,
+   "corr": 0.24
+  }
+ },
+ "by_sector": {
+  "FINANCIALS": {
+   "n": 56,
+   "cheap_n": 14,
+   "cheap_hit_pct": 78.6,
+   "overval_n": 31,
+   "overval_fall_pct": 29.0
+  },
+  "IT": {
+   "n": 28,
+   "cheap_n": 14,
+   "cheap_hit_pct": 85.7,
+   "overval_n": 10,
+   "overval_fall_pct": 80.0
+  },
+  "AUTO": {
+   "n": 28,
+   "cheap_n": 11,
+   "cheap_hit_pct": 72.7,
+   "overval_n": 13,
+   "overval_fall_pct": 46.2
+  },
+  "FMCG": {
+   "n": 27,
+   "cheap_n": 5,
+   "cheap_hit_pct": 40.0,
+   "overval_n": 21,
+   "overval_fall_pct": 19.0
+  },
+  "PHARMA": {
+   "n": 27,
+   "cheap_n": 8,
+   "cheap_hit_pct": 50.0,
+   "overval_n": 13,
+   "overval_fall_pct": 15.4
+  },
+  "ENERGY": {
+   "n": 23,
+   "cheap_n": 19,
+   "cheap_hit_pct": 52.6,
+   "overval_n": 3,
+   "overval_fall_pct": 66.7
+  },
+  "METALS": {
+   "n": 23,
+   "cheap_n": 13,
+   "cheap_hit_pct": 53.8,
+   "overval_n": 5,
+   "overval_fall_pct": 60.0
+  },
+  "MATERIALS": {
+   "n": 22,
+   "cheap_n": 9,
+   "cheap_hit_pct": 66.7,
+   "overval_n": 11,
+   "overval_fall_pct": 36.4
+  }
+ },
+ "by_regime": {
+  "2018": {
+   "regime": "Bull",
+   "n": 44,
+   "cheap_hit_pct": 50.0,
+   "overval_fall_pct": 22.2,
+   "median_ret_pct": 8.5
+  },
+  "2020": {
+   "regime": "COVID crash \u2192 raging bull",
+   "n": 45,
+   "cheap_hit_pct": 100.0,
+   "overval_fall_pct": 0.0,
+   "median_ret_pct": 83.7
+  },
+  "2022": {
+   "regime": "Sideways/bear",
+   "n": 44,
+   "cheap_hit_pct": 58.3,
+   "overval_fall_pct": 50.0,
+   "median_ret_pct": 1.0
+  },
+  "2023": {
+   "regime": "Bull",
+   "n": 19,
+   "cheap_hit_pct": 87.5,
+   "overval_fall_pct": 0.0,
+   "median_ret_pct": 34.7
+  },
+  "2024": {
+   "regime": "Late bull \u2192 sideways",
+   "n": 147,
+   "cheap_hit_pct": 53.6,
+   "overval_fall_pct": 46.4,
+   "median_ret_pct": 3.4
+  }
+ },
+ "standing_rules": [
+  "Cheap = buy signal (65% overall, 74% largecap, 100% post-crash). Strongest in IT and FINANCIALS.",
+  "Overvalued \u2260 sell signal. It means \"model can't price this\" more often than \"this will fall.\" Needs a second reason (distribution, momentum break, event).",
+  "Never buy microcap \"cheap\" on the premium alone (18% hit rate).",
+  "In bull markets, ignore the overvalued label for quality compounders (FMCG/PHARMA/IT) \u2014 the 15% growth cap mislabels them.",
+  "Entry triggers (G1/G2) are rarely touched (~9% hit rate per the v7 trigger study) \u2014 use the direction call for timing, not the trigger level."
+ ]
+}

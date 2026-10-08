@@ -1,0 +1,8 @@
+{
+ "fy_core": "tier-1 screener.in /company/TATVA/consolidated/ (P&L+BS+CF tables, 2026-10-07): sales/interest/depr/pbt/tax%/NP/EPS/eqcap/reserves/borrowings/total_assets/CFO",
+ "fy_bs_detail": "tier-2/3 cross-validated: trade receivables + current assets/liabilities from stockssena.com/api/report?symbol=TATVA (consolidated BS: receivables 57/84/70/83/119, CA 436/314/298/265/350, CL 171/241/80/96/213) and sharescart.com/company/tatva-chintan-pharma (CA 436/314/298/265/350, CL 171/241/80/96/213); current ratios cross-check vs stockssena (2.54/1.33/3.74/2.76/1.64). equity_capital exact 22.17/23.39 from finology ticker table + icicidirect BS (2,33,92,055 shares x Rs10). tax_expense from stockssena Tax row (8/-1/13/2/15). material_cost=COGS from stockssena income statement (195/226/174/199/225). ppe_net = screener Fixed Assets row (160/196/427/529/609).",
+ "results_date": "tier-2 business press: FY26 results declared after board meeting 2026-05-16 (multibagg.ai, marketsmojo, ICICI Direct rapid-results); Q1FY27 results approved at board meeting 2026-07-17 (capitalmarket.com, growmudra.com).",
+ "pledge": "tier-3 smart-investing.in pledged-holdings table: 0% for all 8 quarters Jun-2024..Jun-2026; promoter 72.02% cross-checked vs libordbroking.com SHP 30/06/2026 (16,847,063 of 23,392,055 shares).",
+ "mcap": "tier-1 screener.in header 2026-10-07: mcap Rs 4,638 cr @ Rs 1,982.",
+ "prices_beta": "Yahoo Finance v8 chart API (query1), 1wk ADJCLOSE TATVA.NS + ^NSEI, 2021-07-01..2026-10-08; beta = OLS slope of weekly log-returns, ISO-(year,week) join, last 259 pairs (60m), beta 0.957 corr 0.339. p_d0 = last close <= d0-0d = 1983.0 on 2026-10-07."
+}

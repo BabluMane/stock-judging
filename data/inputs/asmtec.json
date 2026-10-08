@@ -1,0 +1,1478 @@
+{
+  "key": "asmtec_2026-10-07",
+  "d0": "2026-10-07",
+  "sector": "Information Technology",
+  "beta": 1.0261,
+  "fy": {
+    "2015": {
+      "sales": 164.0,
+      "interest": 5.0,
+      "depreciation": 2.0,
+      "pbt": 10.0,
+      "tax_pct": 48.0,
+      "net_profit": 5.0,
+      "eps": 4.58,
+      "equity_capital": 5.0,
+      "reserves": 47.0,
+      "borrowings": 43.0,
+      "total_assets": 118.0,
+      "cfo": 12.0,
+      "tax_expense": 4.8,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 20.0
+    },
+    "2016": {
+      "sales": 63.0,
+      "interest": 3.0,
+      "depreciation": 2.0,
+      "pbt": 7.0,
+      "tax_pct": 16.0,
+      "net_profit": 6.0,
+      "eps": 5.51,
+      "equity_capital": 5.0,
+      "reserves": 46.0,
+      "borrowings": 17.0,
+      "total_assets": 90.0,
+      "cfo": -42.0,
+      "tax_expense": 1.12,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 64.0
+    },
+    "2017": {
+      "sales": 81.0,
+      "interest": 1.0,
+      "depreciation": 2.0,
+      "pbt": 4.0,
+      "tax_pct": 70.0,
+      "net_profit": 1.0,
+      "eps": 1.22,
+      "equity_capital": 5.0,
+      "reserves": 48.0,
+      "borrowings": 1.0,
+      "total_assets": 61.0,
+      "cfo": 28.0,
+      "tax_expense": 2.8,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 187.0
+    },
+    "2018": {
+      "sales": 83.0,
+      "interest": 0.0,
+      "depreciation": 1.0,
+      "pbt": 3.0,
+      "tax_pct": 127.0,
+      "net_profit": -1.0,
+      "eps": -0.69,
+      "equity_capital": 5.0,
+      "reserves": 45.0,
+      "borrowings": 8.0,
+      "total_assets": 69.0,
+      "cfo": 0.0,
+      "tax_expense": 3.81,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": -329.0
+    },
+    "2019": {
+      "sales": 88.0,
+      "interest": 1.0,
+      "depreciation": 1.0,
+      "pbt": 9.0,
+      "tax_pct": 22.0,
+      "net_profit": 7.0,
+      "eps": 6.33,
+      "equity_capital": 5.0,
+      "reserves": 46.0,
+      "borrowings": 15.0,
+      "total_assets": 86.0,
+      "cfo": 2.0,
+      "tax_expense": 1.98,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 43.0
+    },
+    "2020": {
+      "sales": 92.0,
+      "interest": 2.0,
+      "depreciation": 3.0,
+      "pbt": 2.0,
+      "tax_pct": 63.0,
+      "net_profit": 1.0,
+      "eps": 1.13,
+      "equity_capital": 5.0,
+      "reserves": 45.0,
+      "borrowings": 23.0,
+      "total_assets": 83.0,
+      "cfo": -8.0,
+      "tax_expense": 1.26,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 101.0
+    },
+    "2021": {
+      "sales": 137.0,
+      "interest": 3.0,
+      "depreciation": 4.0,
+      "pbt": 14.0,
+      "tax_pct": 37.0,
+      "net_profit": 9.0,
+      "eps": 7.74,
+      "equity_capital": 10.0,
+      "reserves": 47.0,
+      "borrowings": 35.0,
+      "total_assets": 116.0,
+      "cfo": 4.0,
+      "tax_expense": 5.18,
+      "receivables": null,
+      "ppe_net": null,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 82.0
+    },
+    "2022": {
+      "sales": 192.0,
+      "interest": 6.0,
+      "depreciation": 4.0,
+      "pbt": 18.0,
+      "tax_pct": 22.0,
+      "net_profit": 14.0,
+      "eps": 13.28,
+      "equity_capital": 10.0,
+      "reserves": 56.0,
+      "borrowings": 51.0,
+      "total_assets": 146.0,
+      "cfo": 14.0,
+      "tax_expense": 3.96,
+      "receivables": 56.8,
+      "ppe_net": 28,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 58.0
+    },
+    "2023": {
+      "sales": 220.0,
+      "interest": 7.0,
+      "depreciation": 9.0,
+      "pbt": 11.0,
+      "tax_pct": 37.0,
+      "net_profit": 7.0,
+      "eps": 8.68,
+      "equity_capital": 10.0,
+      "reserves": 61.0,
+      "borrowings": 74.0,
+      "total_assets": 169.0,
+      "cfo": 20.0,
+      "tax_expense": 4.07,
+      "receivables": 54.2,
+      "ppe_net": 48,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 76.0
+    },
+    "2024": {
+      "sales": 202.0,
+      "interest": 10.0,
+      "depreciation": 11.0,
+      "pbt": -11.0,
+      "tax_pct": -33.0,
+      "net_profit": -7.0,
+      "eps": -3.64,
+      "equity_capital": 12.0,
+      "reserves": 130.0,
+      "borrowings": 82.0,
+      "total_assets": 238.0,
+      "cfo": -1.0,
+      "tax_expense": 3.63,
+      "receivables": 52.0,
+      "ppe_net": 49,
+      "rpt_loans": null,
+      "current_assets": null,
+      "current_liabilities": null,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": -27.0
+    },
+    "2025": {
+      "sales": 289.0,
+      "interest": 12.0,
+      "depreciation": 10.0,
+      "pbt": 34.0,
+      "tax_pct": 27.0,
+      "net_profit": 25.0,
+      "eps": 22.08,
+      "equity_capital": 12.0,
+      "reserves": 153.0,
+      "borrowings": 86.0,
+      "total_assets": 290.0,
+      "cfo": -23.0,
+      "tax_expense": 9.18,
+      "receivables": 129.15,
+      "ppe_net": 76,
+      "rpt_loans": null,
+      "current_assets": 181.38,
+      "current_liabilities": 103.68,
+      "results_published": null,
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 14.0
+    },
+    "2026": {
+      "sales": 529.0,
+      "interest": 9.0,
+      "depreciation": 14.0,
+      "pbt": 84.0,
+      "tax_pct": 28.0,
+      "net_profit": 61.0,
+      "eps": 41.65,
+      "equity_capital": 15.0,
+      "reserves": 292.0,
+      "borrowings": 128.0,
+      "total_assets": 503.0,
+      "cfo": 68.0,
+      "tax_expense": 23.52,
+      "receivables": 115.72,
+      "ppe_net": 127,
+      "rpt_loans": null,
+      "current_assets": 298.13,
+      "current_liabilities": 114.18,
+      "results_published": "2026-05-09",
+      "material_cost": null,
+      "revaluation_reserve": null,
+      "dividend_payout_pct": 40.0
+    }
+  },
+  "prices": [
+    [
+      "2021-09-26",
+      218.56
+    ],
+    [
+      "2021-10-03",
+      247.86
+    ],
+    [
+      "2021-10-10",
+      245.59
+    ],
+    [
+      "2021-10-17",
+      224.57
+    ],
+    [
+      "2021-10-24",
+      230.3
+    ],
+    [
+      "2021-10-31",
+      261.42
+    ],
+    [
+      "2021-11-07",
+      259.53
+    ],
+    [
+      "2021-11-14",
+      246.75
+    ],
+    [
+      "2021-11-21",
+      238.59
+    ],
+    [
+      "2021-11-28",
+      250.07
+    ],
+    [
+      "2021-12-05",
+      312.09
+    ],
+    [
+      "2021-12-12",
+      417.15
+    ],
+    [
+      "2021-12-19",
+      532.3
+    ],
+    [
+      "2021-12-26",
+      679.28
+    ],
+    [
+      "2022-01-02",
+      642.51
+    ],
+    [
+      "2022-01-09",
+      647.31
+    ],
+    [
+      "2022-01-16",
+      632.29
+    ],
+    [
+      "2022-01-23",
+      627.04
+    ],
+    [
+      "2022-01-30",
+      674.48
+    ],
+    [
+      "2022-02-06",
+      622.13
+    ],
+    [
+      "2022-02-13",
+      602.51
+    ],
+    [
+      "2022-02-20",
+      515.7
+    ],
+    [
+      "2022-02-27",
+      610.74
+    ],
+    [
+      "2022-03-06",
+      614.52
+    ],
+    [
+      "2022-03-13",
+      619.86
+    ],
+    [
+      "2022-03-20",
+      600.53
+    ],
+    [
+      "2022-03-27",
+      568.79
+    ],
+    [
+      "2022-04-03",
+      572.44
+    ],
+    [
+      "2022-04-10",
+      559.0
+    ],
+    [
+      "2022-04-17",
+      571.52
+    ],
+    [
+      "2022-04-24",
+      556.91
+    ],
+    [
+      "2022-05-01",
+      557.49
+    ],
+    [
+      "2022-05-08",
+      431.46
+    ],
+    [
+      "2022-05-15",
+      500.73
+    ],
+    [
+      "2022-05-22",
+      479.9
+    ],
+    [
+      "2022-05-29",
+      457.41
+    ],
+    [
+      "2022-06-05",
+      441.59
+    ],
+    [
+      "2022-06-12",
+      398.16
+    ],
+    [
+      "2022-06-19",
+      382.92
+    ],
+    [
+      "2022-06-26",
+      452.25
+    ],
+    [
+      "2022-07-03",
+      470.84
+    ],
+    [
+      "2022-07-10",
+      446.62
+    ],
+    [
+      "2022-07-17",
+      453.91
+    ],
+    [
+      "2022-07-24",
+      444.42
+    ],
+    [
+      "2022-07-31",
+      540.63
+    ],
+    [
+      "2022-08-07",
+      517.19
+    ],
+    [
+      "2022-08-14",
+      571.12
+    ],
+    [
+      "2022-08-21",
+      574.45
+    ],
+    [
+      "2022-08-28",
+      567.15
+    ],
+    [
+      "2022-09-04",
+      558.72
+    ],
+    [
+      "2022-09-11",
+      541.17
+    ],
+    [
+      "2022-09-18",
+      531.61
+    ],
+    [
+      "2022-09-25",
+      515.72
+    ],
+    [
+      "2022-10-02",
+      584.26
+    ],
+    [
+      "2022-10-09",
+      551.56
+    ],
+    [
+      "2022-10-16",
+      539.11
+    ],
+    [
+      "2022-10-23",
+      527.54
+    ],
+    [
+      "2022-10-30",
+      542.34
+    ],
+    [
+      "2022-11-06",
+      521.51
+    ],
+    [
+      "2022-11-13",
+      511.6
+    ],
+    [
+      "2022-11-20",
+      514.25
+    ],
+    [
+      "2022-11-27",
+      525.49
+    ],
+    [
+      "2022-12-04",
+      508.94
+    ],
+    [
+      "2022-12-11",
+      499.8
+    ],
+    [
+      "2022-12-18",
+      412.47
+    ],
+    [
+      "2022-12-25",
+      452.35
+    ],
+    [
+      "2023-01-01",
+      460.26
+    ],
+    [
+      "2023-01-08",
+      438.16
+    ],
+    [
+      "2023-01-15",
+      443.56
+    ],
+    [
+      "2023-01-22",
+      435.7
+    ],
+    [
+      "2023-01-29",
+      424.5
+    ],
+    [
+      "2023-02-05",
+      423.13
+    ],
+    [
+      "2023-02-12",
+      412.61
+    ],
+    [
+      "2023-02-19",
+      397.7
+    ],
+    [
+      "2023-02-26",
+      383.03
+    ],
+    [
+      "2023-03-05",
+      394.11
+    ],
+    [
+      "2023-03-12",
+      391.75
+    ],
+    [
+      "2023-03-19",
+      383.92
+    ],
+    [
+      "2023-03-26",
+      376.88
+    ],
+    [
+      "2023-04-02",
+      405.73
+    ],
+    [
+      "2023-04-09",
+      436.9
+    ],
+    [
+      "2023-04-16",
+      417.99
+    ],
+    [
+      "2023-04-23",
+      405.14
+    ],
+    [
+      "2023-04-30",
+      402.87
+    ],
+    [
+      "2023-05-07",
+      393.67
+    ],
+    [
+      "2023-05-14",
+      385.84
+    ],
+    [
+      "2023-05-21",
+      393.32
+    ],
+    [
+      "2023-05-28",
+      429.46
+    ],
+    [
+      "2023-06-04",
+      399.82
+    ],
+    [
+      "2023-06-11",
+      430.45
+    ],
+    [
+      "2023-06-18",
+      518.88
+    ],
+    [
+      "2023-06-25",
+      511.84
+    ],
+    [
+      "2023-07-02",
+      514.55
+    ],
+    [
+      "2023-07-09",
+      547.93
+    ],
+    [
+      "2023-07-16",
+      516.81
+    ],
+    [
+      "2023-07-23",
+      533.41
+    ],
+    [
+      "2023-07-30",
+      543.53
+    ],
+    [
+      "2023-08-06",
+      511.72
+    ],
+    [
+      "2023-08-13",
+      465.47
+    ],
+    [
+      "2023-08-20",
+      474.56
+    ],
+    [
+      "2023-08-27",
+      478.97
+    ],
+    [
+      "2023-09-03",
+      498.82
+    ],
+    [
+      "2023-09-10",
+      482.4
+    ],
+    [
+      "2023-09-17",
+      481.7
+    ],
+    [
+      "2023-09-24",
+      477.33
+    ],
+    [
+      "2023-10-01",
+      474.26
+    ],
+    [
+      "2023-10-08",
+      465.87
+    ],
+    [
+      "2023-10-15",
+      452.42
+    ],
+    [
+      "2023-10-22",
+      457.98
+    ],
+    [
+      "2023-10-29",
+      473.46
+    ],
+    [
+      "2023-11-05",
+      468.3
+    ],
+    [
+      "2023-11-12",
+      444.98
+    ],
+    [
+      "2023-11-19",
+      454.56
+    ],
+    [
+      "2023-11-26",
+      445.48
+    ],
+    [
+      "2023-12-03",
+      482.54
+    ],
+    [
+      "2023-12-10",
+      478.03
+    ],
+    [
+      "2023-12-17",
+      456.89
+    ],
+    [
+      "2023-12-24",
+      454.21
+    ],
+    [
+      "2023-12-31",
+      471.28
+    ],
+    [
+      "2024-01-07",
+      473.07
+    ],
+    [
+      "2024-01-14",
+      476.34
+    ],
+    [
+      "2024-01-21",
+      456.29
+    ],
+    [
+      "2024-01-28",
+      460.81
+    ],
+    [
+      "2024-02-04",
+      761.08
+    ],
+    [
+      "2024-02-11",
+      737.76
+    ],
+    [
+      "2024-02-18",
+      919.58
+    ],
+    [
+      "2024-02-25",
+      1006.48
+    ],
+    [
+      "2024-03-03",
+      981.91
+    ],
+    [
+      "2024-03-10",
+      968.41
+    ],
+    [
+      "2024-03-17",
+      931.25
+    ],
+    [
+      "2024-03-24",
+      884.05
+    ],
+    [
+      "2024-03-31",
+      937.25
+    ],
+    [
+      "2024-04-07",
+      947.67
+    ],
+    [
+      "2024-04-14",
+      1034.02
+    ],
+    [
+      "2024-04-21",
+      1209.29
+    ],
+    [
+      "2024-04-28",
+      1175.1
+    ],
+    [
+      "2024-05-05",
+      1062.7
+    ],
+    [
+      "2024-05-12",
+      1171.53
+    ],
+    [
+      "2024-05-19",
+      1139.47
+    ],
+    [
+      "2024-05-26",
+      1040.12
+    ],
+    [
+      "2024-06-02",
+      1027.86
+    ],
+    [
+      "2024-06-09",
+      1107.96
+    ],
+    [
+      "2024-06-16",
+      1295.54
+    ],
+    [
+      "2024-06-23",
+      1192.62
+    ],
+    [
+      "2024-06-30",
+      1197.23
+    ],
+    [
+      "2024-07-07",
+      1527.88
+    ],
+    [
+      "2024-07-14",
+      1483.68
+    ],
+    [
+      "2024-07-21",
+      1554.94
+    ],
+    [
+      "2024-07-28",
+      1439.94
+    ],
+    [
+      "2024-08-04",
+      1506.28
+    ],
+    [
+      "2024-08-11",
+      1399.52
+    ],
+    [
+      "2024-08-18",
+      1557.03
+    ],
+    [
+      "2024-08-25",
+      1476.93
+    ],
+    [
+      "2024-09-01",
+      1460.35
+    ],
+    [
+      "2024-09-08",
+      1512.29
+    ],
+    [
+      "2024-09-15",
+      1682.11
+    ],
+    [
+      "2024-09-22",
+      1635.19
+    ],
+    [
+      "2024-09-29",
+      1525.05
+    ],
+    [
+      "2024-10-06",
+      1573.07
+    ],
+    [
+      "2024-10-13",
+      1510.0
+    ],
+    [
+      "2024-10-20",
+      1356.86
+    ],
+    [
+      "2024-10-27",
+      1493.72
+    ],
+    [
+      "2024-11-03",
+      1512.19
+    ],
+    [
+      "2024-11-10",
+      1370.72
+    ],
+    [
+      "2024-11-17",
+      1402.4
+    ],
+    [
+      "2024-11-24",
+      1409.8
+    ],
+    [
+      "2024-12-01",
+      1428.42
+    ],
+    [
+      "2024-12-08",
+      1440.53
+    ],
+    [
+      "2024-12-15",
+      1343.41
+    ],
+    [
+      "2024-12-22",
+      1337.45
+    ],
+    [
+      "2024-12-29",
+      1475.39
+    ],
+    [
+      "2025-01-05",
+      1322.45
+    ],
+    [
+      "2025-01-12",
+      1464.47
+    ],
+    [
+      "2025-01-19",
+      1290.22
+    ],
+    [
+      "2025-01-26",
+      1213.36
+    ],
+    [
+      "2025-02-02",
+      1178.2
+    ],
+    [
+      "2025-02-09",
+      1261.82
+    ],
+    [
+      "2025-02-16",
+      1127.0
+    ],
+    [
+      "2025-02-23",
+      1164.78
+    ],
+    [
+      "2025-03-02",
+      1247.38
+    ],
+    [
+      "2025-03-09",
+      1249.51
+    ],
+    [
+      "2025-03-16",
+      1217.71
+    ],
+    [
+      "2025-03-23",
+      1266.01
+    ],
+    [
+      "2025-03-30",
+      1238.88
+    ],
+    [
+      "2025-04-06",
+      1290.02
+    ],
+    [
+      "2025-04-13",
+      1405.52
+    ],
+    [
+      "2025-04-20",
+      1385.59
+    ],
+    [
+      "2025-04-27",
+      1322.23
+    ],
+    [
+      "2025-05-04",
+      1419.59
+    ],
+    [
+      "2025-05-11",
+      1581.26
+    ],
+    [
+      "2025-05-18",
+      2033.93
+    ],
+    [
+      "2025-05-25",
+      2417.22
+    ],
+    [
+      "2025-06-01",
+      2185.47
+    ],
+    [
+      "2025-06-08",
+      2337.55
+    ],
+    [
+      "2025-06-15",
+      2519.45
+    ],
+    [
+      "2025-06-22",
+      2650.22
+    ],
+    [
+      "2025-06-29",
+      2649.02
+    ],
+    [
+      "2025-07-06",
+      2698.52
+    ],
+    [
+      "2025-07-13",
+      2891.76
+    ],
+    [
+      "2025-07-20",
+      2991.21
+    ],
+    [
+      "2025-07-27",
+      2689.03
+    ],
+    [
+      "2025-08-03",
+      2815.07
+    ],
+    [
+      "2025-08-10",
+      2714.43
+    ],
+    [
+      "2025-08-17",
+      3769.56
+    ],
+    [
+      "2025-08-24",
+      3679.78
+    ],
+    [
+      "2025-08-31",
+      3532.98
+    ],
+    [
+      "2025-09-07",
+      4349.98
+    ],
+    [
+      "2025-09-14",
+      4147.5
+    ],
+    [
+      "2025-09-21",
+      4119.19
+    ],
+    [
+      "2025-09-28",
+      4136.25
+    ],
+    [
+      "2025-10-05",
+      3760.29
+    ],
+    [
+      "2025-10-12",
+      3534.88
+    ],
+    [
+      "2025-10-19",
+      3487.57
+    ],
+    [
+      "2025-10-26",
+      3459.06
+    ],
+    [
+      "2025-11-02",
+      4084.37
+    ],
+    [
+      "2025-11-09",
+      3842.57
+    ],
+    [
+      "2025-11-16",
+      3576.24
+    ],
+    [
+      "2025-11-23",
+      3594.45
+    ],
+    [
+      "2025-11-30",
+      3355.74
+    ],
+    [
+      "2025-12-07",
+      3128.68
+    ],
+    [
+      "2025-12-14",
+      3130.07
+    ],
+    [
+      "2025-12-21",
+      3420.14
+    ],
+    [
+      "2025-12-28",
+      3170.33
+    ],
+    [
+      "2026-01-04",
+      2984.12
+    ],
+    [
+      "2026-01-11",
+      2883.79
+    ],
+    [
+      "2026-01-18",
+      2868.47
+    ],
+    [
+      "2026-01-25",
+      2823.88
+    ],
+    [
+      "2026-02-01",
+      2527.05
+    ],
+    [
+      "2026-02-08",
+      2760.71
+    ],
+    [
+      "2026-02-15",
+      2562.77
+    ],
+    [
+      "2026-02-22",
+      2363.65
+    ],
+    [
+      "2026-03-01",
+      2198.98
+    ],
+    [
+      "2026-03-08",
+      2168.8
+    ],
+    [
+      "2026-03-15",
+      2267.52
+    ],
+    [
+      "2026-03-22",
+      2364.54
+    ],
+    [
+      "2026-03-29",
+      2433.62
+    ],
+    [
+      "2026-04-05",
+      2855.59
+    ],
+    [
+      "2026-04-12",
+      3259.93
+    ],
+    [
+      "2026-04-19",
+      3072.15
+    ],
+    [
+      "2026-04-26",
+      3218.64
+    ],
+    [
+      "2026-05-03",
+      3510.65
+    ],
+    [
+      "2026-05-10",
+      2972.99
+    ],
+    [
+      "2026-05-17",
+      3257.38
+    ],
+    [
+      "2026-05-24",
+      3155.63
+    ],
+    [
+      "2026-05-31",
+      3229.34
+    ],
+    [
+      "2026-06-07",
+      3438.98
+    ],
+    [
+      "2026-06-14",
+      3871.06
+    ],
+    [
+      "2026-06-21",
+      3903.63
+    ],
+    [
+      "2026-06-28",
+      4016.0
+    ],
+    [
+      "2026-07-05",
+      4189.23
+    ],
+    [
+      "2026-07-12",
+      4083.88
+    ],
+    [
+      "2026-07-19",
+      4237.89
+    ],
+    [
+      "2026-07-26",
+      4843.41
+    ],
+    [
+      "2026-08-02",
+      4827.28
+    ],
+    [
+      "2026-08-09",
+      4836.75
+    ],
+    [
+      "2026-08-16",
+      4575.1
+    ],
+    [
+      "2026-08-23",
+      5005.7
+    ],
+    [
+      "2026-08-30",
+      5370.45
+    ],
+    [
+      "2026-09-06",
+      6895.1
+    ],
+    [
+      "2026-09-13",
+      6854.7
+    ],
+    [
+      "2026-09-20",
+      7004.2
+    ],
+    [
+      "2026-09-27",
+      6603.65
+    ],
+    [
+      "2026-10-04",
+      6845.35
+    ],
+    [
+      "2026-10-07",
+      6879.85
+    ]
+  ],
+  "mcap_cr": 10039.0,
+  "mcap_price": 6882.0,
+  "pledge": [
+    {
+      "quarter_end": "2024-09-30",
+      "pledged_pct": 0.0,
+      "promoter_holding_pct": 57.09,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (0%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2024-12-31",
+      "pledged_pct": 0.0,
+      "promoter_holding_pct": 57.09,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (0%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2025-03-31",
+      "pledged_pct": 5.59,
+      "promoter_holding_pct": 57.09,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (5.59%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2025-06-30",
+      "pledged_pct": 11.7,
+      "promoter_holding_pct": 56.83,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (11.7%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2025-09-30",
+      "pledged_pct": 9.71,
+      "promoter_holding_pct": 57.41,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (9.71%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2025-12-31",
+      "pledged_pct": 9.26,
+      "promoter_holding_pct": 57.96,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (9.26%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2026-03-31",
+      "pledged_pct": 9.26,
+      "promoter_holding_pct": 57.96,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (9.26%); holding % from screener.in SHP"
+    },
+    {
+      "quarter_end": "2026-06-30",
+      "pledged_pct": 9.31,
+      "promoter_holding_pct": 57.65,
+      "basis": "promoter",
+      "source": "tier-3: smart-investing.in pledged promoter holdings table (9.31%); holding % from screener.in SHP (Jun-2026 57.65%)"
+    }
+  ],
+  "eps_series": [
+    [
+      "2026-05-09",
+      41.65
+    ],
+    [
+      "2026-08-05",
+      49.37
+    ]
+  ],
+  "corp_actions": [],
+  "events": [
+    {
+      "event_date": "2026-05-11",
+      "type": "T1",
+      "subcase": "order_or_direction_without_fraud_finding_or_ban",
+      "description": "BSE imposed Rs 25.4L fine (excl GST) for delayed listing application on warrant-conversion shares (ICDR Schedule XIX Para 2); disclosed in FY26 Secretarial Compliance Report (BMP & Co LLP); management called the lapse technical and unintentional",
+      "sources": [
+        {
+          "tier": 3,
+          "ref": "scanx.trade: 'ASM Technologies Receives Rs. 25,40,000 Fine from BSE...', published 2026-05-11; corroborated by R.V. Sekar LinkedIn summary of the same compliance report"
+        }
+      ]
+    }
+  ],
+  "audited_prints": [
+    {
+      "fy_end": "2026-03-31",
+      "results_date": "2026-05-09"
+    },
+    {
+      "fy_end": "2025-03-31",
+      "results_date": "2025-05-18"
+    }
+  ],
+  "audited_eps_by_fy": {
+    "2015": 4.58,
+    "2016": 5.51,
+    "2017": 1.22,
+    "2018": -0.69,
+    "2019": 6.33,
+    "2020": 1.13,
+    "2021": 7.74,
+    "2022": 13.28,
+    "2023": 8.68,
+    "2024": -3.64,
+    "2025": 22.08,
+    "2026": 41.65
+  },
+  "equity_increase_solely_bonus_split": false,
+  "category": null,
+  "as_of": "2026-10-07",
+  "other_income_fy": {
+    "2022": 7,
+    "2023": 6,
+    "2024": 5,
+    "2025": 8,
+    "2026": 6
+  },
+  "contingent_liabilities": null,
+  "rpt_sales": null,
+  "rpt_purchases": null,
+  "cash_balance": null,
+  "volume_20d_avg": 27.15
+}

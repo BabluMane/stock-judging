@@ -20,14 +20,21 @@
   <div class="filters" id="filters" style="display:none;">
     <span class="filters-label">Filter</span>
     <button class="filter-btn active" data-cat="ALL">All</button>
-    <button class="filter-btn" data-cat="INVEST_NOW">Invest Now</button>
-    <button class="filter-btn" data-cat="AT_TRIGGER">At Trigger</button>
+    <button class="filter-btn" data-cat="STARRED">★ Starred</button>
+    <button class="filter-btn" data-cat="INVEST NOW">Invest Now</button>
+    <button class="filter-btn" data-cat="INVEST AT TRIGGER">At Trigger</button>
     <button class="filter-btn" data-cat="WATCH">Watch</button>
     <button class="filter-btn" data-cat="PASS">Pass</button>
     <span class="filter-count" id="filter-count"></span>
   </div>
 
   <div id="table-host"></div>
+
+  <section id="investor-activity" class="investor-section">
+    <h2>Investor Activity</h2>
+    <p class="page-sub">Tracked investors' positions and deals in our coverage.</p>
+    <div id="investor-host"></div>
+  </section>
 </main>
 
 <footer>Stock-Judging platform &middot; research only, not investment advice &middot; <a href="run.html">queue a review</a></footer>
@@ -35,9 +42,11 @@
 <script src="js/data.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/leaderboard.js"></script>
+<script src="js/investor.js"></script>
 <script>
   renderChrome("leaderboard");
   initLeaderboardPage();
+  initInvestorSection();
 </script>
 </body>
 </html>

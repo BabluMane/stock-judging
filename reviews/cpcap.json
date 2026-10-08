@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-10-07",
+  "symbol": "CPCAP",
+  "name": "CP Capital Ltd",
+  "status": "validated",
+  "tier": "FULL",
+  "conviction": 0.45,
+  "verdict": {
+    "category": "WATCH",
+    "conviction": 0.45,
+    "best_today_rank": null
+  },
+  "dcf": {
+    "fair_value": 604.45,
+    "current_price": 155.0,
+    "acc_trigger": 556.02,
+    "inv_trigger": 500.8,
+    "model": "excess-return 20y"
+  },
+  "engine": {
+    "version": "v6",
+    "distress": {
+      "d1_pledge_pct": 0.0,
+      "d2": "PASS",
+      "d5": "PASS",
+      "d6_camel_scores": {
+        "A": 0,
+        "C": 2,
+        "E": 2,
+        "L": 2,
+        "M": 2
+      },
+      "d6_hard_floor": "GNPA 17.28 > 12.0",
+      "d6_values": {
+        "car_pct": 91.0,
+        "cost_to_income_pct": 13.81,
+        "gnpa_pct": 17.28,
+        "leverage_x": 0.135,
+        "roa_pct": 6.43
+      },
+      "verdict": "VETOED-DISTRESS:D6"
+    },
+    "usability": {
+      "u3_gap": 0.0004,
+      "verdict": "PASS"
+    },
+    "event_lane": "PASS",
+    "deciding_stop": "distress",
+    "excluded_on": "asset quality (D6 GNPA hard floor), not valuation",
+    "watch_condition": "FY27 audited GNPA <12% with no fresh slippages; interim read Q2FY27 results ~Nov-2026"
+  },
+  "key_metrics": {
+    "book_value_per_share": 314.96,
+    "borrowings_cr": 77.21,
+    "car_pct": 91.0,
+    "cfo_cr": 7.06,
+    "debt_to_equity": 0.135,
+    "eps_fy26": 23.4,
+    "gnpa_pct": 17.28,
+    "gnpa_q1fy27_pct": 8.9,
+    "loan_book_net_cr": 442.16,
+    "mcap_cr": 281.99,
+    "pat_cr": 42.58,
+    "pb": 0.49,
+    "pe_on_fy26_eps": 6.6,
+    "pledged_pct_of_promoter": 0.0,
+    "promoter_pct": 63.77,
+    "revenue_cr": 76.5,
+    "roe_pct": 7.43
+  },
+  "thesis": "Microcap NBFC (₹282cr mcap) priced like a distressed asset but built like a fortress: CRAR 91.0%, D/E 0.13×, zero promoter pledge, profitable every year except the demerger year, FY26 P/E 6.6× and P/B 0.49×. The single load-bearing problem is asset quality — headline GNPA 17.28% at Mar-2026, dominated by one legacy ₹43.97cr Proseed exposure that was fully provided years ago and technically written off in Q1FY27 (legal recovery retained as upside). Adjusted GNPA was 7.66% at FY26-end and the published Q1FY27 print (14-Aug-2026) shows reported GNPA down to 8.9% (₹35.21cr), 99.9% secured with 2.5× coverage. The engine's hard floor is backward-looking by construction; the forward data says the specific cause of the veto is clearing. Not buyable under the veto — but the cleanup is monitorable with dated catalysts, hence WATCH, not PASS.",
+  "risks": [
+    "**Asset quality is the whole thesis risk:** headline GNPA tripped the engine's hard floor; adjusted 7.66% still elevated; one more large slippage re-opens the veto",
+    "₹130.39cr related-party receivables sit inside the loan book (AR Note 7) — concentration/opacity",
+    "Microcap illiquidity: price moved 2×+ in months on ~4k–25k share volumes; entry/exit slippage real",
+    "Management is promoter-family dominated (Maheshwari family 63.77%); material RPTs a recurring AGM item",
+    "Historical financials polluted by the 2024 demerger/merger scheme; no concall track record found",
+    "Market-implied growth at −50% floor — the tape agrees with the veto, not the anchor"
+  ],
+  "scores": {
+    "composite": 0.45,
+    "quality": null,
+    "price": null
+  },
+  "promises": [
+    {
+      "promise": "Digital lending for incremental book; co-lending to scale without balance-sheet expansion (MDA FY26)",
+      "delivery": "🔄 In progress (net loan book +10% YoY FY26)",
+      "status": "pending"
+    },
+    {
+      "promise": "₹43.97cr Proseed legacy exposure: write off fully-provided loan, pursue legal recovery",
+      "delivery": "✅ Write-off done Q1FY27; ⏳ recovery pending (upside only)",
+      "status": "pending"
+    },
+    {
+      "promise": "\"Adjusted GNPA 7.66%\" ex-legacy exposure (FY26 MDA)",
+      "delivery": "🔄 Directionally delivered — Q1FY27 reported 8.9%",
+      "status": "pending"
+    },
+    {
+      "promise": "Material RPT approvals",
+      "delivery": "✅ Approved at 26th AGM (2026-09-29)",
+      "status": "pending"
+    },
+    {
+      "promise": "Pramod Maheshwari re-appointment as CMD & CEO (5 yrs from Jul-2027)",
+      "delivery": "✅ Approved at AGM",
+      "status": "pending"
+    },
+    {
+      "promise": "Q2FY27 results (quarter ended 2026-09-30; trading window shut till 48h after)",
+      "delivery": "⏳ Expected ~Nov-2026",
+      "status": "pending"
+    }
+  ]
+}

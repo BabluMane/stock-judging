@@ -6,13 +6,24 @@ function skeletonTableHTML() {
 }
 
 const LEADERBOARD_COLUMNS = [
-  { key: "name", label: "Company", sortable: true, type: "name" },
-  { key: "category", label: "Category", sortable: false, type: "badge" },
-  { key: "composite", label: "Composite", sortable: true, type: "score" },
-  { key: "quality", label: "Quality", sortable: true, type: "score" },
-  { key: "price", label: "Price", sortable: true, type: "price" },
-  { key: "marginOfSafetyPct", label: "Margin of Safety", sortable: true, type: "pct" },
-  { key: "asOf", label: "As of", sortable: true, type: "text" },
+  { key: "name", label: "Company", sortable: true, type: "name",
+    tip: "Company name — click to open the full review card." },
+  { key: "category", label: "Category", sortable: false, type: "badge",
+    tip: "Engine verdict: INVEST NOW (buy), INVEST AT TRIGGER (buy at the trigger price), WATCH (wait for conditions), PASS (skip), AVOID (stay away)." },
+  { key: "composite", label: "Composite", sortable: true, type: "score",
+    tip: "Overall engine score 0–1: blends quality and valuation. Higher = stronger overall case." },
+  { key: "quality", label: "Quality", sortable: true, type: "score",
+    tip: "Business quality 0–1: earnings strength, cash conversion, balance sheet, governance. Higher = better company." },
+  { key: "priceScore", label: "Value", sortable: true, type: "score",
+    tip: "Valuation score 0–1: how attractive the current price is vs fair value. Higher = cheaper vs what it's worth." },
+  { key: "price", label: "Price", sortable: true, type: "price",
+    tip: "Market price at the time of review (₹)." },
+  { key: "sector", label: "Sector", sortable: true, type: "text",
+    tip: "Industry sector — useful for comparing names within the same sector." },
+  { key: "marginOfSafetyPct", label: "Margin of Safety", sortable: true, type: "pct",
+    tip: "How far below fair value the price sits, as a %. Positive = trading at a discount; negative = trading at a premium." },
+  { key: "asOf", label: "As of", sortable: true, type: "text",
+    tip: "Date this review was run — prices and scores are as of this date." },
 ];
 
 let LB_STATE = { entries: [], sortKey: "composite", sortDir: "desc", filter: "ALL" };
@@ -78,15 +89,19 @@ function sortEntries(entries, key, dir) {
 function renderLeaderboardTable() {
   const tableHost = document.getElementById("table-host");
   let entries = LB_STATE.entries;
-  if (LB_STATE.filter !== "ALL") {
+  if (LB_STATE.filter === "STARRED") {
+    entries = entries.filter((e) => isStarred(e.symbol));
+  } else if (LB_STATE.filter !== "ALL") {
     entries = entries.filter((e) => e.category === LB_STATE.filter);
   }
   entries = sortEntries(entries, LB_STATE.sortKey, LB_STATE.sortDir);
 
   if (entries.length === 0) {
     tableHost.innerHTML = emptyStateHTML(
-      "No companies in this category",
-      "Try a different filter above."
+      LB_STATE.filter === "STARRED" ? "No starred companies" : "No companies in this category",
+      LB_STATE.filter === "STARRED"
+        ? "Tap the ☆ on any row to star it — starred companies live here."
+        : "Try a different filter above."
     );
     const countHostEmpty = document.getElementById("filter-count");
     if (countHostEmpty) countHostEmpty.textContent = `0 of ${LB_STATE.entries.length} shown`;
@@ -97,14 +112,14 @@ function renderLeaderboardTable() {
     const isSorted = col.key === LB_STATE.sortKey;
     const arrow = isSorted ? (LB_STATE.sortDir === "asc" ? "▲" : "▼") : "";
     const numClass = col.type === "score" || col.type === "price" || col.type === "pct" ? "num" : "";
-    return `<th class="${col.sortable ? "sortable" : ""} ${numClass}" data-key="${col.key}" data-sortable="${col.sortable}">${escapeHTML(col.label)}${arrow ? `<span class="sort-arrow">${arrow}</span>` : ""}</th>`;
+    return `<th class="${col.sortable ? "sortable" : ""} ${numClass}" data-key="${col.key}" data-sortable="${col.sortable}"${col.tip ? ` title="${escapeHTML(col.tip)}"` : ""}>${escapeHTML(col.label)}${arrow ? `<span class="sort-arrow">${arrow}</span>` : ""}</th>`;
   }).join("");
 
   const rowsHTML = entries
     .map((e) => {
       const cells = LEADERBOARD_COLUMNS.map((col) => {
         if (col.type === "name") {
-          return `<td class="name-cell"><a href="company.html?symbol=${encodeURIComponent(e.symbol || "")}">${escapeHTML(e.name)}</a>${e.symbol ? `<span class="ticker">${escapeHTML(e.symbol)}</span>` : ""}</td>`;
+          return `<td class="name-cell">${e.symbol ? starButtonHTML(e.symbol, isStarred(e.symbol)) : ""}<a href="company.html?symbol=${encodeURIComponent(e.symbol || "")}">${escapeHTML(e.name)}</a>${e.symbol ? `<span class="ticker">${escapeHTML(e.symbol)}</span>` : ""}</td>`;
         }
         if (col.type === "badge") {
           return `<td>${categoryBadgeHTML(e.category)}</td>`;
@@ -154,10 +169,25 @@ function renderLeaderboardTable() {
   tableHost.querySelectorAll("tbody tr").forEach((tr) => {
     tr.addEventListener("click", (evt) => {
       if (evt.target.tagName === "A") return;
+      if (evt.target.closest(".star-btn")) return;
       const symbol = tr.dataset.symbol;
       if (symbol) window.location.href = `company.html?symbol=${encodeURIComponent(symbol)}`;
     });
     tr.style.cursor = "pointer";
+  });
+
+  tableHost.querySelectorAll(".star-btn").forEach((btn) => {
+    btn.addEventListener("click", (evt) => {
+      evt.stopPropagation();
+      const symbol = btn.dataset.starSymbol;
+      if (!symbol) return;
+      const now = toggleStarred(symbol);
+      btn.classList.toggle("starred", now);
+      btn.textContent = now ? "★" : "☆";
+      btn.setAttribute("aria-label", `${now ? "Unstar" : "Star"} ${symbol}`);
+      // If the STARRED filter is active, the row list must shrink/grow.
+      if (LB_STATE.filter === "STARRED") renderLeaderboardTable();
+    });
   });
 }
 

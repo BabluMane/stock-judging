@@ -1,0 +1,275 @@
+{
+ "key": "lemontree_2026-10-07",
+ "company": "lemontree",
+ "category": null,
+ "d0": "2026-10-07",
+ "scoring_fy": 2026,
+ "as_of": "2026-10-07",
+ "gates": {
+  "distress": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "usability": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "reasons": []
+  },
+  "event_lane": {
+   "verdict": "PASS",
+   "label": "PASS",
+   "veto_at_d0": false,
+   "tiers_blocked_at_fill": [],
+   "reasons": []
+  },
+  "anchor": {
+   "verdict": "STOP",
+   "label": "NO-TOUCH",
+   "reasons": [
+    "no weekly close <= trigger in (d0, d0+24m]"
+   ]
+  }
+ },
+ "all_stops": [
+  "anchor"
+ ],
+ "excluded": true,
+ "deciding_stop": "anchor",
+ "distress": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "class": "non-financial",
+  "rules": {
+   "D1": {
+    "status": "PASS",
+    "pledged_pct": 0.0,
+    "note": "% of promoter holding",
+    "quarter": "2026-06-30"
+   },
+   "D2": {
+    "status": "N/A",
+    "reason": "1 prior quarters < 4",
+    "n_prior": 1
+   },
+   "E1": {
+    "status": "PASS",
+    "sloan": -0.05955451348182884,
+    "threshold": 0.1,
+    "positive_only": true
+   },
+   "E2": {
+    "status": "PASS",
+    "cfo_below_half_ni": {
+     "2026": false,
+     "2025": false
+    },
+    "persistence_fy": 2
+   },
+   "E3": {
+    "status": "PASS",
+    "interest_coverage": 2.9944444444444445,
+    "threshold": 1.5
+   },
+   "E4": {
+    "status": "PASS",
+    "etr": {
+     "2026": 0.19999999999999998,
+     "2025": 0.18
+    },
+    "threshold": 0.15,
+    "persistence_fy": 2
+   },
+   "E6": {
+    "status": "PASS",
+    "days": 29.38452216066482,
+    "cfo": 542.0,
+    "thresholds": [
+     90,
+     0
+    ]
+   },
+   "D3": {
+    "status": "PASS",
+    "z": 2.1520854455334444,
+    "x": [
+     0.017753810082063313,
+     0.1406799531066823,
+     0.158968347010551,
+     0.4845109641489732
+    ],
+    "zone": "grey"
+   },
+   "D4": {
+    "status": "PASS",
+    "f": 7,
+    "components": {
+     "F_ROA": 1,
+     "F_CFO": 1,
+     "F_dROA": 1,
+     "F_ACCRUAL": 1,
+     "F_dLEVER": 1,
+     "F_dLIQUID": 0,
+     "F_EQ": 1,
+     "F_dMARGIN": 0,
+     "F_dTURN": 1
+    },
+    "fail_closed_log": [
+     "F_dLIQUID: missing prior-FY input -> 0 (fail-closed)",
+     "F_dMARGIN: missing prior-FY input -> 0 (fail-closed)"
+    ]
+   },
+   "D5": {
+    "status": "PASS",
+    "h52": 166.46,
+    "p0": 112.02,
+    "drawdown": 0.32704553646521695,
+    "weeks_of_history": 261.2857142857143
+   },
+   "D6": {
+    "status": "N/A",
+    "reason": "non-financial name"
+   }
+  },
+  "e_rules": "evaluated",
+  "reporting": {
+   "SGI": 1.1228615863141524,
+   "DEPI": 1.0018944519621111,
+   "LVGI": null,
+   "TATA": -0.05955451348182884,
+   "rpt_loans": null
+  },
+  "reporting_log": [
+   "LVGI: uncomputable (missing input) -> stored null (reporting-only)",
+   "rpt_loans: uncomputable (missing input) -> stored null (reporting-only)"
+  ],
+  "tripped": [],
+  "uncomputable": [],
+  "raw_pledged_pct": 0.0
+ },
+ "usability": {
+  "verdict": "PASS",
+  "label": "PASS",
+  "deciding_check": null,
+  "checks": {
+   "U1": {
+    "status": "PASS",
+    "named_basis": "vendor (screener) series basis: post every corporate action to the fetch date",
+    "actions_after_fy_end": [],
+    "factor": 1.0,
+    "restate": false,
+    "basis": "no action after FY-end",
+    "audited_over_sourced_by_fy": {
+     "2015": null,
+     "2016": null,
+     "2017": null,
+     "2018": null,
+     "2019": null,
+     "2020": null,
+     "2021": null,
+     "2022": null,
+     "2023": null,
+     "2024": null,
+     "2025": null,
+     "2026": null
+    }
+   },
+   "U2": {
+    "status": "PASS",
+    "sourced_eps": 2.87
+   },
+   "U3": {
+    "status": "PASS",
+    "results_week": "2026-05-28",
+    "vendor_ttm": 3.13,
+    "sourced_eps": 2.87,
+    "gap": 0.09059233449477344,
+    "skipped_mar31_point": null,
+    "n_points": 1
+   }
+  }
+ },
+ "anchor": {
+  "valued": true,
+  "reason": null,
+  "class": "non-financial",
+  "p_d0": 112.02,
+  "w": 0.1197,
+  "beta": 1.255,
+  "shares_cr": 79.33035714285714,
+  "net_cash_cr": -2004.0,
+  "margin": 0.15,
+  "dep_pct": 0.13569725069730976,
+  "rev0": 1444.0,
+  "sg": {
+   "roe_avg3": 0.20129013335313603,
+   "payout": 0.0,
+   "payout_raw": 0,
+   "g_sus_uncapped": 0.20129013335313603,
+   "g_sus": 0.15,
+   "cap": 0.15,
+   "cap_binding": true,
+   "roe_years": [
+    {
+     "fy": 2024,
+     "pat": 182.0,
+     "book": 967.0,
+     "roe": 0.18821096173733196
+    },
+    {
+     "fy": 2025,
+     "pat": 243.0,
+     "book": 1164.0,
+     "roe": 0.20876288659793815
+    },
+    {
+     "fy": 2026,
+     "pat": 288.0,
+     "book": 1392.0,
+     "roe": 0.20689655172413793
+    }
+   ]
+  },
+  "model": "2-stage fade FCFF 20y",
+  "g_sus": 0.15,
+  "hurdle_growth": {
+   "G1": 0.13125,
+   "G2": 0.10499999999999998
+  },
+  "trigger": {
+   "G1": -21.466790388262513,
+   "G2": -22.135407210016222
+  },
+  "v_at_g_sus": -20.862542629763354,
+  "implied": {
+   "reporting_only": true,
+   "lo": -0.5,
+   "hi": 0.1097,
+   "monotone_on_bounds": true,
+   "status": ">w-1pp",
+   "g_implied": null
+  }
+ },
+ "event_veto_at_d0": {
+  "blocked": false,
+  "date": "2026-10-07",
+  "hits": []
+ },
+ "events": [],
+ "legs": {
+  "G1": {
+   "tier": "G1",
+   "trigger": -21.466790388262513,
+   "status": "NO_TRIGGER",
+   "reason": "non-positive trigger (-21.47)"
+  },
+  "G2": {
+   "tier": "G2",
+   "trigger": -22.135407210016222,
+   "status": "NO_TRIGGER",
+   "reason": "non-positive trigger (-22.14)"
+  }
+ },
+ "distress_decisional": false,
+ "distress_decisional_incl_data_vetoes": false
+}

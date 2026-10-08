@@ -1,0 +1,16 @@
+{
+  "moves": [
+    {
+      "date": "2026-10-07",
+      "move_pct": 12.7,
+      "sources": [
+        "https://www.marketsmojo.com/news/stocks-in-action/tatva-chintan-pharma-chem-ltd-hits-new-52-week-high-at-rs1895-4216545",
+        "https://www.marketsmojo.com/news/stock-recommendation/tatva-chintan-pharma-chem-ltd-upgraded-to-buy-on-strong-financial-and-technical-momentum-4195822"
+      ],
+      "symbol": "TATVA",
+      "why": "Momentum rally to a fresh 52-week high (Rs 1,895 on Oct 6) after a Hold-to-Buy upgrade on Sep 16. No single fundamental driver — technical buying, trading above all key moving averages with bullish MACD.",
+      "window": "5d"
+    }
+  ],
+  "updated_at": "2026-10-07"
+}

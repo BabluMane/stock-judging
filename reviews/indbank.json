@@ -1,0 +1,86 @@
+{
+ "as_of": "2026-10-07",
+ "conviction": 0.4,
+ "dcf": {
+  "acc_trigger": 9.92,
+  "current_price": 25.2,
+  "fair_value": 10.99,
+  "inv_trigger": 8.62,
+  "model": "2-stage fade FCFF 20y, g_sus 9.1% (ROE-avg3 9.08%, payout 0), w 12.3% (beta 1.33); bare 21-field schema: OPM fallback 15% (actual trailing-5 ~38.0%), net cash 0 (actual 3.02cr)"
+ },
+ "engine": {
+  "anchor": "VALUED (non-financial class) \u2014 price Rs 25.20 sits 129% ABOVE bare-schema DCF FV Rs 10.99; triggers G2 (INV) Rs 8.62 / G1 (ACC) Rs 9.92 far below price; implied growth > w-1pp (market prices >11.3% perpetual growth vs 9.1% sustainable). FV understated by construction: 15% OPM fallback vs ~38% actual. Forward fill window has no post-d0 bars (live review) so legs report NO_TOUCH",
+  "deciding_gate": "distress",
+  "distress": "STOP \u2014 VETOED-DISTRESS:E2. CFO < 0.5x NI in BOTH FY25 (-0.07 vs 4.23) and FY26 (2.05 vs 3.56). E1 Sloan 0.041 PASS, E3 IC 45.4x PASS, E4 PASS, E6 93.3d but CFO>0 PASS; D3 Z'' 10.51 safe, D4 F 4/9 PASS, D5 drawdown 38% PASS, D1/D2 pledge 0% PASS",
+  "event_lane": "PASS \u2014 no T1-T7 events in trailing 12m; FY26 audit unmodified; no auditor resignation; no SEBI/exchange action (annual secretarial compliance report: nil)",
+  "excluded": true,
+  "usability": "PASS \u2014 U1 basis no-restatement (no corp actions), U2 sourced EPS 1.60 > 0, U3 gap 0.0% (vendor TTM 1.60 vs sourced 1.60, results week 2026-04-20)"
+ },
+ "key_metrics": {
+  "beta": "1.33 (60m weekly vs NSEI, 260 pairs, corr 0.38)",
+  "book_value_rs": 22.25,
+  "borrowings_cr": 0.0,
+  "cfo_fy25_cr": -0.07,
+  "cfo_fy26_cr": 2.05,
+  "debtor_days_fy26": 93.3,
+  "eps_fy26": 1.6,
+  "f_score": 4,
+  "mcap_cr": 113.0,
+  "net_margin_fy26_pct": 28.5,
+  "pat_fy26_cr": 7.12,
+  "pb": 1.13,
+  "pe_ttm": 15.75,
+  "pledge_pct": 0.0,
+  "promoter_pct": 64.84,
+  "receivables_cr": 6.38,
+  "revenue_fy26_cr": 24.95,
+  "roa_fy26_pct": 5.78,
+  "roe_fy26_pct": 7.21,
+  "z_double_prime": 10.51
+ },
+ "name": "Indbank Merchant Banking Services Ltd",
+ "promises": [
+  {
+   "delivery": "Board meeting scheduled Oct 9, 2026 (announced Oct 6)",
+   "promise": "Q2FY27 unaudited results (quarter ended 2026-09-30)",
+   "status": "pending"
+  },
+  {
+   "delivery": "FY26 statements adopted 99.99%; Sunil Jain reappointed director (99.99%) at 37th AGM Sep 24, 2026",
+   "promise": "AGM business (Sep-2026)",
+   "status": "delivered"
+  },
+  {
+   "delivery": "Applications invited Sep-2026 (contractual, advt on livelaw)",
+   "promise": "Merchant Banking Head (EVP) appointment",
+   "status": "in-progress"
+  },
+  {
+   "delivery": "Payout 0% every year since at least FY15; no dividend declared for FY26",
+   "promise": "Dividend policy (observed, not promised)",
+   "status": "observed"
+  }
+ ],
+ "risks": [
+  "**Cash conversion is the whole thesis risk:** E2 veto on two straight years of CFO < 50% of PAT (FY25 -0.07cr, FY26 2.05cr vs PAT 8.46/7.12cr); a third weak year keeps the veto alive through FY28 scoring",
+  "Earning trajectory soft: FY26 revenue -6% and PAT -16% YoY; sub-scale broking franchise (Rs 25cr revenue) in a cyclical industry",
+  "PSU-subsidiary governance: nominee-director board, zero dividend despite Rs 54cr reserves and no debt",
+  "Microcap tape: Rs 113cr mcap, -44% from 52w high, thin volumes \u2014 entry/exit slippage real",
+  "E6 near-miss: debtor days 93.3 > 90d threshold; only the CFO > 0 leg saves it \u2014 a weak-cash year with slower collections trips E6 as well",
+  "Valuation assumption gap: bare-schema FV Rs 10.99 embeds a 15% OPM fallback vs ~38% actual trailing-5 OPM and zeroes Rs 3.02cr net cash; the engine's FV understates a high-margin broker by construction (reported as-is, never re-run on a widened schema)"
+ ],
+ "scores": {
+  "composite": 0.4,
+  "price": null,
+  "quality": null
+ },
+ "status": "validated",
+ "symbol": "INDBANK",
+ "thesis": "Debt-free PSU-subsidiary broker (Indian Bank 64.84%) vetoed on cash conversion, not solvency. Every other gate passes: Z'' 10.51 deep in the safe zone, F-score 4/9, zero pledge, unmodified FY26 audit, no regulatory actions, usability clean. But operating cash flow printed below half of reported profit in two consecutive years (FY25 Rs -0.07cr, FY26 Rs 2.05cr vs PAT Rs 8.46cr/7.12cr) \u2014 for a stockbroker this reads as working-capital volatility (client balances, other-financial-asset swings; the FY25 AR cash-flow statement shows a Rs 15.38cr swing in other bank balances alone) rather than fraud, yet the engine's E2 rule is literal and the veto stands as written. Valuation note: the bare-schema DCF prints FV Rs 10.99 with the price 129% above it, but the FV is understated by construction \u2014 the frozen bare schema forces a 15% OPM fallback against an actual trailing-5 OPM of ~38% and zeroes Rs 3.02cr net cash (LEMONTREE/ACMESOLAR artifact class). Not buyable under the veto; the cleanup is a single dated catalyst (FY27 cash conversion >= 50% of PAT), hence WATCH, not PASS.",
+ "tier": "FULL",
+ "verdict": {
+  "best_today_rank": null,
+  "category": "WATCH",
+  "conviction": 0.4
+ }
+}

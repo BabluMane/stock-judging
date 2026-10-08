@@ -9,6 +9,7 @@ const CATEGORY_META = {
   AT_TRIGGER: { label: "INVEST AT TRIGGER", cls: "badge-at-trigger" },
   WATCH: { label: "WATCH", cls: "badge-watch" },
   PASS: { label: "PASS", cls: "badge-pass" },
+  AVOID: { label: "AVOID", cls: "badge-avoid" },
 };
 
 function categoryMeta(category) {
@@ -108,6 +109,91 @@ async function loadReview(symbol) {
 }
 
 /**
+ * Load the news feed for a symbol from news/<symbol>.json. A missing file
+ * (404) is a normal state — not every company has news tracked — so callers
+ * should treat !ok as "no news sections", not an error.
+ *
+ * Shape: { symbol, updated_at, news: [{date,type,headline,source,url}],
+ *           deals: [{date,headline,buyer,seller,qty,price,source,url}] }.
+ * The legacy single-array shape { items: [...] } is treated as `news`.
+ */
+async function loadNews(symbol) {
+  const { ok, data } = await fetchJSON(`../news/${encodeURIComponent(symbol)}.json`);
+  if (!ok || !data) return { ok: false, news: null };
+  const newsItems = Array.isArray(data.news)
+    ? data.news
+    : Array.isArray(data.items)
+      ? data.items
+      : [];
+  const deals = Array.isArray(data.deals) ? data.deals : [];
+  return {
+    ok: true,
+    news: { symbol: data.symbol || symbol, updatedAt: data.updated_at || null, news: newsItems, deals },
+  };
+}
+
+/**
+ * Load the big-moves feed from data/moves.json. Shape:
+ * { updated_at, moves: [{date, symbol, move_pct, window, why, sources[]}] }.
+ * A missing file is normal — returns an empty moves list, not an error.
+ */
+async function loadMoves() {
+  const { ok, data } = await fetchJSON("data/moves.json");
+  if (!ok || !data) return { ok: false, moves: [] };
+  const moves = Array.isArray(data.moves) ? data.moves : [];
+  return { ok: true, moves, updatedAt: data.updated_at || null };
+}
+
+async function loadShp() {
+  const { ok, data } = await fetchJSON("data/shp.json");
+  if (!ok || !data) return { ok: false, companies: {} };
+  return { ok: true, companies: data.companies || {}, updatedAt: data.updated_at || null };
+}
+
+/* ---------- Starred favorites (localStorage only, no backend) ---------- */
+
+const STAR_STORAGE_KEY = "sj_starred";
+
+function getStarredSymbols() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(STAR_STORAGE_KEY));
+    if (!Array.isArray(parsed)) return [];
+    return parsed
+      .filter((s) => typeof s === "string" && s.length > 0)
+      .map((s) => s.toUpperCase());
+  } catch {
+    return [];
+  }
+}
+
+function isStarred(symbol) {
+  if (!symbol) return false;
+  return getStarredSymbols().includes(String(symbol).toUpperCase());
+}
+
+function setStarred(symbol, on) {
+  const sym = String(symbol).toUpperCase();
+  const current = getStarredSymbols();
+  const idx = current.indexOf(sym);
+  if (on && idx === -1) current.push(sym);
+  if (!on && idx !== -1) current.splice(idx, 1);
+  try {
+    localStorage.setItem(STAR_STORAGE_KEY, JSON.stringify(current));
+  } catch {
+    /* private-mode quota errors: star just won't persist */
+  }
+  return on;
+}
+
+function toggleStarred(symbol) {
+  return setStarred(symbol, !isStarred(symbol));
+}
+
+function starButtonHTML(symbol, starred) {
+  return `<button class="star-btn${starred ? " starred" : ""}" data-star-symbol="${escapeHTML(symbol)}" aria-label="${starred ? "Unstar" : "Star"} ${escapeHTML(symbol)}" title="${starred ? "Remove from starred" : "Star this company"}">${starred ? "★" : "☆"}</button>`;
+}
+
+/**
  * Normalize a leaderboard entry (or a full review card, since leaderboard.json's
  * per-company shape is not yet finalized upstream — see frontend/README.md
  * "Leaderboard entry shape" for the fields this UI expects and why) into a
@@ -119,17 +205,18 @@ function normalizeEntry(raw) {
   const scores = raw.scores || {};
 
   const price = numOrNull(dcf.current_price ?? raw.price);
-  const fairValue = numOrNull(dcf.fair_value);
-  const accTrigger = numOrNull(dcf.acc_trigger);
-  const invTrigger = numOrNull(dcf.inv_trigger);
+  const fairValue = numOrNull(dcf.fair_value ?? raw.fair_value);
+  const accTrigger = numOrNull(dcf.acc_trigger ?? raw.acc_trigger);
+  const invTrigger = numOrNull(dcf.inv_trigger ?? raw.inv_trigger);
 
-  // Quality/composite: engine_v3 exposes these as scores.Q (quality) and
-  // scores.P_today / scores.P_trigger (composite "price-adjusted" score).
-  // review_card.schema.json leaves `scores` untyped, so we read defensively.
-  const quality = numOrNull(scores.Q ?? raw.quality);
+  // Quality/composite: review JSONs expose these as scores.quality,
+  // scores.composite, scores.price (nested shape). Older shapes used
+  // scores.Q / scores.P_today / scores.P — read all defensively.
+  const quality = numOrNull(scores.quality ?? scores.Q ?? raw.quality);
   const composite = numOrNull(
-    scores.P_today ?? scores.P ?? verdict.conviction ?? raw.composite
+    scores.composite ?? scores.P_today ?? scores.P ?? verdict.conviction ?? raw.composite
   );
+  const priceScore = numOrNull(scores.price ?? raw.price_score);
   const conviction = numOrNull(verdict.conviction ?? composite);
 
   // Margin of safety is not an explicit field in review_card.schema.json;
@@ -156,6 +243,8 @@ function normalizeEntry(raw) {
     category: verdict.category || raw.category || null,
     quality,
     composite,
+    priceScore,
+    sector: raw.sector || null,
     conviction,
     price,
     fairValue,
