@@ -1,0 +1,87 @@
+{
+ "as_of": "2026-10-07",
+ "conviction": 0.55,
+ "dcf": {
+  "acc_trigger": 1294.09,
+  "current_price": 734.4,
+  "fair_value": 1512.13,
+  "inv_trigger": 1044.43,
+  "model": "2-stage fade FCFF 20y, g_sus 12.5% (ROE-avg3 12.53% x 1-payout; bare schema sets payout=0), w 11.0% (beta 1.02)"
+ },
+ "engine": {
+  "anchor": "VALUED (non-financial) \u2014 price Rs 734.40 sits 30% BELOW the G2 (INV) trigger Rs 1,044.43 and 51% below DCF FV Rs 1,512.13; forward fill window has no post-d0 bars (live review) so legs report NO_TOUCH",
+  "deciding_gate": "anchor",
+  "distress": "PASS \u2014 D1 pledge 0% (Jun-2026), D2 4 prior quarters all zero, D3 Z'' 6.98 (safe zone), D4 Piotroski F=4/9, D5 drawdown 26.9% (52w high 1004.74), E1 Sloan -1.9%, E2/E4 pass, E3 IC 27.8x, E6 32.8 debtor-days with CFO>0; no hard floors",
+  "event_lane": "PASS \u2014 no vetoes at d0",
+  "excluded": true,
+  "usability": "PASS \u2014 U1 basis no-restatement (2012 2:1 split pre-dates FY table), U2 sourced EPS 48.94 > 0, U3 gap 13.4% (vendor TTM 42.39 vs sourced 48.94, results week 2026-05-25; vendor chart series diverges from consolidated EPS in FY25-26 \u2014 standalone-basis or vendor glitch, inside the 15% bar)"
+ },
+ "key_metrics": {
+  "beta": "1.02 (60m weekly vs NSEI, ISO-week join)",
+  "book_value_rs": 442.57,
+  "borrowings_cr": 406,
+  "debtor_days": 33,
+  "dividend_fy26_rs": 10.6,
+  "eps_fy26": 48.94,
+  "mcap_cr": 13434.0,
+  "net_margin_fy26_pct": 6.5,
+  "opm_fy26_pct": 10.9,
+  "pat_fy26_cr": 896.0,
+  "pb": 1.66,
+  "pe_fy26": 15.0,
+  "pledge_pct": 0.0,
+  "promoter_pct": 32.86,
+  "roe_fy26_pct": 11.1,
+  "sales_fy26_cr": 13814.0
+ },
+ "name": "Amara Raja Energy & Mobility Ltd",
+ "promises": [
+  {
+   "delivery": "Delivered \u2014 Rs 10.60/share total (Rs 5.40 interim + Rs 5.20 final); payout 21.7%",
+   "promise": "FY26 dividend",
+   "status": "delivered"
+  },
+  {
+   "delivery": "In progress \u2014 CQP (60 MWh) commissioned Jul-2026; Giga-1 2 GWh line targeted Jun-2027; Rs 500 cr more approved for ARACT Aug-2026 (total Rs 2,500 cr)",
+   "promise": "16 GWh Telangana gigafactory by 2030 (Rs 9,500 cr program)",
+   "status": "in-progress"
+  },
+  {
+   "delivery": "In progress \u2014 Q1 FY27 capex run-rate consistent; new-energy loss narrowed to Rs 22.1 cr in Q1 (from Rs 35.2 cr YoY)",
+   "promise": "FY27 capex Rs 1,500-1,700 cr (Rs 400 cr lead-acid + Rs 1,100-1,200 cr new energy)",
+   "status": "in-progress"
+  },
+  {
+   "delivery": "In progress \u2014 5 GWh BESS integration facility at Divitipalli targeted end-2026; 1 GWh+ lithium storage deployed in telecom",
+   "promise": "New energy scale-up: FY26 revenue Rs 809 cr (+61% YoY), BESS ramp",
+   "status": "in-progress"
+  },
+  {
+   "delivery": "Board approved Feb-2026; incorporation within 3-6 months",
+   "promise": "Wholly-owned US subsidiary (ARE&M US Inc), $5m investment",
+   "status": "pending"
+  }
+ ],
+ "risks": [
+  "FY26 PAT Rs 896 cr includes ~Rs 300 cr pre-tax exceptional gains (Rs 181 cr Chittoor fire insurance settlement + Rs 122 cr business-interruption claim) \u2014 core PBT ex-exceptionals ~Rs 900 cr, down sharply",
+  "OPM compressed 14% -> 11% (FY24->FY26): lead alloy surge + power/fuel surcharges; PAT down two years running (945 -> 896)",
+  "New-energy FCF drain: Rs 1,500-1,700 cr annual capex vs Rs 1,118 cr CFO; segment loss widened to Rs 135 cr in FY26; FY26 FCF -Rs 220 cr",
+  "DCF caveat: bare schema sets payout=0, but actual payout ~22% -> true g_sus ~9.8% not 12.5%; haircut FV ~15-20% still leaves price below INV trigger",
+  "Structural: lead-acid is ex-growth under EV transition; gigafactory faces China tech-transfer/commissioning limits (management-flagged)",
+  "Piotroski F=4/9 is middling; current ratio slipped 1.84 -> 1.64; stock -27% over 1y on margin concerns"
+ ],
+ "scores": {
+  "composite": 0.7,
+  "price": 0.9,
+  "quality": 0.7
+ },
+ "status": "validated",
+ "symbol": "ARE&M",
+ "thesis": "India's lead-acid leader (Amaron) at a price the engine's own ladder calls investable: Rs 734 sits 30% below the Rs 1,044 INV trigger and 51% below the Rs 1,512 DCF fair value, with every gate green \u2014 zero pledge, Z'' 6.98 safe, E1-E6 clean, no event vetoes. The market is pricing the margin trough (OPM 11% vs 14% two years ago), two straight years of PAT decline, and a Rs 1,500 cr+/yr lithium-capex program that bleeds cash while the new-energy segment still loses money. The quality flags are real but visible: FY26 PAT is flattered by ~Rs 300 cr of exceptional gains, and the DCF's 0%-payout assumption overstates sustainable growth. Even after haircutting for both, the valuation cushion is large \u2014 the question is whether lead-acid margins stabilize and the gigafactory executes, not whether the business is distressed.",
+ "tier": "FULL",
+ "verdict": {
+  "best_today_rank": null,
+  "category": "INVEST NOW",
+  "conviction": 0.55
+ }
+}

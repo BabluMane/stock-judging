@@ -1,0 +1,89 @@
+{
+ "as_of": "2026-10-07",
+ "symbol": "ELLEN",
+ "name": "Ellenbarrie Industrial Gases Ltd",
+ "status": "validated",
+ "tier": "FULL",
+ "conviction": 0.5,
+ "verdict": {
+  "category": "PASS",
+  "conviction": 0.5,
+  "best_today_rank": null
+ },
+ "dcf": {
+  "fair_value": 35.29,
+  "current_price": 360.95,
+  "acc_trigger": 28.51,
+  "inv_trigger": 20.76,
+  "model": "2-stage fade FCFF 20y, g_sus 12.8% (ROE-avg3 x 1-payout), w 12.1% (beta 1.28); bare-schema 15% FCFF margin fallback vs 34% reported OPM"
+ },
+ "engine": {
+  "distress": "PASS \u2014 D1 pledge 0% (Jun-2026), D2 N/A (1 prior quarter < 4), D3 Z'' 6.94 safe (X1 0.086, X2 0.713, X3 0.128, X4 3.03), D4 Piotroski 5/9, D5 drawdown 22.1% (52w high 463.6), D6 N/A (non-financial); E1 Sloan -2.2% PASS, E2 PASS (FY25 CFO<0.5xPAT not persistent), E3 IC 14.5x, E4 ETR 23% both years, E6 67.5 debtor-days with CFO>0 PASS",
+  "usability": "PASS \u2014 U1 no action after FY-end (pre-IPO split/FV10->2 in FY25 pre-dates scoring FY), U2 sourced EPS 7.41 > 0, U3 gap 0.0% (vendor chart-API TTM 7.41 vs sourced 7.41; results week 2026-05-22, the real FY26 results publication; 26-point vendor series)",
+  "event_lane": "PASS \u2014 no vetoes at d0 (events=[])",
+  "anchor": "VALUED \u2014 price Rs 360.95 sits 922.7% ABOVE DCF FV Rs 35.29 (ACC trigger Rs 28.51, INV Rs 20.76); forward fill window has no post-d0 bars (live review) so legs report NO_TOUCH; deciding_stop=anchor, excluded=true",
+  "deciding_gate": "anchor"
+ },
+ "key_metrics": {
+  "beta": "1.28 (68 weekly bars, listing-to-d0 vs NSEI, corr 0.33)",
+  "book_value_rs": 69.4,
+  "borrowings_fy26_cr": 184.0,
+  "capex_plan_cr": 450.0,
+  "debtor_days_fy26": 68,
+  "eps_fy26": 7.41,
+  "mcap_cr": 5067.0,
+  "net_margin_fy26_pct": 30.4,
+  "opm_fy26_pct": 34.2,
+  "pat_fy26_cr": 104.4,
+  "pb": 5.2,
+  "pe_ttm": 42.2,
+  "pledge_pct": 0.0,
+  "promoter_pct": 77.15,
+  "receivables_fy26_cr": 63.28,
+  "roce_fy26_pct": 14.5,
+  "roe_fy26_pct": 12.9,
+  "sales_fy26_cr": 342.0,
+  "z_double_prime": 6.94
+ },
+ "thesis": "Clean industrial-gases compounder priced like the compounding already happened. Every engine gate passes \u2014 zero pledge, Z'' 6.94, no earnings-quality vetoes, 34% OPM, 9 facilities across East/South/Central India, and a Rs 481cr BHEL order (1.4x FY26 revenue) that validates its large-ASU engineering credentials. But at Rs 361 the market pays 42x earnings and 10x the engine's Rs 35 DCF fair value; the Sep-2026 pop on the BHEL news (+5%) shows sentiment is chasing, not value. Quality is not the question \u2014 price is. There is no entry until the price comes to the business, not the other way round.",
+ "risks": [
+  "Valuation extreme: 42.2x TTM earnings, 5.2x book; price Rs 361 is 10.2x the engine's Rs 35.29 DCF fair value \u2014 the entire upside case is priced in and then some",
+  "Earnings-quality flags: TTM other income Rs 60.3cr (~40% of PBT); FY25 CFO was Rs 4cr vs PAT Rs 83cr (working-capital drag) \u2014 E2 passed only on non-persistence",
+  "BHEL mega-order is build-and-transfer EPC at ~5% EBITDA margin (JM Financial est.) \u2014 1.4x FY26 revenue concentrated in one low-margin turnkey project; execution slippage hits both revenue and reputation",
+  "Customer concentration: steel 35% of sales, oxygen 50% of gas mix; merchant gases are cyclical with steel",
+  "Post-IPO volatility: listed Jun-2025 at ~Rs 486 (issue Rs 400), fell to Rs 175 low, now Rs 361 \u2014 16 months of price history, thin institutional float (11.6%)",
+  "Model caveat: bare-schema DCF uses a 15% FCFF margin fallback vs 34% reported OPM, so Rs 35.29 is conservative \u2014 but even 3x that FV leaves no margin of safety at Rs 361"
+ ],
+ "scores": {
+  "composite": 0.35,
+  "quality": 0.65,
+  "price": 0.05
+ },
+ "promises": [
+  {
+   "promise": "Rs 480.73 cr BHEL order: 1,200 TPD cryogenic ASU, Jharsuguda (Odisha)",
+   "delivery": "Awarded Sep-28-2026; 24-month turnkey execution, commissioning expected FY29 \u2014 too early to judge",
+   "status": "in-progress"
+  },
+  {
+   "promise": "Rs 450 cr capex plan (Uluberia-II 220 TPD ramp-up, expansions)",
+   "delivery": "Disclosed at 52nd AGM (Sep-26-2026); spend cadence not yet reported",
+   "status": "pending"
+  },
+  {
+   "promise": "On-site capacity: 325 TPD Durgapur commissioning + 220 TPD Uluberia-II ramp-up",
+   "delivery": "325 TPD Durgapur ASU commissioned under 15-yr take-or-pay (Jai Balaji Industries); Uluberia-II ramp-up ongoing",
+   "status": "in-progress"
+  },
+  {
+   "promise": "Street (JM Financial): 32%/33%/30% revenue/EBITDA/PAT CAGR FY26-29 on BHEL order + merchant volume",
+   "delivery": "Q1 FY27: PAT Rs 34.96 cr (+87% YoY), revenue Rs 98.72 cr (+18% YoY), OPM 38% \u2014 ahead of FY26 run-rate so far",
+   "status": "in-progress"
+  },
+  {
+   "promise": "Dividend policy (observed, not promised)",
+   "delivery": "Zero dividend since listing; payout 0%",
+   "status": "observed"
+  }
+ ]
+}
