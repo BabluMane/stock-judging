@@ -1,0 +1,470 @@
+{
+  "ticker": "INDGN",
+  "company": "Indegene Limited",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 7.4,
+  "note": "Window: 8 calls Q2 FY25-Q1 FY27 (all held; transcripts opened from ir.indegene.com). Q1 FY25 and Q4 FY24 added under rule 7 (outside_window). Company states a standing no-formal-guidance policy (Q4 FY24 p.6, Q1 FY26 p.16, Q2 FY26 p.11, Q4 FY26 p.10), so refusals are not recorded in class 9. Transcripts are company-edited 'for readability'; quotes were taken via a text-extraction tool, some are verbatim fragments and paraphrases are marked [para]. Score weights: 10 entries, weights 10->1, nulls (Q1 FY27, Q4 FY26) drop out: sum(grade x weight) 53.6 / (2 x 36) x 10 = 7.4. Rule 6: income-tax final assessment order AY 2023-24 (transfer pricing), demand Rs 43.69 cr incl. interest, intimated 5 May 2026; Rs 43.69 cr / FY26 PAT Rs 401.1 cr (last full FY before disclosure; audited results 30 Apr 2026, Q4 FY26 transcript p.8) = 10.9% >= 1% -> would be captured as a class-10 assurance ('does not expect any material adverse impact'), but the Reg 30 intimation itself was not opened [not retrieved: IR announcements page did not render; NSE/BSE copy not located]; known only from media reproductions (studycafe.in 6 May 2026, a2ztaxcorp.net 8 May 2026, filingreader.com 5 May 2026) whose impact wording differs [unverified] - not captured, outcome open (MAP/appeal). TCPA class-action settlement provision Rs 20.3 cr (exceptional, Q4 FY26) is captured from the call (Q4 FY26). No other penalty/order disclosures surfaced in search. No override applied (no contradicted class-10 assurance on a SEVERE issue). Q2 FY27 results not yet filed. Figures consolidated, Rs million unless stated; EBITDA excludes interest income from Q1 FY25 (definition change, Q1 FY25 p.7); 'adjusted' EBITDA excludes M&A, one-off and FY26 hedge MTM items per company.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "date": "2026-07-31",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-07-31",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "thereby keeping our margins stable unlike the declining Q2 EBITDA margin that we have historically trended.",
+          "period": "Q2 FY27",
+          "basis": "EBITDA margin (reported), anchor Q1 FY27 16.9%",
+          "source": "Q1 FY27 transcript (call 2026-07-31), ir.indegene.com https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Wage-hike offset to come from scale and BioPharm synergies (p.8). Q2 FY27 not yet reported."
+        },
+        {
+          "class": 1,
+          "date": "2026-07-31",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "we expect our organic growth in FY27 to be better than FY26, and we anticipate an acceleration in the second half.",
+          "period": "FY27",
+          "basis": "Organic revenue growth FY27 > FY26 (BioPharm consolidated from Q3 FY26; organic/inorganic split no longer disclosed, p.11-12)",
+          "source": "Q1 FY27 transcript (call 2026-07-31), https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Testability at risk: management said it is no longer breaking out BioPharm organic vs inorganic (p.11-12). Also 'FY27 will be a stronger year than FY26' (p.5)."
+        },
+        {
+          "class": 10,
+          "date": "2026-07-31",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "we believe that the currency volatility will not impact us at an operating margin level going forward.",
+          "period": "Forward (FY27)",
+          "basis": "FX not hitting EBITDA after cash-flow-hedge designation (Jan 2026)",
+          "source": "Q1 FY27 transcript (call 2026-07-31), https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Same page: undesignated hedges 'still be material till December of this year'. Context: Q4 FY26 reported EBITDA carried a Rs 241M hedge MTM charge."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "date": "2026-04-30",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2026-04-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "PAT in FY27 will see a significant upward movement.",
+          "period": "FY27",
+          "basis": "Consolidated PAT FY27 vs FY26 reported Rs 4,011M (adjusted Rs 4,583M)",
+          "source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "'Significant' unquantified; tested as PAT FY27 materially above FY26 reported. Q1 FY27 PAT Rs 1,162M vs Rs 1,164M Q1 FY26 (flat YoY). Q3 FY26 p.5 earlier: 'we expect PAT to strengthen and support EPS expansion' (no period) - first period-bound statement is here."
+        },
+        {
+          "class": 10,
+          "date": "2026-04-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "We do not believe that there are any further such liability exposures",
+          "period": "Forward",
+          "basis": "TCPA (2020 fax) class action: Rs 203M settlement provision is one-time, non-recurring; no further similar exposures",
+          "source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, pp.8-9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Court approval of settlement awaited (p.9). No further provision in Q1 FY27 results; open-ended assurance kept pending."
+        },
+        {
+          "class": 3,
+          "date": "2026-04-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "I would guide towards mid-60s to 70 days on a steady basis.",
+          "period": "Steady state (FY27)",
+          "basis": "DSO net of unearned/unbilled revenue; FY26 63 days",
+          "source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27 DSO 67 days (Q1 FY27 transcript) - inside range; FY27 open."
+        },
+        {
+          "class": 3,
+          "date": "2026-04-30",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "Tectonic is on track to become a material growth driver for enterprise commercial in FY27.",
+          "period": "FY27",
+          "basis": "Tectonic revenue contribution (not separately disclosed; ~$2M in H1 FY26)",
+          "source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "'Material' not quantified; may be ungradable if Tectonic revenue is not disclosed."
+        },
+        {
+          "class": 10,
+          "date": "2026-04-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "[para] G&A synergies from BioPharm expected to show in the next quarter itself",
+          "period": "Q1 FY27",
+          "basis": "BioPharm G&A cost synergies visible from Q1 FY27",
+          "source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.15",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved] Q1 FY27 call does not quantify synergies realised; ungraded. Q3 FY26 p.4 gave ~$1M p.a. cost synergies accruing progressively in FY27 (captured there)."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "date": "2026-01-30",
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-01-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "we expect the next quarter to be fairly stable and increasing thereafter.",
+          "period": "Q4 FY26",
+          "basis": "Adjusted EBITDA margin, anchor Q3 FY26 18.5% (reported 17.4%)",
+          "source": "Q3 FY26 transcript (call 2026-01-30), https://ir.indegene.com/media/2wkhd214/earnings-transcript-indegene-jan30-2026.pdf, p.14",
+          "outcome": "Q4 FY26 adjusted EBITDA Rs 1,889M on revenue ~Rs 10,030M = 18.8% (+0.3pp); reported Rs 1,648M = 16.4% after Rs 241M hedge MTM charge",
+          "outcome_source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.8; Q4 FY26 revenue derived from Q1 FY27 revenue Rs 10,631M at +6.0% QoQ, Q1 FY27 transcript https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf",
+          "item_grade": 2,
+          "note": "Basis is adjusted (the Q3 anchor was adjusted). On reported basis the margin fell ~1pp (17.4% -> 16.4%) owing to the FX MTM charge - a reported-basis reading would grade 1. Margins derived from stated EBITDA and revenue."
+        },
+        {
+          "class": 7,
+          "date": "2026-01-30",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "expected to yield $10 million-plus annual revenues with a 2.5 quarter lag post go-live.",
+          "period": "Revenue start Q2 FY27 (2.5-quarter lag)",
+          "basis": "Revenue recognition start on $10M+ ACV top-10 pharma omnichannel deal",
+          "source": "Q3 FY26 transcript (call 2026-01-30), https://ir.indegene.com/media/2wkhd214/earnings-transcript-indegene-jan30-2026.pdf, p.2",
+          "outcome": "Re-set before Q2 FY27 closed: Q4 FY26 (30 Apr 2026) 'latter half of FY27'; Q1 FY27 (31 Jul 2026) 'revenue recognition would start from Q3', reason: outcome-based pricing with no FTE component defers recognition ~3 quarters",
+          "outcome_source": "Q4 FY26 transcript pp.3, 14 https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf; Q1 FY27 transcript pp.8, 14 https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf",
+          "item_grade": 1,
+          "note": "Deadline moved before its period ended -> graded under the class 9 rule: prospective and reasoned = 1. Whether revenue actually starts in Q3 FY27 is open."
+        },
+        {
+          "class": 6,
+          "date": "2026-01-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "Amortization is expected to remain elevated for the next 3 quarters before reducing by INR50 million per quarter.",
+          "period": "From Q3 FY27",
+          "basis": "Acquisition amortization (BioPharm) step-down ~Rs 50M/quarter from Q3 FY27, further ~Rs 25M/quarter from Q3 FY28",
+          "source": "Q3 FY26 transcript (call 2026-01-30), https://ir.indegene.com/media/2wkhd214/earnings-transcript-indegene-jan30-2026.pdf, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Restated Q4 FY26 p.10 ('ease toward the latter half of FY27'). Open."
+        },
+        {
+          "class": 3,
+          "date": "2026-01-30",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "expected to yield $5 million of revenues in the first 12 months.",
+          "period": "First 12 months of the deal (~FY27)",
+          "basis": "$20M TCV biotech deal revenue",
+          "source": "Q3 FY26 transcript (call 2026-01-30), https://ir.indegene.com/media/2wkhd214/earnings-transcript-indegene-jan30-2026.pdf, p.3",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open; deal-level revenue may not be disclosed."
+        },
+        {
+          "class": 3,
+          "date": "2026-01-30",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] BioPharm cost synergies of about $1M per annum expected to accrue progressively in FY27",
+          "period": "FY27",
+          "basis": "BioPharm cost synergies ~$1M p.a.",
+          "source": "Q3 FY26 transcript (call 2026-01-30), https://ir.indegene.com/media/2wkhd214/earnings-transcript-indegene-jan30-2026.pdf, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "date": "2025-10-31",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2025-10-31",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "we believe that in the next 6 to 8 quarters, we should get it back to the levels, which we've been operating at.",
+          "period": "6-8 quarters from Q3 FY26 (by Q4 FY27-Q2 FY28)",
+          "basis": "EBITDA margin back to ~20% ('around 20% and a little north', p.11) after ~1.5pp near-term compression from GTM investments",
+          "source": "Q2 FY26 transcript (call 2025-10-31), https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf, pp.6, 9, 11",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Earliest statement of the 6-8 quarter recovery (Q1 FY27 p.8 attributes the 150bps call to 'August 2025', but the Q1 FY26 transcript opened gives ~20% for FY26 with no compression - see Q4 FY25 item). Restated Q3 FY26 p.5 ('approximately to 20% over the next 6 to 8 quarters'), Q4 FY26 p.10 ('second half of FY27 will see us revert'), Q1 FY27 pp.8-9, 11, 16 (narrowed to 6 quarters: '19% to 20%' in H2 FY27 / by Q4 FY27). Graded at the original (~20% within 8 quarters, i.e. by Q2 FY28); open."
+        },
+        {
+          "class": 7,
+          "date": "2025-10-31",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] BioPharm support functions to move over in about 2 quarters",
+          "period": "~2 quarters from 1 Oct 2025 close (by end-Mar 2026)",
+          "basis": "BioPharm support-function (IT/HR/finance) integration",
+          "source": "Q2 FY26 transcript (call 2025-10-31), https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf, p.7",
+          "outcome": "'the integration of BioPharm was successfully completed ahead of schedule towards the end of February'",
+          "outcome_source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.15",
+          "item_grade": 2,
+          "note": "Restated Q3 FY26 p.4 ('on track for completion by March 31, 2026'). Transition-services end not separately confirmed (Q4 FY26 p.15: originally planned to conclude end-March)."
+        },
+        {
+          "class": 7,
+          "date": "2025-10-31",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] BioPharm business operations and go-to-market integration to take about 6 quarters",
+          "period": "~6 quarters from Q3 FY26 (by Q4 FY27)",
+          "basis": "BioPharm operations/GTM integration",
+          "source": "Q2 FY26 transcript (call 2025-10-31), https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27 p.13: 'BioPharm is reasonably well integrated'. Open."
+        },
+        {
+          "class": 10,
+          "date": "2025-10-31",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "would typically be lesser than the rate of growth of the revenue",
+          "period": "Forward (FY26)",
+          "basis": "Headcount growth below revenue growth (revenue per employee rising)",
+          "source": "Q2 FY26 transcript (call 2025-10-31), https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf, p.10",
+          "outcome": "Revenue per employee ~USD 75K in FY26 vs ~USD 66-67K a year earlier; ~USD 77K TTM at Q1 FY27",
+          "outcome_source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, pp.4, 11; Q1 FY27 transcript https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf",
+          "item_grade": 2,
+          "note": "Held. Also Gupta p.10 (headcount grows slower than revenue)."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "date": "2025-08-01",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-08-01",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] expects client count to improve towards the end of the year",
+          "period": "End FY26",
+          "basis": "Active clients, anchor 70 at Q1 FY26",
+          "source": "Q1 FY26 transcript (call 2025-08-01), https://ir.indegene.com/media/oildectd/indegene-earnings-transcript-aug01-2025.pdf, p.7",
+          "outcome": "Active clients 91 at end FY26 (73 at end FY25); $1M+ clients 53",
+          "outcome_source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, pp.2-3, 11",
+          "item_grade": 2,
+          "note": "Period-specific (FY26 year-end) promise, distinct from the 18-24-month pyramid item at Q1 FY25. Includes BioPharm clients from Q3 FY26. Q1 FY26 also restated ~20% FY26 EBITDA (p.7, p.16) and tariffs 'continues to be a nonfactor' (p.2) - see Q4 FY25 items."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "date": "2025-04-29",
+      "grade": 1.7,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-04-29",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "That's going to reverse this year itself.",
+          "period": "FY26",
+          "basis": "Enterprise Commercial segment revenue returns to growth (declined in FY25 on two top-5 accounts)",
+          "source": "Q4 FY25 transcript (call 2025-04-29), https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf, p.8",
+          "outcome": "Enterprise Commercial ex-BioPharm grew ~17% YoY in FY26",
+          "outcome_source": "Q4 FY26 transcript (call 2026-04-30), https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.9",
+          "item_grade": 2,
+          "note": "Organic basis (ex-BioPharm) used to avoid acquisition flattering."
+        },
+        {
+          "class": 2,
+          "date": "2025-04-29",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "the margin outlook would be fairly stable even in the coming periods",
+          "period": "FY26",
+          "basis": "EBITDA margin excl. interest income; anchor FY25 19.8% (Q4 FY25 20.2%)",
+          "source": "Q4 FY25 transcript (call 2025-04-29), https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf, p.11",
+          "outcome": "Cut before period end: Q2 FY26 (31 Oct 2025) flagged ~1.5pp near-term compression for GTM investments. FY26 adjusted EBITDA Rs 6,793M / revenue Rs 35,105M = 19.4% (-0.4pp vs anchor); reported lower (FY26 reported EBITDA not stated in call)",
+          "outcome_source": "Q2 FY26 transcript https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf, p.6; Q4 FY26 transcript https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.8",
+          "item_grade": 1,
+          "note": "Restated Q1 FY26 p.7 ('in the region of around 20% at an EBITDA level on a full year basis') and p.16. Re-set prospectively (H2 FY26 not closed) with a stated reason -> class 9 rule = 1. Adjusted outcome alone would also grade 1 (within 1pp)."
+        },
+        {
+          "class": 10,
+          "date": "2025-04-29",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "Now none of this has a direct impact on our business.",
+          "period": "Forward (FY26)",
+          "basis": "US tariffs / policy actions have no direct business impact",
+          "source": "Q4 FY25 transcript (call 2025-04-29), https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf, p.3",
+          "outcome": "No tariff impact reported in FY26; Q1 FY26: tariffs 'continues to be a nonfactor'; Q1 FY27: 'the policy outlook is stable'",
+          "outcome_source": "Q1 FY26 transcript p.2 https://ir.indegene.com/media/oildectd/indegene-earnings-transcript-aug01-2025.pdf; Q1 FY27 transcript p.10 https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf",
+          "item_grade": 2,
+          "note": "Held. Q3 FY26 p.3 noted MFN-related price reductions at one customer, offset by price increases elsewhere - not a tariff impact."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25",
+      "date": "2025-01-31",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 10,
+          "date": "2025-01-31",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "We see continued growth in our largest customer",
+          "period": "CY2025 / FY26",
+          "basis": "Largest customer revenue keeps growing",
+          "source": "Q3 FY25 transcript (call 2025-01-31), https://ir.indegene.com/media/tkxpow3s/analyst-call-transcript-q3-fy2025.pdf, p.4",
+          "outcome": "Contradicted: renewal reconfigured onsite->offshore lowering value (Q4 FY25 p.5); Q2 FY26 decline in largest customer; FY26 'The customer is broadly stable', attributed to a delayed 'highly anticipated breakthrough'",
+          "outcome_source": "Q4 FY25 transcript p.5 https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf; Q2 FY26 transcript https://ir.indegene.com/media/j3yl20xh/earnings-transcript-indegene-oct31-2025.pdf; Q4 FY26 transcript p.3 https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf",
+          "item_grade": 0,
+          "note": "Restated Q1 FY26 p.4 ('should scale up over the next few quarters'), Q2 FY26 p.10 ('very bullish about growth ... near to midterm'). Not a SEVERE issue (no permanent impairment / revenue-stream loss), so no override; item grade 0 is the plain contradiction. Other Q3 FY25 forward items (five $2-4M expansion go-lives; top 10-20 pursuits 'next few quarters') not captured: outcomes [not retrieved] / not attributable to the named pursuits."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25",
+      "date": "2024-10-29",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-10-29",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] enterprise segments are expected to grow in calendar year 2025",
+          "period": "CY2025",
+          "basis": "Enterprise Commercial + Enterprise Medical revenue growth",
+          "source": "Q2 FY25 transcript (call 2024-10-29), https://ir.indegene.com/media/kpkdedv1/analyst-call-transcript-q2-fy2025.pdf, p.4",
+          "outcome": "Enterprise segments +5.1% QoQ (Q4 FY25), +3.5% QoQ (Q1 FY26), +8.1% QoQ (Q2 FY26); FY26 EC ex-BioPharm ~+17% YoY, EMS ~+16% YoY",
+          "outcome_source": "Q4 FY25 transcript p.6; Q1 FY26 transcript p.5; Q2 FY26 transcript; Q4 FY26 transcript p.9 (URLs above)",
+          "item_grade": 2,
+          "note": "Held."
+        },
+        {
+          "class": 7,
+          "date": "2024-10-29",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] hoping that in the next few quarters we will have a $50 million-plus client category",
+          "period": "Next few quarters (~by Q4 FY26)",
+          "basis": "First client above $50M annual revenue (largest ~$42M at Q1 FY25)",
+          "source": "Q2 FY25 transcript (call 2024-10-29), https://ir.indegene.com/media/kpkdedv1/analyst-call-transcript-q2-fy2025.pdf, p.7",
+          "outcome": "Not achieved after 7 quarters: largest customer 'broadly stable' in FY26; Q4 FY26 hopes it becomes first $50M+ account in FY27; Q1 FY27 still aims to 'get into our first $50 million accounts'",
+          "outcome_source": "Q4 FY26 transcript p.3 https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf; Q1 FY27 transcript p.9 https://ir.indegene.com/media/2iihw3bi/indegene_06082026114946_tofileearningcalltranscript.pdf",
+          "item_grade": 0,
+          "note": "Hedged ('hoping'); 'few quarters' read as <= 6 quarters. Q1 FY25 p.3-4 gave only a medium-to-long-term $75-100M headroom (no date); Q3 FY25 p.4 'will build $100M, 75M and 50M plus accounts' (no date). Re-set to FY27 after the window lapsed -> not a prospective cut. Late by >1 quarter = 0."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY25",
+      "date": "2024-08-02",
+      "grade": 1.3,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 2,
+          "date": "2024-08-02",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "with the rate for the full year and even beyond being in the early 20s.",
+          "period": "FY25",
+          "basis": "EBITDA margin excl. interest income (new definition, p.7); low end 20.0%",
+          "source": "Q1 FY25 transcript (call 2024-08-02), https://ir.indegene.com/media/mfljaqjz/analyst-call-transcript-q1-fy-2025.pdf, p.8",
+          "outcome": "FY25 EBITDA Rs 5,622M, margin 19.8% (-0.2pp vs 20%)",
+          "outcome_source": "Q4 FY25 transcript (call 2025-04-29), https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf, pp.4, 6",
+          "item_grade": 1,
+          "note": "Restated Q2 FY25 p.12 ('striving to operate in that 20% region' for FY25). Shortfall <= 1pp = 1. FY25 includes Q3 net one-off +Rs 22M (earnout write-back less loan write-off)."
+        },
+        {
+          "class": 7,
+          "date": "2024-08-02",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "are anticipated to be back to earlier levels in H2",
+          "period": "H2 FY25 (client #2); client #1 'stabilize and get better towards the end of the calendar year'",
+          "basis": "Recovery of two top-5 clients' activity/spend",
+          "source": "Q1 FY25 transcript (call 2024-08-02), https://ir.indegene.com/media/mfljaqjz/analyst-call-transcript-q1-fy-2025.pdf, pp.6, 13",
+          "outcome": "Re-set before H2 closed: Q2 FY25 (29 Oct 2024) 'should start improving from next calendar year', tied to CY25 budget cycles. Q3 FY25: 'stabilization'; Q4 FY25: the two accounts cut FY25 growth by ~6%, decline 'behind us'",
+          "outcome_source": "Q2 FY25 transcript p.3 https://ir.indegene.com/media/kpkdedv1/analyst-call-transcript-q2-fy2025.pdf; Q3 FY25 transcript p.4 https://ir.indegene.com/media/tkxpow3s/analyst-call-transcript-q3-fy2025.pdf; Q4 FY25 transcript p.8 https://ir.indegene.com/media/pgbkoslf/indegeneltd-earnings-29april-2025-transcript.pdf",
+          "item_grade": 1,
+          "note": "Deadline moved before period end, prospectively, with a stated reason (client budget cycles) -> class 9 rule = 1. No document shows a return to 'earlier levels'."
+        },
+        {
+          "class": 3,
+          "date": "2024-08-02",
+          "speaker": "Manish Gupta, Chairman & CEO",
+          "quote": "[para] client-count pyramid should be in a much better shape over the next 18 to 24 months",
+          "period": "By ~Feb-Aug 2026",
+          "basis": "Client pyramid: active clients 65, $1M+ clients 36 at Q1 FY25",
+          "source": "Q1 FY25 transcript (call 2024-08-02), https://ir.indegene.com/media/mfljaqjz/analyst-call-transcript-q1-fy-2025.pdf, p.10",
+          "outcome": "Active clients 91 (end FY26) / 105 (Q1 FY27); $1M+ clients 53 / 54",
+          "outcome_source": "Q4 FY26 transcript pp.2-3 https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf; Q1 FY27 transcript / IR page Q1 FY27 KPIs https://ir.indegene.com/",
+          "item_grade": 2,
+          "note": "Anchored qualitative statement tested against the counts in force. Restated Q3 FY25 p.5 ('customer pyramid ... getting healthier'), Q1 FY26 p.13. Upper tiers lag: no $50M client (see Q2 FY25 item). Includes BioPharm clients."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "date": "2024-05-30",
+      "grade": 1.5,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 8,
+          "date": "2024-05-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "we would strive to operate in the range of 22%-24% at EBITDA level.",
+          "period": "Longer run (undated)",
+          "basis": "EBITDA margin incl. interest income (old definition); FY24 22.6%",
+          "source": "Q4 FY24 transcript (call 2024-05-30), https://ir.indegene.com/media/pprb1ehi/analyst-call-transcript-q4-fy2024.pdf, p.11",
+          "outcome": "Re-based Q1 FY25 (definition excl. interest income); Q2 FY25 p.11-12 equated it to ~20-21% new basis and 'even beyond' in 2-3 years. Withdrawn Q4 FY26 p.13: no expansion beyond the prior (~20%) range expected; anything above reinvested",
+          "outcome_source": "Q2 FY25 transcript https://ir.indegene.com/media/kpkdedv1/analyst-call-transcript-q2-fy2025.pdf, pp.11-12; Q4 FY26 transcript https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf, p.13",
+          "item_grade": 1,
+          "note": "Multi-year target cut before any period end -> class 9 rule: prospective and reasoned (reinvestment) = 1. Basis change in Q1 FY25 treated as a definitional restatement, not a cut."
+        },
+        {
+          "class": 4,
+          "date": "2024-05-30",
+          "speaker": "Suhas Prabhu, CFO",
+          "quote": "we anticipate that to be in that vicinity even in the near future.",
+          "period": "Near future (FY25)",
+          "basis": "Capex ~1% of revenue",
+          "source": "Q4 FY24 transcript (call 2024-05-30), https://ir.indegene.com/media/pprb1ehi/analyst-call-transcript-q4-fy2024.pdf, p.16",
+          "outcome": "FY25 capex ~Rs 300M (OCF Rs 4,419M - FCF Rs 4,119M) = ~1.1% of revenue Rs 28,393M; FY26 ~Rs 443M = ~1.3% of Rs 35,105M",
+          "outcome_source": "Q4 FY26 transcript p.9 https://ir.indegene.com/media/5sulcyek/earnings-transcript-indegene-apr30-2026.pdf (FY26 and FY25 OCF/FCF); Q4 FY25 transcript pp.4, 6 (FY25 revenue)",
+          "item_grade": 2,
+          "note": "Restated Q4 FY25 p.15 ('typically in that 1-odd percent of our revenues', FY25 spillover into FY26). Capex derived as OCF minus FCF. Within the stated vicinity."
+        }
+      ]
+    }
+  ]
+}

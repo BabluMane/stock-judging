@@ -1,0 +1,119 @@
+{
+ "as_of": "2026-10-09",
+ "symbol": "MFSL",
+ "name": "Max Financial Services Ltd",
+ "tier": "FULL",
+ "status": "validated",
+ "conviction": "0.40",
+ "key_metrics": {
+  "mcap_cr": 45750,
+  "beta": 0.9021,
+  "beta_note": "60m vs NSEI; sane, corr 0.39",
+  "price": 1326,
+  "w52_low": 1310,
+  "w52_high": 1892,
+  "promoter_pct": 1.25,
+  "promoter_note": "30.4% (Mar-17) -> 1.25% (Jun-26): Max Group essentially exited; 92% institutional (FII 48%, DII 44%)",
+  "pledge_pct": 26.9,
+  "pledge_note": "26.9% of promoter holding pledged; on 1.25% holding = ~0.34% of equity \u2014 small absolute, poor signal",
+  "book_value_ps": 153,
+  "pbv": 8.65,
+  "axis_max_life_stake_pct": 81,
+  "ev_mar26_cr": 28871,
+  "vnb_fy26_cr": 2647,
+  "vnb_growth_yoy": 26,
+  "vnb_margin_fy26": 25.2,
+  "roev_fy26": 18.7,
+  "solvency_fy26": 194,
+  "private_market_share": 10.4
+ },
+ "engine": {
+  "distress": "VETOED-DATA (financial variant). Pledge leg FAILS: 26.9% of promoter holding pledged. Other battery checks N/A for insurers by design (no receivables/cash-conversion concept). No hard solvency flags: Axis Max Life solvency 194% vs 150% regulatory floor.",
+  "event_lane": "No formal charge/order/debarment vs company/promoters at d0. Note: Axis Max Life faced anonymous data-breach claim Jul-2025 (under investigation); amalgamation of MFSL into Axis Max Life proposed Jan-2026 (Axis entities gave no-objection Mar-2026).",
+  "usability": "STOP on U3: results_published null -> not PIT-strict (same data gap as all prior reviews)."
+ },
+ "dcf": {
+  "current_price": 1326,
+  "fair_value": 1300,
+  "fair_value_note": "Appraisal-value SOTP: Axis Max Life EV Rs 28,871cr (WTW, Mar-26) + 10x VNB Rs 2,647cr = Rs 55,341cr (100%); MFSL 81% = Rs 44,826cr less ~Rs 1,500cr holdco net debt = Rs 43,326cr / 34.5cr shares = Rs 1,256; rounded to Rs 1,300 with amalgamation optionality.",
+  "sensitivity": {
+   "vnb_8x": 1175,
+   "vnb_10x": 1300,
+   "vnb_12x": 1425
+  },
+  "inv_trigger": 845,
+  "acc_trigger": 1105,
+  "model": "Life-insurance appraisal value (EV + VNB multiple), 81% stake, holdco net debt deducted",
+  "cross_checks": {
+   "implied_pev": "Mcap Rs 45,750cr / 81% of EV Rs 23,385cr = 1.96x P/EV (vs HDFC Life ~2.1x, SBI Life ~1.9x)",
+   "street": "Target prices upgraded to Rs 1,800+ post Q4FY25 (per reports)"
+  }
+ },
+ "scores": {
+  "composite": 3.7,
+  "quality": 3.0,
+  "forensic": 0.0,
+  "governance": 5.0,
+  "valuation": 5.0,
+  "scenarios": 5.0,
+  "other": 5.0
+ },
+ "v21_detail": {
+  "A": 3.0,
+  "B": 0.0,
+  "C": 5.0,
+  "D": 5.0,
+  "E": 5.0,
+  "F": 5.0,
+  "C4": 1,
+  "C5": 2,
+  "credibility_score": 8.0,
+  "composite": 3.7,
+  "composite_raw": 3.7,
+  "A_tests": {
+   "A1": "0: 5yr avg RoE 8.1% vs COE 12.4% (insurance accounting understates; EV-based RoEV 18.7%)",
+   "A2": "0: 5yr sales CAGR 8.8% vs 12% bar; down year in window",
+   "A3": "2: 5yr net-margin range 1.2pp (stable, low)",
+   "A4": "1: manual neutral",
+   "A5": "0: incremental PAT/NW -20.3% vs COE (FY26 PAT collapse)"
+  },
+  "B_note": "v2.1 battery is non-financial by design: 0/8 pass -> 0.0. Pledge leg fails (26.9%). Substantive read: solvency 194%, no distress.",
+  "C_tests": "C1=0 (pledge 26.9% >= 10%); C2-C4=1 neutral; C5=2 (credibility 8.0/10 over 9 calls)",
+  "D_tests": "D1=1 (Rs 1,326 vs FV Rs 1,300: +2% premium, within +/-10%); D3=0 (g_implied not wired); D5=2 (FY26 net margin 0.2% < 6yr avg 1.0% -- trough)",
+  "G1": "VETOED-DATA (financials battery N/A by design; pledge flagged)"
+ },
+ "entry": {
+  "w52_low": 1310,
+  "w52_high": 1892,
+  "pct_above_52w_low": 1.2,
+  "drawdown_from_52w_high": 29.9,
+  "inv_trigger": 845,
+  "acc_trigger": 1105,
+  "position": "At 52w low (1.2% above), 30% below high. Above ACC trigger Rs 1,105 \u2014 not at mechanical entry."
+ },
+ "verdict": {
+  "category": "WATCH",
+  "conviction": 0.4,
+  "entry_trigger": 845,
+  "acc_trigger": 1105,
+  "mechanical_tier": "PASS (3.7 < 4.5; G1 VETOED-DATA)",
+  "judgment": "Upgraded PASS->WATCH: the operating business (Axis Max Life) is excellent \u2014 VNB +26%, margin 25.2%, RoEV 18.7%, C5=2. The low composite reflects holdco-structure penalties (pledge, promoter exit), not business deterioration. At 52w low with the promoter overhang nearly done (1.25% left), this is a legitimate watch \u2014 not a buy at Rs 1,326 (fair value), but the amalgamation catalyst could unlock the holdco discount."
+ },
+ "thesis": "India's 4th-largest private life insurer (via 81% stake) firing on all cylinders \u2014 VNB +26%, market share gains, 18.7% RoEV \u2014 wrapped in a holdco the promoter is exiting. At Rs 1,326 (1.96x P/EV) it's fairly valued, not cheap. The prize is the proposed amalgamation into Axis Max Life, which kills the holdco discount.",
+ "risks": [
+  "Promoter (Max Group) exit from 30% to 1.25% \u2014 either a smart PE-style harvest or a vote of no-confidence; the overhang pressured the stock to 52w low",
+  "26.9% pledge on remaining promoter holding \u2014 small in absolute terms (~0.34% of equity) but a poor governance signal",
+  "Amalgamation into Axis Max Life proposed but not completed \u2014 timeline and swap ratio uncertain",
+  "Q2 FY26 consolidated PAT collapsed to Rs 6cr \u2014 insurance accounting volatility",
+  "New business margins depend on product mix shift (protection/annuity) sustaining"
+ ],
+ "catalysts": [
+  "MFSL-Axis Max Life amalgamation completion \u2014 eliminates holdco discount (10-15% upside)",
+  "VNB growth sustaining above 20% with margin expansion toward 26%+",
+  "Promoter selling fully done \u2014 removes the technical overhang",
+  "Axis Bank bancassurance synergy deepening (Axis contributed Rs 4,481cr APE, +8%)"
+ ],
+ "promises": "C5=2 (8.0/10 over 9 scored calls). Management delivers: VNB growth guided and beaten, margin expansion delivered, EV growth on track.",
+ "promises_note": "Audit: promise-tracking/audits/mfsl.json. Key pattern: operating promises (VNB, margins, market share) consistently met; no major guidance misses in window.",
+ "price_history_note": "Yahoo 1y: 52w low Rs 1,310 / high Rs 1,892. Beta 0.90 (60m, sane)."
+}

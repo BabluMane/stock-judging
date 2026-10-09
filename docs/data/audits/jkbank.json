@@ -1,116 +1,16 @@
 {
   "ticker": "J&KBANK",
   "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 6.8,
+  "note": "Standard mode: 8 quarterly calls Q2 FY25–Q1 FY27 in window, plus two rule-7 originating calls (Q4 FY24, Q3 FY24) marked outside_window. Rule 6 test: no Reg. 30 penalty/tax/litigation 'no material impact' line is captured. The only litigation item (≈16,000 cr GST notice, Q2 FY26, class 7) is a call statement, and at ≈677% of FY26 PAT (2,363.47 cr; 1% threshold ≈23.6 cr; consolidated basis not separately verified) it would be captured anyway; the Pahalgam assurance (Q4 FY25) is a call statement on a security event. Nothing excluded. Sources not retrieved in this re-grade: Q2 FY24 transcript (23-Oct-2023; only the filing cover letter opened); Q3 FY25 and Q1 FY26 transcripts could not be re-opened (fetch timeout), so their quotes are carried from the earlier extraction. v1.2 rule-7 re-grade: rule 7 — FY25 guide (6 items) moved to its originating Q4 FY24 call (06-May-2024) and FY25 credit cost to the Q3 FY24 call (22-Jan-2024); cost-to-income ~50% multi-year target traced to Q3 FY24 ('by '28'), with the Q3 FY25 and Q4 FY25 restatements folded in; FY26 and FY27 guides graded once on their Q4 FY25 / Q4 FY26 originals; 55 duplicate restatements removed (Q2 FY25 8, Q3 FY25 9, Q4 FY25 1, Q1 FY26 9, Q2 FY26 9 incl. the class-9 RoA/RoE cut item, Q3 FY26 8, Q1 FY27 11); cuts re-graded on originals — FY26 RoA and RoE 2→0 and FY26 CASA 48% 1→0 (cut after shortfall public), FY26 NIM held at 1 (prospective, reasoned cut). Rule 6 — no change. Old file had no score_10; before-score computed from its stored call grades, 8→1 weights. FY25 credit-growth guide then traced further to Q3 FY24 (22-Jan-2024, '15%, 16%, 17%'; still 0); Q3 FY24 speakers attributed; NIM cut confirmed prospective (Q1 FY26 NIM 3.72%). Old score_10 missing (8.1 from stored grades) → new 6.8.",
   "quarters": [
     {
       "label": "Q1 FY27",
       "grade": null,
       "status": "pending",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "Gross advances growth YoY, 12%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "Deposit growth YoY, 10%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "CASA ratio at 31-Mar-2027, 45%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "Full-year reported NIM, ~3.5%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "RoA around FY26 level (1.37%)",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "RoE ~16%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "We would like to keep the guidance for financial year 2026-27 unchanged for now and we will reassess the same only after the quarter 2 results. Credit growth, 12% deposit growth, 10%, CASA 45% NIM around 3.5%, ROA maintaining around 2026 levels, ROE around 16%, GNPA below 2.25%.",
-          "period": "FY27",
-          "basis": "GNPA ratio at 31-Mar-2027, ceiling 2.25%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "For this financial year, overall credit growth, I expect, although the guidance given is around 12%, but the actual credit growth will not be less than, say, 18% to 20%, I expect.",
-          "period": "FY27",
-          "basis": "Gross advances growth YoY, floor 18%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
         {
           "class": 2,
           "date": "2026-07-29",
@@ -122,20 +22,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 NIM 3.28% (Q1 FY27 investor presentation, slide 5)."
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "ROA will be 1.25% plus. In fact, it should be somewhere around what it was last year.",
-          "period": "FY27",
-          "basis": "Full-year RoA, floor 1.25%",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
+          "note": "Q1 FY27 NIM 3.28% (Q1 FY27 investor presentation, slide 5). Rule 7: Q4 FY26 call gave no quarter for reaching 3.5% (p17 'maybe next quarter I will be able to revise my guidance on NIM'); this is the original."
         },
         {
           "class": 3,
@@ -161,7 +48,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: Q4 FY26 call (immediately prior) gave no FY27 TWO figure; this is the original."
         },
         {
           "class": 3,
@@ -174,7 +61,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: Q4 FY26 call p11 has 'it is not going to be worse than this, it is going to be better than this', subject not confirmed as net profit in the extraction; kept here as the earliest confirmed statement."
         },
         {
           "class": 3,
@@ -187,33 +74,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "See, credit cost, as I've already mentioned, and it continues to be very low. Even this quarter, our credit cost is very low, 0.1% only. So credit cost isn't going to impact at the moment.",
-          "period": "FY27",
-          "basis": "Credit cost, % of advances, low (Q1 0.10%)",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p9",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 5,
-          "date": "2026-07-29",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Capital raise, INR1,250 crores is already done that is approved and that is going to come, but we are thinking in terms of revising the quantum.",
-          "period": "FY27",
-          "basis": "Equity capital raise ≥1,250 cr, quantum to be revised upward",
-          "source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf (uploaded Aug 2026), p12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Upward revision of quantum confirmed by 'Obviously.' (p12); government 'might dilute'."
+          "note": "Rule 7: Q4 FY26 call said employee costs 'will not increase' in FY27 (p7) and opex would 'average out' (p6) — not the same commitment; kept here."
         },
         {
           "class": 3,
@@ -252,7 +113,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: no rest-of-India branch number in the Q4 FY26 call; this is the original."
         },
         {
           "class": 10,
@@ -285,7 +146,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Original FY27 guide (rule 7; Q3 FY26 call gave only a floor at FY26 guidance levels, see that item). Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Same call MD said 'the actual credit growth will not be less than, say, 18% to 20%' (p7) — an upward revision recorded here, not a separate promise. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 1,
@@ -298,7 +159,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -311,7 +172,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 2,
@@ -324,7 +185,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Reason for the cut from FY26's 3.65–3.70% given as slower J&K retail-loan income regeneration (p12). Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -337,7 +198,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Q1 FY27 call p11 also said 'ROA will be 1.25% plus. In fact, it should be somewhere around what it was last year.' — the 1.25% floor sits ~9% below the 1.37% anchor; test at FY27 close whether this was a re-set of the original (duplicate item removed). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -350,7 +211,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -363,7 +224,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated unchanged 29-Jul-2026 (Q1 FY27 call p6: guidance kept 'unchanged for now', to be reassessed after Q2 results); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 5,
@@ -376,7 +237,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated 29-Jul-2026: 'Capital raise, INR1,250 crores is already done that is approved and that is going to come, but we are thinking in terms of revising the quantum.' (Q1 FY27 call p12); upward revision confirmed 'Obviously.' (p12); government 'might dilute'. Duplicate removed under rule 7. Follows the missed QIP-by-31-Mar-2026 timeline (Q3 FY26 item); amount, deadline and class differ, so kept separate. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -389,7 +250,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Restated 29-Jul-2026: 'So credit cost isn't going to impact at the moment.' (Q1 FY27 call p9; Q1 0.10%); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 8,
@@ -402,7 +263,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: earlier 'below 1%' remarks (Q1 FY26; Q2 FY26 p5 'I have always said it will be below 1%') were single-year FY26 statements, graded on the Q4 FY25 credit-cost item; no earlier multi-year statement found. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 8,
@@ -415,7 +276,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: not stated in the Q3 FY26 or Q2 FY26 calls; called 'our aim' (p15). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 6,
@@ -428,7 +289,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: not stated in the Q3 FY26 or Q2 FY26 calls. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 6,
@@ -441,7 +302,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 staff expenses 651 cr incl. ~150 cr gratuity/pension/leave provisions (Q1 FY27 PPT slide 8; Q1 FY27 call p19); period not closed until Q2 FY27 results. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Q1 FY27 staff expenses 651 cr incl. ~150 cr gratuity/pension/leave provisions (Q1 FY27 PPT slide 8; Q1 FY27 call p19); period not closed until Q2 FY27 results. Rule 7: Q3 FY26 call gave no quarterly figure. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 1,
@@ -454,7 +315,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: not stated in the Q3 FY26 call. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 7,
@@ -467,119 +328,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "No filed document opened confirms or denies the app upgrade; left ungraded. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "No filed document opened confirms or denies the app upgrade; left ungraded. Rule 7: not stated in the Q3 FY26 call. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     },
     {
       "label": "Q3 FY26",
-      "grade": 1.7,
+      "grade": 1.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Market guidance for financial year '25, '26 credit growth 12%, deposit growth 10%, CASA 45%, NIM 3.65% to 3.7%,",
-          "period": "FY26",
-          "basis": "Advances growth YoY, 12% (Q&A widened to 12–15%, p7)",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "Gross advances +16.8% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 1,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Market guidance for financial year '25, '26 credit growth 12%, deposit growth 10%, CASA 45%, NIM 3.65% to 3.7%,",
-          "period": "FY26",
-          "basis": "Deposit growth YoY, 10%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "Deposits +11.3% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Market guidance for financial year '25, '26 credit growth 12%, deposit growth 10%, CASA 45%, NIM 3.65% to 3.7%,",
-          "period": "FY26",
-          "basis": "CASA ratio at 31-Mar-2026, 45%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "CASA 45.65% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Call also said the bank 'is revising its CASA guidance' with no new figure (p4); graded on the 45% read out. Original FY26 CASA guide was 48% (Q4 FY25 call). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 2,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Market guidance for financial year '25, '26 credit growth 12%, deposit growth 10%, CASA 45%, NIM 3.65% to 3.7%,",
-          "period": "FY26",
-          "basis": "Full-year reported NIM, 3.65–3.70%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "NIM 3.60% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Basis: bank-reported full-year NIM. Mgmt conceded the NIM miss (Q4 FY26 call p3). Shortfall 0.05pp vs low end. Conditioned 'unless there is another rate cut' (p3); no repo cut occurred between 20-Jan and 31-Mar-2026 per Q4 FY26 call (125bp in CY2025). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Return on Assets 1.2% to 1.25%, Return on Equity 15% to 16%, Gross NPA below 3%.",
-          "period": "FY26",
-          "basis": "RoA 1.20–1.25%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "RoA 1.37% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Return on Assets 1.2% to 1.25%, Return on Equity 15% to 16%, Gross NPA below 3%.",
-          "period": "FY26",
-          "basis": "RoE 15–16%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "RoE 16.85% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Return on Assets 1.2% to 1.25%, Return on Equity 15% to 16%, Gross NPA below 3%.",
-          "period": "FY26",
-          "basis": "GNPA ratio at 31-Mar-2026, ceiling 3%",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p4",
-          "outcome": "GNPA 2.50% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2026-01-20",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "I do not think that the credit cost will be anything positive by the end of this year.",
-          "period": "FY26",
-          "basis": "Credit cost nil or negative",
-          "source": "Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p10",
-          "outcome": "Credit cost described as negligible; FY26 PBT 2,957.87 cr vs operating profit 2,986.49 cr (non-tax provisions ~28.6 cr)",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
         {
           "class": 3,
           "date": "2026-01-20",
@@ -591,7 +348,7 @@
           "outcome": "PCR above 90% at 31-Mar-2026; 90.53% at 30-Jun-2026",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 5",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: Q2 FY26 call said only 'PCR continues to be healthy above 90%' (p4), a status line, not a floor; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 7,
@@ -604,7 +361,7 @@
           "outcome": "QIP not completed by 31-Mar-2026; at the 29-Jul-2026 call the 1,250 cr raise was approved but not done, and the quantum under revision",
           "outcome_source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf, p12",
           "item_grade": 0,
-          "note": "CFO added the QIP 'may spillover a little bit'; MD said he would not go to market 'unless I am absolutely ready' (p13). More than one quarter late as of review date. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "CFO added the QIP 'may spillover a little bit'; MD said he would not go to market 'unless I am absolutely ready' (p13). More than one quarter late as of review date. Rule 7: no earlier dated commitment — Q2 FY26 call did not discuss a QIP; Q1 FY26 call noted board approval for equity and bonds of 1,000 cr with no timing; Q4 FY25 call said only 'the Bank may consider raising both debt and equity capital in this fiscal' (p4). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 8,
@@ -630,119 +387,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open-ended; no filed slippage data for the SRP pool retrieved. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Open-ended; no filed slippage data for the SRP pool retrieved. Rule 7: Q2 FY26 call framed the package only as an 'opportunity... to ensure that they do not turn into NPAs' (p6), not an assurance; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     },
     {
       "label": "Q2 FY26",
-      "grade": 1.6,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "Advances growth YoY, 12%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "Gross advances +16.8% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 1,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "Deposit growth YoY, 10%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "Deposits +11.3% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "CASA ratio at 31-Mar-2026, 48%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "CASA 45.65% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Shortfall 4.9% vs 48%. Reaffirmed on p6. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 2,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "Full-year reported NIM, 3.65–3.70%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "NIM 3.60% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Basis: bank-reported full-year NIM. Mgmt conceded the NIM miss (Q4 FY26 call p3). Shortfall 0.05pp vs low end. Q&A framed it as 'more than 3.6%' (p7). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "RoA 1.20–1.25% (revised)",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "RoA 1.37% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "RoE 15–16% (revised)",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "RoE 16.85% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "GNPA ratio at 31-Mar-2026, ceiling 3%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "GNPA 2.50% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 9,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Consequently, we are revising our guidance for RoA and RoE for the current financial year to reflect this exceptional and unforeseen substantial impairment provision.",
-          "period": "FY26",
-          "basis": "Downward revision of RoA (from 'maintain FY25 levels') and RoE (from 16–17%)",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4",
-          "outcome": "Revision announced with H1 RoA 1.17% / RoE 14.52% already below range; FY26 delivered RoA 1.37%, RoE 16.85% (above the original guides)",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 0,
-          "note": "Reason stated, but cut made after the shortfall was public (same-day H1 disclosure), so 0 under the class-9 rule. The original guides were met; see Q4 FY25 and Q1 FY26 items. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
         {
           "class": 3,
           "date": "2025-10-18",
@@ -754,20 +407,7 @@
           "outcome": "FY26 net profit 2,363.47 cr vs FY25 2,082.46 cr",
           "outcome_source": "Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 6; Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 15",
           "item_grade": 2,
-          "note": "Preceded by 'Normally, there is no guidance on profit.' Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-18",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "The credit cost, I have always said it will be below 1%.",
-          "period": "FY26",
-          "basis": "Credit cost ceiling 1%",
-          "source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p5",
-          "outcome": "Credit cost described as negligible; FY26 PBT 2,957.87 cr vs operating profit 2,986.49 cr (non-tax provisions ~28.6 cr)",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Preceded by 'Normally, there is no guidance on profit.' Rule 7: Q1 FY26 call gave no FY26 profit comparison; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 7,
@@ -780,132 +420,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Court judgment pending; ungraded. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Court judgment pending; ungraded. Rule 7: GST not mentioned in the Q1 FY26 or Q4 FY25 calls. Rule 6 not applicable: call statement, not a Reg. 30 impact line, and the amount is far above 1% of PAT. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     },
     {
       "label": "Q1 FY26",
-      "grade": 1.5,
+      "grade": 0.5,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Credit growth 12%, deposit growth 10%, CASA 48%, NIM 3.65% to 3.70%,",
-          "period": "FY26",
-          "basis": "Advances growth YoY, 12%",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "Gross advances +16.8% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 1,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Credit growth 12%, deposit growth 10%, CASA 48%, NIM 3.65% to 3.70%,",
-          "period": "FY26",
-          "basis": "Deposit growth YoY, 10%",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "Deposits +11.3% YoY",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Credit growth 12%, deposit growth 10%, CASA 48%, NIM 3.65% to 3.70%,",
-          "period": "FY26",
-          "basis": "CASA ratio at 31-Mar-2026, 48%",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "CASA 45.65% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Shortfall 4.9%. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 2,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Credit growth 12%, deposit growth 10%, CASA 48%, NIM 3.65% to 3.70%,",
-          "period": "FY26",
-          "basis": "Full-year reported NIM, 3.65–3.70% (revised down from 3.70–3.80%)",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "NIM 3.60% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Basis: bank-reported full-year NIM. Mgmt conceded the NIM miss (Q4 FY26 call p3). Shortfall 0.05pp vs revised low end; vs the original 3.70% low end (graded on the Q4 FY25 item) the shortfall is 0.10pp. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "ROA maintain around FY'24-25 levels, ROE 16% to 17%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "RoA around FY25 level (1.32%)",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "RoA 1.37% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "ROA maintain around FY'24-25 levels, ROE 16% to 17%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "RoE 16–17%",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "RoE 16.85% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "ROA maintain around FY'24-25 levels, ROE 16% to 17%, GNPA below 3%.",
-          "period": "FY26",
-          "basis": "GNPA ratio at 31-Mar-2026, ceiling 3%",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "GNPA 2.50% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "it will be below 1%, it could be around 15 to 20 bps this year.",
-          "period": "FY26",
-          "basis": "Credit cost ceiling ~20bp",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "Credit cost described as negligible; FY26 PBT 2,957.87 cr vs operating profit 2,986.49 cr (non-tax provisions ~28.6 cr)",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-07-28",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "So, we still have around INR250-odd crores recovery expected in technical written-off accounts this year.",
-          "period": "FY26",
-          "basis": "TWO recoveries ~250 cr",
-          "source": "Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
-          "outcome": "~250 cr TWO recoveries in FY26 per mgmt",
-          "outcome_source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf, p9",
-          "item_grade": 2,
-          "note": "Outcome rests on mgmt statement in the Q1 FY27 call; FY26 TWO recovery not separately disclosed in the presentations opened. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
         {
           "class": 3,
           "date": "2025-07-28",
@@ -917,7 +440,7 @@
           "outcome": "Q2 FY26 cost of deposits 4.86% (up 3bp QoQ)",
           "outcome_source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p3; Q1 FY26 4.83% per Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 11",
           "item_grade": 1,
-          "note": "Overshoot 0.6% vs ceiling; MD said at the Q2 call that CoD had 'now peaked'. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Overshoot 0.6% vs ceiling; MD said at the Q2 call that CoD had 'now peaked'. Rule 7: Q4 FY25 call gave no cost-of-deposits target; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 10,
@@ -936,7 +459,7 @@
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.8,
+      "grade": 1.4,
       "status": "graded",
       "promises": [
         {
@@ -950,7 +473,7 @@
           "outcome": "Gross advances +16.8% YoY",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Original FY26 guide. Restated unchanged at the Q1 FY26 (28-Jul-2025), Q2 FY26 (18-Oct-2025, p4) and Q3 FY26 (20-Jan-2026, p4) calls; duplicates removed under rule 7. Q3 FY25 call (immediately prior) carried no FY26 guide in the original extraction (not re-opened in this re-grade, fetch timeout). Q3 FY26 Q&A widened it to 12–15% (p7). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 1,
@@ -963,7 +486,7 @@
           "outcome": "Deposits +11.3% YoY",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Original FY26 guide. Restated unchanged at the Q1 FY26 (28-Jul-2025), Q2 FY26 (18-Oct-2025, p4) and Q3 FY26 (20-Jan-2026, p4) calls; duplicates removed under rule 7. Q3 FY25 call (immediately prior) carried no FY26 guide in the original extraction (not re-opened in this re-grade, fetch timeout). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -973,10 +496,10 @@
           "period": "FY26",
           "basis": "CASA ratio floor 48%",
           "source": "Q4 FY25 transcript, jkbank.com/sites/default/files/2025-05/Call Transcript.pdf (May 2025), p4",
-          "outcome": "CASA 45.65% at 31-Mar-2026",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 1,
-          "note": "Shortfall 4.9%. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "outcome": "CASA 45.65% at 31-Mar-2026; target re-set to 45% on 20-Jan-2026",
+          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q3 FY26 transcript, jkb.bank.in/sites/default/files/2026-01/Transcript.pdf (Jan 2026), p3–4",
+          "item_grade": 0,
+          "note": "Original FY26 CASA guide; reaffirmed at 48% at the Q1 FY26 and Q2 FY26 calls (p4, p6). Re-set before period end at the Q3 FY26 call (20-Jan-2026, p4: 'the bank is revising its CASA guidance'; reasons: customer preference for higher-yielding investment avenues and constrained system liquidity; guide read out as 45%) with CASA already 44.10% at 31-Dec-2025 (p3), i.e. after the shortfall was public. Rule 7 / class-9 rule: reasoned but not prospective = 0 (was 1 on delivery: shortfall 4.9% vs 48%). Duplicates removed. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 2,
@@ -986,10 +509,10 @@
           "period": "FY26",
           "basis": "Full-year reported NIM, 3.70–3.80% (original FY26 guide)",
           "source": "Q4 FY25 transcript, jkbank.com/sites/default/files/2025-05/Call Transcript.pdf (May 2025), p4",
-          "outcome": "NIM 3.60% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
+          "outcome": "NIM 3.60% FY26; guide cut to 3.65–3.70% on 28-Jul-2025",
+          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY26 transcript, jkbank.com/sites/default/files/2025-07/Call Transcript.pdf (Jul 2025), page markers not retrieved",
           "item_grade": 1,
-          "note": "Basis: bank-reported full-year NIM. Mgmt conceded the NIM miss (Q4 FY26 call p3). Shortfall 0.10pp vs low end. Revised down to 3.65–3.70% at the Q1 FY26 call after the June 2025 50bp repo cut; scored against this original figure. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Basis: bank-reported full-year NIM. Revised down to 3.65–3.70% at the Q1 FY26 call (28-Jul-2025) with reason stated ('necessitated by the RBI's surprise jumbo rate cut of 50 bps in June 2025') while FY26 was open; reaffirmed at Q2 FY26 (p4; Q&A 'more than 3.6%', p7) and Q3 FY26 (p3, 'unless there is another rate cut'). Rule 7 / class-9 rule: prospective and reasoned = 1 (Q1 FY26 NIM 3.72%, above the 3.70% low end, per Q1 FY26 call: shortfall not yet public). On delivery also 1: 3.60% vs 3.70% low end, shortfall 0.10pp. Mgmt conceded the miss (Q4 FY26 call p3). Duplicates removed. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -999,10 +522,10 @@
           "period": "FY26",
           "basis": "RoA ≥ FY25 1.32%",
           "source": "Q4 FY25 transcript, jkbank.com/sites/default/files/2025-05/Call Transcript.pdf (May 2025), p4",
-          "outcome": "RoA 1.37% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "outcome": "Guide cut to 1.20–1.25% on 18-Oct-2025 with H1 RoA 1.17% already public; FY26 delivered RoA 1.37%",
+          "outcome_source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4; Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
+          "item_grade": 0,
+          "note": "Restated at Q1 FY26 ('ROA maintain around FY'24-25 levels'). Cut at the Q2 FY26 call ('we are revising our guidance for RoA and RoE ... to reflect this exceptional and unforeseen substantial impairment provision', p4): reasoned but made after the H1 shortfall was public. Rule 7 / class-9 rule = 0 (was 2 on delivery). Replaces the separate Q2 FY26 class-9 item and the revised-range duplicates in Q2 FY26 and Q3 FY26. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1012,10 +535,10 @@
           "period": "FY26",
           "basis": "RoE 16–17%",
           "source": "Q4 FY25 transcript, jkbank.com/sites/default/files/2025-05/Call Transcript.pdf (May 2025), p4",
-          "outcome": "RoE 16.85% FY26",
-          "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "outcome": "Guide cut to 15–16% on 18-Oct-2025 with H1 RoE 14.52% already public; FY26 delivered RoE 16.85%",
+          "outcome_source": "Q2 FY26 transcript, NSE/BSE filing 2025-10-20, jkb.bank.in/sites/default/files/2025-10/b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf, p4; Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
+          "item_grade": 0,
+          "note": "Restated at Q1 FY26 ('ROE 16% to 17%'). Cut at the Q2 FY26 call with a reason (Grameen Bank impairment) but after the H1 shortfall was public. Rule 7 / class-9 rule = 0 (was 2 on delivery). Replaces the separate Q2 FY26 class-9 item and the revised-range duplicates. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1028,7 +551,7 @@
           "outcome": "GNPA 2.50% at 31-Mar-2026",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf",
           "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Ceiling; at or below. Restated unchanged at the Q1 FY26 (28-Jul-2025), Q2 FY26 (18-Oct-2025, p4) and Q3 FY26 (20-Jan-2026, p4) calls; duplicates removed under rule 7. Q3 FY25 call (immediately prior) carried no FY26 guide in the original extraction (not re-opened in this re-grade, fetch timeout). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1054,7 +577,7 @@
           "outcome": "Credit cost described as negligible; FY26 PBT 2,957.87 cr vs operating profit 2,986.49 cr (non-tax provisions ~28.6 cr)",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q1 FY27 investor presentation, jkb.bank.in/sites/default/files/2026-07/Investor_PPT Q1 FY2027.pdf, slide 9",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Original FY26 credit-cost guide. Restatements folded here (duplicates removed under rule 7): Q1 FY26 'it will be below 1%, it could be around 15 to 20 bps this year'; Q2 FY26 'The credit cost, I have always said it will be below 1%.' (p5); Q3 FY26 'I do not think that the credit cost will be anything positive by the end of this year.' (p10). All held. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1067,7 +590,7 @@
           "outcome": "~250 cr TWO recoveries in FY26 per mgmt",
           "outcome_source": "Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf, p9",
           "item_grade": 2,
-          "note": "Outcome rests on mgmt statement in the Q1 FY27 call; FY26 TWO recovery not separately disclosed in the presentations opened. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Outcome rests on mgmt statement in the Q1 FY27 call; FY26 TWO recovery not separately disclosed in the presentations opened. Restated at Q1 FY26 ('around INR250-odd crores recovery expected'); duplicate removed under rule 7. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 6,
@@ -1083,19 +606,6 @@
           "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
-          "class": 8,
-          "date": "2025-05-06",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "Our target is to reach to around 50% in a couple of years, maybe in a year and a half.",
-          "period": "by FY27",
-          "basis": "Cost-to-income ~50%",
-          "source": "Q4 FY25 transcript, jkbank.com/sites/default/files/2025-05/Call Transcript.pdf (May 2025), p7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open; FY26 56.18%, Q1 FY27 58.90%. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
           "class": 10,
           "date": "2025-05-06",
           "speaker": "Amitava Chatterjee, MD & CEO",
@@ -1106,106 +616,15 @@
           "outcome": "FY26 record profit (2,363 cr) and all growth guides beaten; mgmt later cited a non-conducive J&K business environment (J&K loan growth 9.5% vs ROI 28.8%)",
           "outcome_source": "Q4 FY26 Investor Brief, jkb.bank.in/sites/default/files/2026-05/Investor Brief.pdf; Q4 FY26 transcript, jkb.bank.in/sites/default/files/2026-05/Call Transcript.pdf (May 2026), p3; Q1 FY27 transcript, jkbank.com/sites/default/files/2026-08/Transcript.pdf, p8",
           "item_grade": 2,
-          "note": "Held on the bank-level business and financial measures stated; J&K-region growth was weaker and offset by ROI lending. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Held on the bank-level business and financial measures stated; J&K-region growth was weaker and offset by ROI lending. Rule 6 not applicable: call statement on a security event, not a Reg. 30 penalty/tax/litigation impact line. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     },
     {
       "label": "Q3 FY25",
-      "grade": 1.5,
+      "grade": 1.8,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "Advances growth YoY, 15%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "Net advances +11.1% YoY (gross incl. TWO ~+9.8%)",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
-          "item_grade": 0,
-          "note": "Graded on the more favourable net-advances figure; shortfall 26% vs 15%. Mgmt conceded the miss (Q4 FY25 call p3). Mgmt hedged on p9: 'in all probability, we will be very close to that'. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 1,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "Deposit growth YoY, 12%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "Deposits +10.2% YoY",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
-          "item_grade": 0,
-          "note": "Shortfall 15% vs 12%. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "CASA ratio at 31-Mar-2025, 50%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "CASA 47.01% at 31-Mar-2025",
-          "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
-          "item_grade": 1,
-          "note": "Shortfall 6.0% vs 50%; presentation does not disclose CASA ratio. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 2,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "Full-year reported NIM, 3.75–3.85%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "NIM 3.92% FY25",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
-          "item_grade": 2,
-          "note": "Basis: bank-reported annualised NIM, same basis as guided. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "RoA 1.25–1.30%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "RoA 1.32% FY25",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "RoE 17–18%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p3–4",
-          "outcome": "RoE 17.37% FY25 (return on average net worth)",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "credit growth of 15%, deposit growth of 12%, CASA of 50%, NIM 3.75%-3.85%, return on assets 1.25%-1.30%, return on equity 17%-18% and GNPA at 3.5%.",
-          "period": "FY25",
-          "basis": "GNPA ratio at 31-Mar-2025, ceiling 3.5%",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p4",
-          "outcome": "GNPA 3.37% at 31-Mar-2025",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
-          "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
         {
           "class": 3,
           "date": "2025-01-21",
@@ -1217,7 +636,7 @@
           "outcome": "FY25 net profit 2,082.46 cr",
           "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 6 and 15",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: Q2 FY25 call made no FY25 profit statement; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 1,
@@ -1243,7 +662,7 @@
           "outcome": "CASA 47.01% at 31-Mar-2025",
           "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
           "item_grade": 1,
-          "note": "Fell 1.16pp; shortfall 2.4% vs the 48.17% floor. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Fell 1.16pp; shortfall 2.4% vs the 48.17% floor. Rule 7: Q2 FY25 call said only 'CASA is expected to improve further' in H2 (p4), unquantified and a different period; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1269,132 +688,15 @@
           "outcome": "FY25 TWO recovery ~390 cr vs 9M ~146 cr (per analyst on the call) → Q4 ~244 cr",
           "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
           "item_grade": 2,
-          "note": "Q4 figure derived from FY25 total less the 9M figure cited on the Q3 call. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "the credit cost continues to be benign, and we expect it to remain like this for the current fiscal in line with our earlier guidance.",
-          "period": "FY25",
-          "basis": "Credit cost ~nil",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p7",
-          "outcome": "FY25 provisions and contingencies a net write-back of 3.91 cr",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 6 and 15",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 8,
-          "date": "2025-01-21",
-          "speaker": "Amitava Chatterjee, MD & CEO",
-          "quote": "within that period, we will be able to bring it below 50%.",
-          "period": "FY27–FY28",
-          "basis": "Cost-to-income below 50% in 2–3 years",
-          "source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p8",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Q4 figure derived from FY25 total less the 9M figure cited on the Q3 call. Rule 7: Q2 FY25 call's 'about INR350 crores in the next 2 quarters' (p9) covers a different period; this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     },
     {
       "label": "Q2 FY25",
-      "grade": 1.6,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "Advances growth YoY, ~15%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "Net advances +11.1% YoY (gross incl. TWO ~+9.8%)",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
-          "item_grade": 0,
-          "note": "Graded on the more favourable net-advances figure; shortfall 26% vs 15%. Mgmt conceded the miss (Q4 FY25 call p3). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 1,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "Deposit growth YoY, ~12%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "Deposits +10.2% YoY",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
-          "item_grade": 0,
-          "note": "Shortfall 15% vs 12%. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "CASA ratio at 31-Mar-2025, 50%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "CASA 47.01% at 31-Mar-2025",
-          "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
-          "item_grade": 1,
-          "note": "Shortfall 6.0% vs 50%; presentation does not disclose CASA ratio. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 2,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "Full-year reported NIM, 3.75–3.85%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "NIM 3.92% FY25",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
-          "item_grade": 2,
-          "note": "Basis: bank-reported annualised NIM, same basis as guided. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "RoA 1.25–1.30%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "RoA 1.32% FY25",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "RoE 17–18%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "RoE 17.37% FY25 (return on average net worth)",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 9",
-          "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
-        {
-          "class": 3,
-          "date": "2024-10-25",
-          "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "So, we maintain our earlier guidance for financial year 2025, which is credit growth of around 15%, deposit growth of around 12%, CASA 50%, NIM 3.75% to 3.85%, ROA 1.25% to 1.3%, ROE 17% to 18%, gross NPA 3.5%.",
-          "period": "FY25",
-          "basis": "GNPA ratio at 31-Mar-2025, ceiling 3.5%",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
-          "outcome": "GNPA 3.37% at 31-Mar-2025",
-          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
-          "item_grade": 2,
-          "note": "Ceiling; at or below. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
-        },
         {
           "class": 3,
           "date": "2024-10-25",
@@ -1406,7 +708,7 @@
           "outcome": "Cost-to-income 57.73% FY25",
           "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p4",
           "item_grade": 2,
-          "note": "Added 'It will be definitely better than that.' Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Added 'It will be definitely better than that.' Rule 7: 'we have given it' implies an earlier statement, but the Q1 FY25 call (27-Jul-2024) states no cost-to-income guide, so the trace stops here (quarterly-class method). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
@@ -1419,7 +721,7 @@
           "outcome": "FY25 TWO recovery ~390 cr",
           "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: Q1 FY25 call gave no figure (directional only); this is the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 10,
@@ -1432,7 +734,7 @@
           "outcome": "No equity raised in FY25; 'There has not been any additional capital from any of the governments so far' (Jan 2025); FY26 raise discussed only as 'may consider' (May 2025)",
           "outcome_source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p15; Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p4",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Rule 7: Q1 FY25 call (p4) had only the hedged 'With healthy accruals, we may not require issuance of additional equity capital' — not an assurance; this item kept as the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 7,
@@ -1445,20 +747,140 @@
           "outcome": "Amitava Chatterjee in post as MD & CEO from 30-Dec-2024",
           "outcome_source": "Q3 FY25 transcript, NSE/BSE filing 2025-01-25, jkbank.com/sites/default/files/2025-04/Transcripts_25012025.pdf, p2",
           "item_grade": 2,
-          "note": "Succession date per the Q3 FY25 transcript participant list/introduction. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Succession date per the Q3 FY25 transcript participant list/introduction. Rule 7: Q1 FY25 call (p8) said the selection 'process has already started' but set no completion date; this item kept as the original. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "outside_window": true,
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-05-06",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "Deposit growth YoY, ~12%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "Deposits +10.2% YoY",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
+          "item_grade": 0,
+          "note": "Shortfall 15% vs 12%. Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         },
         {
           "class": 3,
-          "date": "2024-10-25",
+          "date": "2024-05-06",
           "speaker": "Baldev Prakash, MD & CEO",
-          "quote": "we expect the credit cost to be benign for the current fiscal.",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "CASA ratio at 31-Mar-2025, 50%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "CASA 47.01% at 31-Mar-2025",
+          "outcome_source": "Q4 FY25 transcript (results statements), jkbank.com/sites/default/files/2025-05/Call Transcript.pdf, p3",
+          "item_grade": 1,
+          "note": "Shortfall 6.0% vs 50%; presentation does not disclose CASA ratio. Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        },
+        {
+          "class": 2,
+          "date": "2024-05-06",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "Full-year reported NIM, 3.75–3.85%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "NIM 3.92% FY25",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
+          "item_grade": 2,
+          "note": "Basis: bank-reported annualised NIM, same basis as guided. Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-06",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "RoA 1.25–1.30%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "RoA 1.32% FY25",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 9",
+          "item_grade": 2,
+          "note": "Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-06",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "RoE 17–18%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "RoE 17.37% FY25 (return on average net worth)",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 9",
+          "item_grade": 2,
+          "note": "Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-06",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Market guidance for the Financial Year '24-'25 will be the credit growth of around 15%, ... deposit growth of around 12%, CASA 50%, NIM 3.75-3.85%, ROA 1.25-1.3%, ROE 17-18%, gross NPA at 3.5%.",
+          "period": "FY25",
+          "basis": "GNPA ratio at 31-Mar-2025, ceiling 3.5%",
+          "source": "Q4 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuAndKashmirBank-08052024.pdf (call 06-May-2024), p5",
+          "outcome": "GNPA 3.37% at 31-Mar-2025",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slide 7",
+          "item_grade": 2,
+          "note": "Ceiling; at or below. Original FY25 guide (rule 7): reaffirmed at the Q1 FY25 call (27-Jul-2024, p5: 'We maintained the guidance for the financial year 2025, as discussed in the March quarter call.'), Q2 FY25 (25-Oct-2024, p5) and Q3 FY25 (21-Jan-2025, p3–4) calls; in-window duplicates removed. Q3 FY24 call (22-Jan-2024) gave no FY25 figure for this metric (re-opened). Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY24",
+      "outside_window": true,
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-01-22",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "the overall growth in credit in the next year looks like in the range of around 15%, 16%, 17%.",
+          "period": "FY25",
+          "basis": "Advances growth YoY, ~15–17% (graded on 15% low end)",
+          "source": "Q3 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuKashmir-22Jan-2024.pdf (call 22-Jan-2024), p11",
+          "outcome": "Net advances +11.1% YoY (gross incl. TWO ~+9.8%)",
+          "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 7 and 16",
+          "item_grade": 0,
+          "note": "Graded on the more favourable net-advances figure; shortfall 26% vs 15%. Rule 7: moved from Q4 FY24; restated as '~15%' at Q4 FY24 (06-May-2024, p5) and Q1–Q3 FY25 calls. Mgmt conceded the miss (Q4 FY25 call p3). Quote via fetch-tool extraction; not character-checked."
+        },
+        {
+          "class": 3,
+          "date": "2024-01-22",
+          "speaker": "Baldev Prakash, MD & CEO",
+          "quote": "Credit cost, we have already indicated that it will remain near zero in 2024 also and '25 also.",
           "period": "FY25",
           "basis": "Credit cost ~nil",
-          "source": "Q2 FY25 transcript, jkbank.com/media/ICICISec-JK-Oct25-2024_Transcript.pdf (Oct 2024), p5",
+          "source": "Q3 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuKashmir-22Jan-2024.pdf (call 22-Jan-2024), p19",
           "outcome": "FY25 provisions and contingencies a net write-back of 3.91 cr",
           "outcome_source": "Q4 FY25 investor presentation, jkb.bank.in/sites/default/files/2025-05/Investor_PPT_Q4Mar2025.pdf, slides 6 and 15",
           "item_grade": 2,
-          "note": "Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+          "note": "Earliest opened statement (rule 7); 'already indicated' implies an earlier one, but the Q2 FY24 transcript (23-Oct-2023) could not be opened (only the filing cover letter was retrieved). Graded on the FY25 leg only. Restated at Q4 FY24 (06-May-2024, p8: 'near zero or almost negligible'), Q1 FY25 (p4), Q2 FY25 (p5: 'we expect the credit cost to be benign for the current fiscal.') and Q3 FY25 (p7: '... in line with our earlier guidance.'); in-window duplicates removed. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
+        },
+        {
+          "class": 8,
+          "date": "2024-01-22",
+          "speaker": "Pratik D. Punjabi, CFO",
+          "quote": "by '28 we see a cost-income ratio of thereabout 50%.",
+          "period": "by FY28",
+          "basis": "Cost-to-income ~50%",
+          "source": "Q3 FY24 transcript, jkbank.com/sites/default/files/2025-04/ICICISec-JammuKashmir-22Jan-2024.pdf (call 22-Jan-2024), p17",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Original multi-year target (rule 7). Restatements folded here (duplicates removed): Q3 FY25 (21-Jan-2025, p8) 'within that period, we will be able to bring it below 50%' (2–3 years, FY27–FY28); Q4 FY25 (06-May-2025, p7) 'Our target is to reach to around 50% in a couple of years, maybe in a year and a half' (pulled forward to ~FY27). Not cut; open until FY28. FY26 56.18%, Q1 FY27 58.90%. Q2 FY24 transcript not opened. Quote via fetch-tool extraction of the filed PDF; not character-checked against the PDF."
         }
       ]
     }

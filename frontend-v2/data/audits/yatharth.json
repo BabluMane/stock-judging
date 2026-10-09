@@ -1,103 +1,16 @@
 {
   "ticker": "YATHARTH",
   "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 5.4,
+  "note": "Standard mode: 8 calls Q2 FY25-Q1 FY27 in window, plus 4 rule-7 originating calls (Q1-Q4 FY24) marked outside_window; weights 12->1 by position. Sources not retrieved: Q1 FY25 call transcript (Aug 2024; company IR page robots-blocked, no exchange copy found) - the FY25 Rs 1,000 Cr revenue figure is graded on the earliest opened statement (Q2 FY25); 14-Sep-2026 Reg. 30 filing on income-tax proceedings (company site robots-blocked, BSE copy 403); FY26 annual report (company site). Rule 6 test: no Reg. 30 'no material impact' line is captured in this file; all class-10 items are call statements. The only candidate, the 14-Sep-2026 income-tax filing, could not be opened; if its amount were the media-reported ~Rs 43.8 Cr demand [unverified], it would be ~26% of FY26 consolidated PAT (~Rs 170 Cr = PBT Rs 2,236 mn - tax Rs 533 mn, Q4 FY26 presentation), above 1%, so it would be captured on retrieval. v1.2 rule-7 re-grade: rule 7 traced restatements to 28 original items and removed 68 duplicate items, folding them into notes (107 items before, 50 after). It added 4 outside-window originating calls: Q4 FY24 (margin sustainable 3-4 yrs, cut to 25-26% after a public shortfall = 0; >=29% growth = 2; tax matter by FY25 = 0), Q3 FY24 (Greater Faridabad 2-yr breakeven = 2), Q2 FY24 (double beds in 3-4 yrs, no long-term loans, no tax impact; all open) and Q1 FY24 (brownfield in 2-3 yrs = 0; Rs 60-75 lakh/bed open). It added Q2 FY25 group government share 25% in 2.5-3 yrs, moved before period end without reason = 0, and Q2 FY26 Rs 1,500 Cr capex (open). It re-graded Q3 FY25 receivable days 75-80 from open to 0 (moved before period end, no reason). Repeated operational and tax deadlines now score once on their first date (Faridabad Sec 20 and Model Town openings 0). Rule 6 changed nothing. score_10 missing in the saved file (6.1 on its call grades, weights 8->1) -> 5.4. Originating transcripts Q1-Q4 FY24 re-opened 2026-10-08. RHP (SEBI, 2023-07-20) opened in part (pp.6-23): no bed, timeline, margin or mix commitment found; Objects of the Offer section not reached.",
   "quarters": [
     {
       "label": "Q1 FY27",
       "grade": null,
       "status": "pending",
       "promises": [
-        {
-          "class": 7,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "The upcoming 250-bedded Gurugram facility expected to commence operations by Q1 of next fiscal",
-          "period": "Q1 FY28",
-          "basis": "Gurugram 250-bed hospital operational",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q4 FY26 call said 'operational by April 2027'; CFC Goyal (p.19) 'close to the March or the first quarter of FY2028'."
-        },
-        {
-          "class": 8,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "probably somewhere around two and a half years, I think would be a right estimation.",
-          "period": "by ~Feb 2029",
-          "basis": "Total bed capacity 5,000",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.17",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: pulled forward from 'over the next three years' (Q4 FY26 call)."
-        },
-        {
-          "class": 7,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "200 beds would be earlier and 250 beds will be probably in 18 to 19 months.",
-          "period": "200 beds ~Nov 2027; 250 beds ~Feb-Mar 2028",
-          "basis": "Brownfield beds commissioned at Greater Noida / Noida Extension",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.9",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Third successive slip: Q4 FY25 call said 1.5 years from May 2025 (~Nov 2026); Q1 FY26 said ~2 years from Aug 2025."
-        },
-        {
-          "class": 2,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the company is on track close to upwards of 24% EBITDA margin for the full FY27 is concerned.",
-          "period": "FY27",
-          "basis": "Consolidated EBITDA margin, excluding other income (company basis)",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.9",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: softened from Q4 FY26 '24% to 25%' and 'better than FY26 (24.2%)'. Q1 FY27 actual 23.3%."
-        },
-        {
-          "class": 1,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "this year will definitely be upwards of last year's revenue growth",
-          "period": "FY27",
-          "basis": "Consolidated revenue growth YoY > FY26's 36%",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.17",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "ARPOB will continue to grow somewhere between 8% to 10% Y-o-Y from each year.",
-          "period": "FY27 onward",
-          "basis": "Group ARPOB growth YoY",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.16",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q4 FY26 said 'close to 10%'; Q1 FY27 actual +7%."
-        },
-        {
-          "class": 7,
-          "date": "2026-08-11",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "Model town, we are expecting it to break even, somewhere around, between Q3, Q4 this year",
-          "period": "Q3-Q4 FY27",
-          "basis": "New Delhi Model Town hospital-level EBITDA breakeven",
-          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q4 FY26 said 14-15 months; now 15-17 months."
-        },
         {
           "class": 8,
           "date": "2026-08-11",
@@ -109,7 +22,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: not stated on the Q4 FY26 call (Gurugram is FY28); original here."
         },
         {
           "class": 5,
@@ -122,7 +35,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Conflicts within the call with Tyagi's ~2x TTM EBITDA debt headroom (p.18)."
+          "note": "Conflicts within the call with Tyagi's ~2x TTM EBITDA debt headroom (p.18). Rule 7: Q4 FY26 call said the opposite ('going forward, yes, we will also take certain debt', p.7), so original here."
         },
         {
           "class": 4,
@@ -135,7 +48,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Revision: Q4 FY26 said ~Rs 75 lakh with 'no escalation in the cost'."
+          "note": "Kept separate: the Q4 FY26 '~Rs 75 lakh, no escalation' (p.16) referred to the Greater Noida / Noida Extension brownfield, which is traced to the Q1 FY24 Rs 60-75 lakh item."
         },
         {
           "class": 10,
@@ -154,22 +67,9 @@
     },
     {
       "label": "Q4 FY26",
-      "grade": 1,
+      "grade": 0.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 7,
-          "date": "2026-05-26",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "which will be obviously breakeven in a month of probably 10th or 11th month maximum.",
-          "period": "~Jul-Aug 2026",
-          "basis": "Faridabad Sector 20 hospital-level EBITDA breakeven (opened end-Sep 2025)",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.10",
-          "outcome": "EBITDA breakeven achieved in Q1 FY27, ~9 months after opening",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10; Q1 FY27 transcript, NSE filing 2026-08-18, p.8",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 10,
           "date": "2026-05-26",
@@ -181,20 +81,7 @@
           "outcome": "Board approved Rs 3,150 Cr primary preferential issue (equity + warrants) to Advent International for a ~24.9% stake on 2026-09-17, under four months later",
           "outcome_source": "Press release on Advent International preferential issue, BSE filing 2026-09-17",
           "item_grade": 0,
-          "note": "Assurance contradicted. Severe test (backbone §4): does not impair capital, end a revenue stream or make reported numbers unreliable, so not a major issue; no call override. Use of the Rs 3,150 Cr not stated in the opened release."
-        },
-        {
-          "class": 10,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we feel that before the end of Quarter 2 for this financial year",
-          "period": "by 2026-09-30",
-          "basis": "Income-tax matter resolved with no material liability",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.17",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Period closed but outcome not retrieved: the company's 14-Sep-2026 Reg 30 filing ('Favourable Developments In Income Tax Proceedings') could not be opened (site blocked by robots.txt; BSE copy 403). Media report assessment orders with ~Rs 43.8 Cr demand under appeal [unverified]. Not graded."
+          "note": "Assurance contradicted. Severe test (backbone §4): does not impair capital, end a revenue stream or make reported numbers unreliable, so not a major issue; no call override. Use of the Rs 3,150 Cr not stated in the opened release. Rule 7: Q3 FY26 call has no 'no fundraise' statement (funding via accruals, cash, possible debt, pp.6, 14, 18), so original here."
         },
         {
           "class": 1,
@@ -207,46 +94,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "Our margin guidance has always been somewhere around 24% to 25%.",
-          "period": "FY27",
-          "basis": "Consolidated EBITDA margin, excluding other income (company basis); also 'next financial year EBITDA margins should actually be better' than FY26 24.2%",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "going forward, also this growth should be close to 10% for upcoming years is concerned.",
-          "period": "FY27 onward",
-          "basis": "Group ARPOB growth YoY (Q4 FY26 base Rs 33,282)",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 8,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "We remain confident of achieving our target of 5,000 beds over the next three years.",
-          "period": "by ~May 2029",
-          "basis": "Total bed capacity 5,000",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.5",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
+          "note": "Rule 7: Q3 FY26 call gave no FY27 revenue figure, so original here. Restated Q1 FY27 (2026-08-11, p.17): 'this year will definitely be upwards of last year's revenue growth' (duplicate removed)."
         },
         {
           "class": 7,
@@ -259,46 +107,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Already softened to 'Q1 FY28' on the Q1 FY27 call."
-        },
-        {
-          "class": 7,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "you will see in this FY '27 H2, that both these two hospitals would be EBITDA breakeven.",
-          "period": "H2 FY27",
-          "basis": "New Delhi Model Town EBITDA breakeven (Faridabad Sec 20 graded separately)",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-05-26",
-          "speaker": "Sonu Goyal, Group Financial Controller",
-          "quote": "But for FY '27 the outlook tend to around 90 to 95 days.",
-          "period": "FY27",
-          "basis": "Consolidated debtor days (FY26: 112)",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-05-26",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "in two years down the line, the government business should be somewhere around 25%.",
-          "period": "FY28",
-          "basis": "Government-scheme share of revenue (~35% at call)",
-          "source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.13",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q1 FY27 call reported ~40% government share and did not restate the 25% target."
+          "note": "Rule 7: the acquisition release (NSE 2026-05-13) gives no date, so original here. Same call, Amit Kumar Singh (p.15): '13 to 15 months'. Restated Q1 FY27 (2026-08-11, p.4) as 'commence operations by Q1 of next fiscal' and by CFC Goyal (p.19) 'close to the March or the first quarter of FY2028' (duplicate removed). April 2027 falls inside Q1 FY28, so not treated as a cut; graded at period end against April 2027."
         },
         {
           "class": 1,
@@ -317,7 +126,7 @@
     },
     {
       "label": "Q3 FY26",
-      "grade": 1.6,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
         {
@@ -344,7 +153,7 @@
           "outcome": "Q4 FY26 EBITDA margin 23.4%",
           "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
           "item_grade": 2,
-          "note": "Q3 FY26 later restated to 23.4%; tested against the original 23.2%. Q1 FY27 margin 23.3%."
+          "note": "Q3 FY26 later restated to 23.4%; tested against the original 23.2%. Q1 FY27 margin 23.3%. Quarter-specific, kept separate from the multi-year margin item (Q4 FY24)."
         },
         {
           "class": 7,
@@ -360,97 +169,6 @@
           "note": ""
         },
         {
-          "class": 7,
-          "date": "2026-02-06",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "Faridabad probably we will do a breakeven probably much earlier. In fact, probably well within the 12 months.",
-          "period": "by ~Sep 2026",
-          "basis": "Faridabad Sector 20 hospital-level EBITDA breakeven",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.18",
-          "outcome": "EBITDA breakeven in Q1 FY27, ~9 months after opening",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10; Q1 FY27 transcript, NSE filing 2026-08-18, p.8",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-02-06",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "we can easily take it up by next quarter, I think anything between INR30,000, INR32,000 kind of ARPOB.",
-          "period": "Q4 FY26-Q1 FY27",
-          "basis": "Agra hospital ARPOB",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.8",
-          "outcome": "Agra ARPOB ~Rs 26-27k (Q4 FY26), ~Rs 27k (Q1 FY27)",
-          "outcome_source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.7; Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
-          "item_grade": 0,
-          "note": "Shortfall ~10-13% against the Rs 30,000 low end."
-        },
-        {
-          "class": 2,
-          "date": "2026-02-06",
-          "speaker": "Ashutosh Kumar Jha, Group Chief Strategy, M&A & IR",
-          "quote": "our guidance for the blended EBITDA margin is in the range of 24% to 25% on a consolidated level.",
-          "period": "FY27",
-          "basis": "Consolidated EBITDA margin excl. other income",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.18",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-02-06",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "10% ARPOB year-on-year, I think that's quite easily achievable for us. That's what our guidance.",
-          "period": "FY27 onward",
-          "basis": "Group ARPOB growth YoY",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q2 FY26 guided 8-9% for FY26."
-        },
-        {
-          "class": 8,
-          "date": "2026-02-06",
-          "speaker": "Ashutosh Kumar Jha, Group Chief Strategy, M&A & IR",
-          "quote": "addition of almost 3,000 beds to take the total cumulative beds to 5,000 in the next 3 years.",
-          "period": "by ~FY29",
-          "basis": "Total bed capacity 5,000 (announced)",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Supersedes the 3,000-beds-by-FY28 target."
-        },
-        {
-          "class": 4,
-          "date": "2026-02-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "that is around INR1,500 crores for getting us a bed capacity of close to 5,000 beds.",
-          "period": "FY27-FY29",
-          "basis": "Total capex incl. M&A for the 5,000-bed plan",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.14",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-02-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "1.5 years from now, I think we should be close to commissioning them.",
-          "period": "~Aug 2027",
-          "basis": "Greater Noida and Noida Extension brownfield commissioning",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q2 FY26 said ~15 months (Greater Noida) and 17-18 months (Noida Extension)."
-        },
-        {
           "class": 3,
           "date": "2026-02-06",
           "speaker": "Sonu Goyal, Group Financial Controller",
@@ -461,20 +179,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2026-02-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "in 2, 2.5 years' time, our government mix should be reduced somewhere close to 25% to 28%.",
-          "period": "~FY28",
-          "basis": "Government-scheme share of revenue",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
+          "note": "Rule 7: FY27-specific target first stated here. Same call p.16: '105 to 110 ... by March 2027'. Revised Q4 FY26 (2026-05-26, p.11-12, Goyal): 'for FY '27 the outlook tend to around 90 to 95 days' (duplicate removed; graded against the original <110)."
         },
         {
           "class": 3,
@@ -487,54 +192,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open: Agra's mix not separately disclosed."
+          "note": "Open: Agra's mix not separately disclosed. Kept separate from the Q2 FY25 20-25% item because the basis adds Agra."
         }
       ]
     },
     {
       "label": "Q2 FY26",
-      "grade": 1,
+      "grade": 0.6,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "We feel that this number should be easily overachieved.",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth YoY >= 30% (analyst's figure, accepted)",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.10",
-          "outcome": "FY26 revenue Rs 12,072 mn, +36% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide; Q4 FY26 press release, NSE filing 2026-05-25",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we are able to maintain margins upwards of 23% of EBITDA.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA margin excl. other income",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.11",
-          "outcome": "FY26 EBITDA margin 24.2%",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-11-14",
-          "speaker": "Sonu Goyal, Group Financial Controller",
-          "quote": "we are pretty much sure with the next 15 months to 17 months, both hospitals will be EBITDA breakeven.",
-          "period": "~Feb-Apr 2027",
-          "basis": "EBITDA breakeven, Faridabad Sec 20 and Model Town",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.6",
-          "outcome": "Faridabad Sec 20 broke even in Q1 FY27; Model Town still loss-making, breakeven guided H2 FY27",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": "Graded on Faridabad Sec 20 (delivered early). Model Town leg open until ~Apr 2027."
-        },
         {
           "class": 7,
           "date": "2025-11-14",
@@ -556,36 +222,10 @@
           "period": "From integration",
           "basis": "Agra hospital ARPOB",
           "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.9",
-          "outcome": "Agra ARPOB ~Rs 26-27k in Q4 FY26",
-          "outcome_source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.7",
+          "outcome": "Agra ARPOB ~Rs 26-27k in Q4 FY26, ~Rs 27k in Q1 FY27",
+          "outcome_source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.7; Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
           "item_grade": 0,
-          "note": "Shortfall ~10-13%."
-        },
-        {
-          "class": 3,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we will still be on the track for our ARPOB growth of for the whole year somewhere around 8% to 9%.",
-          "period": "FY26",
-          "basis": "Group ARPOB growth YoY",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.7",
-          "outcome": "FY26 ARPOB Rs 33,124, +7% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 0,
-          "note": "Shortfall 12.5% against the 8% low end."
-        },
-        {
-          "class": 3,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "within 12 months or even earlier, this ARPOB can cross INR40,000",
-          "period": "by ~Nov 2026",
-          "basis": "New Delhi Model Town hospital ARPOB",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.9",
-          "outcome": "Model Town ARPOB ~Rs 50k in Q1 FY27",
-          "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
-          "item_grade": 2,
-          "note": ""
+          "note": "Shortfall ~10-13%. Restated Q3 FY26 (2026-02-06, p.8, Amit Kumar Singh): 'anything between INR30,000, INR32,000 kind of ARPOB' by next quarter (duplicate removed)."
         },
         {
           "class": 10,
@@ -614,19 +254,6 @@
           "note": "Shortfall 50% against the 8-day low end."
         },
         {
-          "class": 7,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "I think the right timeline should be before the end of this financial year.",
-          "period": "by 2026-03-31",
-          "basis": "Income-tax matter resolved",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.7",
-          "outcome": "Not resolved by Mar 2026: described in May 2026 as at 'its final leg of conclusion'",
-          "outcome_source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.17",
-          "item_grade": 0,
-          "note": "Softened to 'coming quarters' on the Q3 FY26 call."
-        },
-        {
           "class": 8,
           "date": "2025-11-14",
           "speaker": "Yatharth Tyagi, Whole-Time Director",
@@ -640,155 +267,25 @@
           "note": "Shortfall 16.7% against the 300-bed low end."
         },
         {
-          "class": 8,
+          "class": 4,
           "date": "2025-11-14",
           "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "scope in the company to even close to double this capacity in next 3 to 4 years",
-          "period": "FY27-FY29",
-          "basis": "Bed capacity roughly doubled (from ~2,550)",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.17",
+          "quote": "So technically, we will be spending INR1,500 crores over the next 4.5 years.",
+          "period": "FY26 to ~FY30 (4.5 years from Nov 2025)",
+          "basis": "Total capex incl. M&A for the capacity plan",
+          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.8",
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Revised the 3,000-beds-by-FY28 target upward."
-        },
-        {
-          "class": 7,
-          "date": "2025-11-14",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "maybe 17, 18 months from today should be the Noida extension.",
-          "period": "~Apr-May 2027",
-          "basis": "Noida Extension brownfield commissioning (Greater Noida ~15 months)",
-          "source": "Q2 FY26 transcript, NSE filing 2025-11-20, p.16",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Already slipped to ~18 months on Q3 FY26 and 15-19 months from Aug 2026 on Q1 FY27."
+          "note": "Rule 7 addition: earliest statement of the Rs 1,500 Cr figure (previously captured only at Q3 FY26). Restated Q3 FY26 (2026-02-06, p.14, Tyagi): 'that is around INR1,500 crores for getting us a bed capacity of close to 5,000 beds', period compressed to FY27-FY29 (duplicate removed). Precursor of different scope, not captured: Q2 FY24 'Capex plans of around 800 Cr' over three years for ~1,400-1,450 beds."
         }
       ]
     },
     {
       "label": "Q1 FY26",
-      "grade": 1.4,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "our revenue growth expectations for the whole year remain the same. Our guidance remains the same",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth YoY ~30%",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.15",
-          "outcome": "FY26 revenue Rs 12,072 mn, +36% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": "Analyst's FY27 30% extension accepted ('Yes'); FY27 leg open."
-        },
-        {
-          "class": 2,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "1% up and down, but around 24% would be a right estimation.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA margin excl. other income; Q4 FY25 24.6% +/- 1pp",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.17",
-          "outcome": "FY26 EBITDA margin 24.2%",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": "Revision: Q4 FY25 call gave +/-0.5pp for FY26 and FY27."
-        },
-        {
-          "class": 7,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "somewhere around 15 months would be a right estimation for these two hospitals also.",
-          "period": "~Q4 FY27",
-          "basis": "EBITDA breakeven, New Delhi and Faridabad Sec 20",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.7",
-          "outcome": "Faridabad Sec 20 broke even in Q1 FY27 (~9 months)",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": "Graded on Faridabad Sec 20; Model Town leg open."
-        },
-        {
-          "class": 7,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the Faridabad facility is scheduled for inauguration in late August 2025",
-          "period": "late Aug 2025",
-          "basis": "Faridabad Sec 20 (400 beds) inauguration",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.4",
-          "outcome": "Started operations end-Sep 2025",
-          "outcome_source": "Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
-          "item_grade": 1,
-          "note": "About one month late."
-        },
-        {
-          "class": 3,
-          "date": "2025-08-06",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "anything between 8% to 10% that is the ARPOB growth which we are looking at.",
-          "period": "FY26",
-          "basis": "Group ARPOB growth YoY",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.10",
-          "outcome": "FY26 ARPOB Rs 33,124, +7% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 0,
-          "note": "Shortfall 12.5%; FY27 leg open."
-        },
-        {
-          "class": 3,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "It would be somewhere around Rs. 38,000 for those two new hospitals",
-          "period": "from Q3 FY26",
-          "basis": "ARPOB at New Delhi and Faridabad Sec 20",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.13",
-          "outcome": "Model Town ~Rs 40k in Q3 FY26 and ~Rs 50k in Q1 FY27; Faridabad Sec 20 ~Rs 40k in Q1 FY27",
-          "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13; Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-08-06",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "anything between, closer to Rs. 15,000 to the best-case scenario of Rs. 16,000 - Rs. 17,000",
-          "period": "Near term",
-          "basis": "Jhansi-Orchha ARPOB",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.5",
-          "outcome": "Jhansi ARPOB ~Rs 13k in Q1 FY27",
-          "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
-          "item_grade": 0,
-          "note": "Shortfall ~13% after a year; undated promise tested at latest disclosure."
-        },
-        {
-          "class": 7,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we remain confident for the remaining of FY 26, we will be adding and closing one of these opportunities.",
-          "period": "FY26",
-          "basis": "At least one hospital acquisition closed",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.13",
-          "outcome": "Agra (Shantived) acquired, integrated 2026-02-01",
-          "outcome_source": "Q3 FY26 investor presentation, BSE filing 2026-02-05, slide 12, slides 5, 14",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 6,
-          "date": "2025-08-06",
-          "speaker": "Sonu Goyal, Group Financial Controller",
-          "quote": "It is coming down 26% on a full year basis.",
-          "period": "FY26",
-          "basis": "Consolidated ETR cap 25-26%",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.24",
-          "outcome": "FY26 ETR 23.8% (tax Rs 533 mn / PBT Rs 2,236 mn)",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 3,
           "date": "2025-08-06",
@@ -800,33 +297,7 @@
           "outcome": "Debtor days ~116 at Sep-25",
           "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.11",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we do expect somewhere close to the end of this calendar year that also will be completed",
-          "period": "by Dec 2025",
-          "basis": "Income-tax matter closed",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.10",
-          "outcome": "Not closed by Dec 2025; 'expecting very soon' in Feb 2026",
-          "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.16",
-          "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "maybe government business should not be more than 20% - 24% in these two hospitals going forward.",
-          "period": "Ongoing",
-          "basis": "Government share at New Delhi and Faridabad Sec 20 (ceiling)",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.10",
-          "outcome": "100% cash/TPA (Q3-Q4 FY26); >90% cash/TPA (Q1 FY27)",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide; Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": ""
+          "note": "Rule 7: Q4 FY25 call gave no H1 FY26 debtor-days target, so original here."
         },
         {
           "class": 3,
@@ -839,7 +310,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q2 FY27 not reported yet; Q1 FY27: Sec 20 49%, Model Town 29%."
+          "note": "Q2 FY27 not reported yet; Q1 FY27: Sec 20 49%, Model Town 29%. Q4 FY25 call gave only a generic greenfield ramp-up figure, no hospital target."
         },
         {
           "class": 8,
@@ -852,106 +323,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 8,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "3,000 target, yes, definitely looks like it might be met before the FY '28 target.",
-          "period": "by FY28",
-          "basis": "Total bed capacity 3,000",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.23",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Superseded by the 5,000-bed target from Q3 FY26; graded at period end against 3,000."
-        },
-        {
-          "class": 7,
-          "date": "2025-08-06",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "The greater Noida hospital should be before two years, and Noida Extension should be around two years from today.",
-          "period": "~Aug 2027",
-          "basis": "Brownfield commissioning (+200 / +250 beds)",
-          "source": "Q1 FY26 transcript, NSE filing 2025-08-12, p.22",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Revision: Q4 FY25 said 1.5 years from May 2025."
+          "note": "Rule 7: no international-mix target on the Q4 FY25 call; original here."
         }
       ]
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.4,
+      "grade": 1.7,
       "status": "graded",
       "promises": [
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "We expect both hospitals to be operationalized by next month",
-          "period": "by 2025-06-30",
-          "basis": "New Delhi Model Town (300 beds) operational",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.4",
-          "outcome": "Operational 2025-07-14",
-          "outcome_source": "Q1 FY26 investor presentation, NSE filing 2025-08-05; Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
-          "item_grade": 1,
-          "note": "About two weeks late."
-        },
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "We expect both hospitals to be operationalized by next month",
-          "period": "by 2025-06-30",
-          "basis": "Faridabad Sec 20 (400 beds) operational",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.4",
-          "outcome": "Started operations end-Sep 2025",
-          "outcome_source": "Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
-          "item_grade": 1,
-          "note": "About one quarter late."
-        },
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "EBITDA breakeven somewhere after 12 to 15 months",
-          "period": "~Jul-Oct 2026",
-          "basis": "EBITDA breakeven, New Delhi and Faridabad Sec 20",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.7",
-          "outcome": "Faridabad Sec 20 broke even in Q1 FY27 (~9 months); Model Town guided H2 FY27",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": "Graded on Faridabad Sec 20. Model Town leg (by ~Oct 2026) open; Q2 FY27 results not yet filed."
-        },
-        {
-          "class": 2,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the overall margins should be somewhere around that for the whole financial year '26 and '27 individually ... maybe 0.5 percentage up or down",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA margin excl. other income; Q4 FY25 24.6% +/- 0.5pp",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.11",
-          "outcome": "FY26 EBITDA margin 24.2%",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": "FY27 leg open."
-        },
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the Greater Faridabad hospital will be EBITDA positive from the coming quarters",
-          "period": "FY26",
-          "basis": "Greater Faridabad hospital EBITDA positive",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.12",
-          "outcome": "Net-profit positive in Q1 FY26",
-          "outcome_source": "Q1 FY26 investor presentation, NSE filing 2025-08-05",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 6,
           "date": "2025-05-27",
@@ -960,10 +340,10 @@
           "period": "FY26",
           "basis": "Consolidated ETR ~24%",
           "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.9",
-          "outcome": "FY26 ETR 23.8%",
+          "outcome": "FY26 ETR 23.8% (tax Rs 533 mn / PBT Rs 2,236 mn)",
           "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
           "item_grade": 2,
-          "note": ""
+          "note": "Rule 7: Q3 FY25 call gave no ETR guidance, so original here. Restated Q1 FY26 (2025-08-06, p.24, Goyal): 'It is coming down 26% on a full year basis' (25-26% cap; duplicate removed)."
         },
         {
           "class": 4,
@@ -976,7 +356,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Period closed; FY26 capex not found in any opened filing (annual report not retrieved). Not graded."
+          "note": "Period closed; FY26 capex not found in any opened filing. FY26 annual report (listed on the IR page, 2026-09-03) not retrieved: company site blocked by robots.txt. Not graded. Rule 7: no FY26 capex figure on the Q3 FY25 call."
         },
         {
           "class": 7,
@@ -989,7 +369,7 @@
           "outcome": "Agra (Shantived) acquired, integrated 2026-02-01",
           "outcome_source": "Q3 FY26 investor presentation, BSE filing 2026-02-05, slide 12, slides 5, 14",
           "item_grade": 2,
-          "note": ""
+          "note": "Rule 7: Q3 FY25 call mentioned a further acquisition only conditionally, so original here. Restated Q1 FY26 (2025-08-06, p.13): 'for the remaining of FY 26, we will be adding and closing one of these opportunities' (duplicate removed)."
         },
         {
           "class": 3,
@@ -1002,171 +382,15 @@
           "outcome": "Model Town initial ARPOB Rs 33,600",
           "outcome_source": "Q2 FY26 transcript, NSE filing 2025-11-20",
           "item_grade": 1,
-          "note": "Shortfall 4%."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-27",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "I think anything closer to INR15,000 would be a good ARPOB for Jhansi",
-          "period": "FY26",
-          "basis": "Jhansi-Orchha ARPOB",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.9",
-          "outcome": "Jhansi ARPOB ~Rs 13k (Q1 FY27)",
-          "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
-          "item_grade": 0,
-          "note": "Shortfall ~13%."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "government business contribution coming to only around 20%",
-          "period": "FY26 onward",
-          "basis": "Government share at the new hospitals (ceiling)",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.16",
-          "outcome": "100% cash/TPA (Q3-Q4 FY26); >90% cash/TPA (Q1 FY27)",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide; Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the company has shown growth of 30% yearly Y-o-Y for last few years now",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth ~30% called sustainable (FY26 number declined)",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.17",
-          "outcome": "FY26 revenue +36% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "hoping to close the complete income matter before the end of this financial year",
-          "period": "by 2026-03-31",
-          "basis": "Income-tax matter closed",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.15",
-          "outcome": "Not closed by Mar 2026",
-          "outcome_source": "Q4 FY26 transcript, NSE filing 2026-06-04, p.17",
-          "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "within a timeline of 1.5 years from today, we should be having these capacity to use",
-          "period": "~Nov 2026",
-          "basis": "Brownfield beds live (+200 Greater Noida, +250 Noida Extension)",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.21",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Period open, but now guided 15-19 months from Aug 2026 (Q1 FY27 call p.9): on track to miss by >1 year."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-27",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "in 2 to 3 years' time, these days should be reducing somewhere around 20, 25 days",
-          "period": "FY27-FY28",
-          "basis": "Working-capital/receivable days down 20-25 from ~120",
-          "source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
+          "note": "Shortfall 4%. Starting-ARPOB basis differs from the Q3 FY25 post-ramp-up item; kept separate."
         }
       ]
     },
     {
       "label": "Q3 FY25",
-      "grade": 1,
+      "grade": 0.4,
       "status": "graded",
       "promises": [
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "Our focus now remains on operationalizing these hospitals by the next quarter.",
-          "period": "2025-04-01",
-          "basis": "New Delhi Model Town and Faridabad Sec 20 OPD/IPD start ('from the 1st April', p.7)",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.2",
-          "outcome": "Model Town operational 2025-07-14; Faridabad Sec 20 end-Sep 2025",
-          "outcome_source": "Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
-          "item_grade": 0,
-          "note": "3.5 and 6 months late."
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "our hospitals have been able to break even somewhere around 18 months to two years' time",
-          "period": "18-24 months from opening",
-          "basis": "EBITDA breakeven of the two new hospitals",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.7",
-          "outcome": "Faridabad Sec 20 broke even in Q1 FY27 (~9 months)",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
-          "item_grade": 2,
-          "note": "Graded on Faridabad Sec 20; Model Town leg open. Payback lengthened to 4-5 years vs 3-3.5 on Q2 FY25 call."
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "it should be able to break even close to nine months of next financial year",
-          "period": "~Dec 2025",
-          "basis": "Greater Faridabad EBITDA breakeven",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.7",
-          "outcome": "Net-profit positive in Q1 FY26",
-          "outcome_source": "Q1 FY26 investor presentation, NSE filing 2025-08-05",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "this quarter of EBITDA margins should be sustainable in the coming years also",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA margin excl. other income at Q3 FY25 level 25.1%",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.10",
-          "outcome": "FY26 EBITDA margin 24.2%",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 1,
-          "note": "Shortfall 0.9pp."
-        },
-        {
-          "class": 1,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we are quite hopeful for sustaining it and increasing it also in the future.",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth > 30% YoY (anchor; FY26 number not given)",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.14",
-          "outcome": "FY26 revenue +36% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2025-01-28",
-          "speaker": "Amit Kumar Singh, Group CEO",
-          "quote": "particularly Q4 is the strongest quarter.",
-          "period": "Q4 FY25",
-          "basis": "Q4 FY25 the highest-revenue quarter of FY25",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.15",
-          "outcome": "Q4 FY25 revenue Rs 2,318 mn vs Q3 Rs 2,192 mn and Q2 Rs 2,178 mn",
-          "outcome_source": "Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 3,
           "date": "2025-01-28",
@@ -1178,7 +402,7 @@
           "outcome": "FY26 ARPOB +7% YoY",
           "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
           "item_grade": 0,
-          "note": "Shortfall 30%; FY27+ legs open."
+          "note": "Shortfall 30% on the FY26 leg. Rule 7: Q2 FY25 call gave no group ARPOB growth %, so original here. FY26 target cut before period end without stated reason: Q1 FY26 (2025-08-06, p.10, Singh) 'anything between 8% to 10%'; Q2 FY26 (2025-11-14, p.7) '8% to 9%' (duplicates removed; FY26 actual +7% misses both). FY27+ legs restated Q3 FY26 (p.12) '10% ARPOB year-on-year ... That's what our guidance', Q4 FY26 (p.7) 'close to 10%', Q1 FY27 (p.16) '8% to 10%' (duplicates removed); Q1 FY27 actual +7%."
         },
         {
           "class": 3,
@@ -1191,20 +415,7 @@
           "outcome": "Model Town ~Rs 50k, Faridabad Sec 20 ~Rs 40k (Q1 FY27)",
           "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "it should be close to 35% and that's where we hope to end this year.",
-          "period": "FY25",
-          "basis": "Group government-scheme revenue share (ceiling)",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.14",
-          "outcome": "FY25 government share ~37%",
-          "outcome_source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.8",
-          "item_grade": 1,
-          "note": "Overshoot 2pp = 5.7% of target."
+          "note": "Re-set upward Q1 FY26 (2025-08-06, p.13): 'It would be somewhere around Rs. 38,000 for those two new hospitals' from Q3 FY26 (duplicate removed; also met)."
         },
         {
           "class": 3,
@@ -1217,7 +428,7 @@
           "outcome": "FY25 debtor days 123-125",
           "outcome_source": "Q4 FY25 transcript, NSE filing 2025-06-04; Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
           "item_grade": 0,
-          "note": "Overshoot ~12-14%."
+          "note": "Overshoot ~12-14%. Rule 7: Q2 FY25 call gave no forward receivable target, so original here."
         },
         {
           "class": 7,
@@ -1233,75 +444,23 @@
           "note": "About 8 months late."
         },
         {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "the whole income tax matter will be closed before the end of this calendar year.",
-          "period": "by 2025-12-31",
-          "basis": "Income-tax matter closed",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.11",
-          "outcome": "Not closed by Dec 2025; 'expecting very soon' in Feb 2026",
-          "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.16",
-          "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 10,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "do not anticipate any significant material, financial or operational liabilities arising from these proceedings",
-          "period": "Open",
-          "basis": "No material liability from income-tax proceedings",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Outcome pending: assessment orders reportedly under appeal [unverified]; primary 14-Sep-2026 filing not retrieved."
-        },
-        {
-          "class": 8,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "in 2.5-years' time our government payer mix should be close to not more than 25%",
-          "period": "~mid-2027",
-          "basis": "Group government share <= 25%",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.13",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
           "class": 3,
           "date": "2025-01-28",
           "speaker": "Yatharth Tyagi, Whole-Time Director",
           "quote": "we expect our receivable days to be somewhere close to 75 to 80 days",
-          "period": "~FY27-FY28",
+          "period": "~Jul 2027 (2.5 years)",
           "basis": "Receivable days",
           "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.17",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 5,
-          "date": "2025-01-28",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "we will not be requiring any new funding or debt for that",
-          "period": "Brownfield expansion period",
-          "basis": "No new debt or equity for Noida/Greater Noida brownfield",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Gross debt rose to ~Rs 253 Cr by Mar-26 (for Agra, per Q4 FY26 call p.6) and a Rs 3,150 Cr Advent issue followed in Sep-26; neither tied to brownfield in the opened documents."
+          "outcome": "Target re-set looser and later before period end, no reason stated: Q4 FY25 (2025-05-27, p.10) 'these days should be reducing somewhere around 20, 25 days' in 2-3 years (from ~120, i.e. ~95-100); Q3 FY26 (2026-02-06, p.12, Goyal) 'After 2 years of 3 years down the line, we will very much close to 80 or 82 days.'",
+          "outcome_source": "Q4 FY25 transcript, NSE filing 2025-06-04, p.10; Q3 FY26 transcript, NSE filing 2026-02-13, p.12",
+          "item_grade": 0,
+          "note": "v1.2 re-grade (rule 7): previously open. Graded as a cut under the class 9 rule: moved before period end without a stated reason = 0. Q4 FY25 multi-year item folded here (duplicate removed). Q2 FY25 call had no receivable target."
         }
       ]
     },
     {
       "label": "Q2 FY25",
-      "grade": 1,
+      "grade": 0.8,
       "status": "graded",
       "promises": [
         {
@@ -1315,7 +474,7 @@
           "outcome": "FY25 revenue Rs 8,805 mn (Rs 880.5 Cr)",
           "outcome_source": "Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14",
           "item_grade": 0,
-          "note": "Shortfall 12%. Not restated or withdrawn on the Q3 FY25 call."
+          "note": "Shortfall 12%. Not restated or withdrawn on the Q3 FY25 call. Rule 7: the figure originated on the Q1 FY25 call (Aug 2024), whose transcript could not be opened (company site robots-blocked; no exchange copy found); graded on this earliest opened statement. Q4 FY24 call and Q1 FY25 presentation (BSE 2024-08-13) give no FY25 revenue figure."
         },
         {
           "class": 1,
@@ -1328,33 +487,7 @@
           "outcome": "Q2 Rs 2,178 mn -> Q3 Rs 2,192 mn -> Q4 Rs 2,318 mn",
           "outcome_source": "Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14; Q3 FY25 investor presentation, BSE filing 2025-01-27, slide 14",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2024-11-08",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "from '25-26, we do expect this growth to be much more",
-          "period": "FY26",
-          "basis": "FY26 consolidated revenue growth above FY25's (FY25 +31%)",
-          "source": "Q2 FY25 transcript, BSE filing 2024-11-13, p.15",
-          "outcome": "FY26 revenue +36% YoY",
-          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2024-11-08",
-          "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "this is what we will maintain somewhere between 25% to 26% ... That will be the target going forward also.",
-          "period": "FY25-FY26",
-          "basis": "Consolidated EBITDA margin excl. other income",
-          "source": "Q2 FY25 transcript, BSE filing 2024-11-13, p.18",
-          "outcome": "FY25 25.0%; FY26 24.2%",
-          "outcome_source": "Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14; Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
-          "item_grade": 1,
-          "note": "FY25 met at the low end; FY26 short by 0.8pp."
+          "note": "Restated Q3 FY25 (2025-01-28, p.15, Singh): 'particularly Q4 is the strongest quarter' (duplicate removed)."
         },
         {
           "class": 3,
@@ -1367,7 +500,7 @@
           "outcome": "~40% in FY24 to ~37% in FY25, about 3pp",
           "outcome_source": "Q3 FY25 transcript, NSE filing 2025-02-03, p.14; Q4 FY25 transcript, NSE filing 2025-06-04, p.8",
           "item_grade": 0,
-          "note": ""
+          "note": "Revised Q3 FY25 (2025-01-28, p.14): 'it should be close to 35% and that's where we hope to end this year' (duplicate removed; graded on the original). Rule 7: Q4 FY24 call gave no number ('It will come down', p.16)."
         },
         {
           "class": 3,
@@ -1380,7 +513,7 @@
           "outcome": "100% cash/TPA (Q3-Q4 FY26); >90% cash/TPA (Q1 FY27)",
           "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide; Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
           "item_grade": 2,
-          "note": ""
+          "note": "Restated Q4 FY25 (2025-05-27, p.16) 'around 20%' and Q1 FY26 (2025-08-06, p.10) 'not more than 20% - 24%' (duplicates removed)."
         },
         {
           "class": 3,
@@ -1393,7 +526,7 @@
           "outcome": "~Rs 40k in Q3 FY26; ~Rs 50k in Q1 FY27",
           "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13; Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
           "item_grade": 2,
-          "note": ""
+          "note": "Restated Q2 FY26 (2025-11-14, p.9): 'within 12 months or even earlier, this ARPOB can cross INR40,000' (duplicate removed)."
         },
         {
           "class": 3,
@@ -1406,7 +539,7 @@
           "outcome": "~Rs 13k in Q1 FY27",
           "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.5",
           "item_grade": 0,
-          "note": "Shortfall ~13% after ~21 months."
+          "note": "Shortfall ~13% after ~21 months. Restated Q4 FY25 (2025-05-27, p.9) 'closer to INR15,000' and Q1 FY26 (2025-08-06, p.5) 'Rs. 15,000 to ... Rs. 16,000 - Rs. 17,000' (duplicates removed). Rule 7: Q4 FY24 call gave direction only; Q1 FY25 transcript not retrieved."
         },
         {
           "class": 7,
@@ -1419,7 +552,7 @@
           "outcome": "Started operations end-Sep 2025",
           "outcome_source": "Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
           "item_grade": 0,
-          "note": "Six months late."
+          "note": "Six months late. Deadline moved repeatedly without stated reason: Q3 FY25 (2025-01-28, p.2) 'by the next quarter'; Q4 FY25 (2025-05-27, p.4) 'by next month'; Q1 FY26 (2025-08-06, p.4) 'late August 2025' (three duplicates removed; previously graded 0, 1, 1). Rule 7: acquisition first announced on this call; Q1 FY25 presentation (BSE 2024-08-13) lists no such opening."
         },
         {
           "class": 7,
@@ -1432,7 +565,7 @@
           "outcome": "Operational 2025-07-14",
           "outcome_source": "Q2 FY26 investor presentation, BSE filing 2025-11-13, slide 16, slide 14",
           "item_grade": 0,
-          "note": "3.5 months late."
+          "note": "3.5 months late. Restated Q3 FY25 (p.2) 'by the next quarter' and Q4 FY25 (p.4) 'by next month' (duplicates removed; previously graded 0 and 1)."
         },
         {
           "class": 7,
@@ -1440,25 +573,174 @@
           "speaker": "Yatharth Tyagi, Whole-Time Director",
           "quote": "Two years is the breakeven period that we are looking at",
           "period": "~2 years from opening",
-          "basis": "EBITDA breakeven of the two acquired hospitals",
+          "basis": "EBITDA breakeven of the two acquired hospitals (Model Town, Faridabad Sec 20)",
           "source": "Q2 FY25 transcript, BSE filing 2024-11-13, p.11",
           "outcome": "Faridabad Sec 20 broke even in Q1 FY27 (~9 months)",
-          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10",
+          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-10, slides 8-10; Q1 FY27 transcript, NSE filing 2026-08-18, p.8",
           "item_grade": 2,
-          "note": "Graded on Faridabad Sec 20; Model Town leg open."
+          "note": "Graded on Faridabad Sec 20; Model Town leg open (two years from 2025-07-14 = Jul 2027). Restatements, all tighter (duplicates removed): Q3 FY25 p.7 '18 months to two years'; Q4 FY25 p.7 '12 to 15 months'; Q1 FY26 p.7 '15 months'; Q2 FY26 p.6 '15 months to 17 months'; Q3 FY26 p.18 Faridabad 'well within the 12 months'; Q4 FY26 p.10 Faridabad '10th or 11th month' and Model Town 'FY '27 H2'; Q1 FY27 p.11 Model Town 'between Q3, Q4 this year'. Payback lengthened to 4-5 years on Q3 FY25 vs 3-3.5 on Q2 FY25."
         },
         {
-          "class": 4,
+          "class": 8,
           "date": "2024-11-08",
           "speaker": "Yatharth Tyagi, Whole-Time Director",
-          "quote": "around 60 to 70 lakhs per bed for these 450 beds addition",
+          "quote": "So, we feel that when we say in the next 2.5-3 years we see a government business reducing to 25%.",
+          "period": "~May-Nov 2027",
+          "basis": "Group government-scheme revenue share <= 25%",
+          "source": "Q2 FY25 transcript, BSE filing 2024-11-13, p.14",
+          "outcome": "Target moved later and loosened before period end: Q3 FY26 (2026-02-06, p.6) 'in 2, 2.5 years' time, our government mix should be reduced somewhere close to 25% to 28%' (to ~Feb-Aug 2028); Q4 FY26 (2026-05-26, p.13) 'in two years down the line, the government business should be somewhere around 25%' (FY28). Share ~35% at Q4 FY26, ~40% at Q1 FY27.",
+          "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.6; Q4 FY26 transcript, NSE filing 2026-06-04, p.13",
+          "item_grade": 0,
+          "note": "v1.2 rule 7 addition: earliest statement (previously captured from Q3 FY25, Q3 FY26 and Q4 FY26, all ungraded; duplicates removed). Q3 FY24 call: 'no specific or internal targets' (p.7); Q4 FY24: no number. Graded as a cut (class 9 rule): deadline moved ~6-9 months and range widened before period end; the only reason given (new hospitals' payer mix) explains the reduction, not the delay, so no stated reason = 0."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "outside_window": true,
+      "grade": 0.7,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2024-05-24",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "So, overall, EBITDA margins are quite sustainable even in the next 3-4 years that we have currently.",
           "period": "FY25-FY28",
-          "basis": "Brownfield capex per bed, 450 beds at Greater Noida / Noida Extension, internal accruals",
-          "source": "Q2 FY25 transcript, BSE filing 2024-11-13, p.10",
+          "basis": "Consolidated EBITDA margin at the FY24 level of 26.8% (anchored; transcript does not state other-income treatment; company's later guidance basis is excl. other income)",
+          "source": "Q4 FY24 transcript, BSE filing 2024-05-31, p.10, https://www.bseindia.com/xml-data/corpfiling/AttachHis/be9e505f-ceec-46a1-8476-3db8f6514e25.pdf",
+          "outcome": "Cut to 25-26% on the Q2 FY25 call (2024-11-08, p.12/p.19) after H1 FY25 margin of 25.2% was already reported; FY25 25.0%, FY26 24.2%",
+          "outcome_source": "Q2 FY25 transcript, BSE filing 2024-11-13, pp.6, 12, 19; Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14; Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
+          "item_grade": 0,
+          "note": "Rule 7 original of the multi-year margin promise. Class 9 test on the cut: reason stated (Greater Faridabad dilution ~1.5pp, doctor costs) but not prospective, since the H1 FY25 shortfall was public = 0. Precursor without a period: Q3 FY24 (p.18, Deepak Tyagi) 'the current margins what we are putting up should be sustainable in the future as well'. Later re-sets folded here (duplicates removed; previous grades in brackets): Q2 FY25 '25% to 26% ... target going forward' [1]; Q3 FY25 p.10 Q3 FY25 25.1% 'sustainable in the coming years' [1]; Q4 FY25 p.11 24.6% +/-0.5pp for FY26 and FY27 [2]; Q1 FY26 p.17 'around 24%' +/-1pp [2]; Q2 FY26 p.11 'upwards of 23%' [2]; Q3 FY26 p.18 FY27 24-25% [open]; Q4 FY26 p.10 FY27 '24% to 25%' [open]; Q1 FY27 p.9 'upwards of 24%' FY27 [open]. Each lowered the bar before the period closed."
+        },
+        {
+          "class": 1,
+          "date": "2024-05-24",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "We feel quite confident in sustaining this growth for the years to come.",
+          "period": "FY25 onward (tested FY25, FY26)",
+          "basis": "Consolidated revenue growth >= FY24's 29% YoY (anchored)",
+          "source": "Q4 FY24 transcript, BSE filing 2024-05-31, p.9, https://www.bseindia.com/xml-data/corpfiling/AttachHis/be9e505f-ceec-46a1-8476-3db8f6514e25.pdf",
+          "outcome": "FY25 revenue Rs 8,805 mn, +31% YoY; FY26 Rs 12,072 mn, +36% YoY",
+          "outcome_source": "Q4 FY25 investor presentation, BSE filing 2025-05-26, slide 14; Q4 FY26 investor presentation, BSE filing 2026-05-25, P&L slide",
+          "item_grade": 2,
+          "note": "Rule 7 original of the 30%-type growth promise. Restatements folded (duplicates removed, all previously graded 2): Q2 FY25 p.15 'from '25-26, we do expect this growth to be much more'; Q3 FY25 p.14 'sustaining it and increasing it'; Q4 FY25 p.17 30% yearly; Q1 FY26 p.15 'Our guidance remains the same' (~30%; analyst's FY27 30% accepted); Q2 FY26 p.10 'easily overachieved' (>=30%). Q3 FY24 p.6 'this trend to persist' referred to profit and margins, not revenue."
+        },
+        {
+          "class": 7,
+          "date": "2024-05-24",
+          "speaker": "Deepak Kumar Tyagi, President, Strategy & Finance",
+          "quote": "we expect that in this financial year, that thing should be behind our back",
+          "period": "by 2025-03-31",
+          "basis": "Income-tax search matter closed",
+          "source": "Q4 FY24 transcript, BSE filing 2024-05-31, pp.19-20, https://www.bseindia.com/xml-data/corpfiling/AttachHis/be9e505f-ceec-46a1-8476-3db8f6514e25.pdf",
+          "outcome": "Not closed by Mar 2025 or since; 'expecting very soon' Feb 2026; 'final leg of conclusion' May 2026",
+          "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-13, p.16; Q4 FY26 transcript, NSE filing 2026-06-04, p.17",
+          "item_grade": 0,
+          "note": "Rule 7 original (Q3 FY24 p.11 said only 'settle that case very soon', no date). Deadline moved without reason; restatements folded (duplicates removed; previous grades in brackets): Q3 FY25 p.11 by Dec 2025 [0]; Q4 FY25 p.15 by Mar 2026 [0]; Q1 FY26 p.10 by Dec 2025 [0]; Q2 FY26 p.7 by Mar 2026 [0]; Q4 FY26 p.17 'before the end of Quarter 2' FY27 with no material liability [open]. The 14-Sep-2026 Reg. 30 filing ('Favourable Developments In Income Tax Proceedings') could not be opened (company site robots-blocked; BSE copy 403); media report assessment orders with ~Rs 43.8 Cr demand under appeal [unverified]."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY24",
+      "outside_window": true,
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-02-12",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "And traditionally, if you talk about EBITDA breakeven, all our hospitals tend to break even around in two years' time.",
+          "period": "~Apr 2026 (two years from the planned Apr 2024 launch)",
+          "basis": "Asian Fidelis / Greater Faridabad (200-bed) hospital EBITDA breakeven",
+          "source": "Q3 FY24 transcript, NSE filing 2024-02-19, p.11, https://nsearchives.nseindia.com/corporate/YATHARTH_19022024195824_Earnings_Call_Transcript_Q3.pdf",
+          "outcome": "EBITDA breakeven reported on the Q4 FY25 call (May 2025); net-profit positive in Q1 FY26",
+          "outcome_source": "Q4 FY25 transcript, NSE filing 2025-06-04; Q1 FY26 investor presentation, NSE filing 2025-08-05",
+          "item_grade": 2,
+          "note": "Rule 7 original, answering a question on the Fidelis (Faridabad) acquisition. Restatements folded (duplicates removed, both previously graded 2): Q3 FY25 p.7 'break even close to nine months of next financial year'; Q4 FY25 p.12 'EBITDA positive from the coming quarters'."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY24",
+      "outside_window": true,
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2023-11-08",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "We aim to double our bed capacity over the next 3-4 years via mix of both greenfield and brownfield expansion.",
+          "period": "~Nov 2026-Nov 2027",
+          "basis": "Total bed capacity ~2,810 (2x 1,405 at the call)",
+          "source": "Q2 FY24 transcript (call 2023-11-08), p.3, https://www.bseindia.com/xml-data/corpfiling/Attachhis/67d8aee9-6783-453c-8af6-af1ca6d361c6.pdf",
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7 original of the bed-capacity target (Q1 FY24 gave only project-level additions). Restated and raised, never cut (duplicates removed, all previously open): Q3 FY24 p.3 'double our bed capacity over around next three years'; Q1 FY25 presentation (BSE 2024-08-13) slide 21 'Target to expand bed capacity to 2,800-3,000 beds by FY28'; Q1 FY26 p.23 3,000 'before the FY '28 target'; Q2 FY26 pp.16-17 target revised up, reason 'something planned next year in terms of acquisition', 'double this capacity in next 3 to 4 years'; Q3 FY26 p.6 5,000 'in the next 3 years'; Q4 FY26 p.5 5,000 'over the next three years'; Q1 FY27 p.17 5,000 in ~2.5 years. Graded at period end against ~2,810."
+        },
+        {
+          "class": 10,
+          "date": "2023-11-08",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "does not foresee any impact on the operating and financial performance of the company in the coming quarters.",
+          "period": "Open",
+          "basis": "No material impact from the Oct-2023 income-tax search",
+          "source": "Q2 FY24 transcript (call 2023-11-08), p.4, https://www.bseindia.com/xml-data/corpfiling/Attachhis/67d8aee9-6783-453c-8af6-af1ca6d361c6.pdf",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Rule 7 original. Restated Q3 FY25 (2025-01-28, p.4): 'do not anticipate any significant material, financial or operational liabilities arising from these proceedings' (duplicate removed). Pending: assessment orders reportedly under appeal [unverified]; primary 14-Sep-2026 filing not retrieved. A call statement, not a Reg. 30 impact line, so rule 6 does not apply."
+        },
+        {
+          "class": 5,
+          "date": "2023-11-08",
+          "speaker": "Deepak Kumar Tyagi, President, Strategy & Finance",
+          "quote": "We don't expect a long-term basis, we would need any loan capital to fund these projects.",
+          "period": "Three-year expansion plan (~Nov 2023-Nov 2026)",
+          "basis": "No long-term borrowing for the ~Rs 800 Cr expansion (brownfield + O&M/acquisitions)",
+          "source": "Q2 FY24 transcript (call 2023-11-08), p.19, https://www.bseindia.com/xml-data/corpfiling/Attachhis/67d8aee9-6783-453c-8af6-af1ca6d361c6.pdf",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Rule 7 original (transcript wording garbled; same answer: 'we are sufficiently funded for this expansion'). Restated for the brownfield Q3 FY25 (2025-01-28, p.10): 'we will not be requiring any new funding or debt for that' (duplicate removed). Open. Gross debt rose to ~Rs 253 Cr by Mar-26 for Agra (Q4 FY26 call p.6) and a Rs 3,150 Cr Advent issue followed in Sep-26; grade at plan end."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY24",
+      "outside_window": true,
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2023-08-21",
+          "speaker": "Yatharth Tyagi, Whole-Time Director",
+          "quote": "Two to three years roughly we will see in that.",
+          "period": "Aug 2025-Aug 2026",
+          "basis": "Brownfield beds commissioned: Greater Noida 400 to ~600, Noida Extension 450 to 700",
+          "source": "Q1 FY24 transcript, BSE filing 2023-08-26, p.12, https://www.bseindia.com/xml-data/corpfiling/AttachHis/20fb597b-997a-430a-86d7-cd01ec7b8db4.pdf",
+          "outcome": "Not commissioned by Aug 2026; now guided 200 beds ~Nov 2027 and 250 beds ~Feb-Mar 2028",
+          "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, p.9",
+          "item_grade": 0,
+          "note": "Rule 7 original. More than a quarter late; deadline also moved repeatedly without stated reason (a reason, prioritising beds elsewhere in NCR, came only on Q4 FY26 p.11, after earlier moves). Restatements folded (duplicates removed, all previously open): Q2 FY24 p.13 'two to three years'; Q1 FY25 presentation slide 24 '24-36 months'; Q2 FY25 p.10 'two to three years' time'; Q4 FY25 p.21 '1.5 years from today' (~Nov 2026); Q1 FY26 p.22 ~2 years (~Aug 2027); Q2 FY26 p.16 Greater Noida ~15 months, Noida Extension 17-18 months; Q3 FY26 p.11 '1.5 years from now'; Q1 FY27 p.9 '200 beds would be earlier and 250 beds will be probably in 18 to 19 months'. RHP (SEBI 2023-07-20, p.16) funds Noida/Greater Noida capex Rs 256.4 mn with no bed count or date, so no earlier statement."
+        },
+        {
+          "class": 4,
+          "date": "2023-08-21",
+          "speaker": "Deepak Kumar Tyagi, President, Strategy & Finance",
+          "quote": "it would be in the range of Rs. 60 lakhs to Rs. 75 lakh per bed.",
+          "period": "Brownfield completion",
+          "basis": "Brownfield capex per bed, Greater Noida / Noida Extension (ceiling Rs 75 lakh)",
+          "source": "Q1 FY24 transcript, BSE filing 2023-08-26, p.15, https://www.bseindia.com/xml-data/corpfiling/AttachHis/20fb597b-997a-430a-86d7-cd01ec7b8db4.pdf",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Rule 7 original (same call p.11: 'Rs. 60 lakhs to Rs. 75 lakh or Rs. 80 lakh'). Restatements: Q3 FY24 p.15 '70 lakhs'; Q4 FY24 p.11 '60 lakhs to 65 lakhs'; Q2 FY25 p.10 '60 to 70 lakhs per bed for these 450 beds' (duplicate removed, previously open); Q4 FY26 p.16 '75 lakhs per bed and there is no escalation'. Open until commissioning."
         }
       ]
     }

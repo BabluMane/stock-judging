@@ -1,0 +1,24 @@
+{
+  "ticker": "SAFARI",
+  "company": "Safari Industries (India) Ltd",
+  "review_date": "2026-10-08",
+  "mode": "fallback",
+  "score_10": 6.7,
+  "note": "No earnings calls held (confirmed in annual reports). Fallback via MD&A FY24-FY26. Jaipur plant delivered; FY25 profitability outlook missed.",
+  "quarters": [
+    {"label": "AR FY26", "date": "2026-05-19", "status": "pending", "grade": null, "outside_window": false, "promises": [
+      {"quote": "Carlton brand licence will be launched in FY 2026-27", "class": "timeline", "date": "2026-05-19", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY26 MD&A", "period": "FY27", "outcome": "pending", "outcome_source": "", "note": ""}
+    ]},
+    {"label": "AR FY25", "date": "2025-05-06", "status": "graded", "grade": 1.0, "outside_window": false, "promises": [
+      {"quote": "Safari Select sub-brand launched, will be scaled up", "class": "revenue", "date": "2025-05-06", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY25 MD&A", "period": "FY26", "outcome": "FY26 confirms scaling", "outcome_source": "AR FY26", "note": "delivered"},
+      {"quote": "Building larger India supplier base for backpacks", "class": "other", "date": "2025-05-06", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY25 MD&A", "period": "FY26", "outcome": "FY26 confirms diversified supplier base", "outcome_source": "AR FY26", "note": "delivered"},
+      {"quote": "Quick-commerce expected to be a key growth driver", "class": "revenue", "date": "2025-05-06", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY25 MD&A", "period": "FY26", "outcome": "FY26 says growth continuing", "outcome_source": "AR FY26", "note": "on track"},
+      {"quote": "High growth trajectory with improving profitability", "class": "margin", "date": "2025-05-06", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY25 MD&A", "period": "FY26", "outcome": "FY26 OPM 8.30% vs 9.02%, NPM 6.11% vs 6.64%", "outcome_source": "AR FY26", "note": "missed on profitability"}
+    ]},
+    {"label": "AR FY24", "date": "2024-05-14", "status": "graded", "grade": 2.0, "outside_window": false, "promises": [
+      {"quote": "Jaipur greenfield hard-luggage plant being set up via SML subsidiary", "class": "capacity", "date": "2024-05-14", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY24 MD&A", "period": "FY25", "outcome": "Commissioned, production began May 2025 (~2.5 lakh units/yr)", "outcome_source": "AR FY25", "note": "delivered on ~1yr timeline"},
+      {"quote": "Urban Jungle brand being scaled-up across backpacks and accessories", "class": "revenue", "date": "2024-05-14", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY24 MD&A", "period": "FY25", "outcome": "FY25 confirms rapid scale-up", "outcome_source": "AR FY25", "note": "delivered"},
+      {"quote": "Invest aggressively in backpacks category", "class": "capex", "date": "2024-05-14", "speaker": "Board, Annual Report", "basis": "consolidated", "source": "AR FY24 MD&A", "period": "FY25", "outcome": "Repeated and expanded in FY25/FY26 reports", "outcome_source": "AR FY25/FY26", "note": "delivered"}
+    ]}
+  ]
+}

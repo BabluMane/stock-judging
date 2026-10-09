@@ -1,0 +1,541 @@
+{
+  "ticker": "NMDC",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 5.3,
+  "note": "Standard mode: 2 calls held in the 8-quarter window (2025-02-10, 2025-05-28) plus 2026-06-01; 5 quarters no_call (Q1 FY26 call cancelled). Rule 7 added 7 originating calls (2021-11-12 to 2024-08-16) -> 15 entries; engine_v3 weights only the first 8, so pass score_10 as given. Score = sum(grade x weight)/(2 x sum weight) x 10 = 49/92 x 10 = 5.3 (weights 15..1 by position). Rule 6: no Reg. 30 impact statements in the source set (calls only); nothing excluded. Override: no contradicted class-10 assurance; Karnataka pass-through assurance (SEVERE-test candidate) untested pending enactment. Access: transcripts read as text renders on financialfilings.com (NSE/BSE/CDN PDFs blocked by proxy/robots); quotes are verbatim as rendered, auto-transcription errors possible. Gaps: Q3 FY25 and pre-Aug-2023 transcripts have no page markers; FY26 Annual Report not readable; FY26 pellet tonnes not in any filed document opened; no filings found for Deposit 4/13, Deposit 5 conveyor, tender awards, Maharatna, overseas acquisition. Not investment advice.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No analyst-call schedule, audio or transcript filed between results (2026-08-14) and 2026-10-06 (full 2026 filing index on financialfilings.com checked; results filing makes no reference to a call)."
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 10,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "In Q1, there's not going to be any trading right now. ... We have had no transaction of that sort in Q1 as of date. We don't see any transaction happening in Q1 this year.",
+          "period": "Q1 FY27",
+          "basis": "HR coil trading on behalf of NMDC Steel (HR Coil & Sheets segment revenue), standalone",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.3 and p.9",
+          "outcome": "HR Coil & Sheets segment revenue nil in Q1 FY27 (vs Rs 2,947.31 cr in Q4 FY26); segment note: 'there was no transaction in respect of HR Coils during the quarter'.",
+          "outcome_source": "Q1 FY27 results (Outcome of Board Meeting), filed 2026-08-14, https://financialfilings.com/filings/nmdc-ltd/interim-quarterly-report/2026/56058684/, segment table and note",
+          "item_grade": 2,
+          "note": "Held. Not a major-issue assurance (no override question arises)."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "We hope to have commercial mining commencing on July, that's in Q2. And this year, I think the guidance would be around 1 million ton out of Deposit 4.",
+          "period": "July 2026 (Q2 FY27)",
+          "basis": "Commercial mining start, Deposit 4 (NMDC-CMDC JV, 51%)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No filing confirming commercial mining found through 2026-10-06 [not retrieved]. On-time date has passed; maximum grade 1 if confirmed by 31 Oct 2026, else 0. Volume (1 MT FY27) folded into the FY27 production item (origin Q3 FY25)."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "By this month-end or maybe in Q2, we should be able to hit the coal seam and we should be able to now extract coal by Q2. And our guidance for Q2 would be around 0.75 million ton to 1 million ton of coal this year.",
+          "period": "Q2 FY27 (start); FY27 (volume)",
+          "basis": "Tokisud North coal: first coal extraction; FY27 coal output 0.75-1 MT",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Mining operations commenced 2026-01-23 (filing 'Commencement of Mining Operations at Tokisud North Coal Mine', https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/58291763/), which said commercial production date 'will be intimated in due course'. No commercial-production filing found through 2026-10-06. Q2 FY27 timeline closed but unconfirmed -> pending (max 1 if confirmed by 31 Dec 2026). FY27 volume open. Earlier Tokisud statement (2024-02-15, 'good to go by early FY2026' after CBA approval, mining '16 to 18 months' after) is not a dated start promise and was not graded."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "Deposit 5, there was a slight capacity expansion going on in one of my downhill conveyors. It is expected to end on, I think it will get commissioned in June end or July and then we can easily do 12 million ton out of that.",
+          "period": "July 2026",
+          "basis": "Deposit 5 downhill conveyor commissioning",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.11",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No commissioning filing found through 2026-10-06 [not retrieved]; minor debottlenecking may not require a Reg. 30 filing. Pending."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "I think we should be able to award those major tenders worth around INR15,000 crores, INR16,000 crores or INR20,000 crores by the end of this month or maximum next month.",
+          "period": "July 2026",
+          "basis": "Award of major expansion tenders (Rs 15,000-20,000 cr)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No award filing or release found through 2026-10-06 [not retrieved]; contract awards may not be separately disclosed. Pending; to be tested against Q2 FY27 presentation / call."
+        },
+        {
+          "class": 4,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "So this year the guidance would be around INR6,000 crores to INR7,000 crores. INR6,000 crores would be more realistic.",
+          "period": "FY27",
+          "basis": "Capex, standalone (cash-flow basis: acquisition of tangible and intangible assets and CWIP)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Floor = Rs 6,000 cr."
+        },
+        {
+          "class": 2,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "we expect to have to maintain our EBITDA at around 42 to 43% this year.",
+          "period": "FY27",
+          "basis": "EBITDA margin, investor-presentation basis (standalone; stated by CMD for the iron-ore business; FY26 reported 34% incl. HR-coil trading, iron ore standalone ~42% per p.3)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.17",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Q1 FY27 presentation margin 41% (https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2026/56081900/)."
+        },
+        {
+          "class": 8,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "going forward next 2, 3 years it will be in the range of INR7,000 crores to INR10,000 crores every year for the next 2, 3 years",
+          "period": "FY28-FY30",
+          "basis": "Annual capex",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "this year we hope to acquire a couple of assets abroad as well.",
+          "period": "FY27",
+          "basis": "Overseas asset acquisitions (CMD p.8: Rs 2,000-3,000 cr spend on acquisitions abroad this year)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.2 and p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. NMDC Global IFSC subsidiary incorporated 2026-09-02 (https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/59442805/); no acquisition filed."
+        },
+        {
+          "class": 7,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "One board has already sanctioned INR3,000 crores, which I think will be completed in around 2 years' time, 2.5 years' time.",
+          "period": "~Dec 2028",
+          "basis": "Vizag blending yard (branded iron ore)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        },
+        {
+          "class": 8,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "within three years you will have a coal top line of sales of not less than INR5,000 crores to INR8,000 crores.",
+          "period": "FY29 (~Jun 2029)",
+          "basis": "Coal revenue",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Floor Rs 5,000 cr."
+        },
+        {
+          "class": 3,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "This year we'll do 3 to 3.3 million ton this year",
+          "period": "FY27",
+          "basis": "Pellets via KIOCL job work (MT)",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.16",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        },
+        {
+          "class": 10,
+          "date": "2026-06-01",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "The increased amount of wages is already provided for in the books of accounts and so there's not going to be any large-scale effect on that",
+          "period": "FY27",
+          "basis": "Non-executive wage revision already provided from 1 Jan 2026",
+          "source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.17",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open (wage settlement not yet concluded)."
+        }
+      ],
+      "note": "Call hosted by PhillipCapital; CMD Amitava Mukherjee and Director (Finance) Anurag Kapil. Restatements recorded on originating items: 100 MT by 2030 (orig. 2022-02-09), FY27 ~60 MT (orig. 2025-02-10), slurry pipeline/pellet plant mid-July 2026 (orig. 2021-11-12), rail doubling Dec 2026 (orig. 2022-02-09), Rohne late Q3 FY27 (orig. 2023-05-24), NSL dues 16-18 months (orig. 2024-08-16), no leverage (orig. 2024-02-15)."
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No call schedule, audio or transcript filed around results (board 2026-02-03; presentations 2026-02-04); all Jan-Mar 2026 filings checked."
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No call scheduled or held; results and presentation filed 2025-10-29; all Aug-Dec 2025 filings checked."
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "Call scheduled for 2025-08-14 (SEA2025038, filed 2025-08-11) was cancelled without reason (SEA2025042, filed 2025-08-12, https://nsearchives.nseindia.com/corporate/NMDC_12082025220545_20250812SEA2025042_INVESTORCALL.pdf); not rescheduled."
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-05-28",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "This year, our target is to do 30 lakh tons or 3 million tons, which is the full capacity ... we plan this year to have around 2.5 million to 3 million tons of pellets.",
+          "period": "FY26",
+          "basis": "Pellet output via KIOCL job work (MT)",
+          "source": "Q4 FY25 transcript (call 2025-05-28), filed 2025-06-01, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292061/, p.10 and p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Closed period; pellet tonnes not stated in any filed document opened [not retrieved] (FY26 Annual Report unreadable). Filed proxy: ore transferred for pellet job work 30.08 LT FY26 (Q4 FY26 investor presentation, filed 2026-05-30, https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2026/47898090/). Management's own ex-post figure on 2026-06-01 call: 'around 2.2 million ton, ... 2.4' (p.12) and '2.4 or 2.6' (p.16) -> would grade 1 or 0 if confirmed. Not graded."
+        },
+        {
+          "class": 8,
+          "date": "2025-05-28",
+          "speaker": "Amitava Mukherjee, Chairman and Managing Director",
+          "quote": "in the next 3 years, we are able to complete all our projects",
+          "period": "~FY28 (May 2028)",
+          "basis": "Completion of capacity-expansion projects",
+          "source": "Q4 FY25 transcript (call 2025-05-28), filed 2025-06-01, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292061/, p.2",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        }
+      ],
+      "note": "Hosted by Dolat Capital. Restatements recorded on originating items: FY26 55.4 MT 'aspirational', floor 'cross 50' (orig. 2024-05-29); FY26 capex Rs 4,000-4,200 cr (orig. 2025-02-10); Nagarnar pellet plant 'by December or January' (orig. 2021-11-12); Rohne 'end of this financial year' (orig. 2023-05-24); KK doubling Dec 2025 / Mar 2026 (orig. 2022-02-09); NSL dues 'fully liquidated by the end of the year' (orig. 2024-08-16); 100 MT (orig. 2022-02-09); capex 'mostly internally financed' (orig. 2024-02-15). Not captured: NSL's own HR-coil output (2.6-2.7 MT) and 'turn green' — operating metrics of a separately listed company, not NMDC's reported outcome; pellet premium figures ($30-50/t) — conditional market estimates."
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Not 4,000, slightly more than that.",
+          "period": "FY26",
+          "basis": "Capex, standalone cash-flow basis (acquisition of tangible and intangible assets and CWIP)",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": "FY26 capex Rs 3,116.71 cr standalone (Rs 3,170.75 cr consolidated); CMD on 2026-06-01 cited ~Rs 3,300 cr. Shortfall ~22% vs Rs 4,000 cr.",
+          "outcome_source": "FY26 audited results (Outcome of Board Meeting), filed 2026-05-29, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/47889452/, standalone cash-flow statement",
+          "item_grade": 0,
+          "note": "Restated 2025-05-28 as Rs 4,000 cr then corrected to Rs 4,200 cr (p.5). Graded at period end against original."
+        },
+        {
+          "class": 8,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "This year is 8.2 for Kumaraswamy, next year it will be 8.91 or 9.",
+          "period": "FY26",
+          "basis": "Kumaraswamy (KIOM) iron ore production, MT",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": "KIOM FY26 production 86.27 LT = 8.63 MT (sum of Q1-Q4 FY26: 20.79+20.72+23.79+20.97 LT). Shortfall 3.1% vs 8.91 MT.",
+          "outcome_source": "Q4 FY26 investor presentation, filed 2026-05-30, https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2026/47898090/, slide 'Quarterly Iron Ore Production Trend'",
+          "item_grade": 1,
+          "note": "KIOM read as Kumaraswamy Iron Ore Mine (abbreviation not expanded on slide). CMD 2026-06-01 p.4: 'last year we had this MPAP imposed for 8.6' — consistent."
+        },
+        {
+          "class": 3,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "We expect that we should be able to move 50 to 53",
+          "period": "FY26",
+          "basis": "Iron ore evacuation/dispatch (tested against sales volume), MT",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": "FY26 sales 50.23 MT (provisional) / 502.39 LT (presentation).",
+          "outcome_source": "Production & Sales (Provisional) upto March 2026, filed 2026-04-01, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/58291646/; Q4 FY26 investor presentation, filed 2026-05-30, https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2026/47898090/, slide 'Performance of FY26 v/s FY25'",
+          "item_grade": 2,
+          "note": "At low end of range."
+        },
+        {
+          "class": 8,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "In FY27 we should be doing if SP-III comes in around 60",
+          "period": "FY27",
+          "basis": "Iron ore production, MT (conditional on SP-III)",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated 2026-06-01 (p.2, p.4-5): 'this year we will be targeting 60 million tons' — NMDC ~58.5 MT plus Deposit 4 (1 MT) and Deposit 13 (0.5 MT). H1 FY27 production 27.27 MT (filing 2026-10-01, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/64558833/)."
+        },
+        {
+          "class": 8,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "our plan for CAPEX of around 70,000 crores for the next five to six years",
+          "period": "FY25-FY31",
+          "basis": "Cumulative capex",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, opening remarks [page not retrieved]",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Same call: 'this figure of 70 might become 80'. Precursor 2024-05-29: 'about INR50,000 crores of investment in the pipeline' (pipeline, not spend)."
+        },
+        {
+          "class": 7,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "It would be sanctioned hopefully in the next three to four months",
+          "period": "~Jun 2025",
+          "basis": "Board sanction of Nagarnar pellet-plant upsizing toward 6 MTPA",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Closed; no sanction filing found [not retrieved]. Not graded."
+        },
+        {
+          "class": 7,
+          "date": "2025-02-10",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Hopefully, the approval for deposit for 2 million tons would come by end of February.",
+          "period": "Feb 2025",
+          "basis": "EC enhancement of ~2 MT (deposit not named in extract)",
+          "source": "Q3 FY25 transcript (call 2025-02-10), filed 2025-02-15, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2025/58292199/, Q&A [page not retrieved]",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Closed; no EC filing found [not retrieved]. 2025-05-28 call: 'we have already applied for that 2 million ton extra' (p.12) and 2026-06-01 call: Deposit 5 EC enhancement came 'late ... through the year' (p.15) suggest slippage, but deposit identity unconfirmed. Not graded."
+        }
+      ],
+      "note": "Hosted by Dolat Capital. Date per transcript 2025-02-10; audio-link filing of 2025-02-10 titles it 'held on 6th February 2025' (discrepancy logged). Rendered text has no page markers. Restatements recorded on originating items: FY26 53 MT (orig. 2024-05-29); FY25 ~Rs 4,000 cr capex and FY25 '50' explanation (orig. 2023-08-17); Nagarnar pellet plant end CY2025 (orig. 2021-11-12); KK doubling March 2025 (orig. 2022-02-09); Karnataka tax 'It will be a pass-through. We are very sure about that.' (orig. 2024-08-16). Not captured: Q4 FY25 volume remark ('16 should be easily done') — unit garbled in transcript; unnamed coal-block start — block not identified."
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No call schedule, audio or transcript among the 70 NMDC filings 2024-10-15 to 2024-12-31 (results and 2:1 bonus 2024-11-11); GuruFocus transcript list jumps from 2024-08-16 to 2025-02-10."
+    },
+    {
+      "label": "Q1 FY25 (call 2024-08-16)",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2024-08-16",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Hopefully, within a 12-month period, we should be able to liquidate that.",
+          "period": "By Aug 2025",
+          "basis": "Recovery of ~Rs 2,200 cr NSL demerger-related outstanding (collections)",
+          "source": "Q1 FY25 transcript (call 2024-08-16), filed 2024-08-22, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2024/58292501/, p.5",
+          "outcome": "Demerger amount outstanding Rs 2,151.39 cr at 31-Mar-25, Rs 1,851.39 cr at 31-Mar-26, Rs 1,601.39 cr at 30-Jun-26 (Rs 901.25 cr repaid of Rs 2,502.64 cr). Not liquidated; >1 year late.",
+          "outcome_source": "FY26 audited results (Outcome of Board Meeting), filed 2026-05-29, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/47889452/; Q1 FY27 results (Outcome of Board Meeting), filed 2026-08-14, https://financialfilings.com/filings/nmdc-ltd/interim-quarterly-report/2026/56058684/, notes on NSL",
+          "item_grade": 0,
+          "note": "Restated 2025-05-28: 'we expect the NSL outstandings to be fully liquidated by the end of the year' (p.3); 2026-06-01: 'should take around 16 to 18 months' (p.6). Moved deadlines without reason -> 0 under either test. NSL trade receivables also rose Rs 3,793 cr (Mar-25) -> Rs 4,847 cr (Jun-26)."
+        },
+        {
+          "class": 10,
+          "date": "2024-08-16",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Yes, if something is imposed, we'll collect it from the customer and remit it.",
+          "period": "Open (on enactment)",
+          "basis": "Karnataka mineral rights tax treated as pass-through to customers",
+          "source": "Q1 FY25 transcript (call 2024-08-16), filed 2024-08-22, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2024/58292501/, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not yet tested: Karnataka (Mineral Rights and Mineral Bearing Land) Tax Bill 2024 pending Presidential assent; contingent liability Rs 15,785.72 cr at 30-Jun-26, no provision, auditor Emphasis of Matter (Q1 FY27 results (Outcome of Board Meeting), filed 2026-08-14, https://financialfilings.com/filings/nmdc-ltd/interim-quarterly-report/2026/56058684/). Restated 2025-02-10 'It will be a pass-through. We are very sure about that.' Earlier calls described other Karnataka levies (DMF/NMET 2021-11-12; additional royalty 2023-08-17) as not pass-through. Potential major issue (SEVERE test: could permanently impair capital) — if contradicted on enactment, override applies to this entry."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q4 FY24 (call 2024-05-29)",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2024-05-29",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Next year, we should be targeting around 53 million, 54 million for '26.",
+          "period": "FY26",
+          "basis": "Iron ore production, MT (NMDC own mines, Chhattisgarh + Karnataka)",
+          "source": "Q4 FY24 transcript (call 2024-05-29), filed 2024-06-03, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2024/58292551/, p.14 (also p.3: 'we will be trying to touch 54 million')",
+          "outcome": "FY26 production 531.58 LT = 53.16 MT (provisional filing 53.15 MT).",
+          "outcome_source": "Q4 FY26 investor presentation, filed 2026-05-30, https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2026/47898090/, slide 'Performance of FY26 v/s FY25'; Production & Sales (Provisional) upto March 2026, filed 2026-04-01, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/58291646/",
+          "item_grade": 2,
+          "note": "Graded against low end of original range (53 MT). Restated 2024-08-16 'We should be able to do 54' (p.16); 2025-02-10 'around 53'; 2025-05-28 raised to 55.4 MT, called 'aspirational', floor 'cross ... 50' (p.5, p.14, p.17) — upward restatement, not a cut. Scope inference: filed tables list only Chhattisgarh and Karnataka sectors (excludes NCL Deposit 4)."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q3 FY24 (call 2024-02-15)",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 10,
+          "date": "2024-02-15",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "So I do not think there is any plans to raise capital from the market as of now",
+          "period": "Open",
+          "basis": "Capex funded from internal accruals; no market fundraise / no long-term leverage",
+          "source": "Q3 FY24 transcript (call 2024-02-15), filed 2024-02-21, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2024/58292600/, p.13 (also p.13: 'that is the amount of Capex we will be able to service to our own internal accruals')",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open-ended; not graded. No market raise to date; standalone borrowings are all current: Rs 3,356.54 cr (Mar-24), Rs 3,770.45 cr (Mar-25), Rs 5,874.10 cr (Mar-26), non-current nil (FY26 audited results (Outcome of Board Meeting), filed 2026-05-29, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/47889452/). Restated 2025-05-28 'most of it would be internally financed', leverage call 'about a year from now or about 1.5 years from now' (p.11); 2026-06-01 'no immediate plans of leveraging our balance sheet' unless big-ticket global acquisitions (p.17)."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q1 FY24 (call 2023-08-17)",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2023-08-17",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "Next year of course definitely we will cross 50",
+          "period": "FY25",
+          "basis": "Iron ore production, MT",
+          "source": "Q1 FY24 transcript (call 2023-08-17), filed 2023-08-23, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2023/58292676/, p.12 (also p.6: 'next year it will be more than 50')",
+          "outcome": "FY25 production 440.72 LT = 44.07 MT. Shortfall 11.9%.",
+          "outcome_source": "Q4 FY25 investor presentation, filed 2025-05-27, https://financialfilings.com/filings/nmdc-ltd/investor-presentation/2025/58292069/, slide 'Physical Performance in FY25 (12M v/s 12M CPLY)'",
+          "item_grade": 0,
+          "note": "Restated 2023-11-17 '51 to 52' (p.12); 2024-02-15 'next year guidance would definitely be 50' (p.3); 2024-05-29 'our target for this year would be the 50 million tons production' (p.3); 2024-08-16 'we still keep a guidance of around 50 million tons' (p.10). 2025-02-10 (period still open): 'we would have easily cross 50 million tons of this year itself', shortfall attributed to a strike — explanation, not a prospective withdrawal (9M volumes already public)."
+        },
+        {
+          "class": 8,
+          "date": "2023-08-17",
+          "speaker": "Amitava Mukherjee, CMD (Additional Charge) and Director (Finance)",
+          "quote": "I think 2500 would be minimum next year if not more",
+          "period": "FY25",
+          "basis": "Capex, standalone cash-flow basis",
+          "source": "Q1 FY24 transcript (call 2023-08-17), filed 2023-08-23, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2023/58292676/, p.5",
+          "outcome": "FY25 capex Rs 2,794.67 cr standalone (Rs 3,230.34 cr consolidated) — above original floor; but floor was cut before period end.",
+          "outcome_source": "FY26 audited results (Outcome of Board Meeting), filed 2026-05-29, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/47889452/, comparative column, standalone cash flow (also FY25 results filed 2025-05-27, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2025/58292102/)",
+          "item_grade": 0,
+          "note": "Cut before period end: 2023-11-17 'Capex we should be doing about Rs.2200 Crores to Rs.2300 Crores next year.' (Q2 FY24 transcript (call 2023-11-17), filed 2023-11-20, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2023/58292628/, p.14) with no reason given for the lower figure (same call p.11 expected capex 'even higher'); 2024-02-15 '2000-2100'; 2024-08-16 target ~Rs 2,200 cr. Graded under class 9 rule (cut without stated reason) = 0. Later 2025-02-10 'around 4,000 crores in this financial year' (vs 2,794.67 actual)."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q4 FY23 (call 2023-05-24)",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2023-05-24",
+          "speaker": "Amitava Mukherjee, Director (Finance)",
+          "quote": "Rohne is little later we should be able to start mining around 2025 because the approvals are under process",
+          "period": "~2025 (latest reading Mar 2026)",
+          "basis": "Rohne coking-coal block: start of mining",
+          "source": "Q4 FY23 transcript (call 2023-05-24), filed 2023-05-30, https://financialfilings.com/filings/nmdc-ltd/call-meeting-transcript/2023/42889435/ [page not retrieved]",
+          "outcome": "Not opened as of 2026-10-06: CMD on 2026-06-01 'We plan to open it around late Q3' FY27 (p.4); no opening filing found.",
+          "outcome_source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.4; negative check of 2026 filing index",
+          "item_grade": 0,
+          "note": "Restated 2023-08-17 'FY2025 mid' (p.4); 2025-05-28 'operational by the end of this financial year' (p.7); 2026-06-01 late Q3 FY27. More than one quarter late under any reading."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q3 FY22 (call 2022-02-09)",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2022-02-09",
+          "speaker": "Amitava Mukherjee, Director (Finance)",
+          "quote": "...ramp up to 70 million ton, or maybe 80 million ton and 70 million ton by 2025 and 100 million by 2030.",
+          "period": "FY30 / 2030",
+          "basis": "Iron ore production capacity/output, MT",
+          "source": "Q3 FY22 transcript (call 2022-02-09), filed 2022-02-14, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2022/58292936/ [page not retrieved]",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated 2023-05-24 'six to seven years'; 2023-08-17 'by 2030'; 2024-05-29 'FY 30 or FY 31'; 2025-05-28 no year; 2026-06-01 'end of this decade', '110 if not 100'. The interim '70 million ton by 2025' in the same sentence is not restated in the window and is not captured (FY25 production 44.07 MT; EC capacity 64.8 MT per 2026-06-01 call)."
+        },
+        {
+          "class": 7,
+          "date": "2022-02-09",
+          "speaker": "Amitava Mukherjee, Director (Finance)",
+          "quote": "railways has promised us that it will be completing by December 2022",
+          "period": "Dec 2022",
+          "basis": "Kirandul-Kottavalasa line doubling (remaining Kirandul-side stretch)",
+          "source": "Q3 FY22 transcript (call 2022-02-09), filed 2022-02-14, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2022/58292936/ [page not retrieved]",
+          "outcome": "Not complete: CMD 2026-06-01 — two sections left, final Bhansi-Bacheli section 'will get completed in the month of December' 2026 (p.7). No completion filing.",
+          "outcome_source": "Q4 FY26 transcript (call 2026-06-01), filed 2026-06-03, https://financialfilings.com/filings/nmdc-ltd/call-transcript/2026/47943617/, p.7",
+          "item_grade": 0,
+          "note": "Third-party (Railways) timeline relayed by management. Restated 2023-05-24 'end of 2024'; 2023-11-17 'end of the financial year' (p.8); 2024-05-29 'July or August' / 'September 2025' (p.10, p.17); 2025-02-10 'March'; 2025-05-28 Dec 2025 / Mar 2026 (p.8); 2026-06-01 Dec 2026. ~4 years late."
+        }
+      ],
+      "outside_window": true
+    },
+    {
+      "label": "Q2 FY22 (call 2021-11-12)",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2021-11-12",
+          "speaker": "Amitava Mukherjee, Director (Finance)",
+          "quote": "The slurry pipeline is expected to be commissioned somewhere in FY24 the first phase of the slurry pipeline.",
+          "period": "FY24 (by Mar 2024)",
+          "basis": "Phase-1 slurry pipeline system (Bacheli beneficiation/processing plant, 135 km slurry pipeline, Nagarnar 2 MTPA pellet plant)",
+          "source": "Q2 FY22 transcript (call 2021-11-12), filed 2021-11-20, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2021/58293002/ [page not retrieved]",
+          "outcome": "Commissioned per press release dated 2026-09-27 (Rs 5,427 cr processing plant, 15 MTPA slurry pipeline, 2 MTPA pellet plant). ~2.5 years late.",
+          "outcome_source": "Press release SEA202627047 'NMDC commissions Rs 5,427 crore iron ore processing plant, slurry pipeline and pellet plant in Bastar', filed 2026-09-27, https://financialfilings.com/filings/nmdc-ltd/regulatory-filings/2026/63426881/",
+          "item_grade": 0,
+          "note": "Restated 2022-02-09 pellet plant '30 or 36 months'; 2023-02-15 end CY2024; 2023-05-24 'by FY2025'; 2023-11-17 pellet plant 'put it on hold' to upsize 2->6 MT (p.7); 2024-02-15 'by 25 end' (p.5); 2024-08-16 'mid-calendar year 26'; 2025-02-10 'by the end of this calendar year'; 2025-05-28 'by December or January'; 2026-06-01 'by this month-end or maybe by around mid-July' (p.11-12). Final restatement missed by ~2.5 months too."
+        }
+      ],
+      "outside_window": true
+    }
+  ]
+}

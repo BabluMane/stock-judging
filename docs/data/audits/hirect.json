@@ -1,0 +1,476 @@
+{
+  "ticker": "HIRECT",
+  "company": "Hirect Limited (formerly Hind Rectifiers Limited)",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 4.8,
+  "note": "BSE 504036 / NSE HIRECT; renamed Hirect Limited (BSE filing 2026-07-24). Six earnings calls in the 8-quarter window: Q4 FY25 (maiden, 2025-05-06) through Q1 FY27 (2026-08-12); Q3 FY25 and Q2 FY25 had no call. Sources: BSE announcement API for 504036 (2024-10-09 to 2026-10-08) and hirect.com corporate-announcement page; transcripts read as full text from the filed PDFs (Q4 FY25, Q1-Q3 FY26 from BSE attachments; Q4 FY26 and Q1 FY27 from the hirect.com PDFs the BSE letters link to). Page refs are printed transcript pages. Outcomes from the Q4 FY26 and Q1 FY27 investor presentations (standalone and consolidated P&L, cash flow, order book) and Reg-30 filings. Growth commitments are graded on standalone revenue (management's stated basis, Q4 FY26 p.4/p.6); consolidated also met. Rule 7: 66th AGM transcript (2024-08-01) checked for earlier statements of the 30% target, propulsion trial timeline and margin target - none found; all originating statements lie in the window. Rule 6: no statutory Reg-30 impact statements captured (none encountered in the sources graded). Not captured as promises: sentiment on order pipeline ('absolutely no shortage of orders'), TAM figures, product-wise margin refusals (company never guided margins by product), consolidated FY27 guidance (deferred, never given - not a class-9 withdrawal). Score weights 8->1 by position; null grades drop out. Q4 FY26 grade rests on one item; Q2 FY26 on one item - thin. Recurring pattern: propulsion trial date moved on every call since May 2025 (graded once, at origin).",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "pending",
+      "note": "Call 2026-08-12. BSE filing 2026-08-18 is a cover letter pointing to the transcript on hirect.com; text taken from that PDF. Restatements of earlier promises recorded under their originating items (rule 7): FY27 30% growth (p.5, 'Our target for the year of achieving 30% growth stays intact'), propulsion field trial ('9,000 to 10,000 kilometers ... completion in the next few months', p.4), US$1bn ambition (p.5). Closed-period item (tender finalisation by end Q2 FY27) cannot be verified from filings; no other item has a closed period.",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2026-08-12",
+          "speaker": "Manoj Nair, Chief Executive Officer",
+          "quote": "So we expect some of these tenders to get finalized towards the end of this quarter.",
+          "period": "Q2 FY27 (by 2026-09-30)",
+          "basis": "Finalisation of pending Indian Railways propulsion-system tenders in which Hirect bid (development-source quantity)",
+          "source": "Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), p.7 (Q&A, Deepak Purswani / SVAN)",
+          "outcome": "[not retrieved] - period closed 2026-09-30; no Reg-30 order-receipt filing on BSE between 2026-08-12 and 2026-10-08 (feed checked); whether Railways finalised the tenders is not in any company filing",
+          "outcome_source": "BSE corporate-announcement feed for 504036, 2026-05-18 to 2026-10-08 (checked 2026-10-08)",
+          "item_grade": null,
+          "note": "Not graded: tender finalisation is a Railways action and is not filed; absence of an order filing is suggestive but not proof. Re-test on the Q2 FY27 call. CMD opening remarks (p.2-3) said L1/L2/L3 orders 'are expected to come in soon' after slipping out of Q1."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "But we expect to ship the product within 6 months.",
+          "period": "By ~Feb 2027",
+          "basis": "Shipment of prototype IGBT converters for the US mining customer (order announced 2026-07-31)",
+          "source": "Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), p.8 (Q&A, Deepak Purswani / SVAN)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Opening remarks (p.4): 'initial prototype orders, which will be executed this year ahead of schedule'. Rule 7: first stated on this call (order received July 2026)."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "We expect this to continue over the next 3 to 5 quarters as we work towards breakeven at Elventive.",
+          "period": "Q2 FY27-Q2 FY28 (3-5 quarters after Q1 FY27)",
+          "basis": "Elventive France EBITDA breakeven (CFO confirmed EBITDA level, p.10); consolidated margin drag continues until then",
+          "source": "Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), p.3 (opening remarks); CFO p.6 and p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Different metric from the Q4 FY26 promise (PBT profitability in ~6 quarters), so captured separately. Q1 FY27 presentation slide 27 repeats '3-5 quarters'."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "note": "Call 2026-05-18. Only one item has an outcome (transformer capacity, delivered); all others are open-period. Grade rests on a single item - thin. Restatements recorded under originating items: FY27 30% standalone growth ('committed to our originally stated target', p.4 -> Q2 FY26), EBITDA mid-to-late teens by FY31 (p.7 -> Q4 FY25), approved-source timing (p.12 -> Q1 FY26 item, treated as a cut). Douglas Bailey (Global CEO on this call) resigned 2026-08-11 (BSE filing 7704ce2b...) - context, not a promise.",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "a 20% increase in monthly transformer production capacity",
+          "period": "FY27 (no date stated; first use of the Rs 100 cr preferential proceeds)",
+          "basis": "Traction-transformer monthly production capacity, standalone (Satpur)",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.3 (opening remarks, objects of the Tata MF preferential issue)",
+          "outcome": "Satpur traction-transformer capacity raised 20%, from 60 to nearly 75 transformers per month",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), p.6 (CEO Manoj Nair)",
+          "item_grade": 2,
+          "note": "Graded because the event has occurred (capacity commissioned), although no deadline was stated. Outcome rests on management's statement on the next call; no separate filing of commissioning."
+        },
+        {
+          "class": 8,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "This is a $1 billion top-line goal, and we are clear-eyed that it cannot be achieved through the railway business alone.",
+          "period": "By FY31 ('ten-fold again ... in the next 5' years from FY26 Rs 949 cr)",
+          "basis": "Revenue (CMD frames it from the standalone FY26 base of Rs 949 cr; analyst p.7 calls it 'FY31 vision')",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.4 (opening remarks)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open multi-year target, graded only at period end. Rule 7: earliest numeric statement is this call; Q3 FY26 (p.11) spoke of a five-year 'very ambitious plan' with no figure. Restated Q1 FY27 p.5 ('1 billion revenue company in the next 5 years'). Levers named: core rail, adjacencies (defence, mining, power management), selective inorganic."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "We are looking at about six quarters to make it profitable.",
+          "period": "~Q4 FY27-Q2 FY28 (6 quarters; 6-8 quarters per p.3 and p.14)",
+          "basis": "Elventive France (ex-BeLink) profitability at PBT level (p.6: 'it will be at PBT level')",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.6 (Q&A, Nishita Shanklesha / Sapphire Capital); also p.3 ('between six quarters to eight quarters')",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. CFO p.8: 'There will be loss in the six quarters, at least.'"
+        },
+        {
+          "class": 4,
+          "date": "2026-05-18",
+          "speaker": "A.K. (Anil Kumar) Nemani, Chief Financial Officer",
+          "quote": "Yes and maybe approximately INR50 Cr is assumed today we have planned for FY27 only.",
+          "period": "FY27",
+          "basis": "Standalone capex; for capacity in transformers, propulsion and copper conductors (p.13)",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.13 (Q&A, Nishita Shanklesha / Sapphire Capital)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "The team is 150 strong today and will reach 200 by the end of the third quarter.",
+          "period": "By end Q3 FY27 (2026-12-31)",
+          "basis": "R&D headcount",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.4 (opening remarks)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Evidence conflicts: Q1 FY27 call (CEO, p.5) 'more than 200 engineers', Q1 FY27 presentation slide 16 '190+ engineers'. Not graded until period end."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "We should start seeing results coming in from Q3 onwards for propulsion systems.",
+          "period": "From Q3 FY27",
+          "basis": "Revenue/orders from locomotive propulsion systems (development-source quantity)",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.12 (Q&A, Rupesh Tatiya / Long Equity Partners)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-18",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "We have identified and are in the process of bringing on board a new CEO, who will join us in the coming months",
+          "period": "'Coming months' after 2026-05-18 (no date)",
+          "basis": "Appointment of a CEO for Elventive France",
+          "source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.2 (opening remarks); repeated p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not graded: no deadline and Elventive CEO is not a listed-company KMP, so no filing expected. Q1 FY27 call (p.3) instead announces 'restructuring measures at Elventive France' and is silent on the CEO."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": 0.5,
+      "status": "graded",
+      "note": "Call 2026-02-12. Margin item tested on consolidated basis because the question ('drop in margins from double-digit to single in this quarter') only fits consolidated Q3 FY26 (9.2%; standalone was 10.5%). Restatements recorded under originating items: propulsion 50,000 km 'within three to four months' (p.3, p.6 -> Q4 FY25), FY27 30% growth (p.6, p.7 -> Q2 FY26). No class-10 contradiction on a major issue; no override.",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2026-02-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "Q4 is looking upwards. It's going very well ... And we expect a growth of 30% year-on-year",
+          "period": "Q4 FY26",
+          "basis": "Revenue from operations, YoY; standalone (company's growth commitments are standalone, p.4 of Q4 FY26 call)",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed p.6 (Q&A, Rahil / Sapphire Capital)",
+          "outcome": "Q4 FY26 standalone revenue Rs 264.0 cr vs Rs 185.0 cr = +42.7% YoY (consolidated Rs 279.8 cr, +51.2%)",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 10 (Standalone P&L)",
+          "item_grade": 2,
+          "note": "Same sentence continues 'and we continue to maintain that going into the next year' - FY27 leg recorded under the Q2 FY26 origin."
+        },
+        {
+          "class": 2,
+          "date": "2026-02-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "we should be back to even better than, in fact, what margins we've done previously, we should be back in the next couple of quarters.",
+          "period": "Q4 FY26-Q1 FY27",
+          "basis": "Consolidated EBITDA margin (excl. other income); target = back to prior double-digit level (Q2 FY26 11.4% = 25.9/227.1); CMD added Q4 better than Q3 (9.2%) and Q1 better than Q4 (printed p.7)",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed p.6 (Q&A, Rahil / Sapphire Capital); also printed p.7 (Manish Goyal)",
+          "outcome": "Consolidated EBITDA margin Q4 FY26 3.0%, Q1 FY27 5.1% (shortfall >6pp vs 11.4% and below Q3's 9.2%); standalone 10.2% and 10.6%",
+          "outcome_source": "Q1 FY27 investor presentation, BSE filing 2026-08-11 (74393c0b-c106-46ae-b897-eca35a7b3d54.pdf), slides 26-27 (Standalone and Consolidated P&L, with Q4 FY26 column)",
+          "item_grade": 0,
+          "note": "Q3 attributed the drop to copper volatility; Q4 FY26 call attributes the further fall to Elventive France consolidation, which was already in the Q3 numbers. Even standalone (10.2%, 10.6%) stayed below Q2 FY26's 11.4%."
+        },
+        {
+          "class": 3,
+          "date": "2026-02-12",
+          "speaker": "Manoj Nair, Chief Executive Officer",
+          "quote": "So overall, we would see the ramp-up on the order board over the next two quarters, and that's the expectation.",
+          "period": "Q4 FY26-Q1 FY27",
+          "basis": "Order book, from Rs 1,103 cr at 2025-12-31 (printed p.2); orders expected 'next quarter' (printed p.4)",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed pp.8-9 (Q&A, Pragya Bharadwaj / Complete Circle); also printed p.4",
+          "outcome": "Order book Rs 845.5 cr at 2026-03-31 and Rs 739.8 cr at end-July 2026 (-33% vs Rs 1,103 cr)",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 5 (Management Commentary); Q1 FY27 investor presentation, BSE filing 2026-08-11 (74393c0b-c106-46ae-b897-eca35a7b3d54.pdf), Management Commentary and slide 25",
+          "item_grade": 0,
+          "note": "FY26 inflows Rs 858.4 cr. Q1 FY27 CMD: 'Q1 order intake looks flattish' (p.2); delay blamed on geopolitical pivots within government."
+        },
+        {
+          "class": 10,
+          "date": "2026-02-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "Currently, there are no plans for any capex for the propulsion system. We have enough capacity already built.",
+          "period": "Assurance as of 2026-02-12",
+          "basis": "Capex for propulsion-system capacity",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed p.6 (Q&A, Manish Goyal / ThinQwise)",
+          "outcome": "Contradicted three months later: FY27 capex of ~Rs 50 cr is 'mainly for increasing the capacity for the propulsions, transformers and copper'; Tata MF issue proceeds include power-electronics test infrastructure for propulsion",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.13 (CFO) and p.12 (CMD); p.3 (objects of issue)",
+          "item_grade": 0,
+          "note": "Major-issue test (could permanently impair capital, end a revenue stream, or make numbers unreliable): not met - a capex plan change. No override."
+        },
+        {
+          "class": 10,
+          "date": "2026-02-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "No. Only what we have committed, that's it nothing more than that.",
+          "period": "Assurance as of 2026-02-12 (3-year horizon of the Q2 FY26 commitment)",
+          "basis": "No fund infusion into BeLink/Elventive beyond the commitment (EUR 1.5 mn a year for 3 years, Q2 FY26)",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed p.8 (Q&A, Manish Goyal / ThinQwise)",
+          "outcome": "[not retrieved] - Q4 FY26 call (CFO, p.8): EUR 1 mn purchase price plus EUR 2 mn introduced as capital in the new French company; Hirect's share of that capital and any FY27 infusion are not filed",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.8",
+          "item_grade": null,
+          "note": "Not graded: cannot separate Hirect's 65% from the promoter-entity 35% (Q2 FY26 p.8) or compare against the annual cap without the subsidiary funding note. Q1 FY27 announces 'restructuring measures' at Elventive (p.3) - re-test."
+        },
+        {
+          "class": 7,
+          "date": "2026-02-12",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "From Q2 of the next year.",
+          "period": "Q2 FY27",
+          "basis": "In-house CTC copper-conductor plant at normalised production, lifting gross margin ('the real upside will come from Q2 onwards', printed p.7)",
+          "source": "Q3 FY26 transcript (call 2026-02-12), BSE filing 2026-02-17 (f8157b18-ef31-4985-b8d5-86bd1269236f.pdf), printed p.7 (Q&A, Manish Goyal / ThinQwise)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q2 FY27 closed 2026-09-30 but results not yet filed; outcome pending. Q1 FY27 CMD (p.3): copper division saved ~2% of material cost already."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 0.0,
+      "status": "graded",
+      "note": "Call 2025-11-07. Restatements recorded under originating items: FY26 30% growth (p.12 'as committed previously' -> Q4 FY25), FY26 capex raised to ~Rs 60 cr (p.4 -> Q1 FY26 Rs 50 cr item), propulsion trials 'not more than two months to three months, once it starts' (p.11 -> Q4 FY25). Single graded item.",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2025-11-07",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "Yes, yes. That should be the target that we have. I think from Q4 onward, yes.",
+          "period": "From Q4 FY26",
+          "basis": "Standalone gross margin (revenue from operations - COGS); target = H1 FY25 level of ~28% cited by the analyst (H1 FY26 ~25%), restored via in-house copper conductors",
+          "source": "Q2 FY26 transcript (call 2025-11-07), BSE filing 2025-11-13 (cd62609a-0fde-4e94-847e-74e18e821a2f.pdf), printed p.9 (Q&A, Manan Shah / Moneybee)",
+          "outcome": "Standalone gross margin Q4 FY26 23.5%, Q1 FY27 25.5% (FY26 24.4%, FY25 27.0%) - shortfall 4.5pp in Q4",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 10; Q1 FY27 investor presentation, BSE filing 2026-08-11 (74393c0b-c106-46ae-b897-eca35a7b3d54.pdf), slide 26",
+          "item_grade": 0,
+          "note": "Anchor (~28%) is the analyst's figure, accepted by the CMD; even FY25's 27.0% was not regained. Q1 FY27 attributes moderation to West Asia input costs."
+        },
+        {
+          "class": 8,
+          "date": "2025-11-07",
+          "speaker": "A.K. (Anil Kumar) Nemani, Chief Financial Officer",
+          "quote": "still we will be crossing definitely 30% on the year-to-year basis. At least for next three years.",
+          "period": "FY26-FY28 (FY27 and FY28 legs open)",
+          "basis": "Revenue from operations YoY; standalone (Q4 FY26 call p.6: 'for stand-alone, we are looking at about 30%')",
+          "source": "Q2 FY26 transcript (call 2025-11-07), BSE filing 2025-11-13 (cd62609a-0fde-4e94-847e-74e18e821a2f.pdf), printed p.12 (Q&A, Agam Shah); CMD same page: 'we have set 30% year-on-year and I will stick to that'",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Origin (rule 7) of the FY27/FY28 30% target; FY26 leg graded at the Q4 FY25 origin. Restated Q3 FY26 (printed p.6-7, 'from existing business'), Q4 FY26 p.4 ('committed to our originally stated target of 30% top-line growth on a stand-alone basis'), Q1 FY27 p.5 ('stays intact'). Q1 FY27 standalone revenue +10.1% YoY (Q1 FY27 presentation slide 26) - first quarter tracking well below."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-07",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "So we have a commitment that we will fund about EUR1.5 million every year for 3 years.",
+          "period": "FY26-FY28",
+          "basis": "Ceiling on Hirect funding of BeLink/Elventive ('this is the maximum amount of commitment')",
+          "source": "Q2 FY26 transcript (call 2025-11-07), BSE filing 2025-11-13 (cd62609a-0fde-4e94-847e-74e18e821a2f.pdf), printed p.8 (Q&A, Manish Goyal / ThinQwise)",
+          "outcome": "[not retrieved] - FY26: EUR 1 mn purchase + EUR 2 mn capital introduced in the French company (Q4 FY26 call p.8); Hirect's share and split between years not filed",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.8",
+          "item_grade": null,
+          "note": "Ownership: Hirect 65%, promoter entity 35% (p.8). Pro-rata share of EUR 2 mn would be EUR 1.3 mn, within the cap - an inference, so not graded. Restated Q3 FY26 (separate class-10 item)."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": 1.0,
+      "status": "graded",
+      "note": "Call 2025-07-30. Restatements recorded under originating items: FY26 30% ('we will do minimum 30%', p.17 -> Q4 FY25), propulsion 50,000 km in '2 to 3 months' from field-trial start 'in the next 2-3 days' (p.6 -> Q4 FY25).",
+      "promises": [
+        {
+          "class": 4,
+          "date": "2025-07-30",
+          "speaker": "A.K. (Anil Kumar) Nemani, Chief Financial Officer",
+          "quote": "At present, in this year, we are targeting around INR 50 crores capex.",
+          "period": "FY26",
+          "basis": "Standalone capex, mainly backward integration; ~2/3 debt, 1/3 internal accruals",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.10 (Q&A, Yash Banka / Tiger Assets)",
+          "outcome": "FY26 capex ~Rs 70 cr (CFO); standalone net cash used in investing Rs 84.8 cr (includes ~Rs 18 cr rise in investments)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.13; Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 12 (Standalone Cashflow) and slide 11 (Investments Rs 18.3 cr vs 0.4 cr)",
+          "item_grade": 2,
+          "note": "A spending plan, not a cap, so at-or-above = 2. Revised up before period end: Q2 FY26 'approximately Rs. 60 crores' (p.4), Q3 FY26 ~Rs 60 cr. Funding differed from the stated debt/accruals mix (promoter warrants, see Q4 FY25 class-10 item). Purchase-of-PPE line not separately shown in the deck."
+        },
+        {
+          "class": 3,
+          "date": "2025-07-30",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "To end the year, we are not sure where we will end it. It should be the same or better.",
+          "period": "FY26 year-end (2026-03-31)",
+          "basis": "Order book, vs Rs 1,022 cr at 2025-06-30 (printed p.2)",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.14 (Q&A, Aagam / Aagam Investments)",
+          "outcome": "Order book Rs 845.5 cr at 2026-03-31 (-17.3%)",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 5 (Management Commentary)",
+          "item_grade": 0,
+          "note": "Q2 FY26 CFO (p.12): orders 'may come before March or may come after March'."
+        },
+        {
+          "class": 7,
+          "date": "2025-07-30",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "I think those announcements will be made very soon maybe within the next 6 to 8 weeks about the new products that are being launched.",
+          "period": "By ~2025-09-24 (8 weeks)",
+          "basis": "Announcement of new specialised products for diversification beyond railways",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.13 (Q&A, Nilabja Dey)",
+          "outcome": "Commercial production of specialised copper conductors (CTC/EPICC/PICC) for the transformer industry announced 2025-11-03 (~6 weeks after the window); no new-product release between 2025-07-30 and 2025-09-24 (only the BeLink acquisition, 2025-09-19)",
+          "outcome_source": "BSE press release 2025-11-03 (3481d369-6315-47b3-a6b4-00d7803ab984.pdf); BSE press release 2025-09-19 (6fc72ab3-bad2-48c7-b667-d8d320e0efc0.pdf)",
+          "item_grade": 1,
+          "note": "Reading: CTC is the product the CMD later describes as diversification beyond railways (Q2 FY26 p.12). If not, the promise is unmet (grade 0)."
+        },
+        {
+          "class": 7,
+          "date": "2025-07-30",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "It will take about a year's time.",
+          "period": "~July 2026",
+          "basis": "Propulsion system moving from development source to approved source (full tender quantity)",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.9 (Q&A, Divyansh Gupta / Latent PMS)",
+          "outcome": "Re-set before period end: Q4 FY26 (2026-05-18) 'next year, we should be looking at being an approved source', linked to the incomplete field trial and new FRPCPY rules; Q1 FY27 says staying in development is 'more advantageous' (20% quota)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-18), hirect.com/wp-content/uploads/2026/05/Hirect-Q4-FY26-Earnings-Call-Transcript.pdf (linked from BSE filing 2026-05-22, ab39e336-a8f2-40a1-a439-7b8907e96d90.pdf), p.12; Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), pp.10-11",
+          "item_grade": 1,
+          "note": "Graded as a cut under the class-9 rule: prospective (before July 2026) and a reason was given (trial and RDSO process) -> 1. 50,000 km trial still incomplete at 2026-08-12."
+        },
+        {
+          "class": 7,
+          "date": "2025-07-30",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "power electronics converter, which will be exported to the US , I think, in August or September.",
+          "period": "Aug-Sep 2025",
+          "basis": "First rail power-electronics converter export to the USA",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.15 (Q&A, Prem Luniya / Astute)",
+          "outcome": "[not retrieved] - on 2025-11-07 the CMD said it 'is now being dispatched' (clearance given); no filing of the dispatch date",
+          "outcome_source": "Q2 FY26 transcript (call 2025-11-07), BSE filing 2025-11-13 (cd62609a-0fde-4e94-847e-74e18e821a2f.pdf), printed p.7",
+          "item_grade": null,
+          "note": "Late as of 2025-11-07; whether within one quarter (by 2025-12-31) cannot be confirmed. The 2026-07-31 US mining converter order is a different order."
+        },
+        {
+          "class": 1,
+          "date": "2025-07-30",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "And we can look at some good quantities for this going forward from next year onwards.",
+          "period": "FY27 onwards",
+          "basis": "Orders/volumes of the advanced passenger-locomotive propulsion system (development order received Q1 FY26)",
+          "source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.15 (Q&A, Prem Luniya / Astute)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period; unquantified - test at FY27 end against any disclosed order."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": 1.0,
+      "status": "graded",
+      "note": "Maiden earnings call (CMD, p.2: 'our maiden earnings conference call'). Several later restatements trace here (rule 7). Override test: the contradicted equity assurance is not a SEVERE issue (no capital impairment, revenue stream or reporting-reliability effect); no override.",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-05-06",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "So our statement is that we will target 30% growth conservatively. That's what we are making as an official statement.",
+          "period": "FY26",
+          "basis": "Revenue from operations YoY; standalone (FY25 base Rs 655.4 cr)",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.11 (Q&A, Sudhir Bheda); also p.13 ('very fixated on having a 30% growth year-on-year')",
+          "outcome": "FY26 standalone revenue Rs 949.2 cr, +44.8% YoY (consolidated Rs 999.1 cr, +52.5%)",
+          "outcome_source": "Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slides 7 and 10",
+          "item_grade": 2,
+          "note": "Restated Q1 FY26 (p.17 'minimum 30%'), Q2 FY26 (p.12), Q3 FY26 (p.6). FY27-FY28 legs originate Q2 FY26."
+        },
+        {
+          "class": 7,
+          "date": "2025-05-06",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "I think we should be complete with the field trials, at least the 50,000 benchmark, perhaps by middle of June",
+          "period": "By mid-June 2025",
+          "basis": "Completion of the 50,000-km field trial of the indigenous locomotive propulsion system (making Hirect eligible for the 20% development quantity)",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.8 (Q&A, Prem Luniya / Astute); also p.6 ('45 days up to 90 days')",
+          "outcome": "Not complete 14 months later: official trial began ~Feb 2026; ~9,000-10,000 km covered at 2026-08-12, completion 'in the next few months'. Development-source eligibility came instead via UVAM guidelines after type tests",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-12), hirect.com/wp-content/uploads/2026/08/Transcript-Q1FY27.pdf (linked from BSE filing 2026-08-18, 3ee5ba12-ffdf-496c-9e6c-a7cf49bc5ece.pdf), pp.4-5; Q1 FY27 investor presentation, BSE filing 2026-08-11 (74393c0b-c106-46ae-b897-eca35a7b3d54.pdf), slide 16 ('Initiated official 50,000 km field trials')",
+          "item_grade": 0,
+          "note": "Restated and moved each call: Q1 FY26 (trial to start in 2-3 days, 2-3 months), Q2 FY26 (not yet officially started; 2-3 months once it starts), Q3 FY26 (commenced; 3-4 months), Q4 FY26 (type tests done; trials 'underway immediately'), Q1 FY27 (Gujarat flooding delay). Reasons were given (loco moved from Eastern to Western Railway, approvals), but timeline rule grades lateness: >1 quarter late = 0."
+        },
+        {
+          "class": 10,
+          "date": "2025-05-06",
+          "speaker": "A.K. (Anil Kumar) Nemani, Chief Financial Officer",
+          "quote": "So for the -- in the normal course of business and normal expansion, we don't plan to raise any equity in the market.",
+          "period": "Assurance as of 2025-05-06",
+          "basis": "Funding of expansion by debt plus internal accruals, no equity raise",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.14 (Q&A, Garvit Goyal / Nvest)",
+          "outcome": "Contradicted: board approved Rs 27.4 cr preferential warrants to the promoter group (announced 2025-07-30; 2,00,000 warrants at Rs 1,368.23 allotted 2025-10-01); Rs 100 cr preferential warrants to Tata Mutual Fund approved 2026-05-16, allotted June 2026",
+          "outcome_source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.3; BSE filing 2025-10-01 (f0d75b53-4f63-4b17-8970-fe9f3593a3b9.pdf); BSE filing 2026-06-09 (5b9dd309-44a9-4805-9c91-8ffe53c610da.pdf)",
+          "item_grade": 0,
+          "note": "Q3 FY26 (printed p.11) CMD: 'maybe later on down the line, we might consider a fundraise' - three months later the Rs 100 cr issue was approved. Major-issue test not met (dilutive but not impairing); no override."
+        },
+        {
+          "class": 4,
+          "date": "2025-05-06",
+          "speaker": "A.K. (Anil Kumar) Nemani, Chief Financial Officer",
+          "quote": "The estimated investment for the proposed expansion is approximately INR 52 crores.",
+          "period": "Project completion (completed Q2 FY26)",
+          "basis": "Capex budget for the Sinnar copper-conductor (CTC/EPICC/PICC) backward-integration project - treated as a ceiling",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.5 (CFO remarks)",
+          "outcome": "Total capex ~Rs 56 cr (+7.7% over estimate)",
+          "outcome_source": "BSE press release 2025-11-03 (3481d369-6315-47b3-a6b4-00d7803ab984.pdf); Q4 FY26 investor presentation, BSE filing 2026-05-16 (9bf62e6b-c61a-41d4-909b-a51bca4a1cbe.pdf), slide 26",
+          "item_grade": 1,
+          "note": "Overshoot <=10% of a ceiling = 1."
+        },
+        {
+          "class": 3,
+          "date": "2025-05-06",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "So we expect in plus of new orders maybe from June, July onwards.",
+          "period": "June-July 2025",
+          "basis": "New order inflows from the main annual Railways tenders",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.8 (Q&A, Prem Luniya / Astute)",
+          "outcome": "Orders of Rs 127 cr and Rs 101 cr from Indian Railways secured in Q1 FY26; order book rose to Rs 1,022 cr at 2025-06-30 from Rs 893 cr",
+          "outcome_source": "Q1 FY26 transcript (call 2025-07-30), BSE filing 2025-08-05 (c9e99a65-4d4d-4d7f-835a-fcbda4e25204.pdf), printed p.2 (CMD opening remarks)",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 8,
+          "date": "2025-05-06",
+          "speaker": "Suramya Nevatia, Chairman & Managing Director",
+          "quote": "So I mentioned this earlier as well. I would like the margins to be at mid to late teens.",
+          "period": "Within ~5 years (analyst: 'next 5 years' - CMD: 'Yes, definitely'); restated as FY31",
+          "basis": "EBITDA margin (company-level; basis not specified - standalone was the reported basis at the time)",
+          "source": "Q4 FY25 transcript (maiden call 2025-05-06), BSE filing 2025-05-12 (2ba68d67-a7b2-4dbc-ba96-1f850263b32b.pdf), printed p.18 (Q&A, Mahesh Attal); also p.13 ('at least our EBITDA, maybe in the range of mid-teens to late teens')",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open multi-year target. Rule 7: 'I mentioned this earlier' - 66th AGM transcript (2024-08-01, hirect.com) checked: margins expected to 'only improve', no figure; earliest numeric statement is this call. Restated Q1 FY26 p.12 (no date), Q4 FY26 p.7 ('FY31 ... mid to late teens at EBITDA level'). FY26 consolidated 8.4%, standalone 10.8%."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results 2025-01-31, investor presentation 2025-02-03; 2025-02-04 and 2025-02-21 investor meetings were physical 1x1/group meetings (BSE intimations cf0cbf65..., a31911e8...). Maiden call was Q4 FY25."
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results and press release 2024-10-30; December 2024 intimations are broker conferences (B&K), not earnings calls. Maiden call was Q4 FY25."
+    }
+  ]
+}

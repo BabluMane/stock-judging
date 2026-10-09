@@ -1,1 +1,79 @@
-{"as_of":"2026-10-07","conviction":0.6,"dcf":{"acc_trigger":200.16,"current_price":221.59,"fair_value":242.39,"inv_trigger":153.46,"model":"2-stage fade FCFF 20y, g_sus 15% (capped; ROE-avg3 29.2% x 1-payout), margin 15% (spec fallback), w 11.8% (beta 1.22)"},"engine":{"anchor":"VALUED (non-financial) — DCF FV Rs 242.39; price Rs 221.59 sits 8.6% BELOW FV but 10.7% ABOVE the G1 (ACC) trigger Rs 200.16 and 44% above G2 (INV) Rs 153.46; forward fill window has no post-d0 bars (live review) so legs report NO_TOUCH","deciding_gate":"distress","distress":"STOP — E4 TRIP: ETR 9.0% (FY26) and 11.0% (FY25), both <15% for 2 consecutive years (audited AR: 9.2%/10.9%); D1 pledge 0% (Jun-2026), D2 N/A (2 prior quarters < 4), D3 Z'' 7.87 safe, D4 F-score 6/9, D5 drawdown 32.8% (52w high 329.65), E1/E2/E3/E6 all PASS","event_lane":"PASS — no vetoes at d0 (Aug-2026 visa-fraud market buzz + company denial is not on the closed taxonomy; carried as governance watch)","excluded":true,"usability":"PASS — U1 basis no-restatement (both 1:1 bonuses pre-date the scoring FY), U2 sourced EPS 16.68 > 0, U3 gap 0.0% (vendor TTM 16.68 vs sourced 16.68, results week 2026-05-19)"},"key_metrics":{"beta":"1.22 (60m weekly vs NSEI)","book_value_rs":59.83,"debtor_days":21,"eps_fy26":16.68,"etr_fy26_pct":9.2,"goodwill_cr":1212.8,"mcap_cr":9123.8,"net_margin_fy26_pct":24.1,"opm_fy26_pct":28.3,"pat_fy26_cr":724.0,"pb":3.7,"pe_ttm":12.9,"pledge_pct":0.0,"promoter_pct":70.39,"roe_fy26_pct":29.4,"sales_fy26_cr":2998.0},"name":"BLS International Services Ltd","promises":[{"delivery":"DELIVERED — FY26 EBITDA margin 27.3%, Q1 FY27 28.3%; visa segment margin 40.1%","promise":"EBITDA margins ~20%+ business model (FY26 concall)","status":"delivered"},{"delivery":"DELIVERED — visa EBITDA margin 40.1% in FY26 (from 34.5% in FY25) on the self-managed model","promise":"Self-managed visa-centre transition driving margin expansion","status":"delivered"},{"delivery":"DELIVERED — MEA India (China centres), Slovak Republic global contract, Cyprus contracts all won in FY26","promise":"New government contract wins (FY26)","status":"delivered"},{"delivery":"DELIVERED — completed Jul 2, 2026 for Rs 156.82 cr via BLS E-Services","promise":"Atyati Technologies 100% acquisition","status":"delivered"},{"delivery":"IN-PROGRESS — Q1 FY27 revenue +25.3% YoY (Rs 890.5 cr) but headline includes Aadifidelis inorganic; organic quantum undisclosed","promise":"15-20% annual organic growth (Q1 FY27 concall)","status":"in-progress"},{"delivery":"Interim Rs 2.0 (Feb-2026) + final Rs 0.5 (Sep-2026); total payout ~Rs 103 cr","promise":"Dividend policy (observed, not promised)","status":"observed"}],"risks":["E4 veto: persistent sub-15% effective tax rate (FY25 10.9%, FY26 9.2% audited) — structural (SEZ/overseas units), but normalization is already visible (Q1 FY27 ETR 14.44% vs 9.6%) and would mechanically compress PAT growth","Acquisition-led growth: FY26 revenue +36.7% driven by Aadifidelis consolidation; goodwill Rs 1,212.8 cr is 32% of total assets — impairment risk if acquired businesses underperform","Digital-segment margin dilution: digital EBITDA margin 7.0% vs visa 40.1%; as digital outgrows visa, mix shift drags the consolidated margin","Government-contract concentration: 46 client governments, visa/consular 61% of revenue; renewal loss or geopolitical disruption (flagged in Q1 FY27) hits the high-margin core","Aug-2026 'visa fraud' market buzz (company denied) — sentiment overhang; stock -38% in 1y, trading near 52w low Rs 212","FII exodus: 12.2% (Mar-2025) to 4.14% (Jun-2026); institutional float only ~7.2%"],"scores":{"composite":0.45,"price":0.55,"quality":0.6},"status":"validated","symbol":"BLS","thesis":"Global #2 visa-outsourcing franchise with a 40%-margin core at a 13x-TTM price near its 52-week low. Record FY26 (Rs 2,998 cr revenue, Rs 724 cr PAT, 29% ROE, zero pledge, Z'' 7.9, CFO 1.25x PAT) reads like a quality compounder — but the engine vetoes on E4: the effective tax rate has sat below 15% for two straight audited years (FY25 10.9%, FY26 9.2%). That low ETR is structural (SEZ/overseas units), not an accounting red flag, so the veto is mechanical rather than diagnostic — yet the bar is the bar, and even setting the veto aside the price (Rs 222) sits above both entry triggers (ACC Rs 200 / INV Rs 153), so the engine offers no sanctioned entry here. The DCF fair value (Rs 242) itself rests on the spec's 15% OPM fallback against a reported 28% — the valuation is conservative by construction, which cuts both ways.","tier":"FULL","verdict":{"best_today_rank":null,"category":"PASS","conviction":0.6}}
+{
+ "as_of": "2026-10-09",
+ "conviction": 0.65,
+ "dcf": {
+  "fair_value": 242.39,
+  "current_price": 217.31,
+  "discount_pct": 10.4,
+  "acc_trigger": 200.16,
+  "inv_trigger": 153.46,
+  "above_g1_pct": 8.6,
+  "above_g2_pct": 41.6,
+  "model": "2-stage fade FCFF 20y, g_sus 15% (capped), margin 15% (spec fallback vs 28% reported), w 11.84% (beta 1.22)",
+  "sensitivity": "w=10% -> FV 350; w=11% -> 284; w=12% -> 236; w=14% -> 170; w=15% -> 148",
+  "price_note": "Yahoo BLS.NS close 2026-10-09; 52w low 212.0 (+2.5%), 52w high 349.2 (-37.8%)"
+ },
+ "engine": {
+  "deciding_gate": "distress",
+  "distress": "STOP \u2014 E4 TRIP: ETR 9.0% (FY26) and 11.0% (FY25), both <15% for 2 consecutive years (audited AR: 9.2%/10.9%); D1 pledge 0% (Jun-2026), D2 N/A, D3 Z'' 7.87 safe, D4 F-score 6/9, D5 drawdown 32.8%, E1/E2/E3/E6 all PASS. Re-run 2026-10-09 confirms.",
+  "usability": "PASS \u2014 U1/U2/U3 all PASS (re-run 2026-10-09)",
+  "event_lane": "PASS \u2014 no vetoes at d0",
+  "anchor": "VALUED \u2014 DCF FV Rs 242.39; price Rs 217.31 sits 10.4% BELOW FV but 8.6% ABOVE G1 (ACC) Rs 200.16 and 41.6% above G2 (INV) Rs 153.46",
+  "excluded": true
+ },
+ "key_metrics": {
+  "beta": "1.22 (60m weekly vs NSEI)",
+  "book_value_rs": 59.83,
+  "debtor_days": 21,
+  "eps_fy26": 16.68,
+  "etr_fy26_pct": 9.2,
+  "goodwill_cr": 1212.8,
+  "mcap_cr": 9123.8,
+  "net_margin_fy26_pct": 24.1,
+  "opm_fy26_pct": 28.3,
+  "pat_fy26_cr": 724.0,
+  "pb": 3.7,
+  "pe_ttm": 12.9,
+  "pledge_pct": 0.0,
+  "promoter_pct": 70.39,
+  "roe_fy26_pct": 29.4,
+  "sales_fy26_cr": 2998.0
+ },
+ "name": "BLS International Services Ltd",
+ "promises": {
+  "score_10": 8.2,
+  "c5": 2,
+  "scored_calls": 7,
+  "mode": "standard",
+  "summary": "Strong delivery: Q4 FY26 grade 2.0 (6 promises), Q4 FY25 2.0, Q4 FY24 2.0 (outside window). EBITDA margin, visa-centre transition, government contracts, Atyati acquisition all delivered."
+ },
+ "risks": [
+  "E4 veto persists: needs FY27 AND FY28 ETR >= 15% to clear (earliest mid-2028); Q1 FY27 at 14.44% is close but quarterly",
+  "No marquee holder among tracked investors (Kacholia, Mukul Agrawal, Nomura, Quant) \u2014 no smart-money confirmation",
+  "Goodwill Rs 1,212.8 cr = 32% of total assets (Aadifidelis acquisition) \u2014 impairment risk if digital disappoints",
+  "FII exodus: 12.2% (Mar-2025) -> 4.14% (Jun-2026); institutional float only ~7.2%",
+  "Digital segment EBITDA 7.0% vs visa 40.1% \u2014 mix shift drags consolidated margin as digital outgrows visa",
+  "Government-contract concentration: 46 client governments, visa/consular 61% of revenue",
+  "Aug-2026 visa-fraud market buzz (denied) \u2014 sentiment overhang",
+  "DCF uses 15% OPM fallback vs 28% reported \u2014 conservative by construction; true economic FV likely higher"
+ ],
+ "scores": {
+  "composite": 4.7,
+  "tier": "PASS",
+  "tier_reason": "gate(s) not passed: G1 (forensic battery 2/8 passes, bar >= 5)",
+  "provisional_tier_gates_ignored": "WATCH",
+  "A": 7.0,
+  "B": 2.5,
+  "C": 7.0,
+  "D": 1.67,
+  "E": 5.0,
+  "F": 5.0,
+  "C5": 2,
+  "C5_detail": "credibility audit 8.2/10 over 7 scored calls (v1.2, rule 7)"
+ },
+ "status": "validated",
+ "symbol": "BLS",
+ "thesis": "Global #2 visa-outsourcing franchise: 28% OPM, 29% ROE, 44% 5yr CAGR, zero pledge, C5=2 credibility (8.2/10). At Rs 217 the price sits 10.4% below the conservative DCF FV (Rs 242) and 2.5% above the 52w low \u2014 but the frozen engine vetoes on E4 (sub-15% ETR two years running) and the price remains above both mechanical triggers (ACC Rs 200 / INV Rs 153). The E4 veto is structural (SEZ/overseas tax), not diagnostic of distress \u2014 yet the bar is the bar. No marquee holder (Kacholia/Mukul/Nomura/Quant) \u2014 the key long thesis (visa compounding at 13x earnings) has no smart-money confirmation. Verdict: PASS. Buy zone starts at Rs 200 (G1); E4 clears earliest at FY28 scoring (needs FY27+FY28 ETR >= 15%; Q1 FY27 tracking 14.44%).",
+ "tier": "FULL",
+ "verdict": "PASS"
+}

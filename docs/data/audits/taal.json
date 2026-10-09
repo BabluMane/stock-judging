@@ -1,0 +1,80 @@
+{
+  "ticker": "TAALTECH",
+  "review_date": "2026-10-08",
+  "mode": "fallback",
+  "executable": true,
+  "score_10": 8.3,
+  "note": "No earnings calls in the 8-quarter window (Q2 FY25-Q1 FY27): no call intimations or transcripts on BSE/NSE, the company IR site (taaltech.com) or aggregators (Sharpely 'Conference Calls' and 'Presentations' rows empty for 2016-2026). Fallback mode. Sources checked: (1) Annual reports - FY26 AR (filed BSE 2026-08-07; Board's Report dated 2026-08-06): sentiment only ('outlook ... remains very positive'), no figure, period or date; merger line is retrospective; nothing captured. FY25 AR (Board's Report dated 2025-08-04): sentiment only ('well poised', 'well hedged against demand fluctuations'); nothing captured. FY24 AR (Board's Report dated 2024-05-30): 'awaiting the final order from NCLT' (no date; treated as restatement of the merger timeline, see 9th AGM item) and 'company will be minimally impacted by sectoral movements' (generic, no checkable outcome); nothing captured. (2) Investor presentations - none published in any period. (3) Press interviews - none found in the 2-year look-back for Salil Taneja or any other named executive. (4) AGMs - 12th AGM proceedings (2026-09-01): Chairman's speech and Q&A not recorded ('questions ... were duly answered'); nothing captured. 11th AGM transcript (2025-08-26) and 10th AGM transcript (2024-09-19): captured below. (5) Exchange filings - board-meeting outcomes and results releases for the last 8 quarters carry results only, no guidance; 2026-07-07 reply to BSE price query ('has not withheld any information') is a past-tense statutory statement, not a forward assurance. Rule 6: no Reg. 30 penalty, tax-order or litigation disclosure with an impact statement found in the announcements opened (20 most recent of 47 listed); FY26 AR states no strictures or penalties in the last three years; nothing to test (amount / PAT n.a.). Uncaptured AGM statements logged for context: 'plant engineering side of our business is going to start increasing' (2025, no segment disclosure to test), 'It will happen quickly' (merger, 2024, no date - restatement), 'we have internal targets for growth' (2024, undisclosed). Rule 7: merger-completion timeline traced to its earliest dated statement at the 9th AGM (2023-09-26), added as outside_window. Fallback-mode score: rests on three AGM statements by one executive; label as such wherever cited.",
+  "quarters": [
+    {
+      "label": "11th AGM transcript, Chairman, Aug 2025",
+      "event_date": "2025-08-26",
+      "source_tier": "agm",
+      "grade": 2,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "source_tier": "agm",
+          "date": "2025-08-26",
+          "speaker": "Salil Taneja, Chairman & Whole-Time Director",
+          "quote": "we see some uptick this year",
+          "period": "FY26",
+          "basis": "Consolidated revenue from operations; anchored qualitative statement converted to the figure in force when said: FY25 consolidated revenue from operations Rs 18,514.02 lakh (uptick = FY26 above this)",
+          "source": "Transcript of 11th AGM of TAAL Enterprises Ltd, 2025-08-26, taaltech.com/wp-content/uploads/2026/01/25.-11th-AGM-Transcript.pdf (answer to shareholder questions on order book and pipeline)",
+          "outcome": "FY26 consolidated revenue from operations Rs 19,742.92 lakh vs FY25 Rs 18,514.02 lakh: +6.6%. Uptick delivered.",
+          "outcome_source": "Audited consolidated financial results for year ended 2026-03-31, board meeting 2026-05-26 (BSE filing 2026-05-26), taaltech.com/wp-content/uploads/2026/01/Financials-March-31-2026.pdf",
+          "item_grade": 2,
+          "note": "Speaker also said the running business would be about flat on the prior year before the uptick [para]; graded against the uptick. Same AGM restated the margin band (see 10th AGM item); not a new promise."
+        }
+      ]
+    },
+    {
+      "label": "10th AGM transcript, Chairman, Sep 2024",
+      "event_date": "2024-09-19",
+      "source_tier": "agm",
+      "grade": 2,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "source_tier": "agm",
+          "date": "2024-09-19",
+          "speaker": "Salil Taneja, Chairman & Whole-Time Director",
+          "quote": "a 25 to 30% EBITDA margin is something that we, we are quite confident that we can achieve",
+          "period": "Steady state from FY25; tested on closed years FY25 and FY26",
+          "basis": "Consolidated EBITDA margin, excluding other income (revenue from operations less employee benefits and other expenses), pre-exceptional; basis not stated by speaker - tested on the stricter ex-other-income basis. Target low end 25%.",
+          "source": "Transcript of 10th AGM of TAAL Enterprises Ltd, 2024-09-19, taaltech.com/wp-content/uploads/2026/01/TAAL-Enterprises-Limited_Transcript-of-10th-AGM_19-09-2024.pdf (answer to shareholder Rohit Balakrishnan on steady-state margin)",
+          "outcome": "FY25: (18,514.02 - 10,631.97 - 2,016.40) / 18,514.02 = 31.7%. FY26: (19,742.92 - 11,499.87 - 2,310.06) / 19,742.92 = 30.1%. Both at or above the 25% low end; also within/above the 'closer to 30%' indication.",
+          "outcome_source": "Audited consolidated financial results for year ended 2026-03-31 (FY26 and FY25 columns), board meeting 2026-05-26, taaltech.com/wp-content/uploads/2026/01/Financials-March-31-2026.pdf",
+          "item_grade": 2,
+          "note": "Earliest statement of the band: 9th AGM (2023-09-26) gave no figure ('hope that we will be able to smooth them out'); 8th AGM (2022-09-28) gave none. Restated at 11th AGM (2025-08-26): 'we do think that the margins are sustainable, Within, you know, within a certain band.' Margin trend is down 1.6pp FY25 to FY26 but remains above the band's low end."
+        }
+      ]
+    },
+    {
+      "label": "9th AGM transcript, Chairman and Company Secretary, Sep 2023",
+      "event_date": "2023-09-26",
+      "source_tier": "agm",
+      "outside_window": true,
+      "grade": 0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "source_tier": "agm",
+          "date": "2023-09-26",
+          "speaker": "Salil Taneja, Chairman",
+          "quote": "is expected to be received in Q3 of this financial year",
+          "period": "Q3 FY24 (Oct-Dec 2023)",
+          "basis": "NCLT approval of the scheme of amalgamation of TAAL Tech India Pvt Ltd (wholly owned subsidiary) into TAAL Enterprises Ltd",
+          "source": "Transcript of 9th AGM of TAAL Enterprises Ltd, 2023-09-26, taaltech.com/wp-content/uploads/2026/01/Transcript-9th-AGM-of-TAAL-Enterprises-Limited.pdf",
+          "outcome": "NCLT Bengaluru Bench sanctioned the scheme by order dated 2025-05-21 (Q1 FY26); scheme effective 2025-06-27. Six quarters later than Q3 FY24.",
+          "outcome_source": "FY25 Annual Report, Board's Report pp. 3 and 6 (dated 2025-08-04); FY26 Annual Report p. 6 (BSE filing 2026-08-07)",
+          "item_grade": 0,
+          "note": "Rule 7: originating dated statement. Same meeting, Company Secretary Priya Chouksey: 'Final hearing for the merger is on 8th November. We will get the order after the hearing, approximately 3-4 months' (implies Feb-Mar 2024, Q4 FY24) - a revision inside the same event, graded against the original Q3 FY24. Later restatements: FY24 AR (Board's Report 2024-05-30) 'awaiting the final order from NCLT'; 10th AGM (2024-09-19) 'when is a question that I really can't answer ... I think we are very hopeful. It will happen quickly.' No reason for delay stated by management in any opened document; not a class-9 withdrawal. Override test: missed timeline, not a contradicted class-10 assurance; does not meet SEVERE (no capital impairment, no revenue stream at risk, numbers unaffected) - no override."
+        }
+      ]
+    }
+  ]
+}

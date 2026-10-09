@@ -1,39 +1,16 @@
 {
   "ticker": "TATVA",
   "review_date": "2026-10-08",
-  "method_note": "All eight transcripts opened from the company IR page (each with its exchange cover letter). Quotes taken via text extraction; page numbers per transcript footers, may be +/-1. Outcomes graded on the Q4 FY26 investor presentation (FY26/FY25 consolidated and segment figures) and later transcripts/filings. FY25 segment base is the presentation's restated figures. EBITDA basis is excl. other income throughout. Greenfield project moved from Jolva (Rs 250-275 cr) to Dahej-III (Rs 200 cr) between May and Jul 2026; groundbreaking timelines graded against the project, not the site. No class-10 assurance contradicted, so no override. No class-9 items: management never gave FY27-28 numbers before Q1 FY26 refused them, and Monoglyme/flame-retardant shelving is graded on the original timeline items. Q2 FY27 (Jul-Sep 2026) outcomes are not yet reported; items due in that window are left open. grade maps to engine_v3 score.",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 6.5,
+  "note": "All eight transcripts opened from the company IR page (each with its exchange cover letter). Quotes taken via text extraction; page numbers per transcript footers, may be +/-1. Outcomes graded on the Q4 FY26 investor presentation (FY26/FY25 consolidated and segment figures) and later transcripts/filings. FY25 segment base is the presentation's restated figures. EBITDA basis is excl. other income throughout. Greenfield project moved from Jolva (Rs 250-275 cr) to Dahej-III (Rs 200 cr) between May and Jul 2026; groundbreaking timelines graded against the project, not the site. No class-10 assurance contradicted, so no override. No class-9 items: management never gave FY27-28 numbers before Q1 FY26 refused them, and Monoglyme/flame-retardant shelving is graded on the original timeline items. Q2 FY27 (Jul-Sep 2026) outcomes are not yet reported; items due in that window are left open. grade maps to engine_v3 score. Rule 6: no Reg. 30 statutory impact line among captured class-10 items; none removed. Rule 7 sources opened (IR page): calls Q2 FY23 (2022-11-04), Q3 FY23, Q4 FY23 (2023-05-05), Q1 FY24 (NSE 2023-08-09), Q2 FY24 (2023-11-02), Q3 FY24 (2024-01-20), Q4 FY24 (2024-05-03), Q1 FY25 (2024-07-24). FY22 calls not on IR page; not opened. v1.2 rule-7 re-grade: 48 restated items merged into 21 origin items (9 of them in added calls); 4 outside_window calls added (Q4 FY24, Q3 FY24, Q4 FY23, Q2 FY23); cuts graded under class-9 rule (supersedes 'no class-9 items' above); Q3 FY26 commissioning item now graded; score 7.9 -> 6.5.",
   "quarters": [
     {
       "label": "Q1 FY27",
-      "grade": 2.0,
-      "status": "graded",
+      "grade": null,
+      "status": "pending",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "25%, 30% growth is what we forecasted, and that's what we stick to",
-          "period": "FY27",
-          "basis": "Revenue growth (basis not stated; read as consolidated revenue from operations)",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q4 FY26 call guided 'around 25%'. Q1 FY27 printed +43% YoY (Rs 1,671 mn)."
-        },
-        {
-          "class": 2,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "I would still stick to 20%, 22% margins in guidance",
-          "period": "FY27",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA basis; Q1 FY26 check: 173/1,169 = 14.8% as stated)",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q1 FY27 EBITDA Rs 323 mn / Rs 1,671 mn = 19.3%."
-        },
         {
           "class": 3,
           "date": "2026-07-17",
@@ -45,72 +22,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 ESS Rs 63 mn (-52% QoQ) on raw-material shortage."
-        },
-        {
-          "class": 3,
-          "date": "2026-07-17",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "It should contribute around INR70 crores to INR80 crores of revenue from all these pharma molecules",
-          "period": "FY27",
-          "basis": "Revenue from three new pharma molecules (PASC)",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.8",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "this should happen from October or November of this year, calendar year '26",
-          "period": "Oct-Nov 2026",
-          "basis": "Hybrid-battery customer commercialization (ESS)",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.13",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Earlier: H2 2025 (Q2 FY25 call), mid-2026 (Q2 FY26), Q3 FY27 (Q4 FY26)."
-        },
-        {
-          "class": 7,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "groundbreaking ceremony for this on 20th July 2026",
-          "period": "2026-07-20",
-          "basis": "Greenfield unit groundbreaking",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.6",
-          "outcome": "Held 20 July 2026 at Dahej-III",
-          "outcome_source": "Company update under Reg 30, exchange filing 2026-07-20: groundbreaking (Bhoomi Pujan) at new greenfield unit, Dahej-III, held 20 July 2026; capacity-addition disclosure filed 2026-07-17 (Rs 200 cr, ~21 months, internal accruals + debt)",
-          "item_grade": 2,
-          "note": "Three days after the call; sole closed item this quarter."
-        },
-        {
-          "class": 4,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "involving an investment of approximately INR200 crores",
-          "period": "Greenfield project (~21 months)",
-          "basis": "Greenfield capex, ceiling",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.5",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Site now Dahej-III; earlier calls said Jolva at Rs 250-275 cr (Q3 FY26) / Rs 250-270 cr (Q4 FY26)."
-        },
-        {
-          "class": 7,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "into operations within 21 months",
-          "period": "~Apr 2028",
-          "basis": "Greenfield commissioning",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Internal target 18 months. Q3 FY26 said Sep-Oct 2027; Q4 FY26 said Jan 2028."
+          "note": "Q1 FY27 ESS Rs 63 mn (-52% QoQ) on raw-material shortage. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 8,
@@ -123,20 +35,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-07-17",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we don't foresee a major commercialization happening until at least I would say not before Q4 of 2028",
-          "period": "Q4 CY2028",
-          "basis": "Semiconductor chemicals commercialization",
-          "source": "Q1 FY27 transcript (call 2026-07-17), exchange filing 2026-07-21 (cover letter TCPCL/SEC/2026-27/00027), tatvachintan.com IR page, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q1 FY26 said slow start 2027, full scale 2029; Q2 FY26 said end-2027/early-2028."
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 10,
@@ -149,28 +48,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q4 FY26",
-      "grade": 1.7,
-      "status": "graded",
+      "grade": null,
+      "status": "pending",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we will be growing the revenue by around 25% and EBITDA should be in the range of somewhere around 20% to 22%",
-          "period": "FY27",
-          "basis": "Revenue growth (basis not stated) and EBITDA margin",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Margin leg also stated by Chintan Shah p.10: 'So there also, we stay with 20% to 22%.'"
-        },
         {
           "class": 3,
           "date": "2026-05-16",
@@ -182,7 +68,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Also 'at least 20%' SDA growth (p.9)."
+          "note": "Also 'at least 20%' SDA growth (p.9). rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 3,
@@ -195,7 +81,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: Q1 FY27 restated Rs 70-80 cr (CFO, p.8); merged; open."
         },
         {
           "class": 3,
@@ -208,72 +94,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 ESS Rs 63 mn (-52% QoQ); full-year open."
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "We shall see a beginning of commercial business for this application in Q3 of this current year.",
-          "period": "Q3 FY27",
-          "basis": "Hybrid-battery ESS application",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.5",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "the other two products will get into commercial production from Q3.",
-          "period": "Q3 FY27",
-          "basis": "Two further PASC pharma products",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.5",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "one product getting into commercialization in Q1",
-          "period": "Q1 FY27",
-          "basis": "First new PASC pharma product",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.5",
-          "outcome": "Commenced in Q1 FY27",
-          "outcome_source": "Q1 FY27 transcript p.5: 'the commercial production of one of our pharma intermediates commenced during the very first quarter itself'",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "its dispatch would happen in the current quarter.",
-          "period": "Q1 FY27",
-          "basis": "Semiconductor plant-scale batch dispatch",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.5",
-          "outcome": "Delivered in Q1 FY27",
-          "outcome_source": "Q4 FY26 transcript pp.5, 15 (plant-scale trials completed; dispatch in Q1 FY27); Q1 FY27 transcript p.5: 'our first batch produced on commercial plant scale was delivered to the customer during this quarter'",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we expect to commence the groundbreaking during this quarter.",
-          "period": "Q1 FY27",
-          "basis": "Greenfield (then Jolva) groundbreaking",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.5",
-          "outcome": "Groundbreaking 20 July 2026 (Q2 FY27), at Dahej-III",
-          "outcome_source": "Company update under Reg 30, exchange filing 2026-07-20: groundbreaking (Bhoomi Pujan) at new greenfield unit, Dahej-III, held 20 July 2026; capacity-addition disclosure filed 2026-07-17 (Rs 200 cr, ~21 months, internal accruals + debt)",
-          "item_grade": 1,
-          "note": "Chintan Shah same call p.11: 'we break ground in mid-July' - on time against that. Site changed from Jolva to Dahej-III."
+          "note": "Q1 FY27 ESS Rs 63 mn (-52% QoQ); full-year open. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 4,
@@ -286,7 +107,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 6,
@@ -299,20 +120,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-05-16",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we would take somewhere around 18 to 20 months. So roughly around in January 2028.",
-          "period": "Jan 2028",
-          "basis": "Greenfield commercial production",
-          "source": "Q4 FY26 transcript (call 2026-05-16), exchange filing 2026-05-19 (cover letter TCPCL/SEC/2026-27/00014), tatvachintan.com IR page, p.7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q1 FY27 call: within 21 months of Jul 2026."
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 8,
@@ -325,54 +133,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q3 FY26",
-      "grade": 1.6,
+      "grade": 1.5,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-01-21",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "I would definitely say a number between 20% to 30% of growth is definitely achievable.",
-          "period": "FY26",
-          "basis": "Consolidated revenue from operations growth",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.12",
-          "outcome": "FY26 +32.2% (Rs 5,059 mn vs Rs 3,827 mn)",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.6, 9: FY26 consolidated revenue from operations Rs 5,059 mn vs Rs 3,827 mn FY25; EBITDA excl. other income Rs 932 mn (18%) vs Rs 342 mn",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-01-21",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we expect about first week of March when we actually put the plant to commercial use.",
-          "period": "Mar 2026",
-          "basis": "New Dahej block commercial use",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.6",
-          "outcome": "Fully operational on commercial scale by Q4 FY26 call",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 2,
-          "note": "p.10 same call: 'mid-February'."
-        },
-        {
-          "class": 7,
-          "date": "2026-01-21",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we expect to break ground during the current quarter.",
-          "period": "Q4 FY26",
-          "basis": "Jolva greenfield groundbreaking",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.4",
-          "outcome": "Groundbreaking 20 July 2026 (Q2 FY27), at Dahej-III",
-          "outcome_source": "Company update under Reg 30, exchange filing 2026-07-20: groundbreaking (Bhoomi Pujan) at new greenfield unit, Dahej-III, held 20 July 2026; capacity-addition disclosure filed 2026-07-17 (Rs 200 cr, ~21 months, internal accruals + debt)",
-          "item_grade": 0,
-          "note": "Two quarters late; site changed."
-        },
         {
           "class": 7,
           "date": "2026-01-21",
@@ -384,20 +153,7 @@
           "outcome": "Plant-scale trials completed in Q4 FY26",
           "outcome_source": "Q4 FY26 transcript p.5: plant-scale trials 'have been completed successfully'",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-01-21",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we remain confident that it will evolve into a meaningful contributor from the current quarter.",
-          "period": "Q4 FY26",
-          "basis": "ESS segment contribution",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.4",
-          "outcome": "Q4 FY26 ESS Rs 131 mn (+865% QoQ) vs Q3 Rs 14 mn",
-          "outcome_source": "Q4 FY26 transcript pp.2-3 segment revenue",
-          "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 3,
@@ -410,33 +166,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2026-01-21",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we'll definitely see that kind of a number.",
-          "period": "FY27",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA basis; Q1 FY26 check: 173/1,169 = 14.8% as stated); anchored to 20-22% stated same answer",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2026-01-21",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "we expect commercialization to consolidate from the second quarter of next financial year.",
-          "period": "Q2 FY27",
-          "basis": "PASC pharma commercialization",
-          "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q2 FY27 closed 30 Sep 2026; results/call not yet out - outcome pending."
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 4,
@@ -449,7 +179,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Approved project is Rs 200 cr at Dahej-III (Jul 2026)."
+          "note": "Approved project is Rs 200 cr at Dahej-III (Jul 2026). rule 7: Q4 FY26 restated Rs 250-270 cr; Q1 FY27 Rs ~200 cr at Dahej-III (merged); open."
         },
         {
           "class": 7,
@@ -459,10 +189,10 @@
           "period": "Sep-Oct 2027",
           "basis": "Jolva commercial commissioning",
           "source": "Q3 FY26 transcript (call 2026-01-21), exchange filing 2026-01-24 (cover letter TCPCL/SEC/2025-26 [ref not retrieved]), tatvachintan.com IR page, p.12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Later moved to Jan 2028 (Q4 FY26) and ~21 months from Jul 2026 (Q1 FY27)."
+          "outcome": "Moved to Jan 2028 at Q4 FY26 call (engineering feedback and further trials, p.11) before period end; Q1 FY27: within 21 months of Jul 2026",
+          "outcome_source": "Q4 FY26 transcript pp.7, 11; Q1 FY27 transcript p.11",
+          "item_grade": 1,
+          "note": "Later moved to Jan 2028 (Q4 FY26) and ~21 months from Jul 2026 (Q1 FY27). rule 7: cut graded under class-9 rule (prospective, reason stated) = 1. Q4 FY26/Q1 FY27 restatements merged."
         },
         {
           "class": 10,
@@ -475,13 +205,13 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q2 FY26",
-      "grade": 1.2,
+      "grade": 1.3,
       "status": "graded",
       "promises": [
         {
@@ -495,20 +225,7 @@
           "outcome": "Q3 FY26 19.4% (255/1,313); Q4 FY26 21.0% (281/1,341)",
           "outcome_source": "Q3 FY26 transcript p.2; Q4 FY26 transcript p.2",
           "item_grade": 2,
-          "note": "Read as reaching the band within two quarters; H2 FY26 = 20.2%."
-        },
-        {
-          "class": 3,
-          "date": "2025-10-31",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we will touch base somewhere in the range of INR15 crores in terms of revenue",
-          "period": "FY26",
-          "basis": "ESS segment revenue",
-          "source": "Q2 FY26 transcript (call 2025-10-31), exchange filing 2025-11-04 (cover letter TCPCL/SEC/2025-26/00057), tatvachintan.com IR page, p.9",
-          "outcome": "FY26 ESS Rs 165 mn",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
-          "item_grade": 2,
-          "note": ""
+          "note": "Read as reaching the band within two quarters; H2 FY26 = 20.2%. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -521,7 +238,7 @@
           "outcome": "Q3 FY26 ESS Rs 14 mn (flat); ramp came in Q4 (Rs 131 mn)",
           "outcome_source": "Q3 FY26 transcript p.2; Q4 FY26 transcript pp.2-3",
           "item_grade": 1,
-          "note": ""
+          "note": "rule 7: Q3 FY26 'meaningful contributor from the current quarter' (Q4 FY26) merged; said after Q3 closed, so not a cut."
         },
         {
           "class": 7,
@@ -534,46 +251,7 @@
           "outcome": "First commercial plant-scale batch delivered in Q1 FY27",
           "outcome_source": "Q4 FY26 transcript pp.5, 15 (plant-scale trials completed; dispatch in Q1 FY27); Q1 FY27 transcript p.5: 'our first batch produced on commercial plant scale was delivered to the customer during this quarter'",
           "item_grade": 1,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-10-31",
-          "speaker": "Ajesh Pillai, CFO",
-          "quote": "it will be available for commercial production from January 2026",
-          "period": "Jan 2026",
-          "basis": "New Dahej block",
-          "source": "Q2 FY26 transcript (call 2025-10-31), exchange filing 2025-11-04 (cover letter TCPCL/SEC/2025-26/00057), tatvachintan.com IR page, p.6",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 1,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-10-31",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we want to break ground by January, February of 2026",
-          "period": "Jan-Feb 2026",
-          "basis": "Jolva greenfield groundbreaking",
-          "source": "Q2 FY26 transcript (call 2025-10-31), exchange filing 2025-11-04 (cover letter TCPCL/SEC/2025-26/00057), tatvachintan.com IR page, p.13",
-          "outcome": "Groundbreaking 20 July 2026, at Dahej-III",
-          "outcome_source": "Company update under Reg 30, exchange filing 2026-07-20: groundbreaking (Bhoomi Pujan) at new greenfield unit, Dahej-III, held 20 July 2026; capacity-addition disclosure filed 2026-07-17 (Rs 200 cr, ~21 months, internal accruals + debt)",
-          "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-10-31",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "mid of 2026 to take up commercial volumes",
-          "period": "Mid-2026",
-          "basis": "Hybrid-battery customer commercial volumes",
-          "source": "Q2 FY26 transcript (call 2025-10-31), exchange filing 2025-11-04 (cover letter TCPCL/SEC/2025-26/00057), tatvachintan.com IR page, p.12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Now guided Oct-Nov 2026 (Q1 FY27 call); open."
+          "note": "rule 7: Q4 FY26 'dispatch ... in the current quarter' (Q1 FY27) merged; said after Q4 FY26 closed, so a miss, not a cut."
         },
         {
           "class": 3,
@@ -586,67 +264,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q1 FY26",
-      "grade": 1.6,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-07-24",
-          "speaker": "Ashok Bothra, CFO",
-          "quote": "for '25, '26, we have given a guidance of upward of 25%.",
-          "period": "FY26",
-          "basis": "Consolidated revenue from operations growth",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.14",
-          "outcome": "FY26 +32.2%",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.6, 9: FY26 consolidated revenue from operations Rs 5,059 mn vs Rs 3,827 mn FY25; EBITDA excl. other income Rs 932 mn (18%) vs Rs 342 mn",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2025-07-24",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "Yes.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA basis; Q1 FY26 check: 173/1,169 = 14.8% as stated); confirming analyst's '25% revenue growth and 20% margin'",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.14",
-          "outcome": "FY26 EBITDA margin 18.4% (932/5,059)",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.6, 9: FY26 consolidated revenue from operations Rs 5,059 mn vs Rs 3,827 mn FY25; EBITDA excl. other income Rs 932 mn (18%) vs Rs 342 mn",
-          "item_grade": 0,
-          "note": "Shortfall 1.6pp. Quote is MD's confirmation of the analyst's restatement; also p.6: 'Yes. That is what we will see in the coming quarters.'"
-        },
-        {
-          "class": 3,
-          "date": "2025-07-24",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "Anywhere between INR15 crores to INR20 crores.",
-          "period": "FY26",
-          "basis": "ESS segment revenue",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.14",
-          "outcome": "FY26 ESS Rs 165 mn",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-07-24",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "We are sticking on to that. Maybe a quarter plus or minus",
-          "period": "FY26",
-          "basis": "SDA growth 40-70% (volume and value) reaffirmed",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.6",
-          "outcome": "FY26 SDA +70.8% (2,045 vs 1,197)",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 4,
           "date": "2025-07-24",
@@ -658,33 +284,7 @@
           "outcome": "~Rs 100 cr capex added in FY26",
           "outcome_source": "Q4 FY26 transcript p.12: 'around INR100 crores of capex has added'",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-07-24",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "We expect to commercialize production from there in January.",
-          "period": "Jan 2026",
-          "basis": "New Dahej block",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.7",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 1,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-07-24",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we are going to start producing from August",
-          "period": "Production Aug 2025; supplies Nov 2025 ('beginning supplies from November', same page)",
-          "basis": "Photochlorination agro product",
-          "source": "Q1 FY26 transcript (call 2025-07-24), exchange filing 2025-07-28 (cover letter TCPCL/SEC/2025-26/00030), tatvachintan.com IR page, p.9",
-          "outcome": "Orders executed in Q3 FY26, 'delayed by about 2 to 3 weeks'; repeat orders received",
-          "outcome_source": "Q3 FY26 transcript p.6",
-          "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -697,7 +297,7 @@
           "outcome": "First small-scale commercial order executed in Q2 FY26",
           "outcome_source": "Q2 FY26 transcript p.5",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -710,7 +310,7 @@
           "outcome": "[not retrieved] - Q3 FY26 call (p.15) mentions invoicing a SDA customer from ~Aug 2026; not confirmed as the same contract",
           "outcome_source": "Q3 FY26 transcript p.15",
           "item_grade": null,
-          "note": "Closed period, outcome not confirmed; not graded."
+          "note": "Closed period, outcome not confirmed; not graded. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -723,7 +323,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Period closed 30 Sep 2026; Q2 FY27 disclosure not yet out - pending."
+          "note": "Period closed 30 Sep 2026; Q2 FY27 disclosure not yet out - pending. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 8,
@@ -736,7 +336,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Also 'About similar, 20% level' margin (p.15)."
+          "note": "Also 'About similar, 20% level' margin (p.15). rule 7: merged restatements Q3 FY26 (margin), Q4 FY26 ('around 25%', 20-22%), Q1 FY27 ('25%, 30%', 'stick to 20%, 22%'); open."
         },
         {
           "class": 8,
@@ -749,13 +349,13 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 call: major commercialization 'not before Q4 of 2028'."
+          "note": "Q1 FY27 call: major commercialization 'not before Q4 of 2028'. rule 7: Q1 FY27 'not before Q4 of 2028' (major commercialization) merged here; open."
         }
       ]
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.1,
+      "grade": 0.9,
       "status": "graded",
       "promises": [
         {
@@ -769,7 +369,7 @@
           "outcome": "FY26 +32.2%",
           "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.6, 9: FY26 consolidated revenue from operations Rs 5,059 mn vs Rs 3,827 mn FY25; EBITDA excl. other income Rs 932 mn (18%) vs Rs 342 mn",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: Q1 FY26 'upward of 25%' and Q3 FY26 '20% to 30% ... achievable' merged; Q3 FY26 read as restatement, not a re-set. Q1 FY25 checked: no FY26 figure."
         },
         {
           "class": 2,
@@ -782,7 +382,7 @@
           "outcome": "FY26 EBITDA margin 18.4%",
           "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.6, 9: FY26 consolidated revenue from operations Rs 5,059 mn vs Rs 3,827 mn FY25; EBITDA excl. other income Rs 932 mn (18%) vs Rs 342 mn",
           "item_grade": 0,
-          "note": "Shortfall 1.6pp. Also '20%-21% in terms of EBITDA' (p.19)."
+          "note": "Shortfall 1.6pp. Also '20%-21% in terms of EBITDA' (p.19). rule 7: Q1 FY26 'Yes' (25%/20%) merged."
         },
         {
           "class": 1,
@@ -795,7 +395,7 @@
           "outcome": "FY26 SDA +70.8%",
           "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: Q1 FY26 reaffirmation merged."
         },
         {
           "class": 1,
@@ -808,7 +408,7 @@
           "outcome": "FY26 PTC -6.5% (1,173 vs 1,255)",
           "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 1,
@@ -818,10 +418,10 @@
           "period": "FY26",
           "basis": "ESS segment revenue ('from Rs.6 crores to Rs.23-26 crores', same page)",
           "source": "Q4 FY25 transcript (call 2025-05-05), exchange filing 2025-05-09 (cover letter TCPCL/SEC/2025-26/00015), tatvachintan.com IR page, p.16",
-          "outcome": "FY26 ESS Rs 165 mn (+175% on Rs 60 mn)",
-          "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
+          "outcome": "Re-set at Q1 FY26 (2025-07-24) to Rs 15-20 cr, no reason stated; Q2 FY26 ~Rs 15 cr; FY26 actual Rs 165 mn",
+          "outcome_source": "Q1 FY26 transcript p.14; Q2 FY26 transcript p.9; Q4 FY26 investor presentation pp.14-18",
           "item_grade": 0,
-          "note": "Shortfall 28% vs Rs 23 cr low end; 12.5% vs +200%."
+          "note": "Shortfall 28% vs Rs 23 cr low end; 12.5% vs +200%. rule 7: cut graded under class-9 rule: no reason = 0. Q1 FY26 and Q2 FY26 ESS items merged."
         },
         {
           "class": 1,
@@ -834,46 +434,7 @@
           "outcome": "FY26 PASC +26.1% (1,623 vs 1,287)",
           "outcome_source": "Q4 FY26 investor presentation (exchange filing 2026-05-16), pp.14-18: FY26 vs FY25 segment revenue - PTC 1,173 vs 1,255; SDA 2,045 vs 1,197; ESS 165 vs 60; PASC 1,623 vs 1,287 (Rs mn)",
           "item_grade": 0,
-          "note": "Shortfall 35%."
-        },
-        {
-          "class": 7,
-          "date": "2025-05-05",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we are striving very hard to get it operational before January of 2026.",
-          "period": "Before Jan 2026",
-          "basis": "New Dahej block (p.7: 'ready by the end of third quarter')",
-          "source": "Q4 FY25 transcript (call 2025-05-05), exchange filing 2025-05-09 (cover letter TCPCL/SEC/2025-26/00015), tatvachintan.com IR page, p.21",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 1,
-          "note": ""
-        },
-        {
-          "class": 4,
-          "date": "2025-05-05",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "anywhere between Rs. 105 Cr. and Rs. 110 Cr.,",
-          "period": "New block",
-          "basis": "New-plant capex, ceiling",
-          "source": "Q4 FY25 transcript (call 2025-05-05), exchange filing 2025-05-09 (cover letter TCPCL/SEC/2025-26/00015), tatvachintan.com IR page, p.21",
-          "outcome": "Rs 102 cr",
-          "outcome_source": "Q3 FY26 transcript p.9 (Chintan Shah): 'current new plant capex was INR102 crores' (final figure pending)",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-05-05",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we expect commercialization within the current financial year itself.",
-          "period": "FY26",
-          "basis": "Photochlorination agro product",
-          "source": "Q4 FY25 transcript (call 2025-05-05), exchange filing 2025-05-09 (cover letter TCPCL/SEC/2025-26/00015), tatvachintan.com IR page, p.18",
-          "outcome": "Executed in Q3 FY26",
-          "outcome_source": "Q3 FY26 transcript p.6",
-          "item_grade": 2,
-          "note": ""
+          "note": "Shortfall 35%. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 10,
@@ -886,67 +447,15 @@
           "outcome": "Held: Q2 FY26 'almost none of our product is subject to any reciprocal duties'",
           "outcome_source": "Q2 FY26 transcript p.4",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q3 FY25",
-      "grade": 1.1,
+      "grade": 1.0,
       "status": "graded",
       "promises": [
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "We expect the plant to be ready for production in Q4 of FY 2026.",
-          "period": "Q4 FY26",
-          "basis": "New Dahej plant",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.5",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we expect it to become operational by January of 2026.",
-          "period": "Jan 2026",
-          "basis": "New Dahej plant",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.8",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
-          "item_grade": 1,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we expect gradual commercialisation to begin from end of 2025 or early 2026",
-          "period": "End-2025 / early 2026",
-          "basis": "Three approved pharma intermediates",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.6",
-          "outcome": "First commercial production commenced Q1 FY27 (Apr-Jun 2026)",
-          "outcome_source": "Q1 FY27 transcript p.5",
-          "item_grade": 1,
-          "note": "Q2 FY26 call reported a small campaign (~Rs 2-3 cr) on one product (p.11)."
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "Installation and commercialization are projected to be completed by June 2025",
-          "period": "Jun 2025",
-          "basis": "Monoglyme plant-scale equipment",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.6",
-          "outcome": "Not commercialized; capacity plan withheld",
-          "outcome_source": "Q1 FY27 transcript p.7: 'we have withheld our plan to invest as of now into the glyme's capacity addition'; p.16: Monoglyme equipment repurposed",
-          "item_grade": 0,
-          "note": ""
-        },
         {
           "class": 7,
           "date": "2025-01-28",
@@ -958,7 +467,7 @@
           "outcome": "Production Aug 2025, supplies Nov 2025, executed Q3 FY26",
           "outcome_source": "Q1 FY26 transcript p.9; Q3 FY26 transcript p.6",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: Q4 FY25 (within FY26) and Q1 FY26 (Aug 2025 production) merged; both after Apr 2025. Q3 FY24 p.5 'commercialization in 2025' product unnamed - not used."
         },
         {
           "class": 7,
@@ -971,7 +480,7 @@
           "outcome": "Agro plant at ~200 t vs 1,000 t design (Q2 FY26); CY26 demand 'similar to 2025', turnaround 2027 (Q3 FY26)",
           "outcome_source": "Q2 FY26 transcript p.15; Q3 FY26 transcript p.6",
           "item_grade": 0,
-          "note": "Q4 FY25 call: all four produced commercially in Q4 FY25 - commercial, not full-scale."
+          "note": "Q4 FY25 call: all four produced commercially in Q4 FY25 - commercial, not full-scale. rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -984,20 +493,7 @@
           "outcome": "Below 10 ppb achieved by May 2025",
           "outcome_source": "Q4 FY25 transcript p.23",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we'll make the first shipment probably by mid of February.",
-          "period": "Feb 2025",
-          "basis": "Polymer product",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.10",
-          "outcome": "Commercialised; material sent to customer",
-          "outcome_source": "Q4 FY25 transcript p.18",
-          "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 7,
@@ -1010,26 +506,13 @@
           "outcome": "Pilot-scale sample formally approved by customer",
           "outcome_source": "Q4 FY25 transcript p.6",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2025-01-28",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "We are set to begin the first commercial supply to the customer in the current quarter.",
-          "period": "Q4 FY25",
-          "basis": "Flame retardants",
-          "source": "Q3 FY25 transcript (call 2025-01-28), exchange filing 2025-01-31 (cover letter TCPCL/SEC/2024-25/00070), tatvachintan.com IR page, p.6",
-          "outcome": "[not retrieved] - dispatch not confirmed; programme withheld at Q4 FY25 call (p.8)",
-          "outcome_source": "Q4 FY25 transcript p.8",
-          "item_grade": null,
-          "note": "Closed period, outcome not disclosed; not graded."
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         }
       ]
     },
     {
       "label": "Q2 FY25",
-      "grade": 1.3,
+      "grade": 2.0,
       "status": "graded",
       "promises": [
         {
@@ -1043,7 +526,7 @@
           "outcome": "Q3 FY25 Rs 859 mn",
           "outcome_source": "Q3 FY25 transcript p.7",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
         },
         {
           "class": 1,
@@ -1056,111 +539,156 @@
           "outcome": "H2 FY25 Rs 1,937 mn (FY25 3,827 - H1 1,890)",
           "outcome_source": "Q4 FY25 transcript p.9 (FY25 Rs 3,827 mn); Q2 FY25 transcript p.5 (H1)",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: calls Q2 FY23-Q1 FY25)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "outside_window": true,
+      "grade": 0.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-05-03",
+          "speaker": "Chintan Shah, Managing Director",
+          "quote": "with potential commercialization beginning from end of 2024.",
+          "period": "End-2024",
+          "basis": "ESS - hybrid-car battery customer",
+          "source": "Q4 FY24 transcript (call 2024-05-03), tatvachintan.com IR page, p.6",
+          "outcome": "Re-set at Q1 FY25 call (2024-07-24) to early 2025, tied to customer approvals by Nov 2024; later H2 2025, mid-2026, Q3 FY27, Oct-Nov 2026",
+          "outcome_source": "Q1 FY25 transcript pp.4, 12; Q2 FY25 p.4; Q2 FY26 p.12; Q4 FY26 p.5; Q1 FY27 p.13",
+          "item_grade": 1,
+          "note": "rule 7: cut, class-9 rule (prospective, reason stated) = 1. Merged Q2 FY25 (H2 2025, was 1), Q2 FY26, Q4 FY26, Q1 FY27 items."
         },
         {
           "class": 7,
-          "date": "2024-10-25",
+          "date": "2024-05-03",
           "speaker": "Chintan Shah, Managing Director",
-          "quote": "We expect them to start commercially probably by February, March or latest by Q1 of next financial year.",
-          "period": "Feb-Mar 2025 / Q1 FY26",
-          "basis": "Agro intermediates commercial start",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.6",
-          "outcome": "All four agro intermediates produced commercially in Q4 FY25",
-          "outcome_source": "Q4 FY25 transcript p.10",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2024-10-25",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we expect delivery somewhere by about June of next year and then commercialization of that equipment.",
-          "period": "~Jun 2025 (p.4: commercialization by end CY2025)",
-          "basis": "Monoglyme plant equipment",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.8",
-          "outcome": "Not commercialized; capacity plan withheld",
-          "outcome_source": "Q1 FY27 transcript p.7: 'we have withheld our plan to invest as of now into the glyme's capacity addition'; p.16: Monoglyme equipment repurposed",
+          "quote": "now we are coming into commercialization from next month.",
+          "period": "Jun 2024",
+          "basis": "Family of four polymer-industry products",
+          "source": "Q4 FY24 transcript (call 2024-05-03), tatvachintan.com IR page, p.15",
+          "outcome": "Not met; Q1 FY25 (after period) moved to end-2024; first polymer product commercialised Feb-Mar 2025",
+          "outcome_source": "Q1 FY25 transcript p.17; Q4 FY25 transcript p.18",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: 3 quarters late = 0. Merged Q2 FY25 ('both ... within next fiscal year') and Q3 FY25 ('first shipment ... mid of February', was 2)."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY24",
+      "outside_window": true,
+      "grade": 0.7,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-01-20",
+          "speaker": "Chintan Shah, Managing Director",
+          "quote": "October 2024.",
+          "period": "Oct 2024",
+          "basis": "New Dahej block (Rs 70 cr plan) commercialization; answer to analyst",
+          "source": "Q3 FY24 transcript (call 2024-01-20), exchange filing 2024-01-24 (cover letter TCPCL/SEC/2023-24/00093), tatvachintan.com IR page, p.14",
+          "outcome": "Postponed at Q4 FY24 call (2024-05-03), before period end: 'we failed with the soil testing'; commercial use Feb-Mar 2026",
+          "outcome_source": "Q4 FY24 transcript pp.16, 18; Q4 FY26 transcript p.4",
+          "item_grade": 1,
+          "note": "rule 7: cut, class-9 rule (prospective, reasoned) = 1. Merged block timelines Q2 FY25, Q3 FY25 (x2), Q4 FY25, Q1 FY26, Q2 FY26, Q3 FY26 (were 1,2,1,1,1,1,2)."
         },
         {
           "class": 4,
-          "date": "2024-10-25",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "The estimated capex is at about INR104 crores, INR105 crores.",
-          "period": "New Dahej plant",
-          "basis": "New-plant capex, ceiling",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.8",
-          "outcome": "Rs 102 cr",
-          "outcome_source": "Q3 FY26 transcript p.9 (Chintan Shah): 'current new plant capex was INR102 crores' (final figure pending)",
-          "item_grade": 2,
-          "note": "Range raised to Rs 105-110 cr at Q4 FY25 call; scored on original."
-        },
-        {
-          "class": 7,
-          "date": "2024-10-25",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "we will start construction post Diwali and this will become operational after 1 year",
-          "period": "~Nov 2025",
-          "basis": "New Dahej plant",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.10",
-          "outcome": "Commercial use mid-Feb / early Mar 2026",
-          "outcome_source": "Q3 FY26 transcript pp.6, 10 (commercial use 'first week of March' / 'mid-February' 2026); Q4 FY26 transcript p.4: 'The new block is now fully operational on commercial scale.'",
+          "date": "2024-01-20",
+          "speaker": "Ajesh Pillai, Investor Relations",
+          "quote": "we have decided to move forward with the plan of CAPEX of 700 Million INR",
+          "period": "Project",
+          "basis": "New Dahej block capex, ceiling",
+          "source": "Q3 FY24 transcript (call 2024-01-20), exchange filing 2024-01-24 (cover letter TCPCL/SEC/2023-24/00093), tatvachintan.com IR page, p.6",
+          "outcome": "Re-set to Rs 104-105 cr at Q2 FY25 ('utilize the maximum available plot area'), Rs 105-110 cr at Q4 FY25; actual ~Rs 102 cr",
+          "outcome_source": "Q2 FY25 transcript p.9; Q3 FY26 transcript p.9",
           "item_grade": 1,
-          "note": ""
+          "note": "rule 7: re-set before project end = cut, class-9 rule (prospective, reasoned) = 1. Merged Q2 FY25 and Q4 FY25 capex items (were 2, 2)."
         },
         {
           "class": 7,
-          "date": "2024-10-25",
-          "speaker": "Chintan Shah, Managing Director",
-          "quote": "within next 6 to 8 months, we'll have to open up the construction for the new site as well.",
-          "period": "~Apr-Jun 2025",
-          "basis": "Second site (later Jolva) construction start",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.15",
-          "outcome": "Groundbreaking 20 July 2026, at Dahej-III",
-          "outcome_source": "Company update under Reg 30, exchange filing 2026-07-20: groundbreaking (Bhoomi Pujan) at new greenfield unit, Dahej-III, held 20 July 2026; capacity-addition disclosure filed 2026-07-17 (Rs 200 cr, ~21 months, internal accruals + debt)",
+          "date": "2024-01-20",
+          "speaker": "Ajesh Pillai, Investor Relations",
+          "quote": "First, we expand at our existing site which is quicker & then we will open the site construction at Jolva in 2025.",
+          "period": "CY2025",
+          "basis": "Jolva greenfield construction start",
+          "source": "Q3 FY24 transcript (call 2024-01-20), exchange filing 2024-01-24 (cover letter TCPCL/SEC/2023-24/00093), tatvachintan.com IR page, p.5",
+          "outcome": "Moved at Q2 FY26 (2025-10-31) to Jan-Feb 2026, no reason stated; groundbreaking 20 Jul 2026 at Dahej-III",
+          "outcome_source": "Q2 FY26 transcript p.13; Reg 30 company update, exchange filing 2026-07-20",
           "item_grade": 0,
-          "note": ""
-        },
+          "note": "rule 7: cut, class-9 rule: no reason = 0. Merged groundbreaking items Q2 FY25, Q2 FY26, Q3 FY26, Q4 FY26, Q1 FY27 (were 0,0,0,1,2)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY23",
+      "outside_window": true,
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
         {
           "class": 7,
-          "date": "2024-10-25",
+          "date": "2023-05-05",
           "speaker": "Chintan Shah, Managing Director",
-          "quote": "the anticipated onset of commercialization is from second half of 2025.",
-          "period": "H2 CY2025",
-          "basis": "ESS (hybrid-battery customer)",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.4",
-          "outcome": "First small-scale commercial order Q2 FY26 'for extended validation'; ESS volume ramp Q4 FY26; hybrid commercial business now guided Q3 FY27",
-          "outcome_source": "Q2 FY26 transcript p.5; Q4 FY26 transcript pp.2-3; Q1 FY27 transcript p.13",
+          "quote": "The above mentioned three products are getting into commercialization in Q4FY24",
+          "period": "Q4 FY24",
+          "basis": "Three new pharma intermediates (PASC)",
+          "source": "Q4 FY23 transcript (call 2023-05-05), tatvachintan.com IR page, p.4",
+          "outcome": "Re-set at Q1 FY24 (2023-08-04) to early 2025 pending customer validation; first commercial production Q1 FY27",
+          "outcome_source": "Q1 FY24 transcript p.4 (NSE filing 2023-08-09); Q1 FY27 transcript p.5",
           "item_grade": 1,
-          "note": "Graded on first meaningful ESS volumes (Q4 FY26, one quarter after H2 2025); full hybrid commercialization slipped >1 year."
+          "note": "rule 7: cut, class-9 rule (prospective; reason = validation pending, thin) = 1. Merged Q3 FY25 (was 1), Q3 FY26, Q4 FY26 (x2, one was 2)."
         },
         {
           "class": 7,
-          "date": "2024-10-25",
+          "date": "2023-05-05",
           "speaker": "Chintan Shah, Managing Director",
-          "quote": "We expect to ship out this order in Q3.",
-          "period": "Q3 FY25",
-          "basis": "First flame-retardant order",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.5",
-          "outcome": "Not shipped in Q3 FY25 (Q3 call: supply set for Q4); later shipment [not retrieved]; programme withheld May 2025",
-          "outcome_source": "Q3 FY25 transcript pp.6, 9; Q4 FY25 transcript p.8",
-          "item_grade": null,
-          "note": "Delivery never confirmed; not graded."
+          "quote": "We expect to begin commercial supplies from January 2024.",
+          "period": "Jan 2024",
+          "basis": "PASC agro intermediates",
+          "source": "Q4 FY23 transcript (call 2023-05-05), tatvachintan.com IR page, p.4",
+          "outcome": "Re-set at Q2 FY24 (2023-11-02) to Apr-Jun 2024: 'validation plan ... postponed to January 2024'; all four commercial in Q4 FY25",
+          "outcome_source": "Q2 FY24 transcript pp.4, 8, 10; Q4 FY25 transcript p.10",
+          "item_grade": 1,
+          "note": "rule 7: cut, class-9 rule (prospective, reasoned) = 1. Merged Q2 FY25 agro item (was 2)."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY23",
+      "outside_window": true,
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2022-11-04",
+          "speaker": "Chintan Shah, Managing Director",
+          "quote": "we expect probably in 9 to 12 months timeframe when we should actually start commercial supplies.",
+          "period": "~Aug-Nov 2023",
+          "basis": "Monoglyme commercial supplies",
+          "source": "Q2 FY23 transcript (call 2022-11-04), tatvachintan.com IR page, p.17",
+          "outcome": "Re-set at Q2 FY24 (2023-11-02, 'next 12 months') after pilot slippage was public; never commercialized; capacity plan withheld",
+          "outcome_source": "Q1 FY24 transcript p.4; Q2 FY24 transcript p.15; Q1 FY27 transcript p.7",
+          "item_grade": 0,
+          "note": "rule 7: re-set not prospective (pilot only starting Aug 2023) = 0. Merged Q2 FY25 and Q3 FY25 Monoglyme items (were 0, 0)."
         },
         {
           "class": 7,
-          "date": "2024-10-25",
+          "date": "2022-11-04",
           "speaker": "Chintan Shah, Managing Director",
-          "quote": "both these products are expected to commercialize within next fiscal year.",
-          "period": "FY26",
-          "basis": "Two polymer products",
-          "source": "Q2 FY25 transcript (call 2024-10-25), exchange filing 2024-10-30 (cover letter TCPCL/SEC/2024-25/00056), tatvachintan.com IR page, p.4",
-          "outcome": "One product commercialised (Q4 FY25 call); second [not retrieved]",
-          "outcome_source": "Q4 FY25 transcript p.18",
-          "item_grade": null,
-          "note": "Partial evidence; not graded."
+          "quote": "We should expect revenue in this product category from December and revenue actually picking up from January",
+          "period": "Dec 2022",
+          "basis": "Flame retardants revenue start",
+          "source": "Q2 FY23 transcript (call 2022-11-04), tatvachintan.com IR page, p.6",
+          "outcome": "Not met; Jan 2024: 'not yet started commercial production'; programme withheld May 2025",
+          "outcome_source": "Q3 FY23 transcript p.14; Q3 FY24 transcript p.6; Q4 FY25 transcript p.8",
+          "item_grade": 0,
+          "note": "rule 7: merged Q2 FY25 and Q3 FY25 flame-retardant items (were ungraded). FY22 calls not opened."
         }
       ]
     }

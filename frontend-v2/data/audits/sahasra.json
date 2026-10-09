@@ -1,6 +1,10 @@
 {
   "ticker": "SAHASRA",
   "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 7.4,
+  "note": "Standard mode: SME half-yearly reporter; calls held for H1/H2 only. First-ever earnings call 27-Nov-2024 (IPO RHP 19-Sep-2024, prospectus 30-Sep-2024; no projections in offer document). Rule 6: no Reg 30 class-10 impact statements captured; none removed. v1.2 rule-7 re-grade: 14 restatements merged into their earliest items (4 from Q4 FY25, 5 from Q2 FY26, 5 from Q4 FY26); 2 originals from the 29-May-2025 H2 FY25 deck added to Q4 FY25 (graded 1 each); no outside_window entries (no earlier call or document states these targets); Q4 FY25 1.1->1.5, Q2 FY26 1.6->1.7; score_10 missing (computed 6.5) -> 7.4.",
   "quarters": [
     {
       "label": "Q1 FY27",
@@ -15,71 +19,6 @@
       "status": "pending",
       "promises": [
         {
-          "class": 1,
-          "date": "2026-05-29",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "With that, I would say that it appears that, and after the merger, we plan for a merger together with our nonlisted Company, which, so together with that, we seem set for our goal to achieve a revenue of about Rs.275 Crores to Rs.300 Crores for the merged entity and with a reasonably strong profit margin of about 15%.",
-          "period": "FY27",
-          "basis": "Consolidated revenue, merged entity (SESL+SSPL+SEPL+ITPL+SSSDPL), appointed date 1-Apr-2026",
-          "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Merger needs NSE/SEBI/NCLT approval; if not effective in FY27, test against ex-merger guidance (210-220). Q1 FY27 business update (NSE 2026-07-18): consolidated revenue Rs48.0 Cr provisional; company says 'on track'."
-        },
-        {
-          "class": 2,
-          "date": "2026-05-29",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "No, we are talking about PBT margins of 15%.",
-          "period": "FY27",
-          "basis": "PBT margin, merged entity, consolidated",
-          "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Clarifies the '15% profit margin' in the preceding statement as PBT."
-        },
-        {
-          "class": 1,
-          "date": "2026-05-29",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "So, if we look at the listed entity, your Company, the entire listed entity, so we will be looking to target around about Rs.160 Crores from SESL, which is the listed entity. We are targeting approximately Rs.50 Crores from the semiconductor entity.",
-          "period": "FY27",
-          "basis": "SESL standalone revenue Rs160 Cr; SSPL (semiconductor subsidiary) revenue Rs50 Cr",
-          "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Q1 FY27 standalone Rs33.0 Cr provisional (NSE 2026-07-18). SSPL Rs50 Cr is the same figure guided for FY26 (delivered Rs15.7 Cr)."
-        },
-        {
-          "class": 1,
-          "date": "2026-05-29",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "If you keep out the entities that are going to merge, of we keep them out, by FY2027, our guidance is anywhere between let us say Rs.210 Crores to 220 Crores",
-          "period": "FY27",
-          "basis": "Consolidated revenue ex-merger (SESL + SSPL)",
-          "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.17",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open."
-        },
-        {
-          "class": 3,
-          "date": "2026-05-29",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "So, based on the current visibility and operating trajectory, we continue to target EBITDA breakeven in the semiconductor business by FY2027 end.",
-          "period": "FY27",
-          "basis": "SSPL segment EBITDA >= 0",
-          "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Second deferral: breakeven was promised for FY26 in the 30-May-2025 call. Chairman (p.8) frames it as cash breakeven at Rs50 Cr revenue, depreciation possibly uncovered."
-        },
-        {
           "class": 3,
           "date": "2026-05-29",
           "speaker": "Varun Manwani, Non-Executive Director",
@@ -90,7 +29,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Period inferred from analyst's FY2027 framing of the question."
+          "note": "Open. Period inferred from analyst's FY2027 framing of the question. rule 7: no earlier statement found (checked: Nov-24 call, May-25 call/deck)."
         },
         {
           "class": 7,
@@ -103,7 +42,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Scheme approved by board 13-Mar-2026; filed with NSE; SEBI and NCLT pending."
+          "note": "Open. Scheme approved by board 13-Mar-2026; filed with NSE; SEBI and NCLT pending. rule 7: completion first dated here; 29-May-2025 deck 'planned for FY 25-26' read as initiation per next-day call (graded Q4 FY25)."
         },
         {
           "class": 6,
@@ -116,7 +55,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Normalisation item: subsidy amortisation inflates other income; FY26 included catch-up portion."
+          "note": "Open. Normalisation item: subsidy amortisation inflates other income; FY26 included catch-up portion. rule 7: no earlier statement found."
         },
         {
           "class": 8,
@@ -129,7 +68,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Earlier in the same call CFO said 'by the end of next year' (p.19) before settling on FY28."
+          "note": "Open. Earlier in the same call CFO said 'by the end of next year' (p.19) before settling on FY28. rule 7: no earlier statement found."
         },
         {
           "class": 8,
@@ -142,7 +81,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open."
+          "note": "Open. rule 7: no earlier consolidated FY28 figure; May-25 deck gave SESL Rs250 Cr and SSPL Rs250 Cr for FY28 but no total."
         },
         {
           "class": 8,
@@ -150,12 +89,12 @@
           "speaker": "Amrit Manwani, Chairman & MD",
           "quote": "The semiconductor business would, as I said, at Rs.50 Crores, it will kind of have break even in the future year that is 2027-2028, we are looking at a revenue only for semiconductors at about Rs.150 Crores and if that happens, then we will have a 10% PAT on semiconductors, but overall we will have a 16% to 17% PAT for the group.",
           "period": "FY28",
-          "basis": "SSPL revenue Rs150 Cr, SSPL PAT margin 10%; group PAT margin 16-17%",
+          "basis": "Group PAT margin 16-17% (FY28); SSPL Rs150 Cr / 10% PAT portion restates the Q4 FY25 SSPL Rs250 Cr item",
           "source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.9",
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Cuts the FY28 SSPL Rs250 Cr target from the 30-May-2025 call (graded there)."
+          "note": "Open. rule 7: SSPL part cuts the 30-May-2025 FY28 Rs250 Cr target (graded there); group PAT 16-17% first stated here."
         },
         {
           "class": 8,
@@ -168,10 +107,10 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. 'That figure' = Rs600-700 Cr peak referenced by the analyst (p.9-10, p.20)."
+          "note": "Open. 'That figure' = Rs600-700 Cr peak referenced by the analyst (p.9-10, p.20). rule 7: no earlier statement found."
         }
       ],
-      "note": "H2 FY26 call 2026-05-29. All promises relate to FY27 or later."
+      "note": "H2 FY26 call 2026-05-29. All promises relate to FY27 or later. rule 7: five FY27 restatements (merged-entity Rs275-300 Cr, 15% PBT, SESL 160/SSPL 50, ex-merger 210-220, SSPL EBITDA breakeven) moved to their originating Q2 FY25 / Q4 FY25 items."
     },
     {
       "label": "Q3 FY26",
@@ -182,22 +121,9 @@
     },
     {
       "label": "Q2 FY26",
-      "grade": 1.6,
+      "grade": 1.7,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-11-18",
-          "speaker": "Maneesh Tiwari, CFO",
-          "quote": "And if you see our last guidance, we have given the projected revenue of INR130 crores. So, in a way, we are on the halfway and we are expecting that the second half would be better than the first one.",
-          "period": "FY26",
-          "basis": "SESL standalone revenue from operations",
-          "source": "H1 FY26 transcript (18-Nov-2025), company IR page seslimited.in/wp-content/uploads/2025/11/SahasraElectronic-Earnings-Nov18-2025.pdf, p.4",
-          "outcome": "Rs123.6 Cr (shortfall 4.9%)",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32 (standalone income statement)",
-          "item_grade": 1,
-          "note": "CFO's H1 figure Rs58.16 Cr does not reconcile to H1 derived from filed FY26 numbers (123.6 - H2 69.4 = 54.2 Cr)."
-        },
         {
           "class": 2,
           "date": "2025-11-18",
@@ -209,59 +135,7 @@
           "outcome": "15.2% (EBITDA Rs18.8 Cr on Rs123.6 Cr)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 2,
-          "note": "H1 EBITDA margin derived from filed FY26 numbers is ~10.1% (18.8-13.3 on 54.2), not 12.63% as stated; FY target still met on the full-year figure."
-        },
-        {
-          "class": 2,
-          "date": "2025-11-18",
-          "speaker": "Maneesh Tiwari, CFO",
-          "quote": "And PAT we are also maintaining the PAT of 15.49%, which is quite good compared to last full year of 9.13%.",
-          "period": "FY26",
-          "basis": "Standalone PAT margin incl. other income",
-          "source": "H1 FY26 transcript (18-Nov-2025), company IR page seslimited.in/wp-content/uploads/2025/11/SahasraElectronic-Earnings-Nov18-2025.pdf, p.5",
-          "outcome": "15.9% (PAT Rs19.7 Cr)",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
-          "item_grade": 2,
-          "note": "Derived H1 PAT margin from filed numbers ~9.4% (5.1/54.2) vs 15.49% stated. FY26 PAT includes other income Rs7.7 Cr (incl. interest on loans to SSPL)."
-        },
-        {
-          "class": 1,
-          "date": "2025-11-18",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "With this recovery, while we may not be able to achieve the initial numbers that we had suggested, but we will at least be able to recover to the extent that we can at least reach similar to the last year's revenue.",
-          "period": "FY26",
-          "basis": "Semiconductor segment revenue >= FY25 (Rs10.31 Cr)",
-          "source": "H1 FY26 transcript (18-Nov-2025), company IR page seslimited.in/wp-content/uploads/2025/11/SahasraElectronic-Earnings-Nov18-2025.pdf, p.6",
-          "outcome": "Rs15.7 Cr",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.6 (segment split, consolidated)",
-          "item_grade": 2,
-          "note": "This statement is the in-period cut of the Rs50 Cr FY26 semiconductor target (graded against original in Q4 FY25 call)."
-        },
-        {
-          "class": 7,
-          "date": "2025-11-18",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "So now depending upon the time that would be taken, we hope to get the first tranche of our grant back from the government. And hopefully we can have that to be completed before the end of the financial year.",
-          "period": "FY26 (by 31-Mar-2026)",
-          "basis": "SPECS capital subsidy disbursement to SSPL (Rs20-22 Cr per Chairman, p.10)",
-          "source": "H1 FY26 transcript (18-Nov-2025), company IR page seslimited.in/wp-content/uploads/2025/11/SahasraElectronic-Earnings-Nov18-2025.pdf, p.6",
-          "outcome": "Final disbursement Rs18.60 Cr received; total approved Rs21.89 Cr (sanction 31-Dec-2025); Rs3.28 Cr earlier tranche",
-          "outcome_source": "Intimation of final disbursement of SPECS incentive, letter to NSE dated 2026-03-31",
-          "item_grade": 2,
-          "note": "Amount Rs21.89 Cr is within the Rs20-22 Cr stated."
-        },
-        {
-          "class": 7,
-          "date": "2025-11-18",
-          "speaker": "Varun Manwani, Non-Executive Director",
-          "quote": "So in the next few weeks, we hope to have a final merger scheme available based on which we will seek further approval from the board for the merger scheme.",
-          "period": "Q3 FY26 (by 31-Dec-2025, generous reading of 'next few weeks')",
-          "basis": "Board approval of final scheme of amalgamation",
-          "source": "H1 FY26 transcript (18-Nov-2025), company IR page seslimited.in/wp-content/uploads/2025/11/SahasraElectronic-Earnings-Nov18-2025.pdf, p.6",
-          "outcome": "Board approved scheme on 13-Mar-2026 (<= 1 quarter late)",
-          "outcome_source": "Outcome of board meeting 13-Mar-2026, NSE filing 2026-03-13",
-          "item_grade": 1,
-          "note": ""
+          "note": "H1 EBITDA margin derived from filed FY26 numbers is ~10.1% (18.8-13.3 on 54.2), not 12.63% as stated; FY target still met on the full-year figure. rule 7: none earlier (May-25 30% target was consolidated)."
         },
         {
           "class": 4,
@@ -274,7 +148,7 @@
           "outcome": "Lines arrived late Apr-2026, installed and operational May-2026 (<= 1 quarter late)",
           "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.4-5 (management: 'supposed to come in by March 2026')",
           "item_grade": 1,
-          "note": "No date was given in the Nov-2025 call; the March-2026 target is management's own statement in the 29-May-2026 call. Capex amount not verified."
+          "note": "No date was given in the Nov-2025 call; the March-2026 target is management's own statement in the 29-May-2026 call. Capex amount not verified. rule 7: no earlier statement of these lines; RHP object Rs65.97 Cr Bhiwadi P&M (FY26) is broader, link not confirmed."
         },
         {
           "class": 7,
@@ -287,7 +161,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "[not retrieved] Period closed; neither the FY26 investor presentation, the 29-May-2026 call nor the Q1 FY27 business update mentions eSIM production status. Not graded."
+          "note": "[not retrieved] Period closed; neither the FY26 investor presentation, the 29-May-2026 call nor the Q1 FY27 business update mentions eSIM production status. Not graded. rule 7: none earlier."
         },
         {
           "class": 7,
@@ -300,7 +174,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "[not retrieved] No filing found confirming the shipment date. Not graded."
+          "note": "[not retrieved] No filing found confirming the shipment date. Not graded. rule 7: none earlier (Nov-24 call p.4 named metering as a target sector only)."
         },
         {
           "class": 7,
@@ -313,7 +187,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "[not retrieved] FY26 presentation p.11 says 'aligned with' ISO 14001:2015 and ISO 45001:2018 - not evidence of unit certification. Not graded."
+          "note": "[not retrieved] FY26 presentation p.11 says 'aligned with' ISO 14001:2015 and ISO 45001:2018 - not evidence of unit certification. Not graded. rule 7: none earlier."
         },
         {
           "class": 3,
@@ -326,7 +200,7 @@
           "outcome": "55.8%",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.19",
           "item_grade": 2,
-          "note": "Graded at the FY26 checkpoint; standing target."
+          "note": "Graded at the FY26 checkpoint; standing target. rule 7: none earlier (Nov-24 call and May-25 deck give export actuals only)."
         },
         {
           "class": 10,
@@ -339,7 +213,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. In the 29-May-2026 call (p.19) Chairman said the company would 'remain open to all the various options... whether it is from debt or whether it is from any other source'. Merger share issuance (promoter 69.9% -> 74.1%) is separate from this capex assurance."
+          "note": "Open. In the 29-May-2026 call (p.19) Chairman said the company would 'remain open to all the various options... whether it is from debt or whether it is from any other source'. Merger share issuance (promoter 69.9% -> 74.1%) is separate from this capex assurance. rule 7: none earlier (Nov-24 p.20-22 gave Rs200 Cr with 50% grant, no funding split)."
         },
         {
           "class": 1,
@@ -352,10 +226,10 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Not graded: no filed FY26 accounts for the unlisted entities retrieved. 9M FY26 turnover per scheme disclosure: SEPL Rs69.72 Cr, ITPL Rs12.76 Cr (board outcome 13-Mar-2026). Chairman (29-May-2026, p.24) said ITPL did ~Rs16 Cr in FY26."
+          "note": "Not graded: no filed FY26 accounts for the unlisted entities retrieved. 9M FY26 turnover per scheme disclosure: SEPL Rs69.72 Cr, ITPL Rs12.76 Cr (board outcome 13-Mar-2026). Chairman (29-May-2026, p.24) said ITPL did ~Rs16 Cr in FY26. rule 7: May-25 deck said merger would 'boost revenue by approximately 100 Cr' (no period)."
         }
       ],
-      "note": "H1 FY26 call 2025-11-18. 8 graded, 5 ungraded (4 not retrieved/unlisted-entity, 1 open). H1 figures stated by CFO do not reconcile to H1 derived from filed FY26 numbers."
+      "note": "H1 FY26 call 2025-11-18. After rule 7: 3 graded, 5 ungraded; 5 restatements merged into earlier items (Rs130 Cr standalone, 15.49% PAT, subsidy tranche, merger board approval -> Q4 FY25; semis >= FY25 -> Q2 FY25). H1 figures stated by CFO do not reconcile to H1 derived from filed FY26 numbers."
     },
     {
       "label": "Q1 FY26",
@@ -366,22 +240,9 @@
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.1,
+      "grade": 1.5,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-05-30",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "But together with our subsidiary, which is Sahasra Semiconductors, we see a growth of totaling to about INR180 crores in the next fiscal year and with a gross margin of 15%.",
-          "period": "FY26",
-          "basis": "Consolidated revenue from operations (SESL + SSPL)",
-          "source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.3",
-          "outcome": "Rs138.8 Cr (shortfall 22.9%)",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.35",
-          "item_grade": 0,
-          "note": "Revised in-period by the Nov-2025 call (semiconductor target cut); scored against original."
-        },
         {
           "class": 1,
           "date": "2025-05-30",
@@ -393,7 +254,7 @@
           "outcome": "+42.4% (Rs123.6 Cr)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: none earlier (Nov-24 call guided consolidated only)."
         },
         {
           "class": 1,
@@ -406,46 +267,7 @@
           "outcome": "Rs123.6 Cr (shortfall 4.9%)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 1,
-          "note": "Internally inconsistent with the 30% growth statement in the same call (30% on 86.8 = 112.8)."
-        },
-        {
-          "class": 1,
-          "date": "2025-05-30",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "The semiconductor company also showed a revenue from INR2-INR3 crores to about INR10 crores last year and we expect that that will go up to about INR50 crores this year",
-          "period": "FY26",
-          "basis": "Semiconductor segment revenue (SSPL)",
-          "source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.6",
-          "outcome": "Rs15.7 Cr (shortfall 69%)",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.6",
-          "item_grade": 0,
-          "note": "Cut in-period on 18-Nov-2025 to 'similar to last year's revenue'; scored against original Rs50 Cr."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-30",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "and we will have achieved a break-even in the semiconductor company.",
-          "period": "FY26",
-          "basis": "SSPL breakeven (EBITDA basis; H2 FY25 presentation says cash breakeven)",
-          "source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.6",
-          "outcome": "Not achieved: management states segment still had EBITDA losses in FY26; consolidated EBITDA Rs18.2 Cr < standalone Rs18.8 Cr",
-          "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.4; FY26 investor presentation, NSE filing 2026-05-28, p.32 and p.35",
-          "item_grade": 0,
-          "note": "Target re-set to 'by FY2027 end' in the 29-May-2026 call."
-        },
-        {
-          "class": 2,
-          "date": "2025-05-30",
-          "speaker": "Amrit Manwani, Chairman & MD",
-          "quote": "And in export and domestic combined, the way we are forecasting an EBITDA margin of about 30% is on the basis of the value add that we provide.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA margin excl. other income",
-          "source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.15",
-          "outcome": "13.1%",
-          "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.35",
-          "item_grade": 0,
-          "note": ""
+          "note": "Internally inconsistent with the 30% growth statement in the same call (30% on 86.8 = 112.8). rule 7: 18-Nov-2025 'last guidance... INR130 crores' (CFO, p.4) merged here (was graded 1 separately)."
         },
         {
           "class": 2,
@@ -458,7 +280,7 @@
           "outcome": "15.9% (PAT Rs19.7 Cr on Rs123.6 Cr)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 2,
-          "note": "Standalone PAT includes Rs7.7 Cr other income, part of it interest on loans to SSPL that eliminates on consolidation (consolidated PAT margin 8.7%)."
+          "note": "Standalone PAT includes Rs7.7 Cr other income, part of it interest on loans to SSPL that eliminates on consolidation (consolidated PAT margin 8.7%). rule 7: 18-Nov-2025 'maintaining the PAT of 15.49%' merged here (was separate 2)."
         },
         {
           "class": 7,
@@ -471,7 +293,7 @@
           "outcome": "Received in FY26: total approved Rs21.89 Cr, final disbursement intimated 31-Mar-2026",
           "outcome_source": "Intimation of final disbursement of SPECS incentive, letter to NSE dated 2026-03-31",
           "item_grade": 2,
-          "note": "Graded on timing; amount Rs21.89 Cr vs ~Rs23 Cr is 4.8% short."
+          "note": "Graded on timing; amount Rs21.89 Cr vs ~Rs23 Cr is 4.8% short. rule 7: Nov-24 call p.21-22 cited Rs30 Cr on Rs120 Cr capex, paid 'after the fact', no date (not checkable); 18-Nov-2025 tranche-by-FY-end restatement merged here (was 2)."
         },
         {
           "class": 7,
@@ -484,7 +306,7 @@
           "outcome": "Board approved scheme of amalgamation 13-Mar-2026; application filed with NSE",
           "outcome_source": "Outcome of board meeting 13-Mar-2026, NSE filing 2026-03-13",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: not in Nov-24 call; deck 29-May-2025 'planned for FY 25-26'. 18-Nov-2025 'board approval in next few weeks' merged here (was graded 1; approved 13-Mar-2026)."
         },
         {
           "class": 10,
@@ -497,7 +319,7 @@
           "outcome": "Held: H1 FY26 standalone PAT ~Rs5.1 Cr (FY26 19.7 less H2 14.6)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 2,
-          "note": "Not a major-issue assurance under the SEVERE test; no override relevance."
+          "note": "Not a major-issue assurance under the SEVERE test; no override relevance. rule 7: none earlier."
         },
         {
           "class": 8,
@@ -510,7 +332,7 @@
           "outcome": "Cut before period end: FY27 SESL guidance reset to ~Rs160 Cr on 29-May-2026",
           "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.7",
           "item_grade": 1,
-          "note": "Class 8 cut -> class 9 rule: prospective (before any FY27 result) and reason stated (Chairman p.6: geopolitical uncertainty, 'more realistic' forecasts) = 1. Presentation (NSE 2025-05-29) also showed FY27 consolidated Rs325 Cr, EBITDA 30%, net 15%. FY28 SESL Rs250 Cr not separately re-guided; left with this item."
+          "note": "Class 8 cut -> class 9 rule: prospective (before any FY27 result) and reason stated (Chairman p.6: geopolitical uncertainty, 'more realistic' forecasts) = 1. Presentation (NSE 2025-05-29) also showed FY27 consolidated Rs325 Cr, EBITDA 30%, net 15%. FY28 SESL Rs250 Cr not separately re-guided; left with this item. rule 7: 29-May-2026 SESL Rs160 Cr item merged here; Q1 FY27 standalone Rs33.0 Cr provisional."
         },
         {
           "class": 8,
@@ -523,10 +345,36 @@
           "outcome": "Cut before period end: FY28 SSPL target reset to ~Rs150 Cr on 29-May-2026",
           "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.9",
           "item_grade": 1,
-          "note": "Class 9 rule: prospective, reason stated = 1."
+          "note": "Class 9 rule: prospective, reason stated = 1. rule 7: none earlier (Nov-24 call gave SSPL FY26 only)."
+        },
+        {
+          "class": 8,
+          "date": "2025-05-29",
+          "speaker": "Company (investor presentation)",
+          "quote": "SSPL 50 Cr. 150 Cr. 250 Cr.",
+          "period": "FY27",
+          "basis": "SSPL revenue Rs150 Cr (FY2026-27 column)",
+          "source": "H2 FY25 investor presentation, NSE filing 2025-05-29, 'Financial Performance - Present, Major Milestones' slide (company IR Presentation_con-call.pdf)",
+          "outcome": "Cut before period end: FY27 SSPL target reset to ~Rs50 Cr on 29-May-2026",
+          "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.7",
+          "item_grade": 1,
+          "note": "rule 7: origin of the 29-May-2026 'Rs.50 Crores from the semiconductor entity' FY27 item (moved here). Class 9 rule: prospective, reason stated (Chairman p.6) = 1."
+        },
+        {
+          "class": 8,
+          "date": "2025-05-29",
+          "speaker": "Company (investor presentation)",
+          "quote": "expected to achieve cash break even in 2025-26 and achieve 10 – 12% profit margin from 2026-27 onwards.",
+          "period": "FY27",
+          "basis": "SSPL profit margin 10-12%",
+          "source": "H2 FY25 investor presentation, NSE filing 2025-05-29, semiconductor subsidiary slide (company IR Presentation_con-call.pdf)",
+          "outcome": "Cut before period end: re-set to SSPL EBITDA breakeven by FY27 end on 29-May-2026",
+          "outcome_source": "H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.4",
+          "item_grade": 1,
+          "note": "rule 7: origin of the 29-May-2026 FY27 breakeven item (moved here). Class 9: prospective; reason 'current visibility and operating trajectory' (p.4) = 1. FY26 cash-breakeven part sits with the Q2 FY25 SSPL item."
         }
       ],
-      "note": "H2 FY25 call 2025-05-30. 12 graded. No class-10 override triggered."
+      "note": "H2 FY25 call 2025-05-30 (deck filed 2025-05-29). After rule 7: 10 graded; 4 restatements of Nov-24 targets (Rs180 Cr FY26, SSPL Rs50 Cr, SSPL breakeven, 30% EBITDA) merged into Q2 FY25 items; 2 deck originals of FY27 SSPL targets added. No class-10 override triggered."
     },
     {
       "label": "Q3 FY25",
@@ -551,7 +399,7 @@
           "outcome": "Rs86.8 Cr, -14.2% YoY",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32 (FY24 and FY25 columns)",
           "item_grade": 0,
-          "note": "Implied H2 of ~Rs70 Cr (p.22); actual H2 FY25 standalone Rs45.6 Cr."
+          "note": "Implied H2 of ~Rs70 Cr (p.22); actual H2 FY25 standalone Rs45.6 Cr. rule 7: none earlier (first call; RHP, FY24 AR, EGM 18-Nov-2024 hold no projections)."
         },
         {
           "class": 2,
@@ -564,7 +412,7 @@
           "outcome": "9.6% (PAT Rs8.3 Cr)",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.32",
           "item_grade": 0,
-          "note": "Also 'profit margins have stabilized at about 20%, and we are aiming to maintain this' (p.3)."
+          "note": "Also 'profit margins have stabilized at about 20%, and we are aiming to maintain this' (p.3). rule 7: none earlier."
         },
         {
           "class": 7,
@@ -577,7 +425,7 @@
           "outcome": "Stake 72.70% at FY25 end; target re-set to 'up to 85% in FY2025-26' (more than 1 quarter late)",
           "outcome_source": "H2 FY25 investor presentation, NSE filing 2025-05-29, 'Major Financial Milestones' slide",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: none earlier; RHP shows 54.18% from 21-Jun-2024, no stake target seen (Objects section could not be fully opened)."
         },
         {
           "class": 8,
@@ -590,7 +438,7 @@
           "outcome": "Cut before period end: FY26 reset to Rs180 Cr on 30-May-2025 (doubling of FY25 consolidated Rs95.8 Cr = ~Rs192 Cr). FY26 actual Rs138.8 Cr",
           "outcome_source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.3; FY26 investor presentation, NSE filing 2026-05-28, p.35",
           "item_grade": 1,
-          "note": "Class 8 cut -> class 9 rule: prospective (before FY26 began), reason stated (US tariffs/administration change) = 1. Cut was marginal (~6%); actual delivery +45%."
+          "note": "Class 8 cut -> class 9 rule: prospective (before FY26 began), reason stated (US tariffs/administration change) = 1. Cut was marginal (~6%); actual delivery +45%. rule 7: 30-May-2025 Rs180 Cr FY26 restatement merged here (was graded 0 separately)."
         },
         {
           "class": 8,
@@ -603,7 +451,7 @@
           "outcome": "EBITDA 13.1%, PAT 8.7%",
           "outcome_source": "FY26 investor presentation, NSE filing 2026-05-28, p.35",
           "item_grade": 0,
-          "note": "EBITDA 30% re-affirmed on 30-May-2025 (not cut) -> graded at period end against original. Net margin cut to 15% on 30-May-2025."
+          "note": "EBITDA 30% re-affirmed on 30-May-2025 (not cut) -> graded at period end against original. Net margin cut to 15% on 30-May-2025. rule 7: 30-May-2025 '30% EBITDA' restatement merged here (was separate 0)."
         },
         {
           "class": 8,
@@ -616,7 +464,7 @@
           "outcome": "Cut before period end to ~Rs50 Cr (30-May-2025); FY26 actual Rs15.7 Cr",
           "outcome_source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.6; FY26 investor presentation, NSE filing 2026-05-28, p.6",
           "item_grade": 1,
-          "note": "Class 9 rule: prospective, reason stated (long customer approval cycles, p.10-11 of May-2025 call) = 1."
+          "note": "Class 9 rule: prospective, reason stated (long customer approval cycles, p.10-11 of May-2025 call) = 1. rule 7: merged here 30-May-2025 Rs50 Cr (was 0) and 18-Nov-2025 'similar to last year's revenue' (was 2) restatements."
         },
         {
           "class": 8,
@@ -629,7 +477,7 @@
           "outcome": "Cut before period end to breakeven (30-May-2025); FY26 SSPL still EBITDA-negative",
           "outcome_source": "H2 FY25 transcript (30-May-2025), company IR page seslimited.in/wp-content/uploads/2025/08/Transcipt_30052025.pdf, p.6; H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.4",
           "item_grade": 1,
-          "note": "Class 9 rule: prospective, reason stated = 1."
+          "note": "Class 9 rule: prospective, reason stated = 1. rule 7: 30-May-2025 'break-even in the semiconductor company' FY26 item merged here (was 0). Same call p.17: 'in the next year, semiconductor business will also show profit'."
         },
         {
           "class": 8,
@@ -642,7 +490,7 @@
           "outcome": "Cut before period end: FY27 reset to Rs325 Cr / 15% net (30-May-2025), then Rs275-300 Cr merged (29-May-2026)",
           "outcome_source": "H2 FY25 investor presentation, NSE filing 2025-05-29, 'Way Forward' slide; H2 FY26 transcript (29-May-2026), NSE filing 2026-06-02, p.6",
           "item_grade": 1,
-          "note": "Class 9 rule applied to the first cut (30-May-2025): prospective, reason stated = 1. FY27 period itself remains open."
+          "note": "Class 9 rule applied to the first cut (30-May-2025): prospective, reason stated = 1. FY27 period itself remains open. rule 7: 29-May-2026 restatements merged here: merged-entity Rs275-300 Cr at 15% PBT (p.6-7), ex-merger Rs210-220 Cr (p.17). Q1 FY27 consol. Rs48.0 Cr prov."
         },
         {
           "class": 7,
@@ -655,10 +503,10 @@
           "outcome": "Re-scheduled to 'launch by end of FY2025-26' (more than 1 quarter late); launch not confirmed in any later filing",
           "outcome_source": "H2 FY25 investor presentation, NSE filing 2025-05-29, 'Strategy initiatives taken' slide",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: none earlier (RHP and corporate deck list motherboards as products only)."
         }
       ],
-      "note": "H1 FY25 call 2024-11-27. 9 graded. Four of the four '1' grades come only from the class-9 cut rule; every target tested at period end scored 0. No class-10 override triggered."
+      "note": "H1 FY25 call 2024-11-27, the company's first earnings call (listed Oct 2024). 9 graded. Four of the four '1' grades come only from the class-9 cut rule; every target tested at period end scored 0. Rule 7: 3 later restatements merged into these items. No class-10 override triggered."
     }
   ]
 }

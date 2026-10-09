@@ -1,0 +1,370 @@
+{
+ "ticker": "TRANSPEK (BSE 506687)",
+ "company": "Transpek Industry Ltd",
+ "review_date": "2026-10-09",
+ "mode": "standard",
+ "score_10": 5.0,
+ "score_method": "7 graded events, weights 7 (Feb 2025) down to 1 (Mar 2021). Weighted sum 28.0 / weight sum 28 x 5 = 5.0. The Aug 2026 call is pending and excluded.",
+ "coverage_notes": [
+  "No transcript was found on the company IR page between Feb 2025 and Aug 2026 (not_retrieved). The Q4 FY25 to Q4 FY26 calls are missing.",
+  "The 1 Oct 2020 call is outside the 8-event window. No promise from it was traced under Rule 7.",
+  "Promises with an unexpired deadline carry grade null and are excluded from event grades.",
+  "Statement basis (standalone or consolidated) is not given in the transcripts. Outcomes are graded against reported consolidated figures.",
+  "Not graded: the DuPont/Kevlar EXO volume start from Jan 2026 (a third-party product timeline; [unverified]) and the Friedel-Crafts plant commissioning (no dated promise)."
+ ],
+ "reference_financials_inr_cr_consolidated": {
+  "FY21": {
+   "revenue": 356.7,
+   "ebitda_margin_pct": 18.1
+  },
+  "FY22": {
+   "revenue": 627.5,
+   "ebitda_margin_pct": 19.8
+  },
+  "FY23": {
+   "revenue": 844.7,
+   "ebitda_margin_pct": 19.5
+  },
+  "FY24": {
+   "revenue": 604.8,
+   "ebitda_margin_pct": 17.8
+  },
+  "FY25": {
+   "revenue": 678.6,
+   "ebitda_margin_pct": 18.2
+  },
+  "FY26": {
+   "revenue": 645.7,
+   "ebitda_margin_pct": 18.3
+  }
+ },
+ "quarters": [
+  {
+   "label": "Q1 FY27 call",
+   "date": "2026-08-20",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "Expecting 15-20% revenue increase in FY27",
+     "class": 1,
+     "date": "2026-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY27 earnings call transcript (20 Aug 2026), transpek.com; wording condensed from a secondary summary of the call",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 investor presentation (Aug 2026)",
+     "note": "Condensed quote. Not graded. Early read: Pending. Q1 FY27 revenue was 155.1, down 6.5% YoY, so the first quarter is behind the guide."
+    },
+    {
+     "quote": "we are targeting 15% to 20% overall margins",
+     "class": 2,
+     "date": "2026-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY27 transcript (Aug 2026)",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 investor presentation",
+     "note": "The band is lower than the earlier 16-20%. Early read: Pending. Q1 FY27 EBITDA margin was 15.6%."
+    },
+    {
+     "quote": "We are looking at almost INR 250 Crores over 5-6 years",
+     "class": 4,
+     "date": "2026-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY27 transcript (Aug 2026)",
+     "period": "5-6 years (Odisha greenfield)",
+     "outcome": "",
+     "outcome_source": "Press report on the Odisha filing (media-only, [unverified])",
+     "note": "Not graded. Early read: Pending. An expression of interest for Gopalpur, Odisha was filed on 22 Jul 2026, subject to board approval and due diligence."
+    },
+    {
+     "quote": "one is very close to commercialization... at least about INR50 crores worth of business for that particular product",
+     "class": 1,
+     "date": "2026-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY27 transcript (Aug 2026)",
+     "period": "revenue from Q4 FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "The new-product target has been reset. It was \u20b910-20 Cr per product in 2021, \u20b980-100 Cr in 2024, \u20b9150-200 Cr in 2025 and is \u20b950 Cr per product in 2026. Early read: Pending."
+    },
+    {
+     "quote": "It will take another 6 months to 7 months for that [pilot] plant to be ready",
+     "class": 7,
+     "date": "2026-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY27 transcript (Aug 2026)",
+     "period": "about Feb-Mar 2027",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Early read: Pending."
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY25 call",
+   "date": "2025-02-21",
+   "status": "graded",
+   "grade": 0.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "We should be largely in the same range as we are this year, maybe about 10% growth.",
+     "class": 1,
+     "date": "2025-02-21",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q3 FY25 earnings call transcript, p.13, transpek.com",
+     "period": "FY26",
+     "outcome": "FY26 consolidated revenue was 645.7 against 678.6 in FY25 (-4.8%). Operations revenue fell 4.4%.",
+     "outcome_source": "FY26 investor presentation (Aug 2026)",
+     "note": "Grade 0. Growth was negative, not +10%.",
+     "item_grade": 0
+    },
+    {
+     "quote": "We believe that it should be done by April end",
+     "class": 7,
+     "date": "2025-02-21",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "n/a",
+     "source": "Q3 FY25 transcript (reply to Rohit Mehta on the NSE listing)",
+     "period": "April 2025",
+     "outcome": "No NSE listing. The company withdrew its NSE listing request on 13 Nov 2025 because paid-up capital is below \u20b910 Cr.",
+     "outcome_source": "BSE/NSE filing as reported by FilingReader (13 Nov 2025)",
+     "note": "Grade 0. Deadline missed and the plan dropped. Earlier said 'most of the procedures are over' (2024). Repeat promise from Jun 2024.",
+     "item_grade": 0
+    },
+    {
+     "quote": "Specialty new products (3-4 in number) targeted to generate Rs. 150-200 crores annually by FY27 with ~20% EBITDA margins",
+     "class": 1,
+     "date": "2025-02-21",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q3 FY25 call, quoted from a third-party earnings summary. The Aug 2026 analyst question cites the same \u20b9150-200 Cr guidance from 'February '25'.",
+     "period": "by FY27",
+     "outcome": "No material new-product revenue in FY26. On 20 Aug 2026 management reset to about \u20b950 Cr a year per product, starting Q4 FY27.",
+     "outcome_source": "Q1 FY27 transcript (Aug 2026)",
+     "note": "Grade 0. The deadline has not yet passed, but the target was cut without reason and the revised run-rate makes it unreachable by FY27. The quote is from a secondary summary, not the transcript text.",
+     "item_grade": 0
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY24 call",
+   "date": "2024-06-12",
+   "status": "graded",
+   "grade": 0.67,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "we will be applying to NSE very shortly",
+     "class": 7,
+     "date": "2024-06-12",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "n/a",
+     "source": "Q4 FY24 transcript, p.5, transpek.com",
+     "period": "near term (mid-2024)",
+     "outcome": "By 21 Feb 2025 the process was 'initiated' with NSE asking for further documents. Listing was withdrawn in Nov 2025.",
+     "outcome_source": "Q3 FY25 transcript; FilingReader",
+     "note": "Grade 0. Delay was well over one quarter, with no reason given. The exact filing date is [not retrieved].",
+     "item_grade": 0
+    },
+    {
+     "quote": "68% has been FY'24 and about 78%-79% we are expecting for FY'25.",
+     "class": 7,
+     "date": "2024-06-12",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "n/a",
+     "source": "Q4 FY24 transcript (reply to Niteen Dharmawat)",
+     "period": "FY25",
+     "outcome": "FY25 utilization was about 65% [approximate; to be re-verified in the FY25 investor presentation].",
+     "outcome_source": "FY25 investor presentation (May 2025)",
+     "note": "Grade 0. The shortfall is far larger than 1pp.",
+     "item_grade": 0
+    },
+    {
+     "quote": "Maybe very close to double-digit.",
+     "class": 1,
+     "date": "2024-06-12",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q4 FY24 transcript (reply to Darshil Jhaveri on FY25 growth)",
+     "period": "FY25",
+     "outcome": "FY25 revenue was 678.6 against 604.8 (+12.2%). Operations revenue grew 12.1%.",
+     "outcome_source": "FY25 investor presentation (May 2025)",
+     "note": "Grade 2. Met and exceeded.",
+     "item_grade": 2
+    },
+    {
+     "quote": "Maybe, maybe around INR80-INR100 crores, maybe, yes.",
+     "class": 1,
+     "date": "2024-06-12",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q4 FY24 transcript, p.8-9",
+     "period": "next 2-3 years (to about mid-2027)",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 transcript",
+     "note": "Not graded. Hedged wording. Deadline not yet passed. Early read: Pending. No sign of it by Aug 2026.",
+     "item_grade": null
+    },
+    {
+     "quote": "over next two and a half years, we should be able to commercialize most of these products.",
+     "class": 7,
+     "date": "2024-06-12",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "n/a",
+     "source": "Q4 FY24 transcript, p.13",
+     "period": "to about Dec 2026",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 transcript",
+     "note": "Not graded. The 30-35% higher-margin revenue mix target (3-4 years) is also pending. Early read: Pending. Management says the first non-acid product commercializes by end CY2026.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY23 call",
+   "date": "2023-02-17",
+   "status": "graded",
+   "grade": 1.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "our target... is definitely to reach INR 1,000 crores in the next year. But it depends on the circumstances",
+     "class": 1,
+     "date": "2023-02-17",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q3 FY23 transcript, p.7-8, transpek.com",
+     "period": "FY24",
+     "outcome": "FY24 revenue was 604.8 (-28% YoY).",
+     "outcome_source": "FY24 results; Q4 FY24 transcript (Jun 2024)",
+     "note": "Grade 0. The wording was conditional ('depends on the circumstances'), but the miss is large.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[normalized EBITDA margin band on a yearly basis] 16% to 20%.",
+     "class": 2,
+     "date": "2023-02-17",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q3 FY23 transcript (reply to Pavan Kumar)",
+     "period": "FY24",
+     "outcome": "FY24 EBITDA margin was 17.8%.",
+     "outcome_source": "FY24 results",
+     "note": "Grade 2. The 16-20% band has held every year from FY21 to FY26.",
+     "item_grade": 2
+    }
+   ]
+  },
+  {
+   "label": "Q1 FY23 call",
+   "date": "2022-08-29",
+   "status": "graded",
+   "grade": 2.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "capacity utilization at a mix of products and normalized pricing... then about 750 to 800 Crores.",
+     "class": 1,
+     "date": "2022-08-29",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Q1 FY23 transcript, p.8, transpek.com",
+     "period": "FY23 (peak revenue at normalized pricing)",
+     "outcome": "FY23 revenue was 844.7.",
+     "outcome_source": "FY23 investor presentation (Jun 2023)",
+     "note": "Grade 2. Exceeded. Pricing was elevated in FY23.",
+     "item_grade": 2
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY22 call",
+   "date": "2022-03-08",
+   "status": "graded",
+   "grade": 2.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "the EBITA margin can be anywhere between 18%-20%",
+     "class": 2,
+     "date": "2022-03-08",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Business Conference Call transcript, p.8, transpek.com",
+     "period": "FY23",
+     "outcome": "FY23 EBITDA margin was 19.5% (FY22: 19.8%).",
+     "outcome_source": "FY23 investor presentation (Jun 2023)",
+     "note": "Grade 2. The same call also said the Vizag capex was on hold. The board dropped it on 30 Mar 2022 (BSE filing).",
+     "item_grade": 2
+    }
+   ]
+  },
+  {
+   "label": "Q1 FY22 call",
+   "date": "2021-08-20",
+   "status": "graded",
+   "grade": 2.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "EBITDA it should be between 16% to 20% of the sales that I can reasonably estimate",
+     "class": 2,
+     "date": "2021-08-20",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Business Conference Call transcript (20 Aug 2021), p.22, transpek.com",
+     "period": "FY22 and FY23",
+     "outcome": "FY22 margin was 19.8% and FY23 was 19.5%.",
+     "outcome_source": "FY22 and FY23 investor presentations",
+     "note": "Grade 2.",
+     "item_grade": 2
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY21 call",
+   "date": "2021-03-01",
+   "status": "graded",
+   "grade": 1.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "16% to 20% of EBITDA margin and normalized sales in our capacities would be anywhere between Rs.500 Crores to Rs.700 Crores.",
+     "class": 2,
+     "date": "2021-03-01",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "unspecified",
+     "source": "Earnings call transcript (1 Mar 2021), transpek.com. The call attribution for this quote is from my notes.",
+     "period": "normalized (FY22 onward)",
+     "outcome": "FY22 revenue 627.5 and margin 19.8%. FY23 revenue 844.7 and margin 19.5%.",
+     "outcome_source": "FY22 and FY23 investor presentations",
+     "note": "Grade 2. The margin was within band and revenue was within or above the range.",
+     "item_grade": 2
+    },
+    {
+     "quote": "right now we are at about 70%. Over the next two years or may be two and a half years, it may go to about 45% to 50%",
+     "class": 3,
+     "date": "2021-03-01",
+     "speaker": "Bimal Mehta, Managing Director",
+     "basis": "n/a",
+     "source": "Earnings call transcript (1 Mar 2021), p.11",
+     "period": "by about Sep 2023 (polymer share of revenue)",
+     "outcome": "Polymer share was 56-63% across FY22-FY26 and 48.7% in Q1 FY27. The 45-50% target was reached only after about 5 years.",
+     "outcome_source": "Investor presentations FY22, FY23, FY25, FY26 and Q1 FY27",
+     "note": "Grade 0. Missed by more than 2 years. The call also promised 3-4 new products within 2 years; the new-product revenue promise has been repeated and slipped since (see Q3 FY25).",
+     "item_grade": 0
+    }
+   ]
+  }
+ ]
+}

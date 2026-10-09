@@ -1,0 +1,530 @@
+{
+  "ticker": "ASIANENE",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 4.5,
+  "note": "BSE 530355. Window Q2 FY25-Q1 FY27. Calls found (company IR transcript/audio list + exchange filings): Q2 FY25 (13 Nov 2024), Q4 FY25 (19 May 2025), business-update call on the Oilmax merger and Kuiper (8 Sep 2025, transcript filed NSE 12 Sep 2025), Q2 FY26 (17 Nov 2025), Q4 FY26 (20 May 2026). No call for Q3 FY25, Q3 FY26 or Q1 FY27 (IR lists none; those quarters have results, press release and deck only; Jan/Feb-2025, Feb-2026, Jun-2026 and Sep-2026 intimations are group investor meets/conferences, not calls). Q1 FY26 had no results call; the 8 Sep 2025 call is the only management call between the Q1 FY26 results (12 Aug 2025) and the Q2 FY26 results and is placed in the Q1 FY26 slot (judgment, flagged). Results release + call of the same results cycle treated as one event (FY26 revenue guidance first printed in the 16 May 2025 release, restated on the 19 May 2025 call). Quotes from text extraction of the transcripts, capped ~125 chars, printed page numbers; transcripts state the audio prevails. Basis: FY26 guidance was 'without Kuiper'; graded on standalone FY26 (Rs 491.8 cr rev / 78.3 cr EBITDA / 46.9 cr PAT, Q4 FY26 deck slides 9-10) since consolidated ex-Kuiper is not disclosed; FY25 standalone 464.1 vs consolidated 465.0 shows standalone = pre-Kuiper consolidated to within 0.2%. Kuiper figures are proxies = consolidated minus standalone (Q1 FY26 consolidated = standalone 115.4, so the gap is Kuiper-driven); flagged per item. Rule 7: FY25 revenue guidance traced to Q1 FY25 release/deck (12 Aug 2024); Mewad/Cambay timelines to Q4 FY24 deck (18 Jun 2024); Kuiper completion timeline to acquisition press release (18 Apr 2025) - all added outside_window. FY29 PAT Rs 450-500 cr cited by analyst as from the 2025 AGM: AGM-2025 proceedings (26 Sep 2025) opened, summary only, no Q&A, no figure - captured at earliest opened statement (Q4 FY26 call). Duarmara/Tiphuk/Amguri timelines first appear with the 6 Sep 2025 merger deck/8 Sep call (one event). Rule 6: no Reg. 30 impact statements captured; none to test. No class-10 assurance on a major issue contradicted; no override. Context (not captured, not forward-looking): CFO said 'We continue to remain a net zero debt company' (20 May 2026) while the Mar-2026 balance sheet shows borrowings ~Rs 158 cr vs cash ~Rs 147 cr (Q4 FY26 deck slide 13). Restatements of FY26 guidance on 8 Sep 2025 ('remains the same'), 17 Nov 2025 ('confident of achieving'), 13 Feb 2026 Q3 release ('confident of delivering') - when 9M standalone revenue was ~Rs 284.7 cr against a Rs 650 cr floor - are noted on the originating items, not re-scored. Scoring: 11 entries, weights 11->1, null grades drop out keeping positions; score = sum(grade x weight)/(2 x sum weight) x 10. Engine: pass score_10 as given.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results/press release and investor deck 13 Aug 2026; no call, transcript or audio on IR or exchange searches. Release: 'We remain confident of achieving our FY27 guidance for both Asian Energy Services and Kuiper' (Kapil Garg, MD) - restatement of Q4 FY26 items."
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we hope to grow between 30% to 40%",
+          "period": "FY27",
+          "basis": "Standalone (India services, ex-Kuiper, ex-Oilmax) revenue from operations, YoY growth on FY26 standalone Rs 491.8 cr -> Rs 639-689 cr",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR (AESL Q4 & FY26 Concall Transcript_250526_Final.pdf), p.6 (Q&A, Charchit Maloo / Genuity Capital); same figure in Q4 FY26 press release (NSE 2026-05-19) and deck slide 6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 standalone revenue Rs 149.3 cr, +29.4% YoY (Q1 FY27 deck slide 9). Includes recognition of ~Rs 75 cr Q4 FY26 deferral (separate item)."
+        },
+        {
+          "class": 2,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we hope to improve our EBITDA margins at least by 100 to 200 bps in FY '27",
+          "period": "FY27",
+          "basis": "Standalone EBITDA margin (company basis) vs FY26 standalone 15.9% (78.3/491.8, Q4 FY26 deck slide 10) -> target >= 16.9%",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 standalone EBITDA margin 10.9% (16.3/149.3, Q1 FY27 deck slide 9; seasonally weak quarter)."
+        },
+        {
+          "class": 1,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we are looking at the top line of roughly around $60 million to $65 million",
+          "period": "FY27",
+          "basis": "Kuiper Group revenue (USD), with EBITDA margin +100-200 bps",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 Kuiper proxy (consolidated 271.2 - standalone 149.3) ~Rs 121.9 cr; EBITDA proxy ~Rs 5.6 cr (~4.6%) (Q1 FY27 deck slides 8-9)."
+        },
+        {
+          "class": 2,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "On the consol level, I think our EBITDA margins will be roughly around 12% to 13%.",
+          "period": "FY27",
+          "basis": "Consolidated EBITDA margin (company basis, incl. share of JV)",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 consolidated 8.1% (21.9/271.2, deck slide 8); FY26 12.5%."
+        },
+        {
+          "class": 3,
+          "date": "2026-05-20",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "targeting approximately 1,000 barrels of oil equivalent per day by FY '27",
+          "period": "FY27",
+          "basis": "Block-level production, Indrora + Mevad (Gujarat); CFO restated as '1,000 BOPD' (p.11) - unit inconsistency BOE vs BOPD",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.3 (opening remarks); p.11 (Q&A, Hina Parekh)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Rule 7: Feb-2026 deck (slides 7, 19) gives '~1,000 bopd' block target with no date; first dated statement is this call / same-cycle Q4 FY26 release. Status Mar 2026: Mewad block ~150-200 bopd, Indrora ~200 BOE/d (Q4 FY26 deck slides 33, 38). Also: Indrora to 1,500 BOPD 'in the next 2, 3 years' (p.11) - multi-year, open."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "the deferred revenue are expected to recognise in FY '27 over the coming quarters",
+          "period": "FY27",
+          "basis": "~Rs 75 cr standalone Q4 FY26 revenue deferred (West Asia supply chain, client delays) - Q4 FY26 press release",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.5 (CFO remarks)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Paired assurance (class 10, open): 'largely a timing-related impact rather than a loss of revenue' (p.5)."
+        },
+        {
+          "class": 8,
+          "date": "2026-05-20",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "We are more or less on the same guidance still, Sunny.",
+          "period": "FY29",
+          "basis": "Group PAT Rs 450-500 cr by FY29 (figure stated by analyst as given at the prior AGM; confirmed by MD: 'no reason for us to believe that there's any change in that guidance')",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, p.10 (Q&A, Sunny Gosar / MK Ventures)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open multi-year target. Rule 7: originating AGM statement not opened - AGM 2025 proceedings (26 Sep 2025, company IR) are a summary with no Q&A and no figure; no AGM-2025 transcript on IR. Earliest opened statement = this call."
+        },
+        {
+          "class": 8,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we are looking for reaching an Oilmax revenue of between INR800 crores to INR900 crores",
+          "period": "FY29-FY30",
+          "basis": "Oilmax (oilfield ownership) segment revenue post-merger",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, pp.5-6 (Q&A, Charchit Maloo)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Same answer refused FY27-FY28 Oilmax guidance ('It's difficult to give an exact guidance for FY '27 and FY '28') - company had not guided those years, so no class-9 item. Related multi-year: Kuiper EBITDA margin 11-12% by FY29 (MD, p.10); standalone 25-30% CAGR 'pretty decent range' (MD, p.9) - open."
+        },
+        {
+          "class": 4,
+          "date": "2026-05-20",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "roughly around INR100 crores. And out of that, our portion will be roughly around INR50 crores",
+          "period": "FY27",
+          "basis": "Block-level oil & gas capex (Asian share ~Rs 50 cr); 'no capex commitment' for services/international; Oilmax ramp-up needs no further capex",
+          "source": "Q4 FY26 transcript (call 2026-05-20), company IR, pp.8-9 (Q&A, Atul Dagga)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open; treat as a ceiling at period end."
+        }
+      ],
+      "note": "Call 20 May 2026 (Kapil Garg MD, Sumit Maheshwari Group CFO). Admits FY26 miss: 'the company was unable to fully meet the previously communicated guidance for the year' (p.5) - graded on the Q4 FY25 items. Restatements logged on originating items: merger completion Sep/Oct 2026 (p.3), Tiphuk 'in the coming months' (p.3), Duarmara 'in this year' with refusal to date it (p.3, p.7), Amguri connections (p.3). All new items open -> pending."
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results, press release and deck 13 Feb 2026; investor meeting intimation for 19 Feb 2026 is a group meet. Release: 'We remain confident of delivering guidance provided for FY26' (Kapil Garg, MD) - restatement logged on Q4 FY25 items."
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 1.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-11-17",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "roughly around INR250 crores of revenue, we are expecting to be booked",
+          "period": "Next 6 months (~Q3-Q4 FY26)",
+          "basis": "Kuiper Group revenue in consolidated books; proxy = consolidated minus standalone revenue",
+          "source": "Q2 FY26 transcript (call 2025-11-17), company IR (Transcript_of_Earnings_call_17.11.2025.pdf), p.10 (Q&A, Nikunj Bhanushali / Kosh Wealth)",
+          "outcome": "H2 FY26 Kuiper proxy ~Rs 258 cr: Q4 gap 338.2-207.1 = 131.1; Q3 gap = 9M gap (452.8-284.7 = 168.1) minus Q2 Kuiper ~41 = ~127.1",
+          "outcome_source": "Q4 FY26 investor presentation (company IR, March_2026.pdf) slides 8-10 (consolidated FY26 791.1, Q4 338.2; standalone FY26 491.8, Q4 207.1); Q3 FY26 deck (February_2026.pdf) slide 10 (9M consolidated 452.8); Q2 FY26 deck (November_2025.pdf) slide 7 (Q2 Kuiper ~Rs 41 cr)",
+          "item_grade": 2,
+          "note": "Proxy, not a company-reported Kuiper figure; Q1 FY26 consolidated = standalone (115.4), so the gap is Kuiper-driven. Rule 7: no earlier statement (Kuiper consolidated from 1 Sep 2025)."
+        },
+        {
+          "class": 2,
+          "date": "2025-11-17",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "can be enhanced in the next 6 to 7 months",
+          "period": "By ~May-Jun 2026",
+          "basis": "Kuiper EBITDA margin, anchored to ~7% stated in the same answer (Sep-2025 month, Q2 deck slide 15); proxy = (consolidated - standalone EBITDA)/(consolidated - standalone revenue)",
+          "source": "Q2 FY26 transcript (call 2025-11-17), company IR, p.11 (Q&A, Balasubramanian / Arihant Capital)",
+          "outcome": "Q1 FY27 (quarter containing the target date) Kuiper proxy margin ~4.6% (EBITDA 21.9-16.3 = 5.6 / revenue 121.9) - shortfall ~2.4pp; Q4 FY26 proxy was ~8.2% (10.8/131.1)",
+          "outcome_source": "Q1 FY27 investor presentation (company IR, Final-Investor-PPT-Q1-FY-2027.pdf) slides 8-9; Q4 FY26 deck (March_2026.pdf) slides 8-10",
+          "item_grade": 0,
+          "note": "Graded at the end of the stated window (Q1 FY27). Q1 FY27 deck attributes weakness to West Asia disruption, ops 'stabilized in June'. Lenient reading on Q4 FY26 alone would be 2; conservative reading applied. Proxy figures, not company-reported."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-17",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "there won't be any impact in subsequent quarters for that",
+          "period": "Q3 FY26 onward",
+          "basis": "One-time Kuiper deal cost (Rs 6.5 cr exceptional, Q2 FY26) does not recur",
+          "source": "Q2 FY26 transcript (call 2025-11-17), company IR, p.6 (Q&A, Sunny Gosar)",
+          "outcome": "Held in substance: Q3 FY26 PAT 17.5 = adjusted PAT 17.5 (no exceptional). FY26 exceptional Rs 9.4 cr = acquisition cost 6.7 + write-off 2.1 net of tax booked in Q4 (Q4 exceptional -2.8 cr); write-off is a separate item, acquisition-cost figure 6.5 -> 6.7 unexplained (~0.2 cr)",
+          "outcome_source": "Q3 FY26 deck (February_2026.pdf) slide 10; Q4 FY26 press release (NSE 2026-05-19, ASIANENE_19052026200642_AESL_PressRelease_March2026.pdf) highlights footnote; Q4 FY26 deck slide 12",
+          "item_grade": 2,
+          "note": "Not a major-issue assurance. Q4 write-off nature not detailed in the opened documents."
+        },
+        {
+          "class": 7,
+          "date": "2025-11-17",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "expected to come towards the end of this month",
+          "period": "End Nov 2025",
+          "basis": "Environmental clearance for South Rewa CBM block (testing to follow)",
+          "source": "Q2 FY26 transcript (call 2025-11-17), company IR, p.5 (Q&A, Balasubramanian)",
+          "outcome": "[not retrieved] - Q4 FY26 call (p.3) says CBM work 'has already commenced ... after receiving the necessary permissions'; clearance date not in any opened filing",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-20), p.3",
+          "item_grade": null,
+          "note": "Rule 7: 8 Sep 2025 call gave only '2.5 years to commercial production' (p.10), not a clearance date."
+        },
+        {
+          "class": 4,
+          "date": "2025-11-17",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "there will be some capex of roughly around INR15 crores to INR20 crores over a period of next 3, 4 months",
+          "period": "~Dec 2025 - Mar 2026",
+          "basis": "Indrora field capex (Gujarat)",
+          "source": "Q2 FY26 transcript (call 2025-11-17), company IR, p.10 (Q&A, Nikunj Bhanushali)",
+          "outcome": "[not retrieved] - field-level capex not disclosed; consolidated CWIP 2.6 -> 46.1 cr in FY26 (Q4 deck slide 13) cannot be attributed",
+          "outcome_source": "Q4 FY26 deck (March_2026.pdf) slide 13",
+          "item_grade": null,
+          "note": "Same answer: AGCL BOOT ~Rs 40 cr capex in H2 = restatement of Q4 FY25 item; 'Apart from that, there's no committed capex' (p.10)."
+        }
+      ],
+      "note": "Call 17 Nov 2025. Restatements: FY26 guidance 'We remain confident of achieving our full year guidance' (p.3) -> Q4 FY25 items; 'Tiphuk and Duarmara will come into production this year' (p.10) and Duarmara 'later this year' (p.11) -> Q1 FY26 slot items; one drilled well's production 'in the next 1 or 2 months' (p.9) -> Mewad item (Q4 FY24 deck); rig mobilisation 'next 1 or 2 weeks' (p.9) -> Gujarat drilling item. Not captured (no checkable outcome / vague): CHP revenue '2x or 3x' Q2 level, GST impact 'very, very negligible', Rs 400-450 cr order-book execution in FY26 (overlaps revenue guidance). Grade = mean(2,0,2) = 1.3."
+    },
+    {
+      "label": "Q1 FY26 (business-update call, 8 Sep 2025)",
+      "grade": 0.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-09-08",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "the merger will get completed only by next September, October",
+          "period": "Sep-Oct 2026",
+          "basis": "Completion of merger by absorption of Oilmax Energy into AESL (~12 months, p.5)",
+          "source": "Business-update call transcript (call 2025-09-08), NSE filing 2025-09-12 (ASIANENE_12092025155051_AESL_TranscriptofInvestorsCall_12thSept2025.pdf), p.7; also p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open (period runs to 31 Oct 2026). NCLT Mumbai sanctioned the scheme 29 Sep 2026 (company IR, NCLT_order_29 Sept 2026.pdf, para 33) but it 'shall not become effective' until MoPNG approval (paras 18, 26) and RoC INC-28 filing. Restated Q4 FY26 call p.3 and Q1 FY27 release."
+        },
+        {
+          "class": 7,
+          "date": "2025-09-08",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "we anticipate that the field will come into production later in the year",
+          "period": "FY26 (by Mar 2026)",
+          "basis": "Duarmara (Assam, 50% PI, non-operated) first production",
+          "source": "Business-update call transcript (2025-09-08), NSE 2025-09-12, p.8",
+          "outcome": "Not producing: Q4 FY26 deck - discovered, one well drilled, in testing, 'production expected in FY27'; Q1 FY27 deck - testing underway, commercial production targeted FY27",
+          "outcome_source": "Q4 FY26 deck (March_2026.pdf) slide 38; Q1 FY27 deck (Final-Investor-PPT-Q1-FY-2027.pdf) slides 17-19",
+          "item_grade": 0,
+          "note": "> 1 quarter late. Restated 17 Nov 2025 ('later this year', p.11; Nov-2025 deck slide 18 'production expected in FY26'); moved to FY27 at Q4 FY26 call with MD: 'It's difficult for me to commit to a date' (p.7) - moved after the period closed, so no class-9 credit. Operator is Antelopus. Rule 7: first statement with the 6 Sep 2025 merger deck/8 Sep call."
+        },
+        {
+          "class": 7,
+          "date": "2025-09-08",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "we are again hoping to bring that field into production in the near future",
+          "period": "FY26 (as restated 17 Nov 2025)",
+          "basis": "Tiphuk (Assam, 80% PI) first production; 'workover rig heading there next week'",
+          "source": "Business-update call transcript (2025-09-08), NSE 2025-09-12, p.8",
+          "outcome": "Not producing: Q4 FY26 deck - production expected Q1 FY27; Q4 FY26 call - 'commencing production ... in the coming months' (p.3); Q1 FY27 deck - commercial production targeted FY27",
+          "outcome_source": "Q4 FY26 deck (March_2026.pdf) slide 38; Q1 FY27 deck slides 17-19",
+          "item_grade": 0,
+          "note": "'Near future' anchored by the 17 Nov 2025 restatement ('Tiphuk and Duarmara will come into production this year', p.10) and Nov-2025 deck ('production expected in FY26'). > 1 quarter late."
+        },
+        {
+          "class": 7,
+          "date": "2025-09-08",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "Later this year, we are hoping to get connected to the Indradhanush Gas Grid",
+          "period": "FY26 (by Mar 2026)",
+          "basis": "Amguri gas evacuation: IGGL connection; same answer 'later this year, we will get connected into the Numaligarh refinery network' (p.8)",
+          "source": "Business-update call transcript (2025-09-08), NSE 2025-09-12, p.8",
+          "outcome": "Not connected: Q4 FY26 call - Amguri production increase 'this year' once grid and refinery connections are established (p.3); Q1 FY27 deck - 'FY27 focus is IGGL connections'",
+          "outcome_source": "Q4 FY26 transcript (2026-05-20) p.3; Q1 FY27 deck slides 17-19",
+          "item_grade": 0,
+          "note": "Two connections in one answer graded as one item. Amguri itself producing (~1,850 BOE/d, Q4 FY26 deck slide 38)."
+        },
+        {
+          "class": 7,
+          "date": "2025-09-08",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "we are going to start a drilling campaign within the next 1 month and start ramping our production from there",
+          "period": "By ~8 Oct 2025",
+          "basis": "Gujarat (Indrora cluster) drilling campaign start",
+          "source": "Business-update call transcript (2025-09-08), NSE 2025-09-12, p.8",
+          "outcome": "Rig still being mobilised on 17 Nov 2025 ('next 1 or 2 weeks'); NM-01 well (1,650 m) drilled in the Mewad block during Q3 FY26 and found oil - start ~1-2 months late, within one quarter",
+          "outcome_source": "Q2 FY26 transcript (2025-11-17) p.9; Q3 FY26 press release (company IR, AESL_Press_Release_13.02.2026.pdf)",
+          "item_grade": 1,
+          "note": "Field ambiguity: MD named Indrora; the first well drilled was in the adjacent Mewad block (company groups them as 'Indrora and Mevad'). Exact spud date not in opened filings."
+        }
+      ],
+      "note": "Not a results call: called on the proposed Oilmax merger and the completed Kuiper acquisition (Kapil Garg MD, Sumit Maheshwari Group CFO). Placed in the Q1 FY26 slot as the only management call of that results cycle (judgment). Restatement: FY26 guidance 'we have already provided our guidance earlier, which remains the same' (p.7) -> Q4 FY25 items. Open/not captured: CBM 'about 2.5 years to start commercial production' (p.10); 'combined margins are definitely going to be superior' (p.7); 'no additional liability will be coming to Asian books' (p.13). Grade = mean(0,0,0,1) = 0.25 -> 0.3."
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": 0.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-05-19",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "we expect revenues in the range of INR650 crores to INR700 crores",
+          "period": "FY26",
+          "basis": "Revenue from operations without Kuiper (40-50% growth on FY25 Rs 465 cr); graded on standalone",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR (May_2025.pdf), p.2 (opening remarks); first printed in Q4 FY25 press release 2025-05-16 ('In FY26, we are targeting revenue of Rs 650-700 crore ... (without Kuiper)') - same results event",
+          "outcome": "FY26 standalone revenue Rs 491.8 cr - shortfall 24.3% vs Rs 650 cr floor; company: 'unable to fully meet the previously communicated guidance'",
+          "outcome_source": "Q4 FY26 investor presentation (company IR, March_2026.pdf) slides 9-10; Q4 FY26 transcript (2026-05-20) p.5",
+          "item_grade": 0,
+          "note": "Restated 8 Sep 2025 ('remains the same'), 17 Nov 2025 ('confident'), 13 Feb 2026 Q3 release ('confident of delivering guidance provided for FY26') when implied 9M standalone was ~Rs 284.7 cr (491.8 - Q4 207.1). Never cut before period end -> no class-9 credit. Company cites ~Rs 75 cr Q4 deferral (West Asia); FY26 standalone + 75 = 566.8 still misses. Rule 7: no earlier FY26 figure (Q3 FY25 release 12 Feb 2025 has none)."
+        },
+        {
+          "class": 1,
+          "date": "2025-05-19",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "EBITDA is also projected to rise to INR110 crores to INR120 crores",
+          "period": "FY26",
+          "basis": "EBITDA without Kuiper; graded on standalone EBITDA (company basis)",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.3",
+          "outcome": "FY26 standalone EBITDA Rs 78.3 cr - shortfall 28.8% vs Rs 110 cr floor",
+          "outcome_source": "Q4 FY26 investor presentation (March_2026.pdf) slide 10",
+          "item_grade": 0,
+          "note": "Consolidated FY26 EBITDA incl. Kuiper was 98.9 - also below the ex-Kuiper floor."
+        },
+        {
+          "class": 3,
+          "date": "2025-05-19",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "profit after tax is expected to grow by 66% to 78%",
+          "period": "FY26",
+          "basis": "PAT without Kuiper, growth on FY25 Rs 42.2 cr -> Rs 70-75 cr; graded on standalone PAT",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.3",
+          "outcome": "FY26 standalone PAT Rs 46.9 cr (+14.2% on standalone FY25 41.1) - shortfall ~33% vs Rs 70 cr floor; consolidated adj. PAT incl. Kuiper 60.6",
+          "outcome_source": "Q4 FY26 investor presentation (March_2026.pdf) slides 9-10; Q4 FY26 press release (NSE 2026-05-19)",
+          "item_grade": 0,
+          "note": "Class 3 used for the EPS/earnings target."
+        },
+        {
+          "class": 2,
+          "date": "2025-05-19",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we have given a guidance of EBITDA margins of roughly around 17%, 17.5% for the next year",
+          "period": "FY26",
+          "basis": "Standalone EBITDA margin excluding Kuiper (company basis, incl. share of JV)",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.14",
+          "outcome": "FY26 standalone EBITDA margin 15.9% - shortfall 1.1pp vs 17.0%",
+          "outcome_source": "Q4 FY26 investor presentation (March_2026.pdf) slide 10",
+          "item_grade": 0,
+          "note": "Just outside the 1pp band. Q4 FY26 standalone margin 18.6%."
+        },
+        {
+          "class": 4,
+          "date": "2025-05-19",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "will be between INR40 crores to INR45 crores",
+          "period": "FY26",
+          "basis": "Capex on the AGCL (Assam Gas Company) BOOT project, recovered within 3 years; 'no planned capex' otherwise beyond the Kuiper consideration",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.15",
+          "outcome": "[not retrieved] - project capex not separately disclosed; CWIP 2.6 -> 46.1 cr (Q4 FY26 deck slide 13) cannot be attributed; cash-flow statement in audited results is a scanned PDF",
+          "outcome_source": "Q4 FY26 deck (March_2026.pdf) slide 13",
+          "item_grade": null,
+          "note": "Restated 17 Nov 2025 as ~Rs 40 cr in H2 (p.10)."
+        },
+        {
+          "class": 1,
+          "date": "2025-05-19",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "we expect that we should be able to reach back to the last year numbers in the seismic again",
+          "period": "FY26",
+          "basis": "Seismic segment revenue vs FY24 level",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.11",
+          "outcome": "[not retrieved] - seismic revenue not reported separately (decks show only Oil & Gas vs Mineral & Other)",
+          "outcome_source": "Q4 FY26 deck (March_2026.pdf) slide 11",
+          "item_grade": null,
+          "note": ""
+        },
+        {
+          "class": 10,
+          "date": "2025-05-19",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "there won't be any depreciation which will get recognized in our books",
+          "period": "Post-acquisition (FY26)",
+          "basis": "No depreciation/amortisation arising from the Kuiper acquisition (net assets > price, no goodwill, per advisers)",
+          "source": "Q4 FY25 transcript (call 2025-05-19), company IR, p.17",
+          "outcome": "[not retrieved] - purchase-price allocation and Kuiper depreciation not in the opened decks; audited consolidated results are scanned",
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "FY26 write-off Rs 2.1 cr net (Q4) noted; nature not stated."
+        }
+      ],
+      "note": "Call 19 May 2025 (Kapil Garg MD, Sumit Maheshwari Group CFO). Restatements logged on originating items: Kuiper completion 'by the end of June' (p.3) -> 18 Apr 2025 press release; Mewad 'commercialize in FY '26' (p.18) -> Q4 FY24 deck; Cambay 'still waiting for the clearances' with refusal: 'difficult to put up a timeline' (p.18) -> Q4 FY24 deck (class-9 cut). Kuiper guidance deferred until completion (p.7, p.14) - company had not guided, no class-9 item. Not captured (outcome not retrievable): three CHP completions in FY26 (p.9), ~Rs 30 cr retention release (p.12), cost-escalation claim recovery (p.12-13, 'hopeful'). Grade = mean(0,0,0,0) = 0."
+    },
+    {
+      "label": "Kuiper acquisition press release (18 Apr 2025)",
+      "event_date": "2025-04-18",
+      "outside_window": true,
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-04-18",
+          "speaker": "Company (press release)",
+          "quote": "expected to be completed within the next two months",
+          "period": "By ~mid-Jun 2025",
+          "basis": "Completion of the Kuiper Group acquisition (Kuiper FY Dec-2024 revenue ~US$68 mn)",
+          "source": "AESL press release 18.04.2025 (company IR, AESL_Press release_18.04.2025.pdf)",
+          "outcome": "Completed August 2025; consolidated from 1 Sep 2025 (completion intimation 30 Aug 2025) - ~2 months late, within one quarter",
+          "outcome_source": "Q2 FY26 investor presentation (company IR, November_2025.pdf) slide 15; IR listing 'AESL Intimation Kuiper Acquisition 30.08.2025'",
+          "item_grade": 1,
+          "note": "Rule 7 originating event (exchange release, not a call). Restated on Q4 FY25 call (2025-05-19, p.3): 'expected to be completed by the end of June this year' - same date, not a revision."
+        }
+      ],
+      "note": "Added under rule 7."
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call: results and press release 12 Feb 2025; IR lists analyst/investor meets (2 Jan, 13 Jan, 5 Mar 2025), no call, transcript or audio. Release reaffirmed 'our FY25 revenue expectation of Rs 450-500 crore' -> Q1 FY25 item."
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2024-11-13",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "So margins will sustain",
+          "period": "H2 FY25",
+          "basis": "Consolidated EBITDA margin (company basis, incl. JV share), anchored to H1 FY25 15.1% (23.8/157.9)",
+          "source": "Q2 FY25 transcript (call 2024-11-13), company IR (Asian_Energy_Services-Q2FY25_Transcript_Nov13-2024.pdf), p.9; also 'our margins will improve from here' (p.8)",
+          "outcome": "H2 FY25 EBITDA margin 15.8% (Q3 14.7 + Q4 33.7 = 48.4 / Q3 91.7 + Q4 215.4 = 307.1); FY25 15.6%",
+          "outcome_source": "Q2 FY26 deck (November_2025.pdf) slide 8 (H1 FY25 comparatives); Q3 FY26 press release (13 Feb 2026, Q3 FY25 comparatives); Q4 FY26 press release (NSE 2026-05-19, Q4 FY25 and FY25 comparatives)",
+          "item_grade": 2,
+          "note": "Anchored qualitative statement converted to the figure in force when said. Rule 7: no earlier margin statement in Q1 FY25 release/deck."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-13",
+          "speaker": "Kapil Garg, Managing Director",
+          "quote": "Revenue from this project is now expected to be recognized in quarter 4 of this fiscal year.",
+          "period": "Q4 FY25",
+          "basis": "Hardy Oil offshore flow-line project revenue recognition",
+          "source": "Q2 FY25 transcript (call 2024-11-13), company IR, p.3",
+          "outcome": "[not retrieved] - project-level revenue not disclosed in opened Q4 FY25 documents",
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Rule 7: Q1 FY25 release (12 Aug 2024) said the offshore project would be 'commissioned in coming quarters' (no date) - 'now expected' signals a move; earliest dated statement is this call."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-13",
+          "speaker": "Sumit Maheshwari, Group CFO",
+          "quote": "will be completed in the next couple of months",
+          "period": "~Jan 2025",
+          "basis": "Hura coal handling plant project (~95% complete)",
+          "source": "Q2 FY25 transcript (call 2024-11-13), company IR, p.7",
+          "outcome": "[not retrieved] - completion date not in opened filings",
+          "outcome_source": null,
+          "item_grade": null,
+          "note": ""
+        }
+      ],
+      "note": "Call 13 Nov 2024 (Kapil Garg MD, Sumit Maheshwari Group CFO). Restatement: FY25 revenue Rs 450-500 cr (p.4, p.5) -> Q1 FY25 item (rule 7). 'Q3 and Q4 are going to be significantly better than what we have done in H1' (p.5) not scored separately (implied by the FY25 range; H2 307.1 vs H1 157.9). ONGC holiday-order comment refused as sub judice (p.8) - not guidance. Grade = mean(2) = 2.0."
+    },
+    {
+      "label": "Q1 FY25 results press release & investor presentation (12 Aug 2024)",
+      "event_date": "2024-08-12",
+      "outside_window": true,
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-08-12",
+          "speaker": "Company (press release and investor presentation)",
+          "quote": "FY25 revenue is expected to be in range of Rs 450-500 crores",
+          "period": "FY25",
+          "basis": "Revenue from operations (consolidated; pre-Kuiper)",
+          "source": "Q1 FY25 press release 12 Aug 2024 (company IR, PressRelease_August2024.pdf), Key Highlights; Q1 FY25 investor presentation (AESL Investor Presentation_Q1 FY 2025.pdf) slide 5",
+          "outcome": "FY25 revenue Rs 465.0 cr consolidated (standalone 464.1) - within range",
+          "outcome_source": "Q4 FY25 press release 16 May 2025 (company IR); Q4 FY26 deck (March_2026.pdf) slide 9 (FY25 standalone)",
+          "item_grade": 2,
+          "note": "Rule 7 originating event. Restated Q2 FY25 call (2024-11-13, p.4: 'We are confident in achieving our FY '25 revenue guidance of between INR450 crores to INR500 crores') and Q3 FY25 release (12 Feb 2025). Not in Q4 FY24 deck or 3 May 2024 release (checked)."
+        }
+      ],
+      "note": "Added under rule 7. Release + deck = one event."
+    },
+    {
+      "label": "Q4 FY24 investor presentation (18 Jun 2024)",
+      "event_date": "2024-06-18",
+      "outside_window": true,
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-06-18",
+          "speaker": "Company (investor presentation)",
+          "quote": "CAMBAY & MEWAD FIELDS: Set to commence production next year.",
+          "period": "FY26 (read with the 19 May 2025 restatement 'commercialize in FY '26')",
+          "basis": "Mewad field (Gujarat) first commercial production",
+          "source": "Q4 FY24 investor presentation (company IR, AESL_Q4_2023-24.pdf, cover letter 18 Jun 2024) slide 25",
+          "outcome": "NM-01 drilled in Q3 FY26, oil found; producing ~100 bopd by the Feb-2026 deck; block ~150-200 bopd at Mar 2026 - within FY26",
+          "outcome_source": "Q3 FY26 press release (13 Feb 2026); Q3 FY26 deck (February_2026.pdf) slides 7, 19; Q4 FY26 deck (March_2026.pdf) slide 33",
+          "item_grade": 2,
+          "note": "Split from the joint Cambay/Mewad line. Restated Q4 FY25 call (p.18: 'which we intend to commercialize in FY '26') and Q2 FY26 call (p.9: production 'in the next 1 or 2 months'). Calendar-2025 reading of 'next year' would give 1; FY26 reading adopted per the company's own restatement. First-production date not stated in any opened filing."
+        },
+        {
+          "class": 9,
+          "date": "2024-06-18",
+          "speaker": "Company (investor presentation)",
+          "quote": "CAMBAY & MEWAD FIELDS: Set to commence production next year.",
+          "period": "FY26",
+          "basis": "Cambay field first production - timeline withdrawn",
+          "source": "Q4 FY24 investor presentation (AESL_Q4_2023-24.pdf) slide 25",
+          "outcome": "Withdrawn prospectively with a reason: Q4 FY25 call (19 May 2025, p.18) - 'for the Cambay field, we are still waiting for the clearances' and 'it's difficult to put up a timeline and give any guidance'; Cambay absent from FY26-FY27 decks",
+          "outcome_source": "Q4 FY25 transcript (May_2025.pdf) p.18; Q4 FY26 deck; Q1 FY27 deck",
+          "item_grade": 1,
+          "note": "Class-9 rule (cut before period end, reasoned = 1)."
+        }
+      ],
+      "note": "Added under rule 7. Indrora 'Production ramp-up anticipated in the coming months' (slide 25) not captured - no checkable figure. Grade = mean(2,1) = 1.5."
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "ticker": "AEGISLOG",
+  "company": "Aegis Logistics Ltd",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 5.4,
+  "note": "Window: last 8 fiscal-quarter calls before 2026-10-08 (Q2 FY25-Q1 FY27); 5 rule-7 originating calls added (outside_window). Q3 FY25 and Q4 FY25 transcripts not retrieved (see entries). Rule 6 tests: (a) Reg 30 21-08-2026, Maharashtra GST DRC-07 penalty Rs 11.62 lakh = 0.01% of FY26 consolidated PAT Rs 1,106.63 cr -> not captured; (b) Reg 30 05-01-2026, Gujarat GST DRC-07 penalties Rs 58.69 lakh + Rs 229.08 lakh = Rs 2.88 cr = 0.37% of FY25 consolidated PAT Rs 787.41 cr -> not captured. No major-issue override applied (no contradicted class-10 assurance meets the SEVERE test). Counterparty intentions (ITOCHU raising ATPL stake to 25%) not captured. Engine: engine_v3 weights only the first 8 entries; pass score_10 as given. Score arithmetic: sum(grade x weight) = 79.5, sum(weight) = 73, score = 79.5/(2x73)x10.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "date": "2026-08-14",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2026-08-14",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "This year, we had expected to cross 1 million. Next year, maybe cross 1.5 million.",
+          "period": "FY27 (>1.0 MT); FY28 (>1.5 MT, hedged 'maybe')",
+          "basis": "LPG distribution volume, MT per year",
+          "source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. FY26 base 7.54 lakh MT; Q1 FY27 2.77 lakh MT (+91% YoY, Q1 FY27 deck slide 8). Same answer: growth 'maybe closer to 50%'."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-14",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "We believe that year-on-year, we would always clock a worstcase scenario growth in the logistics volume of around 25%.",
+          "period": "FY27 and each year (YoY)",
+          "basis": "LPG logistics (terminal throughput) volume growth YoY",
+          "source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Hedged in same breath ('I can't tell you for sure that this is what we will achieve'). Q1 FY27 throughput 1,124 kMT, -3% YoY (Q1 FY27 deck slide 8) — first quarter already below the floor."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-14",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "this new capacity is expected to be commissioned by early in the next financial year.",
+          "period": "Early FY28",
+          "basis": "Kochi additional ~49,577 cbm liquids (to 132,122 cbm)",
+          "source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. First dated statement; earlier calls gave no date."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-14",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "So it might be weeks, maybe a month.",
+          "period": "~mid-Sep 2026 (1-quarter grace to ~mid-Dec 2026)",
+          "basis": "Start of ammonia (industrial) distribution",
+          "source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.11",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open within grace; no evidence of start found by review date."
+        },
+        {
+          "class": 9,
+          "date": "2026-08-14",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "I don't think I should be saying anything on that. Let's start off and then we will start saying that what are the margins",
+          "period": "Ammonia distribution margins",
+          "basis": "Refusal of ammonia distribution EBITDA/MT guidance",
+          "source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.11-12",
+          "outcome": "Refusal; prospective (business not started) and reasoned.",
+          "outcome_source": "Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.11-12",
+          "item_grade": 1,
+          "note": "Class-9 rule: prospective + reason = 1. Effectively withdraws Q4 FY26 p.9 indication that ammonia distribution margin 'could go up to INR5,000'."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "date": "2026-06-09",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we expect INR7,000 to sustain from here on.",
+          "period": "FY27 onward (annual average)",
+          "basis": "LPG distribution EBITDA per MT, INR, full-year average",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.9 (also p.6, p.10)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Step-up from earlier guides (Q1 FY26 Rs 3,000-3,500; Q2 FY26 ~Rs 4,000; Q3 FY26 Rs 3,500-4,000). Restated Q1 FY27 p.9-12 ('7,000 plus going forward'). Q1 FY27 deck does not disclose distribution EBITDA/MT."
+        },
+        {
+          "class": 8,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "We always had a target of 2 million tons. So, we expect that to reach by '28.",
+          "period": "FY28",
+          "basis": "LPG distribution volume, MT per year",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. 'Always had' not borne out — no 2 MT target in Q1-Q3 FY26 calls; captured here as first statement. Q1 FY27 p.9/p.14 loosened to 'coming times ahead' / 'next year or the year next' (FY28 or FY29) — watch for a pre-period cut."
+        },
+        {
+          "class": 4,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "March '28, we would again see a capex up to INR5,000 crores coming in.",
+          "period": "FY28",
+          "basis": "Capex, INR, organic plus inorganic ('up to' = ceiling)",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        },
+        {
+          "class": 3,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we expect around 25% utilization in the first year and thereafter growing at the rate of 30%, 40% year-on-year.",
+          "period": "First year from commissioning (10-08-2026 to ~Aug-2027)",
+          "basis": "Pipavav ammonia terminal capacity utilisation",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Utilisation disclosure may not be published."
+        },
+        {
+          "class": 10,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we expect this improvement to continue, probably in Q2, sometime in Q2, we should see normalcy return back.",
+          "period": "Q2 FY27 (Jul-Sep 2026)",
+          "basis": "National LPG supply shortfall after West Asia war",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.6 (also p.7)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Prefaced 'We cannot do any prophecy'. Q2 FY27 closed but results/call not yet out at review date; Q1 FY27 call (p.13) analyst cited a continuing 15-20% LPG deficit, uncontradicted. No outcome yet — ungraded."
+        },
+        {
+          "class": 9,
+          "date": "2026-06-09",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "difficult to today project. This is a new product that we have stepped into.",
+          "period": "FY30 ammonia/LPG targets",
+          "basis": "Refusal of FY30 ammonia and LPG volume targets",
+          "source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.13",
+          "outcome": "Refusal; prospective and reasoned (new product).",
+          "outcome_source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.13",
+          "item_grade": 1,
+          "note": "Class-9 rule: prospective + reason = 1."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "date": "2026-01-30",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-01-30",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "And this is sustainable margin.",
+          "period": "Q4 FY26 onward",
+          "basis": "Liquid division normalised EBITDA margin 77% (Q3 FY26: EBITDA 124 / revenue 161), excl. other income per deck segment EBITDA",
+          "source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.9 (77% stated p.6)",
+          "outcome": "Q4 FY26 Liquid EBITDA 126 / revenue 184 = ~68% (-9pp vs 77%). FY26 ~73%. Q1 FY27 136/178 = ~76.4%.",
+          "outcome_source": "Q4 FY26 investor deck, https://aegisindia.com/wp-content/uploads/2026/06/1.-Aegis-Investor-Deck-_Q4-FY26.pdf, slide 10; Q1 FY27 investor deck, https://aegisindia.com/wp-content/uploads/2026/08/Aegis-Investor-Deck-_Q1-FY27_Final-1.pdf, slide 7",
+          "item_grade": 0,
+          "note": "Graded on next closed quarter (Q4 FY26): >1pp short = 0. Q1 FY27 alone would grade 1. Margins computed from deck segment revenue/EBITDA."
+        },
+        {
+          "class": 10,
+          "date": "2026-01-30",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we remain confident on the volumes growing every quarter as well as on our margins.",
+          "period": "Q4 FY26 onward",
+          "basis": "LPG distribution volumes and margins (answer given in LPG-vs-CNG distribution context)",
+          "source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.8-9",
+          "outcome": "Distribution volumes rose QoQ: 183 kMT (Q3 FY26) -> 234 kMT (Q4 FY26) -> 277 kMT (Q1 FY27); distribution margin ~INR 7,000/t.",
+          "outcome_source": "Q3/Q4 FY26 decks slide 11; Q1 FY27 investor deck, https://aegisindia.com/wp-content/uploads/2026/08/Aegis-Investor-Deck-_Q1-FY27_Final-1.pdf, slide 8; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.4-5",
+          "item_grade": 2,
+          "note": "Graded on distribution basis (context of answer). LPG terminal throughput fell over the same quarters (1.361 -> 1.223 -> 1.124 MT, West Asia disruption); on a throughput reading the assurance would be contradicted (0)."
+        },
+        {
+          "class": 8,
+          "date": "2026-01-30",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we have a vision to reach 5 million to 6 million CBM in '29, '30.",
+          "period": "2029-30",
+          "basis": "Liquid storage capacity (from ~1.7 mn CBM)",
+          "source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.11-12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Not in Q1/Q2 FY26 calls."
+        },
+        {
+          "class": 7,
+          "date": "2026-01-30",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "is expected to be completed in this calendar year.",
+          "period": "By 31-12-2026",
+          "basis": "Pipavav VLGC-compliant jetty (built by port operator — third party)",
+          "source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated Q4 FY26 p.4, Q1 FY27 p.5."
+        },
+        {
+          "class": 7,
+          "date": "2026-01-30",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "the Aegis Vopak Terminals, our subsidiary, will manage over 0.5 million metric tons annually at the end of this calendar year",
+          "period": "By 31-12-2026",
+          "basis": "Pipavav liquids 15-year take-or-pay contract, >0.5 MTPA, operations start",
+          "source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated Q4 FY26 p.4, Q1 FY27 p.6."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "date": "2025-11-07",
+      "grade": 1.6,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-11-07",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "with part of the liquid capacity expected to be commissioned before the end of FY '26",
+          "period": "By 31-03-2026",
+          "basis": "JNPA (J2, ~Rs 1,675 cr) phase-1 liquid storage commissioning",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.3",
+          "outcome": "Moved before period end with no reason: Q3 FY26 -> Q1 FY27; Q4 FY26 -> H1 FY27; Q1 FY27 -> Q3 FY27. Not commissioned by 31-03-2026.",
+          "outcome_source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.4; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.3; Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.4",
+          "item_grade": 0,
+          "note": "Cut before period end without a stated reason -> class-9 rule = 0. Same call MM p.16 said 'some of the capacities to come up in Q1 of next year' (unreconciled). Rs 1,675 cr capex first stated Q1 FY26 p.3 (cost outcome open)."
+        },
+        {
+          "class": 7,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "We expect all of that to finish by December '26.",
+          "period": "By 31-12-2026",
+          "basis": "Full JNPA (J2) liquid expansion completion",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.16",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Phase-1 now guided Q3 FY27 (Q1 FY27 p.4) — full completion by Dec-26 at risk."
+        },
+        {
+          "class": 7,
+          "date": "2025-11-07",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "VLGC berthing is also expected to commence in Q3 FY '26",
+          "period": "Q3 FY26 (by 31-12-2025)",
+          "basis": "VLGC berthing at Kandla",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.3",
+          "outcome": "Met: VLGC berth at Kandla operational in Q3; first VLGC handled in December 2025.",
+          "outcome_source": "Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.4; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.3",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 3,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we work towards 30% CAGR growth as far as distribution volumes are concerned.",
+          "period": "FY26 ('this year, we would more than achieve that'); ensuing years open",
+          "basis": "LPG distribution volume growth YoY, >=30%",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.13",
+          "outcome": "FY26 distribution 754 kMT vs 521 kMT FY25 = +45%.",
+          "outcome_source": "Q4 FY26 investor deck, https://aegisindia.com/wp-content/uploads/2026/06/1.-Aegis-Investor-Deck-_Q4-FY26.pdf, slide 22; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.4",
+          "item_grade": 2,
+          "note": "Graded on FY26 (closed); multi-year leg open. Q1 FY27 +91% YoY."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "And we expect, I think, to sustain in ensuing quarters also.",
+          "period": "Q3 FY26 onward",
+          "basis": "LPG distribution EBITDA ~INR 4,000/MT (Q2 FY26 level)",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.6",
+          "outcome": "Held/exceeded: FY26 distribution margin around INR 7,000/MT; Q1 FY27 '7,000 plus'.",
+          "outcome_source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.5; Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.8-9",
+          "item_grade": 2,
+          "note": "Management-stated per-tonne figures; not separately in filed results."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "So, most of it is expected to continue.",
+          "period": "Q3 FY26 onward",
+          "basis": "Consolidated other income (treasury/interest ~INR 52 cr in Q2 FY26) not one-off",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.8",
+          "outcome": "Held: other income Q3 FY26 INR 80.70 cr, Q4 FY26 INR 87.34 cr; FY26 INR 326.58 cr vs FY25 INR 208.36 cr.",
+          "outcome_source": "FY26 consolidated audited results, https://aegisindia.com/wp-content/uploads/2026/06/ALL_Results_Conso_31.03.2026.pdf",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 7,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "you can expect by next year-end for it to be operational",
+          "period": "FY27 (by 31-03-2027)",
+          "basis": "Hassan-Cherlapally pipeline connectivity at Mangalore (third-party pipeline)",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Not restated in Q3 FY26, Q4 FY26 or Q1 FY27 calls."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-07",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "not in short term, not in next 2 years at least, no capacity addition.",
+          "period": "To ~Nov 2027",
+          "basis": "No LPG capacity addition at Kandla",
+          "source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open; Kandla LPG 48,000 MT unchanged at Q1 FY27 deck."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "date": "2025-08-08",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "an upcoming liquid capacity of 125,000 kiloliters, 50% of which is expected to be operational in the ensuing quarter",
+          "period": "Q2 FY26 (by 30-09-2025): first ~50%",
+          "basis": "Mumbai Port liquid expansion, first tranche (KL)",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.3",
+          "outcome": "61,000 KL at Pirpau, Mumbai Port, effective 06-09-2025 (48.8% of 125,000).",
+          "outcome_source": "Reg 30 intimation, Pirpau capacity addition, 06-09-2025, https://aegisindia.com/wp-content/uploads/2025/09/ALL_Capacity-Addition_Pirpau_S.pdf",
+          "item_grade": 2,
+          "note": "On time. Rule 7: the Mumbai expansion was first sized at ~150,000 KL / ~Rs 250 cr with no date (Q1 FY25 p.3; Q2 FY25 p.3, p.7 'yet to begin'); this is the first dated statement. Capacity reduced 150,000 -> 125,000 KL without stated reason. Q4/Q3 FY25 transcripts not retrieved."
+        },
+        {
+          "class": 7,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "and the balance by the end of this fiscal year",
+          "period": "By 31-03-2026: balance (~64,000 KL)",
+          "basis": "Mumbai Port liquid expansion, balance tranche (KL)",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.3",
+          "outcome": "Moved before period end (Q2 FY26 p.2: 64,000 KL 'operational by Q1 of FY '27', no reason); Q4 FY26 -> H1 FY27; Q1 FY27 p.4 'targeted during the first half'. No commissioning filing found by 08-10-2026.",
+          "outcome_source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.2; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.2; Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.4",
+          "item_grade": 0,
+          "note": "Cut before period end without reason -> class-9 rule = 0; also >1 quarter late. Link to 64,000 KL rests on 61,000 + 64,000 = 125,000 and Q2 FY26 'as mentioned previously'."
+        },
+        {
+          "class": 7,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "the operationalization of the KGPL and JLPL pipelines, which is expected in the second quarter of this financial year",
+          "period": "Q2 FY26 (by 30-09-2025)",
+          "basis": "Jamnagar-Loni LPG pipeline (JLPL) operational with Aegis Kandla connection",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.3-4",
+          "outcome": "Q2 FY26 re-dated to Q3 FY26; Q3 FY26 'just a month away'; Q4 FY26 (09-06-2026) 'complete'; Q1 FY27 'complete and operational'. Not operational by 31-12-2025.",
+          "outcome_source": "Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.16; Q3 FY26 earnings call transcript (30-01-2026), https://aegisindia.com/wp-content/uploads/2026/02/ALL_SE_TranscriptEarningQ3_Signed.pdf, p.4; Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.3; Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.5",
+          "item_grade": 0,
+          "note": ">1 quarter late. JLPL not named in earlier calls checked (Q1 FY23-Q2 FY25). The KGPL half of this sentence is a restatement of the Q1 FY23 KGPL item (rule 7)."
+        },
+        {
+          "class": 2,
+          "date": "2025-08-08",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we are confident that we will again end between Rs. 3,000 to Rs. 3,500 per metric ton",
+          "period": "FY26",
+          "basis": "LPG distribution EBITDA per MT (annual)",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.7",
+          "outcome": "FY26 distribution margin around INR 7,000/MT vs INR 4,000-odd in FY25.",
+          "outcome_source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.5",
+          "item_grade": 2,
+          "note": "First FY26-specific range. Undated ~Rs 3,000/MT 'standard' stated earlier (Q2 FY23 p.6; Q3 FY23 p.13; Q4 FY24 p.18). Outcome is management-stated."
+        },
+        {
+          "class": 3,
+          "date": "2025-08-08",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we will see an upside in this year as compared to the previous year.",
+          "period": "FY26 vs FY25",
+          "basis": "LPG distribution volumes, MT",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.14",
+          "outcome": "FY26 distribution volumes +45% to 7.54 lakh MT.",
+          "outcome_source": "Q4 FY26 earnings call transcript (09-06-2026), https://aegisindia.com/wp-content/uploads/2026/06/ALL_Earning-call-transcript_Q4fy26_Signed.pdf, p.4",
+          "item_grade": 2,
+          "note": "Directional only."
+        },
+        {
+          "class": 9,
+          "date": "2025-08-08",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "So, we don't give outlook on the throughput that we are going to achieve,",
+          "period": "FY26 onward",
+          "basis": "Refusal of LPG/liquid throughput guidance",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.8",
+          "outcome": "Standing refusal with no reason stated; reverses earlier practice of throughput guidance (Q3 FY24 p.13-14 'minimum of 4.6' MT; Q4 FY24 p.6 '5 million plus for FY 25'; Q1 FY25 p.10 '25% increase in throughput for FY 25').",
+          "outcome_source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.8, p.12",
+          "item_grade": 0,
+          "note": "Class-9 rule: prospective but no reason given = 0. Restated Q2 FY26 p.15, Q3 FY26 p.11 ('we don't give guidance of any kind of projections'). Inconsistent with simultaneous EPS-CAGR and distribution-growth targets."
+        },
+        {
+          "class": 4,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "we will already reach a Capex of US$ 1.2 billion by the end of next year",
+          "period": "Cumulative by 31-03-2027",
+          "basis": "Aggregate capex outlay (Aegis + AVTL), USD (~INR 10,000 cr gross)",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Supersedes the INR 4,500 cr AVTL plan (Q4 FY23 item). Restated Q2 FY26 p.4, Q3 FY26 p.6/p.8, Q4 FY26 p.7 ('by March '27'), Q1 FY27 p.8."
+        },
+        {
+          "class": 8,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "we expect to reach US$ 5 billion aggregate Capex by 2030",
+          "period": "2030 (later 'FY31' / 'through the financial year 2030-31')",
+          "basis": "Aggregate capex, USD",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Same call MM p.15: 'a tall order'. End-point drifted CY2030 -> FY31 and target -> 'pipeline' (Q4 FY26 p.7; Q1 FY27 p.8). Watch for a cut."
+        },
+        {
+          "class": 5,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "we are legally obliged to have a Phase-II equity infusion within the next 3 years.",
+          "period": "By ~Aug 2028",
+          "basis": "Phase-II equity infusion at Aegis Vopak Terminals",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Two-phase issue first mentioned without timeline Q2 FY25 p.10. 28-09-2026 board approval to raise up to Rs 6,000 cr is at the parent, not the AVTL Phase-II."
+        },
+        {
+          "class": 7,
+          "date": "2025-08-08",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "this is expected to come into operation next year",
+          "period": "FY27 (by 31-03-2027)",
+          "basis": "Kandla CRL-4 liquid terminal (~94,148 cbm) commissioning",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q4 FY26 and Q1 FY27 (both spoken in FY27) still say 'targeted for next year' — implies FY28, a possible silent one-year slip; grade at period end."
+        },
+        {
+          "class": 1,
+          "date": "2025-08-08",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "[para] Q1 realisation ~Rs 225/CBM/month; full-year average expected to come back to ~Rs 250 ('So, if you translate Rs. 3,000 per year, it comes to Rs. 250.')",
+          "period": "FY26",
+          "basis": "Liquid terminal revenue per CBM per month, annual average",
+          "source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not gradable: per-CBM realisation not disclosed in any later deck or transcript. FY26 liquid revenue Rs 644 cr vs Rs 650 cr."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "date": null,
+      "grade": null,
+      "status": "not_retrieved",
+      "note": "[not retrieved] Transcript not on company IR page; NSE/BSE archives blocked by proxy; trendlyne/alphastreet/marketscreener/financialfilings/web searches found no PDF (2+ attempts by two extractors). Results released ~19-06-2025 [unverified].",
+      "promises": []
+    },
+    {
+      "label": "Q3 FY25",
+      "date": null,
+      "grade": null,
+      "status": "not_retrieved",
+      "note": "[not retrieved] Transcript not on company IR page; NSE/BSE archives blocked by proxy; web searches found no PDF (2+ attempts). Results ~12-02-2025 [unverified].",
+      "promises": []
+    },
+    {
+      "label": "Q2 FY25",
+      "date": "2024-11-19",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 5,
+          "date": "2024-11-19",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "this IPO proceeds will be used to pay the debt",
+          "period": "AVTL IPO (listed 02-06-2025)",
+          "basis": "Aegis Vopak Terminals bank borrowings",
+          "source": "Q2 FY25 earnings call transcript (19-11-2024), https://aegisindia.com/wp-content/uploads/2024/11/ALL_Q2FY25_Transcript_Sign.pdf, p.10 (also p.3, p.6)",
+          "outcome": "AVTL listed 02-06-2025 raising INR 2,800 cr; objects incl. repayment of bank borrowings; AVTL bank borrowings 'fully paid'.",
+          "outcome_source": "Q1 FY26 investor deck, https://aegisindia.com/wp-content/uploads/2025/08/Aegis-Investor-Deck-_Q1-FY26-Final.pdf, slide 11; Q4 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/06/363280d4-eece-404c-aafe-698e1d2f203a.pdf, slide 15",
+          "item_grade": 2,
+          "note": "Related assurance (p.6) that higher minority interest would be offset by lower interest cost not graded — NCI/finance cost data not retrieved."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "date": "2024-05-24",
+      "grade": 1.3,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-05-24",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "We are additionally constructing 25,000 KL of tankage, which will be operational next year.",
+          "period": "FY25",
+          "basis": "Kandla liquids tankage +25,000 kL",
+          "source": "Q4 FY24 earnings call transcript (24-05-2024), https://aegisindia.com/wp-content/uploads/2024/06/ALL_Transcript_Q4FY24.pdf, p.3",
+          "outcome": "Kandla liquids expansion listed as completed among FY25 key events.",
+          "outcome_source": "Q4 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/06/363280d4-eece-404c-aafe-698e1d2f203a.pdf, slide 15; Q1 FY26 investor deck, https://aegisindia.com/wp-content/uploads/2025/08/Aegis-Investor-Deck-_Q1-FY26-Final.pdf, slide 11",
+          "item_grade": 2,
+          "note": "Restated Q1 FY25 p.3, Q2 FY25 p.5/p.7. Increment not verifiable from capacity totals; grade rests on deck completion statement."
+        },
+        {
+          "class": 7,
+          "date": "2024-05-24",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "This ammonia terminal, please understand will come on stream in 24 months, right?",
+          "period": "~24-05-2026",
+          "basis": "Pipavav ammonia terminal (36,000 MT static) commissioning",
+          "source": "Q4 FY24 earnings call transcript (24-05-2024), https://aegisindia.com/wp-content/uploads/2024/06/ALL_Transcript_Q4FY24.pdf, p.10",
+          "outcome": "Commissioned w.e.f. 10-08-2026, 36,000 MT static — ~2.5 months late.",
+          "outcome_source": "Reg 30 intimation, ammonia terminal commissioning, 10-08-2026, https://aegisindia.com/wp-content/uploads/2026/08/ALL_SE_Ammonia-Commissioning_Signed.pdf",
+          "item_grade": 1,
+          "note": "<=1 quarter late = 1. Restated Q1 FY26 p.4 ('before the 1st Quarter of the next fiscal year'), Q2 FY26 p.3 ('during Q1 of the next fiscal year'), Q3 FY26 p.5; Q4 FY26 moved to H1 FY27. Q2 FY25 p.2 cited 25,000 MT (inconsistent). Capex ~INR 500 cr (Q4 FY24 p.11/p.14) — actual not retrieved."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-24",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "we are quite confident of delivering a 25% EPS growth year-on-year.",
+          "period": "FY25",
+          "basis": "Consolidated basic EPS growth YoY (FY24 base INR 16.22)",
+          "source": "Q4 FY24 earnings call transcript (24-05-2024), https://aegisindia.com/wp-content/uploads/2024/06/ALL_Transcript_Q4FY24.pdf, p.9",
+          "outcome": "FY25 EPS INR 18.90 vs INR 16.22 = +16.5%; target implied ~INR 20.28 -> 6.8% shortfall on EPS level.",
+          "outcome_source": "Q4 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/06/363280d4-eece-404c-aafe-698e1d2f203a.pdf, slide 11",
+          "item_grade": 1,
+          "note": "Graded on the EPS figure (shortfall <=10% = 1); on growth rate (16.5% vs 25%) it would be 0. Hedged pre-period-end at Q2 FY25 p.8 ('We will try our best'; reframed as 5-year average). FY25 EPS from deck (filed FY25 results PDF not machine-readable)."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY24",
+      "date": "2023-07-27",
+      "grade": 0.0,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 7,
+          "date": "2023-07-27",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "LPG capacity expansion at Pipavav and Mangalore are also progressing well and the same would be operational in FY'25.",
+          "period": "FY25 (by 31-03-2025)",
+          "basis": "Commissioning of Pipavav (~48k MT) and Mangalore (~82k MT) cryogenic LPG terminals",
+          "source": "Q1 FY24 earnings call transcript (27-07-2023), https://aegisindia.com/wp-content/uploads/2023/08/Aegis-Logistics_Q1FY24-Transcript-Final.pdf, p.3",
+          "outcome": "Neither operational in FY25. Mangalore 82,000 MT commissioned June/July 2025 (Q2 FY26 p.3 'June'; Q1 FY26 'last month'); Pipavav 48,000 MT added July 2025.",
+          "outcome_source": "Q1 FY26 earnings call transcript (08-08-2025), https://aegisindia.com/wp-content/uploads/2025/09/ALL_Transcript_Q1_S.pdf, p.4; Q2 FY26 earnings call transcript (07-11-2025), https://aegisindia.com/wp-content/uploads/2025/11/ALL_EarningscallTranscript_Q2_S.pdf, p.3",
+          "item_grade": 0,
+          "note": "Pipavav >1 quarter past 31-03-2025 -> 0 (Mangalore alone would be 1). Q4 FY24 p.3-4 moved to Q1 FY26 without reason; Q2 FY25 p.3/p.5 reaffirmed 'by the end of fiscal 2025'. Q4 FY25/Q1 FY26 decks describe Mangalore as a contracted acquisition funded from AVTL IPO proceeds, conflicting with earlier 'constructing' language."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY23",
+      "date": "2023-06-01",
+      "grade": null,
+      "status": "pending",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 8,
+          "date": "2023-06-01",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "25% CAGR growth from FY '22 to FY '27.",
+          "period": "FY22-FY27 (ends 31-03-2027)",
+          "basis": "Consolidated EPS CAGR",
+          "source": "Q4 FY23 earnings call transcript (01-06-2023), https://aegisindia.com/wp-content/uploads/2023/06/LinkInTime-AegisLogistics-June01-2023-Final.pdf, p.14 (also p.8)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Earliest explicit FY22-FY27 statement found (Q1 FY23 p.12 had only '25% to 40% per annum', no base/period; Q2/Q3 FY23 silent; Q4 FY22 not retrieved — origin may predate). Restated Q1 FY24, Q4 FY24, Q1 FY25, Q2 FY25, Q1 FY26 ('bare minimum'), Q2 FY26 ('exceed'), Q4 FY26 p.13 ('has not changed'), Q1 FY27. Interim: FY26 EPS Rs 25.59 vs FY25 Rs 18.90. FY22 base EPS not retrieved."
+        },
+        {
+          "class": 8,
+          "date": "2023-06-01",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "INR4,500 crores is the joint business plan of our JV with Vopak to be done over a period of 5 years.",
+          "period": "2023 to FY27",
+          "basis": "AVTL JV capex, INR crore, cumulative",
+          "source": "Q4 FY23 earnings call transcript (01-06-2023), https://aegisindia.com/wp-content/uploads/2023/06/LinkInTime-AegisLogistics-June01-2023-Final.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated Q3 FY24 p.8, Q4 FY24 p.4, Q1 FY25, Q2 FY25 p.3 (~50% complete/in progress). From Q1 FY26 replaced by USD 1.2 bn aggregate by FY27 (an upward re-set, not a cut)."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY23",
+      "date": "2023-02-03",
+      "grade": 0.0,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 7,
+          "date": "2023-02-03",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "We expect to commission this in mid-2024.",
+          "period": "Mid-2024 (taken as 30-06-2024)",
+          "basis": "JNPT/JNPA greenfield liquids terminal, 110,000 kL",
+          "source": "Q3 FY23 earnings call transcript (03-02-2023), https://aegisindia.com/wp-content/uploads/2023/02/Linkintime-AegisLogistics-Feb03-2023_Final.pdf, p.4",
+          "outcome": "Partial commencement Q3 FY25 (Oct-Dec 2024); full commissioning of 101,900 kL by 31-03-2025.",
+          "outcome_source": "Q3 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/02/Aegis-Investor-Deck-_Q3-FY25.pdf, slide 7; Q4 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/06/363280d4-eece-404c-aafe-698e1d2f203a.pdf, slides 8/15",
+          "item_grade": 0,
+          "note": ">1 quarter late; capacity cut 110,000 -> 101,900 kL without explanation. Revisions: Q1/Q2 FY24 'end of FY24'; Q3 FY24 'balance by June 2024'; Q4 FY24/Q1 FY25 'later this year'."
+        },
+        {
+          "class": 7,
+          "date": "2023-02-03",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "[para] Mangalore liquid expansion of ~70,000 kL 'will be commissioned towards the end of FY '24.'",
+          "period": "End FY24 (31-03-2024)",
+          "basis": "Mangalore liquids expansion (~70-76k kL)",
+          "source": "Q3 FY23 earnings call transcript (03-02-2023), https://aegisindia.com/wp-content/uploads/2023/02/Linkintime-AegisLogistics-Feb03-2023_Final.pdf, p.4",
+          "outcome": "Commencement in Q3 FY25 (by Dec 2024); listed complete among FY25 key events.",
+          "outcome_source": "Q3 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/02/Aegis-Investor-Deck-_Q3-FY25.pdf, slide 7; Q4 FY25 investor deck, https://aegisindia.com/wp-content/uploads/2025/06/363280d4-eece-404c-aafe-698e1d2f203a.pdf, slide 15",
+          "item_grade": 0,
+          "note": "~3 quarters late. Sizes inconsistent across calls (70k/71k/75k/76k)."
+        },
+        {
+          "class": 5,
+          "date": "2023-02-03",
+          "speaker": "Murad Moledina, CFO",
+          "quote": "these new capex, as we have said earlier, will be geared at 0.6.",
+          "period": "Standing policy, no end date",
+          "basis": "Debt gearing ~0.6x (debt/equity); 3.5x EBITDA cap added Q1 FY26 p.5",
+          "source": "Q3 FY23 earnings call transcript (03-02-2023), https://aegisindia.com/wp-content/uploads/2023/02/Linkintime-AegisLogistics-Feb03-2023_Final.pdf, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not graded — no period end. Interim (derived, not company-reported): FY26 borrowings ~Rs 2,417 cr vs equity ~Rs 8,784 cr (~0.28x) and ~1.5x normalised EBITDA (Q4 FY26 deck) — within both caps. Restated Q4 FY23 p.10, Q1 FY26-Q1 FY27. Re-test after 28-09-2026 enabling approval to raise up to Rs 6,000 cr and lift borrowing limit to Rs 6,000 cr."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY23",
+      "date": "2022-08-16",
+      "grade": 0.0,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 7,
+          "date": "2022-08-16",
+          "speaker": "Raj Chandaria, Chairman & MD",
+          "quote": "Phase-I is expected to be completed this year as well.",
+          "period": "FY23 (by 31-03-2023)",
+          "basis": "Kandla-Gorakhpur LPG pipeline (KGPL, third-party IHBL) Phase-I and Aegis Kandla/Pipavav connection",
+          "source": "Q1 FY23 earnings call transcript (16-08-2022), https://aegisindia.com/wp-content/uploads/2022/08/Linkintime-Aegis-L-16-Aug-2022.pdf, p.4",
+          "outcome": "Not connected as of 14-08-2026 (Q1 FY27: Kandla 'during the first half of this fiscal year', Pipavav 'during this year'); no connection filing found by 08-10-2026.",
+          "outcome_source": "Q4 FY23 earnings call transcript (01-06-2023), https://aegisindia.com/wp-content/uploads/2023/06/LinkInTime-AegisLogistics-June01-2023-Final.pdf, p.13; Q1 FY27 earnings call transcript (14-08-2026), https://aegisindia.com/wp-content/uploads/2026/08/ALL_EarningsCallTranscript_Q1FY27_Signed.pdf, p.5-6",
+          "item_grade": 0,
+          "note": "Third-party pipeline; same call p.10 'I don't think we can give a precise date'. >3.5 years late. Re-dating chain: Q4 FY23 end-2024; Q1-Q3 FY24 Dec-2024; Q4 FY24 FY25-end/Q1 FY26; Q2 FY25 mid-2025; Q1 FY26 Q2 FY26 (Kandla); Q2 FY26 Q4 FY26 (Kandla and Pipavav); Q3 FY26 June 2026; Q4 FY26 H1/Q2 FY27; Q1 FY27 H1 FY27 / 'this year'."
+        }
+      ]
+    }
+  ]
+}

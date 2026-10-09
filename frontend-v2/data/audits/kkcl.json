@@ -1,26 +1,16 @@
 {
   "ticker": "KKCL",
   "review_date": "2026-10-08",
-  "method_note": "Quotes taken from company/NSE transcript PDFs via text extraction; some are sentence fragments and page numbers may be +/-1. No class-10 assurance was contradicted, so no override. No class-9 withdrawals: guidance bands were revised (growth 18-20% -> 17-18%, margin 18-20% -> 17-18%, EBOs 100+ -> 90-100 -> 50-70) and revised items are scored against originals. grade maps to engine_v3 score.",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 3.2,
+  "note": "Quotes taken from company/NSE transcript PDFs via text extraction; some are sentence fragments and page numbers may be +/-1. No class-10 assurance was contradicted, so no override. No class-9 withdrawals: guidance bands were revised (growth 18-20% -> 17-18%, margin 18-20% -> 17-18%, EBOs 100+ -> 90-100 -> 50-70) and revised items are scored against originals. grade maps to engine_v3 score. Rule 6: no Reg. 30 statutory impact line captured; nothing removed. v1.2 rule-7 re-grade: added Q4 FY23 (outside_window; FY24-25 18-20% margin origin); folded 20 restatement items into originating items; FY26 18-20% margin re-set to 17-18% at Q4 FY25 graded as cut (1); Q3 FY26 double-digit item re-read as FY27-28 (open); Q3 FY25 capex split FY26/FY27 legs; score 6.5 (computed, field was missing) -> 3.2.",
   "quarters": [
     {
       "label": "Q1 FY27",
       "grade": null,
       "status": "pending",
       "promises": [
-        {
-          "class": 1,
-          "date": "2026-08-07",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "Generally, we said that overall, on a consolidated basis, we will be growing from 15% to 18%.",
-          "period": "FY27",
-          "basis": "Consolidated revenue growth",
-          "source": "Q1 FY27 transcript (call 2026-08-07), kewalkiran.com investor page 978ConcallTrasnscript-Q1FY27.pdf, exchange filing date [not retrieved], p.5",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "FY not stated on call; read as FY27. Q1 FY27 printed ~19%. Revised targets deferred to after Q2 (p.7)."
-        },
         {
           "class": 2,
           "date": "2026-08-07",
@@ -32,33 +22,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Said against rising cotton prices; basis not stated on call."
-        },
-        {
-          "class": 3,
-          "date": "2026-08-07",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "The current target for our EBO would be around 50 to 70 odd stores for the current year on a net basis.",
-          "period": "FY27",
-          "basis": "Net EBO additions, all brands",
-          "source": "Q1 FY27 transcript (call 2026-08-07), kewalkiran.com investor page 978ConcallTrasnscript-Q1FY27.pdf, exchange filing date [not retrieved], p.4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Q1 FY27 net +4 (670 at 30 Jun 2026); openings said to be Q2-Q3 weighted (p.7)."
-        },
-        {
-          "class": 6,
-          "date": "2026-08-07",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "The overall estimate for the other income should be at around Rs. 30 crores for the annualized year.",
-          "period": "FY27",
-          "basis": "Consolidated other income",
-          "source": "Q1 FY27 transcript (call 2026-08-07), kewalkiran.com investor page 978ConcallTrasnscript-Q1FY27.pdf, exchange filing date [not retrieved], p.9",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Narrowed from Rs 30-35 cr given in May 2026."
+          "note": "Said against rising cotton prices; basis not stated on call. Rule 7: first statement of this anchor."
         },
         {
           "class": 7,
@@ -71,7 +35,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: no earlier statement (new commitment)."
         },
         {
           "class": 1,
@@ -84,7 +48,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: not traced (low materiality)."
         }
       ]
     },
@@ -97,19 +61,6 @@
           "class": 1,
           "date": "2026-05-11",
           "speaker": "Pankaj Jain, President - Retail",
-          "quote": "organically, our growth, we still say that it should be around 15%-18%.",
-          "period": "FY27",
-          "basis": "Consolidated revenue growth, organic",
-          "source": "Q4 FY26 transcript (call 2026-05-11), kewalkiran.com investor page 371Q4&FY26-ConcallTranscript.pdf, exchange filing date [not retrieved], no page markers, Q&A (Shubham Jain)",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 1,
-          "date": "2026-05-11",
-          "speaker": "Pankaj Jain, President - Retail",
           "quote": "Should be in upward of 15%.",
           "period": "FY27",
           "basis": "Standalone revenue growth",
@@ -117,7 +68,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Q1 FY27 standalone revenue Rs 200-203 cr vs Rs 181 cr = ~+10-12% (secondary sources conflict) - running below."
+          "note": "Q1 FY27 standalone revenue Rs 200-203 cr vs Rs 181 cr = ~+10-12% (secondary sources conflict) - running below. Rule 7: no earlier standalone FY27 figure (checked Q3 FY26)."
         },
         {
           "class": 3,
@@ -130,20 +81,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
-        },
-        {
-          "class": 4,
-          "date": "2026-05-11",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "close to around INR 30 crores to INR 35 crores is the requirement for CAPEX",
-          "period": "FY27 (annual)",
-          "basis": "Consolidated capex, ceiling",
-          "source": "Q4 FY26 transcript (call 2026-05-11), kewalkiran.com investor page 371Q4&FY26-ConcallTranscript.pdf, exchange filing date [not retrieved], no page markers, Q&A (Arpan Rathod)",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": ""
+          "note": "Rule 7: Q3 FY26 p.12 called ~42% 'maintainable' (no period) - not treated as origin."
         },
         {
           "class": 3,
@@ -156,7 +94,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Restated Q1 FY27 p.4 ('50 to 70 odd stores'); Q1 FY27 net +4 (670 at 30 Jun 2026). Rule 7: Q3 FY26 p.4 gave no number."
         },
         {
           "class": 6,
@@ -169,7 +107,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Narrowed to ~Rs 30 cr on Q1 FY27 call."
+          "note": "Narrowed to ~Rs 30 cr on Q1 FY27 call (p.9; low end unchanged, merged here). Rule 7: Q3 FY26 gave no FY27 figure."
         },
         {
           "class": 3,
@@ -182,7 +120,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: earlier WC-day bands were for other years (FY24-FY26); no FY27 origin."
         },
         {
           "class": 8,
@@ -195,7 +133,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Pankaj Jain: 15% organic + inorganic to 20%; 'one year has already lapsed'. Re-frames Vision 2028 (see Q4 FY25 item)."
+          "note": "Pankaj Jain: 15% organic + inorganic to 20%; 'one year has already lapsed'. Re-frames Vision 2028 (see Q4 FY25 item). Rule 7: a raise with new period, kept separate."
         },
         {
           "class": 10,
@@ -208,87 +146,35 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open; Q1 FY27 EBITDA margin ~19.4% vs Q4 FY26 19.1% - holding so far."
+          "note": "Open; Q1 FY27 EBITDA margin ~19.4% vs Q4 FY26 19.1% - holding so far. Not a Reg. 30 line (rule 6 n/a)."
         }
       ]
     },
     {
       "label": "Q3 FY26",
-      "grade": 2,
-      "status": "graded",
+      "grade": null,
+      "status": "pending",
       "promises": [
-        {
-          "class": 2,
-          "date": "2026-02-12",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "KKCL should earn 17% to 18% EBITDA margin, which we will maintain.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), p.6",
-          "outcome": "FY26 EBITDA margin 19.6%; Q4 FY26 19.1%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": "Pankaj Jain (p.15) separately said 18-20% consolidated; both met."
-        },
-        {
-          "class": 1,
-          "date": "2026-02-12",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "We will do double-digit growth.",
-          "period": "FY26 / Q4 FY26",
-          "basis": "Consolidated revenue growth",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), p.14",
-          "outcome": "Q4 FY26 +12.4%; FY26 +20.9%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%; Q4 revenue Rs 325 cr +12.4%",
-          "item_grade": 2,
-          "note": ""
-        },
         {
           "class": 8,
           "date": "2026-02-12",
           "speaker": "Hemant Jain, Joint MD",
-          "quote": "the number of stores shall double in three-year period.",
-          "period": "FY26-FY29",
-          "basis": "EBO count (target 900 EBOs, p.9)",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), p.6",
+          "quote": "We will do double-digit growth.",
+          "period": "FY27-FY28",
+          "basis": "Consolidated revenue growth (answer to 'growth guidance for say FY'27-'28?', p.13)",
+          "source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), p.13-14; company copy 417KKCL-Q3&9MFY26ConferenceCallTranscript.pdf p.13",
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Pace: 666 (Mar-26) -> 670 (Jun-26)."
-        },
-        {
-          "class": 7,
-          "date": "2026-02-12",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "I feel the growth for the Integriti brand will start happening from first quarter of the next year period.",
-          "period": "Q1 FY27",
-          "basis": "Integriti brand growth start",
-          "source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), p.5",
-          "outcome": "[not retrieved] - Q1 FY27 call gives no Integriti growth figure",
-          "outcome_source": "Q1 FY27 transcript (call 2026-08-07), kewalkiran.com investor page 978ConcallTrasnscript-Q1FY27.pdf, exchange filing date [not retrieved]",
-          "item_grade": null,
-          "note": "Closed period, outcome not disclosed; not graded."
+          "note": "Re-read: period was FY27-28, not FY26/Q4 FY26 (was graded 2). Rule 7 origin of FY27 growth; restated Q4 FY26 ('organically ... 15%-18%') and Q1 FY27 p.5 (consol 15-18%)."
         }
       ]
     },
     {
       "label": "Q2 FY26",
-      "grade": 0.7,
+      "grade": 0,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-10-16",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "As I told you, at the end of the year, we are committed to 17% to 18% growth plan.",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth (p.9: 'it is on a consolidated')",
-          "source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved], p.8",
-          "outcome": "FY26 +20.9%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": "Implicit softening from Q1 FY26's 18-20%; never called a cut."
-        },
         {
           "class": 1,
           "date": "2025-10-16",
@@ -300,59 +186,7 @@
           "outcome": "Q3 FY26 +13%; Q4 FY26 ~+8% (Rs 45.6 cr / 18.00% = ~253 vs Rs 42.3 cr / 18.05% = ~234)",
           "outcome_source": "Q3 FY26 transcript p.3; Q4 standalone EBITDA and margin via scanx report of FY26 results [secondary]",
           "item_grade": 0,
-          "note": "Q4 standalone revenue computed from reported EBITDA and margin; shortfall ~19% of the 10% floor."
-        },
-        {
-          "class": 2,
-          "date": "2025-10-16",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "We feel 17% to 18% is achievable.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
-          "source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved], p.15",
-          "outcome": "FY26 EBITDA margin 19.6%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-10-16",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "our range is to open 90-100 stores every year-on-year.",
-          "period": "FY26",
-          "basis": "Net EBO additions, all brands",
-          "source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved], p.15",
-          "outcome": "FY26 net +57 EBOs (666 at 31 Mar 2026)",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), opening remarks",
-          "item_grade": 0,
-          "note": "Softened from Q1's '100 plus'; same call also said 'sometimes it can be 80-90' - 0 against either floor."
-        },
-        {
-          "class": 6,
-          "date": "2025-10-16",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "Other income is in the range of Rs. 30 crores.",
-          "period": "FY26",
-          "basis": "Consolidated other income",
-          "source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved], p.13",
-          "outcome": "FY26 other income Rs 23.8 cr",
-          "outcome_source": "FY26 results as reported by scanx / freepressjournal [secondary]",
-          "item_grade": 0,
-          "note": "Shortfall 21%."
-        },
-        {
-          "class": 7,
-          "date": "2025-10-16",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "it should take more one or two quarters to achieve that level.",
-          "period": "by Q4 FY26",
-          "basis": "Kraus working-capital days converging to KKCL (~132 vs Kraus ~151, pp.4-5)",
-          "source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved], p.4",
-          "outcome": "Not converged: Q4 FY26 call guides Kraus WC 'a little higher' than 130-140; Q1 FY27 'focus remains on improving the working capital cycle'",
-          "outcome_source": "Q4 FY26 transcript (call 2026-05-11), kewalkiran.com investor page 371Q4&FY26-ConcallTranscript.pdf, exchange filing date [not retrieved], no page markers; Q1 FY27 transcript (call 2026-08-07), kewalkiran.com investor page 978ConcallTrasnscript-Q1FY27.pdf, exchange filing date [not retrieved] p.3",
-          "item_grade": 0,
-          "note": "Repeat of Q4 FY25 assurance."
+          "note": "Q4 standalone revenue computed from reported EBITDA and margin; shortfall ~19% of the 10% floor. Rule 7: Q1 FY26 FY-standalone item is a different period; no earlier quarterly origin."
         },
         {
           "class": 4,
@@ -365,28 +199,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": ""
+          "note": "Rule 7: Q2 FY25 call mentioned only a ~Rs 57 cr property purchase - not same commitment."
         }
       ]
     },
     {
       "label": "Q1 FY26",
-      "grade": 0.9,
+      "grade": 0.5,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-08-08",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "we will stick to our guidance, okay, where we say that, okay, growth will be somewhere between 18% to 20%.",
-          "period": "FY26",
-          "basis": "Consolidated revenue growth over FY25 (p.18: 'On the consol basis')",
-          "source": "Q1 FY26 transcript (call 2025-08-08), kewalkiran.com investor page 649KKCL-ConferenceCallTranscript(Q1FY26).pdf, exchange filing date [not retrieved], p.8",
-          "outcome": "FY26 +20.9%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": "Revised to 17-18% on Q2 call; scored against original."
-        },
         {
           "class": 1,
           "date": "2025-08-08",
@@ -398,33 +219,7 @@
           "outcome": "FY26 standalone Rs 950.3 cr vs Rs 840.4 cr = +13.1%",
           "outcome_source": "FY26 results as reported by scanx [secondary]",
           "item_grade": 0,
-          "note": "Shortfall 35%."
-        },
-        {
-          "class": 2,
-          "date": "2025-08-08",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "our guided margins we have given it around 17%-18%.",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
-          "source": "Q1 FY26 transcript (call 2025-08-08), kewalkiran.com investor page 649KKCL-ConferenceCallTranscript(Q1FY26).pdf, exchange filing date [not retrieved], p.2/p.14",
-          "outcome": "FY26 EBITDA margin 19.6%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-08-08",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "ongoing EBO expansion with the target of adding 100 plus stores in FY26.",
-          "period": "FY26",
-          "basis": "Net EBO additions",
-          "source": "Q1 FY26 transcript (call 2025-08-08), kewalkiran.com investor page 649KKCL-ConferenceCallTranscript(Q1FY26).pdf, exchange filing date [not retrieved], p.3",
-          "outcome": "FY26 net +57 EBOs",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), opening remarks",
-          "item_grade": 0,
-          "note": "Shortfall 43%."
+          "note": "Shortfall 35%. Rule 7: Q4 FY25 call gave no standalone FY26 figure."
         },
         {
           "class": 7,
@@ -437,7 +232,7 @@
           "outcome": "Slipped: Q3 FY26 call puts Integriti growth from Q1 FY27 and Lawman expansion 'from the next year period'",
           "outcome_source": "Q3 FY26 transcript, NSE filing 2026-02-14 (KKCL_14022026151710_transcript1422026.pdf), pp.5, 10",
           "item_grade": 0,
-          "note": "Late by more than one quarter."
+          "note": "Rule 7: Q4 FY25 gave no timing (p.4, 11) - origin here. Moved 2026-02-12 (Q3 FY26 p.4/p.9, item merged; reason: channel/price reset) on Q3 results call, half of H2 reported - not prospective, 0."
         },
         {
           "class": 5,
@@ -450,7 +245,7 @@
           "outcome": "Held: no equity raise; FY26 financing cash flow -Rs 50.6 cr; debt Rs 48 cr at Mar-26",
           "outcome_source": "FY26 cash flow via scanx; Mar-26 debt via multibagg citing company deck [secondary]",
           "item_grade": 2,
-          "note": ""
+          "note": "Rule 7: Q4 FY25 p.3 tied internal accruals to Vision 2028 (multi-year); Q4 FY23 p.8-9 was FY24. FY26 statement kept as own item."
         },
         {
           "class": 6,
@@ -463,13 +258,13 @@
           "outcome": "FY26 other income Rs 23.8 cr",
           "outcome_source": "FY26 results as reported by scanx / freepressjournal [secondary]",
           "item_grade": 0,
-          "note": "Shortfall 21% vs low end."
+          "note": "Shortfall 21% vs low end. Restated Q2 FY26 p.13 ('in the range of Rs. 30 crores'; merged). Rule 7: Q4 FY25 gave none (p.17, M2M)."
         }
       ]
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.6,
+      "grade": 1.3,
       "status": "graded",
       "promises": [
         {
@@ -483,7 +278,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Restated Q2 FY26 as 'only organic' (p.17); Q4 FY26 reframed as 15% organic + inorganic to 20% CAGR. FY26 Rs 1,212 cr needs ~11.2% CAGR to FY28."
+          "note": "Open. Restated Q2 FY26 as 'only organic' (p.17); Q4 FY26 reframed as 15% organic + inorganic to 20% CAGR. FY26 Rs 1,212 cr needs ~11.2% CAGR to FY28. Rule 7: origin (Q3 FY25 p.4 only promised to present it)."
         },
         {
           "class": 8,
@@ -496,7 +291,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. 670 at Jun-26; needs ~230 more in 7 quarters vs FY27 guide 50-70."
+          "note": "Open. 670 at Jun-26; needs ~230 more in 7 quarters vs FY27 guide 50-70. Restated Q3 FY26 p.5-6 ('stores shall double in three-year period'; merged) and p.8 ('instead of 900, we do 800')."
         },
         {
           "class": 1,
@@ -509,33 +304,7 @@
           "outcome": "FY26 +20.9%",
           "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
           "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 2,
-          "date": "2025-05-13",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "we will maintain EBITDA of 17% to 18%",
-          "period": "FY26",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
-          "source": "Q4 FY25 transcript (call 2025-05-13), kewalkiran.com investor page 973KKCL-Q4FY25ConferenceCallTranscript(Final).pdf, exchange filing date [not retrieved], p.4",
-          "outcome": "FY26 EBITDA margin 19.6%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": "Band lowered from Q3 FY25's 18-20% at this call."
-        },
-        {
-          "class": 4,
-          "date": "2025-05-13",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "Normally, we say that year on year, it will cost us INR30-35 crores in capex. There is no need for more than that",
-          "period": "FY26",
-          "basis": "Consolidated capex, ceiling",
-          "source": "Q4 FY25 transcript (call 2025-05-13), kewalkiran.com investor page 973KKCL-Q4FY25ConferenceCallTranscript(Final).pdf, exchange filing date [not retrieved], p.10",
-          "outcome": "FY26 purchase of PPE Rs 20.7 cr",
-          "outcome_source": "stockanalysis.com cash-flow statement [aggregator, not filing]",
-          "item_grade": 2,
-          "note": ""
+          "note": "Rule 7 origin (Hemant p.7 same). Restated Q1 FY26 p.8 as 18-20% and Q2 FY26 p.8 as 17-18% (both merged); neither below original 'double-digit', so no cut."
         },
         {
           "class": 7,
@@ -548,7 +317,7 @@
           "outcome": "Not normalised: Kraus ~151 days vs KKCL ~132 at Sep-25; still 'a little higher' at Q4 FY26",
           "outcome_source": "Q2 FY26 transcript (call 2025-10-16), kewalkiran.com investor page 13ConferenceCallTranscript-Q2&H1FY26.pdf, exchange filing date [not retrieved] pp.4-5; Q4 FY26 transcript (call 2026-05-11), kewalkiran.com investor page 371Q4&FY26-ConcallTranscript.pdf, exchange filing date [not retrieved], no page markers",
           "item_grade": 0,
-          "note": ""
+          "note": "Re-set Q2 FY26 p.4 ('one or two quarters' more, after deadline lapsed; merged). Rule 7: no earlier Kraus WC target (Q2 FY25 called ~100 days 'regular'; Q1 FY25 none)."
         },
         {
           "class": 5,
@@ -561,7 +330,7 @@
           "outcome": "Debt Rs 48 cr at Mar-26 vs borrowings ~Rs 164 cr at Mar-25",
           "outcome_source": "multibagg (company deck) for Mar-26; screener.in for Mar-25 [secondary, definitions may differ]",
           "item_grade": 2,
-          "note": ""
+          "note": "Rule 7: no earlier statement found (checked Q1, Q2 FY25 calls)."
         },
         {
           "class": 10,
@@ -574,28 +343,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open; reaffirmed Q4 FY26."
+          "note": "Open; reaffirmed Q4 FY26. Rule 7: Q4 FY24 declined comment on remaining 50% (pp.13, 15); Q1 FY25 none - origin here."
         }
       ]
     },
     {
       "label": "Q3 FY25",
-      "grade": 1.2,
+      "grade": 1.3,
       "status": "graded",
       "promises": [
-        {
-          "class": 1,
-          "date": "2025-02-11",
-          "speaker": "Pankaj Jain, President - Retail",
-          "quote": "in Q4 '25, we should see a double-digit growth",
-          "period": "Q4 FY25",
-          "basis": "Standalone revenue growth (consolidated already +28% with Kraus)",
-          "source": "Q3 FY25 transcript, NSE filing 2025-02-13 (KKCL_13022025145724_Transcript13022025.pdf), p.7",
-          "outcome": "Q4 FY25 standalone ~+5-6%",
-          "outcome_source": "Q4 FY25 transcript (call 2025-05-13), kewalkiran.com investor page 973KKCL-Q4FY25ConferenceCallTranscript(Final).pdf, exchange filing date [not retrieved], p.9 (Hemant Jain)",
-          "item_grade": 0,
-          "note": "Basis read as standalone because consolidated growth included the Kraus acquisition; on consolidated basis Q4 FY25 was +31.3%. Q4 FY25 statement's basis is itself ambiguous."
-        },
         {
           "class": 2,
           "date": "2025-02-11",
@@ -604,10 +360,10 @@
           "period": "FY26",
           "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
           "source": "Q3 FY25 transcript, NSE filing 2025-02-13 (KKCL_13022025145724_Transcript13022025.pdf), p.11",
-          "outcome": "FY26 EBITDA margin 19.6%",
-          "outcome_source": "Q4 FY26 transcript (2026-05-11), Hemant Jain opening remarks: FY26 consolidated revenue Rs 1,212 cr (+20.9%), EBITDA Rs 238 cr, margin 19.6%",
-          "item_grade": 2,
-          "note": "Hemant Jain confirmed 18-20% as the two-year band (p.13). Lowered to 17-18% at Q4 FY25; scored against original."
+          "outcome": "Cut before period end: re-set to 17-18% on 2025-05-13 (Q4 FY25 p.3, p.10); FY26 delivered 19.6%",
+          "outcome_source": "Q4 FY25 transcript (call 2025-05-13) pp.3, 10; Q4 FY26 transcript (2026-05-11) opening remarks",
+          "item_grade": 1,
+          "note": "Hemant Jain confirmed 18-20% as two-year band (p.13). Class-9 rule: cut prospective, reasoned ('chasing growth as compared to a margin structure', p.10) = 1 (was 2). 17-18% restated Q1-Q3 FY26 (merged)."
         },
         {
           "class": 4,
@@ -620,7 +376,20 @@
           "outcome": "FY26 purchase of PPE Rs 20.7 cr",
           "outcome_source": "stockanalysis.com cash-flow statement [aggregator, not filing]",
           "item_grade": 2,
-          "note": "FY27 leg open."
+          "note": "FY26 leg. Restated Q4 FY25 p.10 (merged). Rule 7: Q4 FY23 p.8 'every year Rs. 30-35 cr' was an unperiodised run-rate; Q4 FY24 gave FY25 30-40 - not same period."
+        },
+        {
+          "class": 4,
+          "date": "2025-02-11",
+          "speaker": "Pankaj Jain, President - Retail",
+          "quote": "capex requirement of around INR 30 crores to INR 35 crores for next 2 years",
+          "period": "FY27",
+          "basis": "Annual consolidated capex, ceiling",
+          "source": "Q3 FY25 transcript, NSE filing 2025-02-13 (KKCL_13022025145724_Transcript13022025.pdf), p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "FY27 leg (split from same quote). Restated Q4 FY26 ('close to around INR 30 crores to INR 35 crores', Arpan Rathod Q&A; moved here)."
         },
         {
           "class": 3,
@@ -633,7 +402,7 @@
           "outcome": "Killer 404 -> 457 and Lawman 61 -> 90 from Dec-24 to Mar-26: +82 combined over five quarters",
           "outcome_source": "Q3 FY25 transcript p.3; Q4 FY26 transcript opening remarks",
           "item_grade": 0,
-          "note": "Mar-25 brand split [not retrieved]; FY26 adds could exceed 82 only if Q4 FY25 saw net closures in these brands (company net +18 that quarter). Total FY26 net adds all brands: 57."
+          "note": "Mar-25 brand split [not retrieved]; total FY26 net adds all brands 57. Restated Q1 FY26 p.3 ('100 plus') and Q2 FY26 p.15 ('90-100'), both merged; floor not lowered, no cut."
         },
         {
           "class": 7,
@@ -652,7 +421,7 @@
     },
     {
       "label": "Q2 FY25",
-      "grade": 1,
+      "grade": 0,
       "status": "graded",
       "promises": [
         {
@@ -666,20 +435,7 @@
           "outcome": "Q3 FY25 flat; Q4 FY25 ~5-6%",
           "outcome_source": "Q4 FY25 transcript (call 2025-05-13), kewalkiran.com investor page 973KKCL-Q4FY25ConferenceCallTranscript(Final).pdf, exchange filing date [not retrieved], p.9 (Hemant Jain)",
           "item_grade": 0,
-          "note": "Speaker attribution differs between sources (alphastreet: Hemant Jain)."
-        },
-        {
-          "class": 2,
-          "date": "2024-10-28",
-          "speaker": "Hemant Jain, Joint MD",
-          "quote": "we will maintain as Kewal Kiran, we will maintain 18% to 20% EBITDA margin",
-          "period": "FY25",
-          "basis": "Consolidated EBITDA excl. other income / revenue from operations (company's reported EBITDA is pre-other-income; checked on Q1 FY27: PBT 51 + finance 3 + D&A 13 - OI 13 = 54)",
-          "source": "Q2 FY25 transcript (call 2024-10-28), kewalkiran.com investor page 396Q2&H1FY25ConferenceCallTranscript.pdf, exchange filing date [not retrieved], p.6",
-          "outcome": "FY25 EBITDA margin ~19% (Rs 190.6 cr / Rs 1,002.8 cr)",
-          "outcome_source": "Q4 FY25 transcript (call 2025-05-13), kewalkiran.com investor page 973KKCL-Q4FY25ConferenceCallTranscript(Final).pdf, exchange filing date [not retrieved], p.4",
-          "item_grade": 2,
-          "note": "Period not stated; read as FY25."
+          "note": "Speaker attribution differs between sources (alphastreet: Hemant Jain). Restated Q3 FY25 p.7 for Q4 (merged). Rule 7: Q1 FY25 p.8 said only 'growth' for Q3-Q4 (no figure)."
         },
         {
           "class": 8,
@@ -692,7 +448,28 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Kraus brand revenue not disclosed after FY25."
+          "note": "Open. Kraus brand revenue not disclosed after FY25. Rule 7: none in Q4 FY24 call, 2024-05-30 release, Q1 FY25 call or Q1 FY25 deck."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY23",
+      "outside_window": true,
+      "grade": 2,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2023-04-28",
+          "speaker": "Management (speaker not named in company transcript; alphastreet attributes to Hemant Jain, Joint MD)",
+          "quote": "we will maintain 18% to 20% EBITDA margin",
+          "period": "FY24-FY25",
+          "basis": "EBITDA excl. other income / revenue from operations; p.5: 'for next 2 years perspective we will be able to maintain the current EBITDA structures'",
+          "source": "Q4 FY23 transcript (call 2023-04-28), kewalkiran.com 592Q4_FY23_Conference_Call_Transcript.pdf pp.5, 13; NSE filing 2023-05-03 (KKCL_03052023170518_concalltranscript352023.pdf) pp.6, 14",
+          "outcome": "FY24 20.6%; FY25 ~19% (Rs 190.6 cr / Rs 1,002.8 cr)",
+          "outcome_source": "Q4 FY24 transcript (call 2024-05-31) p.3, Hemant Jain; Q4 FY25 transcript (call 2025-05-13) p.4",
+          "item_grade": 2,
+          "note": "Rule 7 origin of FY25 18-20% (moved from Q2 FY25). Restated Q4 FY24 p.5 (FY25 18-20%), Q1 FY25 p.12 ('sustainable at 18% to 19%'; low end kept), Q2 FY25 p.6."
         }
       ]
     }

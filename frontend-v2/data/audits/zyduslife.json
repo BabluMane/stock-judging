@@ -1,0 +1,635 @@
+{
+  "ticker": "ZYDUSLIFE",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 7.8,
+  "note": "Window: 8 calls Q2 FY25-Q1 FY27, all transcripts opened (company-hosted copies of the exchange filings where the NSE copy was not located). Rule 7 added Q4 FY24 (2024-05-17) and Q1 FY25 (2024-08-09) as originating calls for FY25 guidance and multi-year statements; N=10, weights 10..1 by position. Quotes were extracted via WebFetch in capped segments; joined fragments are marked '...'. Page refs may be ±1. Class 9: requests for guidance on years not yet guided (e.g. FY27 asked on Q3 FY25, Q4 FY25, Q1 FY26, Q3 FY26 calls) are treated as 'never guided', not refusals, and are not captured. Rule 6: no statutory impact statements arose from the calls. Reg. 30 stamp-duty demand (Jul 2026) ₹108.54 mn [amount unverified, media] ÷ FY26 consolidated PAT ₹51,235 mn = 0.21% < 1% → not captured. Not graded for lack of filed outcomes: quarterly other-expense run-rates, Sentynl FY26 break-even (Q3 FY25), Comfort Click/Amplitude EPS accretion, gRevlimid and Mirabegron product sales, Usnoflast Phase 2b start date (Q1 FY26), EM segment margin 23%+ (Q3 FY25), US base ≥ $1 bn ex-exceptionals (Q4 FY25). Key misses: CUTX-101 approval four quarters late; FY26 capex 43% above the ₹1,200 cr estimate; Desidustat China launch re-set. Watch: FY27 revenue guide softened in wording from 'high teens' to 'strong double-digit'; FY27 capex guide raised within weeks; opex run-rate guide stepped up three times; North America negative YoY in the last two quarters.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "call_date": "2026-08-11",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2026-08-11",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "today, it's only 10% of our business and probably by the end of the year, it will cross 15% or more",
+          "period": "FY27 (exit)",
+          "basis": "US branded/specialty share of US revenue",
+          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.7 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Q4 FY26 call framed specialty scale-up from FY28 (Y3); this is the first numeric share target."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-11",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "We are looking at around $15-$20 million per quarter run rate.",
+          "period": "From Q2 FY27, quarterly",
+          "basis": "Rolvedon (Assertio) US sales, USD per quarter",
+          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.9 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open: Q2 FY27 closed 2026-09-30 but results not yet filed at review date."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-11",
+          "speaker": "Tushar Shroff, CFO",
+          "quote": "our current run rate of about, you know, ₹1,900-₹2,000 crores, I think that kind of a run rate we should assume as a part of other expenses, excluding R&D on quarterly basis.",
+          "period": "FY27 quarterly",
+          "basis": "Other expenses excl. R&D, ₹ crore per quarter, 'all inclusive' of Saroglitazar spend",
+          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.7 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Run-rate guidance has stepped up each time it was given: ₹1,500-1,550 cr (Q2 FY26 call), ₹1,750-1,800 cr excl. Saro/Agenus (Q3 FY26 call), now ₹1,900-2,000 cr incl. all. Prior run-rates not graded: quarterly other-expenses outcomes not retrieved."
+        },
+        {
+          "class": 8,
+          "date": "2026-08-11",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "ideally, we would want to be improving our EBITDA margins to 28-30% range as we move closer to the 5-year period.",
+          "period": "~FY31",
+          "basis": "Consolidated EBITDA margin (excl. other income, company definition)",
+          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.16 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": ""
+        },
+        {
+          "class": 7,
+          "date": "2026-08-11",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "We see it as a FY28 kind of timeline when we can see some data coming out of that. So, end of FY28, late calendar year '28, '28 or early '29.",
+          "period": "Late CY2028 / early CY2029",
+          "basis": "Usnoflast ALS Phase 2b US data readout",
+          "source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.13-14 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY26 call said 'two to three-year window' for ALS clinical data (CY2027-28); this moves it to late CY2028/early CY2029. Not graded: the Q1 FY26 window is still open."
+        }
+      ],
+      "weight": 10
+    },
+    {
+      "label": "Q4 FY26",
+      "call_date": "2026-05-19",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "Looking forward, I think, on the consolidated revenue, we still continue to see high teens growth for FY27.",
+          "period": "FY27",
+          "basis": "Consolidated revenue from operations, YoY",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.8 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 call (2026-08-11): 'we continue to stay with the guidance that we will deliver strong double-digit growth for the year' — wording softer than 'high teens'; watch for a cut. Q1 FY27 actual +22.0%."
+        },
+        {
+          "class": 2,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "FY27, looking at competition, also Revlimid competition, Mirabegron competition, expenses related to Saro launch, we are expecting margins in excess of 24%.",
+          "period": "FY27",
+          "basis": "Consolidated EBITDA margin, excl. other income (basis confirmed as EBITDA by analyst framing p.10)",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.9 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Reaffirmed on Q1 FY27 call ('24% guidance. So that is what we are sticking to'). Q1 FY27 actual 24.1%."
+        },
+        {
+          "class": 3,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "As we are guiding for, we are seeing around 8% of FY27 is our current expectation on R&D.",
+          "period": "FY27",
+          "basis": "R&D as % of revenue",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.14 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 actual 8.0%."
+        },
+        {
+          "class": 4,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, we are thinking, in FY27, around 1,500 crore capex number.",
+          "period": "FY27",
+          "basis": "Consolidated organic capex, ₹ crore (treated as ceiling)",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.15 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Revised up within the period on Q1 FY27 call: 'right now, we are guiding for around ₹1,500-₹1,600 crores capex.' Q1 FY27 organic capex ₹585 cr (annualised ~₹2,340 cr)."
+        },
+        {
+          "class": 1,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we will still see a growth, single digit growth, in the North American business aided by the portfolio.",
+          "period": "FY27",
+          "basis": "North America formulations revenue, YoY",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.8 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 North America -2.6% YoY (₹30,979 mn)."
+        },
+        {
+          "class": 1,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we will outperform the market by 200-400 basis points versus the current IPM.",
+          "period": "FY27",
+          "basis": "India branded formulations growth minus IPM growth",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.9 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Raised on Q1 FY27 call to 'at least 300-500 basis points'."
+        },
+        {
+          "class": 1,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "on the consumer side also, we see a good momentum on double digit growth.",
+          "period": "FY27",
+          "basis": "Consumer Wellness revenue, YoY",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.9 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 +67% reported (acquisition-led; domestic +5%)."
+        },
+        {
+          "class": 3,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, on Saro, for this year, we'll have an additional 70 million kind of investment on the commercialization part on Saro.",
+          "period": "FY27",
+          "basis": "Incremental Saroglitazar US commercialisation opex (USD implied)",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.11 of 22",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        },
+        {
+          "class": 7,
+          "date": "2026-05-19",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "We will hope to see launch in second quarter of FY27 in China.",
+          "period": "Q2 FY27",
+          "basis": "Desidustat commercial launch in China by licensee China Medical System",
+          "source": "Q4 FY26 transcript, NSE filing 2026-05-24, https://nsearchives.nseindia.com/corporate/Cadilahc_24052026213647_IntimationofPostResultsEarningsCallTranscript19052026.pdf, p.18 of 22",
+          "outcome": "Re-set before the period closed: on 2026-08-11 (Q1 FY27 call) management said 'we'll have to wait for another 2 to 3 quarters to make sure that all the important approvals go through and the access to the molecule is created in the list', citing the need for NRDL reimbursement listing. No China launch disclosed in any filing found as of 2026-10-08.",
+          "outcome_source": "Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.12",
+          "item_grade": 1,
+          "note": "Graded under the class-9 cut rule (§4a): moved before Q2 FY27 ended (prospective) with a stated reason (reimbursement/NRDL) → 1."
+        }
+      ],
+      "weight": 9
+    },
+    {
+      "label": "Q3 FY26",
+      "call_date": "2026-02-10",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-02-10",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "We will still track at 23% plus margin in the Quarter 4.",
+          "period": "Q4 FY26",
+          "basis": "Consolidated EBITDA margin, excl. other income",
+          "source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, p.13 of 19",
+          "outcome": "Q4 FY26 EBITDA ₹25,544 mn on revenue ₹75,870 mn = 33.7% margin.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf",
+          "item_grade": 2,
+          "note": "Restated on p.19 ('despite no revenue on Lenalidomide, we will see a 23% plus margin'). On the Q4 FY26 call management described the Q4 exit as 'around close to 26%' — basis unexplained vs reported 33.7%."
+        },
+        {
+          "class": 7,
+          "date": "2026-02-10",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we just licenced Ranibizumab, also biosimilar. ... So, we also see that in the second half of the year, a launch of that.",
+          "period": "H2 (CY2026 or FY27; ambiguous)",
+          "basis": "US launch of Ranibizumab biosimilar (Nufymco)",
+          "source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, p.12 of 19",
+          "outcome": "Launched in Q1 FY27 (Apr-Jun 2026): 'we launched NufymcoTM Injection, which is Ranibizumab, our first biosimilar in the US market'. Earlier than either reading of 'second half of the year'.",
+          "outcome_source": "Q1 FY27 financial performance release 2026-08-11, https://www.zyduslife.com/investor/admin/uploads/21/83/Zydus-Lifesciences-Limited-financial-performance-for-Q1-FY27.pdf; Q1 FY27 transcript, NSE filing 2026-08-18, https://nsearchives.nseindia.com/corporate/Cadilahc_18082026145349_IntimationofPostResultsEarningsCallTranscript11082026.pdf, p.3",
+          "item_grade": 2,
+          "note": "Restated p.19 ('we hope to enter by the second half of the year'). Q4 FY26 call: 'including Ranibizumab, by end of the year'. Exact launch date [not retrieved]."
+        },
+        {
+          "class": 8,
+          "date": "2026-02-10",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "In the next 3 to 4 years we want to have a thousand crore plus business on vaccines, for sure. ... And that's what we are conservatively aiming for.",
+          "period": "FY29-FY30",
+          "basis": "Vaccines revenue, ₹ crore",
+          "source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, p.15 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q1 FY27 call: 'vaccines ... we want to achieve the ₹300 to 400 kind of crore mark and we are on track' — nearer-term marker, not a cut of this target."
+        },
+        {
+          "class": 7,
+          "date": "2026-02-10",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "But I would say the commercialization will be second half of FY27.",
+          "period": "H2 FY27",
+          "basis": "Start of commercial BOT/BAL supply to Agenus from the acquired US biologics site",
+          "source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, p.7 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Q4 FY26 call sized it at '10 to 15 million revenue'."
+        }
+      ],
+      "weight": 8
+    },
+    {
+      "label": "Q2 FY26",
+      "call_date": "2025-11-06",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 5,
+          "date": "2025-11-06",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "without any acquisition, we don't want to cross one time, and for a short period of time, we can go two times ... and obviously then obviously reduce our net debt to one time.",
+          "period": "Ongoing; tested at latest filed quarter-ends",
+          "basis": "Net debt / EBITDA ceiling 1.0x (2.0x short-term post-acquisition)",
+          "source": "Q2 FY26 transcript, exchange filing 2025-11-13 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-06-Nov-25.pdf, p.10 of 20",
+          "outcome": "Net debt/EBITDA 0.50x at 31-Mar-2026 (net debt ₹43,050 mn) and 0.70x at 30-Jun-2026 (net debt ₹59,041 mn, after Assertio and the ₹1,100 cr buyback). Below the 1.0x ceiling at both dates.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf (sl.3); Q1 FY27 financial performance release 2026-08-11, https://www.zyduslife.com/investor/admin/uploads/21/83/Zydus-Lifesciences-Limited-financial-performance-for-Q1-FY27.pdf",
+          "item_grade": 2,
+          "note": "Restated Q4 FY26 call p.19: 'we are comfortable around one-times net debt to EBITDA right now on an ongoing basis'. Balance sheet moved from net cash ₹48,836 mn (Mar-2025) to net debt."
+        }
+      ],
+      "weight": 7
+    },
+    {
+      "label": "Q1 FY26",
+      "call_date": "2025-08-12",
+      "grade": 0.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 4,
+          "date": "2025-08-12",
+          "speaker": "Nitin Parekh, CFO",
+          "quote": "Total capex for the current financial year is estimated at about 1,200 crores. That includes 300 crores of MedTech.",
+          "period": "FY26",
+          "basis": "Consolidated organic capex, ₹ crore (treated as ceiling)",
+          "source": "Q1 FY26 transcript, exchange filing 2025-08-20 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-12-Aug-25.pdf, p.18 of 21",
+          "outcome": "FY26 organic capex ₹17,145 mn (₹1,714.5 cr): overshoot of 42.9% vs ₹1,200 cr.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf (FY26 investor presentation sl.5)",
+          "item_grade": 0,
+          "note": "Graded as a ceiling (§5 reversal). Earlier Q3 FY25 call only said 'a higher cycle of capex at least for this coming year' (no figure), so this is the first quantified FY26 capex statement. No revision found on the Q2 or Q3 FY26 calls."
+        },
+        {
+          "class": 7,
+          "date": "2025-08-12",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "Docetaxel which will commercialize in the next quarter",
+          "period": "Q2 FY26",
+          "basis": "US launch of BEIZRAY (albumin-solubilised docetaxel, 505(b)(2))",
+          "source": "Q1 FY26 transcript, exchange filing 2025-08-20 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-12-Aug-25.pdf, p.10 of 21",
+          "outcome": "BEIZRAY launch reported in Q3 FY26 (Oct-Dec 2025) as the first oncology 505(b)(2) launch: one quarter late.",
+          "outcome_source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, pp.3-5 (Director's opening remarks)",
+          "item_grade": 1,
+          "note": "Exact launch date [not retrieved]; quarter taken from the Q3 FY26 call's list of quarter developments."
+        }
+      ],
+      "weight": 6
+    },
+    {
+      "label": "Q4 FY25",
+      "call_date": "2025-05-20",
+      "grade": 1.8,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-05-20",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we are looking at a double-digit growth in revenue led by strong growths in India and international markets",
+          "period": "FY26",
+          "basis": "Consolidated revenue from operations, YoY",
+          "source": "Q4 FY25 transcript, exchange filing 2025-05-27 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-20-May-25.pdf, p.20 of 22",
+          "outcome": "FY26 revenue from operations ₹271,484 mn vs ₹232,415 mn: +16.8%.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf",
+          "item_grade": 2,
+          "note": "Reaffirmed Q1 FY26 ('We stay committed to achieve our targeted top line growth and profitability') and Q2 FY26 ('on track'). FY26 includes Amplitude, Comfort Click and Agenus-site acquisitions; company stated ex-acquisition growth remained double-digit in Q2 and Q3."
+        },
+        {
+          "class": 2,
+          "date": "2025-05-20",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, FY26, we believe, we will exceed 26 or around 26% comfortably in terms of EBITDA margins",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin, excl. other income",
+          "source": "Q4 FY25 transcript, exchange filing 2025-05-27 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-20-May-25.pdf, p.12 of 22",
+          "outcome": "FY26 EBITDA ₹84,751 mn / revenue ₹271,484 mn = 31.2%.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf",
+          "item_grade": 2,
+          "note": "Restated Q1 FY26 ('better than 26% EBITDA margins') and Q2 FY26 ('our guidance is intact ... 26% margin')."
+        },
+        {
+          "class": 3,
+          "date": "2025-05-20",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "8%.",
+          "period": "FY26",
+          "basis": "R&D as % of revenue (answer to analyst asking FY26 R&D share; treated as ceiling)",
+          "source": "Q4 FY25 transcript, exchange filing 2025-05-27 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-20-May-25.pdf, p.15 of 22",
+          "outcome": "FY26 R&D ₹22,732 mn / revenue ₹271,484 mn = 8.4%: overshoot 4.7% of the target.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf",
+          "item_grade": 1,
+          "note": "Restated Q3 FY26 as 'we expect a 7.5%-8% of our revenue for FY26' (p.9). Same call also said R&D 'at least 100 basis points higher than last year' (FY25 8.0% → would imply ≥9.0%); actual +40bp. The two statements conflict; graded on the explicit 8%."
+        },
+        {
+          "class": 7,
+          "date": "2025-05-20",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "The next trial is scheduled for February of 2026 ... So, we will be preparing for the February jury trial.",
+          "period": "Feb 2026",
+          "basis": "Mirabegron US patent litigation jury trial date",
+          "source": "Q4 FY25 transcript, exchange filing 2025-05-27 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-20-May-25.pdf, p.7-8 of 22",
+          "outcome": "Trial began 9 Feb 2026 with jury selection (Q3 FY26 call, p.10); matter settled with Astellas 12 Feb 2026 (US$120 m plus per-unit licence to Sep 2027; ₹3,975 mn exceptional in Q4 FY26).",
+          "outcome_source": "Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, p.10; Update on litigation 2026-02-12, https://www.zyduslife.com/investor/admin/uploads/21/82/Update-on-litigation-12-Feb-2026.pdf",
+          "item_grade": 2,
+          "note": "Restated Q1 FY26 ('the trial date is in February 2026'). Same call: 'our guidance cannot change' on Mirabegron (assurance, FY26 guidance was met)."
+        },
+        {
+          "class": 7,
+          "date": "2025-05-20",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we are also looking at successful closure of the acquisition of Amplitude for orthopedic implants.",
+          "period": "FY26",
+          "basis": "Amplitude Surgical majority-stake acquisition closing",
+          "source": "Q4 FY25 transcript, exchange filing 2025-05-27 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-20-May-25.pdf, p.22 of 22",
+          "outcome": "85.6% stake acquired, completed in Q1/Q2 FY26 (29 Jul 2025); remaining 14.4% in Oct 2025.",
+          "outcome_source": "Q1 FY26 results press release 2025-08-12, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---12-08-2025.pdf; Q2 FY26 financial performance release 2025-11-06",
+          "item_grade": 2,
+          "note": ""
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "label": "Q3 FY25",
+      "call_date": "2025-02-05",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-02-05",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "if best case scenario is this year or the coming year in this or next year, we should see approval.",
+          "period": "CY2025-CY2026",
+          "basis": "Desidustat regulatory approval in China (licensee China Medical System)",
+          "source": "Q3 FY25 transcript, exchange filing 2025-02-11 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-05-Feb-25.pdf, p.20 of 27",
+          "outcome": "NMPA approval for renal anaemia announced 14 Mar 2026.",
+          "outcome_source": "Zydus press release 2026-03-14, https://nsearchives.nseindia.com/corporate/Cadilahc_14032026133830_PR14032026.pdf",
+          "item_grade": 2,
+          "note": "Earliest dated statement (Q4 FY24 call only said 'next milestone', undated). Restated Q1 FY26: 'in the next 12 months, we would see approval for Desidustat in China'."
+        },
+        {
+          "class": 7,
+          "date": "2025-02-05",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "In India, we hope to be in the first wave launches with our own Semaglutide franchise",
+          "period": "At India semaglutide patent expiry (Mar 2026)",
+          "basis": "India semaglutide launch timing",
+          "source": "Q3 FY25 transcript, exchange filing 2025-02-11 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript-05-Feb-25.pdf, p.18 of 27",
+          "outcome": "Launched 21 Mar 2026, on patent expiry (day one).",
+          "outcome_source": "Zydus press release 2026-03-21, https://nsearchives.nseindia.com/corporate/Cadilahc_21032026081552_PressRelease21032026.pdf",
+          "item_grade": 2,
+          "note": "Restated Q4 FY25 ('We are on track for a day-one launch in India'), Q1 FY26 ('we are on track to do so') and Q3 FY26 ('in India, definitely, we will be on day one, post IP')."
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "label": "Q2 FY25",
+      "call_date": "2024-11-12",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 6,
+          "date": "2024-11-12",
+          "speaker": "Nitin Parekh, CFO",
+          "quote": "So, effective tax rate for the year would be 24-25%.",
+          "period": "FY25",
+          "basis": "Effective tax rate = tax expense / PBT (treated as ceiling)",
+          "source": "Q2 FY25 transcript, BSE filing 2024-11-19, https://bseindia.com/xml-data/corpfiling/AttachHis/52c8e324-a6b8-4b93-8cd1-5a3ce6b4d06d.pdf, p.7 of 22",
+          "outcome": "FY25 tax ₹14,119 mn / PBT after exceptionals ₹60,267 mn = 23.4% (22.6% on PBT before exceptionals ₹62,463 mn). At or below 24-25%.",
+          "outcome_source": "FY25 results press release 2025-05-20, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---20-05-2025.pdf; FY25 investor presentation (May 2025) sl.15, https://www.zyduslife.com/investor/admin/uploads/15/85/May-2025.pdf",
+          "item_grade": 2,
+          "note": "ETR computed from filed figures; no ETR stated by the company. Restated p.16: 'guiding for 24 to 25% kind of effective tax rate'."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-12",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "If everything goes well then, we will go ahead for submission of the NDA by third or fourth quarter",
+          "period": "Q3-Q4 FY26 ('mostly the fourth quarter')",
+          "basis": "Saroglitazar Mg (PBC) US NDA submission",
+          "source": "Q2 FY25 transcript, BSE filing 2024-11-19, https://bseindia.com/xml-data/corpfiling/AttachHis/52c8e324-a6b8-4b93-8cd1-5a3ce6b4d06d.pdf, p.22 of 22",
+          "outcome": "NDA submitted within FY26: FY26 annual report records the filing as completed in FY26; Q3 FY26 release said filing 'during the current quarter' (Q4 FY26); FDA granted priority review (announced 28 May 2026; PDUFA 27 Nov 2026).",
+          "outcome_source": "Annual Report FY2025-26 pp.14-15, https://www.zyduslife.com/investor/admin/uploads/14/2/2025-2026.pdf; Zydus press release 2026-05-28, https://nsearchives.nseindia.com/corporate/Cadilahc_28052026180045_PressRelease28052026.pdf",
+          "item_grade": 2,
+          "note": "Exact submission date [not retrieved]. First dated NDA statement (Q4 FY24 only said 'after readout'). Restated Q2 FY26: 'on track to file ... in Quarter 4 of FY26'."
+        },
+        {
+          "class": 1,
+          "date": "2024-11-12",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "our guidance is, FY 26 in the US, we will see growth over FY 25",
+          "period": "FY26",
+          "basis": "North America/US formulations revenue, YoY, INR",
+          "source": "Q2 FY25 transcript, BSE filing 2024-11-19, https://bseindia.com/xml-data/corpfiling/AttachHis/52c8e324-a6b8-4b93-8cd1-5a3ce6b4d06d.pdf, p.15 of 22",
+          "outcome": "FY26 North America formulations ₹116,820 mn vs ₹110,500 mn: +5.7% in INR (USD $1,323 m vs $1,307 m: +1.2%). Growth delivered.",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf (sl.7)",
+          "item_grade": 2,
+          "note": "Later sharpened: Q3 FY25 'high single digit kind of growth, at least for the US'; Q4 FY25 'single digit' and, in the same call, 'high single-digit growth for FY26' (internally inconsistent); Q1 FY26 'single digit growth'. Against the original statement (growth) → 2. Against the Q3 FY25 'high single digit' revision the INR outcome (+5.7%) would fall short; USD growth was ~1%. North America fell YoY in Q4 FY26 (-5.7%) and Q1 FY27 (-2.6%)."
+        }
+      ],
+      "weight": 3
+    },
+    {
+      "label": "Q1 FY25",
+      "call_date": "2024-08-09",
+      "outside_window": true,
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-08-09",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "I think we do expect to do better than market and register double digit growth.",
+          "period": "FY25-FY26 ('next two years'); graded on FY26 (FY25 graded under the Q4 FY24 item)",
+          "basis": "India formulations revenue YoY, and branded growth vs IPM",
+          "source": "Q1 FY25 transcript, exchange filing 2024-08-17 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript--09-Aug-2024.pdf, p.19 of 19",
+          "outcome": "FY26 India formulations ₹65,740 mn, +10.9%; company reported branded growth ahead of market in every FY26 quarter (Q1 +9% 'ahead', Q2 +9% 'faster than market', Q3 +14% 'outperforming', Q4 +15% 'faster than market').",
+          "outcome_source": "FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf (sl.6); quarterly press releases FY26",
+          "item_grade": 2,
+          "note": "Restated Q4 FY25 ('in India, we will continue to outperform the IPM market for the year') and Q1 FY26. No full-year FY26 branded-vs-IPM figure was disclosed; graded on double-digit formulations growth plus quarterly market-outperformance statements."
+        },
+        {
+          "class": 8,
+          "date": "2024-08-09",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "If everything goes well, it's a calendar year 27 kind of opportunity to commercialize.",
+          "period": "CY2027",
+          "basis": "Saroglitazar US commercial launch (PBC)",
+          "source": "Q1 FY25 transcript, exchange filing 2024-08-17 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript--09-Aug-2024.pdf, p.13 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. Restated Q2 FY25 ('Q4 of FY27 would be the launch'), Q2 FY26 ('potential launch ... in about 14 to 15 months from now', i.e. ~Jan-Feb 2027), Q1 FY27 ('we are building for next FY28 launch right now, so April launch'). April 2027 remains within the original CY2027."
+        },
+        {
+          "class": 8,
+          "date": "2024-08-09",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we believe going forward, the business will definitely scale up meaningfully with strong double-digit growth",
+          "period": "3-5 years (FY25-FY29)",
+          "basis": "International Markets formulations revenue growth",
+          "source": "Q1 FY25 transcript, exchange filing 2024-08-17 (company copy), https://zyduslife.com/investor/admin/uploads/16/0/Earnings-call-transcript--09-Aug-2024.pdf, p.12 of 19",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open multi-year. Revised up on Q1 FY26 ('high teens to mid-twenties growth going forward') and Q3 FY26 ('20% plus growth continuing for the near future'). Outcomes to date: FY25 +13.8%, FY26 +39.9%, Q1 FY27 +34%."
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "label": "Q4 FY24",
+      "call_date": "2024-05-17",
+      "outside_window": true,
+      "grade": 1.6,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "At the aggregate level, we expect high teens growth.",
+          "period": "FY25",
+          "basis": "Consolidated revenue from operations, YoY (high teens: low end taken as 17%)",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.9 of 23",
+          "outcome": "FY25 revenue ₹232,415 mn vs ₹195,474 mn: +18.9%.",
+          "outcome_source": "FY25 results press release 2025-05-20, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---20-05-2025.pdf; FY25 investor presentation (May 2025) sl.15, https://www.zyduslife.com/investor/admin/uploads/15/85/May-2025.pdf",
+          "item_grade": 2,
+          "note": "Restated Q1 FY25 ('We continue to believe that we will deliver high teens growth for this year') and Q2 FY25 ('we are ahead of our estimates')."
+        },
+        {
+          "class": 1,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, we expect all our businesses to register good double-digit growth.",
+          "period": "FY25",
+          "basis": "Each business, revenue YoY",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.9 of 23",
+          "outcome": "FY25: US formulations +27.2%, India formulations +10.1%, International Markets +13.8%, Consumer Wellness +16.5%. All double-digit.",
+          "outcome_source": "FY25 results press release 2025-05-20, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---20-05-2025.pdf; FY25 investor presentation (May 2025) sl.15, https://www.zyduslife.com/investor/admin/uploads/15/85/May-2025.pdf",
+          "item_grade": 2,
+          "note": "India double-digit restated p.10; US 'healthy double-digit growth' restated Q1 FY25."
+        },
+        {
+          "class": 2,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "we expect to comfortably maintain FY24 margins of 27.5% in the coming year",
+          "period": "FY25",
+          "basis": "Consolidated EBITDA margin, excl. other income; floor 27.5%",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.9 of 23",
+          "outcome": "FY25 EBITDA ₹70,585 mn / revenue ₹232,415 mn = 30.4%.",
+          "outcome_source": "FY25 results press release 2025-05-20, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---20-05-2025.pdf; FY25 investor presentation (May 2025) sl.15, https://www.zyduslife.com/investor/admin/uploads/15/85/May-2025.pdf",
+          "item_grade": 2,
+          "note": "Raised on Q1 FY25 call (+100-150bp over FY24, i.e. 28.5-29.0%) and restated Q2 FY25. Scored against the original floor; also met the raised range."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, for FY25, our R&D spend, we will be around 7% to 8%, is our current guidance.",
+          "period": "FY25",
+          "basis": "R&D as % of revenue",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.15 of 23",
+          "outcome": "FY25 R&D ₹18,555 mn / ₹232,415 mn = 8.0%, within the range.",
+          "outcome_source": "FY25 results press release 2025-05-20, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---20-05-2025.pdf; FY25 investor presentation (May 2025) sl.15, https://www.zyduslife.com/investor/admin/uploads/15/85/May-2025.pdf",
+          "item_grade": 2,
+          "note": "Restated Q1 FY25 ('around an 8%') and Q2 FY25 ('around 8% of revenue')."
+        },
+        {
+          "class": 7,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "potentially quarter four of FY25, potentially seeing an approval and launch.",
+          "period": "Q4 FY25 (Jan-Mar 2025)",
+          "basis": "CUTX-101 (Zycubo, Sentynl) US approval and launch",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.15 of 23",
+          "outcome": "CRL received 30 Sep 2025 (manufacturing-site observations); resubmitted, Class I, PDUFA 14 Jan 2026; final USFDA approval Jan 2026 (Q4 FY26), launched Q4 FY26: four quarters late.",
+          "outcome_source": "Zydus press release 2025-12-15, https://nsearchives.nseindia.com/corporate/Cadilahc_15122025182004_PR15122025.pdf; Q3 FY26 transcript, exchange filing 2026-02-15 (company copy), https://www.zyduslife.com/investor/admin/uploads/16/0/Earnings-Call-transcript-10-Feb-2026.pdf, pp.3-5; FY26 results press release 2026-05-19, https://www.zyduslife.com/investor/admin/uploads/21/83/Press-Release---19-05-2026.pdf; FY26 investor presentation, https://nsearchives.nseindia.com/corporate/Cadilahc_19052026141846_Investorpresentation.pdf",
+          "item_grade": 0,
+          "note": "Later restatements: Q3 FY25 (NDA accepted with six-month priority review), Q1 FY26 'still are looking forward to approval in this financial year', Q2 FY26 'between Jan to June, we will see a launch'. Graded once on the original Q4 FY25 date (rule 7)."
+        },
+        {
+          "class": 7,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "one year from now, we will have a readout on the results",
+          "period": "~May 2025",
+          "basis": "Saroglitazar PBC Phase IIb/III topline readout",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.15 of 23",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not graded. Moved on 9 Aug 2024 (before the period) to 'second quarter of next financial year' (Q2 FY26), then 'end of this calendar year' (Q3/Q4 FY25 calls) and 'second end or third quarter beginning' (Q1 FY26). Whether a reason was given at the 2024-08-09 cut could not be confirmed in the extracted text, and the actual readout date was [not retrieved]; class-9 grade withheld pending a manual read."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-17",
+          "speaker": "Dr. Sharvil Patel, Managing Director",
+          "quote": "So, I think we will still achieve 20-25 plus launches consistently.",
+          "period": "Every year from FY25",
+          "basis": "US product launches per year",
+          "source": "Q4 FY24 transcript, NSE filing 2024-05-23, https://nsearchives.nseindia.com/corporate/ZYDUSLIFE_23052024153318_IntimationofPostResultsEarningsCallTranscript17052024.pdf, p.10 of 23",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Not graded: annual launch totals not compiled from filed releases ([not retrieved]; partial FY26 count from calls ≈20). Year-specific targets moved repeatedly: FY25 35+ (same call) → 25+ (Q1 FY25); FY26 25-30+ (Q3 FY25) → 30+ (Q1 FY26) → 25+ (Q2 FY26); FY27 40-45+ (Q3 FY26) → 'between 30 to 40 ... at least 30+' (Q1 FY27). All remain at or above this standing 20-25+ floor."
+        }
+      ],
+      "weight": 1
+    }
+  ]
+}

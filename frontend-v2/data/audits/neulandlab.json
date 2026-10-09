@@ -1,0 +1,420 @@
+{
+  "ticker": "NEULANDLAB",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 9.6,
+  "note": "Window: 8 calls Q2 FY25-Q1 FY27 (all held; transcripts opened); Q3 FY24 and Q4 FY24 added under rule 7 (outside_window). Company gives no formal quantitative guidance as a standing policy (Q4 FY26 p.4), so its repeated refusals are not recorded in class 9. Quotes were extracted via a text-extraction tool that truncates long sentences; some are verbatim fragments. Q2 FY25 rests on a third-party transcript copy (BSE filing returned HTTP 403). Not retrieved for rule-7 tracing: Q1 FY25 (Aug 2024, BSE 403) and Q2 FY24 (Nov 2023) transcripts; Jan-2025 Rs 342 cr capex board filing (media only). Rule 6: SEBI administrative warning letter (Reg 30, 17 Jun 2025) - no monetary penalty, Rs 0 / FY25 PAT Rs 260.1 cr = 0% <1%, not captured; Rs 40 cr corporate guarantee to Gland Pharma (5 Aug 2026) is not a penalty/order; GST ITC order Rs 0.09 cr (2 May 2024) / FY24 PAT Rs 300.1 cr = 0.03% <1%, not captured. Two BSE attachments in the penalty search returned 403 [not retrieved]. No override applied (no contradicted class-10 assurance). Q2 FY27 results not yet filed. Figures consolidated, Rs crore; EBITDA incl. other income on total income per company definition.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-08-05",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "But I think in terms of our plans, in terms of our long term, 25% plus is what we would be coming for.",
+          "period": "Long term (undated)",
+          "basis": "EBITDA margin incl. other income on total income; anchor Q1 FY27 35.5%",
+          "source": "Q1 FY27 transcript (call 2026-08-05), neulandlabs.com https://www.neulandlabs.com/sites/default/files/neuland-labs/Investors/Neuland-Laboratories-Q1FY27-Earnings-Call-Transcript-vF.pdf, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Framed as a reiteration ('We always have been telling you guys that expect a 25% kind of an EBITDA'); restated p.15 ('I would go back to the 25% that I had indicated earlier'). No earlier 25% statement found in the opened calls (Q2-Q3 FY26 referenced ~30% 'capable' levels without guiding), so the earliest opened statement is recorded here. No period end; ungradable until a period is attached."
+        },
+        {
+          "class": 10,
+          "date": "2026-08-05",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "there is nothing which is like a one-off performance from the commercial CMS pipeline that we have",
+          "period": "Forward (FY27)",
+          "basis": "Q1 FY27 commercial CMS revenue is repeatable",
+          "source": "Q1 FY27 transcript (call 2026-08-05), neulandlabs.com https://www.neulandlabs.com/sites/default/files/neuland-labs/Investors/Neuland-Laboratories-Q1FY27-Earnings-Call-Transcript-vF.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Also p.11 'we don't have exceptions in Q1'. Testable against Q2-Q4 FY27 results; Q2 FY27 not yet filed (board meeting not scheduled as of 2026-10-08)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2026-05-12",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "We're probably looking at one commercialization in FY27 and maybe 1 or 2 more later.",
+          "period": "FY27",
+          "basis": "One new CMS molecule commercialised in FY27",
+          "source": "Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Restated Q1 FY27 p.8 ('we expect to have one more commercialization this year, probably have 1 or maybe even 2 next year'). Open period."
+        },
+        {
+          "class": 3,
+          "date": "2026-05-12",
+          "speaker": "Abhijit Majumdar, CFO",
+          "quote": "we believe that this should normalize in FY27.",
+          "period": "FY27",
+          "basis": "Working capital days (anchor 137 at Q4 FY26 vs 107 at Q4 FY25)",
+          "source": "Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Q1 FY27 working capital 84 days (Q1 FY27 transcript p.3) - on track, but FY27 is open."
+        },
+        {
+          "class": 10,
+          "date": "2026-05-12",
+          "speaker": "Sajeev E. Medikonda, Head, Corporate Planning & Strategy",
+          "quote": "we don't see this impacting us in the short to medium term",
+          "period": "Short to medium term",
+          "basis": "Biotech funding environment does not hit the CMS pipeline",
+          "source": "Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.13",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 10,
+          "date": "2026-02-09",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "the gross margin that you've seen in this quarter is more of an outlier or an aberration",
+          "period": "Q4 FY26 onward",
+          "basis": "Gross margin (management definition); Q3 FY26 52.1% vs Q2 FY26 60.1%",
+          "source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, p.16",
+          "outcome": "Gross margin 62.1% in Q4 FY26 and 61.2% in Q1 FY27 (management definition) - Q3 level not repeated",
+          "outcome_source": "Q4 FY26 investor presentation / transcript; Q1 FY27 transcript p.3",
+          "item_grade": 2,
+          "note": "Same answer: 'it is not a steady gross margin going forward'. Held."
+        },
+        {
+          "class": 7,
+          "date": "2026-02-09",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "I think it will be next financial year.",
+          "period": "FY27",
+          "basis": "Resolution of Paliperidone shipment delay (customer-side operational issue)",
+          "source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, pp.14-15",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period."
+        },
+        {
+          "class": 3,
+          "date": "2026-02-09",
+          "speaker": "Abhijit Majumdar, CFO",
+          "quote": "it will come back to something like 90 days from the current 124",
+          "period": "Next 2-3 quarters (by ~Q3 FY27)",
+          "basis": "Inventory days on sales",
+          "source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Inventory days not separately disclosed for Q1 FY27 [not retrieved]; total working capital 84 days at Q1 FY27. Window open."
+        },
+        {
+          "class": 8,
+          "date": "2026-02-09",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "I think it would be ideal for Neuland in FY27 if we were able to secure at least 1 commercial manufacturing arrangement",
+          "period": "FY27",
+          "basis": "At least one commercial peptide manufacturing arrangement",
+          "source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Aspirational wording ('very much possible ... working towards'). Q4 FY26 p.13: 'I would probably not go as far as to say that we have firm contracts'. Open period."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-11-07",
+          "speaker": "Abhijit Majumdar, CFO",
+          "quote": "hopefully by the end of March, we will have kind of seen a better performance on working capital days.",
+          "period": "By 2026-03-31",
+          "basis": "Working capital days below the Q2 FY26 anchor of 155 days",
+          "source": "Q2 FY26 transcript (call 2025-11-07), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q2FY26EarningsCallTranscript.pdf, p.8",
+          "outcome": "Working capital 137 days at end-FY26 vs 155 days at Q2 FY26",
+          "outcome_source": "Q1 FY27 transcript p.3; Q4 FY26 transcript p.4",
+          "item_grade": 2,
+          "note": "Anchored qualitative statement converted to the figure in force (155 days). Improved, though above Q4 FY25 (107 days)."
+        },
+        {
+          "class": 4,
+          "date": "2025-11-07",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "we are looking at ballpark Rs. 250 crores-Rs. 280 crores of investment",
+          "period": "Undated (implied through FY27)",
+          "basis": "Peptide Module-1 plus Module-2 civil work",
+          "source": "Q2 FY26 transcript (call 2025-11-07), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q2FY26EarningsCallTranscript.pdf, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No phasing or period stated; Q1 FY27 deck/media cite ~USD 30M invested in Module 1 [unverified]. Not gradable until the project closes."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-07",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "we have more than sufficient capacity to fulfill our customer needs for the next couple of years.",
+          "period": "~FY26-FY28",
+          "basis": "Capacity for top commercial product (Units 2+3)",
+          "source": "Q2 FY26 transcript (call 2025-11-07), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q2FY26EarningsCallTranscript.pdf, p.12",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open window."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 4,
+          "date": "2025-07-31",
+          "speaker": "Abhijit Majumdar, CFO",
+          "quote": "So the CAPEX this year would be around Rs.250 crores.",
+          "period": "FY26",
+          "basis": "Total capex (60% growth / 40% maintenance)",
+          "source": "Q1 FY26 transcript (call 2025-07-31), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q1FY26EarningsCallTranscript.pdf, p.12",
+          "outcome": "FY26 capex cash outflow Rs 397.1 cr vs ~Rs 250 cr (+59%)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.4",
+          "item_grade": 2,
+          "note": "Capex guidance treated as a spend target (standard: ceiling only where worded as a cap), consistent with prior files; a ceiling reading would be a 59% overshoot and grade 0. Overshoot reflects further approvals (Rs 189 cr R&D centre, 28 Nov 2025)."
+        },
+        {
+          "class": 10,
+          "date": "2025-07-31",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "because the numbers have been suppressed, there has been a hit and it is only for this quarter.",
+          "period": "Q2 FY26 onward",
+          "basis": "Q1 FY26 margin hit from operating deleverage (EBITDA 14.1%) not recurring",
+          "source": "Q1 FY26 transcript (call 2025-07-31), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q1FY26EarningsCallTranscript.pdf, p.5",
+          "outcome": "Q2 FY26 EBITDA Rs 157.3 cr, margin 30.5% on total income; FY26 29.5%",
+          "outcome_source": "Q2 FY26 board meeting outcome 2025-11-07; FY26 audited consolidated results, NSE integrated filing 2026-05-12 https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_157059_12052026205010_iXBRL_WEB.html",
+          "item_grade": 2,
+          "note": "Held. Q3 FY26 margin fell to 19.0% for a different stated cause (gross-margin mix, Rs 10 cr labour-code charge), not deleverage."
+        },
+        {
+          "class": 10,
+          "date": "2025-07-31",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "I think for the year itself, we don't see any concerns with regards to Speciality.",
+          "period": "FY26",
+          "basis": "Specialty API (GDS) segment",
+          "source": "Q1 FY26 transcript (call 2025-07-31), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q1FY26EarningsCallTranscript.pdf, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved] FY26 Prime/Specialty split not opened; Q3 FY26 disclosed a Paliperidone (Specialty) shipment delay at the customer end. Ungraded."
+        },
+        {
+          "class": 7,
+          "date": "2025-07-31",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "we expect the new facility for peptides to be completed in the next financial year.",
+          "period": "FY27",
+          "basis": "Peptide facility (Module-1) completed and operational",
+          "source": "Q1 FY26 transcript (call 2025-07-31), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2025-26/NLL_Q1FY26EarningsCallTranscript.pdf, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Earliest dated statement in opened calls (Q4 FY25 'on track', undated; Jan-2025 board approval citing 'by FY27' is media-only [unverified], filing not opened). Restated Q2 FY26 p.4-5 (Module-1 operational in FY27); Q3 FY26 p.7-8 'ready for commissioning in July'; Q4 FY26 p.13 'ready by July as per schedule'; Q1 FY27 p.7 (5 Aug) 'going to be commissioned next month' - July date slipped. Media (Indian Pharma Post, 15 Sep 2026) report Module-1 operations started [unverified]; no Reg 30 filing for the peptide plant located (31 Jul 2026 Reg 30 covers unspecified 'additional capacities' at Units 1 and 3). FY27 open: pending."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2025-05-15",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "we would like to keep it a little vague, but definitely, you can see margins going up.",
+          "period": "FY26",
+          "basis": "EBITDA margin incl. other income, excl. exceptional; anchor FY25 23.0% (Q4 FY25 17.3%)",
+          "source": "Q4 FY25 transcript (call 2025-05-15), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2024-25/NLLQ4FY25EarningsCallTranscript.pdf, p.7",
+          "outcome": "FY26 EBITDA margin 29.5% (Rs 604.7 cr on total income Rs 2,053.2 cr)",
+          "outcome_source": "FY26 audited consolidated results, NSE integrated filing 2026-05-12 https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_157059_12052026205010_iXBRL_WEB.html",
+          "item_grade": 2,
+          "note": "Restated Q1 FY26 p.9 ('we see margins also recovering') and p.12 ('comparable' to FY24 ~30%, undated - not separately captured)."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2025-02-11",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "But one, we are fairly certain will happen in the next year.",
+          "period": "FY26",
+          "basis": "One new CMS molecule commercialised",
+          "source": "Q3 FY25 transcript (call 2025-02-11), BSE filing 2025-02-14 https://bseindia.com/xml-data/corpfiling/AttachHis/5bb9ddcf-7706-48f6-bb1e-410ac37ceafe.pdf, p.10",
+          "outcome": "Commercialised in Q3 FY26: 'We did see the commercialization of a molecule'; Q4 FY26: 'I think we had one new commercialization this year'",
+          "outcome_source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, p.4; Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.7",
+          "item_grade": 2,
+          "note": "Restated Q4 FY25 p.4, Q1 FY26 p.4-5, Q2 FY26 p.4 and p.11 ('shipments going out maybe in the next month or two' - shipments went out at the tail end of Q3 FY26, Q3 FY26 transcript p.6). Q1 FY25 transcript not retrieved, so an earlier origin cannot be excluded."
+        },
+        {
+          "class": 10,
+          "date": "2025-02-11",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "it seems very unlikely that tariffs could be affecting our business directly",
+          "period": "Near term",
+          "basis": "US tariffs on API exports",
+          "source": "Q3 FY25 transcript (call 2025-02-11), BSE filing 2025-02-14 https://bseindia.com/xml-data/corpfiling/AttachHis/5bb9ddcf-7706-48f6-bb1e-410ac37ceafe.pdf, p.14",
+          "outcome": "No tariff impact reported; Q3 FY26: 'We don't see any material change.'; Q1 FY27: 'we have not experienced any material impact on our operations'",
+          "outcome_source": "Q3 FY26 transcript (call 2026-02-09), NSE filing 2026-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022026111918_SignedSEIntimation_Transcript.pdf, pp.7-8; Q1 FY27 transcript (call 2026-08-05), neulandlabs.com https://www.neulandlabs.com/sites/default/files/neuland-labs/Investors/Neuland-Laboratories-Q1FY27-Earnings-Call-Transcript-vF.pdf, p.3",
+          "item_grade": 2,
+          "note": "Held. Q4 FY25 p.5 softened to 'we don't really have any clarity on the tariffs at the moment'."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": 1.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 7,
+          "date": "2024-11-06",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "we are on track to complete the new production block in Unit-III by FY25",
+          "period": "FY25",
+          "basis": "Unit III new production block completed",
+          "source": "Q2 FY25 transcript (call 2024-11-06), AlphaStreet reproduction https://alphastreet.com/india/wp-json/wp/v2/posts/175480 (BSE copy 7c46c264... returned HTTP 403; no page numbers)",
+          "outcome": "Block capitalised in FY25: 'The additional production block in Unit 3 has been capitalized'",
+          "outcome_source": "Q4 FY25 transcript (call 2025-05-15), neulandlabs.com https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/transcripts/fy2024-25/NLLQ4FY25EarningsCallTranscript.pdf, p.3",
+          "item_grade": 2,
+          "note": "Earliest dated statement opened (Q1 FY24 p.11 gave a generic 12-15 month build time; Q3 FY24 p.15 cited a Rs ~128 cr 'next block' with no date; Q1 FY25 transcript not retrieved - BSE 403). Third-party transcript copy: verify against the BSE filing."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-06",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "expect to commence commercial production in FY26.",
+          "period": "FY26",
+          "basis": "Unit III new block commercial production",
+          "source": "Q2 FY25 transcript (call 2024-11-06), AlphaStreet reproduction https://alphastreet.com/india/wp-json/wp/v2/posts/175480 (BSE copy 7c46c264... returned HTTP 403; no page numbers)",
+          "outcome": "Reg 30: commenced commercial production of additional capacity at Unit 3, Gaddapotharam, 30 Aug 2025",
+          "outcome_source": "Reg 30 intimation 2025-08-30 https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/news-and-events/disclosures-stock-exchange/FY2026/IntimationUnderRegulation30OfSEBIListingRegulations.pdf",
+          "item_grade": 2,
+          "note": "Restated Q3 FY25 p.4-5, Q4 FY25 p.3, Q1 FY26 p.3 ('later in this fiscal year') and p.10 ('available in August or September')."
+        },
+        {
+          "class": 2,
+          "date": "2024-11-06",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "what we've seen in FY24, maybe a slight drop on that is what we think is reasonable.",
+          "period": "FY25",
+          "basis": "EBITDA margin incl. other income, excl. exceptional; anchor FY24 30.2%",
+          "source": "Q2 FY25 transcript (call 2024-11-06), AlphaStreet reproduction https://alphastreet.com/india/wp-json/wp/v2/posts/175480 (BSE copy 7c46c264... returned HTTP 403; no page numbers)",
+          "outcome": "FY25 EBITDA margin 23.0% excl. exceptional (Rs 343.8 cr / total income Rs 1,497.3 cr): 7.2pp below FY24",
+          "outcome_source": "FY25 audited consolidated results and Q4 FY25 investor presentation https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/investor-presentations/2024-25/NLLQ4FY25_InvestorPresentation.pdf",
+          "item_grade": 0,
+          "note": "Anchored qualitative statement tested against the FY24 figure in force; even allowing the 'slight drop', the shortfall is far beyond 1pp. Q4 FY24 p.14 earlier said only 'some sort of normalization' (no anchor) - this is the earliest anchored statement opened."
+        },
+        {
+          "class": 7,
+          "date": "2024-11-06",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "for which we hope to file a DMF maybe the year after next.",
+          "period": "~FY27 / CY2026",
+          "basis": "Tirzepatide (peptide) DMF filing",
+          "source": "Q2 FY25 transcript (call 2024-11-06), AlphaStreet reproduction https://alphastreet.com/india/wp-json/wp/v2/posts/175480 (BSE copy 7c46c264... returned HTTP 403; no page numbers)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. A companion statement ('expect to file a DMF next year' for a second peptide whose name is indecipherable in the copy) is not captured: molecule unidentifiable, outcome [not retrieved]."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "grade": 2.0,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-05-14",
+          "speaker": "Saharsh Davuluri, Vice Chairman & MD (MD & CEO from FY27)",
+          "quote": "We talked about FY25 being more of a modest growth and a growth in FY26 and FY27 being far better.",
+          "period": "FY26",
+          "basis": "Consolidated revenue from operations growth, FY26 materially above FY25",
+          "source": "Q4 FY24 transcript (call 2024-05-14), NSE filing 2024-05-17 https://nsearchives.nseindia.com/corporate/NEULANDLAB_17052024141920_SignedSEIntimationtranscript.pdf, p.9",
+          "outcome": "FY26 revenue from operations Rs 2,023.0 cr vs FY25 Rs 1,476.8 cr = +37.0% (+29.8% vs FY24)",
+          "outcome_source": "FY26 audited consolidated results, NSE integrated filing 2026-05-12 https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_157059_12052026205010_iXBRL_WEB.html",
+          "item_grade": 2,
+          "note": "Origin of the FY26 growth promise in opened calls (Q3 FY24 referenced faster growth 'beyond FY25' only as context). Restated Q2 FY25 ('high growth in FY26 and beyond'), Q3 FY25 p.10, Q4 FY25 p.4 (re-based to 'resume in FY26 on the FY24 base'), Q1 FY26 p.3, Q2 FY26 p.5, Q3 FY26 p.3 (softened to 'a year when we see growth'). FY27 limb open - tracked via Q1 FY27 restatement in the multi-year item."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY24",
+      "grade": 1.0,
+      "status": "graded",
+      "outside_window": true,
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-02-09",
+          "speaker": "Sucheth Davuluri, Vice Chairman & CEO",
+          "quote": "As it stands today, FY25 looks like it will be a year of modest growth with some normalization of margins",
+          "period": "FY25",
+          "basis": "Consolidated revenue from operations growth vs FY24 (Rs 1,558.6 cr)",
+          "source": "Q3 FY24 transcript (call 2024-02-09), NSE filing 2024-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022024152958_SignedSEIntimationtranscript.pdf, p.4",
+          "outcome": "FY25 revenue from operations Rs 1,476.8 cr vs FY24 Rs 1,558.6 cr = -5.2%; Q4 FY26 call: 'FY25 represented a period of slight degrowth'",
+          "outcome_source": "FY25 audited consolidated results and Q4 FY25 investor presentation https://www.neulandlabs.com/sites/neulandlabs/files/neuland-labs/Investors/investor-presentations/2024-25/NLLQ4FY25_InvestorPresentation.pdf; Q4 FY26 transcript (call 2026-05-12), NSE filing 2026-05-16 https://nsearchives.nseindia.com/corporate/NEULANDLAB_16052026161139_SignedSEIntimationTranscript.pdf, p.4",
+          "item_grade": 1,
+          "note": "Cut before period end: Q2 FY25 (6 Nov 2024) re-set to 'FY25 to be flat as compared to FY24' with a stated reason (customer inventory / product life-cycle timing), ~5 months before year-end -> graded under the class 9 rule = 1. Outcome missed even the cut (flat). Restated Q4 FY24 p.9, Q3 FY25 p.2/p.9 ('moderate growth ... revised that to say it's flattish')."
+        },
+        {
+          "class": 8,
+          "date": "2024-02-09",
+          "speaker": "Sucheth Davuluri, Vice Chairman & CEO",
+          "quote": "We expect it to grow at around approximately 20% annually over the next 4 to 5 years.",
+          "period": "FY24-FY29 (4-5 years)",
+          "basis": "~20% annual growth (revenue not named; 'our business')",
+          "source": "Q3 FY24 transcript (call 2024-02-09), NSE filing 2024-02-13 https://nsearchives.nseindia.com/corporate/NEULANDLAB_13022024152958_SignedSEIntimationtranscript.pdf, p.4",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Multi-year, open. Hedged same call ('what we've provided is not a guidance'). Restated Q4 FY24 p.9 (20% over 4-5 years), Q3 FY25 p.3 ('stated objectives in FY26 and beyond' - link inferred), Q4 FY25 p.15 (accepted analyst's 20-25%), Q1 FY26 p.9 ('over 3-5 years, 20% CAGR is a reasonable number'), Q3 FY26 pp.13-14 ('2026 to 2036 ... 20-plus CAGR'), Q4 FY26 pp.11/15 ('18% to 20% ... aspirational'), Q1 FY27 p.6 ('FY27 & FY28 also we expect to grow that way'). Rolling restatements extend the window; graded only at the original period end against ~20% p.a. from FY24 (Rs 1,558.6 cr). FY24-FY26 CAGR to date 13.9%."
+        }
+      ]
+    }
+  ]
+}

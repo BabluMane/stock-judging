@@ -1,14 +1,291 @@
 {
-  "ticker": "DBREALTY",
-  "review_date": "2026-10-08",
-  "quarters": [
-    {"label": "Q1 FY27", "grade": null, "status": "no_call", "promises": [], "note": "Results 2026-08-14. No earnings-call intimation, transcript or audio found in the exchange announcement lists opened (Screener, Sharekhan) or transcript aggregators; Quartr event page is an AI summary of the results filing, no transcript. Valor Estate Ltd (formerly D B Realty) has no sell-side coverage and files press releases / investor presentations instead of calls."},
-    {"label": "Q4 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2026-05-29. No earnings call found; press release/presentation are context sources only under section 1."},
-    {"label": "Q3 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results Feb 2026. No earnings call found."},
-    {"label": "Q2 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-11-14. No earnings call found."},
-    {"label": "Q1 FY26", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-08-14; investor presentation filed 2025-08-21; no call intimation or transcript."},
-    {"label": "Q4 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results 2025-05-30. No earnings call found."},
-    {"label": "Q3 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results Feb 2025. No earnings call found."},
-    {"label": "Q2 FY25", "grade": null, "status": "no_call", "promises": [], "note": "Results 2024-11-14. No earnings call found. Forward statements exist only in press releases (e.g. Q1 FY25 release: Prestige JV completion within 12-15 months), which section 1 does not admit as promise sources."}
-  ]
+ "ticker": "DBREALTY",
+ "review_date": "2026-10-08",
+ "mode": "fallback",
+ "executable": true,
+ "score_10": 5.7,
+ "note": "No earnings calls in the 8-quarter window. Sources checked: Nov 2024 corporate presentation (captured); AR FY25 Board's report (captured; via IIFL text, BSE PDF not opened); Reg.30 Prestige Sahar framework 2025-05-29 (no dated/checkable promise); Q1 FY26 press release 2025-08-14 (captured); Reg.30 Malad East LOI 2025-08-21 (restatement only); Reg.30 acquisition 2025-11-14 (15-day completion, transactional, not captured); Reg.30 corporate guarantee 2025-01-22 (none); EGM corrigendum 2025-12-09 (none); Postal Ballot Notice 2026-03-05 (used as outcome source; Delhi hotel 'residual runway of about 1 year' = revision; no new captured promise); Q4 FY26 audited results 2026-05-29 (now opened via NSE: borrowings data, restated assurances; no new promise); Q4 FY26 press release and June 2026 postal ballot (BSE 403; debt-free in FY27 reported only by secondary media — [unverified], ungraded); Q2 FY26, Q3 FY26, Q1 FY27 results (Quartr AI summaries only, no forward statements); FY26 Annual Report / 20th AGM notice (BSE 403 on www, beta and non-www mirrors); 20th AGM 2026-09-30 proceedings (no management remarks reported); Q2 FY25/Q1 FY25 press releases (not located). No qualifying press interview with verbatim named-executive quotes found. AR FY24 not opened. Older sources checked for rule 7: press releases 2022-02-12, 2023-09-18, 2024-01-31, 2024-03-14; Reg. 30 2023-01-09, 2025-06-09; Board outcome 2023-11-07; AR FY22. Not found/opened: Q1 FY25 press release (Prestige JV 'completion within 12-15 months'), AR FY23, AR FY24 (BSE 403), Q1 FY27 results (BSE 403; no NSE copy found). Rule 6 test: MHADA interest Rs 52.50 cr / FY25 consolidated PAT -Rs 118.03 cr (PAT <= 0) -> captured; group legal-proceedings line has no amount -> captured; vs FY26 PAT Rs 27.01 cr = 194% (> 1%). v1.2 re-grade: Rule 7 traced Delhi hotel completion to the 2024-03-14 release (FY26, 0), Ten BKC to the 2023-01-09 filing (Jun 2024, 0) and DB Ozone to AR FY22 (FY23, 0), and graded the ~3,500-rooms-in-5-years target as a cut to 3,517 by FY31 (0). These became three outside_window events and the Nov 2024 deck items were folded into them. Worli vacation graded 2 on the Jun 2025 and Mar 2026 filings. Rule 6 added two open Class-10 assurances to Q1 FY26. Score 5.0 -> 5.7.",
+ "quarters": [
+  {
+   "label": "Q1 FY26 results press release + results (Aug 2025)",
+   "event_date": "2025-08-14",
+   "source_tier": "exchange_filing",
+   "grade": 1.0,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "exchange_filing",
+     "date": "2025-08-14",
+     "speaker": "Vinod Goenka, Chairman & Managing Director",
+     "quote": "Subject to requisite approvals, we expect to list Advent shares in September 2025.",
+     "period": "Sep 2025",
+     "basis": "Listing of Advent Hotels International shares on BSE/NSE",
+     "source": "Q1 FY26 press release, 2025-08-14 (NSE: https://nsearchives.nseindia.com/corporate/DBR_14082025213952_Covering_letter_and_Press_release.pdf), p.1-2",
+     "outcome": "Advent Hotels shares listed and admitted to trading w.e.f. 13 Nov 2025 (~1.5 months late, within one quarter)",
+     "outcome_source": "Advent Hotels listing intimation, 2025-11-13 (https://nsearchives.nseindia.com/corporate/ADVENTHTL_13112025163946_adventlistingintimation.pdf)",
+     "item_grade": 1,
+     "note": "Company text in same release: 'listing expected in September 2025.' v1.2 trace: earliest statement of listing is press release 2024-03-14 ('Post-demerger the shares of Advent International will be listed on both BSE and NSE') with no date; first dated statement is this release, so graded here."
+    },
+    {
+     "class": 5,
+     "source_tier": "exchange_filing",
+     "date": "2025-08-14",
+     "speaker": "Company (press release)",
+     "quote": "Rs 839 crores are secured against real estate project cashflows, ... these real estate project loans are expected to be repaid in the next financial year.",
+     "period": "FY27 (Apr 2026-Mar 2027)",
+     "basis": "Rs 839 cr of consolidated secured debt backed by real-estate project cash flows; group consolidated secured debt Rs 1,328 cr at the time",
+     "source": "Q1 FY26 press release, 2025-08-14 (NSE: https://nsearchives.nseindia.com/corporate/DBR_14082025213952_Covering_letter_and_Press_release.pdf), p.4",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open period (FY27). Progress: Q4 FY26 audited consolidated balance sheet shows borrowings Rs 25,597.85 lakh non-current + Rs 49,077.57 lakh current at 31 Mar 2026 (~Rs 747 cr) vs Rs 135,061.22 + 54,657.19 lakh (~Rs 1,897 cr) at 31 Mar 2025; net repayment of current borrowings Rs 70,390.36 lakh in FY26 (Q4 FY26 audited results 2026-05-29 (https://nsearchives.nseindia.com/corporate/DBR_29052026222041_Financial_Results_Q4.pdf)). [unverified] FY27 debt-free target reported only by secondary media (ScanX, TipRanks, Whalesbook, business-news-today) and the June 2026 postal ballot (BSE 403); not captured. Debt-free aims in AR FY22 ('debt free on standalone basis going forward'), press release 2022-02-12 and 2023-09-18 ('debt free in the near term') had no checkable date; not captured. Aerocity '2026/27' statement in this release is folded into the 2024-03-14 Delhi-hotel item. Ten BKC 'balance revenue of approximately Rs 800 Cr ... upon receipt of the final OC' (partial OC already received) folded into 2023-01-09 Ten BKC item."
+    },
+    {
+     "class": 10,
+     "source_tier": "exchange_filing",
+     "date": "2025-08-14",
+     "speaker": "Company (results notes, Board-approved)",
+     "quote": "the management is confident that the matter would be settled in the favour of the real estate developers and hence no further liability will accrue.",
+     "period": "Open (until final adjudication)",
+     "basis": "MHADA demand on MIG (Bandra) Realtors & Builders: interest Rs 5,250.21 lakh not provided (development charges Rs 6,044.93 lakh paid)",
+     "source": "Q1 FY26 results (Board outcome) 2025-08-14, consolidated Note 4 (https://nsearchives.nseindia.com/corporate/DBR_14082025201135_Outcome_of_the_BM_financial_results.pdf), Note 4(b)",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Rule 6 captured: Rs 52.50 cr vs last full-year (FY25) consolidated PAT of -Rs 118.03 cr (PAT <= 0). Restated in Q4 FY26 results 2026-05-29 ('does not anticipate further liability'); vs FY26 PAT Rs 27.01 cr = 194%, still above 1%. Earliest opened statement; earlier results notes not opened. Open, ungraded."
+    },
+    {
+     "class": 10,
+     "source_tier": "exchange_filing",
+     "date": "2025-08-14",
+     "speaker": "Company (results notes, Board-approved)",
+     "quote": "the Group is a party to various legal proceedings arising in ordinary course of business and does not expect the outcome of these proceedings to have any adverse effect on its financial condition",
+     "period": "Open",
+     "basis": "Group-wide legal proceedings, no amount stated",
+     "source": "Q1 FY26 results (Board outcome) 2025-08-14, consolidated Note 4 (https://nsearchives.nseindia.com/corporate/DBR_14082025201135_Outcome_of_the_BM_financial_results.pdf), Note 4(c)",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Rule 6 captured: no amount stated. Restated in Q4 FY26 results 2026-05-29. Standalone note: 'does not foresee an adverse impact on its financial condition, results of operations or cash flows.' Earliest opened statement. Open, ungraded."
+    }
+   ]
+  },
+  {
+   "label": "Annual Report FY25 – Board's report (May 2025)",
+   "event_date": "2025-05-30",
+   "source_tier": "annual_report",
+   "grade": 2.0,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "annual_report",
+     "date": "2025-05-30",
+     "speaker": "Vinod K. Goenka (CMD) & Shahid Balwa (VC&MD), Board's report signatories",
+     "quote": "the balance remaining structures are expected to be vacated in the first half of the next FY.",
+     "period": "H1 FY26 (Apr-Sep 2025)",
+     "basis": "Vacation of remaining structures at Worli (The Prestige Place) site so it is ready for development",
+     "source": "Annual Report FY25 Board's report, dated 2025-05-30, signed Vinod K. Goenka (CMD) & Shahid Balwa (VC&MD) (text via https://www.indiainfoline.com/company/valor-estate-ltd/reports/directors-report)",
+     "outcome": "Site vacated: Reg. 30 filing 2025-06-09 says 'all remaining structures will be vacated on or before June 25, 2025'; postal ballot notice (Mar 2026) p.15 says the Worli Urban project 'has received Letter of Intent (LOI) from SRA and site has been completely vacated.'",
+     "outcome_source": "Reg. 30 Worli SRA update 2025-06-09 (https://nsearchives.nseindia.com/corporate/DBR_09062025105340_jijamatanagar.pdf); Postal Ballot Notice dated 2026-03-05, filed 2026-03-20 (https://nsearchives.nseindia.com/corporate/DBR_20032026193715_SE-_Intimation_for_Postal_Ballot_Notice.pdf) p.15",
+     "item_grade": 2,
+     "note": "Graded 2 (vacated within H1 FY26). Caveat: the Mar 2026 notice names the project 'Worli Urban'; linking it to the Jijamata Nagar / Prestige Place SRA site rests on the Jun 2025 filing (same SRA site, 25 Jun 2025 deadline); no filing dated the actual completion of vacation. v1.2 trace: AR FY22 p.22 said Worli SRA rehabilitation/construction 'expected to commence in FY 2022-23' (different milestone, not restated in window; not captured). Nov 2024 deck gave no vacation date."
+    },
+    {
+     "class": 7,
+     "source_tier": "annual_report",
+     "date": "2025-05-30",
+     "speaker": "Vinod K. Goenka (CMD) & Shahid Balwa (VC&MD), Board's report signatories",
+     "quote": "The project is envisaged to be competed within 60 months from the commencement certificate.",
+     "period": "60 months from commencement certificate",
+     "basis": "Malad East urban resettlement / PAP & police housing (MCGM) project completion",
+     "source": "Annual Report FY25 Board's report, dated 2025-05-30, signed Vinod K. Goenka (CMD) & Shahid Balwa (VC&MD) (text via https://www.indiainfoline.com/company/valor-estate-ltd/reports/directors-report)",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Restated in Reg. 30 LOI disclosure 2025-08-21 (60-month construction period). Other AR FY25 dated items are restatements of Nov 2024 deck items: Ten BKC 'on track for delivery around in 2025' (deck: 2026); Delhi hotels 'operational in FY 2026-27' and commercial space 'ready in FY 2025-26' (revisions); Godrej Avenue Eleven 'possession in December 2028' (deck: 2029); BKC 101 2028 and Mahalaxmi 2029 (unchanged)."
+    }
+   ]
+  },
+  {
+   "label": "Corporate presentation Nov 2024 (Q2 FY25)",
+   "event_date": "2024-11-18",
+   "source_tier": "presentation",
+   "grade": 2.0,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "Demerger Timeline ... 8 – 10 months",
+     "period": "Jul-Sep 2025 (8-10 months from Nov 2024)",
+     "basis": "Hospitality demerger into Advent Hotels International becoming effective",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slide 32",
+     "outcome": "Scheme effective 1 Jul 2025 (appointed date 1 Apr 2025); NCLT order 18 Jun 2025 — within window",
+     "outcome_source": "Postal Ballot Notice 2026-03-05 p.12; Q1 FY26 press release 2025-08-14",
+     "item_grade": 2,
+     "note": "v1.2 trace: demerger first announced in press release 2024-03-14 with no timeline ('Subject to the requisite approvals'); this deck is the earliest dated statement."
+    },
+    {
+     "class": 7,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "Under construction 2026",
+     "period": "CY2026",
+     "basis": "Prestige Trade Centre (Delhi Aerocity commercial) completion",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slide 21",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. AR FY25: 'The commercial space is expected to be ready in FY 2025-26.' v1.2: earliest opened statement; no earlier dated statement found."
+    },
+    {
+     "class": 7,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "Vacant Site 2027",
+     "period": "CY2027",
+     "basis": "Sahar (Andheri E) commercial project completion",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slide 21",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Prestige framework agreement for Sahar SPV filed 2025-05-29 (no date given). v1.2: earliest opened statement; no earlier dated statement found."
+    },
+    {
+     "class": 7,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "Lonavala 100% 250.0 Integrated Township 2026",
+     "period": "CY2026",
+     "basis": "Lonavala 250-acre integrated township (land-bank timeline)",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slide 32",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. v1.2: earliest opened statement; no earlier dated statement found."
+    },
+    {
+     "class": 7,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "UC / 2029",
+     "period": "CY2029",
+     "basis": "Godrej Avenue Eleven completion",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slide 16",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. AR FY25 revised to 'possession in December 2028'. v1.2: earliest opened statement; no earlier dated statement found."
+    },
+    {
+     "class": 8,
+     "source_tier": "presentation",
+     "date": "2024-11-18",
+     "speaker": "Company (investor presentation, cover letter signed Shahid Balwa, VC&MD)",
+     "quote": "[para] Commercial annuity revenue INR 1,790+ cr expected from FY30",
+     "period": "FY30 onward",
+     "basis": "VEL share of commercial annuity revenue potential",
+     "source": "Corporate Presentation Nov 2024, filed 2024-11-18 (BSE: https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf), slides 5 and 21",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open multi-year. Verbatim slide text not extractable within quote limits; figure confirmed on slides 5/21. v1.2: earliest opened statement; no earlier dated statement found."
+    }
+   ]
+  },
+  {
+   "label": "Hospitality demerger press release (Mar 2024)",
+   "event_date": "2024-03-14",
+   "source_tier": "exchange_filing",
+   "grade": 0.0,
+   "status": "graded",
+   "outside_window": true,
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "exchange_filing",
+     "date": "2024-03-14",
+     "speaker": "Company (press release)",
+     "quote": "Under construction (Estimated completion by FY 2026)",
+     "period": "FY26 (by Mar 2026)",
+     "basis": "Marriott Marquis (590 keys) and St. Regis (189 keys), Aerocity Delhi, completion",
+     "source": "Press release 2024-03-14 (hospitality demerger), Annexure p.4 (https://bseindia.com/xml-data/corpfiling/AttachHis/26558cd9-dfff-4942-abd3-d83ca83b34d8.pdf)",
+     "outcome": "Not completed by FY26 end; Mar 2026 notice: 'The project is currently in its completion phase, with an estimated residual runway of about 1 year'. Target also moved before period end (AR FY25 2025-05-30: 'the Hotels will be operational in FY 2026-27') with no reason stated = cut.",
+     "outcome_source": "Postal Ballot Notice dated 2026-03-05, filed 2026-03-20 (https://nsearchives.nseindia.com/corporate/DBR_20032026193715_SE-_Intimation_for_Postal_Ballot_Notice.pdf) p.12; AR FY25 Board's report",
+     "item_grade": 0,
+     "note": "Graded on original. Restatements: Nov 2024 deck slide 26 'Expected launch FY26'; AR FY25 'operational in FY 2026-27' (cut, no reason -> 0); Q1 FY26 release 2025-08-14 'expected to be completed in 2026/27'. Prestige's 2019-10-01 filing ('by 2022') is a Prestige document and >5 years old; not used. Asset moved to Advent Hotels (effective 1 Jul 2025)."
+    },
+    {
+     "class": 8,
+     "source_tier": "exchange_filing",
+     "date": "2024-03-14",
+     "speaker": "Company (press release)",
+     "quote": "Total: ~3,500 rooms in next 5 years.",
+     "period": "By ~Mar 2029 (5 years from 2024-03-14)",
+     "basis": "Hospitality room pipeline (Delhi, Worli, Bandra, Sahar hotels)",
+     "source": "Press release 2024-03-14 (hospitality demerger), Annexure p.4 (https://bseindia.com/xml-data/corpfiling/AttachHis/26558cd9-dfff-4942-abd3-d83ca83b34d8.pdf)",
+     "outcome": "Cut before period end: Nov 2024 deck slide 5 re-set the target to '3,517 Keys' 'by FY31' (incl. 200 service-apartment rooms), with no reason stated.",
+     "outcome_source": "Corporate Presentation Nov 2024, filed 2024-11-18 (https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf) slide 5",
+     "item_grade": 0,
+     "note": "Multi-year target; early cut = withdrawal of original, graded 0 (no reason stated). Hospitality since demerged to Advent Hotels (effective 1 Jul 2025)."
+    }
+   ]
+  },
+  {
+   "label": "Reg. 30 Ten BKC project update (Jan 2023)",
+   "event_date": "2023-01-09",
+   "source_tier": "exchange_filing",
+   "grade": 0.0,
+   "status": "graded",
+   "outside_window": true,
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "exchange_filing",
+     "date": "2023-01-09",
+     "speaker": "Shahid Balwa, Managing Director",
+     "quote": "complete the entire Project by June 2024",
+     "period": "By Jun 2024",
+     "basis": "Ten BKC (X BKC), Bandra East: completion of entire project",
+     "source": "Reg. 30 intimation 2023-01-09, Ten BKC (X BKC) update (https://bseindia.com/xml-data/corpfiling/AttachHis/47d4212f-aa2b-469a-bd3b-db87d0c9a64a.pdf)",
+     "outcome": "Not completed by Jun 2024: Nov 2024 deck shows 'Area Finishing WIP, 2026'; only a partial OC was received by Q1 FY26 (release 2025-08-14: balance ~Rs 800 cr to be recognised 'upon receipt of the final OC'). More than one quarter late.",
+     "outcome_source": "Corporate Presentation Nov 2024, filed 2024-11-18 (https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf) slide 15; Q1 FY26 press release 2025-08-14",
+     "item_grade": 0,
+     "note": "Graded on original. Restatements: Nov 2024 deck '2026'; AR FY25 'on track for delivery around in 2025'. [unverified] Final OC reported in FY26 by secondary media (Rs 964 cr FY26 revenue). Same filing: 'more than 300 home owners ... by Diwali 2023' not restated in window; not captured. Earlier: press release 2022-02-12 (construction recommenced, no date) and AR FY22 ('at the earliest'), no date."
+    }
+   ]
+  },
+  {
+   "label": "Annual Report FY22 – Directors' report (Sep 2022)",
+   "event_date": "2022-09-08",
+   "source_tier": "annual_report",
+   "grade": 0.0,
+   "status": "graded",
+   "outside_window": true,
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "annual_report",
+     "date": "2022-09-08",
+     "speaker": "Board of Directors (Directors' Report, FY22)",
+     "quote": "The company hopes to complete the project in FY 2022-23.",
+     "period": "FY23 (by Mar 2023)",
+     "basis": "DB Ozone (Dahisar) project completion",
+     "source": "Annual Report FY22 (16th AR; AGM notice dated 2022-08-09; filed 2022-09-08), Directors' Report 'Status of Projects' p.21 (https://www.bseindia.com/bseplus/AnnualReport/533160/76995533160.pdf)",
+     "outcome": "Not completed in FY23: Nov 2024 deck slide 15 shows 'OC awaited, 2026'. More than one quarter late.",
+     "outcome_source": "Corporate Presentation Nov 2024, filed 2024-11-18 (https://bseindia.com/xml-data/corpfiling/AttachHis/f73beef9-804e-4264-bb83-22366cf0363c.pdf) slide 15",
+     "item_grade": 0,
+     "note": "Graded on original. Restatement: Nov 2024 deck 'OC awaited, 2026' (still open). Directors' Report signing date not visible in the opened extract; event dated by exchange filing of the AR (2022-09-08). AR FY22 also: 'The Company intends to monetize this parcel of land [Andheri East] in FY 2022-23' (not restated in window; not captured)."
+    }
+   ]
+  }
+ ]
 }

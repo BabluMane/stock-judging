@@ -1,0 +1,605 @@
+{
+  "ticker": "MFSL",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 8.0,
+  "note": "Max Financial Services (holding co. of Axis Max Life, 80.01%). Guidance is Axis Max Life's, given on MFSL calls. Q4 FY26 call (scheduled 13-May-2026) was cancelled by MFSL letter dated 10-May-2026, so the slot is no_call. FY26 outcomes rest on the Axis Max Life FY26 earnings press release (13-May-2026) and the MFSL Annual Report FY26 (NSE 27-Jul-2026). The FY25/FY26 investor decks on the IR site returned 404 and were not opened. The Q2 FY25 filed transcript returned 403, so its quotes rest on AlphaStreet's secondary verbatim transcript. Monitoring (06-Mar-2026 Reg 30): regulatory filing for the listing option by 31-Dec-2026; listing no later than 05-Apr-2027. Rule 6: no Reg. 30 impact-statement items were captured; none removed. Rule 7 sources opened: Q2 FY24 (2023-11-01), Q3 FY24 (2024-02-07), Q4 FY24 (2024-05-07) and Q1 FY25 (2024-08-14) transcripts; Q1 FY24 (Aug 2023) transcript could not be opened.\nv1.2 rule-7 re-grade: 3 outside_window entries added (Q1 FY25, Q4 FY24, Q2 FY24); 22 restatements merged into their originating items (FY26 NBM to Q4 FY25; FY25 sales/VNB/industry-delta and structure simplification to Q4 FY24; FY25 NBM and surrender impact to Q1 FY25; ~25% NBM target to Q2 FY24; amendment timing to Q4 FY25; FY26 APE raise to Q2 FY26); score missing (8.4 on old grades) -> 8.0.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "call_date": "2026-08-13",
+      "transcript_source": "Filed transcript, BSE/NSE 2026-08-20 (17 pp.), https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/20082026/824a461a-3ce1-4681-9117-8f6d666b30ab.pdf",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2026-08-13",
+          "speaker": "Sumit Madan, MD & CEO, Axis Max Life",
+          "quote": "we remain confident in our ability to deliver on our guidance of outperforming the industry",
+          "period": "FY27",
+          "basis": "Axis Max Life individual adjusted FYP / APE growth vs private life industry, full year",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Restates earlier guidance. Open period. Q1 FY27 APE +15%, individual adjusted FYP +17%, private market share 10.1%. Rule 7: FY27 leg of the Q2 FY26 5-year 300-500bp target; kept as a single-year item."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "we remain focused on delivering VNB growth that outpaces APE growth",
+          "period": "FY27",
+          "basis": "Axis Max Life VNB YoY growth > APE YoY growth, full year",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.6 (repeated pp.13, 16)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open period. Q1 FY27 VNB +33% vs APE +15%. Management declined a numeric FY27 VNB margin (p.13); this is not class 9, because no FY27 margin figure had been given. Rule 7: no earlier FY27 statement found (Q4 FY26 call not held)."
+        },
+        {
+          "class": 2,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "reinforce our confidence in sustaining our y-o-y margin profiles through FY27",
+          "period": "FY27",
+          "basis": "VNB margin (NBM), Axis Max Life, full year; anchored to the FY26 figure in force of 25.2%",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Anchored qualitative statement converted to FY27 NBM >= 25.2% (FY26, Axis Max Life FY26 press release 2026-05-13). Q1 FY27 NBM 23.2% vs 20.3% in Q1 FY26. Rule 7: no earlier FY27 statement found."
+        },
+        {
+          "class": 10,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "From a GST perspective, there isn't any other effect we have to worry about.",
+          "period": "Q2 FY27 onward",
+          "basis": "No further NBM drag from the Sep-2025 GST exemption / ITC loss beyond that absorbed by Q4 FY26",
+          "source": "Investing.com transcript of the 2026-08-13 call (secondary); filed transcript p.6 gives the context: 'in Q4 we had almost taken care of 80% of the GST effect'",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Pending Q2 FY27 results (board 27-Oct-2026). The exact sentence was not located in the filed transcript. If contradicted it is a margin drag, which does not meet the SEVERE test for the override."
+        },
+        {
+          "class": 5,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "We will recoup and re-raise both that amount and also the amount that we got from an additional capacity ... Yes, we will be doing a subdebt raise.",
+          "period": "Unspecified (FY27 implied)",
+          "basis": "Axis Max Life sub-debt issuance >= the sub-debt redeemed 31-Jul-2026 plus additional capacity",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.16",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No date given, so the item is open. The ~INR 480-490 Cr redeemed amount is the analyst's figure. Any Aug-Oct 2026 issue is [not retrieved]."
+        },
+        {
+          "class": 10,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "As at this point in time, we do not see any specific need",
+          "period": "FY27",
+          "basis": "No fresh equity raise needed at Axis Max Life (solvency 198% at Q1 FY27 vs 150% minimum)",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Open. The INR 1,600 Cr QIP enabling approval runs to May 2027 (p.15). The item is contradicted if equity is raised for AML capital in FY27."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "we can stay above the risk threshold for at least two to three quarters quite comfortably as we see it.",
+          "period": "Q2 FY27-Q4 FY27",
+          "basis": "Axis Max Life solvency ratio above the internal threshold of about 180% (p.15) at each quarter-end",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.10 (threshold p.15)",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No test quarter has closed. Solvency was 198% at Q1 FY27."
+        },
+        {
+          "class": 3,
+          "date": "2026-08-13",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "We do hope to get the trends even on the non-par to at least no longer be in such sharp de-growth. ... It should move towards more in the green as the quarter's progress.",
+          "period": "FY27 (Q2-Q4)",
+          "basis": "Axis Max Life non-par savings APE YoY growth improving toward positive",
+          "source": "Q1 FY27 transcript, filed 2026-08-20, p.11",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "A soft directional statement, but checkable from the quarterly product mix. Open."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "call_date": null,
+      "transcript_source": "MFSL letter to BSE/NSE dated 2026-05-10: the call scheduled for 13-May-2026 'will not be held as indicated earlier'; no reason given. https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/10052026/1c968c7a-0d77-4a81-90fd-8d8a1edfed75.pdf; intimation NSE Max_04052026135802_SEDEARNINGCALL.pdf (2026-05-04)",
+      "grade": null,
+      "status": "no_call",
+      "promises": []
+    },
+    {
+      "label": "Q3 FY26",
+      "call_date": "2026-02-12",
+      "transcript_source": "Filed transcript, BSE/NSE 2026-02-18, https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/18022026/48652a41-58e5-4219-9807-e9b87890feed.pdf",
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 10,
+          "date": "2026-02-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "these are not one-offs that you will experience in this quarter and they will disappear, nothing like that at all.",
+          "period": "Q4 FY26 onward",
+          "basis": "Product-mix and yield-curve benefits to NBM are durable",
+          "source": "Q3 FY26 transcript, filed 2026-02-18, p.14",
+          "outcome": "Held. FY26 NBM 25.2% vs 9M 23.6%; Q1 FY27 NBM 23.2% vs 20.3% in Q1 FY26",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13; 9M FY26 investor presentation (NSE 2026-03-18) slide 5; Q1 FY27 transcript filed 2026-08-20 p.4",
+          "item_grade": 2,
+          "note": "Rule 7: no earlier statement found (new assurance on Q3 FY26 drivers)."
+        },
+        {
+          "class": 3,
+          "date": "2026-02-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "all actions at our end will be taken to ensure that we are on an improvement journey towards 13 months",
+          "period": "FY26 onward",
+          "basis": "13th-month persistency (premium basis), Axis Max Life; anchored to the 85% in force at Q3 FY26 (p.4)",
+          "source": "Q3 FY26 transcript, filed 2026-02-18, pp.4, 10",
+          "outcome": "FY26 84.8%; Q1 FY27 83%",
+          "outcome_source": "MFSL Annual Report FY26 (NSE 2026-07-27) pp.21, 25-26; Q1 FY27 call (investing.com transcript, secondary)",
+          "item_grade": 1,
+          "note": "Anchored statement converted to >= 85%. FY26 fell 0.2pt short, which is within 10%. No improvement was delivered. Rule 7: no earlier 13th-month commitment found (Q4 FY24 p.5 reported 87%, no target)."
+        },
+        {
+          "class": 10,
+          "date": "2026-02-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "we are fairly confident that over a few quarters, we will be able to mitigate this completely.",
+          "period": "'A few quarters' from Q3 FY26 (end undefined)",
+          "basis": "Full mitigation of the ~350bp gross NBM impact of the GST exemption / ITC loss",
+          "source": "Q3 FY26 transcript, filed 2026-02-18, p.6",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Pending. At Q1 FY27 (filed transcript p.6) management said about 80% of the GST effect was taken care of in Q4; not yet stated as complete. Rule 7: Q2 FY26 GST item covers FY26 NBM only; kept separate."
+        },
+        {
+          "class": 10,
+          "date": "2026-02-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "This is a onetime hit which we had to provide for.",
+          "period": "Q3 FY26 onward",
+          "basis": "Labour-code gratuity provision of about INR 60 Cr is non-recurring",
+          "source": "Q3 FY26 transcript, filed 2026-02-18, pp.6, 10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved]: Q4 FY26 / Q1 FY27 filings were not checked for a further gratuity charge."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "call_date": "2025-11-12",
+      "transcript_source": "Filed transcript, BSE/NSE 2025-11-18 (17 pp.), https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/18112025/2b2fd1bc-5640-41da-b46b-f8acc8737dc8.pdf",
+      "grade": 1.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-11-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "on an APE basis, we are growing 15%. We had given for the full year good guidance between 15%, 17%.",
+          "period": "FY26",
+          "basis": "Total APE growth, Axis Max Life; low end 15%",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, p.10",
+          "outcome": "FY26 total APE +20% (INR 10,502 Cr)",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "Restates start-of-year guidance. Rule 7: earliest opened; Q4 FY25 (p.7 refused absolute) and Q1 FY26 transcripts state no figure. Q3 FY26 pp.8-9 'upward revision' merged here."
+        },
+        {
+          "class": 10,
+          "date": "2025-11-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "We will navigate some of these things to ensure that we hold on to the guidance number.",
+          "period": "FY26",
+          "basis": "GST/ITC-loss gross impact of 300-350bp on run-rate NBM is offset, holding the 24-25% FY26 NBM",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, pp.2, 6, 12-13",
+          "outcome": "Held. FY26 NBM 25.2%",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "Rule 7: first GST-offset assurance (GST change 22-Sep-2025); no earlier statement possible."
+        },
+        {
+          "class": 3,
+          "date": "2025-11-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "you will continue getting an improvement in opex-to-GWP ratios. We do expect this trend to stay for full year as well.",
+          "period": "FY26",
+          "basis": "Policyholder opex to GWP, Axis Max Life, YoY improvement (ceiling = FY25 ratio)",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, p.11",
+          "outcome": "Not met. 9M FY26 15.8% vs 14.9% in 9M FY25. The FY26 Annual Report says the opex ratio rose in FY26 'owing to GST impact'",
+          "outcome_source": "9M FY26 investor presentation (NSE 2026-03-18) slide 5; MFSL Annual Report FY26 (NSE 2026-07-27) p.28",
+          "item_grade": 0,
+          "note": "Made after the 22-Sep-2025 GST change, so GST is not an excuse. The exact FY26 ratio was [not retrieved]; the direction is from the Annual Report. Rule 7: no earlier statement found (Q1 FY26 p.5 reported 17.8%, no target)."
+        },
+        {
+          "class": 3,
+          "date": "2025-11-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "I think we are holding on to 65%, 66% for the first half... we are quite confident that it will remain in that range.",
+          "period": "FY26 (H2)",
+          "basis": "Axis Max Life share of Axis Bank life-insurance sales (counter share)",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved]: no filed FY26 counter-share figure was found. Rule 7: Q4 FY24 p.11 and Q1 FY26 p.12 cited a 65-70% range for other periods; not the same FY26 commitment."
+        },
+        {
+          "class": 8,
+          "date": "2025-11-12",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "Over the next 2, 3 years, we are comfortable remaining in the range of 18%, 19%, and that is what we will try to do and target.",
+          "period": "FY26-FY28",
+          "basis": "Operating RoEV, Axis Max Life",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, p.10",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Multi-year target; graded at period end. FY26 operating RoEV 18.7%. Rule 7: no earlier statement found (checked Q2 FY24-Q1 FY25, Q1 FY26)."
+        },
+        {
+          "class": 8,
+          "date": "2025-11-12",
+          "speaker": "Sumit Madan, MD & CEO, Axis Max Life",
+          "quote": "we will be able to deliver better than what the industry is doing by almost around 300 to 500 bps.",
+          "period": "Next 5 years (FY26-FY30)",
+          "basis": "Axis Max Life new-business growth minus industry growth; low end +300bp",
+          "source": "Q2 FY26 transcript, filed 2025-11-18, pp.8-9",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Multi-year target; graded at period end. FY26: +700bp vs private industry. Rule 7: first 5-year version; single-year legs graded at Q4 FY24 (FY25) and Q4 FY25 (FY26)."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "call_date": "2025-08-08",
+      "transcript_source": "Filed transcript (cover letter to BSE/NSE 2025-08-14, 12 pp.), https://www.maxfinancialservices.com/static/uploads/financials/sedisearningcalltranscript.pdf",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-08-08",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "I don't expect a delta of more than 2% to 4% between the adjusted FYP and APE numbers going forward.",
+          "period": "FY26",
+          "basis": "Gap between individual adjusted FYP growth and APE growth, Axis Max Life; ceiling 4pp",
+          "source": "Q1 FY26 transcript, filed 2025-08-14, p.3",
+          "outcome": "FY26 APE +20% vs individual adjusted FYP +19%: gap ~1pp",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "Ceiling held. Rule 7: no earlier statement found (checked Q4 FY25)."
+        },
+        {
+          "class": 3,
+          "date": "2025-08-08",
+          "speaker": "Amrit Singh, CFO, Axis Max Life",
+          "quote": "we would like to continue to remain engaged in this category and do better than the market.",
+          "period": "FY26",
+          "basis": "Retail protection APE growth, Axis Max Life, vs industry",
+          "source": "Q1 FY26 transcript, filed 2025-08-14, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "[not retrieved]: industry protection benchmark. Company FY26 retail protection & health APE +53% [unverified, summary of FY26 deck]; 9M FY26 deck +57%. Rule 7: Q4 FY24 p.16 made a similar FY25 remark; different period."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "call_date": "2025-05-14",
+      "transcript_source": "Filed transcript, https://maxfinancialservices.com/static/uploads/financials/q4fy25-earnings-call-transcript.pdf (filing date [not retrieved])",
+      "grade": 1.4,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2025-05-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "One would desire to maintain at least 300-400 basis points upside versus how the private industry grows",
+          "period": "FY26",
+          "basis": "Individual adjusted FYP growth, Axis Max Life, minus private-industry growth; low end +300bp",
+          "source": "Q4 FY25 transcript, p.6",
+          "outcome": "FY26 +19% vs private industry +12% = +700bp; private market share 10.4%",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "Absolute growth guidance was refused, but none had been given before, so this is not class 9. Rule 7: FY26 origin; Q3 FY26 p.9 '300 to 500 basis points' restatement merged here."
+        },
+        {
+          "class": 2,
+          "date": "2025-05-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "try NP in the range of 24%-25% and try to grow faster than the industry",
+          "period": "FY26",
+          "basis": "VNB margin (NBM), Axis Max Life, full year",
+          "source": "Q4 FY25 transcript, p.6",
+          "outcome": "FY26 NBM 25.2%",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "'NP' as transcribed, meaning NBM. Rule 7 origin: restated Q1 FY26 pp.3, 7; Q2 FY26 pp.6, 12; Q3 FY26 p.6 (24-25%); graded once here."
+        },
+        {
+          "class": 3,
+          "date": "2025-05-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "we will not really guide you to a 20% kind of growth number, but definitely more closer to the range of 13%-14%",
+          "period": "FY26",
+          "basis": "Axis Bank channel APE growth, Axis Max Life; low end 13%",
+          "source": "Q4 FY25 transcript, p.10",
+          "outcome": "9M FY26 Axis Bank channel APE +7.6% (INR 28.59bn vs 26.58bn); FY26 +8% [unverified, media]",
+          "outcome_source": "9M FY26 investor presentation (NSE 2026-03-18); Trade Brains 2026-05-13 [media]",
+          "item_grade": 0,
+          "note": "Shortfall of ~40% vs the 13% low end. The filed 9M data alone fails by more than 10%. Rule 7: no earlier FY26 statement found."
+        },
+        {
+          "class": 10,
+          "date": "2025-05-14",
+          "speaker": "Amrit Singh, CFO",
+          "quote": "we don't really see anything coming in FY '26 for us.",
+          "period": "FY26",
+          "basis": "No further FY26 margin impact from the surrender-value regulation",
+          "source": "Q4 FY25 transcript, p.11",
+          "outcome": "Held. FY26 NBM 25.2% (+120bp YoY); no surrender-driven drag reported",
+          "outcome_source": "Axis Max Life FY26 press release 2026-05-13; Q1 FY26 transcript filed 2025-08-14 p.7",
+          "item_grade": 2,
+          "note": "Rule 7: FY26-specific assurance; the FY25 impact estimate is graded at Q1 FY25."
+        },
+        {
+          "class": 7,
+          "date": "2025-05-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "I am quite hopeful that it will come in the month of August-September timeframe.",
+          "period": "Aug-Sep 2025 (Q2 FY26)",
+          "basis": "Insurance Act amendment enabling the MFSL-Axis Max Life merger",
+          "source": "Q4 FY25 transcript, p.7",
+          "outcome": "Passed Parliament 16/17-Dec-2025 (Q3 FY26)",
+          "outcome_source": "Deccan Herald 2025-12-17 [media]",
+          "item_grade": 1,
+          "note": "One quarter late. Revised at the Q1 FY26 call; scored against the original. Rule 7: Q1 FY26 p.6 'forthcoming parliament session' merged here; Q3 FY25 (p.10) gave no date."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY25",
+      "call_date": "2025-02-05",
+      "transcript_source": "Filed transcript, BSE/NSE 2025-02-11, https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/11022025/5d34b5aa-8726-4300-931b-09f1213c760b.pdf",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-02-05",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "We will typically like to be in the range of 35 to 40%.",
+          "period": "'A couple of quarters' from Feb 2025 (by H1 FY26)",
+          "basis": "ULIP share of APE, Axis Max Life; ceiling 40%",
+          "source": "Q3 FY25 transcript, filed 2025-02-11, pp.9-10",
+          "outcome": "H1 FY26 ~34% (FY25 42%)",
+          "outcome_source": "Q2 FY26 investor presentation (NSE 2025-11-11)",
+          "item_grade": 2,
+          "note": "Ceiling held. The deck basis includes group protection. Rule 7: no earlier statement found (checked Q4 FY24, Q1 FY25)."
+        },
+        {
+          "class": 3,
+          "date": "2025-02-05",
+          "speaker": "Prashant Tripathy, MD & CEO, Axis Max Life",
+          "quote": "I remain very optimistic that as we go forward, we should see further improvement, especially in the 26th month cohort.",
+          "period": "FY25-H1 FY26",
+          "basis": "25th/26th-month persistency (premium basis), Axis Max Life",
+          "source": "Q3 FY25 transcript, filed 2025-02-11, p.6",
+          "outcome": "25th month: FY25 74% (+380bp); H1 FY26 76% vs 71%",
+          "outcome_source": "Q2 FY26 investor presentation (NSE 2025-11-11)",
+          "item_grade": 2,
+          "note": "The reported figure is 25th month; the quote names the 26th. Rule 7: no earlier statement found (Q4 FY24 p.5 reported, no target)."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25",
+      "call_date": "2024-10-23",
+      "transcript_source": "AlphaStreet secondary verbatim transcript (alphastreet.com/india/wp-json/wp/v2/posts/176883). The filed transcript returned 403 on BSE/NSE and on the business-standard mirror.",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2024-10-23",
+          "speaker": "Amrit Pal Singh, CFO",
+          "quote": "We do experience anywhere between 200 basis point to 300 basis point expansion in margins",
+          "period": "H2 FY25",
+          "basis": "NBM, Max Life, H2 vs Q2 FY25 base of 23.6%; target >= 25.6%",
+          "source": "AlphaStreet transcript, Q2 FY25 call 2024-10-23",
+          "outcome": "H2 FY25 ~26.0% (derived); Q3 FY25 23.2%; Q4 FY25 ~29.0% [media]",
+          "outcome_source": "MFSL press release Q4 FY25 (FY VNB/APE) less H1 per Q2 transcript; Q3 FY25 transcript filed 2025-02-11",
+          "item_grade": 2,
+          "note": "H2 figure derived as (FY less H1). Q3 alone missed. Rule 7: no earlier statement found (Q1 FY25 p.10 only said margins improve as sales build)."
+        },
+        {
+          "class": 10,
+          "date": "2024-10-23",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "[para] Very optimistic that the changes in regulation is not going to have a material impact on growth rates.",
+          "period": "H2 FY25",
+          "basis": "Surrender-value rules do not materially hurt growth vs private industry",
+          "source": "AlphaStreet transcript, Q2 FY25 call 2024-10-23 (verbatim fragment: 'is not going to have a material impact on growth rates')",
+          "outcome": "Held. FY25 +19.6% vs private ~12%; growth slowed from H1 31% to Q3 16%",
+          "outcome_source": "MFSL press release Q4 FY25, 2025-05-13; Q3 FY25 transcript",
+          "item_grade": 2,
+          "note": "Rule 7: no earlier growth assurance found (Q1 FY25 checked)."
+        },
+        {
+          "class": 7,
+          "date": "2024-10-23",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "I am very optimistic that we will do that over next quarter.",
+          "period": "Q3 FY25",
+          "basis": "Rename Max Life → Axis Max Life",
+          "source": "AlphaStreet transcript, Q2 FY25 call 2024-10-23",
+          "outcome": "Fresh certificate of incorporation as Axis Max Life Insurance issued 12-Dec-2024",
+          "outcome_source": "Cafemutual 2024-12-17 [media]; rebrand confirmed in the Q3 FY25 filed transcript",
+          "item_grade": 2,
+          "note": "On time. Rule 7: no earlier statement found (Q4 FY24, Q1 FY25: rename not discussed)."
+        },
+        {
+          "class": 8,
+          "date": "2024-10-23",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "We have deep aspirations to be among the top three players.",
+          "period": "Unspecified",
+          "basis": "Private life-insurer rank",
+          "source": "AlphaStreet transcript, Q2 FY25 call 2024-10-23",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "No period, so the item cannot be graded."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY25",
+      "call_date": "2024-08-14",
+      "transcript_source": "Filed transcript, BSE/NSE 2024-08-21, https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/21082024/f5f4948e-1906-4bf9-be50-a23b6e3ce205.pdf",
+      "outside_window": true,
+      "grade": 1.5,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2024-08-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "My guidance was for the year, we will outlook anywhere between 25% and 26% margin as against 26.5% last year.",
+          "period": "FY25",
+          "basis": "VNB margin (NBM), Max Life, full year",
+          "source": "Q1 FY25 transcript, filed 2024-08-21, p.10",
+          "outcome": "Withdrawn same call ('I will stay away from giving guidance', p.18); cut to 23-24% on 2024-10-23; FY25 NBM 24.0%",
+          "outcome_source": "Q1 FY25 transcript p.18; AlphaStreet Q2 FY25 transcript; MFSL press release Q4 FY25, 2025-05-13",
+          "item_grade": 1,
+          "note": "Rule 7: earliest opened ('my guidance was' implies earlier; Q4 FY24 p.10 refused a number). Class-9 rule: prospective, reason stated (surrender rules) = 1. 23-24% restated Q2 FY25, Q3 FY25 p.20."
+        },
+        {
+          "class": 10,
+          "date": "2024-08-14",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "we estimate that the surrender impact will be in the range of 100-200 basis points at the company level.",
+          "period": "6-12 months after the Oct-2024 implementation (tested to FY26)",
+          "basis": "Surrender-value regulation NBM impact contained at 100-200bp and nullified over 6-12 months (p.13)",
+          "source": "Q1 FY25 transcript, filed 2024-08-21, pp.5, 13",
+          "outcome": "Held. ~100bp per the Q3 FY25 call; NBM 24.0% (FY25) → 25.2% (FY26)",
+          "outcome_source": "Q3 FY25 transcript filed 2025-02-11 p.5; Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 2,
+          "note": "Rule 7 origin. Restated Q2 FY25 ('majority of which ... will be mitigated in the medium term') and Q3 FY25 p.5 ('close to about 100 basis point impact')."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY24",
+      "call_date": "2024-05-07",
+      "transcript_source": "Filed transcript (cover letter BSE/NSE 2024-05-13, 18 pp.), https://nsearchives.nseindia.com/corporate/MFSL_13052024210346_SEDISMFSLTRANSCRIPTOFCALL.pdf",
+      "outside_window": true,
+      "grade": 1.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 1,
+          "date": "2024-05-07",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "We are looking at a sales growth of high teens",
+          "period": "FY25",
+          "basis": "Max Life sales growth YoY (metric unstated; tested on individual adjusted FYP); 'high teens' low end 17%",
+          "source": "Q4 FY24 transcript, filed 2024-05-13, p.10",
+          "outcome": "FY25 individual adjusted FYP INR 8,329 Cr, +19.6%",
+          "outcome_source": "MFSL press release Q4 FY25, 2025-05-13",
+          "item_grade": 2,
+          "note": "Rule 7 origin. Restated as '20% or above' at Q3 FY25 (pp.6, 11), previously graded 1 there."
+        },
+        {
+          "class": 3,
+          "date": "2024-05-07",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "we will definitely be teens, which will be either at the same level of growth as sales or marginally lower",
+          "period": "FY25",
+          "basis": "VNB growth YoY, Max Life; 'teens' floor 13%",
+          "source": "Q4 FY24 transcript, filed 2024-05-13, p.10",
+          "outcome": "FY25 VNB INR 2,107 Cr vs 1,973 Cr, +6.8%",
+          "outcome_source": "MFSL press release Q4 FY25, 2025-05-13",
+          "item_grade": 0,
+          "note": "Rule 7 origin. Restated Q1 FY25 p.9, Q2 FY25 ('double-digit teens'). Cut to 'high single-digit' 2025-02-05 after 9M VNB +9% was reported (Q3 FY25 p.7): not prospective, class-9 rule = 0."
+        },
+        {
+          "class": 1,
+          "date": "2024-05-07",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "faster than private industry and gaining market share",
+          "period": "FY25",
+          "basis": "Individual adjusted FYP growth, Max Life, minus private-industry growth; > 0bp",
+          "source": "Q4 FY24 transcript, filed 2024-05-13, p.4 (p.10: 'grow faster than the market')",
+          "outcome": "FY25 +19.6% vs private industry ~12% (~+760bp)",
+          "outcome_source": "MFSL press release Q4 FY25, 2025-05-13",
+          "item_grade": 2,
+          "note": "Rule 7 origin. Restated as +5-7% delta (Q2 FY25, AlphaStreet) and 300-500bp (Q3 FY25 p.21); all met."
+        },
+        {
+          "class": 7,
+          "date": "2024-05-07",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "My sense is that it will take anywhere between 18 months to 24 months because this involves NCLT process",
+          "period": "18-24 months from start after the Axis 0.98% stake deal (~Nov 2025-May 2026)",
+          "basis": "MFSL / Max Life structure simplification via NCLT",
+          "source": "Q4 FY24 transcript, filed 2024-05-13, p.9",
+          "outcome": "Not done. Re-set 2025-02-05 to ~1 year of NCLT after an Insurance Act amendment; no scheme filed by Q1 FY27",
+          "outcome_source": "Q3 FY25 transcript filed 2025-02-11 pp.8, 18; Q1 FY27 transcript filed 2026-08-20 p.7",
+          "item_grade": 1,
+          "note": "Rule 7 origin (Q3 FY24 p.9 refused a timeline). Prospective, reasoned (law change) cut: class-9 = 1. Restated Q2 FY25 'next few quarters' (was 0), Q3 FY26 12-14m and Q1 FY27 6-12m from filing."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY24",
+      "call_date": "2023-11-01",
+      "transcript_source": "Filed transcript, BSE/NSE 2023-11-06, https://bseindia.com/xml-data/corpfiling/AttachHis/85c1a546-5334-4fc6-8209-83d720b83339.pdf",
+      "outside_window": true,
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2023-11-01",
+          "speaker": "Prashant Tripathy, MD & CEO, Max Life",
+          "quote": "over the next 2 to 3 years, we should think about the margin profile from 27%, 28% going up by maybe a couple of hundred basis points.",
+          "period": "FY24-FY26 (2-3 years from Nov 2023)",
+          "basis": "VNB margin (NBM), Max Life; ~29-30% implied",
+          "source": "Q2 FY24 transcript, filed 2023-11-06, p.15",
+          "outcome": "Cut before period end: 'about 26%, 27%' (Q3 FY24 p.4); long-horizon '25% margin profile' (Q3 FY25 p.21). FY26 NBM 25.2%",
+          "outcome_source": "Q3 FY24 transcript (BSE AttachHis 6e4a7805) p.4; Q3 FY25 transcript filed 2025-02-11 p.21; Axis Max Life FY26 press release 2026-05-13",
+          "item_grade": 1,
+          "note": "Rule 7 origin. Class-9 rule: cut prospective, reasons stated (surrender rules, mix) = 1. Restated Q3 FY25 p.9 ('25% or plus'), Q3 FY26 p.12 ('25% plus/minus'). Q1 FY24 transcript not opened."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+ "as_of": "2026-10-08",
+ "symbol": "TATACOMM",
+ "name": "Tata Communications Ltd",
+ "tier": "FULL",
+ "status": "validated",
+ "conviction": 0.45,
+ "key_metrics": {
+  "mcap_cr": 48151,
+  "beta": -0.0788,
+  "sales_fy26_cr": 24803,
+  "pat_fy26_cr": 997,
+  "eps_fy26": 35.14,
+  "pe_ttm": 51.8,
+  "promoter_pct": 58.86,
+  "pledge_pct": 0.0,
+  "debtor_days": null,
+  "roe_fy26_pct": null,
+  "net_margin_fy26_pct": 4.0,
+  "opm_fy26_pct": 20.1,
+  "etr_fy26_pct": null,
+  "book_value_rs": null,
+  "pb": null,
+  "goodwill_cr": null
+ },
+ "engine": {
+  "distress": "VETOED-DATA \u2014 D1/D2 PASS (pledge 0%), E1/E2/E3/E4/E6 PASS, D4 PASS, D5 PASS; D3 UNCOMPUTABLE (current_assets/current_liabilities missing \u2014 same structural gap as all 23)",
+  "usability": "STOP \u2014 U3: vendor TTM EPS 26.93 vs sourced 35.14, gap 23.4% > 15% (results week 2026-06-18). U1 PASS (no action after FY-end), U2 PASS (sourced EPS 35.14 > 0)",
+  "event_lane": "PASS \u2014 no vetoes (no historical events loaded for live review)",
+  "deciding_gate": "distress",
+  "anchor": "VALUED (non-financial) \u2014 2-stage fade FCFF 20y, g_sus 15% (capped), margin 15% (5yr avg), w 6.63% (beta -0.079). FV Rs 2159.54; price Rs 1818.80 is 15.8% BELOW FV, 10.4% ABOVE G1 (ACC) Rs 1647.80, 66% above G2 (INV) Rs 1095.30. WARNING: w=6.63% is beta-distorted; at w=9% FV=Rs 711, at w=11% FV=Rs 280. Mechanical FV not usable as fair value.",
+  "excluded": true
+ },
+ "dcf": {
+  "current_price": 1818.8,
+  "fair_value": 2159.54,
+  "inv_trigger": 1095.3,
+  "acc_trigger": 1647.8,
+  "model": "2-stage fade FCFF 20y, g_sus 15% (capped), margin 15%, w 6.63% (beta -0.079) \u2014 BETA-DISTORTED, see anchor warning"
+ },
+ "scores": {
+  "composite": 5.15,
+  "quality": 5.0,
+  "price": 5.0
+ },
+ "verdict": {
+  "category": "PASS",
+  "conviction": 0.45,
+  "best_today_rank": null
+ },
+ "thesis": "Tata Group telecom-infrastructure arm (subsea cables, data centers, enterprise networking) with the best governance in the new batch (credibility 7.4/10 \u2192 C5=2, zero pledge, promoter 58.9%). ROCE 19% clears cost of capital. But: 7.7% sales CAGR with a down year, NP halved FY25\u2192FY26 (1837\u2192997), and the DCF is unusable \u2014 negative beta (-0.08) produces w=6.6%, and any sane discount rate (9-11%) puts fair value 60-85% below CMP. Not a value opportunity at Rs 1819; the market prices in growth the business isn't delivering.",
+ "risks": [
+  "DCF beta distortion: negative beta (-0.079) gives w=6.63%; at w=11% FV=Rs 280 vs CMP Rs 1819 \u2014 valuation rests on a statistical artifact",
+  "Earnings collapse FY26: net profit 1837\u2192997 (-46%), EPS 64.43\u219235.14; U3 usability STOP (vendor TTM 26.93 vs sourced 35.14, 23% gap)",
+  "Growth anemic: 7.7% 5yr sales CAGR vs 12% bar for this size; down year in window",
+  "Leverage: borrowings Rs 12,249 cr vs mcap Rs 48,151 cr; net debt Rs 12,249 cr",
+  "Other income was 45% of PBT in FY25 \u2014 core earnings quality questionable",
+  "G1 VETOED-DATA (structural: D3 uncomputable on missing current assets/liabilities \u2014 same as all 23)"
+ ],
+ "promises": [
+  {
+   "quote": "It's too early for me to comment on forward-looking numbers",
+   "class": 9,
+   "period": "FY28 (data-revenue doubling to INR 28,000 Cr, as reset Jun 2025)",
+   "outcome": "Ambition neither reaffirmed nor withdrawn; deferred to Investor Day. Not reaffirmed again on Q1 FY27 call (p.14); Q1 FY27 'FY27 Aspirations'",
+   "grade": 1
+  },
+  {
+   "quote": "After I finish 100 days, I will come and talk about FY27.",
+   "class": 7,
+   "period": "By Q1 FY27 call",
+   "outcome": "Delivered: Q1 FY27 presentation (2026-07-22) carries 'FY27 Aspirations' (double-digit EBITDA growth, rising ROCE, better cash generation) an",
+   "grade": 2
+  },
+  {
+   "quote": "We believe that ROCE has now bottomed out ... we expect gradual recovery over the next few quarters.",
+   "class": 3,
+   "period": "Q4 FY26 onward",
+   "outcome": "Q4 FY26 ROCE 14.9% (+51bp QoQ)",
+   "grade": 2
+  },
+  {
+   "quote": "end of the month, we are launching the Edge Distribution Platform ... later this month on the multi-cloud networking ... the end of the mont",
+   "class": 7,
+   "period": "End-Jan 2026",
+   "outcome": "All three launched",
+   "grade": 2
+  },
+  {
+   "quote": "Yeah. We maintain.",
+   "class": 6,
+   "period": "FY26",
+   "outcome": "FY26 tax 431.62 Cr on PBT 1,437.89 Cr = ~30.0%; ~28.1% on PBT before exceptional items (1,535.85 Cr)",
+   "grade": 0
+  },
+  {
+   "quote": "we are all aiming towards an improvement over last year.",
+   "class": 2,
+   "period": "FY26",
+   "outcome": "FY26 consolidated EBITDA margin 19.4% (-0.4pp)",
+   "grade": 1
+  },
+  {
+   "quote": "We are looking at 11% to 12% CapEx to sales is what I'm looking at as we see now.",
+   "class": 4,
+   "period": "FY26",
+   "outcome": "FY26 cash capex INR 2,433 Cr = 9.8% of revenue INR 24,803 Cr; 10.8% short of 11% low end",
+   "grade": 0
+  },
+  {
+   "quote": "another order, which we called out with a hyperscaler last year will only play out in fag end of this year.",
+   "class": 7,
+   "period": "By Mar 2026",
+   "outcome": "Q3 FY26: more than half of the large hyperscaler DC-to-DC deal implemented and driving core growth",
+   "grade": 2
+  }
+ ]
+}

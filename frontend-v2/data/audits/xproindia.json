@@ -1,0 +1,224 @@
+{
+ "ticker": "XPROINDIA",
+ "review_date": "2026-10-08",
+ "mode": "fallback",
+ "executable": true,
+ "score_10": 7.8,
+ "note": "No quarterly calls: company holds one annual call after Q4 results (practice 'started last year' per May 2023 call), so standard 8-quarter mode is impossible. Fallback events = the five annual calls (FY22-FY26). Transcripts opened: May 2023, May 2024, May 2025, May 2026. FY22 call (May/Jun 2022) transcript not retrieved; its 2-4 year expansion estimate rests on the company's own restatement in the May 2023 call p.5 (citing AR 2021-22) plus alphastreet summary [unverified]. Outcome documents opened: Q3 FY26 investor release (4 Feb 2026), Q1 FY27 investor release (1 Aug 2026); Q2 FY26 release seen as search extract only. Q1 FY27 release held only restatements (UAE 'minor delays while remaining within the overall project timeline'; Barjora ramp) - not a separate event. AR FY24-FY26 not opened (FY26 Directors' report/MD&A seen via indiainfoline extract only: UAE line 'expected to commission during the current year'; fourth (UAE) and fifth (India) lines 'on the roadmap', undated - not captured). AGM proceedings not retrieved. Capture rule applied: each distinct dated commitment graded at the event where that date was first given; later restatements of the same date, or narrowings inside the same deadline (May 2024 'third quarter of the current fiscal' for Barjora, 'Q3 FY26' for UAE, solar 'well before December'), folded into the original; a new date set after an earlier deadline lapsed is a new promise. May 2024 call therefore carries no new gradeable promise and is excluded from the score. Score: 3 graded events, weights 3-2-1: (1.0x3 + 1.5x2 + 1.5x1) / 6 x 5 = 6.25 -> 6.3. Pattern: every capacity timeline slipped (Barjora line: FY25 -> Q3 FY25 -> ~Sep 2025 -> Nov-Dec 2025 -> commercial 27 Mar 2026; UAE line: FY26 -> Q3 FY26 -> dry runs Q4 CY2025 -> trial Aug-Sep 2026 -> commercial by Q3 FY27, still not commercial at review date); capital, debt and ancillary commitments delivered. Management routinely declines revenue/margin guidance (class 9 refusals recorded, not scored - no prior guidance withdrawn). Classes none stated across window: 6 (ETR and normalisations), except a May 2023 remark on residual tax shield (~Rs 23 Cr) with no rate or date - not captured. v1.2 rule-7 re-grade (supersedes the capture rule, FY22-source and score lines above): 2-4 yr two-line expansion traced to Nov 2021 investor deck (added, outside_window; clock to ~Nov 2025 per Jun 2022 call p.8 '2 to 4 from when we made the announcement'); Barjora line graded 0 (commercial 27 Mar 2026), UAE line 1 (reasoned re-set in May 2025 call); all later Barjora/UAE dates (May 2023-May 2026) folded in; Jun 2022 transcript opened (adds open Biax 3x-turnover target); UAE ~Rs 250 Cr capex moved May 2024 -> May 2023, so May 2024 event dropped (nothing left captured; checked); May 2026 utilisation item folded into May 2025. Rule 6: no class-10 items, nothing removed. Score, weights 5-1 by position: (1.5x4 + 2.0x3 + 0.5x1) / (2x8) x 10 = 7.8; 6.3 -> 7.8.",
+ "quarters": [
+  {
+   "label": "Q4 FY26 annual earnings call (May 2026)",
+   "event_date": "2026-05-22",
+   "source_tier": "earnings_call",
+   "grade": null,
+   "status": "pending",
+   "promises": [
+    {
+     "class": 8,
+     "source_tier": "earnings_call",
+     "date": "2026-05-22",
+     "speaker": "C. Bhaskar, Managing Director",
+     "quote": "2 lines in India next year would be in full production. And let's say, again, the UAE line would be in excess of a 50% capacity utilization during '27-'28",
+     "period": "FY28",
+     "basis": "UAE line utilisation > 50% (India-lines part is a restatement, folded into the May 2025 utilisation item)",
+     "source": "Q4 FY26 earnings call transcript (filed 2026-05-27), https://cdn.financialreports.eu/financialreports/media/filings/61362/2026/RNS/61362_rns_2026-05-27_0bfea075-ca07-4a20-8ab1-a80ccd94760f.pdf p.10",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. 'Next year' ambiguous in a May 2026 answer to a question framed 'FY27, FY28'; speaker clarified only the UAE period ('2027 - 2028'). Rule 7: no earlier UAE utilisation statement found (checked May 2023-May 2025 calls)."
+    },
+    {
+     "class": 9,
+     "source_tier": "earnings_call",
+     "date": "2026-05-22",
+     "speaker": "C. Bhaskar, Managing Director",
+     "quote": "Not providing a guidance yet. When we do, we'll certainly share it in the public domain.",
+     "period": "FY27",
+     "basis": "Revenue and margin guidance refused",
+     "source": "Q4 FY26 earnings call transcript, p.13",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Refusal, not withdrawal: no prior revenue/margin guidance existed. Also refused: EBITDA breakeven utilisation of new line (p.8), FY27/FY28 film EBITDA margins (Girish Behal, p.14). Recorded, not scored."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY25 annual earnings call (May 2025)",
+   "event_date": "2025-05-30",
+   "source_tier": "earnings_call",
+   "grade": 1.5,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 2,
+     "source_tier": "earnings_call",
+     "date": "2025-05-30",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "I believe it would be fair to say we are at the bottom now.",
+     "period": "FY26",
+     "basis": "Standalone EBITDA margin excluding other income (company release basis); anchored qualitative floor converted to the figure in force when said: FY25 9.9%",
+     "source": "Q4 FY25 earnings call transcript (filed 2025-06-05), https://xproindia.com/wp-content/uploads/2025/06/Transcript_05062025.pdf p.15 (answer to whether EBITDA margin had bottomed)",
+     "outcome": "FY26 EBITDA margin 9.7% (Rs 49.2 Cr / Rs 505.5 Cr); quarters Q1 9.9%, Q2 8.9%, Q3 9.2%, Q4 10.6%; Q1 FY27 8.8%.",
+     "outcome_source": "Q1 FY27 investor release p.1 (FY26, FY25, Q1, Q4); Q3 FY26 investor release p.1 (Q2, Q3)",
+     "item_grade": 1,
+     "note": "Floor breached by 0.2pp (~2%) on the full year - within 10%, scored 1 by analogy to the ceiling rule. On the Q4 FY25 quarter alone (8.6% per hdfcsky [unverified], company figure not opened) the floor would have held; the company-filed FY25 anchor is used. Rule 7: no earlier statement found (checked May 2023, May 2024 calls)."
+    },
+    {
+     "class": 5,
+     "source_tier": "earnings_call",
+     "date": "2025-05-30",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "Assuming full conversion of outstanding warrants... the equity capital would rise to INR23.47 crores, which should happen by end July 2025.",
+     "period": "By 31 Jul 2025",
+     "basis": "Full conversion of Jan 2024 preferential warrants; paid-up capital Rs 23.47 Cr",
+     "source": "Q4 FY25 earnings call transcript, p.5",
+     "outcome": "All outstanding warrants converted; 11,70,000 shares allotted in FY26; paid-up capital Rs 23.47 Cr. Conversion window closed 28 Jul 2025; last tranche (2,40,000 shares) paid 25 Jul 2025.",
+     "outcome_source": "Q4 FY26 earnings call transcript p.5; BSE allotment filing 6 Dec 2024 (last date 28 Jul 2025) and auditor certificate filed 13 Aug 2025 (search extracts)",
+     "item_grade": 2,
+     "note": "Conversion was at holders' option; graded because management stated it as an expected capital outcome with a date. Rule 7: no earlier statement found (May 2024 call p.5 notes only Malabar's exercise)."
+    },
+    {
+     "class": 3,
+     "source_tier": "earnings_call",
+     "date": "2025-05-30",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "on a volume basis, next year, we should be pretty much close to full capacity utilization.",
+     "period": "FY27",
+     "basis": "Barjora new line utilisation close to 100% by volume",
+     "source": "Q4 FY25 earnings call transcript, p.15",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open (FY27). Lowered inside the period to 'at least 50%' (May 2026 call p.7) with no reason stated; under C5.3 revision is scored against this original figure at FY27 end. Rule 7: May 2026 'at least 50%' (pp.7-8) and India lines 'full production' next year (p.10) folded here; none earlier (May 2024 p.17 refused a number)."
+    },
+    {
+     "class": 8,
+     "source_tier": "earnings_call",
+     "date": "2025-05-30",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "to start with would be in the range of INR150 crores to INR200 crores when we start the commercial production.",
+     "period": "From commercial production of each new line (undated)",
+     "basis": "Revenue potential per new line (Barjora; UAE in subsidiary)",
+     "source": "Q4 FY25 earnings call transcript, p.6",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open; no period end defined. Biax division revenue not disclosed in Q1 FY27 release. Rule 7: no earlier statement found (checked May 2023, May 2024 calls)."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY23 annual earnings call (May 2023)",
+   "event_date": "2023-05-23",
+   "source_tier": "earnings_call",
+   "grade": 2.0,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "source_tier": "earnings_call",
+     "date": "2023-05-23",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "Utilization of this lower cost energy is expected to commence in early 2025",
+     "period": "Early 2025",
+     "basis": "Open-access solar power supply to Ranjangaon unit via TP Mercury (26% associate with Tata Power)",
+     "source": "Q4 FY23 earnings call transcript, https://nsearchives.nseindia.com/corporate/XPROINDIA_30052023164828_Concall_Transcript_30052023.pdf p.5",
+     "outcome": "Supply commenced 1 Oct 2024, ahead of target.",
+     "outcome_source": "Q4 FY25 earnings call transcript, p.6",
+     "item_grade": 2,
+     "note": "May 2024 restatement ('well before December this year') folded here. Rule 7: no earlier statement found (checked Jun 2022 call, Nov 2021 deck)."
+    },
+    {
+     "class": 5,
+     "source_tier": "earnings_call",
+     "date": "2023-05-23",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "our debt would be restricted to ECB to the extent of supplier credit available for the lines principally.",
+     "period": "Expansion period (FY24-FY26)",
+     "basis": "Project debt limited to supplier-credit ECB; 'keep debt very, very low'",
+     "source": "Q4 FY23 earnings call transcript, p.12",
+     "outcome": "Long-term debt rose Rs 110 Cr in FY25, 'fundamentally towards the supplier credit'; no long-term borrowings for existing operations; net D/E 0.19x (FY25), 'negligible' (FY26); net debt negative at Q3 FY26.",
+     "outcome_source": "Q4 FY25 earnings call transcript pp.4-5; Q4 FY26 earnings call transcript p.5; Q3 FY26 investor release p.2",
+     "item_grade": 2,
+     "note": "Equity also raised (~Rs 290 Cr FY24 via warrants + QIP; USD 9m external equity into UAE subsidiary) - consistent with low-debt intent. Refused in same call: sales/EBITDA growth outlook (p.17, 'best interest not to dwell on that') - class 9 refusal, not scored. Rule 7: none earlier (Jun 2022 call and Nov 2021 deck state no funding plan)."
+    },
+    {
+     "class": 4,
+     "source_tier": "earnings_call",
+     "date": "2023-05-23",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "each line's base cost would be a little over 250 crores.",
+     "period": "Per new line; UAE line placed in FY26 by May 2024 call",
+     "basis": "Capex ~Rs 250 Cr+ per new dielectric line (UAE line through subsidiary)",
+     "source": "Q4 FY23 earnings call transcript, p.17",
+     "outcome": "[not retrieved] Subsidiary capex/CWIP for FY26 not disclosed in documents opened; May 2026 call p.12 confirms RAK line not yet capitalised ('all work in process').",
+     "outcome_source": "Q4 FY26 earnings call transcript p.12",
+     "item_grade": null,
+     "note": "Not graded: amount outcome not disclosed. Rule 7: moved from May 2024 call (p.12 'another INR250-odd crores', FY26), which had no other new promise; that event is dropped."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY22 annual earnings call (Jun 2022)",
+   "event_date": "2022-06-10",
+   "source_tier": "earnings_call",
+   "grade": null,
+   "status": "pending",
+   "promises": [
+    {
+     "class": 8,
+     "source_tier": "earnings_call",
+     "date": "2022-06-10",
+     "speaker": "C. Bhaskar, Managing Director & CEO",
+     "quote": "you will find within 4 to 5 years the turnover from the Biax division will triple",
+     "period": "4-5 years from Jun 2022 (by Jun 2026-Jun 2027); tested at FY27 end",
+     "basis": "Biax division turnover at 3x FY22 level; prefaced 'even assuming the same level'",
+     "source": "Q4 FY22 earnings call transcript (10 Jun 2022), https://xproindia.com/wp-content/uploads/2024/12/1_10062022_Transcript.pdf p.9",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Newly captured on opening the transcript. Rule 7: Nov 2021 deck states no revenue target. FY22 Biax base not yet sourced. The two 2-4 yr expansion items formerly here moved to the Nov 2021 deck."
+    }
+   ]
+  },
+  {
+   "label": "Investor presentation, Nov 2021 (expansion announcement)",
+   "event_date": "2021-11-01",
+   "source_tier": "presentation",
+   "outside_window": true,
+   "grade": 0.5,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 8,
+     "source_tier": "presentation",
+     "date": "2021-11-01",
+     "speaker": "Company (investor presentation)",
+     "quote": "The first phase would double capacity at its existing facility at Barjora, West Bengal ... These phases are expected to span the next 2 - 4 years, also taking into account long equipment delivery periods.",
+     "period": "Next 2-4 years from Nov 2021 (outer bound ~Nov 2025)",
+     "basis": "Phase 1: new Barjora dielectric line commissioned (commercial production)",
+     "source": "Investor presentation Nov 2021, https://xproindia.com/wp-content/uploads/2024/12/1_XIL_Investor_Presentation_Nov_2021.pdf",
+     "outcome": "Commercial production declared 27 Mar 2026, ~4 months after the outer bound (> 1 quarter late).",
+     "outcome_source": "Q1 FY27 investor release, https://nsearchives.nseindia.com/corporate/XPROINDIASKD_01082026153918_Press_release_signed.pdf p.2",
+     "item_grade": 0,
+     "note": "Folded (none a cut before the bound): Jun 2022 '2 to 4' (p.8); FY25 (May 2023 p.5, was 1); Q3 FY25 (May 2024 p.9); ~Sep 2025 (May 2025 p.15, was 1); Nov-Dec 2025 Reg.30 (not opened). Date per IR list; 29 Oct 2021 letter not opened."
+    },
+    {
+     "class": 8,
+     "source_tier": "presentation",
+     "date": "2021-11-01",
+     "speaker": "Company (investor presentation)",
+     "quote": "to be followed by a second phase either at Barjora or another appropriate location ... These phases are expected to span the next 2 - 4 years",
+     "period": "Next 2-4 years from Nov 2021 (outer bound ~Nov 2025)",
+     "basis": "Phase 2: second new dielectric line commissioned (became the UAE / Ras Al Khaimah line)",
+     "source": "Investor presentation Nov 2021 (same URL as above)",
+     "outcome": "Re-set before the bound: May 2025 call put UAE dry runs in Oct-Dec 2025, citing long supply schedules for customised machinery (pp.3, 5, 6). Not commercial at review date; now targeted by Q3 FY27.",
+     "outcome_source": "Q4 FY25 earnings call transcript pp.3, 5, 6; Q4 FY26 earnings call transcript p.15; Q1 FY27 investor release p.2",
+     "item_grade": 1,
+     "note": "Cut, class-9 rule: prospective and reasoned = 1. Folded: FY26 (May 2023 p.5, was 1); Q3 FY26 (May 2024 p.17); dry runs Q4 CY25 (May 2025 p.6, was 0); trial Aug-Sep 2026 [outcome not retrieved] and commercial by Q3 FY27 (May 2026 pp.10, 15)."
+    }
+   ]
+  }
+ ]
+}

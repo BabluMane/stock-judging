@@ -1,0 +1,568 @@
+{
+ "ticker": "ADANIPOWER",
+ "review_date": "2026-10-08",
+ "mode": "standard",
+ "executable": true,
+ "score_10": 8.2,
+ "note": "Calls held in all 8 quarters. Q2 FY25, Q3 FY25 and Q4 FY25 were read from the company transcript PDFs (adanipower.com). Q1 FY26 to Q1 FY27 were read from AlphaStreet third-party transcripts because the company and BSE PDFs returned 403; those quotes should be spot-checked against the filed transcripts. Outcomes are taken from company results releases, NSE filings, the Ministry of Coal release and later call transcripts. Override test (backbone §4 SEVERE: could permanently impair capital, end a revenue stream, or make reported numbers unreliable) was applied to every contradicted class-10 assurance; none met it, so no call was forced to 0 by override.\nv1.2 rule-7 re-grade: added Q4 FY24 (outside_window; NSE transcript) holding Mahan II timeline origin and Godda receivables assurance (0, moved from Q2 FY25); folded 24 restatements into originating items; Q3 FY25 'on schedule' assurance folded into Mahan origin (0 -> ungraded, call now pending); Korba origin (Q2 FY25) graded 0 as an unreasoned cut; FY27 ~3 GW (Q2 FY26) graded 1 as a reasoned cut. Rule 6: no Reg. 30 impact lines in file, none removed. Q1 FY25 transcript not opened (BSE blocked); PLF, WACD, Uttarakhand, Godda-grid, Coastal items not traced. score_10 missing (implied 7.4) -> 8.2.",
+ "quarters": [
+  {
+   "label": "Q1 FY27",
+   "grade": null,
+   "status": "pending",
+   "promises": [
+    {
+     "class": 7,
+     "date": "2026-07-23",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "So we are certainly hopeful that we should be in a position to tie-up in the current year itself.",
+     "period": "FY27",
+     "basis": "Long-term PPA for Korba Phase-II capacity",
+     "source": "Q1 FY27 transcript (AlphaStreet), 2026-07-23, https://alphastreet.com/india/adani-power-ltd-adanipower-q1-2027-earnings-call-transcript/",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Uttarakhand Cabinet approved 1,320 MW procurement from APL on 28 Aug 2026 (Powerline, media); PPA signing not yet confirmed by a filing."
+    },
+    {
+     "class": 5,
+     "date": "2026-07-23",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "It will not cross net debt to EBITDA 3 at any point of time. ... So this net debt to EBITDA between 2 to 3 will run over the period of time.",
+     "period": "Ongoing (ceiling)",
+     "basis": "Net debt / EBITDA ≤ 3.0x",
+     "source": "Q1 FY27 transcript (AlphaStreet), 2026-07-23, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open; test each quarter. Net debt INR47,643 cr at 30 Jun 2026 (Q1 FY27 release). CFO also flagged ~INR60,000 cr interim market funding requirement; board approved QIP up to INR15,000 cr."
+    },
+    {
+     "class": 7,
+     "date": "2026-07-23",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "It is not operational. ... So it will take some time, maybe six months or so.",
+     "period": "~Jan 2027",
+     "basis": "Restart of 180 MW plant acquired with Jaiprakash Associates",
+     "source": "Q1 FY27 transcript (AlphaStreet), 2026-07-23, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY26",
+   "grade": 2,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "date": "2026-04-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "So we expect that in next three months, we should be in a position to get the PPA signed.",
+     "period": "By ~31 Jul 2026",
+     "basis": "PSA signing, 1,600 MW MSEDCL (LoA Mar 2026)",
+     "source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, https://alphastreet.com/india/adani-power-ltd-adanipower-q4-2026-earnings-call-transcript/",
+     "outcome": "Q1 FY27 results release (22 Jul 2026) reports a 25-year Power Supply Agreement signed with MSEDCL for 1,600 MW.",
+     "outcome_source": "Adani Power Q1 FY27 results release, 2026-07-22, https://adani.com/newsroom/media-releases/adani-power-announces-q1-fy27-results",
+     "item_grade": 2,
+     "note": "Exact signing date not stated; release date falls inside the 3-month window."
+    },
+    {
+     "class": 4,
+     "date": "2026-04-30",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "In terms of capex, FY '26-'27, it is roughly INR25,000 crore. ... For FY '27-'28, it will be near about INR33,000 crore.",
+     "period": "FY27; FY28",
+     "basis": "Annual capex, INR crore",
+     "source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Revised to ~23,000 (FY27) and >30,000 (FY28) on the Q1 FY27 call; score against original. Q1 FY27 item merged here (rule 7); it added ~INR33-35k cr p.a. thereafter."
+    },
+    {
+     "class": 3,
+     "date": "2026-04-30",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "We are expecting that the PLF will be far more better than last year",
+     "period": "FY27",
+     "basis": "Consolidated PLF vs FY26 66.5%",
+     "source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Q1 FY27 PLF 77.9% vs 67.0% in Q1 FY26 (Q1 FY27 release)."
+    },
+    {
+     "class": 8,
+     "date": "2026-04-30",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "we should be in a position to achieve INR50,000 crores conservatively in 2031. ... Literally by '31-'32, we can pay our entire debt ... It will be a debt-free company.",
+     "period": "FY31 (EBITDA); FY32 (debt-free)",
+     "basis": "EBITDA INR crore; gross debt to zero",
+     "source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Multi-year. Total debt rose from INR53,556 cr (31 Mar 2026) to INR58,381 cr (30 Jun 2026). Rule 7: not in any earlier captured call; not separately traced."
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY26",
+   "grade": 1.7,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 3,
+     "date": "2026-01-29",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "we think that PLF will also be better than quarter three.",
+     "period": "Q4 FY26",
+     "basis": "PLF vs Q3 FY26 62.6%",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, https://alphastreet.com/india/?p=178603",
+     "outcome": "Q4 FY26 PLF 74.0%",
+     "outcome_source": "Q4 FY26 results release, 2026-04-29, https://www.adani.com/newsroom/media-releases/adani-power-announces-q4-fy26-results",
+     "item_grade": 2,
+     "note": ""
+    },
+    {
+     "class": 3,
+     "date": "2026-01-29",
+     "speaker": "Nishit Dave, Head Investor Relations",
+     "quote": "we should be ending with more than 90% overall plant availability, anyway.",
+     "period": "FY26",
+     "basis": "Overall plant availability, %",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": "FY26 plant availability 89%",
+     "outcome_source": "Q1 FY27 investor presentation, NSE 2026-08-01, https://nsearchives.nseindia.com/corporate/ADANIPOWER_01082026165730_APLRevisedEarningsCallInvestorPresentation01082026.pdf",
+     "item_grade": 1,
+     "note": "~1.1% short of the 90% floor."
+    },
+    {
+     "class": 3,
+     "date": "2026-01-29",
+     "speaker": "Nishit Dave, Head Investor Relations",
+     "quote": "this could increase to around 93%.",
+     "period": "Near term (by FY26 end)",
+     "basis": "Share of operating capacity under long/medium-term PPAs (90% at Q3 FY26)",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": "95% of operating capacity tied up at Q4 FY26",
+     "outcome_source": "Q4 FY26 results release, 2026-04-29, URL above",
+     "item_grade": 2,
+     "note": ""
+    },
+    {
+     "class": 7,
+     "date": "2026-01-29",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "So by the middle of FY '29, all these three projects would be completed.",
+     "period": "By ~Sep 2028",
+     "basis": "Completion of Mahan II, Raipur II, Raigarh II (1,600 MW each)",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Progress at Q1 FY27: Mahan II >88%, Raipur II >62%, Raigarh II >54%. Rule 7: components originate Q4 FY24 (Mahan) and Q3 FY25 (Raipur); kept as composite, ungraded."
+    },
+    {
+     "class": 5,
+     "date": "2026-01-29",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "it will be less than 9% this year.",
+     "period": "FY26",
+     "basis": "Weighted average cost of debt (ceiling)",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] Not disclosed in FY26 results; needs FY26 annual report (finance cost / average debt)."
+    },
+    {
+     "class": 7,
+     "date": "2026-01-29",
+     "speaker": "Nishit Dave, Head Investor Relations",
+     "quote": "Uttarakhand PPA, we will start supplying it from next month onwards.",
+     "period": "Feb 2026",
+     "basis": "Start of supply under Uttarakhand PPA",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] No filing found confirming supply start."
+    },
+    {
+     "class": 8,
+     "date": "2026-01-29",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "it will further reduce from 10% to 3% to 4%.",
+     "period": "~FY31-FY32",
+     "basis": "Open/merchant share of capacity",
+     "source": "Q3 FY26 transcript (AlphaStreet), 2026-01-29, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Multi-year. Interim: 5% open at Q4 FY26."
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY26",
+   "grade": 1.7,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 3,
+     "date": "2025-10-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "We expect our PLF to improve as the lingering impacts of weather abate and demand picks up.",
+     "period": "H2 FY26",
+     "basis": "PLF vs H1 FY26 64.8%",
+     "source": "Q2 FY26 transcript (AlphaStreet), 2025-10-30, https://alphastreet.com/india/adani-power-limited-q2-2026-earnings-call-transcript/",
+     "outcome": "Q3 FY26 62.6%; Q4 FY26 74.0%; FY26 66.5% vs H1 64.8%, implying H2 above H1",
+     "outcome_source": "Q3 FY26 release 2026-01-29, https://www.adani.com/newsroom/media-releases/adani-power-announces-q3-fy26-results ; Q4 FY26 release 2026-04-29, https://www.adani.com/newsroom/media-releases/adani-power-announces-q4-fy26-results",
+     "item_grade": 2,
+     "note": "H2 level derived from filed FY and H1 PLF, not separately disclosed. Q3 alone dipped."
+    },
+    {
+     "class": 7,
+     "date": "2025-10-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "So we hope that we should get the positive communication shortly.",
+     "period": "Near term (Q3 FY26)",
+     "basis": "Assam 3,200 MW long-term thermal PPA award (L1 bidder)",
+     "source": "Q2 FY26 transcript (AlphaStreet), 2025-10-30, URL above",
+     "outcome": "Letter of Award for 3,200 MW received 13 Nov 2025, disclosed 14 Nov 2025",
+     "outcome_source": "NSE filing 2025-11-14, https://nsearchives.nseindia.com/corporate/ADANIPOWER_14112025080422_APLLoAfromAssam14112025.pdf",
+     "item_grade": 2,
+     "note": ""
+    },
+    {
+     "class": 7,
+     "date": "2025-10-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "We are going to commission in next year around 3 gigawatt",
+     "period": "FY27",
+     "basis": "Capacity commissioned in FY27, GW",
+     "source": "Q2 FY26 transcript (AlphaStreet), 2025-10-30, URL above",
+     "outcome": "Cut to 1.32 GW on the Q4 FY26 call (2026-04-30), before FY27 closed and before any shortfall was public; reason stated: geopolitical situation affecting labour and LPG availability, 'conservative approach'.",
+     "outcome_source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, https://alphastreet.com/india/wp-json/wp/v2/posts/182139",
+     "item_grade": 1,
+     "note": "Rule 7 origin (no FY27 GW figure in Q4 FY25 or Q1 FY26 transcripts). Restated ~2.9 GW (Q3 FY26) and 1.32 GW (Q4 FY26), merged. Graded as a cut under class-9 rule: prospective and reasoned = 1."
+    },
+    {
+     "class": 7,
+     "date": "2025-10-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "We are expecting that it will get connected by December 25th.",
+     "period": "Dec 2025",
+     "basis": "Godda 1,600 MW connection to Indian grid",
+     "source": "Q2 FY26 transcript (AlphaStreet), 2025-10-30, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] No filing found confirming connection."
+    },
+    {
+     "class": 3,
+     "date": "2025-10-30",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "for the balance period we are expecting an average realization of around let us say 6 rupees or so...",
+     "period": "H2 FY26",
+     "basis": "Merchant realisation, Rs/kWh",
+     "source": "Q2 FY26 transcript (AlphaStreet), 2025-10-30, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] No H2 merchant realisation disclosed; Q4 FY26 call described merchant prices as subdued."
+    }
+   ]
+  },
+  {
+   "label": "Q1 FY26",
+   "grade": 2,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 2,
+     "date": "2025-08-01",
+     "speaker": "Nishit Dave, AVP Investor Relations",
+     "quote": "you can expect similar EBITDA margins as we have recorded in the last year",
+     "period": "FY26",
+     "basis": "Continuing EBITDA / total continuing revenue incl. other income; FY25 figure in force 38.2%",
+     "source": "Q1 FY26 transcript (AlphaStreet), 2025-08-01, https://alphastreet.com/india/adani-power-ltd-adanipower-q1-2026-earnings-call-transcript/",
+     "outcome": "FY26 38.3% (21,285.35 / 55,582.63)",
+     "outcome_source": "Q4 FY26 results release, 2026-04-29, https://www.adani.com/newsroom/media-releases/adani-power-announces-q4-fy26-results",
+     "item_grade": 2,
+     "note": "Both margins computed from release figures on the same basis."
+    },
+    {
+     "class": 10,
+     "date": "2025-08-01",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "there is no substantial claim now pending, which can change the, let us say, revenue or profitability substantially.",
+     "period": "FY26",
+     "basis": "No material regulatory claim pending",
+     "source": "Q1 FY26 transcript (AlphaStreet), 2025-08-01, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Not graded: Q2 FY26 booked INR669 cr one-time prior-period income (old matters and LPS), which may contradict, but not conclusively from documents opened."
+    },
+    {
+     "class": 7,
+     "date": "2025-08-01",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "The Coastal will get addressed by end of this month.",
+     "period": "Aug 2025",
+     "basis": "Resolution of operating issues at Coastal Energen",
+     "source": "Q1 FY26 transcript (AlphaStreet), 2025-08-01, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] No document confirming outcome."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY25",
+   "grade": 0.8,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 1,
+     "date": "2025-05-01",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "we are expecting more than that this year also.",
+     "period": "FY26",
+     "basis": "Continuing EBITDA > FY25 INR21,575 cr",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.11, https://www.adanipower.com/-/media/Project/Power/Investors/Latest-Information/Earnings-Call-Transcript/Adani-Power-Limited---Earnings-Call-Transcript---April-2025.pdf",
+     "outcome": "FY26 continuing EBITDA INR21,285.35 cr (-1.3%); reported INR23,430.87 cr vs 24,008.18 cr (-2.4%)",
+     "outcome_source": "Q4 FY26 results release, 2026-04-29, https://www.adani.com/newsroom/media-releases/adani-power-announces-q4-fy26-results",
+     "item_grade": 1,
+     "note": "Shortfall within 10%."
+    },
+    {
+     "class": 10,
+     "date": "2025-05-01",
+     "speaker": "Anupam Misra, Group Head, Corporate Finance",
+     "quote": "we actually do not even need to have any additional borrowing also to be able to meet our capex plan.",
+     "period": "FY26",
+     "basis": "Gross debt / capex funding",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.12, URL above",
+     "outcome": "Total debt INR38,334.88 cr (31 Mar 2025) to INR53,555.54 cr (31 Mar 2026), mainly bridge financing for capex",
+     "outcome_source": "Q4 FY26 results release, URL above; Q2 FY26 transcript, https://alphastreet.com/india/wp-json/wp/v2/posts/173033",
+     "item_grade": 0,
+     "note": "Contradicted. Override test (SEVERE): +INR15,200 cr debt at ~2.1x net debt/EBITDA does not permanently impair capital, end a revenue stream, or make reported numbers unreliable; not met, no override. Rule 7: restated Q1 FY26 ('internal accruals will be sufficient to meet our capex requirement for the year'), merged here."
+    },
+    {
+     "class": 5,
+     "date": "2025-05-01",
+     "speaker": "Anupam Misra, Group Head, Corporate Finance",
+     "quote": "That number is going to improve further",
+     "period": "FY26",
+     "basis": "Net debt / EBITDA, 1.4-1.5x in force (ceiling)",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.12, URL above",
+     "outcome": "Net debt INR45,022.02 cr / continuing EBITDA INR21,285.35 cr = ~2.1x at 31 Mar 2026",
+     "outcome_source": "Q4 FY26 results release, URL above",
+     "item_grade": 0,
+     "note": "Ratio computed from release figures; overshoot >10%."
+    },
+    {
+     "class": 7,
+     "date": "2025-05-01",
+     "speaker": "Shersingh B. Khyalia, CEO",
+     "quote": "One of the mines in MP, which is in the Dhirauli block in Singrauli, will start production of coal this year.",
+     "period": "FY26 (by 31 Mar 2026)",
+     "basis": "Dhirauli mine start of coal production",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.4, URL above",
+     "outcome": "Production started 17 May 2026",
+     "outcome_source": "Ministry of Coal press release, 2026-05-19, https://coal.gov.in/sites/default/files/2026-05/Press_19may26.pdf",
+     "item_grade": 1,
+     "note": "'This year' read as FY26 (fiscal convention of the call): ~1.5 months late. A calendar-2025 reading would give 0. Rule 7 origin among opened docs (Q3 FY25 gives output only; Q4 FY24 silent; Q1 FY25 not opened). Restated Q1 FY26 ('September or October') and Q2 FY26; merged."
+    },
+    {
+     "class": 7,
+     "date": "2025-05-01",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "We hope to conclude this acquisition soon, which will take our install capacity to 18,150 MW.",
+     "period": "Near term (Q1-Q2 FY26)",
+     "basis": "Completion of Vidarbha Industries Power (600 MW, Butibori) acquisition",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.5, URL above",
+     "outcome": "Acquisition completed 7 Jul 2025; capacity 18,150 MW",
+     "outcome_source": "Adani Power release, 2025-07-08, https://adani.com/newsroom/media-releases/adani-power-completes-the-acquisition-of-600-mw-vidarbha-power",
+     "item_grade": 2,
+     "note": ""
+    },
+    {
+     "class": 8,
+     "date": "2025-05-01",
+     "speaker": "Anupam Misra, Group Head, Corporate Finance",
+     "quote": "We're currently targeting around INR120,000 crores over the course of next six years.",
+     "period": "FY26-FY31",
+     "basis": "Cumulative expansion capex, INR crore",
+     "source": "Q4 FY25 transcript, 2025-05-01, p.13, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Multi-year. Raised to ~INR2 lakh cr (Q2 FY26 call). Q2 FY26 item merged here (rule 7); not in Q2 FY25 call."
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY25",
+   "grade": null,
+   "status": "pending",
+   "promises": [
+    {
+     "class": 7,
+     "date": "2025-01-30",
+     "speaker": "S. B. Khyalia, CEO",
+     "quote": "As per the PPA, there is a time period of 42 months for the commissioning of the unit. But we are planning to commission this within a period of 4 years.",
+     "period": "~FY29",
+     "basis": "Raipur Phase-II 1,600 MW (MSEDCL 1,496 MW PPA) commissioning",
+     "source": "Q3 FY25 transcript, 2025-01-30 (filed 2025-02-05), p.8, https://www.adanipower.com/-/media/Project/Power/Investors/Investors-Downloads/Results-Conference-Call-Transcripts-Annual/APLtranscript05022025.pdf",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. 62% complete at Q1 FY27. Rule 7 origin (Q2 FY25: work started, no date; Q4 FY24 silent on Raipur)."
+    },
+    {
+     "class": 7,
+     "date": "2025-01-30",
+     "speaker": "S. B. Khyalia, CEO",
+     "quote": "It will supply 5 million tonne of coal after 2 years",
+     "period": "~Jan 2027",
+     "basis": "Dhirauli mine output 5 MTPA",
+     "source": "Q3 FY25 transcript, 2025-01-30, p.4, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Open. Production started 17 May 2026."
+    },
+    {
+     "class": 10,
+     "date": "2025-01-30",
+     "speaker": "S. B. Khyalia, CEO",
+     "quote": "USD 100 million, is the difference between them and us, because of reconciliation. … We are confident that we will get realization of that.",
+     "period": "Open-ended",
+     "basis": "Recovery of disputed USD 100m Bangladesh receivable",
+     "source": "Q3 FY25 transcript, 2025-01-30, p.14, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "[not retrieved] No document on resolution."
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY25",
+   "grade": 1.3,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 4,
+     "date": "2024-10-28",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "For this year, we are expecting that apart from the already concluded acquisitions, considering our own internal benchmark … for further acquisitions as well as our ongoing project and further organic expansion, it will be near about INR 6,000 crores.",
+     "period": "FY25",
+     "basis": "Capex outgo incl. further acquisitions and organic projects, INR crore",
+     "source": "Q2 FY25 transcript, 2024-10-28 (filed 2024-11-05), p.8, https://www.adanipower.com/-/media/Project/Power/Investors/Investors-Downloads/Results-Conference-Call-Transcripts-Annual/APLtranscriptofinvestorcall05112024.pdf",
+     "outcome": "CFO: 'we have already incurred around INR8,000 crores in FY '25 itself'",
+     "outcome_source": "Q4 FY25 transcript, 2025-05-01, p.6, https://www.adanipower.com/-/media/Project/Power/Investors/Latest-Information/Earnings-Call-Transcript/Adani-Power-Limited---Earnings-Call-Transcript---April-2025.pdf",
+     "item_grade": 2,
+     "note": "Graded as a target per §5 (not stated as a cap); scope of the two figures may differ."
+    },
+    {
+     "class": 4,
+     "date": "2024-10-28",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "And for next year, we are expecting that for the same projects, it will be around INR 20,000 crores.",
+     "period": "FY26",
+     "basis": "Capex outgo, same project set, INR crore",
+     "source": "Q2 FY25 transcript, 2024-10-28, p.8, URL above",
+     "outcome": "CFO: 'near about INR22,000 crores to INR23,000 crore' incurred in FY26",
+     "outcome_source": "Q4 FY26 transcript (AlphaStreet), 2026-04-30, https://alphastreet.com/india/wp-json/wp/v2/posts/182139",
+     "item_grade": 2,
+     "note": "Revised to INR13,307 cr on Q4 FY25 call; scored against original. Q4 FY25 item merged here (rule 7); no FY26 figure in Q4 FY24 call."
+    },
+    {
+     "class": 7,
+     "date": "2024-10-28",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "We are expecting that in the next two years, it will be ready.",
+     "period": "By ~Oct 2026",
+     "basis": "Korba (Lanco Amarkantak) 1,320 MW expansion commissioning",
+     "source": "Q2 FY25 transcript, 2024-10-28, p.6, URL above",
+     "outcome": "Re-set before deadline: 'It will take around 30 months from today' (~Jul 2027), no reason stated; later 'June to September' 2026 (Q4 FY26), then 'before December end' 2026 (Q1 FY27).",
+     "outcome_source": "Q3 FY25 transcript, 2025-01-30, p.8, https://www.adanipower.com/-/media/Project/Power/Investors/Investors-Downloads/Results-Conference-Call-Transcripts-Annual/APLtranscript05022025.pdf ; Q1 FY27 transcript (AlphaStreet), https://alphastreet.com/india/adani-power-ltd-adanipower-q1-2027-earnings-call-transcript/",
+     "item_grade": 0,
+     "note": "Rule 7 origin (Q4 FY24: NCLT pending, no date; Q1 FY25 not opened). Cut graded under class-9 rule: prospective, no reason = 0. Restatements Q3 FY25, Q4 FY25, Q3 FY26, Q4 FY26, Q1 FY27 merged."
+    },
+    {
+     "class": 5,
+     "date": "2024-10-28",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "We will follow a debt-light strategy to fund capital expenditure … Our existing operations will generate sufficient cash flows to enable us to reach our targets without excessive leverage.",
+     "period": "Through FY30",
+     "basis": "Capex funding; no numeric cap",
+     "source": "Q2 FY25 transcript, 2024-10-28, pp.4-5, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Multi-year, no figure. Net debt INR31,023 cr (Mar 2025) to INR45,022 cr (Mar 2026)."
+    },
+    {
+     "class": 8,
+     "date": "2024-10-28",
+     "speaker": "Dilip Jha, CFO",
+     "quote": "quest to reach 30+ GW of capacity by FY30 … 11.2 gigawatt of capacity, which will be commissioned in a phase-wise manner by FY30.",
+     "period": "By FY30",
+     "basis": "Installed capacity, GW",
+     "source": "Q2 FY25 transcript, 2024-10-28, pp.4-5, URL above",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Multi-year. Rule 7 origin among opened docs (Q4 FY24: '24 GW' undated; Q1 FY25 not opened). Restated Q3 FY25-Q1 FY26 (30,670 MW by 2030); raised to 42 GW by FY32 (Q2 FY26) and 45 GW (Q1 FY27); merged. FY30 milestone not shown withdrawn; open."
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY24",
+   "outside_window": true,
+   "grade": 0,
+   "status": "graded",
+   "promises": [
+    {
+     "class": 7,
+     "date": "2024-05-02",
+     "speaker": "Shailesh Sawa, Group Head – Regulatory Engagement",
+     "quote": "we are currently executing 1.6 gigawatt capacity at Mahan is good to get commissioned by FY 27-28.",
+     "period": "By FY28 (31 Mar 2028)",
+     "basis": "Commissioning, Mahan Phase-II 2x800 MW",
+     "source": "Q4 FY24 transcript, call 2024-05-02, NSE filing 2024-05-07, p.7, https://nsearchives.nseindia.com/corporate/ADANIPOWER_07052024200610_APLtranscriptconcall31032024.pdf",
+     "outcome": null,
+     "outcome_source": null,
+     "item_grade": null,
+     "note": "Rule 7 origin (Q3 FY24: 'fully on track', no date). Restated Dec 26/Jun 27 (Q2 FY25), 'on schedule' (Q3 FY25), Mar-Apr 27 (Q4 FY25), U1 by Q1 FY28, U2 +6m (Q4 FY26, Q1 FY27); merged. All within FY28; open."
+    },
+    {
+     "class": 10,
+     "date": "2024-05-02",
+     "speaker": "Shailesh Sawa, Group Head – Regulatory Engagement",
+     "quote": "Now that SOP is in place, going forward we do not expect this amount to further pile up.",
+     "period": "From May 2024 (~USD 400m due)",
+     "basis": "Godda (Bangladesh) overdue receivables",
+     "source": "Q4 FY24 transcript, NSE filing 2024-05-07, p.12, URL above",
+     "outcome": "~USD 790m receivable (30 Sep 2024); ~USD 800m outstanding, ~USD 700m overdue (Jan 2025); ~USD 900m incl. LPS (May 2025)",
+     "outcome_source": "Q2 FY25 transcript p.5, https://www.adanipower.com/-/media/Project/Power/Investors/Investors-Downloads/Results-Conference-Call-Transcripts-Annual/APLtranscriptofinvestorcall05112024.pdf ; Q3 FY25 transcript p.14, https://www.adanipower.com/-/media/Project/Power/Investors/Investors-Downloads/Results-Conference-Call-Transcripts-Annual/APLtranscript05022025.pdf",
+     "item_grade": 0,
+     "note": "Rule 7 origin; Q2 FY25 restatement ('no further deterioration', USD ~790m) merged. Contradicted. Override test: balance later reduced, no write-off; not SEVERE, no override."
+    }
+   ]
+  }
+ ]
+}

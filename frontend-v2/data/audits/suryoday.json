@@ -1,0 +1,741 @@
+{
+ "ticker": "SURYODAY",
+ "company": "Suryoday Small Finance Bank Ltd",
+ "review_date": "2026-10-09",
+ "mode": "standard",
+ "score_10": 6.5,
+ "quarters": [
+  {
+   "label": "Q1 FY27",
+   "date": "2026-07-24",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "There's no change in the guidance from what we had indicated at the start of the year (ROA path to ~1.6% by Q4)",
+     "class": 2,
+     "date": "2026-07-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript (auto-generated, partly garbled)",
+     "period": "Q4 FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "FY27 ROA figure is not stated directly in the transcript; the analyst cited ~1.6% Early read: Pending. Q2-Q4 FY27 results not yet reported"
+    },
+    {
+     "quote": "FY27 credit cost somewhere between 0.8% to 1%, and we stay by that guidance",
+     "class": 1,
+     "date": "2026-07-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Q4 FY26 call said ~1%; range tightened to 0.8-1% Early read: Pending"
+    },
+    {
+     "quote": "Cost-to-income target in the range of around 67% to 70%",
+     "class": 2,
+     "date": "2026-07-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 investor presentation, NSE SURYODAY_23072026205059 (snippets only)",
+     "note": "The question was about opex, so the figure is read as cost-to-income Early read: Pending. Q1 FY27 CTI was 70.1% (interim)"
+    },
+    {
+     "quote": "We are out in the market evaluating proposals for raising fresh Tier 2. We hope to close something this quarter",
+     "class": 5,
+     "date": "2026-07-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "Q2 FY27",
+     "outcome": "",
+     "outcome_source": "[not retrieved] Q2 FY27 filings not yet checked",
+     "note": "Tier 1 timing 'nothing finalized' Early read: Pending. No Tier 2 closure retrieved"
+    },
+    {
+     "quote": "We will be adding around closer to 50 branches in this quarter and next quarter",
+     "class": 7,
+     "date": "2026-07-24",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "Q2-Q3 FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Early read: Pending"
+    },
+    {
+     "quote": "Cost of fund to be at around 7.5% for the rest of the year",
+     "class": 2,
+     "date": "2026-07-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "Q2-Q4 FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Early read: Pending"
+    },
+    {
+     "quote": "At least double the customer count (CLOU) during this financial year, ~6 lakh to ~12 lakh",
+     "class": 7,
+     "date": "2026-07-24",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q1 FY27 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Early read: Pending"
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY26",
+   "date": "2026-05-08",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "targeting somewhere between 75 to 90 crores as a whole for the bank on a quarter (slippages)",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27 quarterly",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release, NSE SURYODAY_23072026203743",
+     "note": "Interim only Early read: Pending. Q1 FY27 slippages \u20b992 cr (slightly above range)"
+    },
+    {
+     "quote": "for whole of next year I am looking at somewhere around 1% (credit cost)",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "Another passage reads '70 to 80 bits' (ambiguous transcript) Early read: Pending"
+    },
+    {
+     "quote": "1.2 is quite achievable (Q1 FY27 ROA, up from 1.1% in Q4)",
+     "class": 2,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "Q1 FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release, NSE SURYODAY_23072026203743",
+     "note": "Resolved sub-item; the event stays pending because most FY27 targets are open Early read: Q1 FY27 ROA 1.6%, RoE 14.5%, ahead of the 1.2% guided"
+    },
+    {
+     "quote": "we will be claiming in the region of 450 to 550 crores (CGFMU, FY27)",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release",
+     "note": "Claim size and timing both open Early read: Pending. \u20b9387 cr received 1 Jul 2026 (interim)"
+    },
+    {
+     "quote": "FY27 PAT of about \u20b9300 crore, roughly double FY26's \u20b9152 crore (analyst framing, not disputed)",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "n/a",
+     "note": "CFO reply: 'that's the kind of a target that we have in mind' Early read: Pending"
+    },
+    {
+     "quote": "the goal is to come below 70 for sure (cost-to-income, 67-68% for FY27)",
+     "class": 2,
+     "date": "2026-05-08",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 investor presentation (snippets only)",
+     "note": "Early read: Pending. Q1 FY27 CTI 70.1% (interim)"
+    },
+    {
+     "quote": "We're targeting the growth around closer to 30% on asset size",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q4 FY26 call, Alphastreet transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 investor presentation (snippets only)",
+     "note": "Investor presentation separately guided advances +30-35% Early read: Pending. Q1 FY27 advances growth ~32.5% (interim)"
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY26",
+   "date": "2026-01-23",
+   "status": "graded",
+   "grade": 1.71,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "Q4 slippages around \u20b9100 cr (paraphrase)",
+     "class": 1,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation, NSE (8 May 2026)",
+     "note": "Paraphrased quote. Grade 1 by the ceiling rule (\u226410% overshoot) Early read: \u20b9106 cr, +6% over the ceiling. Grade 1"
+    },
+    {
+     "quote": "Q4 profit above Q3's \u20b936.6 cr (paraphrase)",
+     "class": 1,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: Q4 PAT \u20b949.7 cr. Grade 2"
+    },
+    {
+     "quote": "Q4 RoA ~1.1% (paraphrase)",
+     "class": 2,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: ~1.1%. Grade 2"
+    },
+    {
+     "quote": "Q4 RoE 10-11% (paraphrase)",
+     "class": 2,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: 9.8%, 0.2pp short. Grade 1"
+    },
+    {
+     "quote": "NIM 7.5-8% (paraphrase)",
+     "class": 2,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: 7.9%. Grade 2"
+    },
+    {
+     "quote": "Current-bucket collection efficiency 99.5% from January (paraphrase)",
+     "class": 1,
+     "date": "2026-01-23",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation (8 May 2026)",
+     "note": "Paraphrased quote Early read: Delivered at 99.5% or better per Q4 FY26 materials. Grade 2"
+    },
+    {
+     "quote": "CGFMU claim of \u20b9350-400 cr in Q1 FY27 (paraphrase)",
+     "class": 7,
+     "date": "2026-01-23",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY26 call, NSE SURYODAY_29012026183359",
+     "period": "Q1 FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release, NSE SURYODAY_23072026203743",
+     "note": "Paraphrased quote. The CTI-below-65%-in-FY27 promise is not graded (pending). Q1 FY27 CTI was 70.1% Early read: \u20b9387 cr received 1 Jul 2026. Grade 2"
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY26",
+   "date": "2025-11-07",
+   "status": "graded",
+   "grade": 1.13,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "FY26 RoA \u22651.2% (paraphrase)",
+     "class": 2,
+     "date": "2025-11-07",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote. The \u22641pp partial rule applied literally Early read: 0.9%, 0.3pp short. Grade 1"
+    },
+    {
+     "quote": "FY26 RoE 8-9% (paraphrase)",
+     "class": 2,
+     "date": "2025-11-07",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: 7.6%, 0.4pp short. Grade 1"
+    },
+    {
+     "quote": "Cost-to-income ~70% in H2 (paraphrase)",
+     "class": 2,
+     "date": "2025-11-07",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "H2 FY26",
+     "outcome": "",
+     "outcome_source": "Q3 FY26 and Q4 FY26 materials, NSE",
+     "note": "Paraphrased quote. Ceiling rule Early read: Q3 75.1%, Q4 73.7%, +5% to +7% over the ceiling. Grade 1"
+    },
+    {
+     "quote": "Cost of funds down 20-25 bps (paraphrase)",
+     "class": 2,
+     "date": "2025-11-07",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "H2 FY26",
+     "outcome": "",
+     "outcome_source": "Q3 FY26 and Q4 FY26 materials",
+     "note": "Paraphrased quote Early read: Delivered. Grade 2"
+    },
+    {
+     "quote": "Excess liquidity of ~\u20b91,000 cr to be reduced (paraphrase)",
+     "class": 3,
+     "date": "2025-11-07",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "H2 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: Cash rose to \u20b92,099 cr. Grade 0"
+    },
+    {
+     "quote": "MFI flow-forwards ~\u20b935 cr/month in Q3 (paraphrase)",
+     "class": 1,
+     "date": "2025-11-07",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "Q3 FY26",
+     "outcome": "",
+     "outcome_source": "Q3 FY26 call, NSE",
+     "note": "Paraphrased quote. The ~\u20b939 cr figure is approximate Early read: ~\u20b939 cr/month, +11% over the ceiling. Grade 0"
+    },
+    {
+     "quote": "MFI flow-forwards ~\u20b925 cr/month in Q4 (paraphrase)",
+     "class": 1,
+     "date": "2025-11-07",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: \u20b925 cr/month. Grade 2"
+    },
+    {
+     "quote": "Inclusive-finance disbursements \u20b9450-500 cr/month (paraphrase)",
+     "class": 1,
+     "date": "2025-11-07",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY26 call, NSE SURYODAY_12112025202324",
+     "period": "H2 FY26",
+     "outcome": "",
+     "outcome_source": "Q3 FY26 and Q4 FY26 materials",
+     "note": "Paraphrased quote Early read: Delivered. Grade 2"
+    }
+   ]
+  },
+  {
+   "label": "Q1 FY26",
+   "date": "2025-07-25",
+   "status": "graded",
+   "grade": 1.25,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "Slippages to fall \u20b950-70 cr in Q2 (paraphrase)",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY26 call, Alphastreet post 174796",
+     "period": "Q2 FY26",
+     "outcome": "",
+     "outcome_source": "Q2 FY26 results, NSE",
+     "note": "Paraphrased quote Early read: \u20b9278 cr to \u20b9206 cr, down \u20b972 cr. Grade 2"
+    },
+    {
+     "quote": "FY26 credit cost ~1.2% (paraphrase)",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY26 call, Alphastreet post 174796",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: ~1.57%, +31% over the ceiling. Grade 0"
+    },
+    {
+     "quote": "NIM 7.5-8% (paraphrase)",
+     "class": 2,
+     "date": "2025-07-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY26 call, Alphastreet post 174796",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: FY26 NIM 7.3%, 0.2pp below the range (Q4 was 7.9%). Grade 1"
+    },
+    {
+     "quote": "CGFMU claim of ~\u20b9320 cr in Q3 (paraphrase)",
+     "class": 7,
+     "date": "2025-07-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q1 FY26 call, Alphastreet post 174796",
+     "period": "Q3 FY26",
+     "outcome": "",
+     "outcome_source": "Q2 FY26 results, NSE",
+     "note": "Paraphrased quote. Earlier than guided. Repeats of the Q4 FY25 GNPA<5/NNPA<3 and RoA guidance are folded into the Q4 FY25 event Early read: Claimed and paid earlier, in Q2 (\u20b9313 cr). Grade 2"
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY25",
+   "date": "2025-05-09",
+   "status": "graded",
+   "grade": 0.91,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "FY26 advances growth 30-35% (paraphrase)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript (machine-generated, garbled in places)",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: 29.4%, 0.6pp short. Grade 1"
+    },
+    {
+     "quote": "FY26 deposits growth 40-45% (paraphrase)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote. The retrieved transcript text only says 'faster than advances'. The 40-45% figure comes from my earlier read of the full call and was not re-verified. If only 'faster than advances' stands, this is a 2 Early read: 32.3%. Grade 0"
+    },
+    {
+     "quote": "CASA ratio ~22% (paraphrase)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote Early read: 22.6%. Grade 2"
+    },
+    {
+     "quote": "Secured mix about 55% (from about 50%)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Early read: 55.0%. Grade 2"
+    },
+    {
+     "quote": "GNPA below 5%, NNPA below 3%",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Ceiling target, overshoot above 10%. Repeated in later calls Early read: 6.5% / 4.2%. Grade 0"
+    },
+    {
+     "quote": "Credit cost about 1% ex-CGFMU (base case about 1.1%)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Management also cited ~1.75-2% including CGFMU premium, which would be met. The headline ex-CGFMU figure is graded Early read: ~1.57%, +57% over the ceiling. Grade 0"
+    },
+    {
+     "quote": "ROA 1.5-1.6% (paraphrase)",
+     "class": 2,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote. Guidance was cut to \u22651.2% at Q2 FY26 and Q4 FY26 RoA was ~1.1%. The \u22641pp partial rule applied literally Early read: 0.9%, 0.6pp short. Grade 1"
+    },
+    {
+     "quote": "ROE 11-12% (paraphrase)",
+     "class": 2,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Paraphrased quote. Target later cut to 8-9% Early read: 7.6%, 3.4pp short. Grade 0"
+    },
+    {
+     "quote": "Quarterly slippages ~\u20b950 cr, 35 cr, 30 cr, 20 cr through FY26 (paraphrase)",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "Q1-Q4 FY26",
+     "outcome": "",
+     "outcome_source": "Quarterly results and Q4 FY26 investor presentation",
+     "note": "Paraphrased quote. The transcript calls this a garbled 'rough path', not formal guidance. Graded as given Early read: Actual \u20b9278 / 206 / 155 / 106 cr. Grade 0"
+    },
+    {
+     "quote": "CGFMU receipts of ~\u20b9350-360 cr in FY26",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "A participant cited \u20b9280 cr, which conflicts. The CFO figure is graded Early read: ~\u20b9369 cr. Grade 2"
+    },
+    {
+     "quote": "CD ratio to stay below 100%",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q4 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Early read: 94.8%. Grade 2"
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY25",
+   "date": "2025-01-24",
+   "status": "graded",
+   "grade": 1.5,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "Current-bucket collection efficiency 98.5% (paraphrase)",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q3 FY25 call, Alphastreet post 174798",
+     "period": "Q4 FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "Paraphrased quote Early read: 98.7%. Grade 2"
+    },
+    {
+     "quote": "Secured mix 48% (paraphrase)",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY25 call, Alphastreet post 174798",
+     "period": "Q4 FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 investor presentation",
+     "note": "Paraphrased quote Early read: 50.4%. Grade 2"
+    },
+    {
+     "quote": "FY25 provisions \u20b9220-250 cr (paraphrase)",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q3 FY25 call, Alphastreet post 174798",
+     "period": "FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 results (my earlier read). The retrieved Q4 FY25 transcript text did not state the figure",
+     "note": "Paraphrased quote Early read: \u20b9245 cr, inside the range. Grade 2"
+    },
+    {
+     "quote": "Q4 slippages to be lower than Q3 (paraphrase)",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q3 FY25 call, Alphastreet post 174798",
+     "period": "Q4 FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "Paraphrased quote. Slippage figures are garbled in the transcript. Both versions put Q4 above Q3 Early read: Q4 about \u20b9300-308 cr vs Q3 about \u20b9240-270 cr. Q4 was higher. Grade 0"
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY25",
+   "date": "2024-10-25",
+   "status": "graded",
+   "grade": 0.86,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "we're likely to end up on the 25%, 26% range (advances growth)",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript (auto-generated, garbled in places)",
+     "period": "FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "Earlier 30-35% guidance was cut without reason, which also scores 0 Early read: Gross advances +18.5%. Grade 0"
+    },
+    {
+     "quote": "we will expect our Pre-POP to be in the range of around INR570 crore, INR580 crore",
+     "class": 2,
+     "date": "2024-10-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "The 2% ROA / 14-16% ROE targets from this call are not graded: the FY25 ROA/ROE actuals were not retrieved Early read: PPoP about \u20b9389 cr, down 14.3%. Grade 0"
+    },
+    {
+     "quote": "we'll be less than three and one at the end of this financial year as well (GNPA/NNPA)",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "Major-issue test also triggered by the asset-quality collapse Early read: GNPA 7.2% / NNPA 4.6% at 31 Mar 2025. Grade 0"
+    },
+    {
+     "quote": "we're probably inching up closer to around 98%, 98.5% (collection efficiency)",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "Q3-Q4 FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "A later answer on that call cited 99.1% Early read: 98.7% current-bucket CE in Q4 FY25. Grade 2"
+    },
+    {
+     "quote": "we would make a claim typically in Q1 or Q2 of next year; next year, the number is going to be significantly higher",
+     "class": 7,
+     "date": "2024-10-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Q2 FY26 results, NSE",
+     "note": "Timing met and size higher than indicated Early read: \u20b9313 cr claimed and paid in Q2 FY26, vs ~\u20b9150 cr indicated. Grade 2"
+    },
+    {
+     "quote": "the future slippages in Q4 will taper off; the peaking will happen in Q2 and Q3",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Baskar Babu Ramachandran, MD & CEO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "Q4 FY25",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 call, Alphastreet transcript",
+     "note": "Slippage figures are garbled in the transcript Early read: Q4 FY25 slippages about \u20b9300 cr, above Q3. Grade 0"
+    },
+    {
+     "quote": "ideally maintain a 50-50 mix; 55:45 unsecured to secured in about 18 months",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Kanishka Chaudhary, CFO",
+     "basis": "standalone",
+     "source": "Q2 FY25 call, Alphastreet transcript",
+     "period": "by about Apr 2026",
+     "outcome": "",
+     "outcome_source": "Q4 FY25 and Q4 FY26 investor presentations",
+     "note": "Early read: Secured 50.4% at Mar 2025 and 55.0% at Mar 2026. Grade 2"
+    }
+   ]
+  }
+ ]
+}

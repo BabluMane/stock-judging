@@ -1,25 +1,16 @@
 {
   "ticker": "KALYANKJIL",
   "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 5.4,
+  "note": "Rule 6: no Reg. 30 statutory impact-statement items in file; none removed. Rule 7 sources opened: Q1 FY24 (2023-08-09), Q2 FY24 (2023-11-16), Q3 FY24 (2024-01-31), Q4 FY24 (2024-05-10) transcripts; Q2 FY25, Q3 FY25, Q4 FY25, Q2 FY26 re-checked. Not opened: Q1 FY25 (Aug 2024) transcript and calls before Q1 FY24; items first stated in Q2 FY25 not traced past them. Not traced: Candere INR1,000 Cr, COCO FY27, GML range, regional-brand PAT/INR300 Cr, supplier credit, pledge. v1.2 rule-7 re-grade: 5 promises traced to Q2/Q3 FY24 (2 outside_window entries added); 21 later restatements merged into originating items (regional brand, non-GML debt, real estate, Candere/Kalyan store targets, PBT margin); FY26 debt target (550-600 Cr, cut without reason) and US pilots (H1 FY25) now 0; Q1 FY26 regional 5-store target 0 (re-set); score missing (4.6 on old grades) -> 5.4.",
   "quarters": [
     {
       "label": "Q1 FY27",
       "grade": null,
       "status": "pending",
       "promises": [
-        {
-          "class": 2,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "Even on a conservative basis, I think we'll be able to maintain the PBT margins of the previous year.",
-          "period": "FY27",
-          "basis": "India standalone PBT margin incl. other income; figure in force 5.5-5.6% (FY26: 17,324/3,10,271 Mn = 5.6%)",
-          "source": "Q1 FY27 transcript, company IR site, 2026-08-04 call, p.6 (repeated p.9, p.12)",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Q1 FY27 India PBT 5.1% ex-bullion (4,321/85,033 Mn; Q1 FY27 presentation p.36, p.44): H2 recovery required. Entity not named on call; India standalone assigned from context."
-        },
         {
           "class": 10,
           "date": "2026-08-04",
@@ -31,7 +22,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open."
+          "note": "Open. rule 7: no earlier statement found (checked: Q4 FY26, Q3 FY26)."
         },
         {
           "class": 3,
@@ -47,71 +38,6 @@
           "note": "Open."
         },
         {
-          "class": 7,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "The first showroom will be launched on 21st August in Chennai ... shall be followed by another four showrooms in the next coming months.",
-          "period": "Q2 FY27 (first store 2026-08-21); four more by ~Q3 FY27",
-          "basis": "Regional brand (Akshaya Thanga Maaligai) showroom openings, FOCO",
-          "source": "Q1 FY27 transcript, company IR site, p.4 and p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Third reset of the regional-brand date (CY25 -> FY26 Q4 -> FY27). Whether 21-Aug opening occurred not verified (Q2 FY27 update not retrieved)."
-        },
-        {
-          "class": 7,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "We expect to conclude the sale process and receive consideration before the end of the ongoing quarter.",
-          "period": "Q2 FY27 (by 2026-09-30)",
-          "basis": "Sale of two non-core land parcels, ~INR102 Cr consideration",
-          "source": "Q1 FY27 transcript, company IR site, p.3-4",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open; Q2 FY27 results not filed."
-        },
-        {
-          "class": 5,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "Regarding the non-GML debt reduction, we are well on track to complete the repayment by end of September.",
-          "period": "Q2 FY27 (by 2026-09-30)",
-          "basis": "India standalone non-GML borrowings to zero (ceiling 0; 3,168 Mn at 31-Mar-2026)",
-          "source": "Q1 FY27 transcript, company IR site, p.4 (p.7: 'September we will be debt free, non-GML.')",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Pulls the Q4 FY26 'within FY27' commitment forward to H1 FY27. No 30-Jun-2026 balance sheet published."
-        },
-        {
-          "class": 3,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "Yes. No change in target. ... there is no change in target of number of showrooms in Kalyan and Candere",
-          "period": "FY27",
-          "basis": "Kalyan India gross openings = 84 (all FOCO), per Q4 FY26 deck p.33",
-          "source": "Q1 FY27 transcript, company IR site, p.7",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Q1 FY27: 12 Kalyan India openings (342->354; Q1 FY27 business update 2026-07-07)."
-        },
-        {
-          "class": 3,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we will be opening around 50 showrooms in the financial year",
-          "period": "FY27",
-          "basis": "Candere gross showroom openings",
-          "source": "Q1 FY27 transcript, company IR site, p.11",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Q1 FY27: 5 openings (124->129)."
-        },
-        {
           "class": 10,
           "date": "2026-08-04",
           "speaker": "Ramesh Kalyanaraman, Executive Director",
@@ -122,7 +48,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Candere quarterly PAT not disclosed in Q1 FY27 presentation; Q1 claim itself unverified."
+          "note": "Open. Candere quarterly PAT not disclosed in Q1 FY27 presentation; Q1 claim itself unverified. Distinct period from FY26 Candere PAT promise (Q4 FY25)."
         },
         {
           "class": 6,
@@ -136,19 +62,6 @@
           "outcome_source": null,
           "item_grade": null,
           "note": "Open. Normalisation: read Q2 FY27 margin ex ~INR60 Cr."
-        },
-        {
-          "class": 8,
-          "date": "2026-08-04",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we are expanding 70- 80 showrooms a year",
-          "period": "FY27 onward (multi-year run rate)",
-          "basis": "Kalyan showroom additions per year",
-          "source": "Q1 FY27 transcript, company IR site, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Graded only at period end."
         }
       ]
     },
@@ -194,20 +107,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Narrowed to 'around 50' on Q1 FY27 call."
-        },
-        {
-          "class": 5,
-          "date": "2026-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we want to make it a non-GML debt-free in the running financial year. ... if things go really well, we might do it by H1 itself.",
-          "period": "FY27 (stretch H1 FY27)",
-          "basis": "India standalone non-GML borrowings to zero (ceiling 0); GML to stay near current level",
-          "source": "Q4 FY26 transcript, company IR site, p.6 and p.10",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open."
+          "note": "Open. rule 7: restated Q1 FY27 p.11 ('around 50 showrooms in the financial year'; merged). Q1 FY27: 5 openings (124->129)."
         },
         {
           "class": 5,
@@ -233,33 +133,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Q1 FY27 tracking 5.1%."
-        },
-        {
-          "class": 7,
-          "date": "2026-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "The time line set for the set no 1 asset disposal was before September of this year",
-          "period": "By 2026-09-30",
-          "basis": "Disposal of first set of real-estate collateral assets",
-          "source": "Q4 FY26 transcript, company IR site, p.9",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Timeline refused for second set (~INR200 Cr), p.10 - not a withdrawal of prior guidance, so not class 9."
-        },
-        {
-          "class": 7,
-          "date": "2026-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we are just waiting for the dust to settle down, and we start our campaign.",
-          "period": "FY27",
-          "basis": "Regional brand launch in FY27 (~5 stores; Q4 FY26 presentation p.34)",
-          "source": "Q4 FY26 transcript, company IR site, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open. Date set to 21-Aug-2026 on Q1 FY27 call."
+          "note": "Open. rule 7: restated Q1 FY27 p.6/9/12 ('maintain the PBT margins of the previous year'; merged). Q1 FY27 India PBT 5.1% ex-bullion (4,321/85,033 Mn; Q1 FY27 deck p.36, 44)."
         },
         {
           "class": 8,
@@ -304,22 +178,9 @@
     },
     {
       "label": "Q3 FY26",
-      "grade": 1,
+      "grade": 1.5,
       "status": "graded",
       "promises": [
-        {
-          "class": 7,
-          "date": "2026-02-06",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "It is yet to launch, but the region brand will be launched in the running quarter.",
-          "period": "Q4 FY26",
-          "basis": "Regional brand launch",
-          "source": "Q3 FY26 transcript, company IR site, p.6",
-          "outcome": "Not launched in Q4 FY26 or Q1 FY27; Q4 FY26 deck moves launch to FY27; first store scheduled 21-Aug-2026 (Q2 FY27) - at least 2 quarters late",
-          "outcome_source": "Q4 FY26 investor presentation p.28-29; Q1 FY27 investor presentation p.24",
-          "item_grade": 0,
-          "note": "Second consecutive call promising a Q4 FY26 launch."
-        },
         {
           "class": 2,
           "date": "2026-02-06",
@@ -370,7 +231,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open."
+          "note": "Open. rule 7: restated Q4 FY26 deck p.33 (84 FY27) and Q1 FY27 p.7 ('No change in target') - merged; Q1 FY27 p.6 '70-80 showrooms a year' not treated as cut (same call reaffirmed 84). Q1 FY27: 12 openings."
         },
         {
           "class": 3,
@@ -383,20 +244,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Q1 FY27: 0 international openings."
-        },
-        {
-          "class": 7,
-          "date": "2026-02-06",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we have appointed mediators for finding out interested buyers for real estate, which we are planning to sell. Hopefully, should happen by H1 of the next financial year.",
-          "period": "H1 FY27",
-          "basis": "Sale of non-core real estate",
-          "source": "Q3 FY26 transcript, company IR site, p.12",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open (H1 FY27 results not filed). Agreement signed for INR102 Cr (Q1 FY27 deck)."
+          "note": "Open. Q1 FY27: 0 international openings. rule 7: Q4 FY24 p.9 ('6 in the next financial year ... next 2, 3 years') is a run-rate of unclear period; not merged."
         },
         {
           "class": 5,
@@ -410,40 +258,14 @@
           "outcome_source": null,
           "item_grade": null,
           "note": "Open; exchange shareholding patterns not opened."
-        },
-        {
-          "class": 7,
-          "date": "2026-02-06",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "regional we will open only five showrooms in the next 12 months.",
-          "period": "by ~Feb 2027",
-          "basis": "Regional brand showroom count",
-          "source": "Q3 FY26 transcript, company IR site, p.14",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Open."
         }
       ]
     },
     {
       "label": "Q2 FY26",
-      "grade": 0.9,
+      "grade": 1.2,
       "status": "graded",
       "promises": [
-        {
-          "class": 3,
-          "date": "2025-11-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "80 was for Kalyan. And to be precise, 84 Kalyan India, and we want to do 6 international, out of which 3 done.",
-          "period": "FY26",
-          "basis": "Kalyan India gross showroom launches",
-          "source": "Q2 FY26 transcript, company IR site, p.9 (also p.5)",
-          "outcome": "~74 gross launches (net +64, 278->342); 11.9% short of 84",
-          "outcome_source": "Q2 FY26 transcript p.5; Q3 FY26 investor presentation p.34; Q4 FY26 investor presentation p.34-35",
-          "item_grade": 0,
-          "note": "Q4 deck cites building-material supply disruption. Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
-        },
         {
           "class": 3,
           "date": "2025-11-07",
@@ -455,20 +277,7 @@
           "outcome": "~4 launches (37->41); 33% short of 6",
           "outcome_source": "Q3 FY26 business update (2026-01-07); Q4 FY26 business update (2026-04-07); Q4 FY26 investor presentation p.34",
           "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-11-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "80 Candere is the plan for the year.",
-          "period": "FY26",
-          "basis": "Candere showroom openings",
-          "source": "Q2 FY26 transcript, company IR site, p.9",
-          "outcome": "Net +51 (73->124), gross ~58; >10% short of 80",
-          "outcome_source": "Q3 FY26 business update; Q4 FY26 business update; Q4 FY26 investor presentation p.34",
-          "item_grade": 0,
-          "note": "Management conceded on same call that Candere was running behind (p.9)."
+          "note": "rule 7: no dated earlier FY26 international figure found (checked: Q4 FY24-Q4 FY25 calls); Q4 FY24 p.9 '6 in the next financial year' ambiguous."
         },
         {
           "class": 1,
@@ -481,20 +290,7 @@
           "outcome": "FY26 Candere revenue 4,253 Mn (INR425 Cr); 15% short",
           "outcome_source": "Q4 FY26 investor presentation p.22-23",
           "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 10,
-          "date": "2025-11-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we will end Candere with PAT neutral PAT positive",
-          "period": "FY26",
-          "basis": "Candere full-year PAT >= 0",
-          "source": "Q2 FY26 transcript, company IR site, p.6",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Candere FY26 PAT not disclosed in Q4 FY26 deck or results [not retrieved: FY26 annual report AOC-1 not opened]."
+          "note": "rule 7: Q1 FY26 transcript not re-opened for an earlier figure."
         },
         {
           "class": 2,
@@ -526,19 +322,6 @@
           "class": 5,
           "date": "2025-11-07",
           "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "on track to achieve the annual debt reduction target of INR300 crores.",
-          "period": "FY26",
-          "basis": "Reduction in India non-GML borrowings",
-          "source": "Q2 FY26 transcript, company IR site, p.3",
-          "outcome": "Non-GML fell 5,640 Mn (INR564 Cr): 8,808 -> 3,168 Mn standalone",
-          "outcome_source": "Q4 FY26 investor presentation p.32, 48",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 5,
-          "date": "2025-11-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
           "quote": "So it will be at the range of INR400 crores non-GML by March 31.",
           "period": "FY26 (31-Mar-2026)",
           "basis": "Standalone non-GML borrowings ceiling INR400 Cr",
@@ -559,20 +342,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open."
-        },
-        {
-          "class": 7,
-          "date": "2025-11-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "And now about the launch of the regional brand, it should be in Q4.",
-          "period": "Q4 FY26",
-          "basis": "Regional brand launch",
-          "source": "Q2 FY26 transcript, company IR site, p.6",
-          "outcome": "Not launched in Q4 FY26 or Q1 FY27; first store scheduled 21-Aug-2026 - at least 2 quarters late",
-          "outcome_source": "Q4 FY26 investor presentation p.28-29; Q1 FY27 investor presentation p.24",
-          "item_grade": 0,
-          "note": ""
+          "note": "Open. rule 7: Q2 FY24 p.11 / Q4 FY24 p.6 undated goal only. Restated Q4 FY26 p.6 (FY27, stretch H1) and Q1 FY27 p.4 ('repayment by end of September') - merged. 3,168 Mn at 31-Mar-2026."
         },
         {
           "class": 7,
@@ -585,7 +355,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open."
+          "note": "Open (H1 FY27 results not filed). rule 7: restated Q3 FY26 p.12, Q4 FY26 p.9 (set 1 before Sept; set 2 ~INR200 Cr timeline refused), Q1 FY27 p.3-4 (INR102 Cr by 30-Sep) - merged."
         },
         {
           "class": 2,
@@ -598,54 +368,15 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Open. Verbatim fragment; surrounding text paraphrased."
+          "note": "Open. Verbatim fragment; surrounding text paraphrased. rule 7: Q4 FY24 p.12 generic 'EBITDA margin will keep on degrowing', no period; not merged."
         }
       ]
     },
     {
       "label": "Q1 FY26",
-      "grade": 0.7,
+      "grade": 0,
       "status": "graded",
       "promises": [
-        {
-          "class": 2,
-          "date": "2025-08-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "And PBT should be upper side of 5%, For India.",
-          "period": "FY26",
-          "basis": "India standalone PBT margin incl. other income (target read as >= 5.5%)",
-          "source": "Q1 FY26 transcript, company IR site, p.16",
-          "outcome": "FY26 India PBT 5.6% reported (17,324/3,10,271 Mn); 5.7% pre-exceptional",
-          "outcome_source": "Q4 FY26 investor presentation p.45",
-          "item_grade": 2,
-          "note": ""
-        },
-        {
-          "class": 3,
-          "date": "2025-08-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "plan to add 80 Candere showrooms in India this year.",
-          "period": "FY26",
-          "basis": "Candere showroom additions, India",
-          "source": "Q1 FY26 transcript, company IR site, p.4",
-          "outcome": "Net +51 (73->124), gross ~58; >25% short",
-          "outcome_source": "Q4 FY26 investor presentation p.8, 23, 33; Q4 FY26 business update (2026-04-07)",
-          "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 10,
-          "date": "2025-08-07",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "Candere should end PAT positive neutral by the end of the current financial year.",
-          "period": "FY26",
-          "basis": "Candere FY26 PAT >= 0",
-          "source": "Q1 FY26 transcript, company IR site, p.4 (repeated p.18)",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "[not retrieved] Candere FY26 PAT not disclosed in Q4 FY26 deck/results."
-        },
         {
           "class": 7,
           "date": "2025-08-07",
@@ -654,10 +385,10 @@
           "period": "CY2025 (by Dec-2025)",
           "basis": "Launch of first regional brand",
           "source": "Q1 FY26 transcript, company IR site, p.4",
-          "outcome": "Not launched by Jun-2026; date reset to FY26 (Q2 FY26 deck) then FY27 (Q4 FY26 deck); first store scheduled 21-Aug-2026",
-          "outcome_source": "Q2 FY26 investor presentation p.28-29; Q4 FY26 investor presentation p.28-29; Q1 FY27 investor presentation p.24",
+          "outcome": "Not launched by Jun-2026; re-set to Q4 FY26 (Q2 FY26 call p.6, 2025-11-07, no reason), then FY27 (Q4 FY26 deck), first store set for 21-Aug-2026",
+          "outcome_source": "Q2 FY26 transcript p.6; Q4 FY26 investor presentation p.28-29; Q1 FY27 investor presentation p.24",
           "item_grade": 0,
-          "note": "Graded against original CY2025 date; >= 2 quarters late."
+          "note": "rule 7: origin (not in Q4 FY25 call). Absorbs Q2 FY26, Q3 FY26 (were 0, 0), Q4 FY26 and Q1 FY27 restatements. Re-set before period end without reason: class-9 rule 0."
         },
         {
           "class": 3,
@@ -667,10 +398,10 @@
           "period": "Aug-2025 to Aug-2026",
           "basis": "Regional-brand showroom count",
           "source": "Q1 FY26 transcript, company IR site, p.16",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "Period ends in Q2 FY27 - open; zero opened by 30-Jun-2026."
+          "outcome": "Window re-set to 'next 12 months' on Q2 FY26 p.7 and Q3 FY26 p.14 before period end, no reason stated; zero opened by 30-Jun-2026",
+          "outcome_source": "Q2 FY26 transcript p.7; Q3 FY26 transcript p.14; Q1 FY27 investor presentation p.24",
+          "item_grade": 0,
+          "note": "rule 7: Q3 FY26 restatement merged. §4a cut -> class-9 rule 0 (was open)."
         },
         {
           "class": 10,
@@ -715,35 +446,9 @@
     },
     {
       "label": "Q4 FY25",
-      "grade": 1.1,
+      "grade": 1.6,
       "status": "graded",
       "promises": [
-        {
-          "class": 3,
-          "date": "2025-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we plan to open 170 showrooms across Kalyan and Candere formats",
-          "period": "FY26",
-          "basis": "Gross showroom openings, all formats",
-          "source": "Q4 FY25 transcript, company IR site, p.3-4",
-          "outcome": "~136 gross (~74 Kalyan India + ~4 international + ~58 Candere); net +119 (388->507); 20% short",
-          "outcome_source": "Q4 FY26 investor presentation p.8, 33; Q4 FY25 investor presentation p.7-8; Q4 FY26 business update",
-          "item_grade": 0,
-          "note": "Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we are opening 90 Kalyan showrooms out of which what 80 plus will be in India",
-          "period": "FY26",
-          "basis": "Kalyan gross openings, total (India + international)",
-          "source": "Q4 FY25 transcript, company IR site, p.8-9",
-          "outcome": "~78 gross (~74 India + ~4 international); 13% short of 90",
-          "outcome_source": "Q4 FY26 investor presentation p.8, 33-35",
-          "item_grade": 0,
-          "note": "Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
-        },
         {
           "class": 3,
           "date": "2025-05-08",
@@ -755,20 +460,7 @@
           "outcome": "~74 gross (net +64, 278->342); 7.5% short of 80",
           "outcome_source": "Q4 FY26 investor presentation p.8, 33-35; Q3 FY26 investor presentation p.34",
           "item_grade": 1,
-          "note": "Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
-        },
-        {
-          "class": 3,
-          "date": "2025-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "We plan to launch 80 Candere showrooms in India during the current financial year",
-          "period": "FY26",
-          "basis": "Candere showroom launches",
-          "source": "Q4 FY25 transcript, company IR site, p.3-4",
-          "outcome": "Net +51 (73->124), gross ~58; >25% short",
-          "outcome_source": "Q4 FY26 investor presentation p.23, 33",
-          "item_grade": 0,
-          "note": ""
+          "note": "Gross built from quarterly disclosures (25 by Sep-25, 21 in Q3, 28 in Q4). rule 7: first India-only FY26 figure; raised to 84 on Q2 FY26 p.9 (merged; was 0), scored vs original 80."
         },
         {
           "class": 7,
@@ -794,7 +486,7 @@
           "outcome": "1 UK showroom at 31-Mar-2026 (0 at 31-Mar-2025)",
           "outcome_source": "Q4 FY26 business update (2026-04-07); Q4 FY26 investor presentation p.8",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: no earlier statement found (checked: Q3 FY25; Q4 FY24 mentions UK enquiries only)."
         },
         {
           "class": 10,
@@ -807,7 +499,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "[not retrieved] Candere FY26 PAT not disclosed."
+          "note": "[not retrieved] Candere FY26 PAT not disclosed. rule 7: restated Q1 FY26 p.4 and Q2 FY26 p.6 (PAT neutral/positive) - merged; Q3 FY25 targeted store EBITDA only."
         },
         {
           "class": 2,
@@ -820,20 +512,7 @@
           "outcome": "FY26 India PBT 5.6% reported, 5.7% pre-exceptional",
           "outcome_source": "Q4 FY26 investor presentation p.45-46",
           "item_grade": 2,
-          "note": "Consolidated 5.0% reported / 5.2% pre-exceptional."
-        },
-        {
-          "class": 5,
-          "date": "2025-05-08",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "debt reduction will be in the range of INR300 crores to INR400 crores.",
-          "period": "FY26",
-          "basis": "India non-GML borrowings reduction",
-          "source": "Q4 FY25 transcript, company IR site, p.8-9 (p.3-4: 'INR350 to 400 crores')",
-          "outcome": "Standalone non-GML fell INR564 Cr (8,808 -> 3,168 Mn)",
-          "outcome_source": "Q4 FY26 investor presentation p.32-33, 47",
-          "item_grade": 2,
-          "note": "Total standalone debt incl. GML fell only ~INR298 Cr as GML rose ~INR266 Cr. Reduction paused around Q1 FY26 then resumed."
+          "note": "Consolidated 5.0%/5.2%. rule 7: raised Q1 FY26 p.16 ('upper side of 5%'; merged, was 2). Q4 FY24 p.17 group 'above 5% ... give it a year more' undated; not merged."
         },
         {
           "class": 4,
@@ -846,7 +525,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "Basis mismatch: FY26 consolidated cash capex 4,061 Mn includes Candere (Q4 FY26 audited results, cash flow). Revised within call 150 -> 200+. Likely overrun; ungraded."
+          "note": "Basis mismatch: FY26 consolidated cash capex 4,061 Mn includes Candere. Revised within call 150 -> 200+. Ungraded. rule 7: Q4 FY24 p.5 'year next INR 150 crores' is overall capex - different basis, not merged."
         },
         {
           "class": 10,
@@ -865,22 +544,9 @@
     },
     {
       "label": "Q3 FY25",
-      "grade": 0.8,
+      "grade": 1,
       "status": "graded",
       "promises": [
-        {
-          "class": 3,
-          "date": "2025-01-30",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "We are on track for the launch of 30 Kalyan showrooms and 15 Candere showrooms in India during the current quarter.",
-          "period": "Q4 FY25",
-          "basis": "Kalyan India gross launches",
-          "source": "Q3 FY25 transcript, company IR site, p.3-4",
-          "outcome": "25 launched; 16.7% short",
-          "outcome_source": "Q4 FY25 quarterly business update; Q4 FY25 investor presentation slide 33-34",
-          "item_grade": 0,
-          "note": ""
-        },
         {
           "class": 3,
           "date": "2025-01-30",
@@ -892,7 +558,7 @@
           "outcome": "14 launched (59->73); 6.7% short",
           "outcome_source": "Q4 FY25 quarterly business update; Q3 FY25 presentation slide 8; Q4 FY25 presentation slide 8",
           "item_grade": 1,
-          "note": "Later in the call (p.9-10) '50 more' for Candere contradicts 15; scored against prepared remarks."
+          "note": "Later in the call (p.9-10) '50 more' for Candere contradicts 15; scored against prepared remarks. Kalyan '30' half merged into Q2 FY25 origin."
         },
         {
           "class": 3,
@@ -900,12 +566,12 @@
           "speaker": "Ramesh Kalyanaraman, Executive Director",
           "quote": "for FY 2026, we have drawn up plans to launch 170 showrooms across Kalyan and Candere formats, 90 Kalyan and 80 Candere.",
           "period": "FY26",
-          "basis": "Kalyan gross launches (India + international)",
+          "basis": "Gross showroom openings, all formats",
           "source": "Q3 FY25 transcript, company IR site, p.2-3",
-          "outcome": "~78 gross; 13% short of 90",
-          "outcome_source": "Q4 FY26 investor presentation slide 33-34",
+          "outcome": "~136 gross (~74 Kalyan India + ~4 international + ~58 Candere); net +119 (388->507); 20% short",
+          "outcome_source": "Q4 FY26 investor presentation p.8, 33; Q4 FY25 investor presentation p.7-8; Q4 FY26 business update",
           "item_grade": 0,
-          "note": "Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
+          "note": "rule 7: moved from Q4 FY25 (restated 2025-05-08 p.3-4). Kalyan '90' half merged into Q2 FY25 FY26-Kalyan item."
         },
         {
           "class": 3,
@@ -918,7 +584,7 @@
           "outcome": "Net +51 (73->124), gross ~58; >25% short",
           "outcome_source": "Q4 FY26 investor presentation slide 33",
           "item_grade": 0,
-          "note": ""
+          "note": "rule 7: origin. Restated Q4 FY25 p.3-4, Q1 FY26 p.4, Q2 FY26 p.9 (80 each; merged, were 0, 0, 0)."
         },
         {
           "class": 5,
@@ -944,7 +610,7 @@
           "outcome": "FY26 PBT +88% vs revenue +43%; PBT margin 3.8% -> 5.0%",
           "outcome_source": "Q4 FY26 investor presentation slide 47; Q4 FY25 investor presentation slide 45",
           "item_grade": 2,
-          "note": ""
+          "note": "rule 7: Q3 FY24 p.11 same guidance for FY24 (different period); not merged."
         },
         {
           "class": 10,
@@ -970,7 +636,7 @@
           "outcome": null,
           "outcome_source": null,
           "item_grade": null,
-          "note": "[not retrieved] Candere EBITDA not disclosed."
+          "note": "[not retrieved] Candere EBITDA not disclosed. rule 7: Q4 FY24 p.13 gave no Candere profit target."
         },
         {
           "class": 8,
@@ -1009,32 +675,6 @@
           "class": 3,
           "date": "2024-11-13",
           "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we are on track for the targeted 80 Kalyan and 50 Candere for the current financial year.",
-          "period": "FY25",
-          "basis": "Kalyan India launches",
-          "source": "Q2 FY25 transcript, company IR site, p.2-3",
-          "outcome": "Net +74 (204->278); 7.5% short on net basis",
-          "outcome_source": "Q4 FY25 investor presentation slide 33-34",
-          "item_grade": 1,
-          "note": "Gross not disclosed; gross >= net."
-        },
-        {
-          "class": 3,
-          "date": "2024-11-13",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we are on track for the targeted 80 Kalyan and 50 Candere for the current financial year.",
-          "period": "FY25",
-          "basis": "Candere launches",
-          "source": "Q2 FY25 transcript, company IR site, p.2-3",
-          "outcome": null,
-          "outcome_source": null,
-          "item_grade": null,
-          "note": "[not retrieved] 31-Mar-2024 Candere base not retrieved; FY25 gross launches not disclosed."
-        },
-        {
-          "class": 3,
-          "date": "2024-11-13",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
           "quote": "No, Q4, we will open the 30 showrooms.",
           "period": "Q4 FY25",
           "basis": "Kalyan India gross launches",
@@ -1042,46 +682,7 @@
           "outcome": "25 launched; 16.7% short",
           "outcome_source": "Q4 FY25 quarterly business update; Q4 FY25 investor presentation slide 33-34",
           "item_grade": 0,
-          "note": ""
-        },
-        {
-          "class": 7,
-          "date": "2024-11-13",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "we expect to open the showroom by the end of the current quarter.",
-          "period": "Q3 FY25",
-          "basis": "First U.S. showroom",
-          "source": "Q2 FY25 transcript, company IR site, p.3-4",
-          "outcome": "Opened: 1 USA showroom at 31-Dec-2024",
-          "outcome_source": "Q3 FY25 investor presentation slide 8",
-          "item_grade": 2,
-          "note": "Launch had already slipped once before this promise."
-        },
-        {
-          "class": 5,
-          "date": "2024-11-13",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "So, debt reduction this year, our plan was INR 300 crores.",
-          "period": "FY25",
-          "basis": "India non-GML debt reduction",
-          "source": "Q2 FY25 transcript, company IR site, p.9-10",
-          "outcome": "India WC loans reduced 2,582 Mn (INR258 Cr); 13.9% short",
-          "outcome_source": "Q4 FY25 investor presentation slide 31",
-          "item_grade": 0,
-          "note": "Standalone borrowings 8,944 -> 8,808 Mn (slide 46)."
-        },
-        {
-          "class": 5,
-          "date": "2024-11-13",
-          "speaker": "Ramesh Kalyanaraman, Executive Director",
-          "quote": "Next year should be in the range of what? INR 350 crores to INR 400 crores.",
-          "period": "FY26",
-          "basis": "India non-GML debt reduction",
-          "source": "Q2 FY25 transcript, company IR site, p.9-10",
-          "outcome": "Non-GML reduced 5,640 Mn (INR564 Cr)",
-          "outcome_source": "Q4 FY26 investor presentation slides 32-33",
-          "item_grade": 2,
-          "note": ""
+          "note": "rule 7: restated Q3 FY25 p.3-4 (merged, was 0). Q1 FY25 transcript not opened."
         },
         {
           "class": 6,
@@ -1130,10 +731,91 @@
           "period": "FY26",
           "basis": "Kalyan gross launches (India + international)",
           "source": "Q2 FY25 transcript, company IR site, p.9-10",
-          "outcome": "~78 gross; 2.5% short of 80",
+          "outcome": "~78 gross (~74 India + ~4 international); 2.5% short of 80",
           "outcome_source": "Q4 FY26 investor presentation slide 33-35; Q3 FY26 investor presentation p.34",
           "item_grade": 1,
-          "note": "Gross FY26 openings built from quarterly disclosures: Kalyan India ~74 (25 by Sep-25 per Q2 FY26 call, 21 in Q3, 28 in Q4); international ~4 (37->41); Candere ~58 (net +51, 73->124)."
+          "note": "rule 7: origin (Q4 FY24 gave no FY26 count). Raised to 90 on Q3 FY25 p.2-3 and Q4 FY25 p.8-9 (merged, were 0, 0); scored vs original 80."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY24",
+      "outside_window": true,
+      "grade": 1,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2024-01-31",
+          "speaker": "Ramesh Kalyanaraman, Executive Director",
+          "quote": "Candere is minimum of 50 because 50 we are talking about is only franchise.",
+          "period": "FY25",
+          "basis": "Candere showroom launches",
+          "source": "Q3 FY24 transcript (call 2024-01-31), NSE filing 2024-02-05, p.8",
+          "outcome": "60 Candere showrooms launched in India in FY25",
+          "outcome_source": "Q4 FY25 transcript (2025-05-08), company IR site, p.3",
+          "item_grade": 2,
+          "note": "rule 7: moved from Q2 FY25 ('targeted ... 50 Candere'; was null). Restated Q4 FY24 p.13 (Sanjay Raghuraman)."
+        },
+        {
+          "class": 7,
+          "date": "2024-01-31",
+          "speaker": "Ramesh Kalyanaraman, Executive Director",
+          "quote": "we will be opening in the first half of the next financial year.",
+          "period": "H1 FY25 (by 2024-09-30)",
+          "basis": "First set of two company-owned U.S. pilot showrooms (announced p.4)",
+          "source": "Q3 FY24 transcript, NSE filing 2024-02-05, p.12",
+          "outcome": "None open by Q2 FY25 call (2024-11-13, delay admitted, no reason); 1 U.S. showroom at 31-Dec-2024 - pair >1 quarter late",
+          "outcome_source": "Q2 FY25 transcript p.3-4; Q3 FY25 investor presentation slide 8",
+          "item_grade": 0,
+          "note": "rule 7: moved from Q2 FY25 (was 2 on re-set 'by end of current quarter'). Q4 FY24 p.9 restated 'before the end of H1, the first one'."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY24",
+      "outside_window": true,
+      "grade": 0.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2023-11-16",
+          "speaker": "Ramesh Kalyanaraman, Executive Director",
+          "quote": "For the next financial year, we have drawn up plans to launch around 80 Kalyan showrooms across India.",
+          "period": "FY25",
+          "basis": "Kalyan India gross showroom launches",
+          "source": "Q2 FY24 transcript, BSE filing 2023-11-21, p.5",
+          "outcome": "76 Kalyan showrooms launched in India in FY25; 5% short",
+          "outcome_source": "Q4 FY25 transcript (2025-05-08), company IR site, p.3; Q4 FY25 investor presentation slide 33-34",
+          "item_grade": 1,
+          "note": "rule 7: moved from Q2 FY25 ('targeted 80 Kalyan'). Restated Q3 FY24 p.8, Q4 FY24 p.3. Net +74 (204->278)."
+        },
+        {
+          "class": 5,
+          "date": "2023-11-16",
+          "speaker": "Ramesh Kalyanaraman, Executive Director",
+          "quote": "easily next year, Rs. 400 crores to Rs. 450 crores",
+          "period": "FY25",
+          "basis": "India non-GML (cash credit) debt reduction; category from context ('only the gold loan in our books in India')",
+          "source": "Q2 FY24 transcript, BSE filing 2023-11-21, p.11",
+          "outcome": "India WC loans reduced 2,582 Mn (~INR258 Cr); 35% short of 400",
+          "outcome_source": "Q4 FY25 investor presentation slide 31; Q4 FY25 transcript p.3",
+          "item_grade": 0,
+          "note": "rule 7: moved from Q2 FY25 ('our plan was INR300 crores'; was 0). Restated Q3 FY24 p.9; cut to 350-400 (Q4 FY24 p.3), then 300 (Q2 FY25), no reason: class-9 rule also 0."
+        },
+        {
+          "class": 8,
+          "date": "2023-11-16",
+          "speaker": "Ramesh Kalyanaraman, Executive Director",
+          "quote": "the year next again Rs. 550 crores to Rs. 600 crores.",
+          "period": "FY26",
+          "basis": "India non-GML debt reduction (multi-year target)",
+          "source": "Q2 FY24 transcript, BSE filing 2023-11-21, p.11",
+          "outcome": "Cut before period end to 400-500 (Q4 FY24 p.6), 350-400 (Q2 FY25 p.9-10), 300 (Q2 FY26 p.3), no reason stated; actual FY26 non-GML reduction INR564 Cr",
+          "outcome_source": "Q4 FY24 transcript, NSE 2024-05-14, p.6; Q2 FY25 transcript p.9-10; Q4 FY26 investor presentation p.32-33",
+          "item_grade": 0,
+          "note": "rule 7: absorbs Q2 FY25, Q4 FY25, Q2 FY26 FY26-debt items (were 2, 2, 2). §5 cut rule: unreasoned -> 0, although INR564 Cr met original low end."
         }
       ]
     }

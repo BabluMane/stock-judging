@@ -1,0 +1,128 @@
+{
+ "as_of": "2026-10-09",
+ "symbol": "MANAPPURAM",
+ "name": "Manappuram Finance Ltd",
+ "tier": "FULL",
+ "status": "validated",
+ "conviction": "0.45",
+ "key_metrics": {
+  "mcap_cr": 29354,
+  "beta": 1.6994,
+  "beta_note": "60m vs NSEI; crisis-inflated (Asirvad/RBI-embargo period)",
+  "price": 312,
+  "w52_low": 245.15,
+  "w52_high": 381.55,
+  "sales_fy26_cr": 9509,
+  "pat_fy26_cr": 993,
+  "eps_fy26": 10.68,
+  "eps_ttm": 15.97,
+  "pe_ttm": 19.5,
+  "book_value_ps": 170.7,
+  "pbv": 1.83,
+  "promoter_pct": 41.66,
+  "pledge_pct": 0.0,
+  "promoter_note": "31.77% (Mar-26) -> 41.66% (Jun-26): Bain Capital joint-control stake, classified promoter",
+  "roe_fy26": 6.8,
+  "roa_fy26": 1.6,
+  "gnpa_fy26": 1.5,
+  "nim_fy26": 11.0,
+  "cost_income_fy26": 52.5,
+  "leverage_x": 4.64,
+  "aum_q1fy27_cr": 69635,
+  "gold_aum_q1fy27_cr": 57006,
+  "q1fy27_pat_cr": 585,
+  "asirvad_q1fy27": "profit Rs 21cr (vs losses FY25)"
+ },
+ "engine": {
+  "distress": "VETOED-DATA (financial variant). D1 pledge PASS (0%). D6 CAMEL: 4/5 computable, 7/8 pts (A:2 GNPA 1.5%, M:1 cost/income 52.5%, E:2 ROA 1.6%, L:2 lev 4.64x); CAR missing -> UNCOMPUTABLE on form. No hard floors tripped (GNPA 1.5% << 12% floor). E-rules N/A for financials by construction.",
+  "event_lane": "No formal charge/order/debarment vs company/promoters at d0. Note: RBI barred Asirvad MFI disbursals Oct-2024 (subsidiary); embargo lifted, unit profitable again Q1FY27.",
+  "usability": "STOP on U3: results_published null -> not PIT-strict (same data gap as all prior reviews). U1/U2 uncomputable for same reason."
+ },
+ "dcf": {
+  "current_price": 312,
+  "fair_value": 247,
+  "fair_value_note": "Normalized excess-return DCF (w=12%, MOFSL ROE path 12.6%->17%, term 14%/5% g). MECHANICAL w=17.14% (beta 1.70) gives Rs 123 -- BETA-DISTORTED by crisis volatility, not usable.",
+  "sensitivity": {
+   "w_12.0": 247,
+   "w_14.0": 181,
+   "w_17.14": 123
+  },
+  "inv_trigger": 154,
+  "acc_trigger": 203,
+  "model": "excess-return-to-equity 5y explicit + terminal; Book0 Rs 16,051cr (FY26), 94cr shares; retention 75%",
+  "cross_checks": {
+   "pe_fy28e": "Rs 29.9 x 12x = Rs 359",
+   "pbv_fy27e": "1.8x Rs 186 = Rs 335",
+   "street": "Jefferies Rs 430 (buy), CLSA Rs 350 (hold)"
+  }
+ },
+ "scores": {
+  "composite": 3.6,
+  "quality": 1.0,
+  "forensic": 1.25,
+  "governance": 6.0,
+  "valuation": 3.33,
+  "scenarios": 5.0,
+  "other": 5.0
+ },
+ "v21_detail": {
+  "A": 1.0,
+  "B": 1.25,
+  "C": 6.0,
+  "D": 3.33,
+  "E": 5.0,
+  "F": 5.0,
+  "C4": 1,
+  "C5": 1,
+  "credibility_score": null,
+  "composite": 3.6,
+  "composite_raw": 3.6,
+  "A_tests": {
+   "A1": "0: 5yr avg RoE 13.3% vs COE 17.1% (crisis-beta-inflated hurdle)",
+   "A2": "0: 5yr sales CAGR 8.5% vs 12% bar; down year (FY26) in window",
+   "A3": "0: net-margin range 14.4pp over 5yrs (MFI blowup volatility)",
+   "A4": "1: manual neutral",
+   "A5": "0: incremental PAT/NW -26.7% vs COE (trough earnings)"
+  },
+  "B_note": "v2.1 battery is non-financial by design: cash-conversion/receivables N/A for lenders; 1/8 pass -> 1.25. Substantive forensic read is engine D6 CAMEL (7/8).",
+  "C_tests": "C1=2 (41.7% promoter, 0% pledge); C2-C4=1 neutral; C5=1 neutral (no promise audit yet)",
+  "D_tests": "D1=0 (Rs 312 > normalized FV Rs 247); D3=0 (g_implied not wired); D5=2 (FY26 net margin 10.4% < 6yr avg 19.8% -- trough, not peak)",
+  "G1": "VETOED-DATA (D6 CAR missing -- structural, same as all prior reviews)"
+ },
+ "entry": {
+  "w52_low": 245.15,
+  "w52_high": 381.55,
+  "pct_above_52w_low": 27.3,
+  "drawdown_from_52w_high": 18.2,
+  "inv_trigger": 154,
+  "acc_trigger": 203,
+  "position": "mid-range; 27% above 52w low, 18% below high. Nowhere near mechanical entry."
+ },
+ "verdict": {
+  "category": "WATCH",
+  "conviction": 0.45,
+  "entry_trigger": 154,
+  "acc_trigger": 203,
+  "mechanical_tier": "PASS (3.6 < 4.5; G1 VETOED-DATA)",
+  "judgment": "Upgraded PASS->WATCH: composite is trough-punished (MFI crisis in 5yr window, crisis-inflated beta). Forward setup (Bain, Asirvad recovery, gold cycle) is a legitimate turnaround watch, not a buy."
+ },
+ "thesis": "India's #2 gold-loan NBFC (Rs 57,006cr gold AUM, +98% YoY) emerging from its worst 2 years. The Asirvad MFI blowup (RBI embargo Oct-2024) crushed FY25-26 earnings (PAT Rs 2,197cr -> Rs 993cr, ROE 21% -> 7%), but Q1FY27 shows the turn: PAT Rs 585cr (+341% YoY), Asirvad profitable again, gold yields +60bps to 17.7%, Bain Capital's Rs 4,385cr joint-control investment de-risking the balance sheet. At Rs 312 (1.8x book, 10.3x FY28E EPS) it is fairly priced for a recovery -- not cheap enough to buy the uncertainty, too good a franchise to ignore.",
+ "asset_quality": "Consolidated GNPA 1.5% (FY26, MOFSL) -- remarkably clean for the headline damage, because gold loans (82% of book) barely default. The pain was concentrated in Asirvad MFI (GNPA 4.8% at worst, AUM -49% YoY). Fitch: stage-3 ratio improved to 1.9% by Q1FY27. Gold LTV discipline + daily mark-to-market auction = structural asset-quality moat. Verdict: NOT a balance-sheet risk at consolidated level.",
+ "nim": "NIM compressed 15.0% (FY24) -> 11.0% (FY26) as MFI provisions ate NII and cost of funds rose (10.4%). Q1FY27: gold yields +60bps to 17.7%, NII +25-33% YoY, Jefferies sees NIM stabilizing off Q4 lows. Direction: recovering, not yet recovered.",
+ "risks": [
+  "MFI regulatory overhang: RBI has shown it will bar disbursals; Asirvad is 18% of AUM -- a repeat would re-crater earnings",
+  "Management transition: founder V.P. Nandakumar steps back to Non-Executive Chair Jan-2027; new CEO Ashish Singh unproven in gold loans",
+  "Gold-price sensitivity: sharp gold correction would shrink disbursable LTVs and AUM growth",
+  "Beta 1.7: the stock is a high-volatility ride; 18% drawdown from 52w high in a flat market",
+  "Bain joint control: alignment is positive, but 41.7% promoter block limits float dynamics"
+ ],
+ "catalysts": [
+  "Q2FY27 results: confirm Asirvad stays profitable and gold yields hold",
+  "Bain's operational playbook: branch expansion + co-lending partnerships (RBI opened co-lending for gold loans)",
+  "ROE recovery to mid-teens (Jefferies FY27-28) re-rates P/BV from 1.8x toward 2.3x (= Rs 430)",
+  "Any dip toward Rs 200-230 (accumulate zone) on market selloff"
+ ],
+ "promises": [],
+ "promises_note": "No promise audit yet (audits/manappuram.json absent) -> C5=1 neutral. Manappuram holds quarterly calls; a PROMISES run is high-value here given the MFI guidance history.",
+ "price_history_note": "Yahoo monthly bars 2019-12 to 2026-09 (82 bars). 60m beta 1.70 (corr 0.57) vs NSEI."
+}

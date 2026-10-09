@@ -1,0 +1,367 @@
+{
+  "ticker": "ZOTA",
+  "review_date": "2026-10-08",
+  "mode": "standard",
+  "executable": true,
+  "score_10": 6.2,
+  "note": "8-quarter window Q2 FY25-Q1 FY27. Zota's first earnings call was Q4 FY25 (30-May-2025); Q2 and Q3 FY25 had none (company Reg. 46 announcement page FY2024-25 lists no call intimations or transcripts). Six transcripts opened (Q4 FY25, Q1-Q4 FY26, Q1 FY27). Rule 7 traced: FY26 COCO target to the 13-Feb-2025 presentation (in-window Q3 FY25 slot); 5,000-store target earliest opened Q3 FY26; QIP intent earliest opened Q2 FY26 presentation. Rule 6: no Reg. 30 penalty, tax-order or litigation impact statements found on the FY25, FY26 or FY27 announcement pages - nothing to test. EBITDA basis: company headline EBITDA includes other income (FY26 4.82%); excl. other income FY26 = 3.44%; pre-Ind AS Q1 FY27 = -16.0%. Each item states its basis. Score: weights 8->1 newest first; graded positions 7,6,5,4,3,2; sum(grade x weight) = 33.6; sum(weight) = 27; score = 33.6/(54) x 10 = 6.2. Q1 FY27 promises all open; next test at Q2 FY27 results (~Nov-2026): reported EBITDA positive, gross-margin recovery, marketing line disclosure.",
+  "quarters": [
+    {
+      "label": "Q1 FY27",
+      "grade": null,
+      "status": "pending",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "We turned EBITDA negative again in the current quarter, but we expect to return to EBITDA positivity from the next quarter itself.",
+          "period": "Q2 FY27 onward",
+          "basis": "Consolidated EBITDA as reported by the company (P&L line incl. other income; Ind AS 116). Q1 FY27: -Rs 955.40 lakhs (-5.50%)",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.15",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Repeated p.17 ('we expect to return to positive EBITDA from the next quarter onwards'). Test at Q2 FY27 results (~Nov-2026)."
+        },
+        {
+          "class": 2,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Yes. We expect to perform better than that. Going forward, EBITDA margins should be higher than FY26 levels, and overall profitability should improve meaningfully.",
+          "period": "FY27",
+          "basis": "Consolidated EBITDA margin excl. other income (company 'Operating Profit' line); FY26 = 3.44%. The analyst framed FY26 at 3.4-3.5%, which matches this line; headline EBITDA incl. other income was 4.82%",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.15",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Confirmed again p.19 ('EBITDA margin year-to-year in FY'27 will be higher than FY26' - 'Yes. You are right. Absolutely right.'). Q1 FY27 operating margin -6.68%. Also test vs 4.82% incl. other income and record both."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "However, on a pre-Ind AS basis, EBITDA positivity is likely to be achieved around Q3/Q4 FY27 or, at the latest, Q1 FY28.",
+          "period": "By Q1 FY28 (latest)",
+          "basis": "Consolidated pre-Ind AS EBITDA (rent expensed); Q1 FY27 = -Rs 2,781.49 lakhs (-16.02%), Q1 FY27 investor presentation slide 43",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.17",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Same commitment framed as cash breakeven: 'fully cash positive by the end of Q4 FY27 or, at the latest, by Q1 FY28' (p.10) and 'cash breakeven by approximately Q1FY28' (p.7). Graded once here; deadline = Q1 FY28 (latest end of the stated window)."
+        },
+        {
+          "class": 10,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "As a result, we have seen some temporary pressure on margins. However, we expect this to be short-lived. Over the next two to three quarters, we expect margins to gradually return to their historical levels.",
+          "period": "Q2-Q4 FY27",
+          "basis": "Consolidated gross margin; 'historical level' anchored at Q4 FY26 63.46% (pre-dip quarter). Q1 FY27 = 61.96%",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.8",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Attributed to war-driven packaging/bottle cost inflation; selective MRP increases planned. Restated p.12-13 ('may persist for one or two quarters')."
+        },
+        {
+          "class": 7,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Definitely. We can think about it and from next quarter onward, we will definitely do that. No problem.",
+          "period": "Q2 FY27 results",
+          "basis": "Separate disclosure of marketing/advertising expense as a line item, from Q2 FY27 reporting",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Response to request to disclose marketing as a separate line. Check Q2 FY27 results/presentation."
+        },
+        {
+          "class": 10,
+          "date": "2026-08-14",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "At the current level, employee expenses are broadly in line with our store expansion, and we do not expect any significant or disproportionate increase in this cost line. Going forward, employee expenses should continue to grow in line with the addition of new stores.",
+          "period": "FY27",
+          "basis": "Consolidated employee cost vs store additions; Q1 FY27 employee cost Rs 6,112.50 lakhs (35.2% of revenue)",
+          "source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.5",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Follows the contradicted Q3 FY26 normalisation assurance (see Q3 FY26)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY26",
+      "grade": 1.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2026-05-25",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "From the remaining pipeline, we expect to open roughly 200+ stores in the current quarter.",
+          "period": "Q1 FY27",
+          "basis": "Davaindia gross store openings in Q1 FY27 (pipeline is COCO)",
+          "source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.16",
+          "outcome": "264 stores opened in Q1 FY27 (201 COCO + 63 FOFO); 18 closed (2 COCO, 16 FOFO); net +246 to 2,825",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.3-4; Q1 FY27 press release, NSE 2026-08-13",
+          "item_grade": 2,
+          "note": "201 COCO alone meets the 200 target."
+        },
+        {
+          "class": 10,
+          "date": "2026-05-25",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Going forward as well, while the absolute spend will continue to increase in line with growth, as a percentage of sales, it is expected to remain broadly in a similar range.",
+          "period": "FY27 onward",
+          "basis": "Advertising/marketing spend / consolidated revenue; FY26 = Rs 18 Cr / Rs 538.66 Cr = 3.3%",
+          "source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.13",
+          "outcome": "Q1 FY27 marketing Rs 15-17 Cr on revenue Rs 173.60 Cr = 8.6-9.8% of sales (~3x FY26 ratio); FY27 budget then given as Rs 40-45 Cr vs Rs 18 Cr in FY26",
+          "outcome_source": "Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.5, p.16-17; Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 44",
+          "item_grade": 0,
+          "note": "Contradicted in the first closed quarter. Same answer to Chintan Sheth p.6 ('we expect this to continue along a similar trajectory'). Override test: a marketing-cost overrun does not meet the SEVERE test (no permanent capital impairment, no revenue stream at risk, numbers not unreliable) - no override."
+        }
+      ]
+    },
+    {
+      "label": "Q3 FY26",
+      "grade": 0.3,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 8,
+          "date": "2026-02-05",
+          "speaker": "Moxesh Zota, Managing Director",
+          "quote": "Collectively, these strategic initiatives reinforce our confidence in achieving our medium to long term objective of crossing 5,000 Davaindia stores across India by March 2029, supported by fresh capital from the QIP and steadily improving cash flows from our maturing store network.",
+          "period": "By 31-Mar-2029",
+          "basis": "Total Davaindia stores (COCO + FOFO); 2,825 at 30-Jun-2026",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.3",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Rule 7: earliest firm statement opened. Q1 FY26 (p.13) carried only a hedged 'it may be possible' in reply to '5,000 stores in two-three years'. The Dec-2025 QIP placement document may state it earlier - not opened in this run. Restated Q4 FY26 p.3 ('5,000 plus Davaindia stores by FY29')."
+        },
+        {
+          "class": 8,
+          "date": "2026-02-05",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "If we look ahead to next year, assuming a similar target of 800 to 1,000 stores, the expansion will be much more evenly phased.",
+          "period": "FY27",
+          "basis": "Davaindia gross store additions in FY27",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.16",
+          "outcome": "Target cut before period end: 500-700 on 2026-05-25 (reason: focus on store-level profitability, moderate pace of expansion), then 600-650 on 2026-08-14",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.3, p.5; Q1 FY27 transcript (call 2026-08-14), filed NSE 2026-08-20; zotahealthcare.com/wp-content/uploads/2026/08/Zota-Health-Care-Limited-Q1FY27-Earnings-Call-Transcript-.pdf, p.14",
+          "item_grade": 1,
+          "note": "Also p.9: 'When we initially planned the INR400 crore QIP, we were targeting around 1,000 stores... there will not be any material or significant change from the original plan.' Class 8 cut -> class 9 rule: prospective (before FY27 closed, no shortfall public) and reasoned -> 1."
+        },
+        {
+          "class": 3,
+          "date": "2026-02-05",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Meaning normally they will open in 90 to 120 days so 70% of these 400 stores will open in this quarter itself.",
+          "period": "Q4 FY26",
+          "basis": "COCO openings in Q4 FY26 from the 400-store pipeline; target 280",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.12",
+          "outcome": "218 COCO opened in Q4 FY26 (248 incl. 30 FOFO)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.4",
+          "item_grade": 0,
+          "note": "Shortfall 22% (11% even counting FOFO). Management later said ~230-240 of the 400-500 pipeline opened (Q4 FY26 p.16)."
+        },
+        {
+          "class": 10,
+          "date": "2026-02-05",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "This spike was largely a one‑quarter impact. From the next quarter, costs should begin to moderate, and over the following one to two quarters, they should completely normalize.",
+          "period": "Q4 FY26-Q1 FY27",
+          "basis": "Consolidated employee cost / revenue; pre-spike Q2 FY26 = 29.6% (Rs 3,819.7 / 12,894.8 lakhs), Q3 FY26 ~36% (~Rs 52 Cr / Rs 142.95 Cr)",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.14",
+          "outcome": "Q4 FY26 33.4% (Rs 5,443.49 / 16,317.53 lakhs); Q1 FY27 35.2% (Rs 6,112.50 / 17,360.23 lakhs) - rose again in absolute and ratio; not normalised",
+          "outcome_source": "Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 44; Q2 FY26 investor presentation, filed 2025-10-19 (zotahealthcare.com/wp-content/uploads/19.10.2025 Investor Presentation.pdf), slide 44",
+          "item_grade": 0,
+          "note": "Same assurance p.5 ('we expect this impact to largely settle over the next one to two quarters') and p.7. Management attributed Q1 FY27 rise to ~200 new stores (Q1 FY27 p.4). Q4 FY26 also booked Rs 599.98 lakhs wage-code provision as exceptional, outside employee cost. Override test: not SEVERE - no override."
+        },
+        {
+          "class": 2,
+          "date": "2026-02-05",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Going forward, we believe there is scope for continued improvement, with gross margins potentially increasing by about 0.5% to 1% every quarter. Over the next four to six quarters, margins could move closer to 70%.",
+          "period": "Q1-Q3 FY28",
+          "basis": "[ambiguous] Management-cited gross margin of 66-67% (Davaindia/COCO level); consolidated GM was 60.28% in Q3 FY26",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.7",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Hedged ('potentially', 'could'). Open. Consolidated GM since: 63.46% (Q4 FY26), 61.96% (Q1 FY27). Q4 FY26 p.16: COCO GM 'over 70%'."
+        },
+        {
+          "class": 2,
+          "date": "2026-02-05",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Going forward, we expect gross margins to continue improving year-on-year, and even on a quarter-on-quarter basis, gross margins should show a consistent upward trend.",
+          "period": "Each quarter from Q4 FY26",
+          "basis": "Consolidated gross margin (revenue - COGS)/revenue; Q3 FY26 = 60.28%; target = prior-quarter level each quarter",
+          "source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.13",
+          "outcome": "Q4 FY26 63.46% (up); Q1 FY27 61.96% (down 1.50pp QoQ)",
+          "outcome_source": "Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 44",
+          "item_grade": 0,
+          "note": "QoQ shortfall 1.50pp > 1pp -> 0. YoY leg held (56.43% Q1 FY26 -> 61.96%). Management attributes the dip to war-driven input costs (Q1 FY27 p.8)."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY26",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 5,
+          "date": "2025-10-28",
+          "speaker": "Moxesh Zota, Managing Director",
+          "quote": "To support our next phase of growth, the Board has approved a fund-raising proposal of up to ₹500 crore through a Qualified Institutional Placement (QIP).",
+          "period": "Within 1 year of shareholder approval",
+          "basis": "QIP size ceiling Rs 500 Cr; timing within approval validity ('We have a time of one year from date of shareholder approval', HZ p.14)",
+          "source": "Q2 FY26 transcript (call 2025-10-28), NSE filing 2025-11-03 (ZOTA_03112025172608_Transcript03112025.pdf), p.3",
+          "outcome": "QIP of Rs 350 Cr completed Dec-2025",
+          "outcome_source": "Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.2-3; Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 6",
+          "item_grade": 2,
+          "note": "Ceiling met (sized down 400 -> 350 Cr, Q3 FY26 p.9). Rule 7: earliest statement is the 4-Sep-2025 board outcome (not opened); earliest opened is Q2 FY26 investor presentation (19-Oct-2025, slide 40)."
+        },
+        {
+          "class": 10,
+          "date": "2025-10-28",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Now, it is too early to comment on that. It will be very difficult to say now, because after doing this QIP, maybe next 18 months or 24 months, the fund requirement will not come.",
+          "period": "Jun-2027 to Dec-2027 (18-24 months after Dec-2025 QIP)",
+          "basis": "No further external equity/debt raise",
+          "source": "Q2 FY26 transcript (call 2025-10-28), NSE filing 2025-11-03 (ZOTA_03112025172608_Transcript03112025.pdf), p.14",
+          "outcome": null,
+          "outcome_source": null,
+          "item_grade": null,
+          "note": "Hedged ('maybe'). Restated firmer Q3 FY26 p.15: 'The funds raised are sufficient to meet our requirements for the next two financial years... FY'26–27 and FY'27–28. For this period, we do not anticipate the need for any additional external funding.' Open."
+        }
+      ]
+    },
+    {
+      "label": "Q1 FY26",
+      "grade": 1.7,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-08-11",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Nearly 150 to 200 stores in current time.",
+          "period": "FY26",
+          "basis": "FOFO store additions in FY26",
+          "source": "Q1 FY26 transcript (call 2025-08-11), NSE filing 2025-08-14 (ZOTA_14082025181828_Transcript14082025.pdf), p.11",
+          "outcome": "193 FOFO stores added in FY26",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.2",
+          "item_grade": 2,
+          "note": "Dr. Sujit Paul p.13: 'FOFO close to around 150 odd stores for the existing year'."
+        },
+        {
+          "class": 2,
+          "date": "2025-08-11",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Vaibhavi Shah: 'So, we would be positive at the EBITDA level throughout the year.' Himanshu Zota: 'Ya'",
+          "period": "Each quarter of FY26",
+          "basis": "Consolidated EBITDA as reported by the company (incl. other income), the basis of the Rs 483 lakh Q1 figure under discussion",
+          "source": "Q1 FY26 transcript (call 2025-08-11), NSE filing 2025-08-14 (ZOTA_14082025181828_Transcript14082025.pdf), p.11",
+          "outcome": "Q1 Rs 483.35 lakhs, Q2 Rs 795.7 lakhs, Q3 Rs 127.58 lakhs, Q4 Rs 1,191.17 lakhs - all positive; FY26 Rs 2,597.73 lakhs (4.82%)",
+          "outcome_source": "Q2 FY26 investor presentation, filed 2025-10-19 (zotahealthcare.com/wp-content/uploads/19.10.2025 Investor Presentation.pdf), slide 44; Q3 FY26 transcript (call 2026-02-05), NSE filing 2026-02-10 (ZOTA_10022026170625_Transcript10022026.pdf), p.4; Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 44",
+          "item_grade": 2,
+          "note": "Held on the stated basis. Ex-other-income, Q3 FY26 was about -Rs 44 lakhs (derived: Rs 127.58 EBITDA - Rs 171.65 other income, FY26 OI 743.75 less Q1/Q2/Q4)."
+        },
+        {
+          "class": 3,
+          "date": "2025-08-11",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "Based on their growth trajectory, we expect them to reach breakeven INR 2,40,000 per store per month in the next quarter.",
+          "period": "Q2 FY26",
+          "basis": "Avg monthly GMV per store, 136-store COCO cohort opened Q1 FY25",
+          "source": "Q1 FY26 transcript (call 2025-08-11), NSE filing 2025-08-14 (ZOTA_14082025181828_Transcript14082025.pdf), p.10",
+          "outcome": "Rs 2.30 lakh/month in Q2 FY26 (Rs 1.98 lakh in Q1 FY26)",
+          "outcome_source": "Q2 FY26 investor presentation, filed 2025-10-19 (zotahealthcare.com/wp-content/uploads/19.10.2025 Investor Presentation.pdf), slide 21",
+          "item_grade": 1,
+          "note": "Shortfall 4.2%. Cohort reached Rs 2.40 lakh in Q4 FY26, two quarters late (Q1 FY27 presentation slide 22)."
+        }
+      ]
+    },
+    {
+      "label": "Q4 FY25",
+      "grade": 2.0,
+      "status": "graded",
+      "promises": [
+        {
+          "class": 2,
+          "date": "2025-05-30",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "EBITDA may remain flat for the current financial year, similar to the previous year, primarily because we are in an aggressive expansion phase.",
+          "period": "FY26",
+          "basis": "Consolidated EBITDA margin as reported by the company (incl. other income); anchor FY25 = -1.25% (-Rs 366.49 lakhs)",
+          "source": "Q4 FY25 transcript (call 2025-05-30), NSE/company filing 2025-06-04 (zotahealthcare.com/wp-content/uploads/04.06.2025 Transcript of Earnings Conference.pdf), p.9",
+          "outcome": "FY26 EBITDA Rs 2,597.73 lakhs, 4.82%",
+          "outcome_source": "Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 44; Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.4",
+          "item_grade": 2,
+          "note": "Low bar (hedged 'may'); beaten."
+        },
+        {
+          "class": 10,
+          "date": "2025-05-30",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "This is due to the closure of around 18–19 COCO stores in the last quarter. As a result, there were some inventory-related losses and other associated costs, which have already been accounted for. However, this impact is limited to a single quarter. Going forward, we expect our gross margins to improve steadily.",
+          "period": "Q1 FY26",
+          "basis": "Consolidated gross margin; Q4 FY25 = 50.8% (Rs 4,940 / 9,727 lakhs, press release 29-May-2025)",
+          "source": "Q4 FY25 transcript (call 2025-05-30), NSE/company filing 2025-06-04 (zotahealthcare.com/wp-content/uploads/04.06.2025 Transcript of Earnings Conference.pdf), p.8",
+          "outcome": "Q1 FY26 gross margin 56.43%",
+          "outcome_source": "Q2 FY26 investor presentation, filed 2025-10-19 (zotahealthcare.com/wp-content/uploads/19.10.2025 Investor Presentation.pdf), slide 44",
+          "item_grade": 2,
+          "note": ""
+        },
+        {
+          "class": 7,
+          "date": "2025-05-30",
+          "speaker": "Himanshu Zota, Founder & Whole-Time Director",
+          "quote": "That's fair enough. Starting next quarter, we will definitely provide the store count along with ageing details.",
+          "period": "Q1 FY26 disclosure",
+          "basis": "Store-ageing (vintage) disclosure in the Q1 FY26 presentation",
+          "source": "Q4 FY25 transcript (call 2025-05-30), NSE/company filing 2025-06-04 (zotahealthcare.com/wp-content/uploads/04.06.2025 Transcript of Earnings Conference.pdf), p.6",
+          "outcome": "Age-wise cohort data published with Q1 FY26 results",
+          "outcome_source": "Q1 FY26 transcript (call 2025-08-11), NSE filing 2025-08-14 (ZOTA_14082025181828_Transcript14082025.pdf), p.5; Q2 FY26 investor presentation, filed 2025-10-19 (zotahealthcare.com/wp-content/uploads/19.10.2025 Investor Presentation.pdf), slide 21 (Q1FY26 cohort row)",
+          "item_grade": 2,
+          "note": ""
+        }
+      ],
+      "note": "FY26 COCO target '800 to 900' (p.9; press release 29-May-2025) is a restatement of the Feb-2025 '1,000 more by FY26' goal - graded once at Q3 FY25 (rule 7). Not captured: 'We have enough cash for opening next 800 to 1,000 stores... enough cash for next one year or one and a half year' (p.15) - untestable because the Rs 350 Cr QIP (Dec-2025) intervened."
+    },
+    {
+      "label": "Q3 FY25",
+      "grade": 1.0,
+      "status": "graded",
+      "note": "No earnings call this quarter. Rule 7: the FY26 COCO target first appears in the 13-Feb-2025 investor presentation (same quarter), so the item is graded here.",
+      "promises": [
+        {
+          "class": 3,
+          "date": "2025-02-13",
+          "speaker": "Ketankumar Zota, Chairman (investor presentation)",
+          "quote": "To drive sustainable growth, we're focusing on self-operated COCO stores, with a goal of adding 1,000 more by FY26.",
+          "period": "By 31-Mar-2026",
+          "basis": "COCO store count: 658 at 31-Dec-2024 + 1,000 = 1,658 target",
+          "source": "Q3 FY25 investor presentation, NSE/company filing 2025-02-13 (zotahealthcare.com/wp-content/uploads/13.02.2025 Investor Presentation.pdf), slide 44 (base: slide 21)",
+          "outcome": "1,656 COCO stores at 31-Mar-2026 (804 added in FY26, no COCO closures in FY26)",
+          "outcome_source": "Q4 FY26 transcript (call 2026-05-25), NSE filing 2026-05-29 (ZOTA_29052026171724_TranscriptEC29052026.pdf), p.2, p.10; Q1 FY27 investor presentation, NSE 2026-08-13 (ZOTA_13082026193417_InvestorPPT13082026.pdf), slide 19",
+          "item_grade": 1,
+          "note": "Shortfall 0.12%. Revised 29/30-May-2025 to '~800 to 900 additional stores by FY26' (press release; Q4 FY25 p.9) - consistent with ~806 needed; restated Q1 FY26 p.7/p.10, Q2 FY26 p.3, Q3 FY26 p.16 ('800'). Scored vs original per §4. Reading it as 1,000 additions within FY26 would give 0; the May restatement supports the network-count reading."
+        }
+      ]
+    },
+    {
+      "label": "Q2 FY25",
+      "grade": null,
+      "status": "no_call",
+      "promises": [],
+      "note": "No earnings call. Company's FY2024-25 Reg. 46 page lists investor presentations and analyst meets only; Nov-2024 presentation opened - no forward targets."
+    }
+  ]
+}

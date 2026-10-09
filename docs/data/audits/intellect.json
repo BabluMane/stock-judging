@@ -1,0 +1,447 @@
+{
+ "ticker": "INTELLECT",
+ "company": "Intellect Design Arena Ltd",
+ "review_date": "2026-10-09",
+ "mode": "standard",
+ "score_10": 4.9,
+ "score_working": "Graded events by recency, weights 5..1: Q3 FY26 (1.00) x5, Q1 FY26 (0.00) x4, Q4 FY25 (1.25) x3, Q3 FY25 (2.00) x2, Q2 FY25 (2.00) x1 = 14.75; weights sum to 15; 14.75/15 x 5 = 4.9. Pending and not_retrieved events and the outside_window entry carry no weight.",
+ "notes": [
+  "Quote caveat: transcript quotes are extractions from AlphaStreet pages returned by WebFetch (summarised, not raw HTML) and may carry ASR errors; speaker labels are sometimes garbled. Spot-check against NSE/BSE transcript filings before relying on any quote.",
+  "Grade-once rule: each promise is graded once at its first statement in the window. Repeats are folded into notes: 800 cr quarterly revenue (first Q4 FY25; repeated Q1 FY26, Q3 FY26); AI revenue of about 200 cr (first Q1 FY26; repeated Q3 FY26); the Q1 FY26 margin band of 22-25% is a revision of the Q4 FY25 24-25% promise and is graded against the original.",
+  "EBITDA margin basis: the company appears to quote margin on total income (FY26: EBITDA 703.03 cr / total income 3,160.76 cr = 22.2%; on revenue from operations of 3,042.97 cr = 23.1%). The Q4 FY25 margin promise is graded 0 on total income and would be 1 on revenue from operations.",
+  "Q1 FY27 and Q4 FY26 are pending because they are too recent. Their promises are paraphrased from AI summaries of the transcripts, not opened transcripts. Speakers are unattributed.",
+  "Q1 FY27 commitment of a dedicated AI investor call by 30 Sep 2026 has fallen due. No intimation or filing was found, but BSE/NSE announcements for Aug-Oct 2026 were not checked directly, so it is left ungraded.",
+  "FY26 AI revenue of about 160 cr rests on the Chairman's statement on the Q4 FY26 call. It is not in any filing, and the company does not report AI revenue as a line item.",
+  "Q4 FY24 (May 2024) origin trace is graded 0.5 as an outside_window entry and is excluded from score_10.",
+  "Possible silent softening of long-run targets, to be judged at their deadlines: 30% EBITDA margin (stated Oct 2024, Jan 2025, May 2025) versus a 20-25% range on the Q4 FY26 call; 4,000 cr revenue target drifting from 'PBT 1,000 cr' (Jul 2025) to 'EBITDA 1,000 cr' and from FY29 to FY28."
+ ],
+ "quarters": [
+  {
+   "label": "Q1 FY27",
+   "date": "2026-07-31",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "(paraphrase) Sustain 15-20% revenue growth in FY27",
+     "class": 1,
+     "date": "2026-07-31",
+     "speaker": "Management (unattributed in summaries)",
+     "basis": "consolidated",
+     "source": "Q1 FY27 earnings call summaries: cofacto.ai/market-news/intellect-q1-fy27-earnings-call; arthneeti.com Q1 FY27 call analysis",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release https://nsearchives.nseindia.com/corporate/INTELLECT_31072026131747_PR.pdf",
+     "note": "Early read: Pending. Q1 FY27 revenue from operations 845.17 cr vs 700.79 cr, about +21% YoY, above the band.",
+     "item_grade": null
+    },
+    {
+     "quote": "(paraphrase) Dedicated AI investor call with technology demos within two months, by end-Sep 2026",
+     "class": 7,
+     "date": "2026-07-31",
+     "speaker": "Management (unattributed in summaries)",
+     "basis": "consolidated",
+     "source": "cofacto.ai Q1 FY27 call summary",
+     "period": "by 2026-09-30",
+     "outcome": "",
+     "outcome_source": "not_retrieved: BSE/NSE announcements for Aug-Oct 2026 not checked directly",
+     "note": "Grade 2 if an on-time call is found in filings; 0 if none exists. Early read: Unverified. Deadline has passed; no intimation or filing found in searches.",
+     "item_grade": null
+    },
+    {
+     "quote": "(paraphrase) EBITDA margin to improve in FY27 vs FY26 on operating leverage",
+     "class": 2,
+     "date": "2026-07-31",
+     "speaker": "Management (unattributed in summaries)",
+     "basis": "consolidated",
+     "source": "cofacto.ai and arthneeti.com Q1 FY27 summaries",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release (URL above)",
+     "note": "No numeric target given. Early read: Pending. Q1 FY27 EBITDA 194.26 cr on total income 872.18 cr = 22.3%, versus about 24.0% in Q1 FY26 (176/734).",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY26",
+   "date": "2026-05-08",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "(paraphrase) Design for about 20% annual growth; acceleration from FY27 on a 12,000 cr qualified pipeline",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Management (unattributed in summary)",
+     "basis": "consolidated",
+     "source": "arthneeti.com Q4 FY26 call analysis (AI summary citing transcript pp. 11, 13)",
+     "period": "FY27 onwards",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release",
+     "note": "Q4 FY26 transcript itself not opened; per the Q4 FY26 call, FY27 results 'could land 12-17%' (second-hand). Early read: Pending. Q1 FY27 growth about +21%; pipeline 13,000 cr.",
+     "item_grade": null
+    },
+    {
+     "quote": "(paraphrase) EBITDA margin target range 20-25% while reinvesting",
+     "class": 2,
+     "date": "2026-05-08",
+     "speaker": "Management (unattributed in summary)",
+     "basis": "consolidated",
+     "source": "arthneeti.com Q4 FY26 call analysis (p. 13)",
+     "period": "ongoing",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release",
+     "note": "Earlier calls promised 27-30% over 3 years (May 2025) and 30% in 4 years (Jan 2025). Early read: Pending. Q1 FY27 margin 22.3%, inside the range.",
+     "item_grade": null
+    },
+    {
+     "quote": "(paraphrase) FY26 AI revenue 160 cr; aspiration to roughly double in FY27, called a 'challenge'",
+     "class": 1,
+     "date": "2026-05-08",
+     "speaker": "Management (unattributed in summary)",
+     "basis": "consolidated",
+     "source": "arthneeti.com Q4 FY26 call analysis (p. 23)",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "none",
+     "note": "Early read: Pending. The company does not report AI revenue as a line item.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY26",
+   "date": "2026-01-30",
+   "status": "graded",
+   "grade": 1.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "we are very highly hopeful that we'll also end up in a similar number as we close this financial year.",
+     "class": 2,
+     "date": "2026-01-30",
+     "speaker": "Unidentified finance-side speaker (transcript unlabeled)",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY26 transcript, https://alphastreet.com/india/wp-json/wp/v2/posts/179459",
+     "period": "FY26 EBITDA margin vs LTM about 23.8%",
+     "outcome": "FY26 EBITDA 703.03 cr = 23.1% of revenue from operations (22.2% of total income). Shortfall about 0.7pp on the revenue-from-operations basis.",
+     "outcome_source": "Q4 FY26 investor presentation https://nsearchives.nseindia.com/corporate/INTELLECT_08052026155442_InvestorEarningsCallPresentationQ4FY26signed.pdf; Q1 FY27 press release",
+     "note": "Hedged language; the 23.8% LTM basis is assumed and the speaker is unattributed. Grade 1 as a partial miss within 1pp. The 800 cr quarterly revenue target and the 'close to 200 cr' AI revenue comment on this call are repeats, folded into Q4 FY25 and Q1 FY26.",
+     "item_grade": 1
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY26",
+   "date": "2025-10-31",
+   "status": "not_retrieved",
+   "grade": null,
+   "outside_window": false,
+   "promises": [],
+   "note": "No full-text transcript reachable. AlphaStreet has none; GuruFocus and MarketScreener are paywalled; Yahoo fetch errored. Unverified secondary leads: Purple Fabric 130 cr investment plan (actual 92 cr per the Q4 FY26 call) and a restated 200 cr AI revenue target."
+  },
+  {
+   "label": "Q1 FY26",
+   "date": "2025-07-25",
+   "status": "graded",
+   "grade": 0.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "We are looking around AI should generate close to INR200 crores revenue by end-of-the year cumulatively",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q1 FY26 transcript, https://alphastreet.com/india/wp-json/wp/v2/posts/176922",
+     "period": "FY26",
+     "outcome": "FY26 AI revenue about 160 cr, about 20% below the 200 cr stated, with no explanation. Arun Jain on the Q4 FY26 call: 'a revenue of INR160 crores in this year'.",
+     "outcome_source": "AlphaStreet Q4 FY26 transcript https://alphastreet.com/india/intellect-design-arena-ltd-intellect-q4-2026-earnings-call-transcript/",
+     "note": "Repeated at Q3 FY26 ('reasonably confident of coming close to that number'). Source for the 160 cr is the call only, not a filing. Same call restated the margin as 22-25% (a cut from 24-25%) and the 800 cr quarterly target; both are graded at Q4 FY25. The 4,000 cr revenue / 1,000 cr PBT three-year figure was labelled an aspiration, not guidance, and is not graded.",
+     "item_grade": 0
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY25",
+   "date": "2025-05-09",
+   "status": "graded",
+   "grade": 1.25,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "So next 4 quarter, we should be crossing INR800 crores.",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript, https://alphastreet.com/india/wp-json/wp/v2/posts/176923",
+     "period": "Q1-Q4 FY26 (quarterly revenue)",
+     "outcome": "Q4 FY26 revenue from operations 851.65 cr (total income 884.47 cr); Q1 FY27 845.17 cr. Crossed in the 4th quarter, so on time.",
+     "outcome_source": "Q4 FY26 investor presentation (NSE URL above); Q1 FY27 press release",
+     "note": "Repeated at Q1 FY26 and Q3 FY26 ('next two quarters').",
+     "item_grade": 2
+    },
+    {
+     "quote": "can we assume 24%, 25% margin for next year? [Arun Jain:] That's right.",
+     "class": 2,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD (reply to analyst)",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "period": "FY26",
+     "outcome": "FY26 EBITDA 703.03 cr = 22.2% of total income (23.1% of revenue from operations). 1.8pp below the 24% floor on total income.",
+     "outcome_source": "Q4 FY26 investor presentation; Q1 FY27 press release",
+     "note": "Cut to 22-25% at Q1 FY26 citing Purple Fabric investment; graded against the original. Would be grade 1 on the revenue-from-operations basis.",
+     "item_grade": 0
+    },
+    {
+     "quote": "Ideally, we should grow 15% we designed the business.",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "period": "FY26",
+     "outcome": "FY26 revenue from operations 3,042.97 cr vs 2,495.50 cr = +21.9%.",
+     "outcome_source": "Q4 FY26 investor presentation; Q1 FY27 press release",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "these 2 businesses of Americas and this may constitute 50% or more than 50% of the business",
+     "class": 3,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "period": "FY26 ('next year')",
+     "outcome": "Americas plus Europe about 49.6% of FY26 revenue (1,508 cr of 3,043 cr), against about 45% in FY25. Shortfall at most 0.4pp.",
+     "outcome_source": "Q4 FY26 investor deck https://www.intellectdesign.com/investor/results/Intellect-Q4-FY26-investor-Deck.pdf",
+     "note": "Hedged ('most likely'); the 49.6% share is calculated from deck figures as relayed by the fetch tool.",
+     "item_grade": 1
+    },
+    {
+     "quote": "if you're looking for a 3-year perspective, definitely margin may inch towards 27%, 28%, 29%, 30%",
+     "class": 2,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "period": "about FY28",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 investor presentation; Q4 FY26 transcript",
+     "note": "Candidate silent softening; judge at deadline. Origin: Q2 FY25 call (2024-10-25), '30% margin directionally three years from now'. Early read: Pending. FY26 margin 22.2-23.1%; the Q4 FY26 call framed the target as 20-25% with no 30% mention.",
+     "item_grade": null
+    },
+    {
+     "quote": "We are quite sure of INR1,000 crores.",
+     "class": 1,
+     "date": "2025-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "period": "about May 2028 (Purple Fabric, 3 years)",
+     "outcome": "",
+     "outcome_source": "AlphaStreet Q4 FY26 transcript",
+     "note": "Same call: license-linked share to reach 60% in 2-3 years (FY26 about 54.8%, calculated); pending. Early read: Pending. FY26 AI revenue about 160 cr (call only).",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY25",
+   "date": "2025-01-24",
+   "status": "graded",
+   "grade": 2.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "I mentioned to you INR700 crores a quarter. I think we'll be closer to that.",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY25 transcript, https://alphastreet.com/india/wp-json/wp/v2/posts/176925",
+     "period": "Q4 FY25 (inferred from context)",
+     "outcome": "Q4 FY25 revenue from operations 727.35 cr (total income 748.55 cr).",
+     "outcome_source": "Q4 FY26 investor presentation (NSE URL above)",
+     "note": "Period inferred from context.",
+     "item_grade": 2
+    },
+    {
+     "quote": "we are looking for 20% growth year-on-year, that trajectory",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY25 transcript (post 176925)",
+     "period": "not stated; graded on FY26",
+     "outcome": "FY26 revenue from operations +21.9% (3,042.97 vs 2,495.50 cr).",
+     "outcome_source": "Q4 FY26 investor presentation; Q1 FY27 press release",
+     "note": "Informal, no period given. Graded on FY26; graded on FY25 (about 11%) it would be 0.",
+     "item_grade": 2
+    },
+    {
+     "quote": "The transaction is expected to close-in the next few weeks",
+     "class": 7,
+     "date": "2025-01-24",
+     "speaker": "Vasudha Subramaniam, CFO",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY25 transcript (post 176925)",
+     "period": "Central 1 digital banking transfer",
+     "outcome": "Closed 2025-03-03, about 5.5 weeks later.",
+     "outcome_source": "Central 1 release https://central1.com/in_the_news/c1-intellect-design-arena-conclude-operating-partnership-digital-banking/",
+     "note": "'Few weeks' treated as met.",
+     "item_grade": 2
+    },
+    {
+     "quote": "INR140 crore is the target that we have in... we'll be meeting that budget.",
+     "class": 4,
+     "date": "2025-01-24",
+     "speaker": "Vasudha Subramaniam, CFO",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY25 transcript (post 176925)",
+     "period": "FY25 capitalised R&D budget",
+     "outcome": "Capitalised development about 140 cr for FY25 per the CFO on the Q4 FY25 call.",
+     "outcome_source": "AlphaStreet Q4 FY25 transcript https://alphastreet.com/india/intellect-design-arena-ltd-intellect-q4-2025-earnings-call-transcript/",
+     "note": "Quote garbled by ASR; capitalised-vs-total split inferred from the Q4 FY25 call.",
+     "item_grade": 2
+    },
+    {
+     "quote": "we are saying we can be INR4,000 crores in next four years.",
+     "class": 1,
+     "date": "2025-01-24",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q3 FY25 transcript (post 176925)",
+     "period": "about FY29",
+     "outcome": "",
+     "outcome_source": "Q1 FY27 press release",
+     "note": "Origin of the 4,000 cr target. Later restated as '4,000 cr revenue and 1,000 cr PBT' (Jul 2025), then 'EBITDA 1,000 cr by FY28' (Jul 2026 summary). Early read: Pending. FY26 total income 3,161 cr; LTM to Q1 FY27 3,299 cr.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY25",
+   "date": "2024-10-25",
+   "status": "graded",
+   "grade": 2.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "It's only maybe next two quarters we'll see the significant shift, if you look at it on annualized basis.",
+     "class": 2,
+     "date": "2024-10-25",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q2 FY25 transcript, https://alphastreet.com/india/intellect-design-arena-ltd-intellect-q2-2025-earnings-call-transcript/",
+     "period": "Q3-Q4 FY25",
+     "outcome": "EBITDA margin 14% in Q2 FY25 (79 cr on 556 cr), 20% in Q3 (121 cr), about 30% in Q4 (227 cr).",
+     "outcome_source": "Q3 FY25 transcript (post 176925); Q4 FY26 investor presentation",
+     "note": "Qualitative magnitude; graded on direction and timing.",
+     "item_grade": 2
+    },
+    {
+     "quote": "even if we are able to convert out of those 18 deals, six, seven of them, we'll be above 20%.",
+     "class": 2,
+     "date": "2024-10-25",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q2 FY25 transcript",
+     "period": "FY25 annualised EBITDA margin",
+     "outcome": "FY25 EBITDA 607.6 cr = 24.3% of revenue from operations (23.6% of total income).",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Period not explicit; number of the 18 deals converted not disclosed.",
+     "item_grade": 2
+    },
+    {
+     "quote": "our target is next three quarter, we should have at least one quarter above INR700 crore.",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q2 FY25 transcript",
+     "period": "Q3 FY25 to Q1 FY26",
+     "outcome": "Q4 FY25 revenue from operations 727 cr (total income 749 cr); Q1 FY26 total income 734 cr.",
+     "outcome_source": "Q4 FY26 investor presentation; AlphaStreet Q1 FY26 transcript",
+     "note": "Met on both bases.",
+     "item_grade": 2
+    },
+    {
+     "quote": "Q3, Q4 will be better because the decisions are budget cycle decisions",
+     "class": 1,
+     "date": "2024-10-25",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q2 FY25 transcript",
+     "period": "Q3-Q4 FY25",
+     "outcome": "Revenue from operations Q3 607 cr and Q4 727 cr vs Q2 556 cr.",
+     "outcome_source": "Q3 and Q4 FY25 transcripts; Q4 FY26 investor presentation",
+     "note": "Compared against Q2 only; H1 total not opened.",
+     "item_grade": 2
+    },
+    {
+     "quote": "30% margin directionally three years from now, we are definitely there.",
+     "class": 2,
+     "date": "2024-10-25",
+     "speaker": "Arun Jain, Chairman and MD (CFO: 'If it's closed on time. Yes.')",
+     "basis": "consolidated",
+     "source": "AlphaStreet Q2 FY25 transcript",
+     "period": "about Oct 2027",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 transcript; Q4 FY26 investor presentation",
+     "note": "Conditional on deals closing on time. Origin of the 30% margin target; repeated Jan 2025 and May 2025. Candidate silent cut. Early read: Pending. FY26 about 22-23%; the Q4 FY26 call framed the long-term target as 20-25%.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY24 (origin trace)",
+   "date": "2024-05-09",
+   "status": "graded",
+   "grade": 0.5,
+   "outside_window": true,
+   "promises": [
+    {
+     "quote": "on that base number around 15% guidance could be there.",
+     "class": 1,
+     "date": "2024-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated (ex-GeM base)",
+     "source": "NSE Q4 FY24 transcript, https://nsearchives.nseindia.com/corporate/INTELLECT_16052024144901_TranscriptSIGNED.pdf",
+     "period": "FY25",
+     "outcome": "FY25 growth about 11% per Arun Jain on the Q4 FY25 call, 3-4pp short, with no prospective cut.",
+     "outcome_source": "AlphaStreet Q4 FY25 transcript (post 176923)",
+     "note": "Ex-GeM basis not reconcilable, so the 0 is provisional. 'Designed for 20% growth' predates this (May 2023, secondary source ICICI Direct).",
+     "item_grade": 0
+    },
+    {
+     "quote": "I think 23/24% because some investment will be required so around 24% numbers we are looking around.",
+     "class": 2,
+     "date": "2024-05-09",
+     "speaker": "Arun Jain, Chairman and MD",
+     "basis": "consolidated",
+     "source": "NSE Q4 FY24 transcript (URL above)",
+     "period": "FY25",
+     "outcome": "FY25 EBITDA 24.3% of revenue from operations, 23.6% of total income.",
+     "outcome_source": "Q4 FY26 investor presentation",
+     "note": "Repeats at Q2 and Q3 FY25 folded here. Grade 1 on the conservative total-income basis; 2 on revenue from operations.",
+     "item_grade": 1
+    }
+   ]
+  }
+ ],
+ "not_retrieved": [
+  "Q2 FY26 call transcript (2025-10-31): no free full-text source; paywalled or errored.",
+  "Primary-source transcripts for Q1 FY27 and Q4 FY26 (promises are from AI summaries).",
+  "Filing evidencing the dedicated AI investor call due by 2026-09-30.",
+  "FY26 AI revenue in any filing; FY26 Consumer Banking segment revenue (needed for the 'GCB 1,000 cr next year' promise from Jan 2025, left ungraded).",
+  "NSE signed transcript PDFs for Q2 FY25, Q3 FY25, Q1 FY26 and Q4 FY25 (AlphaStreet extractions used instead).",
+  "Q2 FY27 results (not yet released as of 2026-10-09)."
+ ]
+}

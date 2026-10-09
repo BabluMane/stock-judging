@@ -1,0 +1,601 @@
+{
+ "ticker": "HFCL",
+ "company": "HFCL Limited",
+ "review_date": "2026-10-09",
+ "mode": "standard",
+ "score_10": 5.5,
+ "data_quality": {
+  "transcripts": "Full raw transcripts were not obtained for any call. Quotes were returned through summarisers: [V*] means near-verbatim, [P] means paraphrase. Basis (standalone/consolidated) is not stated in most digests.",
+  "recompute": "Weights re-based to 7 graded events (Q4 FY26 = 7 ... Q2 FY25 = 1). Q1 FY27 is pending and excluded. Sum of weighted grades 30.617 / 28 x 5 = 5.47.",
+  "repeat_rule": "Repeated promises are graded once, at the first date-specific statement. Later re-dates are folded into the note. Origins before Q2 FY25 were not traced, so outside_window entries are not added.",
+  "conflicts": "EBITDA margin sources conflict. Q4 FY26: 17.3% (Arihant) vs 18.47% (ScanX). Q1 FY27: 23.25% (press release) vs 17.3% or 21.6% (other sources). FY26: 15.4% vs 16.70%. Grades that depend on margins are marked low-confidence.",
+  "not_checked": "Q2 FY27 results not out as of 2026-09-18 (last check). Reasons for the revisions (25-30% to 20%, capacity slips, PLI withdrawal) were not found in the digests, so those grades stay 0. Re-verify every 0 and 1 against the raw transcripts."
+ },
+ "quarters": [
+  {
+   "label": "Q1 FY27",
+   "date": "2026-07-22",
+   "status": "pending",
+   "grade": null,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] \"we ... can raise our aspirations for FY27 to a revenue growth of 40% and above.\"",
+     "class": 1,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "consolidated",
+     "source": "Q1 FY27 call transcript (financialfilings.com/filings/hfcl-limited/call-transcript/2026/49704400/)",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Angel One Q1 FY27 results; Multibagg",
+     "note": "Framed as an aspiration. Pending. Early read: Q1 revenue Rs 1,914.98 cr (+119.85% YoY). Full year open. Raised from 20-25%."
+    },
+    {
+     "quote": "[V*] \"there is not going to be quarter-on-quarter decline.\"",
+     "class": 1,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "Q2 FY27",
+     "outcome": "",
+     "outcome_source": "Univest Q2 preview",
+     "note": "Resolves at Q2 results (expected late Oct to Nov 2026). Pending. Early read: Q2 results not found as of 2026-09-18"
+    },
+    {
+     "quote": "[V*] \"This year, total capex is INR640 crores.\" FY28: \"about INR615.\"",
+     "class": 4,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "FY27, FY28",
+     "outcome": "",
+     "outcome_source": "",
+     "note": "Up from about Rs 600 cr (FY27) and Rs 350 cr (FY28) on the Q4 FY26 call. Pending. Early read: Pending"
+    },
+    {
+     "quote": "[V*] \"we are going to get about INR800 crores of revenue from that business.\" (data-centre connectivity)",
+     "class": 1,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "",
+     "note": "Q4 FY26 call said about Rs 400 cr for FY27. Doubled with no reason seen. Pending. Early read: Pending"
+    },
+    {
+     "quote": "[V*] defence and aerospace \"we should be crossing INR3,000 crores at least\"; \"our target is INR5,000 crores.\"",
+     "class": 1,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "FY28-29 (ambiguous); FY27 defence about Rs 500 cr",
+     "outcome": "",
+     "outcome_source": "Arihant Q1 FY27 update",
+     "note": "Timelines for the 3,000 and 5,000 figures are unclear. Pending. Early read: Q1 FY27 defence revenue Rs 24 cr"
+    },
+    {
+     "quote": "[P] Army agreement expected to be signed in Q2 FY27; EPC losses to reduce significantly after.",
+     "class": 7,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "Q2 FY27 (Jul-Sep 2026)",
+     "outcome": "",
+     "outcome_source": "not_retrieved",
+     "note": "Softened from the Q4 FY26 call. Pending. Early read: Signing not found. Due date has passed."
+    },
+    {
+     "quote": "[P] OFC capacity 28 to 34 mn fkm (fibre) and 34 to 43 or 45 mn fkm (cable) by Dec 2026.",
+     "class": 7,
+     "date": "2026-07-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY27 transcript",
+     "period": "Dec 2026",
+     "outcome": "",
+     "outcome_source": "",
+     "note": "The transcript contradicts itself on 43 vs 45. Pending. Early read: Pending"
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY26",
+   "date": "2026-04-30",
+   "status": "graded",
+   "grade": 1.67,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] \"we should definitely be able to scale it up by 20 to 25% at least\"",
+     "class": 1,
+     "date": "2026-04-30",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY26 transcript (alphastreet.com/india/wp-json/wp/v2/posts/182167, preliminary)",
+     "period": "FY27",
+     "outcome": "",
+     "outcome_source": "Angel One; Q1 FY27 call",
+     "note": "Pending (on track). Not graded. Early read: Q1 FY27 revenue +119.85% YoY. Guidance raised to 40%+ on 22 Jul.",
+     "item_grade": null
+    },
+    {
+     "quote": "[P] Margin improvement to \"start from the first quarter itself\"",
+     "class": 2,
+     "date": "2026-04-30",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "consolidated",
+     "source": "Q4 FY26 transcript",
+     "period": "Q1 FY27",
+     "outcome": "Q1 FY27 EBITDA margin above FY26 on every source (23.25% or lower variants vs about 16.7%).",
+     "outcome_source": "Angel One; Multibagg",
+     "note": "Source conflict on the figure, but graded 2 under both versions.",
+     "item_grade": 2
+    },
+    {
+     "quote": "[P] AP ammunition complex foundation stone on 15 May 2026",
+     "class": 7,
+     "date": "2026-04-30",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "n/a",
+     "source": "Q4 FY26 transcript",
+     "period": "2026-05-15",
+     "outcome": "Q1 FY27 call confirms groundbreaking on 15 May 2026.",
+     "outcome_source": "Q1 FY27 transcript; Angel One",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "[P] FY27 capex about Rs 600 cr",
+     "class": 4,
+     "date": "2026-04-30",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY26 transcript",
+     "period": "FY27",
+     "outcome": "Restated as Rs 640 cr on 22 Jul (+6.7%), with scope additions.",
+     "outcome_source": "Q1 FY27 transcript",
+     "note": "Treated as a ceiling-style target (overshoot 10% or less = 1). FY28 raised from Rs 350 cr to Rs 615 cr, pending.",
+     "item_grade": 1
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY26",
+   "date": "2026-02-03",
+   "status": "graded",
+   "grade": 1.33,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] Q4 FY26 sequential revenue growth \"around 10% to 15% or a little bit more.\"",
+     "class": 1,
+     "date": "2026-02-03",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "consolidated",
+     "source": "Q3 FY26 transcript (financialfilings.com/filings/hfcl-limited/call-transcript/2026/44772036/, extract)",
+     "period": "Q4 FY26",
+     "outcome": "Q4 revenue Rs 1,824 cr vs Q3 Rs 1,226 cr, about +50% QoQ.",
+     "outcome_source": "Arihant Q4 FY26 update",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "[V*] \"our profit will surpass the profit of last financial year significantly.\"",
+     "class": 1,
+     "date": "2026-02-03",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY26 transcript",
+     "period": "FY26",
+     "outcome": "FY26 PAT Rs 329 cr vs Rs 173 cr in FY25 (+90%).",
+     "outcome_source": "Arihant Q4 FY26 update; FY26 press release",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "[V*] Army O&M to start \"by April maximum\"; \"about INR170 crores per year.\"",
+     "class": 7,
+     "date": "2026-02-03",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY26 transcript",
+     "period": "Apr 2026",
+     "outcome": "As of 22 Jul 2026 the agreement was still unsigned, now expected mid-Q2 FY27. Q1 FY27 EPC EBIT was -Rs 88 cr.",
+     "outcome_source": "Arihant Q1 FY27 update",
+     "note": "Slipped by more than a quarter. No reason found. The FY27 O&M target itself is still alive.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] \"Margins ... around 10% PBT margin should always be there.\"",
+     "class": 2,
+     "date": "2026-02-03",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY26 transcript",
+     "period": "rest of FY26 (scope unclear)",
+     "outcome": "",
+     "outcome_source": "Arihant Q4 FY26 update",
+     "note": "Scope ambiguous. Not graded. Early read: Q4 PBT margin about 12.5%. FY26 PBT margin about 8.6% (own arithmetic).",
+     "item_grade": null
+    },
+    {
+     "quote": "[V*] OFC capacity 30.5 to 42.36 mn fkm \"by June 2026\"",
+     "class": 7,
+     "date": "2026-02-03",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY26 transcript",
+     "period": "Jun 2026",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 deck; Q1 FY27 Arihant update",
+     "note": "Repeat of the Q1 FY26 promise, which is graded there. Not graded again. Early read: Moved to Dec 2026.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY26",
+   "date": "2025-10-17",
+   "status": "graded",
+   "grade": 1.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] EBITDA margin about 19%: \"I'm sure we will be able to maintain that in the next 2 quarters\"",
+     "class": 2,
+     "date": "2025-10-17",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "consolidated",
+     "source": "Q2 FY26 transcript (hfcl.com/wp-content/uploads/2025/10/HFCL_STX_Transcript_281025.pdf, extract)",
+     "period": "Q3 and Q4 FY26",
+     "outcome": "Q3 about 19.9%. Q4 17.3% (Arihant) or 18.47% (ScanX), against 19.49% in Q2.",
+     "outcome_source": "Kotak Neo; Arihant Q4 FY26 update; ScanX",
+     "note": "LOW CONFIDENCE. This would be 0 if the 17.3% basis is correct.",
+     "item_grade": 1
+    },
+    {
+     "quote": "[V*] \"we are maintaining that guidance of 20%\" (FY26 revenue growth)",
+     "class": 1,
+     "date": "2025-10-17",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY26 transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "FY26 results",
+     "note": "A revision of the 25-30% guidance, which is graded against the original at Q4 FY25. Not graded again. Early read: FY26 +21.77%.",
+     "item_grade": null
+    },
+    {
+     "quote": "[V*] defence \"INR200-plus crores of revenue\" in FY26",
+     "class": 1,
+     "date": "2025-10-17",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY26 transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "Arihant Q4 FY26 update",
+     "note": "Repeat of Q1 FY26, which is graded there. Early read: Defence revenue about Rs 23 cr in FY26 (sum of quarters, broker-derived).",
+     "item_grade": null
+    },
+    {
+     "quote": "[V*] \"receivable ... INR400 crores is expected to be totally mitigated by the mid of next financial year.\"",
+     "class": 3,
+     "date": "2025-10-17",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY26 transcript",
+     "period": "about Sep 2026",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 deck",
+     "note": "Pending. Early read: Q4 FY26 debtors Rs 2,482 cr (176 days). Later status not found.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q1 FY26",
+   "date": "2025-07-25",
+   "status": "graded",
+   "grade": 0.0,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] OFC capacity ~25.08 to ~42.36 mn fkm; IBR 1.73 to 19.01 mn fkm: \"completed before the end of June 26\"",
+     "class": 7,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY26 transcript (financialfilings.com/filings/hfcl-limited/call-transcript/2025/44772199/)",
+     "period": "Jun 2026",
+     "outcome": "As of 30 Apr 2026 capacity was 34 mn fkm, with the 42.36 target moved to Dec 2026.",
+     "outcome_source": "Q4 FY26 call; Arihant Q1 FY27 update",
+     "note": "Deadline moved by about 6 months. No reason found. Dec 2026 is still pending.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] capex \"roughly about Rs. 250 crores\"",
+     "class": 4,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY26 transcript",
+     "period": "FY26",
+     "outcome": "FY26 cash-flow capex Rs 326 cr (+30%).",
+     "outcome_source": "Arihant Q4 FY26 update",
+     "note": "Scope may differ. Ceiling overshoot above 10%.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] \"my best estimation could be leading to about Rs. 200-plus crores\" (defence revenue)",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY26 transcript",
+     "period": "FY26",
+     "outcome": "Defence about Rs 23 cr in FY26 (sum of quarters, broker-derived).",
+     "outcome_source": "Arihant Q4 FY26 update",
+     "note": "Repeated on the Q2 FY26 call and folded here.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] \"our revenue is expected to be 25% to 30% higher\"",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY26 transcript",
+     "period": "FY26",
+     "outcome": "",
+     "outcome_source": "FY26 results; Q2 FY26 transcript",
+     "note": "Graded once, at its first guidance statement (Q4 FY25). Early read: +21.77%. Cut to 20% on 17 Oct 2025, with no reason retrieved.",
+     "item_grade": null
+    },
+    {
+     "quote": "[V*] \"Q2 would be better than Q1\"",
+     "class": 1,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q1 FY26 transcript",
+     "period": "Q2-Q3 FY26",
+     "outcome": "",
+     "outcome_source": "Q2 FY26 summary",
+     "note": "Repeat of the Q4 FY25 promise, which is graded there. Early read: Q2 EBITDA Rs 203.37 cr vs Q1 Rs 42.93 cr.",
+     "item_grade": null
+    },
+    {
+     "quote": "[V*] BMP-2 tender \"on 29th September\"",
+     "class": 7,
+     "date": "2025-07-25",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "n/a",
+     "source": "Q1 FY26 transcript",
+     "period": "2025-09-29",
+     "outcome": "",
+     "outcome_source": "Q3 FY26 call",
+     "note": "Date set by the authority, not the company. Not graded. Early read: Q3 FY26: still awaiting RFP and trial process.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q4 FY25",
+   "date": "2025-05-23",
+   "status": "graded",
+   "grade": 1.33,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V] \"the Company expects growth of 25-30% in revenue of the current financial year on overall basis\"",
+     "class": 1,
+     "date": "2025-05-23",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY25 transcript (financialfilings.com/filings/hfcl-limited/call-transcript/2025/44772237/)",
+     "period": "FY26",
+     "outcome": "FY26 +21.77% (Rs 4,949.27 cr vs Rs 4,064.52 cr). Cut to 20% in Oct 2025; the Q4 FY26 call says the 20% commitment was met.",
+     "outcome_source": "FY26 results; Q2 FY26 and Q4 FY26 transcripts",
+     "note": "Graded against the original figure. No reason for the cut was retrieved. Same aspiration also appears on Q3 FY25.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V] \"I'm quite sure this year, our exports will be in 4 figures\"",
+     "class": 1,
+     "date": "2025-05-23",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY25 transcript",
+     "period": "FY26",
+     "outcome": "Exports about Rs 2,047 cr (41.36% of revenue).",
+     "outcome_source": "FY26 results summaries (ScanX; PR Newswire)",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "[V] \"quarter 2 will start showing much better results improvement\"",
+     "class": 2,
+     "date": "2025-05-23",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY25 transcript",
+     "period": "Q2 FY26",
+     "outcome": "Q2 EBITDA Rs 203 cr vs Rs 43 cr in Q1.",
+     "outcome_source": "Q2 FY26 summary",
+     "note": "",
+     "item_grade": 2
+    },
+    {
+     "quote": "[P] defence revenue to pick up significantly from Q2; fuzes tested in June; BMP tender due 1 July",
+     "class": 7,
+     "date": "2025-05-23",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q4 FY25 transcript",
+     "period": "Q2 FY26 / Jun 2025",
+     "outcome": "",
+     "outcome_source": "Q4 FY26 and Q1 FY27 calls; Arihant",
+     "note": "Repeats of earlier or later graded promises. Not graded again. Early read: Fuzes still unapproved at Q1 FY27. Defence about Rs 23 cr for the full year.",
+     "item_grade": null
+    }
+   ]
+  },
+  {
+   "label": "Q3 FY25",
+   "date": "2025-02-04",
+   "status": "graded",
+   "grade": 0.6,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] \"That capacity expansion of fiber would be completed by more or less by 31st March 2025\"",
+     "class": 7,
+     "date": "2025-02-04",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY25 transcript (financialfilings.com/filings/hfcl-limited/call-transcript/2025/42499210/, digest)",
+     "period": "2025-03-31",
+     "outcome": "Not completed. Q1 FY26 gave a new target of June 2026, later moved to Dec 2026.",
+     "outcome_source": "Q4 FY25 and Q1 FY26 calls",
+     "note": "Medium confidence because the Q4 FY25 digests conflict. Scope also grew after the promise.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] \"we expect to start claiming PLI from the next financial year.\" (Rs 40-50 cr)",
+     "class": 3,
+     "date": "2025-02-04",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY25 transcript",
+     "period": "FY26",
+     "outcome": "Q1 FY26 (2025-07-25): \"we are not expecting any PLI this year.\"",
+     "outcome_source": "Q1 FY26 transcript",
+     "note": "Withdrawn mid-period with no reason found in the digest, so 0.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] electronic fuzes: \"we are trying our best to make it happen by April, May.\"",
+     "class": 7,
+     "date": "2025-02-04",
+     "speaker": "not confirmed (digest label shows a Q&A name)",
+     "basis": "n/a",
+     "source": "Q3 FY25 transcript",
+     "period": "Apr-May 2025",
+     "outcome": "Repeated slips: June 2025, Aug 2025, Nov 2025, Apr 2026, \"a couple of months\". Not approved as of the Q1 FY27 call.",
+     "outcome_source": "Q4 FY25, Q1 FY26, Q2 FY26, Q3 FY26, Q4 FY26 and Q1 FY27 calls",
+     "note": "Graded once here. Later re-dates are folded in. Origin before this call was not traced.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] BharatNet awards \"by 15th March or so, I expect\" (pending central circles)",
+     "class": 7,
+     "date": "2025-02-04",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY25 transcript",
+     "period": "about 2025-03-15",
+     "outcome": "6 of 16 circles awarded at 4 Feb. About 13 circles / Rs 4,800 cr by 23 May. About Rs 5,000 cr by Jul 2025.",
+     "outcome_source": "Q4 FY25 and Q1 FY26 calls",
+     "note": "LOW CONFIDENCE. Awards continued after the date but were not complete by 23 May.",
+     "item_grade": 1
+    },
+    {
+     "quote": "[V*] fibre prices: \"it should stabilize now\"",
+     "class": 3,
+     "date": "2025-02-04",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q3 FY25 transcript",
+     "period": "near term",
+     "outcome": "Q3 FY26 OFC realisation Rs 1,055/fkm, up from Rs 964.",
+     "outcome_source": "Q3 FY26 call digest",
+     "note": "The part about Q4 being better than Q3 for fibre is not_retrieved. Q4 FY25 total EBITDA margin was -2.79%.",
+     "item_grade": 2
+    }
+   ]
+  },
+  {
+   "label": "Q2 FY25",
+   "date": "2024-10-22",
+   "status": "graded",
+   "grade": 0.75,
+   "outside_window": false,
+   "promises": [
+    {
+     "quote": "[V*] \"starting from the fourth quarter of this financial year, this market of fiber optic cable would pick up significantly\"",
+     "class": 7,
+     "date": "2024-10-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY25 transcript (alphastreet.com/india/wp-json/wp/v2/posts/175291, digest; date per AlphaStreet header, not cross-checked)",
+     "period": "Q4 FY25",
+     "outcome": "Q3 FY25 utilisation still about 50%. Full-capacity operation began in Q1 FY26.",
+     "outcome_source": "Q3 FY25 and Q4 FY25 calls",
+     "note": "One quarter late; reasons were cited on the Q3 call. Low confidence.",
+     "item_grade": 1
+    },
+    {
+     "quote": "[V*] margins: \"I think it should remain same as it is there in the first two quarters.\"",
+     "class": 2,
+     "date": "2024-10-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY25 transcript",
+     "period": "rest of FY25",
+     "outcome": "Q3 EBITDA margin 16.99%; Q4 -2.79%; FY25 about 12.5% (own arithmetic).",
+     "outcome_source": "Q3 FY25 and Q4 FY25 calls; FY25 results",
+     "note": "",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] BharatNet \"they should be able to award the contract in the first quarter of the next calendar year\"",
+     "class": 7,
+     "date": "2024-10-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY25 transcript",
+     "period": "Q1 CY2025",
+     "outcome": "6 of 16 circles awarded by 4 Feb 2025 (Punjab about Rs 2,501 cr; RVNL UP East and West about Rs 2,168 cr).",
+     "outcome_source": "Q3 FY25 call",
+     "note": "Partial awards were on time; the rest slipped (see Q3 FY25).",
+     "item_grade": 2
+    },
+    {
+     "quote": "[V*] drone radar \"expect to make it commercially available from Q4 FY '25 onwards.\"",
+     "class": 7,
+     "date": "2024-10-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY25 transcript",
+     "period": "Q4 FY25",
+     "outcome": "Production still targeted \"within the current financial year\" (FY26) on the Q1 and Q2 FY26 calls. Silent on Q4 FY26 and Q1 FY27.",
+     "outcome_source": "Q1 FY26 and Q2 FY26 calls",
+     "note": "Low-medium confidence.",
+     "item_grade": 0
+    },
+    {
+     "quote": "[V*] \"In three years' timeframe, we should reach to something like INR10,000 crores of revenue.\"",
+     "class": 1,
+     "date": "2024-10-22",
+     "speaker": "Mahendra Nahata, Promoter & MD",
+     "basis": "not stated",
+     "source": "Q2 FY25 transcript",
+     "period": "about Oct 2027",
+     "outcome": "",
+     "outcome_source": "FY26 results; Q4 FY26 call",
+     "note": "Pending. Early read: FY26 Rs 4,949 cr. Restated as a long-term aspiration on the Q4 FY26 call.",
+     "item_grade": null
+    }
+   ]
+  }
+ ]
+}

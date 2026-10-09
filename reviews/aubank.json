@@ -1,0 +1,118 @@
+{
+ "as_of": "2026-10-08",
+ "symbol": "AUBANK",
+ "name": "AU Small Finance Bank Ltd",
+ "tier": "FULL",
+ "status": "validated",
+ "conviction": 0.5,
+ "key_metrics": {
+  "mcap_cr": 73409,
+  "beta": -0.4282,
+  "sales_fy26_cr": 18636,
+  "pat_fy26_cr": 2641,
+  "eps_fy26": 35.3,
+  "pe_ttm": 28.4,
+  "promoter_pct": 22.74,
+  "pledge_pct": 0.0,
+  "debtor_days": null,
+  "roe_fy26_pct": 13.2,
+  "net_margin_fy26_pct": 14.2,
+  "opm_fy26_pct": null,
+  "etr_fy26_pct": null,
+  "book_value_rs": null,
+  "pb": null,
+  "goodwill_cr": null
+ },
+ "engine": {
+  "distress": "VETOED-DATA (financial variant) \u2014 D1/D2 PASS (pledge 0%), D5 PASS; D6 CAMEL UNCOMPUTABLE (car_pct/casa_pct/cost_to_income/gnpa/roa missing); E-rules N/A by construction",
+  "usability": "PASS \u2014 U1 no action after FY-end (1:1 bonus ex 2022-06-09 pre-dates scoring FY), U2 sourced EPS 35.30 > 0, U3 gap 0.2% (vendor TTM 35.37 vs sourced 35.30)",
+  "event_lane": "PASS \u2014 no vetoes (no historical events loaded for live review)",
+  "deciding_gate": "distress",
+  "anchor": "VALUED (financial) \u2014 inverse excess-return 20y, book0 Rs 19,973 cr, ROE_avg3 12.6%, g_sus 12.6%, w 5.24% (beta -0.43). FV Rs 1607.82; price Rs 1003.30 is 37.6% BELOW FV and 2.4% BELOW G2 (INV) Rs 1027.55. WARNING: w=5.24% is beta-distorted; at w=8% FV=Rs 1042 (\u2248CMP), at w=11% FV=Rs 675 (33% OVERVALUED), at w=12% FV=Rs 589. Mechanical 'cheapness' is a discount-rate artifact.",
+  "excluded": true
+ },
+ "dcf": {
+  "current_price": 1003.3,
+  "fair_value": 1607.82,
+  "inv_trigger": 1027.55,
+  "acc_trigger": 1322.48,
+  "model": "inverse excess-return 20y, book0 19973, ROE_avg3 12.6%, w 5.24% (beta -0.43) \u2014 BETA-DISTORTED, see anchor warning"
+ },
+ "scores": {
+  "composite": 5.15,
+  "quality": 8.0,
+  "price": 6.67
+ },
+ "verdict": {
+  "category": "WATCH",
+  "conviction": 0.5,
+  "best_today_rank": null
+ },
+ "thesis": "Best-quality franchise in the new batch (A=8.0): 30.4% 5yr CAGR, RoE 13.2%, credibility 8.9/10 \u2192 C5=2 (highest), zero pledge, clean usability. But the valuation case collapses on inspection \u2014 the 37.6% 'discount to FV' is entirely a negative-beta artifact (w=5.24%). At a sane 11% cost of equity the bank is ~33% overvalued at Rs 1003. Promoter holds only 22.7% (below the 40-75 band). Quality is real; price is not attractive. WATCH for a meaningful correction toward Rs 675-700 before any accumulation thesis.",
+ "risks": [
+  "Valuation illusion: negative beta (-0.43) gives w=5.24%; at w=11% FV=Rs 675 vs CMP Rs 1003 \u2014 the DCF 'upside' inverts to 33% downside at sane rates",
+  "Promoter 22.74% \u2014 below 40-75 band; FII 36% + DII 32.8% dominate the register (flow-driven price)",
+  "Price sits 2.4% BELOW mechanical G2 (INV) trigger Rs 1027.55 \u2014 a naive trigger-follower would buy here, wrongly",
+  "Net margin 14.2% vs 10yr avg 21.1% \u2014 profitability has compressed 7pp (D5 flags the fade, scores it 2 for 'not at peak' but direction is down)",
+  "SFB-to-universal-bank transition execution risk; borrowings Rs 13,872 cr and rising",
+  "G1 VETOED-DATA (structural: D6 CAMEL uncomputable \u2014 same as all 23)"
+ ],
+ "promises": [
+  {
+   "quote": "should start seeing gradual growth going forward.",
+   "class": 1,
+   "period": "Q1 FY27",
+   "outcome": "Credit card book \u20b92,248 cr at Jun-26 vs \u20b92,196 cr at Mar-26 (+2% QoQ)",
+   "grade": 2
+  },
+  {
+   "quote": "won't be there for the next quarter or two",
+   "class": 3,
+   "period": "Q1 FY27",
+   "outcome": "NIM 5.9% in Q1 FY27, down 7 bps QoQ",
+   "grade": 2
+  },
+  {
+   "quote": "cost of funds may have bottomed out with the rate increases we have taken",
+   "class": 10,
+   "period": "Q1 FY27",
+   "outcome": "CoF 6.48% in Q1 FY27 vs 6.49% in Q4 FY26",
+   "grade": 2
+  },
+  {
+   "quote": "I don't think that 1.8% this quarter ROA should be seen as our the permanent ROA",
+   "class": 10,
+   "period": "Q1 FY27",
+   "outcome": "RoA 1.7% in Q1 FY27",
+   "grade": 2
+  },
+  {
+   "quote": "we have no meaningful exposure to borrowers directly impacted by trade or supply chain disruptions.",
+   "class": 10,
+   "period": "Q1 FY27",
+   "outcome": "No trade-linked stress disclosed; slippages \u20b9798 cr (+21% QoQ, seasonal SME per management); GNPA 2.10% vs 2.03%",
+   "grade": 2
+  },
+  {
+   "quote": "So, there is nothing specific to it.",
+   "class": 10,
+   "period": "Q1 FY27",
+   "outcome": "No specific business-banking default disclosed; Commercial Banking GNPA 0.9% vs 0.8%",
+   "grade": 2
+  },
+  {
+   "quote": "anything around 20%, 22% growth overall, we are targeting",
+   "class": 3,
+   "period": "FY26",
+   "outcome": "GLP \u20b91,40,327 cr, +21% YoY at Mar-26",
+   "grade": 2
+  },
+  {
+   "quote": "For FY 26, our credit cost should be in the range of 1%.",
+   "class": 3,
+   "period": "FY26",
+   "outcome": "FY26 credit cost 0.96% of average assets (~1.0% incl. CGFMU premium)",
+   "grade": 2
+  }
+ ]
+}
